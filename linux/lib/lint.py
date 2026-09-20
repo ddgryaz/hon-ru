@@ -72,6 +72,12 @@ def check(base_dir, bundle_dir, overrides):
                 add('числа не совпадают с игрой', '%s:%s' % (stem, key),
                     '%s -> %s' % (sorted(num_ru - num_en), sorted(num_en)))
 
+            # Пропавший плейсхолдер хуже лишнего: вместо списка по уровням
+            # в переводе остаётся вбитая константа, верная только на одном
+            if num_en - num_ru and value != eng:
+                add('перевод потерял числа из игры', '%s:%s' % (stem, key),
+                    ', '.join(sorted(num_en - num_ru))[:50])
+
             ro, rc = tags(value)
             eo, ec = tags(eng)
             if ro != rc and eo == ec:
