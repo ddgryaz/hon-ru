@@ -22094,7 +22094,7 @@ main_lobby_amm_looking_for_server			Поиск сервера...
 
 
 
-main_lobby_amm_waiting_for_server			Ожидание сервера...
+main_lobby_amm_waiting_for_server		Матч найден! Ожидание запуска сервера...
 
 
 
@@ -32741,7 +32741,7 @@ options_restart_confirm_restart	Перезапустить сейчас
 options_restart_confirm_title	Требуется перезапуск
 options_simple_shop_search_text	Горячая клавиша для поиска в магазине
 options_slider_max_ingame_framerate	Макс. FPS в игре
-options_slider_max_ingame_framerate_tip	При рывках или высокой нагрузке GPU снизьте значение.
+options_slider_max_ingame_framerate_tip	Задаёт максимум кадров в секунду в игре. Высокие значения делают анимацию и движение курсора плавнее, низкие снижают нагрузку на систему и расход энергии. Если в игре заметны рывки или высокая нагрузка на GPU, попробуйте снизить значение.
 shop_cat_title_combative	Боевые
 shop_cat_title_legendary	Легендарные
 shop_cat_title_morphattack	Атакующие (морф)
@@ -33231,13 +33231,13 @@ mm_machine_tag_retag_btn		Сменить тег
 mm_mmr_midwars_tip		Рейтинг Midwars учитывается отдельно
 boss_info_kongor_ability1_name		Boulder Toss
 options_label_max_aspect_ratio		Макс. соотношение сторон
-mm_machine_tag_retag_confirm_body		Вы уверены что хотите сменить тег?
-game_hero_select_random_favorites_tip		Случайный герой из избранного
-mm_regions_percentage_help		Процент игроков в регионе
+mm_machine_tag_retag_confirm_body	Это навсегда перенесёт рейтинговые игры на этом компьютере на ваш аккаунт. Прежний аккаунт больше не сможет вставать в рейтинговую очередь с этого компьютера. Сделать это можно раз в {days} дн.
+game_hero_select_random_favorites_tip	Случайный герой из избранного. Добавляйте героев в избранное ^885звёздочкой^* на каждом из них.
+mm_regions_percentage_help	^479Заполненность очереди по регионам^*\nКаждый процент показывает долю игроков в очереди, у которых выбран этот регион.\n\nИгрок может выбрать сразу несколько регионов, поэтому значения пересекаются и в сумме не дают 100%.
 boss_info_kongor_ability4_name		Resilience
-options_disable_input_background_tip		Отключает затемнение фона при потере фокуса
+options_disable_input_background_tip	Когда включено, курсор продолжает двигаться, пока игра в фоне, но прокрутка камеры у края экрана отключается, а наведение на элементы интерфейса не подсвечивает их и не воспроизводит звуки.
 store_marketplace_confirm_title		Подтверждение покупки
-options_hdr_enable_tip		Требует HDR-монитор
+options_hdr_enable_tip	Выводит сигнал с расширенным динамическим диапазоном на монитор с поддержкой HDR. Сначала включите HDR в настройках экрана Windows.
 ph_advanced_options		Расширенные настройки
 marketplace_play_games_progress_demo		Сыграйте игр для разблокировки
 mm_machine_tag_locked_to_other		Привязан к другому аккаунту
@@ -33247,18 +33247,18 @@ options_hdr_pipeline		HDR Пайплайн
 mm_machine_tag_retag_confirm_title		Сменить тег матчмейкинга?
 boss_info_kongor_stat_magic_armor		^oМаг. броня:^* 3
 lobby_reminder_game_mode		Напоминание о режиме игры
-boss_info_kongor_ability2_desc		Бросает валун в указанную область, нанося маг. урон и замедляя.
+boss_info_kongor_ability2_desc	Бьёт по земле в радиусе 250, нанося маг. урон и снижая скор. движ. на 50% и скор. атаки на 50% на 2 сек. (4 сек. для не-героев).\n\nПрименяется автоматически, когда в радиусе ближнего боя оказываются 3 и более врагов.
 boss_info_phoenix_stat_movespeed		^oСкор. движ.:^* 350
-boss_info_phoenix_desc		Огненный босс. Даёт команде бафф к скор. движ. при убийстве.
+boss_info_phoenix_desc	Phoenix - могучий нейтральный босс, обитающий в огненном логове на карте Forest of Caldavar. Он даёт иное стратегическое преимущество, чем Kongor: его награды усиливают личную выживаемость. Phoenix очень подвижен, проходит сквозь деревья и юнитов и применяет разрушительные огненные способности.
 globby_player_options_tip		Настройки игрока в лобби
 loading_stage_heroes		Загрузка героев
 store_new_players_only		Только для новых игроков
-play_ban_public_lobbies_blocked		Публичные лобби заблокированы
-boss_info_kongor_scaling_desc		Характеристики увеличиваются со временем
+play_ban_public_lobbies_blocked	Ваш запрет на игру блокирует и игры, созданные игроками. Тренировочную игру начать всё ещё можно.
+boss_info_kongor_scaling_desc	Kongor возрождается через 5 минут после гибели. Каждое возрождение даёт:\n\n^o+2000^* макс. здоровья\n^o+30^* урона\n^o+1^* броня\n^o+2^* маг. броня\n\nKongor также получает +100 здоровья и +2 урона в минуту.\n\n^oНаграда за убийство:^*\n^o- Опыт:^* 1400 / 1600 / 1800 / 2000 / 2200\n^o- Золото (добившему):^* 250 / 300 / 350 / 400 / 450\n^o- Золото (команде):^* 150 / 175 / 200 / 225 / 250
 store_marketplace_play_banned_btn			Marketplace Unavailable
-main_reconnect_note		Можно переподключиться к идущей игре
-boss_info_kongor_ability4_desc		Создаёт ударную волну по земле, нанося урон всем врагам в линии.
-mm_machine_tag_denied_reason_shared		Тег уже используется
+main_reconnect_note	Примечание: если переподключиться не удаётся, вход в публичное лобби пока сбросит ваш статус - до тех пор, пока эта ошибка не будет исправлена.
+boss_info_kongor_ability4_desc	Даёт 70% снижения длительности дебаффов, длительности оглушений и сопротивления замедлениям. При Оглушении эти сопротивления растут на 15% (предел 100%).\n\nВраги, атакующие Kongor, получают на 50% меньше вампиризма.
+mm_machine_tag_denied_reason_shared	^279{name}:^* делит компьютер с другим участником группы
 mm_machine_tag_retag_error_generic		Ошибка смены тега
 boss_info_kongor_reward2_name		Тотем Бессмертия
 options_checkbox_inventory_dragdrop		Перетаскивание предметов
@@ -33295,18 +33295,18 @@ options_hdr_black_point		Точка чёрного
 loading_stage_download 				Downloading Resources
 options_hdr_exposure		Экспозиция
 globby_mute_chat_tip						Mute Chat
-boss_info_phoenix_ability3_desc		При низком здоровье восстанавливает часть здоровья.
+boss_info_phoenix_ability3_desc	Даёт 5% реген. здоровья в сек. (отключается на 10 сек. при получении атаки).\n\nКогда Phoenix теряет 40% макс. здоровья, он отбрасывает врагов рядом и порождает до 16 смерчей. Те разлетаются наружу, нанося 100/200 маг. урона + 10% от макс. здоровья цели и накладывая замедление скор. движ. 40% на 2 сек.
 store_show_listings		 	Show Listings
 player_role_unassigned_tip					В этом режиме роли не назначаются. Берите любого героя, который подходит команде.
 store_toggle_ward		 	Toggle Ward
 options_hdr_tonemap_ui_tip		Применять тонирование к интерфейсу. Выкл. оставляет UI ярким.
-boss_info_phoenix_reward2_desc		Одноразовое возрождение при смерти
+boss_info_phoenix_reward2_desc	Даёт случайный предмет из набора, уровень которого зависит от времени игры. Уровень 1 (0-23 мин.), уровень 2 (25-33 мин.), уровень 3 (35-43 мин.), уровень 4 (45+ мин.). В набор входит уникальное снаряжение Phoenix: Heart of Fire, Obsidian Spear, Phoenix Talon и другое.
 mm_machine_tag_retag_confirm_prompt		Type ^279{name}^* to confirm:
-options_slider_select_hero_center_delay_tip		Время удержания клавиши выбора героя до центрирования камеры.
+options_slider_select_hero_center_delay_tip	Сколько миллисекунд нужно удерживать клавишу выбора героя или юнита, прежде чем камера отцентрируется на нём. 0 - мгновенное центрирование.
 store_marketplace_hide_sales_history		Hide Sales History
-options_hdr_sdr_grade_tip		Применить настройки HDR (контраст, насыщенность) даже в SDR.
-boss_info_kongor_ability3_desc		Провоцирует всех ближайших врагов и накладывает ослабление брони.
-boss_info_phoenix_ability2_desc		Взмах крылом, наносящий урон и отбрасывающий врагов.
+options_hdr_sdr_grade_tip	Применяет параметры обработки HDR (контраст, насыщенность, тональная компрессия) и на обычном мониторе. Выключено - сохраняется исходная картинка SDR.
+boss_info_kongor_ability3_desc	Пассивно восстанавливает 5% макс. здоровья в сек. (отключается на 10 сек. при получении атаки).\n\nТакже даёт эффект Nullstone, блокирующий следующее направленное заклинание. Восстанавливается через 15 сек. после срабатывания.
+boss_info_phoenix_ability2_desc	Швыряет цепь вперёд, нанося 150 маг. урона и накладывая Оглушение на 1,5 сек. на задетых врагов. После короткой задержки цепь идёт обратно и наносит те же эффекты на возврате.
 store_unequip								Unequip
 plinko_skip1					Click to
 globby_mute_voice_tip						Mute Voice
@@ -33322,10 +33322,10 @@ loading_stage_battlefield 			Preparing Battlefield
 vanity_purchase_success_message				You now own {product}!
 mm_machine_tag_notice_locked			Ranked queue locked: this PC is tagged to ^279{name}^*
 boss_info_abilities_header		Способности
-boss_info_kongor_desc		Древний босс джунглей. Убийство даёт команде мощный бафф и возрождение.
+boss_info_kongor_desc	Kongor - могучий нейтральный босс, обитающий в яме близ центра карты Forest of Caldavar. Чтобы его одолеть, нужны слаженные усилия команды, зато награда серьёзная и способна переломить ход боя. С каждым возрождением Kongor становится сильнее, поэтому поздние убийства всё опаснее.
 store_unavailable_tip						This product is currently not available for purchase.
 warning_dismiss		Нажмите чтобы продолжить
-boss_info_phoenix_reward1_desc		Даёт бонус к скор. движ. всей команде
+boss_info_phoenix_reward1_desc	После вашей гибели, если Яйцо продержится 6 сек., вы возродитесь с полным здоровьем и маной. Яйцо можно разбить атаками вражеских героев. Выпадает за убийство Phoenix.
 store_marketplace_show_my_listings			Show My Listings
 boss_info_phoenix_name		Феникс
 store_marketplace_show_sales_history		Show Sales History
@@ -33342,7 +33342,7 @@ loading_stage_gamedata 				Loading Game Data
 boss_info_phoenix_ability3_name		Phoenix Fury
 boss_info_kongor_stat_health		^oЗдоровье:^* 4000
 options_slider_max_ui_framerate		Макс. FPS интерфейса
-boss_info_kongor_ability1_desc		Наносит огромный физ. урон и оглушает всех врагов в конусе.
+boss_info_kongor_ability1_desc	Бросает камень в указанную точку, он приземляется через 2 сек. Наносит [150 + 10% от макс. здоровья цели] маг. урона и оглушает на 2 сек.\n\nKongor применяет эту способность произвольно, сражаясь с вражескими героями (шанс 20% каждую секунду).
 mm_play_ban_denied_reason_permanent		^279{name}:^* banned from play. Reason: {reason}
 options_hdr_gamut_tip		Расширяет цвета в более широкий диапазон. 0 — нейтрально.
 mm_machine_tag_denied_reason_unknown	^279{name}:^* PC could not be identified
@@ -33363,13 +33363,13 @@ play_ban_reason_unspecified				No reason given
 boss_info_phoenix_stat_magic_armor		^oМаг. броня:^* 5
 mm_play_ban_denied_body					The following group members are banned from play:
 login_error_account_disabled			This account has been disabled and cannot be used to log in. Contact support if you think this is a mistake.
-boss_info_phoenix_ability4_desc		Заливает область огнём, нанося огромный урон.
+boss_info_phoenix_ability4_desc	Даёт 70% снижения длительности дебаффов, длительности оглушений и сопротивления замедлениям. При Оглушении эти сопротивления растут на 15% (предел 100%).\n\nВраги, атакующие Phoenix, получают на 50% меньше вампиризма.
 boss_info_kongor_reward1_name		Возрождение с усилением
 options_hdr_contrast		Контраст
 store_buy_from_marketplace_for				Buy from marketplace for:
 options_hdr_paperwhite		Paper White (нит)
 boss_info_kongor_ability3_name		Null Stone (Kongor)
-boss_info_kongor_reward2_desc		Падает при убийстве. Даёт одноразовое возрождение
+boss_info_kongor_reward2_desc	Добивший герой в течение 30 сек. выбирает линию. Появляется союзный Kongor и пушит её, убивая крипов с одного удара и атакуя строения. Даёт глобальную ауру всем союзникам: +10% скор. атаки, +10% базового урона и +25 скор. движ. Со второго убийства также даёт щит, поглощающий урон.
 im_send_failed_muted						You are muted and cannot send messages.
 boss_info_kongor_ability2_name		Slam
 boss_info_phoenix_stat_attack_speed		^oПерезарядка атаки:^* 1.5 сек.
@@ -33381,10 +33381,10 @@ plinko_skip2					fast-forward drop
 store_set_marketplace_price 	Set Marketplace Price
 boss_info_phoenix_subtitle		Властелин небес
 store_you_receive							You receive:
-boss_info_phoenix_ability1_desc		Создаёт огненный вихрь, наносящий периодический маг. урон.
+boss_info_phoenix_ability1_desc	Запускает огненные шары в небо, выбирая до 8 точек, где стоят герои, в радиусе 600, и помечает эти места на земле.\n\nНаносит 100 маг. урона при попадании и поджигает цели: маг. урон в секунду нарастает, пока юнит не коснётся воды на земле.
 tutorial_slide_hero_attributes_example_prefix				Since ALUNA is an
 store_show_sell_item	 	Sell My Item
-boss_info_phoenix_scaling_desc		Характеристики растут со временем
+boss_info_phoenix_scaling_desc	Phoenix возрождается через 5 минут после гибели. Каждое возрождение даёт:\n\n^o+1500^* макс. здоровья\n^o+30^* урона\n^o+1.5^* броня\n^o+1.5^* маг. броня\n\n^oНаграда за убийство:^*\n^o- Опыт:^* 1500 / 1750 / 2000 / 2250 / 2500\n^o- Золото (добившему):^* 220 / 260 / 300 / 340 / 380\n^o- Золото (команде):^* 145 / 160 / 175 / 190 / 205
 mm_no_modes_available						No Modes Available
 options_hdr_paperwhite_tip		Яркость белого и интерфейса. Поднимите если интерфейс тусклый.
 options_hdr_highlight_boost_tip		Насколько агрессивно яркие участки доводятся до пиковой яркости.
@@ -33416,7 +33416,7 @@ store_cat_featured							FEATURED ITEMS
 marketplace_reward_claimed						Reward claimed
 options_hdr_peak		Пиковая яркость (нит)
 mm_unranked_regions_notice					This is disabled in Unranked due to low player population
-options_checkbox_inventory_dragdrop_tip		Разрешить перетаскивание предметов между слотами инвентаря.
+options_checkbox_inventory_dragdrop_tip	Если включено, предметы можно перетаскивать между слотами или на землю. Отключите, чтобы случайно не переложить и не выбросить предмет в бою. Правый клик по-прежнему берёт предмет, а Ctrl+Shift+клик выбрасывает его.
 store_marketplace_play_banned_banner		Your account is banned from play, so you cannot buy or sell on the marketplace. You can still remove listings you already have.
 mm_machine_tag_denied_notice			Cannot queue ranked: ^279{names}^* - PC locked to another account
 options_max_aspect_ratio_tip		Макс. соотношение сторон. 21:9 для ультрашироких мониторов.
@@ -33441,10 +33441,10 @@ options_hdr_contrast_tip		Усиливает тени и света. 1.0 — н�
 mm_machine_tag_retag_cooldown_sub		You can re-tag this PC on {date} ({remaining})
 store_buy_jade									Buy Jade
 boss_info_title		Боссы
-options_checkbox_smart_unit_selection_tip		Выбирает ближайшего к курсору юнита вместо ближайшего к герою.
-boss_info_kongor_reward1_desc		Убийство Конгора воскрешает всех мёртвых союзников
+options_checkbox_smart_unit_selection_tip	Выбирает юнита, ближайшего к курсору, а не к камере, и делает юнитов проще для клика, особенно у самых ног.
+boss_info_kongor_reward1_desc	Все герои команды-убийцы получают золото и опыт. Добивший получает доп. золото. Награда растёт с каждым убийством Kongor.
 options_hdr_highlight_desat_tip		Сводит самые яркие света к белому, как на плёнке.
-options_slider_max_ui_framerate_tip		Ограничивает частоту кадров для рендеринга интерфейса.
+options_slider_max_ui_framerate_tip	Задаёт максимум кадров в секунду для отрисовки интерфейса. Высокие значения делают анимацию интерфейса и HTML-панели плавнее, низкие снижают нагрузку на поток интерфейса.
 vanity_listing_complete				 	Listing Complete
 options_hdr_peak_tip		Пиковая яркость дисплея. Установите по характеристикам монитора.
 boss_info_kongor_stat_armor		^oБроня:^* 10
