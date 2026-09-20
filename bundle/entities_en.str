@@ -3486,7 +3486,7 @@ State_Teleport_GrimmCrossroads_description						Вы недавно исполь
 
 
 
-State_urf_name 													РЕЖИМ БЛИЦ!
+State_urf_name 													BLITZ MODE!
 
 
 
@@ -3526,7 +3526,7 @@ State_urf_FRAME_effect											+100% к урону атаки
 
 
 
-State_MidWarsBeta_name 											Mid Wars Бета
+State_MidWarsBeta_name 											Mid Wars Beta
 
 
 
@@ -3718,7 +3718,7 @@ Ability_Taunt_name												Taunt
 
 
 
-Ability_Taunt_name:disco_taunt									Дискотечная насмешка
+Ability_Taunt_name:disco_taunt									Disco Taunt
 
 
 
@@ -3726,7 +3726,7 @@ Ability_Taunt_name:disco_taunt									Дискотечная насмешка
 
 
 
-Ability_Taunt_name:gore_taunt									Кровавая насмешка
+Ability_Taunt_name:gore_taunt									Gore Taunt
 
 
 
@@ -4150,7 +4150,7 @@ Ability_LoggersHatchet_IMPACT_effect							Выберите ^oдерево^*, ч
 
 
 
-Ability_LoggersHatchet_name:impaler_upgrade						^gЦепеш^*
+Ability_LoggersHatchet_name:impaler_upgrade						^gImpaler^*
 
 
 
@@ -4222,7 +4222,7 @@ Item_Raven_name												Raven
 
 
 
-Item_Raven_name:raven_buff_offense							Ворон ^g(ВоронBane)^*
+Item_Raven_name:raven_buff_offense							Raven ^g(RavenBane)^*
 
 
 
@@ -4230,7 +4230,7 @@ Item_Raven_name:raven_buff_offense							Ворон ^g(ВоронBane)^*
 
 
 
-Item_Raven_name:raven_buff_defense							Ворон ^g(ВоронSeer)^*
+Item_Raven_name:raven_buff_defense							Raven ^g(RavenSeer)^*
 
 
 
@@ -4238,7 +4238,7 @@ Item_Raven_name:raven_buff_defense							Ворон ^g(ВоронSeer)^*
 
 
 
-Item_Raven_name:raven_buff_utility							Ворон ^g(Единство Наблюдателя)^*
+Item_Raven_name:raven_buff_utility							Raven ^g(Watcher's Unity)^*
 
 
 
@@ -5294,7 +5294,7 @@ Gadget_Egg_name													Egg
 
 
 
-Item_Egg_name 													Яйцо
+Item_Egg_name 													Egg
 
 
 
@@ -5742,7 +5742,7 @@ Ability_Accursed4_IMPACT_effect									Снимает дебаффы и нак�
 
 
 
-Ability_Accursed4_name:ult_boost								^gРасход топлива*^*
+Ability_Accursed4_name:ult_boost								^gBurning Consumption*^*
 
 
 
@@ -6494,7 +6494,7 @@ Ability_Aluna1_name												Emerald Lightning
 
 
 
-Ability_Aluna1_name:ult_boost									^gИзумрудная молния*^*
+Ability_Aluna1_name:ult_boost									^gEmerald Lightning*^*
 
 
 
@@ -6734,7 +6734,7 @@ Ability_Aluna3_tooltip_flavor									Один финт в день - и ган�
 
 
 
-Ability_Aluna3_name:button2										Дежавю
+Ability_Aluna3_name:button2										Deja Vu
 
 
 
@@ -6790,7 +6790,7 @@ Ability_Aluna3_tooltip_flavor:button2							Это был сбой в матри
 
 
 
-Ability_Aluna3_name:button3										Дежавю
+Ability_Aluna3_name:button3										Deja Vu
 
 
 
@@ -6910,7 +6910,7 @@ Ability_Aluna4_name	Emerald Red
 
 
 
-Ability_Aluna4_name:ult_boost									^gИзумрудно-красный*^*
+Ability_Aluna4_name:ult_boost									^gEmerald Red*^*
 
 
 
@@ -7398,7 +7398,7 @@ Ability_Andromeda3_name											Dimensional Link
 
 
 
-Ability_Andromeda3_name:ult_boost								^gПространственная связь*^*
+Ability_Andromeda3_name:ult_boost								^gDimensional Link*^*
 
 
 
@@ -7486,7 +7486,7 @@ Ability_Andromeda3_IMPACT_effect								Изменяет схему цели а�
 
 
 
-Ability_Andromeda3_name:andromedaauratoggle_heroes				Пространственная связь (Герои)
+Ability_Andromeda3_name:andromedaauratoggle_heroes				Dimensional Link (Heroes)
 
 
 
@@ -7606,7 +7606,7 @@ Ability_Andromeda4_name	Void Rip
 
 
 
-Ability_Andromeda4_name:ult_boost								^gРазрыв Пустоты*^*
+Ability_Andromeda4_name:ult_boost								^gNether Rip*^*
 
 
 
@@ -8030,7 +8030,7 @@ Ability_Apex3_tooltip_flavor
 
 
 
-Ability_Apex3_name:ult_boost									^gГорящий уголек*^*
+Ability_Apex3_name:ult_boost									^gThe Burning Ember*^*
 
 
 
@@ -8630,7 +8630,7 @@ Ability_Arachna4_tooltip_flavor									Это смертельный, смер�
 
 
 
-Ability_Arachna4_name:ult_boost									^gВыводки*^*
+Ability_Arachna4_name:ult_boost									^gBroodlings*^*
 
 
 
@@ -8862,7 +8862,7 @@ Ability_Armadon1_name	Snot Storm
 
 
 
-Ability_Armadon1_name:ult_boost									^gСопли Шторм*^*
+Ability_Armadon1_name:ult_boost									^gSnot Storm*^*
 
 
 
@@ -9206,7 +9206,7 @@ Ability_Armadon4_effect_header									Эффекты Неугомонности
 
 
 
-Ability_Armadon4_name:ult_boost									^gБеспокойный*^*
+Ability_Armadon4_name:ult_boost									^gRestless*^*
 
 
 
@@ -9366,7 +9366,7 @@ Ability_Artesia1_name											Arcane Missile
 
 
 
-Ability_Artesia1_name:artesia_Mode2								Мистическая ракета (лечение)
+Ability_Artesia1_name:artesia_Mode2								Arcane Missile (Healing)
 
 
 
@@ -9542,7 +9542,7 @@ Ability_Artesia2_tooltip_flavor									Не тронь меня...
 
 
 
-State_Artesia_Ability2_name 									Танец смерти
+State_Artesia_Ability2_name 									Dance of Death
 
 
 
@@ -9582,7 +9582,7 @@ Ability_Artesia3_name											Arcane Bolts
 
 
 
-Ability_Artesia3_name:artesia_Mode2								Мистические снаряды (лечение)
+Ability_Artesia3_name:artesia_Mode2								Arcane Bolts (Healing)
 
 
 
@@ -9670,7 +9670,7 @@ Ability_Artesia3_tooltip_flavor									Наконец-то свободна!
 
 
 
-State_Artesia_Ability3_Bolts_name 								Мистические снаряды
+State_Artesia_Ability3_Bolts_name 								Arcane Bolts
 
 
 
@@ -9702,7 +9702,7 @@ State_Artesia_Ability3_Bolts_description 						Стреляет мистичес
 
 
 
-State_Artesia_Ability3_Bolts_Wisp_name 							Мистические снаряды
+State_Artesia_Ability3_Bolts_Wisp_name 							Arcane Bolts
 
 
 
@@ -9742,7 +9742,7 @@ Ability_Artesia4_name											Essence Projection
 
 
 
-Ability_Artesia4_name:ult_boost									^gАрканическая проекция*^*
+Ability_Artesia4_name:ult_boost									^gArcane Projection*^*
 
 
 
@@ -9750,7 +9750,7 @@ Ability_Artesia4_name:ult_boost									^gАрканическая проекц�
 
 
 
-Ability_Artesia4_name:Artesia_ult_active						Смещение сущности
+Ability_Artesia4_name:Artesia_ult_active						Essence Shift
 
 
 
@@ -9758,7 +9758,7 @@ Ability_Artesia4_name:Artesia_ult_active						Смещение сущности
 
 
 
-Ability_Artesia4_name:Artesia_ult_active_sotm					^gСмена сущности*^*
+Ability_Artesia4_name:Artesia_ult_active_sotm					^gEssence Shift*^*
 
 
 
@@ -9878,7 +9878,7 @@ Ability_Artesia4_tooltip_flavor									Как шепот.
 
 
 
-State_Artesia_Ability4_RegenHealth_name 						Восстановление
+State_Artesia_Ability4_RegenHealth_name 						Rejuvenation
 
 
 
@@ -9902,7 +9902,7 @@ State_Artesia_Ability4_RegenHealth_name 						Восстановление
 
 
 
-State_Artesia_Ability4_RegenMana_name 							Восстановление
+State_Artesia_Ability4_RegenMana_name 							Rejuvenation
 
 
 
@@ -10318,7 +10318,7 @@ Ability_Artillery4_name	Homing Missile
 
 
 
-Ability_Artillery4_name:ult_boost								^gСамонаводящиеся ракеты*^*
+Ability_Artillery4_name:ult_boost								^gHoming Missiles*^*
 
 
 
@@ -10382,7 +10382,7 @@ Ability_Artillery4_tooltip_flavor
 
 
 
-Ability_Artillery4_IMPACT_effect								Запускает самонаводящуюся ракету ^oP1__ по цели. Ракета стартует медленно, но быстро ускоряется к цели.\n\nПри ударе наносит ^o{200,250,300} маг. урона^* и ^oОглушает^* на срок до ^o4 сек.^* в радиусе ^o{225,250,275}^* вокруг цели.\n\nДлит.: Оглушения начинается с 1 сек. и увеличивается на 0,1. сек. на каждые 100 единиц полета ракеты.^*
+Ability_Artillery4_IMPACT_effect								Запускает самонаводящуюся ракету ^oP1 по цели. Ракета стартует медленно, но быстро ускоряется к цели.\n\nПри ударе наносит ^o{200,250,300} маг. урона^* и ^oОглушает^* на срок до ^o4 сек.^* в радиусе ^o{225,250,275}^* вокруг цели.\n\nДлит.: Оглушения начинается с 1 сек. и увеличивается на 0,1. сек. на каждые 100 единиц полета ракеты.^*
 
 
 
@@ -10822,7 +10822,7 @@ Ability_WretchedHag4_name											Bat Blast
 
 
 
-Ability_WretchedHag4_name:ult_boost								^gРой летучих мышей*^*
+Ability_WretchedHag4_name:ult_boost								^gBat Swarm*^*
 
 
 
@@ -11198,7 +11198,7 @@ Ability_Bephelgor2_IMPACT_effect								Применяет заражение к
 
 
 
-Ability_Bephelgor2_name:Balphagore_Used_Silence					Распространение заразы
+Ability_Bephelgor2_name:Balphagore_Used_Silence					Spread Contagion
 
 
 
@@ -11566,7 +11566,7 @@ Ability_Bephelgor4_IMPACT_effect								Наносит ^o{200,250,300} маг. �
 
 
 
-Ability_Bephelgor4_name:ult_boost								^gАд на Ньюерте*^*
+Ability_Bephelgor4_name:ult_boost								^gHell on Newerth*^*
 
 
 
@@ -11774,7 +11774,7 @@ Ability_Behemoth1_name											Fissure
 
 
 
-Ability_Behemoth1_name:behemoth_ability1_Self					Разлом (обвал)
+Ability_Behemoth1_name:behemoth_ability1_Self					Fissure (Collapse)
 
 
 
@@ -11878,7 +11878,7 @@ Ability_Behemoth2_name											Enrage
 
 
 
-Ability_Behemoth2_name:ult_boost								^gБезумие*^*
+Ability_Behemoth2_name:ult_boost								^gEnrage*^*
 
 
 
@@ -11982,7 +11982,7 @@ Ability_Behemoth2_Sub_name										^gEnraged Leap*^*
 
 
 
-Ability_Behemoth2_Sub_name:ult_boost							^gЯростный прыжок*^*
+Ability_Behemoth2_Sub_name:ult_boost							^gEnraged Leap*^*
 
 
 
@@ -12294,7 +12294,7 @@ Ability_Berzerker1_name											Chain Spike
 
 
 
-Ability_Berzerker1_name:ult_boost								^gЦепной шип*^*
+Ability_Berzerker1_name:ult_boost								^gChain Spike*^*
 
 
 
@@ -12302,7 +12302,7 @@ Ability_Berzerker1_name:ult_boost								^gЦепной шип*^*
 
 
 
-Ability_Berzerker1_name:Berzerker_Chain_Boost					^gЦепной шип*^*
+Ability_Berzerker1_name:Berzerker_Chain_Boost					^gChain Spike*^*
 
 
 
@@ -12350,7 +12350,7 @@ Ability_Berzerker1_description_simple							Сковывает врага его
 
 
 
-Ability_Berzerker1_description_simple:ult_boost					Примените на врага, чтобы прикрепить к нему цепь на ^g10 сек.^*. Наносит ^o{40,80,120,160} физ. урона^* и применяет ^g__50% замедления скор. движ.^* и ^oСдержанность^*.\n\n. Активируйте снова, чтобы нанести еще один ^o{40,80,120,160} физ. урона и обездвижить цель на {1,1.5,2,2.5} сек.^*. ^gЕсли при этом здоровье цели опускается ниже 20%, оно выполняется^*.\n\nЦепь разрывается на расстоянии 850 или автоматически активируется во второй раз через 10 сек..
+Ability_Berzerker1_description_simple:ult_boost					Примените на врага, чтобы прикрепить к нему цепь на ^g10 сек.^*. Наносит ^o{40,80,120,160} физ. урона^* и применяет ^g50% замедления скор. движ.^* и ^oСдержанность^*.\n\n. Активируйте снова, чтобы нанести еще один ^o{40,80,120,160} физ. урона и обездвижить цель на {1,1.5,2,2.5} сек.^*. ^gЕсли при этом здоровье цели опускается ниже 20%, оно выполняется^*.\n\nЦепь разрывается на расстоянии 850 или автоматически активируется во второй раз через 10 сек..
 
 
 
@@ -12358,7 +12358,7 @@ Ability_Berzerker1_description_simple:ult_boost					Примените на вр
 
 
 
-Ability_Berzerker1_description_simple:Berzerker_Chain_Boost		Примените на врага, чтобы прикрепить к нему цепь на ^g10 сек.^*. Наносит ^o{40,80,120,160} физ. урона^* и применяет ^g__50% замедления скор. движ.^* и ^oСдержанность^*.\n\n. Активируйте снова, чтобы нанести еще один ^o{40,80,120,160} физ. урона и обездвижить цель на {1,1.5,2,2.5} сек.^*. ^gЕсли при этом здоровье цели опускается ниже 20%, оно выполняется^*.\n\nЦепь разрывается на расстоянии 850 или автоматически активируется во второй раз через 10 сек..
+Ability_Berzerker1_description_simple:Berzerker_Chain_Boost		Примените на врага, чтобы прикрепить к нему цепь на ^g10 сек.^*. Наносит ^o{40,80,120,160} физ. урона^* и применяет ^g50% замедления скор. движ.^* и ^oСдержанность^*.\n\n. Активируйте снова, чтобы нанести еще один ^o{40,80,120,160} физ. урона и обездвижить цель на {1,1.5,2,2.5} сек.^*. ^gЕсли при этом здоровье цели опускается ниже 20%, оно выполняется^*.\n\nЦепь разрывается на расстоянии 850 или автоматически активируется во второй раз через 10 сек..
 
 
 
@@ -12726,7 +12726,7 @@ State_Berzerker_Ability2_Buff_name								Mark for Death
 
 
 
-Ability_Berzerker3_name 	Похищение силы
+Ability_Berzerker3_name 	Strength Sap
 
 
 
@@ -12966,7 +12966,7 @@ Ability_Berzerker4_IMPACT_effect								Даёт ^ounstackable {40,55,70}% ум�
 
 
 
-State_Berzerker_Ability4_name 									Бойня
+State_Berzerker_Ability4_name 									Carnage
 
 
 
@@ -13526,7 +13526,7 @@ Ability_Blitz3_IMPACT_effect									Пассивно увеличивает м�
 
 
 
-Ability_Blitz3_name:ult_boost									^gУскорение*^*
+Ability_Blitz3_name:ult_boost									^gQuicken*^*
 
 
 
@@ -13694,7 +13694,7 @@ Ability_Blitz4_IMPACT_effect									Наносит {225,325,425} маг. уро
 
 
 
-Ability_Blitz4_name:ult_boost									^gУзы молнии*^*
+Ability_Blitz4_name:ult_boost									^gLightning Bind*^*
 
 
 
@@ -14534,7 +14534,7 @@ Ability_Bombardier4_IMPACT_effect								Вызывает воздушный у�
 
 
 
-Ability_Bombardier4_name:ult_boost								^gНапалмовый удар!*^*
+Ability_Bombardier4_name:ult_boost								^gNapalm Strike!*^*
 
 
 
@@ -15038,7 +15038,7 @@ Ability_Bubbles4_name											Kelp Field
 
 
 
-Ability_Bubbles4_name:ult_boost									^gЗона водорослей*^*
+Ability_Bubbles4_name:ult_boost									^gKelp Zone*^*
 
 
 
@@ -15150,7 +15150,7 @@ State_Bubbles_Ability4_name										Kelp Field
 
 
 
-State_Bubbles_Ability4_name:ult_boost							^gЗона водорослей*^*
+State_Bubbles_Ability4_name:ult_boost							^gKelp Zone*^*
 
 
 
@@ -15526,7 +15526,7 @@ Ability_Bushwack4_name											Jungle Toxin
 
 
 
-Ability_Bushwack4_name:ult_boost								^gТоксин джунглей*^*
+Ability_Bushwack4_name:ult_boost								^gJungle Toxin*^*
 
 
 
@@ -16246,7 +16246,7 @@ Ability_Calamity4_tooltip_flavor								Если не могу подвинут�
 
 
 
-Ability_Calamity4_name:ult_boost								^gХранилище Сандера*^*
+Ability_Calamity4_name:ult_boost								^gSunder's Vault*^*
 
 
 
@@ -16638,7 +16638,7 @@ Ability_Chi3_tooltip_flavor										Сила, бросившая вызов б�
 
 
 
-Ability_Chi3_name:ult_boost										^gПросветление*^*
+Ability_Chi3_name:ult_boost										^gEnlightenment*^*
 
 
 
@@ -17030,7 +17030,7 @@ Ability_Chipper2_tooltip_flavor									Не убегай! Я твой друг!
 
 
 
-State_Chipper_Ability2_Tooltip_name		Покрыт Смолой
+State_Chipper_Ability2_Tooltip_name		Tar Covered
 
 
 
@@ -17694,7 +17694,7 @@ Ability_Chronos4_IMPACT_effect									Создает поле в радиусе
 
 
 
-Ability_Chronos4_name:ult_boost									^gChronofield Де люкс*^*
+Ability_Chronos4_name:ult_boost									^gChronofield Deluxe*^*
 
 
 
@@ -18878,7 +18878,7 @@ Ability_CorruptedDisciple4_IMPACT_effect						Выстреливает разр�
 
 
 
-Ability_CorruptedDisciple4_name:ult_boost						^gС наддувом*^*
+Ability_CorruptedDisciple4_name:ult_boost						^gSupercharged*^*
 
 
 
@@ -18974,7 +18974,7 @@ State_CorruptedDisciple_Ability4_Enemy_name						Jolted
 
 
 
-State_CorruptedDisciple_Ability4_Self_name:ult_boost			^gПерегрузка*^*
+State_CorruptedDisciple_Ability4_Self_name:ult_boost			^gOverload*^*
 
 
 
@@ -19506,7 +19506,7 @@ State_Cthulhuphant_Ability4_description_simple
 
 
 
-State_Cthulhuphant_Ability4_Slow_name 							Сны безумия
+State_Cthulhuphant_Ability4_Slow_name 							Dreams of Madness
 
 
 
@@ -19530,7 +19530,7 @@ State_Cthulhuphant_Ability4_Slow_name 							Сны безумия
 
 
 
-State_Cthulhuphant_Ability4_Look_name 							Сны безумия
+State_Cthulhuphant_Ability4_Look_name 							Dreams of Madness
 
 
 
@@ -19738,7 +19738,7 @@ Ability_Dampeer1_LEARN_effect
 
 
 
-Ability_Dampeer1_IMPACT_effect		Наносит ^o{75,125,175,225} маг. урона^* и накладывает ^oСтрах^* на ^o1 сек.^*^n^nКаждая ^rСущность^* увеличивает длительность на 1 сек.
+Ability_Dampeer1_IMPACT_effect		Наносит ^o{75,125,175,225} маг. урона^* и накладывает ^oСтрах^* на ^o1 сек.^*\n\nКаждая ^rСущность^* увеличивает длительность на 1 сек.
 
 
 
@@ -19860,7 +19860,7 @@ Ability_Dampeer2_tooltip_flavor		«Как летучая мышь из ада!»
 
 
 
-Ability_Dampeer2_IMPACT_effect		Летит к цели, нанося ^o{80,110,140,170} маг. урона^* и ^oвосстанавливая {16,22,28,34} здоровья^* за каждого пройденного врага.^n^nКаждая ^rСущность^* увеличивает урон на 30 и лечение на 10.
+Ability_Dampeer2_IMPACT_effect		Летит к цели, нанося ^o{80,110,140,170} маг. урона^* и ^oвосстанавливая {16,22,28,34} здоровья^* за каждого пройденного врага.\n\nКаждая ^rСущность^* увеличивает урон на 30 и лечение на 10.
 
 
 
@@ -19940,7 +19940,7 @@ Ability_Dampeer3_description_simple:Dampeer_Aura_Heroes		Даёт ближайш
 
 
 
-Ability_Dampeer3_description2		Даёт союзникам ближнего боя {15,20,25,30}% вампиризма и дальнего боя {2.5,5,7.5,10}%.^n^nКаждая ^rСущность^* увеличивает бонус на 5%.
+Ability_Dampeer3_description2		Даёт союзникам ближнего боя {15,20,25,30}% вампиризма и дальнего боя {2.5,5,7.5,10}%.\n\nКаждая ^rСущность^* увеличивает бонус на 5%.
 
 
 
@@ -19964,7 +19964,7 @@ Ability_Dampeer3_IMPACT_effect		Меняет цель ауры на героев
 
 
 
-Ability_Dampeer3_name:Dampeer_Aura_Heroes						Жажда крови (герои)
+Ability_Dampeer3_name:Dampeer_Aura_Heroes						Bloodthirst (Heroes)
 
 
 
@@ -20060,7 +20060,7 @@ Ability_Dampeer4_name											Consume
 
 
 
-Ability_Dampeer4_name:ult_boost									^gПотребление*^*
+Ability_Dampeer4_name:ult_boost									^gConsume*^*
 
 
 
@@ -20076,7 +20076,7 @@ Ability_Dampeer4_description		Дампера вырывает огромный �
 
 
 
-Ability_Dampeer4_description2		^gУсиливается Посохом Мастера.^*^n^n^gЭффект Посоха:^* лимит Сущностей увеличен с 3 до 6, а длительность Страха ограничена 2 сек.
+Ability_Dampeer4_description2		^gУсиливается Посохом Мастера.^*\n\n^gЭффект Посоха:^* лимит Сущностей увеличен с 3 до 6, а длительность Страха ограничена 2 сек.
 
 
 
@@ -20268,7 +20268,7 @@ Ability_Deadlift1_name	Unholy Strength
 
 
 
-Ability_Deadlift1_name:ult_boost								^gНечестивая сила*^*
+Ability_Deadlift1_name:ult_boost								^gUnholy Power*^*
 
 
 
@@ -21100,7 +21100,7 @@ Ability_Deadwood2_tooltip_flavor								Дерево - отличное оруж
 
 
 
-Ability_Deadwood2_name:deadwood_ihasatree						Дубовый болт
+Ability_Deadwood2_name:deadwood_ihasatree						Oakbolt
 
 
 
@@ -21388,7 +21388,7 @@ Ability_Deadwood4_tooltip_flavor								Дэдвуд... УДАР!
 
 
 
-Ability_Deadwood4_name:ult_boost								^gУиллоумейкер*^*
+Ability_Deadwood4_name:ult_boost								^gWillowmaker*^*
 
 
 
@@ -21492,7 +21492,7 @@ State_Deadwood_Ability4_Buff_name								Willowmaker Strength
 
 
 
-State_Deadwood_Ability4_Tooltip_name		Ивовая Погибель
+State_Deadwood_Ability4_Tooltip_name		Willowmaker
 
 
 
@@ -21884,7 +21884,7 @@ Ability_Defiler4_name											Unholy Expulsion
 
 
 
-Ability_Defiler4_name:ult_boost									^gНечестивое изгнание*^*
+Ability_Defiler4_name:ult_boost									^gUnholy Expatriation*^*
 
 
 
@@ -22964,7 +22964,7 @@ Ability_PlagueRider2_tooltip_flavor							Доктор прописал пени
 
 
 
-State_PlagueRider_Ability2_Effect_name		Земная Порча
+State_PlagueRider_Ability2_Effect_name		Earthblight
 
 
 
@@ -23100,7 +23100,7 @@ Ability_PlagueRider4_IMPACT_effect							Оглушает цель на 0,1 се
 
 
 
-Ability_PlagueRider4_name:ult_boost							^gЭпидемия*^*
+Ability_PlagueRider4_name:ult_boost							^gEpidemic*^*
 
 
 
@@ -24220,7 +24220,7 @@ Ability_DoctorRepulsor4_tooltip_flavor							Мы вышли на сверхсв
 
 
 
-Ability_DoctorRepulsor4_name:ult_boost							^gНевероятная скорость*^*
+Ability_DoctorRepulsor4_name:ult_boost							^gLudicrous Speed*^*
 
 
 
@@ -24812,7 +24812,7 @@ Ability_DrunkenMaster4_IMPACT_effect
 
 
 
-Ability_DrunkenMaster4_name:ult_boost							^g3 Точечный удар*^*
+Ability_DrunkenMaster4_name:ult_boost							^g3 Strike Combo*^*
 
 
 
@@ -25258,7 +25258,7 @@ Ability_Blacksmith4_tooltip_flavor								А ведь говорили - не и
 
 
 
-Ability_Blacksmith4_name:ult_boost								^gРискованный актерский состав!*^*
+Ability_Blacksmith4_name:ult_boost								^gRisky Cast!*^*
 
 
 
@@ -25778,7 +25778,7 @@ Ability_Slither4_IMPACT_effect									Применяет ^oКислотный �
 
 
 
-Ability_Slither4_name:ult_boost									^gТоксический взрыв*^*
+Ability_Slither4_name:ult_boost									^gToxic Burst*^*
 
 
 
@@ -26114,7 +26114,7 @@ Ability_Electrician2_tooltip_flavor								Не тычь в меня вилко�
 
 
 
-Ability_Electrician2_name:ult_boost								^gЭлектрический щит*^*
+Ability_Electrician2_name:ult_boost								^gElectric Shield*^*
 
 
 
@@ -26434,7 +26434,7 @@ Ability_Electrician4_IMPACT_effect								Атакует врага: снять 
 
 
 
-Ability_Electrician4_name:ult_boost								^gОчищающий шок*^*
+Ability_Electrician4_name:ult_boost								^gCleansing Shock*^*
 
 
 
@@ -27026,7 +27026,7 @@ Ability_Ellonia4_IMPACT_effect									Запускает сферу в зада
 
 
 
-Ability_Ellonia4_name:ult_boost									^gАбсолютный ноль*^*
+Ability_Ellonia4_name:ult_boost									^gAbsolute Zero*^*
 
 
 
@@ -27578,7 +27578,7 @@ Ability_EmeraldWarden4_tooltip_flavor							"Гавейн, твой хозяин
 
 
 
-Ability_EmeraldWarden4_name:ult_boost							^gПризвать Гавейнов*^*
+Ability_EmeraldWarden4_name:ult_boost							^gSummon Gawains*^*
 
 
 
@@ -27634,7 +27634,7 @@ Ability_EmeraldWarden4_a_name									Diving Strike
 
 
 
-Ability_EmeraldWarden4_a_name:ult_boost							^gУдар в воду*^*
+Ability_EmeraldWarden4_a_name:ult_boost							^gDiving Strike*^*
 
 
 
@@ -27706,7 +27706,7 @@ Ability_EmeraldWarden4_b_name									Forest's Touch
 
 
 
-Ability_EmeraldWarden4_b_name:ult_boost							^gПрикосновение леса*^*
+Ability_EmeraldWarden4_b_name:ult_boost							^gForest's Touch*^*
 
 
 
@@ -27778,7 +27778,7 @@ Ability_EmeraldWarden4_c_name									Emerald Storm
 
 
 
-Ability_EmeraldWarden4_c_name:ult_boost							^gИзумрудный шторм*^*
+Ability_EmeraldWarden4_c_name:ult_boost							^gEmerald Storm*^*
 
 
 
@@ -28202,7 +28202,7 @@ Ability_Empath2_IMPACT_effect:Alt2_Sin_Set_Bonus				Создает стену ш
 
 
 
-State_Empath_Ability2_Effects_name		Иллюзорная Вуаль
+State_Empath_Ability2_Effects_name		Illusory Veil
 
 
 
@@ -28362,7 +28362,7 @@ Ability_Empath4_name	As One
 
 
 
-Ability_Empath4_name:ult_boost									^gВместе как одно*^*
+Ability_Empath4_name:ult_boost									^gTogether As One*^*
 
 
 
@@ -28846,7 +28846,7 @@ Ability_Engineer2b_name											Targeting Algorithm
 
 
 
-Ability_Engineer2b_name:engineer_ability2_Heroes				Алгоритм нацеливания (герои)
+Ability_Engineer2b_name:engineer_ability2_Heroes				Targeting Algorithm (Heroes)
 
 
 
@@ -29150,7 +29150,7 @@ Ability_Engineer4_effect_header									Эффекты Энергетическ�
 
 
 
-Ability_Engineer4_name:ult_boost								^gЭнергетическое поле*^*
+Ability_Engineer4_name:ult_boost								^gEnergy Field*^*
 
 
 
@@ -29718,7 +29718,7 @@ Ability_Fayde4_tooltip_flavor									Моя тень - мой лучший др
 
 
 
-Ability_Fayde4_name:ult_boost									^gОтражение*^*
+Ability_Fayde4_name:ult_boost									^gReflection*^*
 
 
 
@@ -29726,7 +29726,7 @@ Ability_Fayde4_name:ult_boost									^gОтражение*^*
 
 
 
-Ability_Fayde4_name:fade_umbral									^gТеневой танец*^*
+Ability_Fayde4_name:fade_umbral									^gUmbral Dance*^*
 
 
 
@@ -29998,7 +29998,7 @@ Ability_Nymphora1_name	Volatile Pod
 
 
 
-Ability_Nymphora1_name:fairy_Q_active								Нестабильный стручок (взрыв)
+Ability_Nymphora1_name:fairy_Q_active								Volatile Pod (Explode)
 
 
 
@@ -30310,7 +30310,7 @@ Ability_Nymphora4_tooltip_flavor									Каждый раз, когда кри�
 
 
 
-Ability_Nymphora4_name:ult_boost									^gМассовый телепорт*^*
+Ability_Nymphora4_name:ult_boost									^gMass Teleport*^*
 
 
 
@@ -30582,7 +30582,7 @@ Ability_FlameDragon2_name										Draconic Defense
 
 
 
-Ability_FlameDragon2_name:ult_boost								^gДраконья защита*^*
+Ability_FlameDragon2_name:ult_boost								^gDraconic Defense*^*
 
 
 
@@ -31510,7 +31510,7 @@ Ability_FlintBeastwood4_IMPACT_effect							После поддержания н
 
 
 
-Ability_FlintBeastwood4_name:ult_boost							^gДенежные шоты*^*
+Ability_FlintBeastwood4_name:ult_boost							^gMoney Shots*^*
 
 
 
@@ -31774,7 +31774,7 @@ State_Flux_Ability1_Push_FRAME_effect							-10% наносимого урона
 
 
 
-Ability_Flux2_name 	Магнитный импульс
+Ability_Flux2_name 	Magnetic Surge
 
 
 
@@ -32214,7 +32214,7 @@ Ability_Flux4_IMPACT_effect										^oПритягивает/толкает^* �
 
 
 
-Ability_Flux4_name:ult_boost									^gРазряд*^*
+Ability_Flux4_name:ult_boost									^gDischarge*^*
 
 
 
@@ -33166,7 +33166,7 @@ Ability_Glacius4_name											Glacial Downpour
 
 
 
-Ability_Glacius4_name:ult_boost									^gЛедниковый поток*^*
+Ability_Glacius4_name:ult_boost									^gGlacial Torrent*^*
 
 
 
@@ -33918,7 +33918,7 @@ Ability_Gauntlet4_IMPACT_effect									Выстреливает перчатк�
 
 
 
-Ability_Gauntlet4_name:ult_boost								^gУдар перчаткой!*^*
+Ability_Gauntlet4_name:ult_boost								^gGauntlet Punch!*^*
 
 
 
@@ -34358,7 +34358,7 @@ Ability_Gemini3_FRAME_effect									Близнецы получают бону�
 
 
 
-Ability_Gemini4_name 											Огонь и лед
+Ability_Gemini4_name 											Fire and Ice
 
 
 
@@ -34398,7 +34398,7 @@ Ability_Gemini4_IMPACT_effect									Разделяет Близнецов на
 
 
 
-Ability_Gemini4_name:ult_boost 									^gОгонь, лед и свет*^*
+Ability_Gemini4_name:ult_boost 									^gFire, Ice & Light*^*
 
 
 
@@ -34878,7 +34878,7 @@ Ability_Firecat4_IMPACT_effect									Огонь и Лед кастуют Пе�
 
 
 
-Ability_Firecat4_name:ult_boost									^gПерерождение*^*
+Ability_Firecat4_name:ult_boost									^gRebirth*^*
 
 
 
@@ -35294,7 +35294,7 @@ Ability_Icecat4_IMPACT_effect									Огонь и Лед кастуют Пер
 
 
 
-Ability_Icecat4_name:ult_boost									^gПерерождение*^*
+Ability_Icecat4_name:ult_boost									^gRebirth*^*
 
 
 
@@ -35358,7 +35358,7 @@ Heropet_Gemini_Ability4_SotM_name								Light
 
 
 
-Heropet_Gemini_Ability4_SotM_name:SotMCat_Dispersed				Свет (Вольт)
+Heropet_Gemini_Ability4_SotM_name:SotMCat_Dispersed				Light (Volt)
 
 
 
@@ -36158,7 +36158,7 @@ Ability_Geomancer4_name											Crystal Field
 
 
 
-Ability_Geomancer4_name:ult_boost								^gИзвержение кристаллов^*
+Ability_Geomancer4_name:ult_boost								^gCrystal Eruption^*
 
 
 
@@ -36598,7 +36598,7 @@ Ability_Gladiator2_IMPACT_effect								Вызывает Колизей в ме�
 
 
 
-Ability_Gladiator2_name:gladiator_return						Мне не хватает терпения
+Ability_Gladiator2_name:gladiator_return						I Have No Patience
 
 
 
@@ -36830,7 +36830,7 @@ Ability_Gladiator4_name	Call to Arms
 
 
 
-Ability_Gladiator4_name:ult_boost								^gПризыв к оружию*^*
+Ability_Gladiator4_name:ult_boost								^gCall to Arms*^*
 
 
 
@@ -36998,7 +36998,7 @@ State_Gladiator_Ability4_Sotm_FRAME_effect						Поглощает 50% полу�
 
 
 
-State_Gladiator_Ability4_Damage_name 					Бонусный урон Зова к оружию
+State_Gladiator_Ability4_Damage_name 					Call to Arms Buffer Damage
 
 
 
@@ -37350,7 +37350,7 @@ Ability_Goldenveil3_effect_header								Эффекты Затворника
 
 
 
-State_Goldenveil_Ability3_Ready_name 							Отшельник
+State_Goldenveil_Ability3_Ready_name 							Recluse
 
 
 
@@ -37382,7 +37382,7 @@ Ability_Goldenveil4_name	Greedgutter
 
 
 
-Ability_Goldenveil4_name:ult_boost								^gЖадный желоб*^*
+Ability_Goldenveil4_name:ult_boost								^gGreedgutter*^*
 
 
 
@@ -37806,7 +37806,7 @@ Ability_Grinex3_name											Nether Strike
 
 
 
-Ability_Grinex3_name:ult_boost									^gУдар Пустоты*^*
+Ability_Grinex3_name:ult_boost									^gNether Strike*^*
 
 
 
@@ -37998,7 +37998,7 @@ Ability_Grinex4_name	Illusory Assault
 
 
 
-Ability_Grinex4_name:ult_boost									^gИллюзорное нападение*^*
+Ability_Grinex4_name:ult_boost									^gIllusory Assault*^*
 
 
 
@@ -38678,7 +38678,7 @@ Ability_Gunblade4_IMPACT_effect:Gunblade_Ability4_On			Бросается к ц�
 
 
 
-Ability_Gunblade4_name:ult_boost								^gАбордажный выстрел^*
+Ability_Gunblade4_name:ult_boost								^gGrappling Shot^*
 
 
 
@@ -38910,7 +38910,7 @@ Ability_Hammerstorm1_name										Hammer Throw
 
 
 
-Ability_Hammerstorm1_name:ult_boost								^gПрыжок молота*^*
+Ability_Hammerstorm1_name:ult_boost								^gHammer Leap*^*
 
 
 
@@ -39246,7 +39246,7 @@ Ability_Hammerstorm3_IMPACT_effect:off							При активации вклю�
 
 
 
-Ability_Hammerstorm3_name:off									Могучий замах (откл.)
+Ability_Hammerstorm3_name:off									Mighty Swing (Off)
 
 
 
@@ -39646,7 +39646,7 @@ Ability_NightHound2_name										Pounce
 
 
 
-Ability_NightHound2_name:ult_boost								^gНаброс*^*
+Ability_NightHound2_name:ult_boost								^gPounce*^*
 
 
 
@@ -40270,7 +40270,7 @@ Ability_Hellbringer4_name										Summon Malphas
 
 
 
-Ability_Hellbringer4_name:ult_boost								^gПризвать Мальфа*^*
+Ability_Hellbringer4_name:ult_boost								^gSummon Malphas*^*
 
 
 
@@ -41246,7 +41246,7 @@ State_Swiftblade_Ability1_name										Blade Frenzy
 
 
 
-State_Swiftblade_Ability1_Tooltip_name		Вихрь Клинков
+State_Swiftblade_Ability1_Tooltip_name		Blade Frenzy
 
 
 
@@ -41318,7 +41318,7 @@ Ability_Swiftblade2_IMPACT_effect										При активации: ^oблок
 
 
 
-Ability_Swiftblade2_name:ult_boost									^gКонтратака*^*
+Ability_Swiftblade2_name:ult_boost									^gCounter Attack*^*
 
 
 
@@ -41350,7 +41350,7 @@ Ability_Swiftblade2_IMPACT_effect:ult_boost							При активации: ^o�
 
 
 
-Ability_Swiftblade2_name:hiro_Counterstrike							^gКонтр-удар*^*
+Ability_Swiftblade2_name:hiro_Counterstrike							^gCounter Strike*^*
 
 
 
@@ -41638,7 +41638,7 @@ Ability_Swiftblade4_IMPACT_effect										Телепортирует себя �
 
 
 
-Ability_Swiftblade4_name:ult_boost									^gСвитер рубит*^*
+Ability_Swiftblade4_name:ult_boost									^gSwifter Slashes*^*
 
 
 
@@ -42174,7 +42174,7 @@ Ability_BloodHunter4_IMPACT_effect									Наносит цели {250,375,500}
 
 
 
-Ability_BloodHunter4_name:ult_boost									^gКровавая баня*^*
+Ability_BloodHunter4_name:ult_boost									^gBloodbath*^*
 
 
 
@@ -42670,7 +42670,7 @@ Ability_Myrmidon4_name										Forced Evolution
 
 
 
-Ability_Myrmidon4_name:ult_boost								^gЭволюция мутантов*^*
+Ability_Myrmidon4_name:ult_boost								^gMutant Evolution*^*
 
 
 
@@ -42798,7 +42798,7 @@ State_Myrmidon_Ability4_FRAME_effect						Атаки в ближнем бою.\n
 
 
 
-State_Myrmidon_Ability4_name:ult_boost						^gЭволюция мутантов*^*
+State_Myrmidon_Ability4_name:ult_boost						^gMutant Evolution*^*
 
 
 
@@ -42950,7 +42950,7 @@ Hero_Ichor_role 												Ichor - танковый герой поддержк
 
 
 
-Ability_Ichor1_name 	Вампиризм
+Ability_Ichor1_name 	Life Leech
 
 
 
@@ -43070,7 +43070,7 @@ State_Ichor_Ability1_Limiter_FRAME_effect						Получает 0.5x исцел�
 
 
 
-Ability_Ichor2_name 											Переливание
+Ability_Ichor2_name 											Transfusion
 
 
 
@@ -43246,7 +43246,7 @@ State_Ichor_Ability2_Enemy_FRAME_effect							Передает баффы и д�
 
 
 
-Ability_Ichor3_name 											Кровь святого
+Ability_Ichor3_name 											Saint's Blood
 
 
 
@@ -43326,7 +43326,7 @@ State_Ichor_Ability3_Mark_FRAME_effect							Находясь в радиусе 
 
 
 
-Ability_Ichor4_name 											Прилив крови
+Ability_Ichor4_name 											Bloodrush
 
 
 
@@ -43382,7 +43382,7 @@ Ability_Ichor4_IMPACT_effect									Создаёт ауру вокруг Ихо
 
 
 
-State_Ichor_Ability4_name 										Прилив крови
+State_Ichor_Ability4_name 										Bloodrush
 
 
 
@@ -43862,7 +43862,7 @@ Ability_Magebane4_name	Mana Rift
 
 
 
-Ability_Magebane4_name:ult_boost									^gПустота маны*^*
+Ability_Magebane4_name:ult_boost									^gMana Void*^*
 
 
 
@@ -44318,7 +44318,7 @@ Ability_Jeraziah4_name											Sol's Blessing
 
 
 
-Ability_Jeraziah4_name:ult_boost								^gЧудо Сола*^*
+Ability_Jeraziah4_name:ult_boost								^gSol's Miracle*^*
 
 
 
@@ -45274,7 +45274,7 @@ Ability_KingKlout1_tooltip_flavor								Вперед, мои миньоны!
 
 
 
-Ability_KingKlout1_name:ult_boost								^gБросок гоблинов*^*
+Ability_KingKlout1_name:ult_boost								^gGoblin Toss*^*
 
 
 
@@ -45706,7 +45706,7 @@ Ability_KingKlout4_IMPACT_effect		Запускает шар в указанно�
 
 
 
-Ability_KingKlout4_description_simple:kingkloutultactive		Телепортирует к Параду Силы.^n^nСоздаёт вторую волну, идущую в обратном направлении.
+Ability_KingKlout4_description_simple:kingkloutultactive		Телепортирует к Параду Силы.\n\nСоздаёт вторую волну, идущую в обратном направлении.
 
 
 
@@ -45730,7 +45730,7 @@ Ability_KingKlout4_IMPACT_effect:kingkloutultactive		Телепортирует 
 
 
 
-Ability_KingKlout4_name:ult_boost								^gПарад силы*^*
+Ability_KingKlout4_name:ult_boost								^gParade of Power*^*
 
 
 
@@ -46010,7 +46010,7 @@ Ability_Klanx2_name												H.A.W.K.
 
 
 
-Ability_Klanx2_name:ult_boost									^gЯ.С.Т.Р.Е.Б. v2.0*^*
+Ability_Klanx2_name:ult_boost									^gH.A.W.K. v2.0*^*
 
 
 
@@ -46154,7 +46154,7 @@ Ability_Klanx3_name												Lackey
 
 
 
-Ability_Klanx3_name:ult_boost									^gЛакей*^*
+Ability_Klanx3_name:ult_boost									^gLackey*^*
 
 
 
@@ -46162,7 +46162,7 @@ Ability_Klanx3_name:ult_boost									^gЛакей*^*
 
 
 
-Ability_Klanx3_name:KlanxName1									Прихвостень N1
+Ability_Klanx3_name:KlanxName1									Lackey # 1
 
 
 
@@ -46170,7 +46170,7 @@ Ability_Klanx3_name:KlanxName1									Прихвостень N1
 
 
 
-Ability_Klanx3_name:KlanxName2									Прихвостень N2
+Ability_Klanx3_name:KlanxName2									Lackey # 2
 
 
 
@@ -46178,7 +46178,7 @@ Ability_Klanx3_name:KlanxName2									Прихвостень N2
 
 
 
-Ability_Klanx3_name:KlanxName3									Прихвостень N3
+Ability_Klanx3_name:KlanxName3									Lackey # 3
 
 
 
@@ -46186,7 +46186,7 @@ Ability_Klanx3_name:KlanxName3									Прихвостень N3
 
 
 
-Ability_Klanx3_name:KlanxName4									Прихвостень N4
+Ability_Klanx3_name:KlanxName4									Lackey # 4
 
 
 
@@ -46194,7 +46194,7 @@ Ability_Klanx3_name:KlanxName4									Прихвостень N4
 
 
 
-Ability_Klanx3_name:KlanxName5									Прихвостень N5
+Ability_Klanx3_name:KlanxName5									Lackey # 5
 
 
 
@@ -46202,7 +46202,7 @@ Ability_Klanx3_name:KlanxName5									Прихвостень N5
 
 
 
-Ability_Klanx3_name:KlanxName6									Прихвостень N6
+Ability_Klanx3_name:KlanxName6									Lackey # 6
 
 
 
@@ -46210,7 +46210,7 @@ Ability_Klanx3_name:KlanxName6									Прихвостень N6
 
 
 
-Ability_Klanx3_name:KlanxName7									Прихвостень N7
+Ability_Klanx3_name:KlanxName7									Lackey # 7
 
 
 
@@ -46218,7 +46218,7 @@ Ability_Klanx3_name:KlanxName7									Прихвостень N7
 
 
 
-Ability_Klanx3_name:KlanxName8									Прихвостень N8
+Ability_Klanx3_name:KlanxName8									Lackey # 8
 
 
 
@@ -46226,7 +46226,7 @@ Ability_Klanx3_name:KlanxName8									Прихвостень N8
 
 
 
-Ability_Klanx3_name:KlanxName9									Прихвостень N9
+Ability_Klanx3_name:KlanxName9									Lackey # 9
 
 
 
@@ -46746,7 +46746,7 @@ Ability_Kraken3_tooltip_flavor									...но ничего не произош�
 
 
 
-Ability_Kraken3_name:ult_boost									^gВсплеск*^*
+Ability_Kraken3_name:ult_boost									^gSplash*^*
 
 
 
@@ -46834,7 +46834,7 @@ Ability_Kraken4_IMPACT_effect									После задержки в 1 сек. �
 
 
 
-Ability_Kraken4_name:ult_boost									^gРеализуйте Кракена!*^*
+Ability_Kraken4_name:ult_boost									^gRealize the Kraken!*^*
 
 
 
@@ -47266,7 +47266,7 @@ Ability_MoonQueen2_ATTACK_IMPACT_effect								Ваши атаки ^o отска
 
 
 
-Ability_MoonQueen2_name:Ability_MoonQueen2_active						Мультиудар (герои)
+Ability_MoonQueen2_name:Ability_MoonQueen2_active						Multi-Strike (Heroes)
 
 
 
@@ -47314,7 +47314,7 @@ Ability_MoonQueen3_name												Lunar Glow
 
 
 
-Ability_MoonQueen3_name:Krixi_Aura_Toggle_Heroes					Лунное сияние (герои)
+Ability_MoonQueen3_name:Krixi_Aura_Toggle_Heroes					Lunar Glow (Heroes)
 
 
 
@@ -47498,7 +47498,7 @@ Ability_MoonQueen4_IMPACT_effect									Включите ночное врем�
 
 
 
-Ability_MoonQueen4_name:ult_boost									^gЛунный финал*^*
+Ability_MoonQueen4_name:ult_boost									^gLunar Finale*^*
 
 
 
@@ -48251,7 +48251,7 @@ Ability_Legionnaire3_name										Whirling Blade
 
 
 
-Ability_Legionnaire3_name:legionnaire_E_inactive				Вращающийся клинок (откл.)
+Ability_Legionnaire3_name:legionnaire_E_inactive				Whirling Blade (Off)
 
 
 
@@ -48395,7 +48395,7 @@ Ability_Legionnaire4_tooltip_flavor								Ночь приносит кошма�
 
 
 
-Ability_Legionnaire4_name:ult_boost								^gОбезглавить всех*^*
+Ability_Legionnaire4_name:ult_boost								^gDecapitate All*^*
 
 
 
@@ -48603,7 +48603,7 @@ Ability_Kane2_name	Balance of Power
 
 
 
-Ability_Kane2_name:Kane_Offense									Наступательная сила
+Ability_Kane2_name:Kane_Offense									Offensive Force
 
 
 
@@ -48611,7 +48611,7 @@ Ability_Kane2_name:Kane_Offense									Наступательная сила
 
 
 
-Ability_Kane2_name:Kane_Defense									Оборонительная мощь
+Ability_Kane2_name:Kane_Defense									Defensive Might
 
 
 
@@ -49107,7 +49107,7 @@ Ability_Kane4_tooltip_flavor									Пришел, увидел, победил.
 
 
 
-Ability_Kane4_name:ult_boost									^gБез лица*^*
+Ability_Kane4_name:ult_boost									^gFace Off*^*
 
 
 
@@ -49651,7 +49651,7 @@ Ability_Lodestone4_tooltip_flavor								Darude - Шаттершторм
 
 
 
-Ability_Lodestone4_name:ult_boost								^gШаттершторм*^*
+Ability_Lodestone4_name:ult_boost								^gShatterstorm*^*
 
 
 
@@ -51219,7 +51219,7 @@ Ability_Maliken4_IMPACT_effect									При использовании ^o по
 
 
 
-Ability_Maliken4_name:ult_boost 								^gХеллборнское владение*^*
+Ability_Maliken4_name:ult_boost 								^gHellbourne Possession*^*
 
 
 
@@ -51427,7 +51427,7 @@ Ability_Martyr1_description2
 
 
 
-Ability_Martyr1_description_simple								Ударьте врага, чтобы нанести ^o{75,100,125,150}^* и применить ^o__15% замедления скор. движ. в радиусе 250 вокруг цели, что суммирует до ^o{100,200,300,400} маг. урона^* и ^o35%^* замедления скор. движ. в зависимости от вашего ^omissing^* здоровья.\n\nКаждое очко вашего ^oИнтеллект^* увеличивает порог максимальной эффективности на 0,2%.^*
+Ability_Martyr1_description_simple								Ударьте врага, чтобы нанести ^o{75,100,125,150}^* и применить ^o15% замедления скор. движ. в радиусе 250 вокруг цели, что суммирует до ^o{100,200,300,400} маг. урона^* и ^o35%^* замедления скор. движ. в зависимости от вашего ^omissing^* здоровья.\n\nКаждое очко вашего ^oИнтеллект^* увеличивает порог максимальной эффективности на 0,2%.^*
 
 
 
@@ -51643,7 +51643,7 @@ State_Martyr_Ability2_Target_description						{55,70,85,100}% полученно
 
 
 
-Ability_Martyr3_name 											Убеждение Сола
+Ability_Martyr3_name 											Sol's Conviction
 
 
 
@@ -51715,7 +51715,7 @@ Ability_Martyr3_IMPACT_effect									При активации: ^oобменя�
 
 
 
-Ability_Martyr3_name:ult_boost									^gУбеждение Сола*^*
+Ability_Martyr3_name:ult_boost									^gSol's Conviction*^*
 
 
 
@@ -51867,7 +51867,7 @@ Ability_Martyr4_IMPACT_effect									Нацеливайте героя на ^o�
 
 
 
-Ability_Martyr4_name:ult_boost									^gРука веры*^*
+Ability_Martyr4_name:ult_boost									^gHand in Faith*^*
 
 
 
@@ -52259,7 +52259,7 @@ Ability_MasterOfArms3_name	Weapon Enhancement
 
 
 
-Ability_MasterOfArms3_name:MasterOfArms_Electrical				Бульдозер
+Ability_MasterOfArms3_name:MasterOfArms_Electrical				Bulldozer
 
 
 
@@ -52267,7 +52267,7 @@ Ability_MasterOfArms3_name:MasterOfArms_Electrical				Бульдозер
 
 
 
-Ability_MasterOfArms3_name:MasterOfArms_Magnetic				Гепард
+Ability_MasterOfArms3_name:MasterOfArms_Magnetic				Cheetah
 
 
 
@@ -52347,7 +52347,7 @@ Ability_MasterOfArms3_IMPACT_effect:MasterOfArms_Magnetic		^rCheetah^*\n^oУме
 
 
 
-Ability_MasterOfArms3_name:ult_boost							^gБульдозер-Гепард*^*
+Ability_MasterOfArms3_name:ult_boost							^gBulldozer-Cheetah*^*
 
 
 
@@ -52395,7 +52395,7 @@ Ability_MasterOfArms4_name										Master's Call
 
 
 
-Ability_MasterOfArms4_name:ult_boost							^gВызов мастера*^*
+Ability_MasterOfArms4_name:ult_boost							^gMaster's Call*^*
 
 
 
@@ -52619,7 +52619,7 @@ Hero_MasterOfArms_role		Мастер Оружия — керри дальнег�
 
 
 
-Ability_Midas1_name 											Золотой залп
+Ability_Midas1_name 											Golden Salvo
 
 
 
@@ -52699,7 +52699,7 @@ Gadget_Midas1_name												Midas Filler Gold
 
 
 
-Ability_Midas2_name 											Львиная гордость
+Ability_Midas2_name 											Lion's Pride
 
 
 
@@ -52755,7 +52755,7 @@ Ability_Midas2_tooltip_flavor 									"На, держи."
 
 
 
-Ability_Midas3_name 	Мистический прыжок
+Ability_Midas3_name 	Elemental Warp
 
 
 
@@ -53379,7 +53379,7 @@ Ability_Mimix4_name	Schism
 
 
 
-Ability_Mimix4_name:ult_boost									^gРаскол*^*
+Ability_Mimix4_name:ult_boost									^gSchism*^*
 
 
 
@@ -54067,7 +54067,7 @@ Ability_Monarch4_IMPACT_effect									Вызывает порыв в 350 еди
 
 
 
-Ability_Monarch4_name:ult_boost									^gОчищающий ветер*^*
+Ability_Monarch4_name:ult_boost									^gPurifying Wind*^*
 
 
 
@@ -54243,7 +54243,7 @@ Ability_MonkeyKing1_name										Illusive Dash
 
 
 
-Ability_MonkeyKing1_name:ult_boost								^gПризрачный рывок*^*
+Ability_MonkeyKing1_name:ult_boost								^gIllusive Dash*^*
 
 
 
@@ -54395,7 +54395,7 @@ Ability_MonkeyKing2_IMPACT_effect:MonkeyKingVault2				Активируйте д�
 
 
 
-Ability_MonkeyKing2_name:ult_boost								^gНебесный свод*^*
+Ability_MonkeyKing2_name:ult_boost								^gHeavenly Vault*^*
 
 
 
@@ -55107,7 +55107,7 @@ Ability_Moira4_name												Arcane Vortex
 
 
 
-Ability_Moira4_name:ult_boost									^gЧародейский вихрь*^*
+Ability_Moira4_name:ult_boost									^gArcane Vortex*^*
 
 
 
@@ -56059,7 +56059,7 @@ Ability_Moraxus4_name	Matraxe
 
 
 
-Ability_Moraxus4_name:ult_boost									^gМатракс с бесконечными лезвиями*^*
+Ability_Moraxus4_name:ult_boost									^gInfinite-Bladed Matraxe*^*
 
 
 
@@ -56619,7 +56619,7 @@ Ability_Pharaoh4_IMPACT_effect									Fires a projectile in target direction, t
 
 
 
-Ability_Pharaoh4_name:ult_boost									^gВозвращение фараона*^*
+Ability_Pharaoh4_name:ult_boost									^gReturn of the Pharaoh*^*
 
 
 
@@ -57075,7 +57075,7 @@ Ability_Nitro4_name												Overdrive
 
 
 
-Ability_Nitro4_name:nitro_ability4_Off							Перегрузка (откл.)
+Ability_Nitro4_name:nitro_ability4_Off							Overdrive (Off)
 
 
 
@@ -57395,7 +57395,7 @@ Ability_Nomad2_name												Mirage Strike
 
 
 
-Ability_Nomad2_name:ult_boost									^gМиражный удар*^*
+Ability_Nomad2_name:ult_boost									^gMirage Strike*^*
 
 
 
@@ -57467,7 +57467,7 @@ Ability_Nomad2a_name											True Strike
 
 
 
-Ability_Nomad2a_name:ult_boost									^gТочный удар*^*
+Ability_Nomad2a_name:ult_boost									^gTrue Strike*^*
 
 
 
@@ -57563,7 +57563,7 @@ Ability_Nomad2b_name											Mirage Strike
 
 
 
-Ability_Nomad2b_name:ult_boost									^gМиражный удар*^*
+Ability_Nomad2b_name:ult_boost									^gMirage Strike*^*
 
 
 
@@ -59179,7 +59179,7 @@ Ability_Ophelia3_tooltip_flavor									Помоги мне, существо...
 
 
 
-Ability_Ophelia3_name:ult_boost									^gКоманда*^*
+Ability_Ophelia3_name:ult_boost									^gCommand*^*
 
 
 
@@ -59523,7 +59523,7 @@ Ability_Pandamonium1_tooltip_flavor									Я не толстый, я широ�
 
 
 
-Ability_Pandamonium1_name:ult_boost									^gШквал*^*
+Ability_Pandamonium1_name:ult_boost									^gFlurry*^*
 
 
 
@@ -59995,7 +59995,7 @@ Ability_Parallax1_name											Fulcrum Shift
 
 
 
-Ability_Parallax1_name:ult_boost								^gСмещение точки опоры*^*
+Ability_Parallax1_name:ult_boost								^gFulcrum Shift*^*
 
 
 
@@ -60259,7 +60259,7 @@ Ability_Parallax4_name	Earthshatter
 
 
 
-Ability_Parallax4_name:ult_boost								^gПланетный взломщик*^*
+Ability_Parallax4_name:ult_boost								^gPlanet Cracker*^*
 
 
 
@@ -60363,7 +60363,7 @@ State_Parallax_Ability4_AntiMag_name							Earthshatter
 
 
 
-State_Parallax_Ability4_AntiMag_name:ult_boost					Раскалыватель планет
+State_Parallax_Ability4_AntiMag_name:ult_boost					Planet Cracker
 
 
 
@@ -60587,7 +60587,7 @@ Ability_Parasite2_name											Infest
 
 
 
-Ability_Parasite2_name:ult_boost								^gИнфест*^*
+Ability_Parasite2_name:ult_boost								^gInfest*^*
 
 
 
@@ -61691,7 +61691,7 @@ Ability_Pearl4_name	Preservation
 
 
 
-Ability_Pearl4_name:ult_boost									^gСохранение^*
+Ability_Pearl4_name:ult_boost									^gPreservation^*
 
 
 
@@ -61899,7 +61899,7 @@ Ability_Pestilence1_name	Flight
 
 
 
-Ability_Pestilence1_name:pestilence_ability1_Flying				Полет (прыжок)
+Ability_Pestilence1_name:pestilence_ability1_Flying				Flight (Jump)
 
 
 
@@ -62179,7 +62179,7 @@ Ability_Pestilence4_name										Swarm
 
 
 
-Ability_Pestilence4_name:ult_boost								^gРоевая волна*^*
+Ability_Pestilence4_name:ult_boost								^gSwarm Wave*^*
 
 
 
@@ -62667,7 +62667,7 @@ Ability_Bramble3_name												Chomp!
 
 
 
-Ability_Bramble3_name:ult_boost									^gБольшая лавка!*^*
+Ability_Bramble3_name:ult_boost									^gBig Chomp!*^*
 
 
 
@@ -63035,7 +63035,7 @@ Ability_PollywogPriest1_name									Electric Jolt
 
 
 
-Ability_PollywogPriest1_name:ult_boost							^gЭлектрический скачок^*
+Ability_PollywogPriest1_name:ult_boost							^gElectric Surge^*
 
 
 
@@ -63867,7 +63867,7 @@ Ability_Predator4_ATTACK_IMPACT_effect							Накладывает заряд �
 
 
 
-Ability_Predator4_name:ult_boost								^gНевероятный ужас*^*
+Ability_Predator4_name:ult_boost								^gIncredible Terror*^*
 
 
 
@@ -64483,7 +64483,7 @@ Ability_Prisoner4_name	Prison Break
 
 
 
-Ability_Prisoner4_name:ult_boost								^gПобег из тюрьмы*^*
+Ability_Prisoner4_name:ult_boost								^gJailbreak*^*
 
 
 
@@ -64587,7 +64587,7 @@ State_Prisoner_Ability4_name									Prison Break
 
 
 
-State_Prisoner_Ability4_name:ult_boost							Побег
+State_Prisoner_Ability4_name:ult_boost							Jailbreak
 
 
 
@@ -64627,7 +64627,7 @@ State_Prisoner_Ability4_Self_name								Prison Break
 
 
 
-State_Prisoner_Ability4_Self_name:ult_boost						Побег
+State_Prisoner_Ability4_Self_name:ult_boost						Jailbreak
 
 
 
@@ -64891,7 +64891,7 @@ Ability_Prophet2_name											Invigorate
 
 
 
-Ability_Prophet2_name:ult_boost									^gВосстановить*^*
+Ability_Prophet2_name:ult_boost									^gInvigorate*^*
 
 
 
@@ -65155,7 +65155,7 @@ Ability_Prophet4_name											Shared Fate
 
 
 
-Ability_Prophet4_name:ult_boost									^gОбщая судьба*^*
+Ability_Prophet4_name:ult_boost									^gShared Fate*^*
 
 
 
@@ -65795,7 +65795,7 @@ Ability_PuppetMaster4_tooltip_flavor							Моя боль - твоя боль.
 
 
 
-Ability_PuppetMaster4_name:ult_boost							^gКукла Вуду*^*
+Ability_PuppetMaster4_name:ult_boost							^gVoodoo Puppet*^*
 
 
 
@@ -66307,7 +66307,7 @@ Ability_Pyromancer4_IMPACT_effect								Наносит цели {450,725,1000} 
 
 
 
-Ability_Pyromancer4_name:ult_boost								^gИнфернальный удар*^*
+Ability_Pyromancer4_name:ult_boost								^gInferno Strike*^*
 
 
 
@@ -67315,7 +67315,7 @@ Ability_Rally4_name												Seismic Slam
 
 
 
-Ability_Rally4_name:ult_boost 									^gТектонический удар*^*
+Ability_Rally4_name:ult_boost 									^gTectonic Slam*^*
 
 
 
@@ -67539,7 +67539,7 @@ Ability_Rampage1_IMPACT_effect									Нападайте на вражески�
 
 
 
-Ability_Rampage1_name:ult_boost									^gПана*^*
+Ability_Rampage1_name:ult_boost									^gStampede*^*
 
 
 
@@ -67675,7 +67675,7 @@ Ability_Rampage2_name	Might of the Herd
 
 
 
-Ability_Rampage2_name:ult_boost									^gМощь панического бегства^*
+Ability_Rampage2_name:ult_boost									^gMight of the Stampede^*
 
 
 
@@ -69803,7 +69803,7 @@ Ability_Revenant4_name	Manifestation
 
 
 
-Ability_Revenant4_name:ult_boost								^gМатериализация*^*
+Ability_Revenant4_name:ult_boost								^gMaterialization*^*
 
 
 
@@ -70643,7 +70643,7 @@ Ability_Rhapsody4_IMPACT_effect									Концентрация до {4,5,6} с
 
 
 
-Ability_Rhapsody4_name:ult_boost								^gЗащитная канавка*^*
+Ability_Rhapsody4_name:ult_boost								^gProtective Groove*^*
 
 
 
@@ -71187,7 +71187,7 @@ Ability_Riftwalker4_IMPACT_effect									После применения тел
 
 
 
-Ability_Riftwalker4_name:ult_boost								^gДвунаправленная червоточина*^*
+Ability_Riftwalker4_name:ult_boost								^gBidirectional Wormhole*^*
 
 
 
@@ -72067,7 +72067,7 @@ Ability_Pebbles4_tooltip_flavor									Это монетки у тебя в к�
 
 
 
-Ability_Pebbles4_name:ult_boost									^gГрупповой патрон*^*
+Ability_Pebbles4_name:ult_boost									^gGroup Chuck*^*
 
 
 
@@ -72475,7 +72475,7 @@ Ability_Salomon4_tooltip_flavor									Это твое последнее же�
 
 
 
-Ability_Salomon4_name:ult_boost									^gЖелание мести*^*
+Ability_Salomon4_name:ult_boost									^gWish for Revenge*^*
 
 
 
@@ -72931,7 +72931,7 @@ Ability_SandWraith4_IMPACT_effect								Создает иллюзию Песо�
 
 
 
-Ability_SandWraith4_name:SandWraith4_Active						Проявление
+Ability_SandWraith4_name:SandWraith4_Active						Manifest
 
 
 
@@ -72963,7 +72963,7 @@ Ability_SandWraith4_tooltip_flavor								Пустыни могут вызыва
 
 
 
-Ability_SandWraith4_name:ult_boost								^gБредовый мираж*^*
+Ability_SandWraith4_name:ult_boost								^gDelusional Mirage*^*
 
 
 
@@ -73931,7 +73931,7 @@ Ability_Madman4_tooltip_flavor									Скорее, тащите смирите
 
 
 
-Ability_Madman4_name:ult_boost									^gБезумие*^*
+Ability_Madman4_name:ult_boost									^gInsanity*^*
 
 
 
@@ -74603,7 +74603,7 @@ Ability_Scout4_name												Marksman Shot
 
 
 
-Ability_Scout4_name:ult_boost									^gОдин выстрел, одно убийство*^*
+Ability_Scout4_name:ult_boost									^gOne Shot, One Kill*^*
 
 
 
@@ -74611,7 +74611,7 @@ Ability_Scout4_name:ult_boost									^gОдин выстрел, одно уби
 
 
 
-Ability_Scout4_name:Scout4_Tether								^gОдин выстрел, одно убийство*^*
+Ability_Scout4_name:Scout4_Tether								^gOne Shot, One Kill*^*
 
 
 
@@ -74963,7 +74963,7 @@ Ability_ShadowBlade1_IMPACT_effect								Наносит ^o{70,120,170,220} ма
 
 
 
-State_ShadowBlade_Ability1_name 								Взрыв Гаргантюа
+State_ShadowBlade_Ability1_name 								Gargantuan's Blast
 
 
 
@@ -75363,7 +75363,7 @@ Ability_ShadowBlade4_name	Essence Shift
 
 
 
-Ability_ShadowBlade4_name:ult_boost								^gСдвиг квинтэссенции*^*
+Ability_ShadowBlade4_name:ult_boost								^gQuintessence Shift*^*
 
 
 
@@ -76051,7 +76051,7 @@ Ability_DementedShaman4_tooltip_flavor									Чувствую, буря при
 
 
 
-Ability_DementedShaman4_name:ult_boost									^gГрозовое облако*^*
+Ability_DementedShaman4_name:ult_boost									^gThunderstorm Cloud*^*
 
 
 
@@ -76371,7 +76371,7 @@ Ability_Shellshock2_tooltip_flavor								Они видят, как я качу�
 
 
 
-Ability_Shellshock2_name:ult_boost								^gРаскаты грома*^*
+Ability_Shellshock2_name:ult_boost								^gRolling Thunder*^*
 
 
 
@@ -76379,7 +76379,7 @@ Ability_Shellshock2_name:ult_boost								^gРаскаты грома*^*
 
 
 
-Ability_Shellshock2_name:shellshock_ability2_ShootDelay_Sotm	^gРаскаты грома*^*
+Ability_Shellshock2_name:shellshock_ability2_ShootDelay_Sotm	^gRolling Thunder*^*
 
 
 
@@ -76387,7 +76387,7 @@ Ability_Shellshock2_name:shellshock_ability2_ShootDelay_Sotm	^gРаскаты г
 
 
 
-Ability_Shellshock2_name:shellshock_ability2_ShootCancel		^gРаскаты грома*^*
+Ability_Shellshock2_name:shellshock_ability2_ShootCancel		^gRolling Thunder*^*
 
 
 
@@ -76619,7 +76619,7 @@ Ability_Shellshock3_FRAME_effect								Пассивно применяет ^o{1
 
 
 
-State_Shellshock_Ability3_Ally_name 							Камень святилища
+State_Shellshock_Ability3_Ally_name 							Sanctuary Stone
 
 
 
@@ -76643,7 +76643,7 @@ State_Shellshock_Ability3_Ally_name 							Камень святилища
 
 
 
-State_Shellshock_Ability3_Enemy_name 							Камень святилища
+State_Shellshock_Ability3_Enemy_name 							Sanctuary Stone
 
 
 
@@ -77699,7 +77699,7 @@ Ability_SirBenzington2_name										Lance-A-Long
 
 
 
-Ability_SirBenzington2_name:ult_boost							^gДлинное копье*^*
+Ability_SirBenzington2_name:ult_boost							^gLance-A-Long*^*
 
 
 
@@ -78515,7 +78515,7 @@ Ability_Solstice1_name	Blinding Dash
 
 
 
-Ability_Solstice1_name:Day_Solstice								Ослепляющий рывок
+Ability_Solstice1_name:Day_Solstice								Blinding Rush
 
 
 
@@ -78523,7 +78523,7 @@ Ability_Solstice1_name:Day_Solstice								Ослепляющий рывок
 
 
 
-Ability_Solstice1_name:Night_Solstice							Теневой рывок
+Ability_Solstice1_name:Night_Solstice							Shadow Dash
 
 
 
@@ -78659,7 +78659,7 @@ Ability_Solstice1_tooltip_flavor								Прыжок!
 
 
 
-Ability_Solstice1_name:Day_Solstice_Ult							Ослепляющий рывок
+Ability_Solstice1_name:Day_Solstice_Ult							Blinding Rush
 
 
 
@@ -78667,7 +78667,7 @@ Ability_Solstice1_name:Day_Solstice_Ult							Ослепляющий рывок
 
 
 
-Ability_Solstice1_name:Night_Solstice_Ult						Теневой рывок
+Ability_Solstice1_name:Night_Solstice_Ult						Shadow Dash
 
 
 
@@ -78987,7 +78987,7 @@ Ability_Solstice2_name											Shining Rays
 
 
 
-Ability_Solstice2_name:Day_Solstice								Озарение
+Ability_Solstice2_name:Day_Solstice								Illuminate
 
 
 
@@ -78995,7 +78995,7 @@ Ability_Solstice2_name:Day_Solstice								Озарение
 
 
 
-Ability_Solstice2_name:Night_Solstice							Люминесценция
+Ability_Solstice2_name:Night_Solstice							Luminescence
 
 
 
@@ -79219,7 +79219,7 @@ Ability_Solstice3_name	Graceful Strikes
 
 
 
-Ability_Solstice3_name:ult_boost								^gИзящные удары*^*
+Ability_Solstice3_name:ult_boost								^gGraceful Strikes*^*
 
 
 
@@ -79227,7 +79227,7 @@ Ability_Solstice3_name:ult_boost								^gИзящные удары*^*
 
 
 
-Ability_Solstice3_name:Day_Solstice								Солнечный разрез
+Ability_Solstice3_name:Day_Solstice								Solar Slash
 
 
 
@@ -79235,7 +79235,7 @@ Ability_Solstice3_name:Day_Solstice								Солнечный разрез
 
 
 
-Ability_Solstice3_name:Day_Solstice_Ult							^gСолнечный удар*^*
+Ability_Solstice3_name:Day_Solstice_Ult							^gSolar Slash*^*
 
 
 
@@ -79243,7 +79243,7 @@ Ability_Solstice3_name:Day_Solstice_Ult							^gСолнечный удар*^*
 
 
 
-Ability_Solstice3_name:Night_Solstice							Серповидный удар
+Ability_Solstice3_name:Night_Solstice							Crescent Strike
 
 
 
@@ -79251,7 +79251,7 @@ Ability_Solstice3_name:Night_Solstice							Серповидный удар
 
 
 
-Ability_Solstice3_name:Night_Solstice_Ult						^gУдар полумесяца*^*
+Ability_Solstice3_name:Night_Solstice_Ult						^gCrescent Strike*^*
 
 
 
@@ -79443,7 +79443,7 @@ Ability_Solstice4_name											Pure Light
 
 
 
-Ability_Solstice4_name:Day_Solstice								Дыхание Сола
+Ability_Solstice4_name:Day_Solstice								Breath of Sol
 
 
 
@@ -79451,7 +79451,7 @@ Ability_Solstice4_name:Day_Solstice								Дыхание Сола
 
 
 
-Ability_Solstice4_name:Night_Solstice							Лунный приговор
+Ability_Solstice4_name:Night_Solstice							Lunar Judgment
 
 
 
@@ -80075,7 +80075,7 @@ Ability_Soulstealer2_tooltip_flavor								Меня зовут Повелите�
 
 
 
-Ability_Soulstealer2_name:ult_boost								^gКража душ*^*
+Ability_Soulstealer2_name:ult_boost								^gSoulsteal*^*
 
 
 
@@ -81251,7 +81251,7 @@ Ability_Taint3_name	Defiling Touch
 
 
 
-Ability_Taint3_name:taint_aura_hero								Оскверненное касание (герои)
+Ability_Taint3_name:taint_aura_hero								Defiling Touch (Heroes)
 
 
 
@@ -82147,7 +82147,7 @@ Ability_Tempest1_tooltip_flavor									Успокойся!
 
 
 
-Ability_Tempest1_name:ult_boost									^gЛедниковые взрывы*^*
+Ability_Tempest1_name:ult_boost									^gGlacial Blasts*^*
 
 
 
@@ -82291,7 +82291,7 @@ Ability_Tempest2_tooltip_flavor									Теперь нас трое из одн
 
 
 
-Ability_Tempest2_name:ult_boost									^gЭлементал*^*
+Ability_Tempest2_name:ult_boost									^gElemental*^*
 
 
 
@@ -82531,7 +82531,7 @@ Ability_Tempest3_Sub_effect_header								Статусные эффекты
 
 
 
-Ability_Tempest3_Sub_name:ult_boost								^gУдар метеора*^*
+Ability_Tempest3_Sub_name:ult_boost								^gMeteor Strike*^*
 
 
 
@@ -82675,7 +82675,7 @@ Ability_Tempest4_tooltip_flavor									Слушая ветер перемен.
 
 
 
-Ability_Tempest4_name:ult_boost									^gСтихийный вихрь*^*
+Ability_Tempest4_name:ult_boost									^gElemental Vortex*^*
 
 
 
@@ -82891,7 +82891,7 @@ State_KeeperOfTheForest_Ability1_name										Camouflage
 
 
 
-State_KeeperOfTheForest_Ability1_FRAME_effect								Рассеивается через 0,8 сек., если юнит находится за пределами 400 единиц от дерева. \n Применение Nature's Guidance, находясь рядом с деревом, не рассеет это состояние. __ P1__ Следующая атака применит {1.25,1.5,1.75,2} второе обездвиживание и нанесет 70 маг. урона в сек., если вы не являетесь Хранителем леса, не являющимся иллюзией.
+State_KeeperOfTheForest_Ability1_FRAME_effect								Рассеивается через 0,8 сек., если юнит находится за пределами 400 единиц от дерева. \n Применение Nature's Guidance, находясь рядом с деревом, не рассеет это состояние.  P1 Следующая атака применит {1.25,1.5,1.75,2} второе обездвиживание и нанесет 70 маг. урона в сек., если вы не являетесь Хранителем леса, не являющимся иллюзией.
 
 
 
@@ -83059,7 +83059,7 @@ Ability_KeeperOfTheForest3_name	Strength in Numbers
 
 
 
-Ability_KeeperOfTheForest3_name:ult_boost									^gСила природы*^*
+Ability_KeeperOfTheForest3_name:ult_boost									^gStrength of Nature*^*
 
 
 
@@ -83203,7 +83203,7 @@ Ability_KeeperOfTheForest4_name											Root
 
 
 
-Ability_KeeperOfTheForest4_name:ult_boost									^gНатурализованные Оцепенение*^*
+Ability_KeeperOfTheForest4_name:ult_boost									^gNaturalized Roots*^*
 
 
 
@@ -84075,7 +84075,7 @@ Ability_Tremble4_name											Hive Mind
 
 
 
-Ability_Tremble4_name:Tremble_R_Modifier						Ловушка
+Ability_Tremble4_name:Tremble_R_Modifier						Ensnare
 
 
 
@@ -84083,7 +84083,7 @@ Ability_Tremble4_name:Tremble_R_Modifier						Ловушка
 
 
 
-Ability_Tremble4_name:ult_boost									^gКоллективный разум*^*
+Ability_Tremble4_name:ult_boost									^gHive Mind*^*
 
 
 
@@ -84699,7 +84699,7 @@ Ability_Tundra1_name											Piercing Shards
 
 
 
-Ability_Tundra1_name:ult_boost									^gПронзающие осколки*^*
+Ability_Tundra1_name:ult_boost									^gPiercing Shards*^*
 
 
 
@@ -84931,7 +84931,7 @@ Ability_Tundra3_name	Call of Winter
 
 
 
-Ability_Tundra3_name:ult_boost									^gЗов зимы*^*
+Ability_Tundra3_name:ult_boost									^gCall of Winter*^*
 
 
 
@@ -85035,7 +85035,7 @@ Ability_Tundra3_Sub_name										Command Shiver
 
 
 
-Ability_Tundra3_Sub_name:tundra_ability3_Away					Дрожь приказа (вдали)
+Ability_Tundra3_Sub_name:tundra_ability3_Away					Command Shiver (Away)
 
 
 
@@ -85795,7 +85795,7 @@ Ability_Valkyrie2_name	Javelin of Light
 
 
 
-Ability_Valkyrie2_name:ult_boost								^gДжавелин Света*^*
+Ability_Valkyrie2_name:ult_boost								^gJavelin of Light*^*
 
 
 
@@ -86803,7 +86803,7 @@ Ability_Vindicator1_tooltip_flavor								Школа для дураков.
 
 
 
-State_Vindicator_Ability1_name 									Знание мудреца
+State_Vindicator_Ability1_name 									Sage's Lore
 
 
 
@@ -86827,7 +86827,7 @@ State_Vindicator_Ability1_name 									Знание мудреца
 
 
 
-State_Vindicator_Ability1_Enemy_name 							Знание мудреца
+State_Vindicator_Ability1_Enemy_name 							Sage's Lore
 
 
 
@@ -86867,7 +86867,7 @@ Ability_Vindicator2_name	Master's Incantation
 
 
 
-Ability_Vindicator2_name:ult_boost								^gЗаклинание Мастера*^*
+Ability_Vindicator2_name:ult_boost								^gMaster's Incantation*^*
 
 
 
@@ -86955,7 +86955,7 @@ Ability_Vindicator2_tooltip_flavor								Большая книга обо вс�
 
 
 
-Ability_Vindicator3_name 	Знак молчания
+Ability_Vindicator3_name 	Glyph of Silence
 
 
 
@@ -87035,7 +87035,7 @@ Gadget_Vindicator_Ability3_name									Inscribed Totem of Silence
 
 
 
-State_Vindicator_Ability3_name 									Глиф Безмолвия
+State_Vindicator_Ability3_name 									Glyph of Silence
 
 
 
@@ -87067,7 +87067,7 @@ State_Vindicator_Ability3_description
 
 
 
-State_Vindicator_Ability3_Aura_name 							Глиф Безмолвия (замедл.)
+State_Vindicator_Ability3_Aura_name 							Glyph of Silence (Slow)
 
 
 
@@ -87691,7 +87691,7 @@ Ability_VoodooJester4_IMPACT_effect									Направьте смертоно�
 
 
 
-Ability_VoodooJester4_name:ult_boost									^gОберег Великого Духа*^*
+Ability_VoodooJester4_name:ult_boost									^gGreater Spirit Ward*^*
 
 
 
@@ -87747,7 +87747,7 @@ Gadget_VoodooJester_Ability4_name										Spirit Ward
 
 
 
-Gadget_VoodooJester_Ability4_name:ult_boost							^gОберег Великого Духа*^*
+Gadget_VoodooJester_Ability4_name:ult_boost							^gGreater Spirit Ward*^*
 
 
 
@@ -87939,7 +87939,7 @@ Ability_Warchief2_name	Spirit Walk
 
 
 
-Ability_Warchief2_name:Warchief_W_Active						Связь духов
+Ability_Warchief2_name:Warchief_W_Active						Spirit Link
 
 
 
@@ -88779,7 +88779,7 @@ Ability_WitchSlayer4_IMPACT_effect								Наносит цели {550,750,950} 
 
 
 
-Ability_WitchSlayer4_name:ult_boost								^gНебесный взрыв*^*
+Ability_WitchSlayer4_name:ult_boost								^gHeavenly Blast*^*
 
 
 
@@ -89003,7 +89003,7 @@ Ability_WarBeast1_name											Summon Hellhounds
 
 
 
-Ability_WarBeast1_name:ult_boost								^gПризыв адских гончих^*
+Ability_WarBeast1_name:ult_boost								^gSummon Hellhounds^*
 
 
 
@@ -89931,7 +89931,7 @@ Ability_Torturer4_IMPACT_effect									Включите, чтобы нанос�
 
 
 
-Ability_Torturer4_name:ult_boost								^gБолезненные мучения*^*
+Ability_Torturer4_name:ult_boost								^gPainful Torment*^*
 
 
 
@@ -90427,7 +90427,7 @@ Ability_Yogi1_name												Summon Booboo
 
 
 
-Ability_Yogi1_name:ult_boost									^gПризвать Бубу*^*
+Ability_Yogi1_name:ult_boost									^gSummon Booboo*^*
 
 
 
@@ -90435,7 +90435,7 @@ Ability_Yogi1_name:ult_boost									^gПризвать Бубу*^*
 
 
 
-Ability_Yogi1_name:Yogi_BoobooAlive								Призыв Бубу/Возврат
+Ability_Yogi1_name:Yogi_BoobooAlive								Summon Booboo/Return
 
 
 
@@ -90443,7 +90443,7 @@ Ability_Yogi1_name:Yogi_BoobooAlive								Призыв Бубу/Возврат
 
 
 
-Ability_Yogi1_name:Yogi_BoobooAlive_Sotm						^gПризвать Бубу/Возвращение*^*
+Ability_Yogi1_name:Yogi_BoobooAlive_Sotm						^gSummon Booboo/Return*^*
 
 
 
@@ -90627,7 +90627,7 @@ Ability_Yogi2_tooltip_flavor									Эй, Бубу, давай раздобуд
 
 
 
-Ability_Yogi2_name:Yogi_Ability4_Active							Размах
+Ability_Yogi2_name:Yogi_Ability4_Active							Swipe
 
 
 
@@ -90635,7 +90635,7 @@ Ability_Yogi2_name:Yogi_Ability4_Active							Размах
 
 
 
-Ability_Yogi2_name:Yogiq_level3									Размах
+Ability_Yogi2_name:Yogiq_level3									Swipe
 
 
 
@@ -90643,7 +90643,7 @@ Ability_Yogi2_name:Yogiq_level3									Размах
 
 
 
-Ability_Yogi2_name:Yogiq_level4									Размах
+Ability_Yogi2_name:Yogiq_level4									Swipe
 
 
 
@@ -90819,7 +90819,7 @@ Ability_Yogi3_tooltip_flavor									Дух леса, дай мне силу.
 
 
 
-Ability_Yogi3_name:Yogi_Ability4_Active							Альфа-самец
+Ability_Yogi3_name:Yogi_Ability4_Active							Alpha Male
 
 
 
@@ -90827,7 +90827,7 @@ Ability_Yogi3_name:Yogi_Ability4_Active							Альфа-самец
 
 
 
-Ability_Yogi3_name:Yogiq_level1									Альфа-самец
+Ability_Yogi3_name:Yogiq_level1									Alpha Male
 
 
 
@@ -90835,7 +90835,7 @@ Ability_Yogi3_name:Yogiq_level1									Альфа-самец
 
 
 
-Ability_Yogi3_name:Yogiq_level4									Альфа-самец
+Ability_Yogi3_name:Yogiq_level4									Alpha Male
 
 
 
@@ -91235,7 +91235,7 @@ Ability_Zephyr2_name											Cyclones
 
 
 
-Ability_Zephyr2_name:ult_boost									^gЦиклоны*^*
+Ability_Zephyr2_name:ult_boost									^gCyclones*^*
 
 
 
@@ -91459,7 +91459,7 @@ Ability_Zephyr4_name											Typhoon
 
 
 
-Ability_Zephyr4_name:ult_boost									^gТайфун*^*
+Ability_Zephyr4_name:ult_boost									^gTyphoon*^*
 
 
 
@@ -92019,7 +92019,7 @@ Ability_PyromancerTutorial4_IMPACT_effect						Наносит цели {450,675,
 
 
 
-Ability_PyromancerTutorial4_name:ult_boost						^gИнфернальный удар*^*
+Ability_PyromancerTutorial4_name:ult_boost						^gInferno Strike*^*
 
 
 
@@ -92851,7 +92851,7 @@ Item_Bottle_name												Bottle (3/3)
 
 
 
-Item_Bottle_name:bottle_3										Бутылка (3/3)
+Item_Bottle_name:bottle_3										Bottle (3/3)
 
 
 
@@ -92859,7 +92859,7 @@ Item_Bottle_name:bottle_3										Бутылка (3/3)
 
 
 
-Item_Bottle_name:bottle_2 										Бутылка (2/3)
+Item_Bottle_name:bottle_2 										Bottle (2/3)
 
 
 
@@ -92867,7 +92867,7 @@ Item_Bottle_name:bottle_2 										Бутылка (2/3)
 
 
 
-Item_Bottle_name:bottle_1 										Бутылка (1/3)
+Item_Bottle_name:bottle_1 										Bottle (1/3)
 
 
 
@@ -92875,7 +92875,7 @@ Item_Bottle_name:bottle_1 										Бутылка (1/3)
 
 
 
-Item_Bottle_name:bottle_empty 									Пустая бутылка (0/3)
+Item_Bottle_name:bottle_empty 									Empty Bottle (0/3)
 
 
 
@@ -92883,7 +92883,7 @@ Item_Bottle_name:bottle_empty 									Пустая бутылка (0/3)
 
 
 
-Item_Bottle_name:bottle_damage 									Бутылка (Двойной урон)
+Item_Bottle_name:bottle_damage 									Bottle (Double-Damage)
 
 
 
@@ -92891,7 +92891,7 @@ Item_Bottle_name:bottle_damage 									Бутылка (Двойной урон)
 
 
 
-Item_Bottle_name:bottle_illusion 								Бутылка (Мистическая иллюзия)
+Item_Bottle_name:bottle_illusion 								Bottle (Mystic Illusion)
 
 
 
@@ -92899,7 +92899,7 @@ Item_Bottle_name:bottle_illusion 								Бутылка (Мистическая 
 
 
 
-Item_Bottle_name:bottle_movespeed 								Бутылка (Ускорение)
+Item_Bottle_name:bottle_movespeed 								Bottle (Haste)
 
 
 
@@ -92907,7 +92907,7 @@ Item_Bottle_name:bottle_movespeed 								Бутылка (Ускорение)
 
 
 
-Item_Bottle_name:bottle_regen 									Бутылка (Регенерация)
+Item_Bottle_name:bottle_regen 									Bottle (Regeneration)
 
 
 
@@ -92915,7 +92915,7 @@ Item_Bottle_name:bottle_regen 									Бутылка (Регенерация)
 
 
 
-Item_Bottle_name:bottle_stealth 								Бутылка (Невидимость)
+Item_Bottle_name:bottle_stealth 								Bottle (Invisibility)
 
 
 
@@ -92923,7 +92923,7 @@ Item_Bottle_name:bottle_stealth 								Бутылка (Невидимость)
 
 
 
-Item_Bottle_name:bottle_merricks 								Бутылка (Меррика)
+Item_Bottle_name:bottle_merricks 								Bottle (Merrick's)
 
 
 
@@ -92931,7 +92931,7 @@ Item_Bottle_name:bottle_merricks 								Бутылка (Меррика)
 
 
 
-Item_Bottle_name:bottle_super									Бутылка (Сила)
+Item_Bottle_name:bottle_super									Bottle (Power)
 
 
 
@@ -95051,7 +95051,7 @@ Pet_GroundFamiliar_name											Ground Courier
 
 
 
-Pet_GroundFamiliar_name:C_Penguin								Курьер-пингвин
+Pet_GroundFamiliar_name:C_Penguin								Penguin Courier
 
 
 
@@ -95059,7 +95059,7 @@ Pet_GroundFamiliar_name:C_Penguin								Курьер-пингвин
 
 
 
-Pet_GroundFamiliar_name:C_Whelp									Курьер-детеныш
+Pet_GroundFamiliar_name:C_Whelp									Whelp Courier
 
 
 
@@ -95067,7 +95067,7 @@ Pet_GroundFamiliar_name:C_Whelp									Курьер-детеныш
 
 
 
-Pet_GroundFamiliar_name:C_Chicken								Курьер-курица
+Pet_GroundFamiliar_name:C_Chicken								Chicken Courier
 
 
 
@@ -95075,7 +95075,7 @@ Pet_GroundFamiliar_name:C_Chicken								Курьер-курица
 
 
 
-Pet_GroundFamiliar_name:C_Goblin								Курьер-гоблин
+Pet_GroundFamiliar_name:C_Goblin								Goblin Courier
 
 
 
@@ -95083,7 +95083,7 @@ Pet_GroundFamiliar_name:C_Goblin								Курьер-гоблин
 
 
 
-Pet_GroundFamiliar_name:C_Pig									Курьер-свинья
+Pet_GroundFamiliar_name:C_Pig									Pig Courier
 
 
 
@@ -95091,7 +95091,7 @@ Pet_GroundFamiliar_name:C_Pig									Курьер-свинья
 
 
 
-Pet_GroundFamiliar_name:C_Bat									Курьер-летучая мышь
+Pet_GroundFamiliar_name:C_Bat									Bat Courier
 
 
 
@@ -95099,7 +95099,7 @@ Pet_GroundFamiliar_name:C_Bat									Курьер-летучая мышь
 
 
 
-Pet_GroundFamiliar_name:C_Robot									Курьер-робот
+Pet_GroundFamiliar_name:C_Robot									Robot Courier
 
 
 
@@ -95107,7 +95107,7 @@ Pet_GroundFamiliar_name:C_Robot									Курьер-робот
 
 
 
-Pet_GroundFamiliar_name:C_Cat									Курьер-кот
+Pet_GroundFamiliar_name:C_Cat									Cat Courier
 
 
 
@@ -95115,7 +95115,7 @@ Pet_GroundFamiliar_name:C_Cat									Курьер-кот
 
 
 
-Pet_GroundFamiliar_name:C_Dino									Курьер-компи
+Pet_GroundFamiliar_name:C_Dino									Compy Courier
 
 
 
@@ -95123,7 +95123,7 @@ Pet_GroundFamiliar_name:C_Dino									Курьер-компи
 
 
 
-Pet_GroundFamiliar_name:C_Bernard								Курьер Сенбернар
+Pet_GroundFamiliar_name:C_Bernard								St. Bernard Courier
 
 
 
@@ -95131,7 +95131,7 @@ Pet_GroundFamiliar_name:C_Bernard								Курьер Сенбернар
 
 
 
-Pet_GroundFamiliar_name:C_Pandamonium									Курьер-панда
+Pet_GroundFamiliar_name:C_Pandamonium									Panda Courier
 
 
 
@@ -95139,7 +95139,7 @@ Pet_GroundFamiliar_name:C_Pandamonium									Курьер-панда
 
 
 
-Pet_GroundFamiliar_name:C_Kongor								Курьер Конгора
+Pet_GroundFamiliar_name:C_Kongor								Kongor Kourier
 
 
 
@@ -95147,7 +95147,7 @@ Pet_GroundFamiliar_name:C_Kongor								Курьер Конгора
 
 
 
-Pet_GroundFamiliar_name:C_HoneyBadger							Курьер-медоед
+Pet_GroundFamiliar_name:C_HoneyBadger							Honey Badger Courier
 
 
 
@@ -95155,7 +95155,7 @@ Pet_GroundFamiliar_name:C_HoneyBadger							Курьер-медоед
 
 
 
-Pet_GroundFamiliar_name:C_Garena								Курьер Гарена
+Pet_GroundFamiliar_name:C_Garena								Garena Courier
 
 
 
@@ -95163,7 +95163,7 @@ Pet_GroundFamiliar_name:C_Garena								Курьер Гарена
 
 
 
-Pet_GroundFamiliar_name:C_Hamster								Курьер-хомяк
+Pet_GroundFamiliar_name:C_Hamster								Hamster Courier
 
 
 
@@ -95171,7 +95171,7 @@ Pet_GroundFamiliar_name:C_Hamster								Курьер-хомяк
 
 
 
-Pet_GroundFamiliar_name:C_Caterpillar							Курьер-гусеница
+Pet_GroundFamiliar_name:C_Caterpillar							Caterpillar Courier
 
 
 
@@ -95179,7 +95179,7 @@ Pet_GroundFamiliar_name:C_Caterpillar							Курьер-гусеница
 
 
 
-Pet_GroundFamiliar_name:C_Izbushka								Курьер-Избушка
+Pet_GroundFamiliar_name:C_Izbushka								Izbushka Courier
 
 
 
@@ -95187,7 +95187,7 @@ Pet_GroundFamiliar_name:C_Izbushka								Курьер-Избушка
 
 
 
-Pet_GroundFamiliar_name:C_Cheberashka							Курьер-Чебурашка
+Pet_GroundFamiliar_name:C_Cheberashka							Cheberashka Courier
 
 
 
@@ -95195,7 +95195,7 @@ Pet_GroundFamiliar_name:C_Cheberashka							Курьер-Чебурашка
 
 
 
-Pet_GroundFamiliar_name:C_MountainDew							Курьер Mountain Dew
+Pet_GroundFamiliar_name:C_MountainDew							Mountain Dew Courier
 
 
 
@@ -95203,7 +95203,7 @@ Pet_GroundFamiliar_name:C_MountainDew							Курьер Mountain Dew
 
 
 
-Pet_GroundFamiliar_name:C_Dragon								Курьер-дракон
+Pet_GroundFamiliar_name:C_Dragon								Dragon Courier
 
 
 
@@ -96243,7 +96243,7 @@ Item_IoynStone_name												Ioyn Stone
 
 
 
-Item_IoynStone_name:ioyn_stone_empty							Камень Ион
+Item_IoynStone_name:ioyn_stone_empty							Ioyn Stone
 
 
 
@@ -96251,7 +96251,7 @@ Item_IoynStone_name:ioyn_stone_empty							Камень Ион
 
 
 
-Item_IoynStone_name:ioyn_stone_damage 							Камень Ион (урон)
+Item_IoynStone_name:ioyn_stone_damage 							Ioyn Stone (Damage)
 
 
 
@@ -96259,7 +96259,7 @@ Item_IoynStone_name:ioyn_stone_damage 							Камень Ион (урон)
 
 
 
-Item_IoynStone_name:ioyn_stone_illusion 						Камень Ион (мистическая иллюзия)
+Item_IoynStone_name:ioyn_stone_illusion 						Ioyn Stone (Mystic Illusion)
 
 
 
@@ -96267,7 +96267,7 @@ Item_IoynStone_name:ioyn_stone_illusion 						Камень Ион (мистич�
 
 
 
-Item_IoynStone_name:ioyn_stone_movespeed 						Камень Ион (ускорение)
+Item_IoynStone_name:ioyn_stone_movespeed 						Ioyn Stone (Haste)
 
 
 
@@ -96275,7 +96275,7 @@ Item_IoynStone_name:ioyn_stone_movespeed 						Камень Ион (ускоре
 
 
 
-Item_IoynStone_name:ioyn_stone_regen 							Камень Ион (регенерация)
+Item_IoynStone_name:ioyn_stone_regen 							Ioyn Stone (Regeneration)
 
 
 
@@ -96283,7 +96283,7 @@ Item_IoynStone_name:ioyn_stone_regen 							Камень Ион (регенер�
 
 
 
-Item_IoynStone_name:ioyn_stone_stealth 							Камень Ион (невидимость)
+Item_IoynStone_name:ioyn_stone_stealth 							Ioyn Stone (Invisibility)
 
 
 
@@ -96291,7 +96291,7 @@ Item_IoynStone_name:ioyn_stone_stealth 							Камень Ион (невиди�
 
 
 
-Item_IoynStone_name:ioyn_stone_refresh							Камень Ион (обновление)
+Item_IoynStone_name:ioyn_stone_refresh							Ioyn Stone (Refreshment)
 
 
 
@@ -99251,7 +99251,7 @@ Item_PostHaste_description
 
 
 
-Item_PostHaste_description2										^oКамень телепортации усиления: теперь можно телепортироваться к юнитам и зданиям.^*\n\nЭтот предмет содержит пассивный бафф ^yСкор. движ.^*, который не суммируется ни с самим собой, ни с другими ботинками.\n\nКогда ^oвне боя^*, увеличивает скор. движ. на 45 и реген. ХП на 2.\nP11__Бонус вне боя Скор. движ. пропадает, когда вы получаете урон, произносите способность, накладываете на себя способность, атакуете или используете предмет.\n\nИспользование вардов, бутылок, камней порчи, зелий или Лекса Талион иса не приведет к удалению дополнительной скорости.
+Item_PostHaste_description2										^oКамень телепортации усиления: теперь можно телепортироваться к юнитам и зданиям.^*\n\nЭтот предмет содержит пассивный бафф ^yСкор. движ.^*, который не суммируется ни с самим собой, ни с другими ботинками.\n\nКогда ^oвне боя^*, увеличивает скор. движ. на 45 и реген. ХП на 2.\nP11Бонус вне боя Скор. движ. пропадает, когда вы получаете урон, произносите способность, накладываете на себя способность, атакуете или используете предмет.\n\nИспользование вардов, бутылок, камней порчи, зелий или Лекса Талион иса не приведет к удалению дополнительной скорости.
 
 
 
@@ -99427,7 +99427,7 @@ Item_PegasusBoots_description
 
 
 
-Item_PegasusBoots_description2									^oКамень телепортации усиления: теперь можно телепортироваться к союзникам, юнитам и зданиям.^*\n\nЭтот предмет содержит пассивный бафф ^yСкор. движ.^*, который не суммируется ни с самим собой, ни с другими ботинками.\n\nКогда ^oвне боя^*, увеличивает скор. движ. на 35 и реген. ХП на 2.\nP11__Вне боя Боевая дополнительная скор. движ. удаляется, когда вы получаете урон, произносите способность, накладываете на себя способность, атакуете или используете предмет.\n\nИспользование вардов, бутылок, камней порчи, зелий или Лекса Талион иса не приведет к удалению дополнительной скорости.
+Item_PegasusBoots_description2									^oКамень телепортации усиления: теперь можно телепортироваться к союзникам, юнитам и зданиям.^*\n\nЭтот предмет содержит пассивный бафф ^yСкор. движ.^*, который не суммируется ни с самим собой, ни с другими ботинками.\n\nКогда ^oвне боя^*, увеличивает скор. движ. на 35 и реген. ХП на 2.\nP11Вне боя Боевая дополнительная скор. движ. удаляется, когда вы получаете урон, произносите способность, накладываете на себя способность, атакуете или используете предмет.\n\nИспользование вардов, бутылок, камней порчи, зелий или Лекса Талион иса не приведет к удалению дополнительной скорости.
 
 
 
@@ -102091,7 +102091,7 @@ Item_Codex_description2
 
 
 
-Item_Codex_description_simple		Наносит огромный маг. урон цели.^n^rУлучшается до 4 раз.^*
+Item_Codex_description_simple		Наносит огромный маг. урон цели.\n^rУлучшается до 4 раз.^*
 
 
 
@@ -102219,7 +102219,7 @@ Item_AbyssalSkull_name											Abyssal Skull
 
 
 
-Item_AbyssalSkull_name:AbyssalSkull_Aura_Toggle_Heroes			Бездонный череп (герои)
+Item_AbyssalSkull_name:AbyssalSkull_Aura_Toggle_Heroes			Abyssal Skull (Heroes)
 
 
 
@@ -103387,7 +103387,7 @@ Item_FlameBelcher_name											Flame Belcher
 
 
 
-Item_FlameBelcher_name:wingbowranged							Огнедышащий (дальний)
+Item_FlameBelcher_name:wingbowranged							Flame Belcher (Ranged)
 
 
 
@@ -104035,7 +104035,7 @@ Item_WarsteamBoots_IMPACT_effect:int							^oCycle^* бафф атрибута �
 
 
 
-Item_WarsteamBoots_name:str										Боевые паровые ботинки (сила)
+Item_WarsteamBoots_name:str										Warsteam Boots (Strength)
 
 
 
@@ -104043,7 +104043,7 @@ Item_WarsteamBoots_name:str										Боевые паровые ботинки 
 
 
 
-Item_WarsteamBoots_name:agi										Боевые паровые ботинки (ловкость)
+Item_WarsteamBoots_name:agi										Warsteam Boots (Agility)
 
 
 
@@ -104051,7 +104051,7 @@ Item_WarsteamBoots_name:agi										Боевые паровые ботинки 
 
 
 
-Item_WarsteamBoots_name:int										Боевые паровые ботинки (интеллект)
+Item_WarsteamBoots_name:int										Warsteam Boots (Intelligence)
 
 
 
@@ -104723,7 +104723,7 @@ Item_DaemonicBreastplate_name									Daemonic Breastplate
 
 
 
-Item_DaemonicBreastplate_name:Daemonic_AllyAura					Демонический нагрудник (С)
+Item_DaemonicBreastplate_name:Daemonic_AllyAura					Daemonic Breastplate (A)
 
 
 
@@ -104731,7 +104731,7 @@ Item_DaemonicBreastplate_name:Daemonic_AllyAura					Демонический н�
 
 
 
-Item_DaemonicBreastplate_name:Daemonic_EnemyAura				Демонический нагрудник (В)
+Item_DaemonicBreastplate_name:Daemonic_EnemyAura				Daemonic Breastplate (E)
 
 
 
@@ -105787,7 +105787,7 @@ Pet_FlyngCourier_name											Flying Courier
 
 
 
-Pet_FlyngCourier_name:C_Penguin									Курьер с реактивным ранцем
+Pet_FlyngCourier_name:C_Penguin									Jetpack Courier
 
 
 
@@ -105795,7 +105795,7 @@ Pet_FlyngCourier_name:C_Penguin									Курьер с реактивным р�
 
 
 
-Pet_FlyngCourier_name:C_Dragon									Крылатый дракон-курьер
+Pet_FlyngCourier_name:C_Dragon									Winged Dragon Courier
 
 
 
@@ -105803,7 +105803,7 @@ Pet_FlyngCourier_name:C_Dragon									Крылатый дракон-курье�
 
 
 
-Pet_FlyngCourier_name:C_Chicken									Суперкурьер-курица
+Pet_FlyngCourier_name:C_Chicken									Super Chicken Courier
 
 
 
@@ -105811,7 +105811,7 @@ Pet_FlyngCourier_name:C_Chicken									Суперкурьер-курица
 
 
 
-Pet_FlyngCourier_name:C_Goblin									Крылатый гоблин-курьер
+Pet_FlyngCourier_name:C_Goblin									Winged Goblin Courier
 
 
 
@@ -105819,7 +105819,7 @@ Pet_FlyngCourier_name:C_Goblin									Крылатый гоблин-курье�
 
 
 
-Pet_FlyngCourier_name:C_Pig										Летающий курьер-свинья
+Pet_FlyngCourier_name:C_Pig										Flying Pig Courier
 
 
 
@@ -105827,7 +105827,7 @@ Pet_FlyngCourier_name:C_Pig										Летающий курьер-свинья
 
 
 
-Pet_FlyngCourier_name:C_Rat										Курьер-летучая мышь
+Pet_FlyngCourier_name:C_Rat										Bat Courier
 
 
 
@@ -105835,7 +105835,7 @@ Pet_FlyngCourier_name:C_Rat										Курьер-летучая мышь
 
 
 
-Pet_FlyngCourier_name:C_Robot									Курьер-НЛО
+Pet_FlyngCourier_name:C_Robot									UFO Courier
 
 
 
@@ -105843,7 +105843,7 @@ Pet_FlyngCourier_name:C_Robot									Курьер-НЛО
 
 
 
-Pet_FlyngCourier_name:C_Cat										Курьер Нян Кэт
+Pet_FlyngCourier_name:C_Cat										Nyan Cat Courier
 
 
 
@@ -105851,7 +105851,7 @@ Pet_FlyngCourier_name:C_Cat										Курьер Нян Кэт
 
 
 
-Pet_FlyngCourier_name:C_Dino									Курьер-археоптерикс
+Pet_FlyngCourier_name:C_Dino									Archeopteryx Courier
 
 
 
@@ -105859,7 +105859,7 @@ Pet_FlyngCourier_name:C_Dino									Курьер-археоптерикс
 
 
 
-Pet_FlyngCourier_name:C_Bernard									Курьер-бочонок Бернард
+Pet_FlyngCourier_name:C_Bernard									Keg Bernard Courier
 
 
 
@@ -105867,7 +105867,7 @@ Pet_FlyngCourier_name:C_Bernard									Курьер-бочонок Бернар
 
 
 
-Pet_FlyngCourier_name:C_Pandamonium									Курьер-панда на вертолете
+Pet_FlyngCourier_name:C_Pandamonium									Copter Panda Courier
 
 
 
@@ -105875,7 +105875,7 @@ Pet_FlyngCourier_name:C_Pandamonium									Курьер-панда на вер�
 
 
 
-Pet_FlyngCourier_name:C_Kongor									Летающий курьер-бочка
+Pet_FlyngCourier_name:C_Kongor									Flying Barrel Kourier
 
 
 
@@ -105883,7 +105883,7 @@ Pet_FlyngCourier_name:C_Kongor									Летающий курьер-бочка
 
 
 
-Pet_FlyngCourier_name:C_HoneyBadger								Курьер-пчелка
+Pet_FlyngCourier_name:C_HoneyBadger								Honey Bee Courier
 
 
 
@@ -105891,7 +105891,7 @@ Pet_FlyngCourier_name:C_HoneyBadger								Курьер-пчелка
 
 
 
-Pet_FlyngCourier_name:C_Garena									Курьер-ховерборд
+Pet_FlyngCourier_name:C_Garena									Hoverboard Courier
 
 
 
@@ -105899,7 +105899,7 @@ Pet_FlyngCourier_name:C_Garena									Курьер-ховерборд
 
 
 
-Pet_FlyngCourier_name:C_Hamster									Курьер-бумажный самолет
+Pet_FlyngCourier_name:C_Hamster									Paper Airplane Courier
 
 
 
@@ -105907,7 +105907,7 @@ Pet_FlyngCourier_name:C_Hamster									Курьер-бумажный самол
 
 
 
-Pet_FlyngCourier_name:C_Caterpillar								Курьер-бабочка
+Pet_FlyngCourier_name:C_Caterpillar								Butterfly Courier
 
 
 
@@ -105915,7 +105915,7 @@ Pet_FlyngCourier_name:C_Caterpillar								Курьер-бабочка
 
 
 
-Pet_FlyngCourier_name:C_Turkey									Летающий курьер-индейка
+Pet_FlyngCourier_name:C_Turkey									Flying Turkey Courier
 
 
 
@@ -105923,7 +105923,7 @@ Pet_FlyngCourier_name:C_Turkey									Летающий курьер-индей�
 
 
 
-Pet_FlyngCourier_name:C_Izbushka								Летающий курьер-избушка
+Pet_FlyngCourier_name:C_Izbushka								Flying Izbushka Courier
 
 
 
@@ -105931,7 +105931,7 @@ Pet_FlyngCourier_name:C_Izbushka								Летающий курьер-избуш
 
 
 
-Pet_FlyngCourier_name:C_Cheberashka								Летающий курьер-Чебурашка
+Pet_FlyngCourier_name:C_Cheberashka								Flying Cheberashka Courier
 
 
 
@@ -105939,7 +105939,7 @@ Pet_FlyngCourier_name:C_Cheberashka								Летающий курьер-Чеб�
 
 
 
-Pet_FlyngCourier_name:C_MountainDew								Летающий курьер Mountain Dew
+Pet_FlyngCourier_name:C_MountainDew								Flying Mountain Dew Courier
 
 
 
@@ -107139,7 +107139,7 @@ Item_RefreshingOrnament_name										Refreshing Ornament
 
 
 
-Item_RefreshingOrnament_name:MysticPotpourri_Aura_Toggle_Heroes	Освежающее украшение (герои)
+Item_RefreshingOrnament_name:MysticPotpourri_Aura_Toggle_Heroes	Refreshing Ornament (Heroes)
 
 
 
@@ -108779,7 +108779,7 @@ Item_RingOfTheTeacher_name											Ring of the Teacher
 
 
 
-Item_RingOfTheTeacher_name:RingOfTheTeacher_Aura_Toggle_Heroes		Кольцо учителя (герои)
+Item_RingOfTheTeacher_name:RingOfTheTeacher_Aura_Toggle_Heroes		Ring of the Teacher (Heroes)
 
 
 
@@ -109331,7 +109331,7 @@ Item_SolsBulwark_name											Sol's Bulwark
 
 
 
-Item_SolsBulwark_name:SolsBulwark_AllyAura						Оплот Сола (A)
+Item_SolsBulwark_name:SolsBulwark_AllyAura						Sol's Bulwark (A)
 
 
 
@@ -109339,7 +109339,7 @@ Item_SolsBulwark_name:SolsBulwark_AllyAura						Оплот Сола (A)
 
 
 
-Item_SolsBulwark_name:SolsBulwark_EnemyAura						Оплот Сола (E)
+Item_SolsBulwark_name:SolsBulwark_EnemyAura						Sol's Bulwark (E)
 
 
 
@@ -110371,7 +110371,7 @@ Item_Steamboots_IMPACT_effect:int								^oCycle^* бафф атрибута к 
 
 
 
-Item_Steamboots_name:str										Паровые ботинки (сила)
+Item_Steamboots_name:str										Steamboots (Strength)
 
 
 
@@ -110379,7 +110379,7 @@ Item_Steamboots_name:str										Паровые ботинки (сила)
 
 
 
-Item_Steamboots_name:agi										Паровые ботинки (ловкость)
+Item_Steamboots_name:agi										Steamboots (Agility)
 
 
 
@@ -110387,7 +110387,7 @@ Item_Steamboots_name:agi										Паровые ботинки (ловкост�
 
 
 
-Item_Steamboots_name:int										Паровые ботинки (интеллект)
+Item_Steamboots_name:int										Steamboots (Intelligence)
 
 
 
@@ -111299,7 +111299,7 @@ Item_MockOfBrilliance_IMPACT_effect:MockOfBrilliance_Aura_On			При актив
 
 
 
-Item_MockOfBrilliance_name:MockOfBrilliance_Aura_Off					Насмешка мастерства
+Item_MockOfBrilliance_name:MockOfBrilliance_Aura_Off					Mock of Brilliance
 
 
 
@@ -111603,7 +111603,7 @@ Item_Wingbow_name												Wingbow
 
 
 
-Item_Wingbow_name:wingbowmelee									Крылолук (ближний)
+Item_Wingbow_name:wingbowmelee									Wingbow (Melee)
 
 
 
@@ -111611,7 +111611,7 @@ Item_Wingbow_name:wingbowmelee									Крылолук (ближний)
 
 
 
-Item_Wingbow_name:wingbowranged									Крылолук (дальний)
+Item_Wingbow_name:wingbowranged									Wingbow (Ranged)
 
 
 
@@ -111731,7 +111731,7 @@ Item_FrostwolfsSkull_name												Frostwolf's Skull
 
 
 
-Item_FrostwolfsSkull_description											Пассивно применяет ^oFreeze^* к цели на ^o3 сек.^* при атаке или применении способности, направленной на одну цель, в радиусе 1500 единиц.\n\nFreeze применяет ^o__40% замедление скор. движ.^*, если им владеет герой ^gближнего боя^*, или ^o20% замедление скор. движ.^* если им владеет герой ^gдальнего боя^*.
+Item_FrostwolfsSkull_description											Пассивно применяет ^oFreeze^* к цели на ^o3 сек.^* при атаке или применении способности, направленной на одну цель, в радиусе 1500 единиц.\n\nFreeze применяет ^o40% замедление скор. движ.^*, если им владеет герой ^gближнего боя^*, или ^o20% замедление скор. движ.^* если им владеет герой ^gдальнего боя^*.
 
 
 
@@ -113011,7 +113011,7 @@ State_Dreamcatcher_Ally_FRAME_effect							30 здоровья в сек.\nЭф�
 
 
 
-State_Dreamcatcher_Ally_name:Dreamcatcher_Damaged				Сон (поврежден)
+State_Dreamcatcher_Ally_name:Dreamcatcher_Damaged				Dream (Damaged)
 
 
 
@@ -113931,7 +113931,7 @@ Item_FauxBow_name												Faux Bow
 
 
 
-Item_FauxBow_name:wingbowranged									Фальшивый лук (дальний)
+Item_FauxBow_name:wingbowranged									Faux Bow (Ranged)
 
 
 
@@ -116323,7 +116323,7 @@ State_GrimmBoss_BuildingDebuff_name								General's Demise
 
 
 
-State_GrimmBoss_name 											Рост генерала
+State_GrimmBoss_name 											General's Growth
 
 
 
@@ -117403,7 +117403,7 @@ Ability_ElephantBoss1_description_simple						При активации: зап�
 
 
 
-State_ElephantBoss_Ability1_name 								Сонный порошок
+State_ElephantBoss_Ability1_name 								Sleeping Powder
 
 
 
@@ -118435,7 +118435,7 @@ Ability_Snowgoat1_name											Snowball
 
 
 
-Ability_Snowgoat1_description									Бросает во врага снежок, нанося ^o100 маг. урона^* и мини-Оглушение ^oP3__.^*
+Ability_Snowgoat1_description									Бросает во врага снежок, нанося ^o100 маг. урона^* и мини-Оглушение ^oP3.^*
 
 
 
@@ -118443,7 +118443,7 @@ Ability_Snowgoat1_description									Бросает во врага снежо�
 
 
 
-Ability_Snowgoat1_description_simple							Бросает во врага снежок, нанося ^o100 маг. урона^* и мини-Оглушение ^oP3__.^*
+Ability_Snowgoat1_description_simple							Бросает во врага снежок, нанося ^o100 маг. урона^* и мини-Оглушение ^oP3.^*
 
 
 
@@ -119947,7 +119947,7 @@ Neutral_Earthoc_name											Earthoc
 
 
 
-State_Sporespitter_Ability1_Slow_name 							Заспорен!
+State_Sporespitter_Ability1_Slow_name 							Spore'd!
 
 
 
@@ -123019,7 +123019,7 @@ Ability_AutomatedCourier_IMPACT_effect							 Приказывает курье�
 
 
 
-Ability_AutomatedCourier_name:automated_courier_cancel			 Возврат домой
+Ability_AutomatedCourier_name:automated_courier_cancel			Return Home
 
 
 
@@ -123043,7 +123043,7 @@ Ability_AutomatedCourier_IMPACT_effect:automated_courier_cancel	 Приказы�
 
 
 
-Ability_AutomatedCourier_name:return_trip						 Возврат к герою
+Ability_AutomatedCourier_name:return_trip						Return to Hero
 
 
 
@@ -125330,7 +125330,7 @@ Ability_Deadwood2_description_simple:ult_boost					^gПостоянно носи
 Ability_Deadwood2_effect_header:ult_boost						Эффект Son of a Birch
 Ability_Deadwood2_IMPACT_effect:ult_boost						Бросает дерево в цель, оглушая ее на 0.1 сек., нанося физ. урон (от Атаки), и накладывает Son of a Birch на {1.5,2,2.5,3} сек. Не действует на врагов с иммунитетом к магии.
 Ability_Deadwood2_tooltip_flavor:ult_boost						Вдохновлено скиллом Stormbolt.
-State_Deadwood_Ability2_name:ult_boost							Дерево покрепче!
+State_Deadwood_Ability2_name:ult_boost							Now I have a Stronger tree!
 State_Deadwood_Ability2_description:ult_boost					Атаки теперь наносят 50% физ. урона по области в радиусе 300 вокруг цели\n\nКаждая 4-я атака наносит микро-Оглушение и убывающее замедление на 0.75 сек.
 State_Electrician_Ability4_Immobilized_name						Shocked
 State_Electrician_Ability4_Immobilized_FRAME_effect
@@ -125427,7 +125427,7 @@ Ability_DarkLady4_IMPACT_effect		Применяет Тьму к целям в р
 State_Pearl_Ability3_Dazed_name									Dazed
 State_LordSalforis_Ability3_EnemyRegen_FRAME_effect		Отнимает здоровье у владельца для лечения союзников.
 State_Revenant_Ability2_Debuff_Aura_Boosted_name				Mortification
-State_DarkLady_Ability3_Attackspeed_name		Скор. атаки
+State_DarkLady_Ability3_Attackspeed_name		Zeal
 Ability_LordSalforis1_description		Лорд Салфорис выпускает волну тёмной энергии, нанося урон и похищая жизнь у врагов.
 Ability_LordSalforis1_IMPACT_effect		Наносит {80,120,160,200} маг. урона и похищает {20,30,40,50} здоровья у врагов.
 State_LordSalforis_Ability3_EnemyRegen_name						Dark Lord's Presence
@@ -125458,7 +125458,7 @@ Ability_LordSalforis1_effect_header		Эффекты Жизнекрада
 State_LordSalforis_Ability2_Slow_name							Life Tap
 State_Revenant_Ability2_Debuff_Aura_Boosted_FRAME_effect		Taking {15,25,35,45} Magic Damage per second. Healing, lifesteal and regeneration received reduced by 33%.
 Ability_Cthulhuphant3_description2:ult_boost					^gWhenever you deal damage to an enemy hero with Trample, Obliterate or Dreams of Madness, your Strength increases by 2 for 24 seconds. This effect stacks, but each stack has a separate timer.^*								
-Ability_LordSalforis2_name:ult_boost		^gУсиленная Аура Смерти^*
+Ability_LordSalforis2_name:ult_boost		^gLife Tap*^*
 State_Revenant_Ability2_Debuff_Aura_Boosted_description_simple	Taking {15,25,35,45} Magic Damage per second. Healing, lifesteal and regeneration received reduced by 33%.
 State_ProtectiveTalisman_name									Protective Talisman
 Ability_DarkLady1_tooltip_flavor		«Эти клинки решают твою судьбу!»
@@ -125491,7 +125491,7 @@ Neutral_TurtleRed_name											Bog Turtle
 Ability_DoctorRepulsor3_name:ult_boost							^gElectric Fury^*
 State_Revenant_Ability2_Boosted_name							Mortification
 Ability_DarkLady1_effect_header		Эффекты Тёмных Клинков
-Ability_LordSalforis4_name:ult_boost		^gУсиленное Высвобождение Тьмы^*
+Ability_LordSalforis4_name:ult_boost		^gThe Undying*^*
 Ability_DarkLady1_description		Тёмная Леди активирует тёмную энергию Клинков Гнева, заставляя атаки накладывать Безмолвие и наносить доп. урон.
 Item_AbyssalFlower_tooltip_flavor										
 Ability_DarkLady3_IMPACT_effect		Рывок к точке. Атакует каждого врага в радиусе. Каждая последующая атака по той же цели наносит на 30% меньше урона.
@@ -125524,7 +125524,7 @@ Roast_PumpSomeIron_description_simple							Pump some iron!
 State_LordSalforis_Ability2_description		Наносит периодический урон и замедляет ближайших врагов.
 State_Tarot_Ability4_description								Your next ability is empowered.
 Roast_PumpSomeIron_description									Pump some iron to carry your heavy team!
-Ability_DarkLady3_description_simple		Рывок к указанной точке, огибая препятствия. Мгновенно атакует врагов на пути, нанося ^o15% от макс. здоровья цели как физ. урон^* за атаку. Каждая последующая атака по той же цели наносит на ^o30% меньше урона^*.^n^n^gПосох Мастера:^* ^oТысяча Порезов^* — вдвое больше атак за рывок.
+Ability_DarkLady3_description_simple		Рывок к указанной точке, огибая препятствия. Мгновенно атакует врагов на пути, нанося ^o15% от макс. здоровья цели как физ. урон^* за атаку. Каждая последующая атака по той же цели наносит на ^o30% меньше урона^*.\n\n^gПосох Мастера:^* ^oТысяча Порезов^* — вдвое больше атак за рывок.
 Ability_DarkLady3_description		Тёмная Леди совершает молниеносный рывок к цели, атакуя врагов на пути и нанося урон от макс. здоровья.
 Ability_LordSalforis2_description_simple:ult_boost		^gПосох Мастера:^* увеличенный радиус и двойной урон.
 Ability_Thunderbringer4_IMPACT_effect:OnlyMidMap						Spawn a ^oThunder Cloud^* at target location for ^o9 seconds^*, releasing ^o{4,5,6} lightning strikes^* over the duration, hitting all enemy units in a 400 radius, dealing ^o{150,175,200} Magic Damage^* and applying a ^oMini Stun to enemies^* for 0.05 second.
@@ -125543,7 +125543,7 @@ Ability_DarkLady2_name												Taint Soul
 State_LordSalforis_Ability4_FRAME_effect		При активации наносит урон всем врагам и восстанавливает здоровье.
 Ability_DarkLady4_tooltip_flavor		«Ты совсем один, никто не рядом!»
 Ability_Kinesis2_Lift_name										Lift
-Ability_DarkLady3_description_simple:ult_boost		Рывок к точке, огибая препятствия. Мгновенно атакует врагов на пути, нанося ^o15% от макс. здоровья как физ. урон^*. Вдвое больше атак за рывок.^n^n^gПосох Мастера:^* ^oТысяча Порезов^*
+Ability_DarkLady3_description_simple:ult_boost		Рывок к точке, огибая препятствия. Мгновенно атакует врагов на пути, нанося ^o15% от макс. здоровья как физ. урон^*. Вдвое больше атак за рывок.\n\n^gПосох Мастера:^* ^oТысяча Порезов^*
 Ability_Magmus1_description_simple:ult_boost					Surge towards the target location, dealing ^o{100,160,220,280} Magic Damage^* and ^ostunning^* enemy units along the way for ^o2.15 seconds^*, ^gleaving a lava trail behind you that deals 125 Magic Damage per second to enemies inside for 3 seconds.^*
 State_DarkLady_Ability2_FRAME_effect		Снижает скор. движ. на 60%, постепенно восстанавливаясь за {2,3,4,5} сек.
 Ability_LordSalforis2_IMPACT_effect		Наносит {20,30,40,50} маг. урона в сек. и замедляет на {15,20,25,30}% врагов в радиусе.
