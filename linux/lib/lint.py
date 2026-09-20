@@ -66,6 +66,16 @@ def check(base_dir, bundle_dir, overrides):
                     '%s:%s' % (stem, key), value[:40])
                 continue
 
+            # Невидимые символы ломают интерфейс: неразрывный пробел или
+            # zero-width в базовом Ability_<Герой>N_description_simple гасит
+            # героя в списке - он не подсвечивается и теряет часть панели
+            invis = sorted(set('U+%04X' % ord(c) for c in value
+                               if ord(c) in (0x200B, 0x00A0, 0xFEFF,
+                                             0x2028, 0x2029)))
+            if invis:
+                add('невидимый символ в строке', '%s:%s' % (stem, key),
+                    ', '.join(invis))
+
             # Категории магазина - это идентификаторы фильтров, а не текст:
             # видимое имя лежит отдельно, в Shop_Filter_*_description.
             # Переведённый токен выкидывает предмет из фильтра
