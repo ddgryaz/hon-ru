@@ -20834,27 +20834,27 @@ mm_gated						6. Тип игры
 
 
 
-mm_verified_2					ЗЗ0ЗЗ. Выбирайте противников
+mm_verified_2				{value}. Выбирайте противников
 
 
 
-mm_maps_2						ЗЗ0ЗЗ. Выберите свою карту
+mm_maps_2					{value}. Выберите свою карту
 
 
 
-mm_modes_2						ЗЗ0ЗЗ. Выбор игровых режимов
+mm_modes_2					{value}. Выберите игровые режимы
 
 
 
-mm_region_2						ЗЗ0ЗЗ. Выберите регионы
+mm_region_2					{value}. Выберите регионы
 
 
 
-mm_start_2						ЗЗ0ЗЗ. Выберите режим подбора игроков
+mm_start_2					{value}. Выберите режим подбора игроков
 
 
 
-mm_gated_2						ЗЗ0ЗЗ. Режим публичного бета-тестирования ((PBT) - выберите карту
+mm_gated_2					{value}. Режим публичного бета-теста (PBT) - выберите карту
 
 
 
@@ -33240,9 +33240,9 @@ store_marketplace_confirm_title		Подтверждение покупки
 options_hdr_enable_tip	Выводит сигнал с расширенным динамическим диапазоном на монитор с поддержкой HDR. Сначала включите HDR в настройках экрана Windows.
 ph_advanced_options		Расширенные настройки
 marketplace_play_games_progress_demo		Сыграйте игр для разблокировки
-mm_machine_tag_locked_to_other		Привязан к другому аккаунту
+mm_machine_tag_locked_to_other	Рейтинговые игры на этом компьютере привязаны к ^279{name}^*
 globby_host_tip		Создать свою игру с настройками
-store_marketplace_you_own		Уже куплено
+store_marketplace_you_own	Уже куплено: {count}
 options_hdr_pipeline		HDR Пайплайн
 mm_machine_tag_retag_confirm_title		Сменить тег матчмейкинга?
 boss_info_kongor_stat_magic_armor		^oМаг. броня:^* 3

@@ -78,81 +78,81 @@ boughtwalkingкурьер				{player_color}{player}^* купил пешеход�
 
 boughtflyingкурьер					{player_color}{player}^* купил летающего курьера.
 
-ping_target							{player_color}{player_name} ({player_hero_name})^*: {mode}{unit_team_color}{unit_name}^* сейчас!
+ping_target						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {mode}{unit_team_color}{unit_name}^* сейчас!
 
 
 
-ping_ext_building_attack				 {player_color}{player_name} ({player_hero_name})^*: Атакуйте {unit_team_color}{tower_location}{tower_tier}^* по ^g{current_health}/{max_health}^* HP {backdoor_protected}
+ping_ext_building_attack			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{tower_location}{tower_tier}^* по ^g{current_health}/{max_health}^* HP {backdoor_protected}
 
-ping_ext_building_defend				 {player_color}{player_name} ({player_hero_name})^*: Защитите {unit_team_color}{tower_location}{tower_tier}^* на ^g{current_health}/{max_health}^* HP {backdoor_protected}
+ping_ext_building_defend			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите {unit_team_color}{tower_location}{tower_tier}^* на ^g{current_health}/{max_health}^* HP {backdoor_protected}
 
-ping_ext_hero_attack					 {player_color}{player_name} ({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^* в позиции {ping_tile}.
+ping_ext_hero_attack				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^* в позиции {ping_tile}.
 
-ping_ext_hero_get_back					 {player_color}{player_name} ({player_hero_name})^*: Возвращайтесь из {unit_team_color}{unit_name}^* в {ping_tile}.
+ping_ext_hero_get_back				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Возвращайтесь из {unit_team_color}{unit_name}^* в {ping_tile}.
 
-ping_ext_hero_missing					 {player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
+ping_ext_hero_missing				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
-ping_ext_hero_missing_going_top			 {player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
+ping_ext_hero_missing_going_top		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
-ping_ext_hero_missing_going_mid			 {player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
+ping_ext_hero_missing_going_mid		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
-ping_ext_hero_missing_going_bot			 {player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
+ping_ext_hero_missing_going_bot		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
-ping_ext_hero_coming_to_gank			 {player_color}{player_name} ({player_hero_name})^*: Собираюсь ганкнуть {unit_team_color}{unit_name}^* на {ping_tile}.
+ping_ext_hero_coming_to_gank		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Собираюсь ганкнуть {unit_team_color}{unit_name}^* на {ping_tile}.
 
-ping_ext_rune_present					 {player_color}{player_name} ({player_hero_name})^*: ^g{unit_name}^* доступен здесь
+ping_ext_rune_present				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^g{unit_name}^* доступен здесь
 
-ping_ext_ctf_pick_up_enemy_flag			 {player_color}{player_name} ({player_hero_name})^*: возьмите {unit_color}{unit_name}^* в {ping_tile}.
+ping_ext_ctf_pick_up_enemy_flag		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: возьмите {unit_color}{unit_name}^* в {ping_tile}.
 
-ping_ext_ctf_defend_ally_flag			 {player_color}{player_name} ({player_hero_name})^*: Защитите наш {unit_color}{unit_name}^* на {ping_tile}.
+ping_ext_ctf_defend_ally_flag		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите наш {unit_color}{unit_name}^* на {ping_tile}.
 
-ping_ext_assist_ally_hero 			 {player_color}{player_name} ({player_hero_name})^*: Помогите нашему {unit_color}{unit_name}^* в {ping_tile}.
+ping_ext_assist_ally_hero 		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Помогите нашему {unit_color}{unit_name}^* в {ping_tile}.
 
-ping_ext_ground_ping					 {player_color}{player_name} ({player_hero_name})^*: Внимание! {ping_tile}!
+ping_ext_ground_ping				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Внимание! {ping_tile}!
 
-ping_ext_ground_get_back				 {player_color}{player_name} ({player_hero_name})^*: вернуться из {ping_tile}.
+ping_ext_ground_get_back			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: вернуться из {ping_tile}.
 
-ping_ext_ground_danger_here				 {player_color}{player_name} ({player_hero_name})^*: Опасность на {ping_tile}
+ping_ext_ground_danger_here			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Опасность на {ping_tile}
 
-ping_ext_ground_need_help_here			 {player_color}{player_name} ({player_hero_name})^*: Нужна помощь на {ping_tile}.
+ping_ext_ground_need_help_here		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Нужна помощь на {ping_tile}.
 
-ping_ext_ground_hero_missing			 {player_color}{player_name} ({player_hero_name})^*: Герой отсутствует в {ping_tile}.
+ping_ext_ground_hero_missing		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Герой отсутствует в {ping_tile}.
 
-ping_ext_ground_hero_missing_going_top	 {player_color}{player_name} ({player_hero_name})^*: Герой отсутствует в {ping_tile}. Идет наверх
+ping_ext_ground_hero_missing_going_top	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Герой отсутствует в {ping_tile}. Идет наверх
 
-ping_ext_ground_hero_missing_going_mid	 {player_color}{player_name} ({player_hero_name})^*: Герой отсутствует в {ping_tile}. Идет на мид
+ping_ext_ground_hero_missing_going_mid	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Герой отсутствует в {ping_tile}. Идет на мид
 
-ping_ext_ground_hero_missing_going_bot	 {player_color}{player_name} ({player_hero_name})^*: Герой отсутствует в {ping_tile}. Идет на бот
+ping_ext_ground_hero_missing_going_bot	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Герой отсутствует в {ping_tile}. Идет на бот
 
-ping_ext_ground_fight_here				 {player_color}{player_name} ({player_hero_name})^*: Атакуйте {ping_tile}!
+ping_ext_ground_fight_here			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {ping_tile}!
 
-ping_ext_ground_coming_to_help			 {player_color}{player_name} ({player_hero_name})^*: Приду на помощь в {ping_tile}!
+ping_ext_ground_coming_to_help		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Приду на помощь в {ping_tile}!
 
 
 
-ping_ext_building_attack_lanes						{player_color}{player_name} ({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^* в {ping_tile}.
+ping_ext_building_attack_lanes					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^* в {ping_tile}.
 
-ping_ext_building_defend_lanes						{player_color}{player_name} ({player_hero_name})^*: Защитите наш {unit_team_color}{unit_name}^* в {ping_tile}
+ping_ext_building_defend_lanes					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите наш {unit_team_color}{unit_name}^* в {ping_tile}
 
-ping_ext_hero_attack_lanes							{player_color}{player_name} ({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^* по {ping_tile}!
+ping_ext_hero_attack_lanes						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^* по {ping_tile}!
 
-ping_ext_hero_get_back_lanes						{player_color}{player_name} ({player_hero_name})^*: Возвращайтесь из {unit_team_color}{unit_name}^* в {ping_tile}.
+ping_ext_hero_get_back_lanes					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Возвращайтесь из {unit_team_color}{unit_name}^* в {ping_tile}.
 
-ping_ext_hero_missing_lanes							{player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
+ping_ext_hero_missing_lanes						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
-ping_ext_hero_missing_going_top_lanes				{player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
+ping_ext_hero_missing_going_top_lanes			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
-ping_ext_hero_missing_going_mid_lanes				{player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
+ping_ext_hero_missing_going_mid_lanes			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
-ping_ext_hero_missing_going_bot_lanes				{player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
+ping_ext_hero_missing_going_bot_lanes			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
-ping_ext_hero_coming_to_gank_lanes					{player_color}{player_name} ({player_hero_name})^*: Собираюсь ганкнуть {unit_color}{unit_name}^* на {ping_tile}.
+ping_ext_hero_coming_to_gank_lanes				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Собираюсь ганкнуть {unit_color}{unit_name}^* на {ping_tile}.
 
 ping_ext_ctf_pick_up_enemy_flag_lanes				not used.
 
 ping_ext_ctf_defend_ally_flag_lanes					not used.
 
-ping_ext_assist_ally_hero_lanes 			 {player_color}{player_name} ({player_hero_name})^*: Помогите нашему {unit_team_color}{unit_name}^* в {ping_tile}.
+ping_ext_assist_ally_hero_lanes 		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Помогите нашему {unit_team_color}{unit_name}^* в {ping_tile}.
 
 ping_ext_ground_ping_lanes							not used.
 
@@ -176,167 +176,167 @@ ping_ext_ground_coming_to_help_lanes				not used.
 
 
 
-ping_ext_building_attack_generic					{player_color}{player_name} ({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^*
+ping_ext_building_attack_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^*
 
-ping_ext_building_defend_generic					{player_color}{player_name} ({player_hero_name})^*: Защитите наш {unit_team_color}{unit_name}^*
+ping_ext_building_defend_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите наш {unit_team_color}{unit_name}^*
 
-ping_ext_hero_attack_generic						{player_color}{player_name} ({player_hero_name})^*: Атака {unit_color}{unit_name}^*
+ping_ext_hero_attack_generic					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атака {unit_color}{unit_name}^*
 
-ping_ext_hero_get_back_generic						{player_color}{player_name} ({player_hero_name})^*: вернуться из {unit_color}{unit_name}^*
+ping_ext_hero_get_back_generic					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: вернуться из {unit_color}{unit_name}^*
 
-ping_ext_hero_missing_generic						{player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует на линии
+ping_ext_hero_missing_generic					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует на линии
 
-ping_ext_hero_missing_going_top_generic				{player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует на линии. Идет наверх
+ping_ext_hero_missing_going_top_generic			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует на линии. Идет наверх
 
-ping_ext_hero_missing_going_mid_generic				{player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует на линии. Идет на мид
+ping_ext_hero_missing_going_mid_generic			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует на линии. Идет на мид
 
-ping_ext_hero_missing_going_bot_generic				{player_color}{player_name} ({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует на линии. Идет на бот
+ping_ext_hero_missing_going_bot_generic			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует на линии. Идет на бот
 
-ping_ext_hero_coming_to_gank_generic				{player_color}{player_name} ({player_hero_name})^*: Иду ганкнуть {unit_team_color}{unit_name}^*
+ping_ext_hero_coming_to_gank_generic			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Иду ганкнуть {unit_team_color}{unit_name}^*
 
-ping_ext_ctf_pick_up_enemy_flag_generic				{player_color}{player_name} ({player_hero_name})^*: подобрать врага {unit_team_color}Flag^*
+ping_ext_ctf_pick_up_enemy_flag_generic			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: подобрать врага {unit_team_color}Flag^*
 
-ping_ext_ctf_defend_ally_flag_generic				{player_color}{player_name} ({player_hero_name})^*: Защитите наш {unit_team_color}Flag^*
+ping_ext_ctf_defend_ally_flag_generic			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите наш {unit_team_color}Flag^*
 
-ping_ext_ground_ping_generic						{player_color}{player_name} ({player_hero_name})^*: Внимание!
+ping_ext_ground_ping_generic					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Внимание!
 
-ping_ext_ground_get_back_generic					{player_color}{player_name} ({player_hero_name})^*: Назад!
+ping_ext_ground_get_back_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Назад!
 
-ping_ext_ground_danger_here_generic					{player_color}{player_name} ({player_hero_name})^*: Опасность!
+ping_ext_ground_danger_here_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Опасность!
 
-ping_ext_ground_need_help_here_generic				{player_color}{player_name} ({player_hero_name})^*: Нужна помощь!
+ping_ext_ground_need_help_here_generic			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Нужна помощь!
 
-ping_ext_ground_hero_missing_generic				{player_color}{player_name} ({player_hero_name})^*: Герой отсутствует
+ping_ext_ground_hero_missing_generic			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Герой отсутствует
 
-ping_ext_ground_hero_missing_going_top_generic		{player_color}{player_name} ({player_hero_name})^*: Герой пропал. Идет наверх
+ping_ext_ground_hero_missing_going_top_generic	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Герой пропал. Идет наверх
 
-ping_ext_ground_hero_missing_going_mid_generic		{player_color}{player_name} ({player_hero_name})^*: Герой пропал. Идет на мид
+ping_ext_ground_hero_missing_going_mid_generic	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Герой пропал. Идет на мид
 
-ping_ext_ground_hero_missing_going_bot_generic		{player_color}{player_name} ({player_hero_name})^*: Герой пропал. Идет на бот
+ping_ext_ground_hero_missing_going_bot_generic	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Герой пропал. Идет на бот
 
-ping_ext_ground_fight_here_generic					{player_color}{player_name} ({player_hero_name})^*: В атаку!
+ping_ext_ground_fight_here_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: В атаку!
 
-ping_ext_ground_coming_to_help_generic				{player_color}{player_name} ({player_hero_name})^*: Иду на помощь
+ping_ext_ground_coming_to_help_generic			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Иду на помощь
 
-ping_ext_assist_ally_hero_generic 			{player_color}{player_name} ({player_hero_name})^*: Помогите нашему {unit_team_color}{unit_name}^* на {ping_tile}!
+ping_ext_assist_ally_hero_generic 		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Помогите нашему {unit_team_color}{unit_name}^* на {ping_tile}!
 
 
 
 ping_ext_alt_attribute {player_color}{player_name} ({player_hero_name})^*: у меня {attribute_value} {attribute_type}
 
-ping_ext_alt_health									{player_color}{player_name} ({player_hero_name})^*: у меня ^g{param}^* здоровья
+ping_ext_alt_health								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня ^g{param}^* здоровья
 
-ping_ext_alt_mana									{player_color}{player_name} ({player_hero_name})^*: у меня ^379{param}^* маны
+ping_ext_alt_mana								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня ^379{param}^* маны
 
-ping_ext_alt_buyback_enough_gold					{player_color}{player_name} ({player_hero_name})^*: у меня есть ^y{param}^* золота, и я могу выкупиться
+ping_ext_alt_buyback_enough_gold				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и я могу выкупиться
 
-ping_ext_alt_buyback_lack_of_gold					{player_color}{player_name} ({player_hero_name})^*: у меня есть ^y{param}^* золота, и я не могу выкупиться
+ping_ext_alt_buyback_lack_of_gold				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и я не могу выкупиться
 
 ping_ext_alt_selected_attribute {player_color}{player_name} ({player_hero_name})^*: ^199{selected_hero_name}^* имеет {attribute_value} {attribute_type}
 
-ping_ext_alt_selected_health 						{player_color}{player_name} ({player_hero_name})^*: ^199{selected_hero_name}^* имеет ^g{param}^* здоровья
+ping_ext_alt_selected_health 					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{selected_hero_name}^* имеет ^g{param}^* здоровья
 
-ping_ext_alt_selected_mana 							{player_color}{player_name} ({player_hero_name})^*: ^199{selected_hero_name}^* имеет ^379{param}^* маны
+ping_ext_alt_selected_mana 						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{selected_hero_name}^* имеет ^379{param}^* маны
 
-ping_ext_alt_selected_inventory 					{player_color}{player_name} ({player_hero_name})^*: ^199{selected_hero_name}^* имеет предмет ^667{item}^*
+ping_ext_alt_selected_inventory 				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{selected_hero_name}^* имеет предмет ^667{item}^*
 
-ping_ext_alt_selected_enemy_health 					{player_color}{player_name} ({player_hero_name})^*: ^943{selected_hero_name}^* имеет ^g{param}^* здоровья
+ping_ext_alt_selected_enemy_health 				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{selected_hero_name}^* имеет ^g{param}^* здоровья
 
-ping_ext_alt_selected_enemy_mana 					{player_color}{player_name} ({player_hero_name})^*: ^943{selected_hero_name}^* имеет ^379{param}^* маны
+ping_ext_alt_selected_enemy_mana 				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{selected_hero_name}^* имеет ^379{param}^* маны
 
-ping_ext_alt_selected_enemy_inventory 				{player_color}{player_name} ({player_hero_name})^*: ^943{selected_hero_name}^* имеет предмет ^667{item}^*
+ping_ext_alt_selected_enemy_inventory 			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{selected_hero_name}^* имеет предмет ^667{item}^*
 
-ping_ext_alt_scoreboard_inventory 					{player_color}{player_name} ({player_hero_name})^*: {scoreboard_color}{scoreboard_hero_name}^* имеет ^667{item}^*
+ping_ext_alt_scoreboard_inventory 				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {scoreboard_color}{scoreboard_hero_name}^* имеет ^667{item}^*
 
-ping_ext_alt_scoreboard_ability 					{player_color}{player_name} ({player_hero_name})^*: {scoreboard_color}{scoreboard_hero_name}^* имеет способность ^667{ability}^*
+ping_ext_alt_scoreboard_ability 				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {scoreboard_color}{scoreboard_hero_name}^* имеет способность ^667{ability}^*
 
-ping_ext_alt_hero									{player_color}{player_name} ({player_hero_name})^*: ^943{hero_name}^* (Уровень {level})
+ping_ext_alt_hero								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{hero_name}^* (Уровень {level})
 
-ping_ext_alt_hero_dead								{player_color}{player_name} ({player_hero_name})^*: ^943{unit_name}^* (уровень {level}) возродится через ^y{time} секунд^*
+ping_ext_alt_hero_dead							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{unit_name}^* (уровень {level}) возродится через ^y{time} секунд^*
 
-ping_ext_alt_hero_missing							{player_color}{player_name} ({player_hero_name})^*: ^943{unit_name}^* отсутствует
+ping_ext_alt_hero_missing						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{unit_name}^* отсутствует
 
-ping_ext_alt_hero_afk								{player_color}{player_name} ({player_hero_name})^*: ^943{unit_name}^* (уровень {param}) - AFK
+ping_ext_alt_hero_afk							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{unit_name}^* (уровень {param}) - AFK
 
-ping_ext_alt_shop_item_enough_gold					{player_color}{player_name} ({player_hero_name})^*: я могу купить ^667{item}^*
+ping_ext_alt_shop_item_enough_gold				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: я могу купить ^667{item}^*
 
-ping_ext_alt_shop_item_lack_of_gold					{player_color}{player_name} ({player_hero_name})^*: мне нужно ^y{param}g^* для ^667{item}^*
+ping_ext_alt_shop_item_lack_of_gold				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: мне нужно ^y{param}g^* для ^667{item}^*
 
-ping_ext_alt_inventory_item_disabled				{player_color}{player_name} ({player_hero_name})^*: сейчас я не могу использовать ^667{item}^*
+ping_ext_alt_inventory_item_disabled			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: сейчас я не могу использовать ^667{item}^*
 
-ping_ext_alt_inventory_item_cooldown				{player_color}{player_name} ({player_hero_name})^*: ^y{param}s^* до того, как ^667{item}^* будет готов
+ping_ext_alt_inventory_item_cooldown			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^y{param}s^* до того, как ^667{item}^* будет готов
 
-ping_ext_alt_inventory_item_lack_of_mana			{player_color}{player_name} ({player_hero_name})^*: мне нужно ^379{param}^* маны, чтобы использовать ^667{item}^*
+ping_ext_alt_inventory_item_lack_of_mana		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: мне нужно ^379{param}^* маны, чтобы использовать ^667{item}^*
 
-ping_ext_alt_inventory_item_owned					{player_color}{player_name} ({player_hero_name})^*: у меня ^667{item}^*
+ping_ext_alt_inventory_item_owned				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня ^667{item}^*
 
-ping_ext_alt_inventory_item_ready					{player_color}{player_name} ({player_hero_name})^*: ^667{item}^* готово
+ping_ext_alt_inventory_item_ready				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^667{item}^* готово
 
-ping_ext_alt_ability_not_learnt						{player_color}{player_name} ({player_hero_name})^*: Я еще не выучил ^o{ability}^*
+ping_ext_alt_ability_not_learnt					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Я еще не выучил ^o{ability}^*
 
-ping_ext_alt_ability_disabled						{player_color}{player_name} ({player_hero_name})^*: сейчас я не могу использовать ^o{ability}^*.
+ping_ext_alt_ability_disabled					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: сейчас я не могу использовать ^o{ability}^*.
 
-ping_ext_alt_ability_cooldown						{player_color}{player_name} ({player_hero_name})^*: ^y{param}s^* до того, как ^o{ability}^* будет готов
+ping_ext_alt_ability_cooldown					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^y{param}s^* до того, как ^o{ability}^* будет готов
 
-ping_ext_alt_ability_lack_of_mana					{player_color}{player_name} ({player_hero_name})^*: мне нужно ^379{param}^* маны, чтобы использовать ^o{ability}^*
+ping_ext_alt_ability_lack_of_mana				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: мне нужно ^379{param}^* маны, чтобы использовать ^o{ability}^*
 
-ping_ext_alt_ability_ready							{player_color}{player_name} ({player_hero_name})^*: ^o{ability}{shortcut}^* готово
+ping_ext_alt_ability_ready						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^o{ability}{shortcut}^* готово
 
-ping_ext_alt_ability_selected_notify				{player_color}{player_name} ({player_hero_name})^*: ^199{selected_hero_name}^* обладает способностью ^o{ability}{shortcut}^*
+ping_ext_alt_ability_selected_notify			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{selected_hero_name}^* обладает способностью ^o{ability}{shortcut}^*
 
-ping_ext_alt_buff									{player_color}{player_name} ({player_hero_name})^*: {unit_color}{target}^* под действием ^g{state}^*
+ping_ext_alt_buff								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{target}^* под действием ^g{state}^*
 
-ping_ext_alt_buff_debuff							{player_color}{player_name} ({player_hero_name})^*: {unit_color}{target}^* под действием ^r{state}^*
+ping_ext_alt_buff_debuff						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{target}^* под действием ^r{state}^*
 
-ping_ext_alt_buff_state								{player_color}{player_name} ({player_hero_name})^*: {unit_color}{target}^* под действием ^b{state}^*
+ping_ext_alt_buff_state							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{target}^* под действием ^b{state}^*
 
-ping_ext_alt_stash_item								{player_color}{player_name} ({player_hero_name})^*: ^667{item}^* в моем тайнике
+ping_ext_alt_stash_item							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^667{item}^* в моем тайнике
 
 ping_ext_alt_курьер_inventory_item					{player_color}{player_name} ({player_hero_name})^*: ^667{item}^* доставляется мне
 
-ping_ext_alt_buyback_info_enoughgold				{player_color}{player_name} ({player_hero_name})^*: у меня есть ^y{param}^* золота, и я могу выкупить (осталось {remaining_buybacks})
+ping_ext_alt_buyback_info_enoughgold			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и я могу выкупить (осталось {remaining_buybacks})
 
-ping_ext_alt_buyback_info_shortofgold				{player_color}{player_name} ({player_hero_name})^*: у меня есть ^y{param}^* золота, и мне нужно {remaining_gold} дополнительного золота для выкупа
+ping_ext_alt_buyback_info_shortofgold			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и мне нужно {remaining_gold} дополнительного золота для выкупа
 
-ping_ext_alt_buyback_info_zeroleft					{player_color}{player_name} ({player_hero_name})^*: у меня есть ^y{param}^* золота, и у меня выкупы закончились
+ping_ext_alt_buyback_info_zeroleft				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и у меня выкупы закончились
 
-ping_ext_alt_latency								{player_color}{player_name} ({player_hero_name})^*: Мой пинг ^y{latency}^*ms
+ping_ext_alt_latency							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Мой пинг ^y{latency}^*ms
 
-ping_ext_alt_framerate								{player_color}{player_name} ({player_hero_name})^*: Мой FPS ^y{framerate}^*
+ping_ext_alt_framerate							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Мой FPS ^y{framerate}^*
 
-ping_ext_alt_experience_progress					{player_color}{player_name} ({player_hero_name})^*: мне ^759{current_level_exp}/{next_level_exp}^* до уровня ^759{next_level}^*
+ping_ext_alt_experience_progress				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: мне ^759{current_level_exp}/{next_level_exp}^* до уровня ^759{next_level}^*
 
-ping_ext_alt_experience_max_level					{player_color}{player_name} ({player_hero_name})^*: Мой максимальный уровень ^759^*
+ping_ext_alt_experience_max_level				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Мой максимальный уровень ^759^*
 
-ping_ext_alt_scoreboard_gpm							{player_color}{player_name} ({player_hero_name})^*: ^199{hero_name}^* имеет ^o{gpm}^* GPM
+ping_ext_alt_scoreboard_gpm						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{hero_name}^* имеет ^o{gpm}^* GPM
 
-ping_ext_alt_scoreboard_bounty						{player_color}{player_name} ({player_hero_name})^*: ^199{hero_name}^* имеет награду ^o{bounty}^*
+ping_ext_alt_scoreboard_bounty					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{hero_name}^* имеет награду ^o{bounty}^*
 
-ping_ext_alt_selected_level							{player_color}{player_name} ({player_hero_name})^*: ^199{selected_hero_name}^* - это уровень ^759{hero_level}^*
+ping_ext_alt_selected_level						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{selected_hero_name}^* - это уровень ^759{hero_level}^*
 
-ping_ext_alt_scoreboard_kda							{player_color}{player_name} ({player_hero_name})^*: ^199{hero_name}^* K/D/A - ^o{kills}^*/^o{deaths}^*/^o{assists}^*
+ping_ext_alt_scoreboard_kda						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{hero_name}^* K/D/A - ^o{kills}^*/^o{deaths}^*/^o{assists}^*
 
 ping_ext_alt_scoreboard_kda_self {player_color}{player_name} ({player_hero_name})^*: Мой K/D/A - ^o{kills}^*/^o{deaths}^*/^o{assists}^*
 
-ping_ext_alt_scoreboard_ck							{player_color}{player_name} ({player_hero_name})^*: CS ^199{hero_name}^* - ^o{ck}^*/^o{cd}^*
+ping_ext_alt_scoreboard_ck						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: CS ^199{hero_name}^* - ^o{ck}^*/^o{cd}^*
 
-ping_ext_alt_scoreboard_ck_self						{player_color}{player_name} ({player_hero_name})^*: Моя CS - ^o{ck}^*/^o{cd}^*
+ping_ext_alt_scoreboard_ck_self					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Моя CS - ^o{ck}^*/^o{cd}^*
 
-ping_ext_alt_scoreboard_teamgold					{player_color}{player_name} ({player_hero_name})^*: {teamname} средний GPM составляет {teamgold}
+ping_ext_alt_scoreboard_teamgold				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {teamname} средний GPM составляет {teamgold}
 
-ping_ext_alt_scoreboard_vision					 {player_color}{player_name} ({player_hero_name})^*: {teamname} обзор составляет {vision}%
+ping_ext_alt_scoreboard_vision				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {teamname} обзор составляет {vision}%
 
-ping_ext_alt_scoreboard_boss_respawn_time			{player_color}{player_name} ({player_hero_name})^*: Конгор возродится в {boss_respawn_time}.
+ping_ext_alt_scoreboard_boss_respawn_time		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Конгор возродится в {boss_respawn_time}.
 
-ping_ext_alt_scoreboard_boss_respawn_time_alive		{player_color}{player_name} ({player_hero_name})^*: Конгор жив!
+ping_ext_alt_scoreboard_boss_respawn_time_alive	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Конгор жив!
 
-ping_ext_alt_scoreboard_boss2_respawn_time			{player_color}{player_name} ({player_hero_name})^*: Феникс возродится в {boss_respawn_time}.
+ping_ext_alt_scoreboard_boss2_respawn_time		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Феникс возродится в {boss_respawn_time}.
 
-ping_ext_alt_scoreboard_boss2_respawn_time_alive	{player_color}{player_name} ({player_hero_name})^*: Феникс жив!
+ping_ext_alt_scoreboard_boss2_respawn_time_alive	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Феникс жив!
 
-ping_ext_alt_game_time								{player_color}{player_name} ({player_hero_name})^*: в настоящее время ^y{totalGameTime}^* и {currentTimeOfDay}. ^y{remainingTime}^* до {otherTimeOfDay}
+ping_ext_alt_game_time							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: в настоящее время ^y{totalGameTime}^* и {currentTimeOfDay}. ^y{remainingTime}^* до {otherTimeOfDay}
 
-ping_ext_alt_team_score								{player_color}{player_name} ({player_hero_name})^*: {teamname} имеет ^y{score}^* убийств
+ping_ext_alt_team_score							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {teamname} имеет ^y{score}^* убийств
 
 
 
@@ -688,13 +688,13 @@ error_safe_channel					Безопасный канал предотвратил 
 
 
 
-chat_all							{team_color}{player} ({hero}): ^*{message}
+chat_all						{account_color}{player}^*^; {team_color}({hero})^*: {message}
 
 chat_roll							^190[БРОСОК]^* {color}{message}
 
 chat_emote							^839[ЭМОЦИЯ]^* {color}{message}
 
-chat_team							{color}{player} ({hero}): ^*{message}
+chat_team						{account_color}{player}^*^; {color}({hero})^*: {message}
 
 chat_all_lobby						^269[ВСЕ] {account_color}{player}: ^*{message}
 
@@ -708,7 +708,7 @@ server_message						^188[СЕРВЕР] ^yСообщение сервера: {mes
 
 staff_message						^188[СООБЩЕНИЕ] ^*{player}: {message}
 
-chat_mentor							^527[МЕНТОР] {color}{player} ({hero}): ^*{message}
+chat_mentor						^527[МЕНТОР] {account_color}{player}^*^; {color}({hero})^*: {message}
 
 
 
@@ -1680,7 +1680,7 @@ showdown_herodamage_victory_hellbourne	Время вышло. Счёт по кр
 showdown_herodamage_victory_legion	Время вышло. Счёт по крипам равный. Легион побеждает по урону героям!
 vanity_msg_pumpsomeiron	{ownerPlayer_color}{ownerPlayer} ^999Надо покачать железо, чтобы вытащить эту ^911неподъёмную ^999команду!
 vanity_msg_noobspray	{ownerPlayer_color}{ownerPlayer} ^999применил спрей нуба на {targetPlayer_color}{targetPlayer}^999.
-total_mana_regen_mult_bonus		Общий бонус реген. маны
+total_mana_regen_mult_bonus	{value}% к общему реген. маны
 rejected_invalid_ward_location		Недопустимое место для варда
 showdown_random_victory_legion	Время вышло. Все показатели равны! Легион побеждает по жребию!
 showdown_towerkill_victory_legion		Легион победил по снесённым башням!
@@ -1688,8 +1688,8 @@ showdown_creepscore_victory_hellbourne		Хеллборн победил по д�
 Onev1mid_creepdeny_victory_hellbourne		Время вышло. Убийства крипов равны. Hellbourne побеждает по добиваниям: {param}!
 vanity_msg_watergun	{ownerPlayer_color}{ownerPlayer} ^999Водяной бой!!
 vanity_msg_myteamsucks	{ownerPlayer_color}{ownerPlayer}^*^; ^999Моя команда - ДНО!!!
-int_mult_bonus		Множитель интеллекта
-agi_mult_bonus		Множитель ловкости
+int_mult_bonus	{value}% интеллекта
+agi_mult_bonus	{value}% ловкости
 showdown_herokill_victory_legion		Легион победил по убийствам героев!
 showdown_towerdamage_victory_legion	Время вышло. Урон героям равный. Легион побеждает по урону башням!
 courier_msg_delivering		Курьер доставляет
@@ -1697,13 +1697,13 @@ showdown_random_victory_hellbourne	Время вышло. Все показат�
 vanity_msg_sabaisabai	{ownerPlayer_color}{ownerPlayer} ^999Сабай сабай!
 denytower	{player} ^444добил^* башню {ping_tile}!
 ping_ext_alt_courier_inventory_item	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^667{item}^* везут мне
-str_mult_bonus		Множитель силы
+str_mult_bonus	{value}% силы
 courier_msg_has_returned		Курьер вернулся
 vanity_msg_duncecap_owned	{ownerPlayer_color}{ownerPlayer}^*^; ^999считает, что {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999идиот!
 vanity_msg_salt_owned	{ownerPlayer_color}{ownerPlayer}^*^; ^999сыплет соль на {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}. ^999Вот это соль!
 boughtwalkingcourier	{account_color}{player}^*^; купил наземного курьера.
 vanity_msg_goal	{ownerPlayer_color}{ownerPlayer} ^999Гооол!!
-item_ophelias_pact_quest_points		Очки квеста Договора Офелии
+item_ophelias_pact_quest_points	^cOphelia's Pact^* прогресс: {param}/25 очков!
 killcourier	Курьер игрока {victim} убит игроком {killer}!
 vanity_msg_iqtest_owned	{ownerPlayer_color}{ownerPlayer}^*^; ^999меряет IQ у {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999! Эээ... 32?
 courier_msg_returning		Курьер возвращается

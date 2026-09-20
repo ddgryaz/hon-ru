@@ -1334,7 +1334,7 @@ staff_message				^188[ПЕРСОНАЛ] ^r{player}^*:
 // === NEW KEYS FOR TRANSLATION ===
 chat_command_colors		Цветовая схема чата
 chat_command_colors_line_2		Доступные цвета: white, red, green, blue, yellow, cyan, magenta, orange, pink, purple
-chat_denying_buddy		Отказ напарника
+chat_denying_buddy	^279* Отклонено предложение дружбы от ^990{name}^279...
 chat_command_colors_line_8	^279*^999 ^^;* возвращает обычный цвет, ^^;# переключает на предыдущий.
 chat_command_colors_line_7	^279*^999 Свечение:   ^^;: белое свечение вкл., ^^;; выкл., ^^;$RGB задаёт цвет свечения, ^^;$RGBI добавляет яркость 0-9.   ^900^:вот так^*^;
 chat_im_send_failed_rate_limited		Слишком много сообщений. Подождите.
