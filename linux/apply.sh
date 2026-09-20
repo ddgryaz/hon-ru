@@ -79,23 +79,30 @@ done
 # локали ru в игре нет
 STARTUP="$HON_DOCS_DIR/startup.cfg"
 if [ -f "$STARTUP" ]; then
-    [ -f "$STARTUP.honru-bak" ] || cp -p "$STARTUP" "$STARTUP.honru-bak"
-    python3 "$SCRIPT_DIR/lib/honru.py" cfg "$STARTUP" \
+    python3 "$SCRIPT_DIR/lib/honru.py" cfg "$STARTUP" "$STARTUP.honru-orig" \
         'host_locale=en' 'host_backuplocale=en' 'fs_disablemods=false'
 else
     echo "  startup.cfg появится после первого входа в игру - запусти скрипт ещё раз"
 fi
 
-# Без очистки часть строк останется в кеше на английском
-for cache in "$HON_DOCS_DIR/filecache" "$HON_DOCS_DIR/webcache"; do
-    [ -d "$cache" ] || continue
-    find "$cache" -mindepth 1 -delete 2>/dev/null || true
-    echo "  кеш очищен: $(basename "$cache")"
-done
+# Кеш чистим только при смене строк: там лежат отрисованные шрифтовые
+# атласы, и снос на каждом запуске просто замедляет старт игры
+STAMP_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/hon-ru"
+STAMP="$STAMP_DIR/strings.sha"
+NOW_SHA="$(cat "$STAGE"/*_en.str | sha256sum | cut -d' ' -f1)"
+if [ "$(cat "$STAMP" 2>/dev/null || true)" != "$NOW_SHA" ]; then
+    for cache in "$HON_DOCS_DIR/filecache" "$HON_DOCS_DIR/webcache"; do
+        [ -d "$cache" ] || continue
+        find "$cache" -mindepth 1 -delete 2>/dev/null || true
+        echo "  кеш очищен: $(basename "$cache")"
+    done
+    mkdir -p "$STAMP_DIR"
+    printf '%s\n' "$NOW_SHA" > "$STAMP"
+fi
 
 if [ "$ON_LAUNCH" = "1" ]; then
     echo
-    python3 "$SCRIPT_DIR/lib/honru.py" onlaunch \
+    python3 -u "$SCRIPT_DIR/lib/honru.py" onlaunch \
         "$STAGE" "$(IFS=,; echo "${HON_STR_SUFFIXES[*]}")" "$(hon_logdir)" \
         "$TIMEOUT" "$GAME_PROCESS" "$PROBE" "$TARGET"
     exit 0

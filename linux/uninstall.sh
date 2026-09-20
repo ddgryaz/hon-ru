@@ -43,16 +43,19 @@ done
 rmdir "$HON_GAME_DIR/game" "$HON_DOCS_DIR/game" 2>/dev/null || true
 echo "Файлов удалено: $removed"
 
+# Возвращаем только те значения, которые меняли сами: остальное в этом
+# файле - настройки игрока, накопленные с момента установки
 STARTUP="$HON_DOCS_DIR/startup.cfg"
-if [ -f "$STARTUP.honru-bak" ]; then
-    mv -f "$STARTUP.honru-bak" "$STARTUP"
-    echo "startup.cfg восстановлен из бэкапа"
-else
-    echo "Бэкапа startup.cfg нет - host_locale оставлен как есть"
+if [ -f "$STARTUP" ]; then
+    python3 "$SCRIPT_DIR/lib/honru.py" cfg-restore "$STARTUP" "$STARTUP.honru-orig"
 fi
+
+# Убираем старый бэкап целого файла, если остался от прежних версий
+rm -f "$STARTUP.honru-bak"
 
 for cache in "$HON_DOCS_DIR/filecache" "$HON_DOCS_DIR/webcache"; do
     [ -d "$cache" ] && find "$cache" -mindepth 1 -delete 2>/dev/null || true
 done
+rm -f "${XDG_CACHE_HOME:-$HOME/.cache}/hon-ru/strings.sha"
 
 echo "Готово. Не забудь убрать apply.sh из Launch Options в Steam."

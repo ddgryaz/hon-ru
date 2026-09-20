@@ -135,8 +135,16 @@ def cmd_merge(base_path, ru_path, dst, overrides_path, renames_path=''):
           % (stem, translated, kept))
 
 
-def cmd_cfg(path, pairs):
-    """Выставляет SetSave "<имя>" "<значение>" в startup.cfg, сохраняя кодировку."""
+def cmd_cfg(path, pairs, save_to=''):
+    """Выставляет SetSave "<имя>" "<значение>" в startup.cfg.
+
+    Кодировка сохраняется как есть: игра пишет этот файл в UTF-16LE.
+
+    Исходные значения запоминаются в отдельный файл, а не копией всего
+    startup.cfg: игра держит в нём свои настройки (хоткеи, графику, звук) и
+    постоянно их дописывает, поэтому откат целого файла через неделю вернул
+    бы пользователя к состоянию на день установки.
+    """
     with open(path, 'rb') as fh:
         data = fh.read()
     enc, bom = sniff(data)
@@ -145,6 +153,7 @@ def cmd_cfg(path, pairs):
     lines = text.split(newline)
 
     changed = []
+    previous = {}
     for name, value in pairs:
         want = 'SetSave "%s" "%s"' % (name, value)
         found = False
@@ -153,10 +162,12 @@ def cmd_cfg(path, pairs):
             if stripped.lower().startswith('setsave "%s"' % name.lower()):
                 found = True
                 if stripped != want:
+                    previous[name] = stripped
                     lines[i] = want
                     changed.append('%s -> %s' % (name, value))
                 break
         if not found:
+            previous[name] = ''      # строки не было, при откате удалим
             insert_at = len(lines)
             while insert_at > 0 and not lines[insert_at - 1].strip():
                 insert_at -= 1
@@ -167,6 +178,12 @@ def cmd_cfg(path, pairs):
         print('  startup.cfg: уже настроен, изменений нет')
         return
 
+    # Пишем только то, что было до нас, и только при первом вмешательстве
+    if save_to and previous and not os.path.exists(save_to):
+        with open(save_to, 'w', encoding='utf-8') as fh:
+            for name, line in previous.items():
+                fh.write('%s\t%s\n' % (name, line))
+
     out = bom + newline.join(lines).encode(enc)
     tmp = path + '.tmp'
     with open(tmp, 'wb') as fh:
@@ -174,6 +191,39 @@ def cmd_cfg(path, pairs):
     os.replace(tmp, path)
     for item in changed:
         print('  startup.cfg: %s' % item)
+
+
+def cmd_cfg_restore(path, saved):
+    """Возвращает в startup.cfg значения, сохранённые при установке."""
+    if not os.path.exists(saved):
+        print('  startup.cfg: нечего восстанавливать')
+        return
+    with open(saved, encoding='utf-8') as fh:
+        previous = [l.rstrip('\n').split('\t', 1) for l in fh if l.strip()]
+
+    with open(path, 'rb') as fh:
+        data = fh.read()
+    enc, bom = sniff(data)
+    text = data[len(bom):].decode(enc)
+    newline = '\r\n' if '\r\n' in text else '\n'
+    lines = text.split(newline)
+
+    restored = 0
+    for name, original in previous:
+        for i, line in enumerate(lines):
+            if line.strip().lower().startswith('setsave "%s"' % name.lower()):
+                if original:
+                    lines[i] = original
+                else:
+                    lines.pop(i)
+                restored += 1
+                break
+
+    with open(path + '.tmp', 'wb') as fh:
+        fh.write(bom + newline.join(lines).encode(enc))
+    os.replace(path + '.tmp', path)
+    os.remove(saved)
+    print('  startup.cfg: восстановлено значений: %d' % restored)
 
 
 def game_running(pattern):
@@ -203,8 +253,10 @@ def main():
                      sys.argv[4], float(sys.argv[5]), sys.argv[6],
                      sys.argv[7] == '1')
     elif sys.argv[1] == 'cfg':
-        pairs = [tuple(a.split('=', 1)) for a in sys.argv[3:]]
-        cmd_cfg(sys.argv[2], pairs)
+        pairs = [tuple(a.split('=', 1)) for a in sys.argv[4:]]
+        cmd_cfg(sys.argv[2], pairs, sys.argv[3])
+    elif sys.argv[1] == 'cfg-restore':
+        cmd_cfg_restore(sys.argv[2], sys.argv[3])
     else:
         sys.exit('unknown subcommand: %s' % sys.argv[1])
 
@@ -278,6 +330,20 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
     placed_at = time.time()
     print('  лаунчер передал управление движку - положено файлов: %d' % written)
 
+    # Дальше файлы обязаны быть убраны при любом исходе: если они переживут
+    # скрипт, следующий запуск лаунчера сочтёт установку битой и зациклится
+    # на "требуется обновление"
+    import signal
+
+    def _stop(signum, frame):
+        raise KeyboardInterrupt
+
+    for sig in (signal.SIGTERM, signal.SIGHUP):
+        try:
+            signal.signal(sig, _stop)
+        except (OSError, ValueError):
+            pass
+
     # Без inotify не отличить "движок не читает диск" от "не успели положить"
     probes = []
     if probe:
@@ -288,33 +354,40 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
                                     str(placed_at), '90'])
                   for t in targets if os.path.isdir(t)]
 
-    seen = False
-    while time.time() < deadline + 7200:
-        if game_running(pattern):
-            seen = True
-        elif seen:
-            break
-        time.sleep(1.0)
+    try:
+        seen = False
+        while time.time() < deadline + 7200:
+            if game_running(pattern):
+                seen = True
+            elif seen:
+                break
+            time.sleep(1.0)
 
-    for pr in probes:
-        try:
-            pr.wait(timeout=95)
-        except Exception:
-            pr.kill()
+        for pr in probes:
+            try:
+                pr.wait(timeout=95)
+            except Exception:
+                pr.kill()
+    except KeyboardInterrupt:
+        print('  прервано')
+    finally:
+        for pr in probes:
+            if pr.poll() is None:
+                pr.kill()
+        removed = 0
+        for path, _ in plan:
+            try:
+                os.remove(path)
+                removed += 1
+            except OSError:
+                pass
+        for target in targets:
+            try:
+                os.rmdir(target)
+            except OSError:
+                pass
+        print('  файлов убрано: %d' % removed)
 
-    removed = 0
-    for path, _ in plan:
-        try:
-            os.remove(path)
-            removed += 1
-        except OSError:
-            pass
-    for target in targets:
-        try:
-            os.rmdir(target)
-        except OSError:
-            pass
-    print('  игра закрыта, файлов убрано: %d' % removed)
 
 if __name__ == '__main__':
     main()
