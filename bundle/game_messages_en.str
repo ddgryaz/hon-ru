@@ -1727,3 +1727,6 @@ courier_msg_following				Courier is following you to await item transfer.
 showdown_creepscore_victory_legion			Time limit reached. Legion wins by Creep Score!
 deny							{killer_color}{killer}^*^; добил {victim_color}{victim}^*^;!
 vanity_msg_ilovemyteam				{ownerPlayer_color}{ownerPlayer} ^999loves their team!
+// Сообщения обликов
+vanity_msg_firecracker		{ownerPlayer_color}{ownerPlayer}^*^; ^999подложил петарду под {targetPlayer_color}{targetPlayer}.^*^; ^999Бабахнет!
+vanity_msg_firecracker_owned		{ownerPlayer_color}{ownerPlayer}^*^; ^999подложил петарду под {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}. ^999Бабахнет!

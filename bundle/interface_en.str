@@ -33453,3 +33453,102 @@ hero_tip_offensive_tip_Hero_Succubus_1		Применяйте Mesmerize на це
 hero_tip_offensive_tip_Hero_Succubus_2		Используйте Succubus' Hold из безопасного места, чтобы удержание продлилось дольше.
 hero_tip_defensive_tip_Hero_Succubus_1		К Succubus лучше подходить с союзником, чтобы её ультимейт с концентрацией не обездвижил вас надолго.
 hero_tip_defensive_tip_Hero_Succubus_2		Клик правой кнопкой по союзнику переносит Mesmerize на вас, и товарищ успевает уйти.
+// Жалобы на игроков
+report_player_match_time_caption		Время матча
+report_player_match_time		Время матча: {time}
+report_player_current_time		Текущее время
+report_player_minute_ago		1 минуту назад
+report_player_minutes_ago		{count} мин. назад
+report_player_quota_used_up		Вы израсходовали все жалобы на этой неделе. Эта жалоба записана, но на рассмотрение не пойдёт. Лимит жалоб обновляется раз в неделю.
+report_ui_header		Пожаловаться на игрока
+report_ui_header_submitted		Жалоба отправлена
+report_ui_header_failed		Жалоба не отправлена
+report_ui_reporting		Жалоба на:
+report_ui_reason		Причина
+report_ui_match_time		Время матча
+report_ui_details		Что произошло? (необязательно)
+report_ui_details_placeholder		Всё, что поможет Game Master найти это в записи матча.
+report_ui_confirm		Подтвердить
+report_ui_ok		ОК
+report_ui_success		Ваша жалоба отправлена и будет рассмотрена нашей командой модерации.
+report_ui_quota_used_up		Вы израсходовали все жалобы на этой неделе. Эта жалоба записана, но на рассмотрение не пойдёт. Лимит жалоб обновляется раз в неделю.
+report_ui_error_unknown		Произошла неизвестная ошибка.
+report_ui_error_already_reported		Вы уже жаловались на этого игрока.
+report_ui_error_permission_denied		Вы не можете пожаловаться на этого игрока.
+report_ui_error_invalid		Неверный запрос.
+report_ui_time_now		Сейчас
+report_ui_time_1m		1 мин. назад
+report_ui_time_3m		3 мин. назад
+report_ui_time_5m		5 мин. назад
+report_ui_time_10m		10 мин. назад
+report_ui_communication		Нарушения в общении
+report_ui_communication_report		Разжигание ненависти, оскорбления, угрозы, травля или разглашение чужих личных данных.
+report_ui_communication_not		Не про игрока, выругавшегося сгоряча - такого проще заглушить.
+report_ui_feeding		Намеренный фид
+report_ui_feeding_report		Раз за разом умышленно умирает или специально сливает игру.
+report_ui_feeding_not		Не про союзника, у которого не пошла игра. Ошибки и разница в навыке - это не фид.
+report_ui_afk_evasion		Обход проверки на AFK
+report_ui_afk_evasion_report		Делает ровно столько, чтобы обмануть систему AFK, и при этом не приносит пользы.
+report_ui_afk_evasion_not		Не про игрока, который правда отошёл: таких система помечает сама, и команда может выгнать голосованием.
+report_ui_not_participating		Не участвует в игре
+report_ui_not_participating_report		На месте и играет, но помогать не пытается: фармит лес, пока падает база.
+report_ui_not_participating_not		Не про игрока, который фармит другую линию, потому что не согласен с решением команды.
+report_ui_ability_abuse		Злоупотребление способностями и предметами
+report_ui_ability_abuse_report		Применяет способности или предметы против своей же команды, а также уничтожает, продаёт или передаёт предметы во вред.
+report_ui_ability_abuse_not		Не про один уведённый крип, фраг или предмет. Неприятно, но не повод для жалобы.
+report_ui_role_refusal		Отказ от роли
+report_ui_role_refusal_report		Отказывается играть назначенную роль или намеренно портит состав команды.
+report_ui_role_refusal_not		Не про спор о том, кому что играть. Сначала договоритесь в игре.
+report_ui_cheating		Читы и эксплойты
+report_ui_cheating_report		Скрипты, макросы, сторонние программы или использование бага ради преимущества.
+report_ui_cheating_not		Не про ловкое применение механики, которая работает как задумано.
+report_ui_boosting		Смурфы и бустинг
+report_ui_boosting_report		Сильный игрок на аккаунте с куда более низким рейтингом или передача своего аккаунта другому ради поднятия ранга.
+report_ui_boosting_not		Такие жалобы идут сразу к старшим GM и персоналу: они видят историю аккаунта, недоступную обычному разбору.
+// Подбор игр и аккаунт новичка
+mm_honor_coc		Правила поведения
+mm_honor_coc_tip		Прочитать правила поведения Heroes of Newerth
+mm_npe_title		Аккаунт новичка
+mm_npe_body		Аккаунты новичков могут выбирать героев только под назначенную роль. Все герои открываются после 100 матчей или раньше со статусом ветерана.
+mm_npe_cta		Купить статус ветерана
+mm_client_version_outofdate		Версия клиента устарела, перезапустите игру для обновления.
+mm_queue_cooldown_btn		Очередь доступна через: {time}
+mm_queue_btn_required		Отметьте роль поддержки, чтобы встать в очередь
+mm_queue_btn_cost		Встать в очередь - стоит {cost} жетон очереди ролей
+mm_queue_btn_earn		Встать в очередь - даёт +{win} / +{loss} жетонов очереди ролей
+mm_denied_four_player_party_ranked		Группа из четырёх игроков не может вставать в рейтинговые режимы. Убавьте до трёх или добавьте пятого.
+mm_denied_high_rated_party_size		Игроки с рейтингом 1850+ могут вставать в рейтинг только в одиночку или вдвоём.
+mm_denied_elite_party_rating_floor		Группа с игроком 1850+ может вставать в рейтинг только с игроками рейтинга 1500 и выше.
+mm_denied_insufficient_role_tokens		У вас нет жетонов очереди ролей. Отметьте мягкую или жёсткую поддержку, чтобы встать в рейтинговый Caldavar, либо сыграйте за поддержку и получите жетон.
+mm_denied_party_ratings_unavailable		Рейтинги вашей группы не удалось загрузить, поэтому рейтинг ей сейчас недоступен. Попробуйте через минуту.
+mm_role_tokens_title		Жетоны очереди ролей
+mm_notice_party_disparity_tier		Разброс рейтинга в вашей группе - {spread} MMR (уровень {tier}). Вы получаете и теряете на {reduction}% меньше MMR, а жетоны очереди ролей начисляться не будут.
+mm_notice_party_support_locked		Разброс рейтинга в вашей группе - {spread} MMR, поэтому этот матч вы встаёте только на поддержку. Сохранённые роли не меняются и вернутся, когда разрыв сократится. Вы получаете и теряете на {reduction}% меньше MMR.
+// Настройки, магазин, выбор роли
+store_caching_models		Готовим предпросмотр магазина
+options_smartcast_double_activate_delay		Задержка двойной активации при умном применении (мс)
+options_smartcast_double_activate_delay_tip		Задерживает умное применение для способностей и предметов с двойной активацией, давая вам время нажать горячую клавишу второй раз и активировать их дважды. (Камень телепортации перенесёт героя на базу, зелья здоровья применятся на вас самих и так далее.)\nДействует только на способности и предметы с двойной активацией - всё остальное по-прежнему применяется мгновенно. Значение 0 полностью отключает задержку.
+options_show_team_purchases		Показывать покупки союзников
+options_show_team_purchases_tip		Если включено, под журналом убийств всплывает небольшое окно, когда союзник собрал заметный предмет (варды, командные расходники или любой готовый предмет дороже заданного порога золота).
+options_slider_team_purchases_duration		Длительность всплывающих покупок союзников
+options_slider_team_purchases_duration_tip		Сколько секунд каждое всплывающее окно с покупкой союзника держится на экране перед исчезновением.
+options_animated_name_colors		Анимированные цвета имён
+options_animated_name_colors_tip		Проигрывает анимацию у тех цветов имени, где она есть. Выключите, чтобы все цвета имён отображались сплошной заливкой.
+store_equip_error_title		Не удалось надеть
+store_equip_error_message		Этот предмет не удалось надеть. Возможно, его уже нет в вашем инвентаре - откройте магазин заново и попробуйте ещё раз.
+store_equip_error_dismiss		ОК
+store_unequip_error_title		Не удалось снять
+store_unequip_error_message		Этот предмет не удалось снять. Откройте магазин заново и попробуйте ещё раз.
+rolepick_required_badge		Обязательно
+rolepick_paused_badge		Приостановлено
+rolepick_earn_badge		+{win} / +{loss}
+rolepick_foot_locked		Ваши сохранённые роли не меняются - они вернутся, когда вы покинете группу или разрыв сократится.
+rolepick_foot_cost		Если не взять ни одну поддержку, по окончании матча это будет стоить {cost} жетон очереди ролей. Отметьте любую из них, чтобы встать в очередь бесплатно.
+rolepick_foot_earn		Отмечены обе поддержки - даёт +{win} за победу и +{loss} за поражение.
+rolepick_foot_last_gain		Прошлый матч принёс +{delta} жетонов очереди ролей.
+rolepick_foot_last_loss		Прошлый матч стоил {delta} жетонов очереди ролей.
+vanity_cat_nameplates		Таблички имени
+vanity_cat_profile_frames		Рамки профиля
+vanity_cat_profile_backgrounds		Фоны профиля
+vanity_cat_profile_effects		Эффекты профиля
+store_equipped		Надето
