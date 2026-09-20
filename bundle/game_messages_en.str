@@ -1582,21 +1582,21 @@ general_magic Магический
 
 
 
-vanity_msg_self						{ownerPlayer_color}{ownerPlayer} ^999играл ^o{ability}^*
+vanity_msg_self						{ownerPlayer_color}{ownerPlayer}^*^; ^999играл ^o{ability}^*
 
 vanity_msg_dookie {ownerPlayer_color}{ownerPlayer} ^999выронил ^n кукушку!
 
 vanity_msg_dookie_count {ownerPlayer_color}{ownerPlayer} ^999выронил ^n кукушку!
 
-vanity_msg_piss 	{ownerPlayer_color}{ownerPlayer} ^999просто злился повсюду!
+vanity_msg_piss 	{ownerPlayer_color}{ownerPlayer}^*^; ^999просто злился повсюду!
 
 vanity_msg_bamf_welcometonewerth {ownerPlayer_color}{ownerPlayer} ^999приветствует вас в мире Ньюерта
 
-vanity_msg_bamf_immortal			{ownerPlayer_color}{ownerPlayer} ^999это чертовски хорошо!
+vanity_msg_bamf_immortal			{ownerPlayer_color}{ownerPlayer}^*^; ^999это чертовски хорошо!
 
-vanity_msg_bamf_genocide			{ownerPlayer_color}{ownerPlayer} ^999никто тебя не спасет...
+vanity_msg_bamf_genocide			{ownerPlayer_color}{ownerPlayer}^*^; ^999никто тебя не спасет...
 
-vanity_msg_bamf_smackdown			{ownerPlayer_color}{ownerPlayer} ^999садись, сынок!
+vanity_msg_bamf_smackdown			{ownerPlayer_color}{ownerPlayer}^*^; ^999садись, сынок!
 
 vanity_msg_dumpster {ownerPlayer_color}{ownerPlayer} ^999выкинул мусор
 
@@ -1608,13 +1608,13 @@ vanity_msg_ballsofsteel {ownerPlayer_color}{ownerPlayer} ^999JstJ рассыла
 
 vanity_msg_forgottospecify {ownerPlayer_color}{ownerPlayer} ^999забыл указать тщеславное сообщение!
 
-vanity_msg_soap						{ownerPlayer_color}{ownerPlayer} ^999только что уронил мыло!
+vanity_msg_soap						{ownerPlayer_color}{ownerPlayer}^*^; ^999только что уронил мыло!
 
-vanity_msg_getplanted				{ownerPlayer_color}{ownerPlayer} ^G^:ПОСТАВЛЕНО!!
+vanity_msg_getplanted				{ownerPlayer_color}{ownerPlayer}^*^; ^G^:ПОСТАВЛЕНО!!
 
-vanity_msg_clown					{ownerPlayer_color}{ownerPlayer} ^rc^gl^bo^rw^gn^be^rd {targetPlayer_color}{targetPlayer}
+vanity_msg_clown					{ownerPlayer_color}{ownerPlayer}^*^; ^rc^gl^bo^rw^gn^be^rd {targetPlayer_color}{targetPlayer}^*^;
 
-vanity_msg_clown_owned				{ownerPlayer_color}{ownerPlayer} ^rc^gl^bo^rw^gn^be^rd {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity}
+vanity_msg_clown_owned				{ownerPlayer_color}{ownerPlayer}^*^; ^rc^gl^bo^rw^gn^be^rd {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity}
 
 vanity_msg_thebest {ownerPlayer_color}{ownerPlayer} ^999присвоил {targetPlayer_color}{targetPlayer} ^999 звание ^yMVP
 
@@ -1622,55 +1622,55 @@ vanity_msg_thebest_owned {ownerPlayer_color}{ownerPlayer} ^999наградил {
 
 vanity_msg_roulette {ownerPlayer_color}{ownerPlayer} ^999испытывает свою удачу!
 
-vanity_msg_tv						{ownerPlayer_color}{ownerPlayer} ^999Последние новости! Местный ну замечен в Ньюерте!
+vanity_msg_tv						{ownerPlayer_color}{ownerPlayer}^*^; ^999Последние новости! Местный ну замечен в Ньюерте!
 
-vanity_msg_mmrburglar				{ownerPlayer_color}{ownerPlayer} ^999спасибо за ^Gбесплатный MMR!
+vanity_msg_mmrburglar				{ownerPlayer_color}{ownerPlayer}^*^; ^999спасибо за ^Gбесплатный MMR!
 
-vanity_msg_sitdown					{ownerPlayer_color}{ownerPlayer} ^999пододвинул стул, садись!
+vanity_msg_sitdown					{ownerPlayer_color}{ownerPlayer}^*^; ^999пододвинул стул, садись!
 
-vanity_msg_merrick_stripper			{ownerPlayer_color}{ownerPlayer} ^999начал ^Pразборку!
+vanity_msg_merrick_stripper			{ownerPlayer_color}{ownerPlayer}^*^; ^999начал ^Pразборку!
 
-vanity_msg_bigpimpin				{ownerPlayer_color}{ownerPlayer} ^Y^:БОЛЬШОЙ СУДЕНЕЦ!!
+vanity_msg_bigpimpin				{ownerPlayer_color}{ownerPlayer}^*^; ^Y^:БОЛЬШОЙ СУДЕНЕЦ!!
 
-vanity_msg_flamboyant				{ownerPlayer_color}{ownerPlayer} ^b^:B^g^:I^y^:T^r^:C^p^:H ^b^:S^g^:L^y^:A^r^:P^p^:P^b^:E^g^:D ^w!
+vanity_msg_flamboyant				{ownerPlayer_color}{ownerPlayer}^*^; ^b^:B^g^:I^y^:T^r^:C^p^:H ^b^:S^g^:L^y^:A^r^:P^p^:P^b^:E^g^:D ^w!
 
-vanity_msg_happynewyearnewerth		{ownerPlayer_color}{ownerPlayer} ^978желает вам СЧАСТЛИВОГО ^oНОВОГО ^yГОДА ^wНОВОСТИ!!!
+vanity_msg_happynewyearnewerth		{ownerPlayer_color}{ownerPlayer}^*^; ^978желает вам СЧАСТЛИВОГО ^oНОВОГО ^yГОДА ^wНОВОСТИ!!!
 
-vanity_msg_mmrcalculator			{ownerPlayer_color}{ownerPlayer} ^999Вычисление MMR... ^r^: ОШИБКА: ^rНЕВОЗМОЖНО ВЫЧИСЛИТЬ ОТРИЦАТЕЛЬНЫЙ MMR!
+vanity_msg_mmrcalculator			{ownerPlayer_color}{ownerPlayer}^*^; ^999Вычисление MMR... ^r^: ОШИБКА: ^rНЕВОЗМОЖНО ВЫЧИСЛИТЬ ОТРИЦАТЕЛЬНЫЙ MMR!
 
-vanity_msg_warbanner				{ownerPlayer_color}{ownerPlayer} ^999бросили свое боевое знамя!
+vanity_msg_warbanner				{ownerPlayer_color}{ownerPlayer}^*^; ^999бросили свое боевое знамя!
 
-vanity_msg_coffin					{ownerPlayer_color}{ownerPlayer} ^999Танец гроба!!!
+vanity_msg_coffin					{ownerPlayer_color}{ownerPlayer}^*^; ^999Танец гроба!!!
 
-vanity_msg_cleanupcrew				{ownerPlayer_color}{ownerPlayer} ^999Зачистка на острове 4, бригада зачистки уже здесь!
+vanity_msg_cleanupcrew				{ownerPlayer_color}{ownerPlayer}^*^; ^999Зачистка на острове 4, бригада зачистки уже здесь!
 
-vanity_msg_goodnight 				{ownerPlayer_color}{ownerPlayer} ^999Время поспать! Спокойной ночи...
+vanity_msg_goodnight 				{ownerPlayer_color}{ownerPlayer}^*^; ^999Время поспать! Спокойной ночи...
 
-vanity_msg_nerds 					{ownerPlayer_color}{ownerPlayer} ^999PUBTRAINING ^r NERDS!!!
+vanity_msg_nerds 					{ownerPlayer_color}{ownerPlayer}^*^; ^999PUBTRAINING ^r NERDS!!!
 
-vanity_msg_rps						{ownerPlayer_color}{ownerPlayer} ^999бросил вызов {targetPlayer_color}{targetPlayer} ^999 в игре "Камень, ножницы, бумага"!
+vanity_msg_rps						{ownerPlayer_color}{ownerPlayer}^*^; ^999бросил вызов {targetPlayer_color}{targetPlayer}^*^; ^999 в игре "Камень, ножницы, бумага"!
 
-vanity_msg_rps_owned				{ownerPlayer_color}{ownerPlayer} ^999бросил вызов принадлежащему {targetPlayer_color}{targetPlayer} Entity_color}{ownedEntity} ^999 в игре "Камень-ножницы-бумага"!
+vanity_msg_rps_owned				{ownerPlayer_color}{ownerPlayer}^*^; ^999бросил вызов: {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999 - камень, ножницы, бумага!
 
-vanity_msg_crybaby					{ownerPlayer_color}{ownerPlayer} ^999думает {targetPlayer_color}{targetPlayer} ^999 - маленькая плаксивая сучка!
+vanity_msg_crybaby					{ownerPlayer_color}{ownerPlayer}^*^; ^999думает {targetPlayer_color}{targetPlayer}^*^; ^999 - маленькая плаксивая сучка!
 
-vanity_msg_crybaby_owned			{ownerPlayer_color}{ownerPlayer} ^999думает, что {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity} ^999 из {targetPlayer_color}{ownedEntity} ^999 - маленькая плакса!
+vanity_msg_crybaby_owned			{ownerPlayer_color}{ownerPlayer}^*^; ^999считает, что {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999- маленькая плакса!
 
-vanity_msg_toxicbarrel				{ownerPlayer_color}{ownerPlayer} ^999Ты такой токсичный...
+vanity_msg_toxicbarrel				{ownerPlayer_color}{ownerPlayer}^*^; ^999Ты такой токсичный...
 
-vanity_msg_getjuked					{ownerPlayer_color}{ownerPlayer} ^999Держись, сынок!
+vanity_msg_getjuked					{ownerPlayer_color}{ownerPlayer}^*^; ^999Держись, сынок!
 
-vanity_msg_salt						{ownerPlayer_color}{ownerPlayer} ^999Посыпал солью {targetPlayer_color}{targetPlayer}. Такой соленый!
+vanity_msg_salt						{ownerPlayer_color}{ownerPlayer}^*^; ^999Посыпал солью {targetPlayer_color}{targetPlayer}. Такой соленый!
 
-vanity_msg_christmaspresent			{ownerPlayer_color}{ownerPlayer} ^999Получил вам рождественский подарок!
+vanity_msg_christmaspresent			{ownerPlayer_color}{ownerPlayer}^*^; ^999Получил вам рождественский подарок!
 
-vanity_msg_chipperbush				{ownerPlayer_color}{ownerPlayer} ^999Прячется в кустах...
+vanity_msg_chipperbush				{ownerPlayer_color}{ownerPlayer}^*^; ^999Прячется в кустах...
 
-vanity_msg_ambulance				{ownerPlayer_color}{ownerPlayer} ^999Вызовите скорую! Вызовите скорую! Но не для меня...
+vanity_msg_ambulance				{ownerPlayer_color}{ownerPlayer}^*^; ^999Вызовите скорую! Вызовите скорую! Но не для меня...
 
-vanity_msg_duncecap					{ownerPlayer_color}{ownerPlayer} ^999Думает {targetPlayer_color}{targetPlayer} ^999идиот!
+vanity_msg_duncecap					{ownerPlayer_color}{ownerPlayer}^*^; ^999Думает {targetPlayer_color}{targetPlayer}^*^; ^999идиот!
 
-vanity_msg_participationtrophy		{ownerPlayer_color}{ownerPlayer} ^999Вы старались изо всех сил...
+vanity_msg_participationtrophy		{ownerPlayer_color}{ownerPlayer}^*^; ^999Вы старались изо всех сил...
 
 // END
 
