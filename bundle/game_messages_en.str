@@ -222,7 +222,7 @@ ping_ext_assist_ally_hero_generic 		{account_color}{player_name}^*^; {player_col
 
 
 
-ping_ext_alt_attribute {player_color}{player_name} ({player_hero_name})^*: у меня {attribute_value} {attribute_type}
+ping_ext_alt_attribute {account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня {attribute_value} {attribute_type}
 
 ping_ext_alt_health								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня ^g{param}^* здоровья
 
@@ -232,7 +232,7 @@ ping_ext_alt_buyback_enough_gold				{account_color}{player_name}^*^; {player_col
 
 ping_ext_alt_buyback_lack_of_gold				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и я не могу выкупиться
 
-ping_ext_alt_selected_attribute {player_color}{player_name} ({player_hero_name})^*: ^199{selected_hero_name}^* имеет {attribute_value} {attribute_type}
+ping_ext_alt_selected_attribute {account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{selected_hero_name}^* имеет {attribute_value} {attribute_type}
 
 ping_ext_alt_selected_health 					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{selected_hero_name}^* имеет ^g{param}^* здоровья
 
@@ -316,7 +316,7 @@ ping_ext_alt_selected_level						{account_color}{player_name}^*^; {player_color}
 
 ping_ext_alt_scoreboard_kda						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{hero_name}^* K/D/A - ^o{kills}^*/^o{deaths}^*/^o{assists}^*
 
-ping_ext_alt_scoreboard_kda_self {player_color}{player_name} ({player_hero_name})^*: Мой K/D/A - ^o{kills}^*/^o{deaths}^*/^o{assists}^*
+ping_ext_alt_scoreboard_kda_self {account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Мой K/D/A - ^o{kills}^*/^o{deaths}^*/^o{assists}^*
 
 ping_ext_alt_scoreboard_ck						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: CS ^199{hero_name}^* - ^o{ck}^*/^o{cd}^*
 
@@ -1590,7 +1590,7 @@ vanity_msg_dookie_count {ownerPlayer_color}{ownerPlayer} ^999выронил ^n �
 
 vanity_msg_piss 	{ownerPlayer_color}{ownerPlayer}^*^; ^999просто злился повсюду!
 
-vanity_msg_bamf_welcometonewerth {ownerPlayer_color}{ownerPlayer} ^999приветствует вас в мире Ньюерта
+vanity_msg_bamf_welcometonewerth {ownerPlayer_color}{ownerPlayer}^*^; ^999приветствует вас в мире Ньюэрта
 
 vanity_msg_bamf_immortal			{ownerPlayer_color}{ownerPlayer}^*^; ^999это чертовски хорошо!
 
@@ -1598,15 +1598,15 @@ vanity_msg_bamf_genocide			{ownerPlayer_color}{ownerPlayer}^*^; ^999никто �
 
 vanity_msg_bamf_smackdown			{ownerPlayer_color}{ownerPlayer}^*^; ^999садись, сынок!
 
-vanity_msg_dumpster {ownerPlayer_color}{ownerPlayer} ^999выкинул мусор
+vanity_msg_dumpster {ownerPlayer_color}{ownerPlayer}^*^; ^999вынес мусор
 
 vanity_msg_kiss {ownerPlayer_color}{ownerPlayer} ^999подарил {targetPlayer_color}{targetPlayer} ^999большую, мокрую ^rпоцелуй
 
 vanity_msg_kiss_owned {ownerPlayer_color}{ownerPlayer} ^999подарил {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity} ^999большую, мокрую ^r поцелуй
 
-vanity_msg_ballsofsteel {ownerPlayer_color}{ownerPlayer} ^999JstJ рассылают спам, пока он может
+vanity_msg_ballsofsteel {ownerPlayer_color}{ownerPlayer}^*^; ^999спамит JstJ, пока может
 
-vanity_msg_forgottospecify {ownerPlayer_color}{ownerPlayer} ^999забыл указать тщеславное сообщение!
+vanity_msg_forgottospecify {ownerPlayer_color}{ownerPlayer}^*^; ^999забыл указать текст сообщения!
 
 vanity_msg_soap						{ownerPlayer_color}{ownerPlayer}^*^; ^999только что уронил мыло!
 
@@ -1620,7 +1620,7 @@ vanity_msg_thebest {ownerPlayer_color}{ownerPlayer} ^999присвоил {target
 
 vanity_msg_thebest_owned {ownerPlayer_color}{ownerPlayer} ^999наградил {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity} ^999самым ценным игроком ^y
 
-vanity_msg_roulette {ownerPlayer_color}{ownerPlayer} ^999испытывает свою удачу!
+vanity_msg_roulette {ownerPlayer_color}{ownerPlayer}^*^; ^999испытывает свою удачу!
 
 vanity_msg_tv						{ownerPlayer_color}{ownerPlayer}^*^; ^999Последние новости! Местный ну замечен в Ньюерте!
 

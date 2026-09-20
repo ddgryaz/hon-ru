@@ -3590,7 +3590,7 @@ State_BackdoorProtection_Regen_name								Backdoor Protection (Regen)
 
 
 
-State_BackdoorProtection_Self_name	Защита от бэкдора активна
+State_BackdoorProtection_Self_name	Backdoor Protection Active
 
 
 
@@ -3630,7 +3630,7 @@ State_BackdoorProtection_Self_FRAME_effect:is_tower	80% снижение уро�
 
 
 
-State_BackdoorProtection_Shrine_name	Защита от бэкдора активна
+State_BackdoorProtection_Shrine_name	Backdoor Protection Active
 
 
 
@@ -3678,7 +3678,7 @@ State_BackdoorProtection_Shrine_FRAME_effect:is_tower	80% снижение ур�
 
 
 
-State_BackdoorProtection_Invuln_name	Неуязвимость
+State_BackdoorProtection_Invuln_name	Invulnerability
 
 
 
@@ -4894,7 +4894,7 @@ State_DefiledCathedral_Activated_FRAME_effect					Каждые 10 сек. соз
 
 
 
-State_DefiledCathedral_Pregame_name	Оскверненный собор (неуязвимость)
+State_DefiledCathedral_Pregame_name	Defiled Cathedral (Invulnerability)
 
 
 
@@ -4974,7 +4974,7 @@ State_DefiledCathedral_Regen_FRAME_effect						Регенерация актив
 
 
 
-State_DefiledCathedral_Scaling_name	Оскверненное масштабирование
+State_DefiledCathedral_Scaling_name	Defiled Scaling
 
 
 
@@ -5022,7 +5022,7 @@ Pet_DefiledCathedral_Melee_name									Defiled Soldier
 
 
 
-State_DefiledCathedral_Melee_Scaling_name	Оскверненное масштабирование
+State_DefiledCathedral_Melee_Scaling_name	Defiled Scaling
 
 
 
@@ -5070,7 +5070,7 @@ Pet_DefiledCathedral_Ranged_name								Defiled Mage
 
 
 
-State_DefiledCathedral_Ranged_Scaling_name	Оскверненное масштабирование
+State_DefiledCathedral_Ranged_Scaling_name	Defiled Scaling
 
 
 
@@ -5118,7 +5118,7 @@ Pet_DefiledCathedral_Tank_name									Defiled Vanguard
 
 
 
-State_DefiledCathedral_Tank_Scaling_name	Оскверненное масштабирование
+State_DefiledCathedral_Tank_Scaling_name	Defiled Scaling
 
 
 
@@ -33974,7 +33974,7 @@ Ability_Gauntlet4_Sub_IMPACT_effect								В выбранной области:
 
 
 
-Ability_Gauntlet4_Sub_name	Ракетный кулак
+Ability_Gauntlet4_Sub_name	Rocket Fist
 
 
 
@@ -59091,7 +59091,7 @@ State_Ophelia_Ability2_description								По истечении телепор
 
 
 
-State_Ophelia_Ability2_Creep_name	Суд Офелии
+State_Ophelia_Ability2_Creep_name	Ophelia's Judgment
 
 
 
@@ -61723,7 +61723,7 @@ Ability_Pearl4_description_simple	^oPush nearby enemies^* away, stunning them ov
 
 
 
-Ability_Pearl4_description_simple:ult_boost	^oОттолкнуть врагов^*, Оглушение 1 сек. Пузырь снижает урон от врагов за пределами на ^o{45,60,75}%^* (работает в обе стороны).\n\nИсцеляет на ^o{150,250,350} ХП^* при применении. Длит.: ^o{7/8.5/10}^* сек. ^gМожно переместить пузырь 1 раз (50% исцеления).^*
+Ability_Pearl4_description_simple:ult_boost	^oОтталкивает врагов рядом^*, оглушая их на 1 сек. Создаёт для союзников область, которая ^oснижает весь входящий урон от врагов с другой стороны на {45,60,75}%^*. Снижение урона работает и когда союзник снаружи, а вражеский герой внутри пузыря.\n\nПри применении лечит союзников на ^o{150,250,350} здоровья^*. Держится ^o{7,8.5,10}^* сек. ^gМожно один раз переставить пузырь после применения, заново накладывая все его эффекты (лечение при этом вдвое слабее).^*
 
 
 
@@ -72331,7 +72331,7 @@ Ability_Salomon2_tooltip_flavor									Месть причиняет боль.
 
 
 
-State_Salomon_Ability2_name	Мстительный прыжок
+State_Salomon_Ability2_name	Avenging Leap
 
 
 
@@ -72723,7 +72723,7 @@ State_SandWraith_Ability1_Debuff_name							Desert's Curse
 
 
 
-State_SandWraith_Ability1_Haste_name	Благословение пустыни
+State_SandWraith_Ability1_Haste_name	Desert's Blessing
 
 
 
@@ -102819,7 +102819,7 @@ Item_SpellShards_FRAME_effect									+2 пробивания маг. брони
 
 
 
-Item_ObsidianBell_name	Обсидиановый колокол
+Item_ObsidianBell_name	Obsidian Bell
 
 
 
@@ -116539,7 +116539,7 @@ Ability_Kongor3_description_simple								Дает 5% реген. ХП в сек
 
 
 
-Ability_Kongor4_name	Стойкость
+Ability_Kongor4_name	Resilience
 
 
 
@@ -116683,7 +116683,7 @@ State_KongorSummon_Aura_FRAME_effect							{0,150,300} Щит HP
 
 
 
-State_KongorBoss_Lifesteal_Reduction_name	Стойкость Конгора
+State_KongorBoss_Lifesteal_Reduction_name	Kongor's Resilience
 
 
 
@@ -119099,7 +119099,7 @@ Ability_PhoenixBoss1_IMPACT_effect								Феникс запускает огн
 
 
 
-State_PhoenixBoss_Ability1_name	Огненный дождь
+State_PhoenixBoss_Ability1_name	Fiery Rain
 
 
 
@@ -119219,7 +119219,7 @@ Ability_PhoenixBoss3_tooltip_flavor								Из пламени я возрожд
 
 
 
-State_PhoenixBoss_Ability3_Slow_name	Ярость Феникса
+State_PhoenixBoss_Ability3_Slow_name	Phoenix Fury
 
 
 
@@ -119299,7 +119299,7 @@ Ability_PhoenixBoss4_description_simple:boss_resist_max	 Дает ^o100%^* ум�
 
 
 
-State_PhoenixBoss_Lifesteal_Reduction_name	Упорство Феникса
+State_PhoenixBoss_Lifesteal_Reduction_name	Phoenix's Tenacity
 
 
 
@@ -125275,7 +125275,7 @@ Roast_ParticipationTrophy_description_simple					Ты старался, как �
 
 
 
-Gadget_Tombstone_name	Надгробие
+Gadget_Tombstone_name	Tombstone
 
 
 

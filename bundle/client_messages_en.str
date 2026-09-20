@@ -950,7 +950,7 @@ chat_command_kick					/kick
 
 chat_command_kick_short				/k
 
-chat_command_kick_info /kick <user> (Requires channel admin privileges)
+chat_command_kick_info /kick <игрок> (нужны права админа канала)
 
 chat_command_ban					/ban
 
