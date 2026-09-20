@@ -1676,45 +1676,45 @@ vanity_msg_participationtrophy		{ownerPlayer_color}{ownerPlayer}^*^; ^999Вы с
 
 
 // === NEW KEYS FOR TRANSLATION ===
-showdown_herodamage_victory_hellbourne		Хеллборн победил по урону героев!
-showdown_herodamage_victory_legion		Легион победил по урону героев!
-vanity_msg_pumpsomeiron		Покачал железо
-vanity_msg_noobspray		Спрей нуба
+showdown_herodamage_victory_hellbourne	Время вышло. Счёт по крипам равный. Хеллборн побеждает по урону героям!
+showdown_herodamage_victory_legion	Время вышло. Счёт по крипам равный. Легион побеждает по урону героям!
+vanity_msg_pumpsomeiron	{ownerPlayer_color}{ownerPlayer} ^999Надо покачать железо, чтобы вытащить эту ^911неподъёмную ^999команду!
+vanity_msg_noobspray	{ownerPlayer_color}{ownerPlayer} ^999применил спрей нуба на {targetPlayer_color}{targetPlayer}^999.
 total_mana_regen_mult_bonus		Общий бонус реген. маны
 rejected_invalid_ward_location		Недопустимое место для варда
-showdown_random_victory_legion		Легион победил по жребию!
+showdown_random_victory_legion	Время вышло. Все показатели равны! Легион побеждает по жребию!
 showdown_towerkill_victory_legion		Легион победил по снесённым башням!
 showdown_creepscore_victory_hellbourne		Хеллборн победил по добитым крипам!
 Onev1mid_creepdeny_victory_hellbourne		Время вышло. Убийства крипов равны. Hellbourne побеждает по добиваниям: {param}!
-vanity_msg_watergun		Водяной пистолет
-vanity_msg_myteamsucks		Моя команда сосёт
+vanity_msg_watergun	{ownerPlayer_color}{ownerPlayer} ^999Водяной бой!!
+vanity_msg_myteamsucks	{ownerPlayer_color}{ownerPlayer}^*^; ^999Моя команда - ДНО!!!
 int_mult_bonus		Множитель интеллекта
 agi_mult_bonus		Множитель ловкости
 showdown_herokill_victory_legion		Легион победил по убийствам героев!
-showdown_towerdamage_victory_legion		Легион победил по урону башням!
+showdown_towerdamage_victory_legion	Время вышло. Урон героям равный. Легион побеждает по урону башням!
 courier_msg_delivering		Курьер доставляет
-showdown_random_victory_hellbourne		Хеллборн победил по жребию!
-vanity_msg_sabaisabai		Сабай-сабай
-denytower		Отказ башни
-ping_ext_alt_courier_inventory_item		Предмет в инвентаре курьера
+showdown_random_victory_hellbourne	Время вышло. Все показатели равны! Хеллборн побеждает по жребию!
+vanity_msg_sabaisabai	{ownerPlayer_color}{ownerPlayer} ^999Сабай сабай!
+denytower	{player} ^444добил^* башню {ping_tile}!
+ping_ext_alt_courier_inventory_item	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^667{item}^* везут мне
 str_mult_bonus		Множитель силы
 courier_msg_has_returned		Курьер вернулся
-vanity_msg_duncecap_owned		Колпак дурака надет
-vanity_msg_salt_owned		Соль рассыпана
-boughtwalkingcourier		Куплен наземный курьер
-vanity_msg_goal		ГОООЛ!
+vanity_msg_duncecap_owned	{ownerPlayer_color}{ownerPlayer}^*^; ^999считает, что {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999идиот!
+vanity_msg_salt_owned	{ownerPlayer_color}{ownerPlayer}^*^; ^999сыплет соль на {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}. ^999Вот это соль!
+boughtwalkingcourier	{account_color}{player}^*^; купил наземного курьера.
+vanity_msg_goal	{ownerPlayer_color}{ownerPlayer} ^999Гооол!!
 item_ophelias_pact_quest_points		Очки квеста Договора Офелии
-killcourier		Убит курьер
-vanity_msg_iqtest_owned		IQ тест проведён
+killcourier	Курьер игрока {victim} убит игроком {killer}!
+vanity_msg_iqtest_owned	{ownerPlayer_color}{ownerPlayer}^*^; ^999меряет IQ у {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999! Эээ... 32?
 courier_msg_returning		Курьер возвращается
 showdown_towerkill_victory_hellbourne		Хеллборн победил по снесённым башням!
-boughtflyingcourier		Куплен летающий курьер
-vanity_msg_iqtest		IQ тест
-vanity_msg_questionmark_owned		Вопросительный знак
+boughtflyingcourier	{account_color}{player}^*^; купил летающего курьера.
+vanity_msg_iqtest	{ownerPlayer_color}{ownerPlayer}^*^; ^999меряет IQ игрока {targetPlayer_color}{targetPlayer}^*^; ^999! Эээ... 32?
+vanity_msg_questionmark_owned	^999Что вытворяет {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}???
 hero_random_favorites				{player_color}{player}^* has randomed ^885{hero_name}^* ^yusing favourites.
 Onev1mid_creepdeny_victory_legion		Время вышло. Убийства крипов равны. Legion побеждает по добиваниям: {param}!
 courier_msg_fetching		Курьер забирает предметы
-showdown_towerdamage_victory_hellbourne		Хеллборн победил по урону башням!
+showdown_towerdamage_victory_hellbourne	Время вышло. Урон героям равный. Хеллборн побеждает по урону башням!
 error_courier_no_stash		У курьера нет тайника
 courier_msg_attacked				Courier is forced to return to the base
 vanity_msg_noobspray_owned			{ownerPlayer_color}{ownerPlayer} ^999Used noob spray on {targetPlayer_color}{targetPlayer}'s {ownedEntity_color}{ownedEntity}^999.
@@ -1722,8 +1722,8 @@ vanity_msg_questionmark				^999What is {targetPlayer_color}{targetPlayer}^*^; ^9
 showdown_herokill_victory_hellbourne		2 Legion deaths! Hellbourne wins!
 total_health_regen_mult_bonus		{value}% Total Health Regeneration
 courier_actions_queued				Delivering your items.
-teamdenytower						{denier} has ^444denied^* a {ping_tile} tower!
+teamdenytower					{denier} ^444добил^* башню {ping_tile}!
 courier_msg_following				Courier is following you to await item transfer.
 showdown_creepscore_victory_legion			Time limit reached. Legion wins by Creep Score!
-deny								{killer_color}{killer}^*^; denied {victim_color}{victim}^*^;!
+deny							{killer_color}{killer}^*^; добил {victim_color}{victim}^*^;!
 vanity_msg_ilovemyteam				{ownerPlayer_color}{ownerPlayer} ^999loves their team!

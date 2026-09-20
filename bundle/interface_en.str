@@ -32758,7 +32758,7 @@ tutorial_npe_complete_hint	Для повтора: Обучение > Разде�
 tutorial_npe_complete_message	Что дальше?
 tutorial_npe_complete_message_hon	Вы в курсе последних изменений. Удачи!
 tutorial_npe_complete_message_moba	Освоили основы HoN: Reborn. Пора доминировать!
-tutorial_npe_complete_message_new	Освоили основы HoN: Reborn. Удачи!
+tutorial_npe_complete_message_new	Вы освоили основы Heroes of Newerth: Reborn. Удачи на поле боя!
 tutorial_npe_complete_title	Готово!
 tutorial_npe_complete_title_hon	С возвращением!
 tutorial_npe_complete_title_moba	Добро пожаловать в Неверт!
@@ -32767,44 +32767,44 @@ tutorial_npe_skill_lvl_feedback_hon	Как опытный игрок HoN, узн
 tutorial_npe_skill_lvl_feedback_moba	Как игрок MOBA, узнаете отличия HoN от других игр.
 tutorial_npe_skill_lvl_feedback_new	Как новый игрок, пройдёте полное обучение.
 tutorial_slide_auto_level	Авто-прокачка
-tutorial_slide_auto_level_desc	Авто-прокачка автоматически повышает уровень умений.
+tutorial_slide_auto_level_desc	Автопрокачка сама повышает уровень ваших способностей, чтобы вы сосредоточились на игре и не думали об очках умений.
 tutorial_slide_cosmetics	Косметика
 tutorial_slide_courier_control	Управление курьером
-tutorial_slide_courier_control_desc	Курьер доставляет предметы. Нажмите кнопку для доставки.
+tutorial_slide_courier_control_desc	Ваш курьер доставляет купленные предметы прямо на поле боя.\n\nЕсли вы не на базе и не можете забрать покупки, просто нажмите кнопку курьера или горячую клавишу доставки.
 tutorial_slide_courier_delivery	Доставка курьером
 tutorial_slide_courier_delivery_desc	Курьер поместит предметы в инвентарь и вернётся на базу.
 tutorial_slide_courier_unit	Единица курьера
-tutorial_slide_courier_unit_desc	Курьера можно убить и временно вывести из строя.
+tutorial_slide_courier_unit_desc	Курьер сам доберётся до вас с базы с купленными предметами.\n\nПомните, что курьера могут убить, и тогда он на время выйдет из строя, так что отправляйте его с умом!
 tutorial_slide_creeps	Крипы
-tutorial_slide_creeps_desc	Крипы каждые 30 сек. Убивайте для золота и опыта.
+tutorial_slide_creeps_desc	Крипы появляются и на вашей стороне, и на стороне врага каждые 30 сек.\n\nЗа убийство крипа вы получаете золото (если добили его) и опыт (он делится с союзниками рядом).
 tutorial_slide_custom_games	Пользовательские игры
 tutorial_slide_custom_games_desc_bottom	Режим тренировки через переключатель Тренировка.
 tutorial_slide_custom_games_desc_top	Вкладка Пользовательские игры для создания лобби.
 tutorial_slide_custom_lobby	Пользовательское лобби
 tutorial_slide_custom_lobby_desc_bottom	-
-tutorial_slide_custom_lobby_desc_top	Слоты игроков и параметры лобби.
+tutorial_slide_custom_lobby_desc_top	На этом экране показаны слоты игроков в вашем лобби, а также все сведения о лобби и настройки игры.
 tutorial_slide_custom_lobby_info	Информация о лобби
 tutorial_slide_custom_lobby_player_pod	Слот игрока
 tutorial_slide_emoteshop	Магазин эмоций
 tutorial_slide_emoteuse	Использование эмоций
 tutorial_slide_fountain	Фонтан
-tutorial_slide_fountain_desc	Восстанавливает жизнь и ману. Враги атакуются.
+tutorial_slide_fountain_desc	Фонтаны дают безопасное место, где бесплатно восстанавливаются здоровье и мана, а после гибели там возрождается ваш герой. Врагов, подошедших к фонтану вашей команды, будут атаковать. Ещё у фонтана стоят торговцы, у которых за золото покупают мощные предметы.
 tutorial_slide_fountain_title	Фонтан
 tutorial_slide_game_info_overview	Информация об игре
 tutorial_slide_gold	Золото
-tutorial_slide_gold_desc	Золото: пассивно, за крипов, цели и убийства.
+tutorial_slide_gold_desc	Золото добывается несколькими способами: пассивно со временем, за убийство крипов и захват целей, а также за убийства вражеских героев и помощь в них.
 tutorial_slide_hero_abilities	Умения героя
 tutorial_slide_hero_abilities_basic_abilities	Базовые умения Q W E
 tutorial_slide_hero_abilities_basic_max	Максимум 4 уровня
 tutorial_slide_hero_abilities_basic_upgradable	Доступны с 1-го уровня
-tutorial_slide_hero_abilities_desc	Базовые умения и ультимативное. Каждый уровень = 1 очко.
+tutorial_slide_hero_abilities_desc	У героев есть свой набор базовых способностей и ультимативная способность.\nКаждый уровень героя даёт 1 очко прокачки: нажмите кнопку с плюсом или используйте горячие клавиши, чтобы прокачать способность.
 tutorial_slide_hero_abilities_ultimate_ability	Ультимативное умение R
 tutorial_slide_hero_abilities_ultimate_max	Максимум 3 уровня
 tutorial_slide_hero_abilities_ultimate_upgradable	На уровнях 6, 11 и 16
 tutorial_slide_hero_attributes	Характеристики героя
 tutorial_slide_hero_attributes_agility	Ловкость
 tutorial_slide_hero_attributes_agility_desc	+0,14 брони и +0,01 скорости атаки за единицу.
-tutorial_slide_hero_attributes_desc	Каждый герой: Сила, Ловкость или Интеллект.
+tutorial_slide_hero_attributes_desc	Каждый герой специализируется на одном атрибуте: Силе, Ловкости или Интеллекте, который даёт ему доп. урон и особые преимущества в характеристиках.\nОсновной атрибут героя во многом связан с его ролью, но бывают исключения.
 tutorial_slide_hero_attributes_intelligence	Интеллект
 tutorial_slide_hero_attributes_intelligence_desc	+13 макс. маны и 0,04 регенерации маны за единицу.
 tutorial_slide_hero_attributes_strength	Сила
@@ -32814,7 +32814,7 @@ tutorial_slide_hero_interface_ability_mana_cost	Стоимость умения
 tutorial_slide_hero_interface_base_attributes	Базовые характеристики
 tutorial_slide_hero_interface_consumable_slot	Слот расходников
 tutorial_slide_hero_interface_courier_status	Статус курьера
-tutorial_slide_hero_interface_desc	Нижняя область: характеристики, инвентарь и умения.
+tutorial_slide_hero_interface_desc	Эта область снизу по центру показывает характеристики героя, инвентарь и способности - всё, что нужно для управления персонажем.
 tutorial_slide_hero_interface_experience_bar	Полоса опыта
 tutorial_slide_hero_interface_gold_owned	Имеющееся золото
 tutorial_slide_hero_interface_health_bar	Полоса здоровья
@@ -32831,77 +32831,77 @@ tutorial_slide_hero_interface_taunt	Насмешка
 tutorial_slide_hero_interface_teleport	Телепорт
 tutorial_slide_hero_stats	Характеристики героя
 tutorial_slide_hero_stats_armor	Броня
-tutorial_slide_hero_stats_armor_desc	Снижает физ. урон.
+tutorial_slide_hero_stats_armor_desc	Снижает получаемый физ. урон на процент.
 tutorial_slide_hero_stats_attack	Урон атаки
-tutorial_slide_hero_stats_attack_desc	Урон при автоатаке.
-tutorial_slide_hero_stats_desc	Начальные характеристики отличаются у разных героев.
+tutorial_slide_hero_stats_attack_desc	Определяет, сколько урона юнит наносит автоатакой.
+tutorial_slide_hero_stats_desc	Начальные характеристики у разных героев разные.\nИх меняют, в частности, повышение уровня, прокачка способностей и покупка предметов.
 tutorial_slide_hero_stats_magic_armor	Магическая броня
-tutorial_slide_hero_stats_magic_armor_desc	Снижает маг. урон.
+tutorial_slide_hero_stats_magic_armor_desc	Снижает получаемый маг. урон на процент.
 tutorial_slide_hero_stats_move_speed	скор. движ.
-tutorial_slide_hero_stats_move_speed_desc	скор. движ. по карте.
+tutorial_slide_hero_stats_move_speed_desc	Определяет, насколько быстро ваш герой перемещается по карте.
 tutorial_slide_honor_rating	Рейтинг чести
-tutorial_slide_honor_rating_desc	Рейтинг чести вознаграждает хорошее поведение.
+tutorial_slide_honor_rating_desc	Здесь вы найдёте свой Рейтинг чести - систему, которая вознаграждает хорошее поведение более приятной игрой.
 tutorial_slide_ingame_shop	Внутриигровой магазин
 tutorial_slide_ingame_shop_classic	Классический
-tutorial_slide_ingame_shop_classic_desc	Классический интерфейс для ветеранов.
+tutorial_slide_ingame_shop_classic_desc	Классические вид и поведение магазина - для ветеранов HoN, которым привычнее оригинал.
 tutorial_slide_ingame_shop_desc	Выберите интерфейс магазина.
-tutorial_slide_ingame_shop_desc2	Можно изменить в настройках.
+tutorial_slide_ingame_shop_desc2	Изменить выбор можно в любой момент в меню настроек.
 tutorial_slide_ingame_shop_modern	Современный
-tutorial_slide_ingame_shop_modern_desc	Упрощённый интерфейс.
+tutorial_slide_ingame_shop_modern_desc	Упрощённый интерфейс магазина с обновлённым поведением, занимающий меньше места на экране.
 tutorial_slide_invite_teammates_desc_top	Нажмите Пригласить для добавления друга в группу.
 tutorial_slide_keybinds	Горячие клавиши
 tutorial_slide_keybinds_options	Можно изменить в настройках.
-tutorial_slide_keybinds_skip	Пропустить
+tutorial_slide_keybinds_skip	Пропустить этот шаг (ваши клавиши не изменятся)
 tutorial_slide_keybinds_success	Горячие клавиши настроены!
-tutorial_slide_limited_hero_pool_desc_bottom	После 100 игр выбор героев не ограничен.
-tutorial_slide_limited_hero_pool_desc_top	Первые 100 игр: только герои назначенной роли.
+tutorial_slide_limited_hero_pool_desc_bottom	Как только игрок пройдёт период новичка, выбор героев перестанет ограничиваться назначенной ролью.
+tutorial_slide_limited_hero_pool_desc_top	Новички первые 100 игр могут выбирать героев только из той роли, которая назначена им в этом матче.
 tutorial_slide_mini_map	Мини-карта
-tutorial_slide_mini_map_desc	Обзор всей карты. Кнопка укрепления: перезарядка 5 мин.
+tutorial_slide_mini_map_desc	Мини-карта в левом нижнем углу показывает обзор всей карты.\n\nКнопка укрепления рядом с ней временно делает все ваши строения неуязвимыми, чтобы помочь отбиться от осады. Перезарядка в 5 минут общая для всей команды.
 tutorial_slide_neutrals	Нейтралы
 tutorial_slide_neutrals_ancient	Древний лагерь
-tutorial_slide_neutrals_desc	Нейтралы в лесу: золото и опыт. По 5 лагерей на стороне.
+tutorial_slide_neutrals_desc	Нейтралы дремлют в лесу. Они дают золото и опыт, как и прочие крипы, но бывают опаснее обычных крипов на линии. На стороне ^495ЛЕГИОНА^* и на стороне ^955АДСКОГО ЛЕГИОНА^* по 5 лагерей нейтралов.
 tutorial_slide_neutrals_easy	Лёгкий лагерь
 tutorial_slide_neutrals_hard	Сложный лагерь
 tutorial_slide_neutrals_medium	Средний лагерь
 tutorial_slide_neutrals_title	Джунгли
 tutorial_slide_quick_buy	Быстрая покупка
-tutorial_slide_quick_buy_desc	Shift+ЛКМ добавить, Shift+ПКМ убрать. Горячая клавиша.
+tutorial_slide_quick_buy_desc	Быстрая покупка позволяет отложить предметы, чтобы купить их одним нажатием.\n\nShift + левый клик добавляет предмет, Shift + правый клик убирает.\n\nЗатем нажмите горячую клавишу быстрой покупки, чтобы мгновенно купить всё из очереди.
 tutorial_slide_ravens	Вороны
-tutorial_slide_ravens_desc	Разместите ворона на дереве для временного обзора.
+tutorial_slide_ravens_desc	Raven - встроенный инструмент разведки, доступный всем игрокам.\nРазместите его на дереве, чтобы временно получить обзор важных участков.
 tutorial_slide_rax	Казармы
-tutorial_slide_rax_desc	Уничтожение казарм усилит крипов в линии.
+tutorial_slide_rax_desc	Эти строения стоят в глубине базы и необходимы для разрушения вражеской святыни. Разрушив казармы, вы заметно усилите крипов своей команды на этой линии. На каждой линии по 2 набора казарм (дальнего и ближнего боя), и атаковать их нельзя, пока не разрушены башни на этой линии.
 tutorial_slide_rax_title	Казармы
-tutorial_slide_rune_desc	Руны каждые 2 минуты с 4-й минуты.
+tutorial_slide_rune_desc	Мощные руны появляются в одной из двух точек случайным образом через минуту, начиная с 4-й минуты.
 tutorial_slide_rune_double_dmg	Двойной урон
-tutorial_slide_rune_double_dmg_desc	+100% к базовому урону на 45 сек.
+tutorial_slide_rune_double_dmg_desc	При активации даёт герою +100% к базовому урону на 45 сек.
 tutorial_slide_rune_gold	Золото
 tutorial_slide_rune_gold_desc	Бонусное золото герою и союзникам.
 tutorial_slide_rune_haste	Ускорение
 tutorial_slide_rune_haste_desc	Макс. скорость и иммунитет к замедлению на 30 сек.
 tutorial_slide_rune_illusion	Иллюзия
-tutorial_slide_rune_illusion_desc	2 иллюзии и -30% перезарядка на 45 сек.
+tutorial_slide_rune_illusion_desc	Создаёт 2 слабые иллюзии и даёт -30% к перезарядке и стоимости маны на 45 сек.
 tutorial_slide_rune_invis	Невидимость
-tutorial_slide_rune_invis_desc	Скрытность 60 сек. Снимается атакой.
+tutorial_slide_rune_invis_desc	Даёт Скрытность на 60 сек. Скрытность снимается атакой, применением способности или предмета.
 tutorial_slide_rune_regeneration	Регенерация
 tutorial_slide_rune_regeneration_desc	Быстро восстанавливает HP и ману.
 tutorial_slide_rune_title	Руны
 tutorial_slide_runes	Руны
 tutorial_slide_shop_ui	Интерфейс магазина
-tutorial_slide_shop_ui_desc	Тратьте золото на предметы. Вкладки или поиск.
+tutorial_slide_shop_ui_desc	Добро пожаловать в магазин! Здесь вы тратите золото на предметы.\n\nПереключайте категории вкладками слева или просто найдите нужное через строку поиска.
 tutorial_slide_shrine	Святыня
-tutorial_slide_shrine_desc	Уничтожьте святыню врага — победа!
+tutorial_slide_shrine_desc	Главная цель игры и сердце обороны Легиона и Адского Легиона. Игра закончится, если вы разрушите святыню противника.
 tutorial_slide_shrine_title	Святыня
 tutorial_slide_sideshops	Боковые магазины
-tutorial_slide_sideshops_desc	Быстрый доступ к предметам без курьера.
+tutorial_slide_sideshops_desc	Эти лавки у боковых линий дают быстрый доступ к части предметов: можно купить нужное, не дожидаясь курьера.
 tutorial_slide_sideshops_title	Боковые магазины
 tutorial_slide_teleport	Телепорт
-tutorial_slide_teleport_desc	Телепортируйтесь к любой постройке команды.
+tutorial_slide_teleport_desc	У каждого героя есть встроенный камень телепортации.\nТелепортироваться можно к любому строению вашей команды, включая фонтан.
 tutorial_slide_top_center_assists	Помощь
 tutorial_slide_top_center_creeps_denied	Крипов добито
 tutorial_slide_top_center_creeps_killed	Крипов убито
 tutorial_slide_top_center_day_night_indicator	День/ночь
 tutorial_slide_top_center_deaths	Смерти
-tutorial_slide_top_center_desc	Верхняя область — информация матча.
+tutorial_slide_top_center_desc	Эта область сверху по центру показывает общие сведения, на которые полезно поглядывать по ходу матча.
 tutorial_slide_top_center_game_timer	Таймер
 tutorial_slide_top_center_hellbourne_kills	Убийства Преисподней
 tutorial_slide_top_center_hero_level	Уровень героя
@@ -32910,7 +32910,7 @@ tutorial_slide_top_center_hero_ultimate_bar	Полоса ульта
 tutorial_slide_top_center_kills	Убийства
 tutorial_slide_top_center_legion_kills	Убийства Легиона
 tutorial_slide_towers	Башни
-tutorial_slide_towers_desc	Уничтожьте башни перед атакой на базу.
+tutorial_slide_towers_desc	Башни стоят на линиях по всей карте. Это очень прочные оборонительные строения, наносящие в начале игры много урона. Их надо разрушить, прежде чем идти на вражескую базу.\n\nКаждая команда обороняет 11 башен по всему полю боя.
 tutorial_slide_towers_title	Башни
 // End - do not delete this line
 
@@ -33021,7 +33021,7 @@ tutorial_npe_skill_lvl_desc_moba	У меня есть опыт в других M
 
 tutorial_npe_skill_lvl_desc_hon	Я уже играл в HoN и знаю как всё устроено
 
-tutorial_npe_skill_lvl_feedback_unset	Не указан
+tutorial_npe_skill_lvl_feedback_unset	Чтобы продолжить, выберите уровень опыта, который вам ближе всего.
 
 tutorial_npe_reset	Сбросить обучение
 
@@ -33058,7 +33058,7 @@ tutorial_slide_foc_objective_obj_1	Уничтожай вражеские баш�
 
 tutorial_slide_foc_objective_obj_2	Снеси казарму, чтобы открыть путь к трону
 
-tutorial_slide_foc_objective_obj_3	Убивай вражеских героев, мешающих продвижению
+tutorial_slide_foc_objective_obj_3	Одолейте двух боссов, Kongor и Phoenix, чтобы получить уникальные мощные бонусы и вырваться вперёд
 
 tutorial_slide_foc_objective_obj_4	Разрушь трон — и победа за тобой!
 
@@ -33075,15 +33075,15 @@ tutorial_slide_boss_kongor	Конгор
 
 tutorial_slide_phoenix_title	Огненный Феникс
 
-tutorial_slide_phoenix_desc	Феникс появляется в начале матча и возрождается каждые несколько минут
+tutorial_slide_phoenix_desc	Phoenix - растущий по силе нейтральный босс, дающий иное стратегическое преимущество. За его убийство вы получаете ^956Яйцо Феникса^* и мощные ^579предметы Феникса^*.
 
 tutorial_slide_phoenix_egg	Яйцо Феникса
 
-tutorial_slide_phoenix_egg_desc	Подбери яйцо, чтобы получить мощный бафф для команды
+tutorial_slide_phoenix_egg_desc	После вашей гибели, если Яйцо продержится 6 сек., вы возродитесь с полным здоровьем и маной. Яйцо можно разбить атаками вражеских героев.
 
 tutorial_slide_phoenix_token	Жетон Феникса
 
-tutorial_slide_phoenix_token_desc	Ценная валюта, получаемая за убийство Феникса
+tutorial_slide_phoenix_token_desc	Даёт герою предмет из набора. Чем больше зарядов, тем выше уровень предмета.
 
 
 
@@ -33094,7 +33094,7 @@ tutorial_slide_kongor_desc	Конгор — мощный нейтральный 
 
 tutorial_slide_kongor_summon	Призыв Конгора
 
-tutorial_slide_kongor_summon_desc	Убери Конгора, чтобы призвать его на помощь своей команде
+tutorial_slide_kongor_summon_desc	Позволяет команде призвать Kongor на выбранную линию (её выбирают в течение 30 сек. после убийства Kongor). Чтобы поддержать пуш, союзники могут телепортироваться к Kongor. Призванный пушит линию и атакует строения. Он также даёт глобальную ауру всем союзным юнитам: скор. атаки, множитель базового урона и скор. движ. Начиная со второго убийства Kongor призванный даёт ещё и щит.
 
 
 
@@ -33114,7 +33114,7 @@ tutorial_slide_mw_objective_obj_3	Первая команда с нужным к
 
 tutorial_slide_cosmetics_desc	Персонализируй игровой опыт с помощью косметических предметов
 
-tutorial_slide_emoteshop_desc	Покупай наборы эмоций в магазине за талоны или Нефрит
+tutorial_slide_emoteshop_desc	Здесь вы выбираете любимые эмоции, чтобы добавить их в свои колёса эмоций.\n\nЭмоции делятся на 4 категории: подколы, жесты, возгласы и одобрения. Просто перетащите их мышью в колёса.
 
 tutorial_slide_emoteuse_desc	Используй эмоции в игре для общения с союзниками и противниками
 
@@ -33122,7 +33122,7 @@ tutorial_slide_emoteuse_tickets	Талоны позволяют открыват
 
 tutorial_slide_emoteuse_jade	Нефрит — премиум-валюта для покупки эксклюзивной косметики
 
-tutorial_slide_emoteuse_press	Удерживай кнопку, чтобы вызвать колесо эмоций
+tutorial_slide_emoteuse_press	Просто нажмите одну из двух горячих клавиш колеса эмоций и кликните левой кнопкой, чтобы показать эмоцию.
 
 
 
@@ -33154,7 +33154,7 @@ tutorial_slide_bans_desc_bottom	Выбери до трёх героев, кот�
 
 tutorial_slide_role_priority	Приоритет ролей
 
-tutorial_slide_role_priority_desc_top	Нажми «Играть», чтобы открыть меню подбора матча
+tutorial_slide_role_priority_desc_top	Расставьте роли по приоритету. Чем выше роль в списке, тем вероятнее вы её получите.
 
 tutorial_slide_role_priority_desc_bottom	Расставь роли в предпочтительном порядке для подбора
 
@@ -33162,11 +33162,11 @@ tutorial_slide_game_modes	Режимы игры
 
 tutorial_slide_game_modes_desc_top	Нажми «Играть», чтобы открыть меню подбора матча
 
-tutorial_slide_game_modes_desc_bottom	Выбери режим: Рейтинговый или Обычный матч
+tutorial_slide_game_modes_desc_bottom	Forest of Caldavar - классические сражения на 3 линиях.\nMidwars - быстрые стычки на 1 линии в более расслабленной обстановке.
 
 tutorial_slide_matchmaking_tuning	Настройка подбора матча
 
-tutorial_slide_matchmaking_tuning_desc_top	Нажми «Играть», чтобы открыть меню подбора матча
+tutorial_slide_matchmaking_tuning_desc_top	"Быстрая очередь" ставит во главу угла скорость, чтобы вы поскорее попали в игру, а "Лучший баланс" - подбор игроков ближе к вашему уровню.
 
 tutorial_slide_matchmaking_tuning_desc_bottom	Выбери скорость или точность при поиске матча
 
