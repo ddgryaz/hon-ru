@@ -57,38 +57,12 @@ def parse_str(data):
     return out
 
 
-def load_renames(path):
-    """Читает linux/renames.txt: [(как в игре, как в bundle), ...]."""
-    out = []
-    if not os.path.exists(path):
-        return out
-    with open(path, encoding='utf-8') as fh:
-        for raw in fh:
-            line = raw.strip()
-            if not line or line.startswith('#') or '->' not in line:
-                continue
-            new, old = line.split('->', 1)
-            out.append((new.strip(), old.strip()))
-    return out
+def lookup(key, ru, ru_lower):
+    """Ищет перевод: точное совпадение, затем без учёта регистра."""
+    return ru.get(key) or ru_lower.get(key.lower())
 
 
-def lookup(key, ru, ru_lower, renames):
-    """Ищет перевод: точное совпадение, затем регистр, затем переименования."""
-    value = ru.get(key)
-    if value:
-        return value
-    alt = ru_lower.get(key.lower())
-    if alt:
-        return alt
-    for new, old in renames:
-        if new in key:
-            value = ru.get(key.replace(new, old))
-            if value:
-                return value
-    return None
-
-
-def cmd_merge(base_path, ru_path, dst, overrides_path, renames_path=''):
+def cmd_merge(base_path, ru_path, dst, overrides_path):
     """Собирает файл строк: база из архива игры + русские значения сверху.
 
     База обязательно берётся из resources0.jz, а не из bundle/: файл на диске
@@ -112,7 +86,6 @@ def cmd_merge(base_path, ru_path, dst, overrides_path, renames_path=''):
         ru = parse_str(fh.read())
 
     over = load_overrides(overrides_path, stem)
-    renames = load_renames(renames_path)
     ru_lower = {}
     for k, v in ru.items():
         if v:
@@ -120,7 +93,7 @@ def cmd_merge(base_path, ru_path, dst, overrides_path, renames_path=''):
 
     translated = kept = 0
     for key in base:
-        value = over.get(key) or lookup(key, ru, ru_lower, renames)
+        value = over.get(key) or lookup(key, ru, ru_lower)
         if value:
             base[key] = value
             translated += 1
@@ -246,8 +219,7 @@ def main():
     if len(sys.argv) < 2:
         sys.exit('usage: honru.py {merge,cfg} ...')
     if sys.argv[1] == 'merge':
-        cmd_merge(sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5],
-                  sys.argv[6] if len(sys.argv) > 6 else '')
+        cmd_merge(sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
     elif sys.argv[1] == 'onlaunch':
         cmd_onlaunch(sys.argv[2], sys.argv[8:], sys.argv[3].split(','),
                      sys.argv[4], float(sys.argv[5]), sys.argv[6],

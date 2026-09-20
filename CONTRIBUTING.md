@@ -15,8 +15,8 @@ linux/                  порт под Linux
 |-- uninstall.sh        откат
 |-- config.sh           поиск игры в wine-префиксах
 |-- overrides.str       локальные правки строк
-|-- renames.txt         переименованные игрой ключи
 |-- untranslated.sh     отчёт о пробелах в переводе
+|-- lint.sh             проверка bundle/ на дефекты
 `-- lib/                honru.py (мерж, startup.cfg), probe.py (inotify)
 
 docs/                   правила перевода

@@ -33449,3 +33449,7 @@ vanity_listing_complete				 	Listing Complete
 options_hdr_peak_tip		Пиковая яркость дисплея. Установите по характеристикам монитора.
 boss_info_kongor_stat_armor		^oБроня:^* 10
 store_marketplace_review_listing			Review Listing
+hero_tip_offensive_tip_Hero_Succubus_1		Применяйте Mesmerize на целях, которых не бьют ваши союзники: любой союзник, атакующий цель, перенесёт дебафф на себя.
+hero_tip_offensive_tip_Hero_Succubus_2		Используйте Succubus' Hold из безопасного места, чтобы удержание продлилось дольше.
+hero_tip_defensive_tip_Hero_Succubus_1		К Succubus лучше подходить с союзником, чтобы её ультимейт с концентрацией не обездвижил вас надолго.
+hero_tip_defensive_tip_Hero_Succubus_2		Клик правой кнопкой по союзнику переносит Mesmerize на вас, и товарищ успевает уйти.

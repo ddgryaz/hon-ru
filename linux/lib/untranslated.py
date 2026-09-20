@@ -9,7 +9,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from honru import parse_str, load_overrides, load_renames, lookup
+from honru import parse_str, load_overrides, lookup
 
 
 def is_name(key):
@@ -48,9 +48,7 @@ def group_of(key):
 
 def main():
     base_dir, bundle_dir, overrides = sys.argv[1], sys.argv[2], sys.argv[3]
-    renames_path = sys.argv[4]
-    detail = sys.argv[5] if len(sys.argv) > 5 else ''
-    renames = load_renames(renames_path)
+    detail = sys.argv[4] if len(sys.argv) > 4 else ''
 
     groups = {}
     total_keys = total_left = 0
@@ -78,7 +76,7 @@ def main():
             if not english:
                 continue
             total_keys += 1
-            value = over.get(key) or lookup(key, ru, ru_lower, renames)
+            value = over.get(key) or lookup(key, ru, ru_lower)
             if value:
                 continue
             total_left += 1
