@@ -12,18 +12,37 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from honru import parse_str, load_overrides, load_renames, lookup
 
 
+def is_name(key):
+    """Имена героев, способностей, предметов и состояний по правилу проекта
+    остаются английскими - это не пробел в переводе."""
+    head = key.split(':')[0]
+    return head.endswith('_name')
+
+
 def group_of(key):
-    """Грубая категория ключа - чтобы понимать, где дыры."""
+    """Категория ключа - чтобы понимать, где именно дыры."""
+    if is_name(key):
+        return 'имена (остаются английскими)'
     if ':OnlyMidMap' in key:
-        return 'Mid Wars (отдельный режим)'
+        return 'Mid Wars (режим)'
+    if key.startswith('report_'):
+        return 'жалобы на игроков'
+    if key.startswith('mm_'):
+        return 'подбор игр и новый аккаунт'
+    if key.startswith('rolepick'):
+        return 'выбор роли'
+    if key.startswith(('store', 'vanity', 'mstore')):
+        return 'магазин и облик'
+    if key.startswith('options_'):
+        return 'настройки'
+    if key.startswith('hero_tip'):
+        return 'подсказки по героям'
     if key.startswith('Item_'):
         return 'предметы'
     if key.startswith('Ability_'):
         return 'способности'
     if key.startswith(('State_', 'Pet_', 'Gadget_', 'Npc_', 'Hero_')):
         return 'состояния, петы, юниты'
-    if key.startswith(('options_', 'main_', 'lobby_', 'mstore_', 'store')):
-        return 'интерфейс'
     return 'прочее'
 
 
@@ -65,10 +84,14 @@ def main():
             total_left += 1
             groups.setdefault(group_of(key), []).append((stem, key, english))
 
+    names = len(groups.get('имена (остаются английскими)', []))
+    real = total_left - names
     print('Всего ключей в игре: %d, без перевода: %d (%.1f%%)'
           % (total_keys, total_left, 100.0 * total_left / max(total_keys, 1)))
+    print('Из них требуют перевода: %d, остальное - имена' % real)
     print()
-    for name in sorted(groups, key=lambda g: -len(groups[g])):
+    for name in sorted(groups, key=lambda g: (g.startswith('имена'),
+                                              -len(groups[g]))):
         rows = groups[name]
         print('%-32s %5d' % (name, len(rows)))
 
