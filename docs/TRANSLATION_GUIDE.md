@@ -83,6 +83,8 @@ Ability_Nomad2_description_simple    Даёт ^rТочный удар^* и ^bУ�
 | Health / HP | Здоровье / ХП | Хп, hp |
 | Armor | Броня | Армор |
 | Magic Armor | Маг. броня | - |
+| Superior Magic Damage | Абсолютный маг. урон | Превосходный (это не "усиленный", а "проходит сквозь иммунитет к магии") |
+| Superior Physical Damage | Абсолютный физ. урон | Превосходный |
 | Base Damage | Баз. урон | - |
 | Bonus Damage | Доп. урон | - |
 | AoE | Область | - |
