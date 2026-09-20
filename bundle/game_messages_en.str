@@ -1212,7 +1212,7 @@ pre_firstblood_reconnect_lobby		Матч будет прерван, если {ac
 
 user_left_game_lobby_aborted 				Драфт прерван — игрок покинул игру.
 
-player_left_game_lobby_aborted 				Draft aborted as a player abandoned the game.
+player_left_game_lobby_aborted 			Драфт прерван: игрок покинул игру.
 
 draft_error_lobby_aborted 					Лобби прервано — произошла ошибка на сервере лобби.
 
@@ -1711,22 +1711,22 @@ showdown_towerkill_victory_hellbourne		Хеллборн победил по сн
 boughtflyingcourier	{account_color}{player}^*^; купил летающего курьера.
 vanity_msg_iqtest	{ownerPlayer_color}{ownerPlayer}^*^; ^999меряет IQ игрока {targetPlayer_color}{targetPlayer}^*^; ^999! Эээ... 32?
 vanity_msg_questionmark_owned	^999Что вытворяет {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}???
-hero_random_favorites				{player_color}{player}^* has randomed ^885{hero_name}^* ^yusing favourites.
+hero_random_favorites			{player_color}{player}^* взял случайного героя ^885{hero_name}^* ^yиз избранного.
 Onev1mid_creepdeny_victory_legion		Время вышло. Убийства крипов равны. Legion побеждает по добиваниям: {param}!
 courier_msg_fetching		Курьер забирает предметы
 showdown_towerdamage_victory_hellbourne	Время вышло. Урон героям равный. Хеллборн побеждает по урону башням!
 error_courier_no_stash		У курьера нет тайника
-courier_msg_attacked				Courier is forced to return to the base
-vanity_msg_noobspray_owned			{ownerPlayer_color}{ownerPlayer} ^999Used noob spray on {targetPlayer_color}{targetPlayer}'s {ownedEntity_color}{ownedEntity}^999.
-vanity_msg_questionmark				^999What is {targetPlayer_color}{targetPlayer}^*^; ^999doing???
-showdown_herokill_victory_hellbourne		2 Legion deaths! Hellbourne wins!
-total_health_regen_mult_bonus		{value}% Total Health Regeneration
-courier_actions_queued				Delivering your items.
+courier_msg_attacked			Курьер вынужден вернуться на базу
+vanity_msg_noobspray_owned		{ownerPlayer_color}{ownerPlayer} ^999применил спрей нуба на {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity}^999.
+vanity_msg_questionmark			^999Что вытворяет {targetPlayer_color}{targetPlayer}^*^; ^999???
+showdown_herokill_victory_hellbourne	2 смерти Легиона! Хеллборн побеждает!
+total_health_regen_mult_bonus	{value}% к общему реген. здоровья
+courier_actions_queued			Везу ваши предметы.
 teamdenytower					{denier} ^444добил^* башню {ping_tile}!
-courier_msg_following				Courier is following you to await item transfer.
-showdown_creepscore_victory_legion			Time limit reached. Legion wins by Creep Score!
+courier_msg_following			Курьер следует за вами и ждёт передачи предметов.
+showdown_creepscore_victory_legion		Время вышло. Легион побеждает по счёту крипов!
 deny							{killer_color}{killer}^*^; добил {victim_color}{victim}^*^;!
-vanity_msg_ilovemyteam				{ownerPlayer_color}{ownerPlayer} ^999loves their team!
+vanity_msg_ilovemyteam			{ownerPlayer_color}{ownerPlayer} ^999обожает свою команду!
 // Сообщения обликов
 vanity_msg_firecracker		{ownerPlayer_color}{ownerPlayer}^*^; ^999подложил петарду под {targetPlayer_color}{targetPlayer}.^*^; ^999Бабахнет!
 vanity_msg_firecracker_owned		{ownerPlayer_color}{ownerPlayer}^*^; ^999подложил петарду под {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}. ^999Бабахнет!

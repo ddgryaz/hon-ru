@@ -18934,7 +18934,7 @@ tooltip_reset_lvl							Сбросить уровень
 
 
 
-tooltip_reset_lvl_msg						Click here to reset the hero's level back to 1.
+tooltip_reset_lvl_msg					Нажмите здесь, чтобы сбросить уровень героя обратно на 1.
 
 
 
@@ -33263,28 +33263,28 @@ mm_machine_tag_retag_error_generic		Ошибка смены тега
 boss_info_kongor_reward2_name		Тотем Бессмертия
 options_checkbox_inventory_dragdrop		Перетаскивание предметов
 store_powered_by							POWERED BY
-play_ban_notice_temporary				Error: You are banned from play. Reason: {reason} - expires in {remaining}
+play_ban_notice_temporary			Ошибка: вам запрещено играть. Причина: {reason} - истекает через {remaining}
 options_hdr_mode_tip		scRGB (FP16) — совместимость; HDR10 (PQ) — 10 бит. Требует HDR-монитор.
-mm_mmr_caldavar_tip							Forests of Caldavar Matchmaking Rating (MMR)
-mm_machine_tag_notice_locked_sub		Deselect ranked modes or re-tag
-general_mode_sameherodraft					Same Hero Draft
+mm_mmr_caldavar_tip						Рейтинг подбора игр (MMR) на Forests of Caldavar
+mm_machine_tag_notice_locked_sub	Снимите рейтинговые режимы или смените привязку
+general_mode_sameherodraft				Драфт одного героя
 boss_info_phoenix_reward1_name		Крылья Феникса
 boss_info_kongor_stat_movespeed		^oСкор. движ.:^* 270
-mm_play_ban_denied_notice				Cannot queue: ^279{names}^* - banned from play
+mm_play_ban_denied_notice			Очередь недоступна: ^279{names}^* - запрет на игру
 options_checkbox_smart_unit_selection		Умный выбор юнитов
 options_hdr_tonemap		Тонирование
-store_toggle_teleport_phase		 Toggle Teleport View (Source/Destination)
+store_toggle_teleport_phase	Переключить вид телепорта (откуда/куда)
 options_slider_select_hero_center_delay		Задержка центрирования (мс)
 lobby_vanity_viewtoggle_customization		Customize Layout
-mm_machine_tag_denied_title				Cannot Queue Ranked
+mm_machine_tag_denied_title			Рейтинговая очередь недоступна
 boss_info_phoenix_stat_armor		^oБроня:^* 5
 system_bar_buy_jades							BUY
 options_checkbox_disable_input_background		Блокировать ввод в фоне
 vanity_cat_teleports						Teleport
 boss_info_scaling_header		Скейлинг
-store_no_listings_available					No listings available
+store_no_listings_available				Нет доступных лотов
 store_marketplace_list_price				List price:
-store_marketplace_confirm_prompt			Are you sure you want to list this item?
+store_marketplace_confirm_prompt		Точно выставить этот предмет?
 boss_info_stats_header		Характеристики
 vanity_this_item							this item
 options_hdr_black_point_tip		Углубляет тени (>0) или поднимает (<0).
@@ -33301,9 +33301,9 @@ player_role_unassigned_tip					В этом режиме роли не назна
 store_toggle_ward		 	Toggle Ward
 options_hdr_tonemap_ui_tip		Применять тонирование к интерфейсу. Выкл. оставляет UI ярким.
 boss_info_phoenix_reward2_desc	Даёт случайный предмет из набора, уровень которого зависит от времени игры. Уровень 1 (0-23 мин.), уровень 2 (25-33 мин.), уровень 3 (35-43 мин.), уровень 4 (45+ мин.). В набор входит уникальное снаряжение Phoenix: Heart of Fire, Obsidian Spear, Phoenix Talon и другое.
-mm_machine_tag_retag_confirm_prompt		Type ^279{name}^* to confirm:
+mm_machine_tag_retag_confirm_prompt	Введите ^279{name}^* для подтверждения:
 options_slider_select_hero_center_delay_tip	Сколько миллисекунд нужно удерживать клавишу выбора героя или юнита, прежде чем камера отцентрируется на нём. 0 - мгновенное центрирование.
-store_marketplace_hide_sales_history		Hide Sales History
+store_marketplace_hide_sales_history	Скрыть историю продаж
 options_hdr_sdr_grade_tip	Применяет параметры обработки HDR (контраст, насыщенность, тональная компрессия) и на обычном мониторе. Выключено - сохраняется исходная картинка SDR.
 boss_info_kongor_ability3_desc	Пассивно восстанавливает 5% макс. здоровья в сек. (отключается на 10 сек. при получении атаки).\n\nТакже даёт эффект Nullstone, блокирующий следующее направленное заклинание. Восстанавливается через 15 сек. после срабатывания.
 boss_info_phoenix_ability2_desc	Швыряет цепь вперёд, нанося 150 маг. урона и накладывая Оглушение на 1,5 сек. на задетых врагов. После короткой задержки цепь идёт обратно и наносит те же эффекты на возврате.
@@ -33319,85 +33319,85 @@ boss_info_phoenix_ability4_name		Tenacity
 mm_machine_tag_retag_confirm_btn		Re-tag
 vanity_purchase_failed						Purchase Failed
 loading_stage_battlefield 			Preparing Battlefield
-vanity_purchase_success_message				You now own {product}!
-mm_machine_tag_notice_locked			Ranked queue locked: this PC is tagged to ^279{name}^*
+vanity_purchase_success_message			Теперь у вас есть {product}!
+mm_machine_tag_notice_locked		Рейтинговая очередь закрыта: компьютер привязан к ^279{name}^*
 boss_info_abilities_header		Способности
 boss_info_kongor_desc	Kongor - могучий нейтральный босс, обитающий в яме близ центра карты Forest of Caldavar. Чтобы его одолеть, нужны слаженные усилия команды, зато награда серьёзная и способна переломить ход боя. С каждым возрождением Kongor становится сильнее, поэтому поздние убийства всё опаснее.
-store_unavailable_tip						This product is currently not available for purchase.
+store_unavailable_tip					Этот товар сейчас недоступен для покупки.
 warning_dismiss		Нажмите чтобы продолжить
 boss_info_phoenix_reward1_desc	После вашей гибели, если Яйцо продержится 6 сек., вы возродитесь с полным здоровьем и маной. Яйцо можно разбить атаками вражеских героев. Выпадает за убийство Phoenix.
-store_marketplace_show_my_listings			Show My Listings
+store_marketplace_show_my_listings		Показать мои лоты
 boss_info_phoenix_name		Феникс
-store_marketplace_show_sales_history		Show Sales History
+store_marketplace_show_sales_history	Показать историю продаж
 boss_info_kongor_stat_attack_range		^oДальность атаки:^* 128 (Ближний бой)
 loading_stage_entering 				Entering Newerth
-vanity_listing_failed_message				Failed to list {product}. Please try again.
-store_model_viewer_prompt 	Select a product to preview
-vanity_listing_success_message				{product} has been listed at {price} Jades.
+vanity_listing_failed_message			Не удалось выставить {product}. Попробуйте ещё раз.
+store_model_viewer_prompt 	Выберите товар для предпросмотра
+vanity_listing_success_message			{product} выставлен за {price} нефрита.
 store_marketplace_viewing_history			Viewing History
 boss_info_phoenix_stat_damage		^oФиз. урон:^* 90
 vanity_cat_account_upgrades				Account Upgrades
 general_mode_blind_pick						Blind Pick
-loading_stage_gamedata 				Loading Game Data
+loading_stage_gamedata 			Загрузка игровых данных
 boss_info_phoenix_ability3_name		Phoenix Fury
 boss_info_kongor_stat_health		^oЗдоровье:^* 4000
 options_slider_max_ui_framerate		Макс. FPS интерфейса
 boss_info_kongor_ability1_desc	Бросает камень в указанную точку, он приземляется через 2 сек. Наносит [150 + 10% от макс. здоровья цели] маг. урона и оглушает на 2 сек.\n\nKongor применяет эту способность произвольно, сражаясь с вражескими героями (шанс 20% каждую секунду).
-mm_play_ban_denied_reason_permanent		^279{name}:^* banned from play. Reason: {reason}
+mm_play_ban_denied_reason_permanent	^279{name}:^* запрет на игру. Причина: {reason}
 options_hdr_gamut_tip		Расширяет цвета в более широкий диапазон. 0 — нейтрально.
-mm_machine_tag_denied_reason_unknown	^279{name}:^* PC could not be identified
-store_marketplace_update_my_listing			Update my listing
+mm_machine_tag_denied_reason_unknown	^279{name}:^* компьютер не удалось определить
+store_marketplace_update_my_listing		Обновить мой лот
 options_hdr_pipeline_tip		Рендер в float16 для HDR и тонирования. Отключите если мелькает.
-mm_notice_high_mmr_queue_limit_tip	A player in your group is rated above {threshold} MMR, so the group is limited to {limit} players. Queue solo or in a duo, or split off the high-rated player.
-vanity_purchase_failed_message				Failed to purchase {product}. Please try again.
-tutorial_slide_hero_stats_alt_info							Holding ALT in game shows more information for each stat.
+mm_notice_high_mmr_queue_limit_tip	В вашей группе есть игрок с рейтингом выше {threshold} MMR, поэтому группа ограничена {limit} игроками. Вставайте в очередь в одиночку или вдвоём либо отделите игрока с высоким рейтингом.
+vanity_purchase_failed_message			Не удалось купить {product}. Попробуйте ещё раз.
+tutorial_slide_hero_stats_alt_info						Удержание ALT в игре показывает больше сведений по каждой характеристике.
 mm_play_ban_denied_title				Cannot Queue
 store_marketplace_list_my					List my {item}
 options_hdr_highlight_boost		Усиление светов
-mm_machine_tag_locked_to_you			This PC is locked to your account for ranked play
+mm_machine_tag_locked_to_you		Этот компьютер привязан к вашему аккаунту для рейтинговых игр
 boss_info_phoenix_stat_health		^oЗдоровье:^* 2500
-mm_unranked_roles_notice					Role Priority is only considered in Ranked Forests of Caldavar
-tutorial_slide_hero_attributes_example_suffix				^369Intelligence^* based hero, she also gains 1 Damage per ^369Intelligence^*
-login_error_account_disabled_reason		This account has been disabled and cannot be used to log in. Reason: {reason}
-play_ban_reason_unspecified				No reason given
+mm_unranked_roles_notice				Приоритет ролей учитывается только в рейтинговом Forests of Caldavar
+tutorial_slide_hero_attributes_example_suffix			^369Интеллекте^*, она также получает 1 урона за каждую единицу ^369Интеллекта^*
+login_error_account_disabled_reason	Этот аккаунт отключён, войти с него нельзя. Причина: {reason}
+play_ban_reason_unspecified			Причина не указана
 boss_info_phoenix_stat_magic_armor		^oМаг. броня:^* 5
-mm_play_ban_denied_body					The following group members are banned from play:
-login_error_account_disabled			This account has been disabled and cannot be used to log in. Contact support if you think this is a mistake.
+mm_play_ban_denied_body				Следующим участникам группы запрещено играть:
+login_error_account_disabled		Этот аккаунт отключён, войти с него нельзя. Если считаете это ошибкой, обратитесь в поддержку.
 boss_info_phoenix_ability4_desc	Даёт 70% снижения длительности дебаффов, длительности оглушений и сопротивления замедлениям. При Оглушении эти сопротивления растут на 15% (предел 100%).\n\nВраги, атакующие Phoenix, получают на 50% меньше вампиризма.
 boss_info_kongor_reward1_name		Возрождение с усилением
 options_hdr_contrast		Контраст
-store_buy_from_marketplace_for				Buy from marketplace for:
+store_buy_from_marketplace_for			Купить на площадке за:
 options_hdr_paperwhite		Paper White (нит)
 boss_info_kongor_ability3_name		Null Stone (Kongor)
 boss_info_kongor_reward2_desc	Добивший герой в течение 30 сек. выбирает линию. Появляется союзный Kongor и пушит её, убивая крипов с одного удара и атакуя строения. Даёт глобальную ауру всем союзникам: +10% скор. атаки, +10% базового урона и +25 скор. движ. Со второго убийства также даёт щит, поглощающий урон.
-im_send_failed_muted						You are muted and cannot send messages.
+im_send_failed_muted					Вы заглушены и не можете отправлять сообщения.
 boss_info_kongor_ability2_name		Slam
 boss_info_phoenix_stat_attack_speed		^oПерезарядка атаки:^* 1.5 сек.
 boss_info_phoenix_ability2_name		Hot Chains
 boss_info_phoenix_stat_hp_regen		^oРеген. здоровья:^* 5/сек.
 loading_stage_shaders 				Compiling Shaders
 boss_info_phoenix_ability1_name		Fiery Rain
-plinko_skip2					fast-forward drop
-store_set_marketplace_price 	Set Marketplace Price
+plinko_skip2				ускорить падение
+store_set_marketplace_price 	Задать цену на площадке
 boss_info_phoenix_subtitle		Властелин небес
 store_you_receive							You receive:
 boss_info_phoenix_ability1_desc	Запускает огненные шары в небо, выбирая до 8 точек, где стоят герои, в радиусе 600, и помечает эти места на земле.\n\nНаносит 100 маг. урона при попадании и поджигает цели: маг. урон в секунду нарастает, пока юнит не коснётся воды на земле.
-tutorial_slide_hero_attributes_example_prefix				Since ALUNA is an
-store_show_sell_item	 	Sell My Item
+tutorial_slide_hero_attributes_example_prefix			Поскольку ALUNA - герой на
+store_show_sell_item	Продать мой предмет
 boss_info_phoenix_scaling_desc	Phoenix возрождается через 5 минут после гибели. Каждое возрождение даёт:\n\n^o+1500^* макс. здоровья\n^o+30^* урона\n^o+1.5^* броня\n^o+1.5^* маг. броня\n\n^oНаграда за убийство:^*\n^o- Опыт:^* 1500 / 1750 / 2000 / 2250 / 2500\n^o- Золото (добившему):^* 220 / 260 / 300 / 340 / 380\n^o- Золото (команде):^* 145 / 160 / 175 / 190 / 205
-mm_no_modes_available						No Modes Available
+mm_no_modes_available					Нет доступных режимов
 options_hdr_paperwhite_tip		Яркость белого и интерфейса. Поднимите если интерфейс тусклый.
 options_hdr_highlight_boost_tip		Насколько агрессивно яркие участки доводятся до пиковой яркости.
-mm_machine_tag_retag_cooldown			Ranked play on this PC is locked to ^279{name}^*
-mm_machine_tag_denied_reason_other		^279{name}:^* PC locked to {tagged}
-mm_machine_tag_retag_pending			Re-tagging this PC...
-smartcasting_Ability_TP							Smartcast Teleportation Stone
-marketplace_marketplace_button					Visit Online Marketplace
-vanity_list_proceed					 	List {product} for {price} Jades?
+mm_machine_tag_retag_cooldown		Рейтинговые игры на этом компьютере привязаны к ^279{name}^*
+mm_machine_tag_denied_reason_other	^279{name}:^* компьютер привязан к {tagged}
+mm_machine_tag_retag_pending		Меняем привязку компьютера...
+smartcasting_Ability_TP						Умное применение камня телепортации
+marketplace_marketplace_button				Открыть онлайн-площадку
+vanity_list_proceed				Выставить {product} за {price} нефрита?
 loading_stage_map 					Loading Map
 boss_info_kongor_stat_attack_speed		^oПерезарядка атаки:^* 1 сек.
 store_marketplace_purchase					Purchase {item}
-mm_play_ban_denied_reason_temporary		^279{name}:^* banned from play. Reason: {reason} - expires in {remaining}
+mm_play_ban_denied_reason_temporary	^279{name}:^* запрет на игру. Причина: {reason} - истекает через {remaining}
 vanity_cat_namecolors						Name Colors
 boss_info_kongor_stat_hp_regen		^oРеген. здоровья:^* 10/сек.
 options_hdr_exposure_tip		Множитель экспозиции сцены перед тонированием.
@@ -33406,39 +33406,39 @@ options_hdr_saturation		Насыщенность
 options_hdr_gamut		Цветовой охват
 options_hdr_tonemap_ui		Тонировать интерфейс
 options_hdr_sdr_grade		Тонирование сцены (SDR)
-store_marketplace_hide_my_listings			Hide My Listings
-mm_machine_tag_whitelisted_sub			Ranked play is not locked on this machine
-play_ban_notice_permanent				Error: You are banned from play. Reason: {reason}
+store_marketplace_hide_my_listings		Скрыть мои лоты
+mm_machine_tag_whitelisted_sub		На этом компьютере рейтинговые игры не привязаны
+play_ban_notice_permanent			Ошибка: вам запрещено играть. Причина: {reason}
 store_marketplace_listed					Listed: {count}
-store_no_listings_tip						This avatar can only be purchased from the marketplace and no other users have listed it for sale currently. It may still be available in plinko, or you can check back later.
+store_no_listings_tip					Этот облик можно купить только на торговой площадке, а сейчас его никто не выставил на продажу. Он всё ещё может попасться в плинко, либо загляните позже.
 loading_stage_units 				Loading Units
 store_cat_featured							FEATURED ITEMS
 marketplace_reward_claimed						Reward claimed
 options_hdr_peak		Пиковая яркость (нит)
-mm_unranked_regions_notice					This is disabled in Unranked due to low player population
+mm_unranked_regions_notice				В нерейтинговом режиме это отключено из-за малого числа игроков
 options_checkbox_inventory_dragdrop_tip	Если включено, предметы можно перетаскивать между слотами или на землю. Отключите, чтобы случайно не переложить и не выбросить предмет в бою. Правый клик по-прежнему берёт предмет, а Ctrl+Shift+клик выбрасывает его.
-store_marketplace_play_banned_banner		Your account is banned from play, so you cannot buy or sell on the marketplace. You can still remove listings you already have.
-mm_machine_tag_denied_notice			Cannot queue ranked: ^279{names}^* - PC locked to another account
+store_marketplace_play_banned_banner	Вашему аккаунту запрещено играть, поэтому покупать и продавать на площадке нельзя. Снять уже выставленные лоты по-прежнему можно.
+mm_machine_tag_denied_notice		Рейтинговая очередь недоступна: ^279{names}^* - компьютер привязан к другому аккаунту
 options_max_aspect_ratio_tip		Макс. соотношение сторон. 21:9 для ультрашироких мониторов.
 vanity_purchase_complete					Purchase Complete
 vanity_listing_failed						Listing Failed
-vanity_list_confirmation					List this Item?
-mm_machine_tag_untagged					Joining a ranked queue immediately locks ranked play on this PC to ^279{name}^*
+vanity_list_confirmation				Выставить этот предмет?
+mm_machine_tag_untagged				Вход в рейтинговую очередь сразу привяжет рейтинговые игры на этом компьютере к ^279{name}^*
 options_hdr_enable		HDR
 options_hdr_saturation_tip		Насыщенность цвета. 1.0 — нейтрально.
 vanity_cat_icons							Icons
 store_marketplace_page						Page {page}
-lobby_vanity_viewtoggle_herolist			Back To Herolist
+lobby_vanity_viewtoggle_herolist		Назад к списку героев
 boss_info_rewards_header		Награды
 loading_stage_connecting 			Connecting
-marketplace_play_games_claim_desc				Ready to claim! Click below to receive your reward.
+marketplace_play_games_claim_desc			Можно забрать! Нажмите ниже, чтобы получить награду.
 marketplace_claim_button						Claim Reward
 boss_info_phoenix_stat_attack_range		^oДальность атаки:^* 500 (Дальний бой)
-lobby_hero_favorite_tip						Toggle this hero as a favourite. Use the ^885star^* random button to random one of your favourites.
+lobby_hero_favorite_tip					Добавить героя в избранное или убрать оттуда. Кнопка случайного выбора со ^885звездой^* берёт героя из избранного.
 store_list_item	 			List Item
 marketplace_claimed_button						Claimed!
 options_hdr_contrast_tip		Усиливает тени и света. 1.0 — нейтрально.
-mm_machine_tag_retag_cooldown_sub		You can re-tag this PC on {date} ({remaining})
+mm_machine_tag_retag_cooldown_sub	Сменить привязку этого компьютера можно {date} ({remaining})
 store_buy_jade									Buy Jade
 boss_info_title		Боссы
 options_checkbox_smart_unit_selection_tip	Выбирает юнита, ближайшего к курсору, а не к камере, и делает юнитов проще для клика, особенно у самых ног.
@@ -33552,3 +33552,23 @@ vanity_cat_profile_frames		Рамки профиля
 vanity_cat_profile_backgrounds		Фоны профиля
 vanity_cat_profile_effects		Эффекты профиля
 store_equipped		Надето
+// Режимы, настройки, наборы магазина
+pickmode_sameherodraft		Драфт одного героя
+pickmode_singledraft		Одиночный драфт
+options_dropdown_miniprofile_open		Карточка профиля игрока
+options_dropdown_miniprofile_open_tip		Как открывается карточка профиля при наведении на игрока в чате, списке друзей или лобби.
+options_dropdown_miniprofile_open_hover		При наведении
+options_dropdown_miniprofile_open_click		По щелчку
+store_sort_dropdown_tip		Сортировать предметы
+store_sort_direction_tip		Изменить порядок сортировки
+store_cat_bundles		НАБОРЫ
+store_profile_bundles		Наборы для профиля
+store_open_bundle		Открыть набор
+store_bundle_claim		Получить набор
+store_bundle_working		Подождите...
+store_bundle_included		Входит в набор
+store_bundle_contents		Посмотреть состав
+store_bundle_preview		Предпросмотр профиля
+store_bundle_owned_count		Уже есть {owned} из {total} предметов
+store_bundle_error_title		Набор недоступен
+store_bundle_error_message		Набор не удалось обновить. Ваши предметы в сохранности. Попробуйте ещё раз.

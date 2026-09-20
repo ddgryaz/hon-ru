@@ -582,7 +582,7 @@ TargetScheme_self												На себя
 
 
 
-TargetScheme_enemy_units_structures_and_self					Self/Enemies & Structures
+TargetScheme_enemy_units_structures_and_self				На себя / враги и строения
 
 
 
@@ -670,7 +670,7 @@ TargetScheme_ally_buildings										Союзные строения
 
 
 
-TargetScheme_enemy_units_and_Towers								Enemy Units/Towers
+TargetScheme_enemy_units_and_Towers							Вражеские юниты / башни
 
 
 
@@ -830,7 +830,7 @@ TargetScheme_injured_ally_units_incl_self						Раненые союзные ю�
 
 
 
-TargetScheme_enemy_units_and_trees								Enemy Units and Trees
+TargetScheme_enemy_units_and_trees							Вражеские юниты и деревья
 
 
 
@@ -878,7 +878,7 @@ TargetScheme_hook_targets										Все неосадные юниты
 
 
 
-TargetScheme_enemy_units_and_corpses							Enemy Units and Corpses
+TargetScheme_enemy_units_and_corpses						Вражеские юниты и трупы
 
 
 
@@ -894,7 +894,7 @@ TargetScheme_nonneutral_enemy_units								Не-нейтральные враг�
 
 
 
-TargetScheme_player_controlled_ally_units						Ally Player Units
+TargetScheme_player_controlled_ally_units					Союзные юниты игроков
 
 
 
@@ -926,7 +926,7 @@ TargetScheme_my_other_units										Owned Minions
 
 
 
-TargetScheme_enemy_nonhero_units								Non-Hero Enemy Units
+TargetScheme_enemy_nonhero_units							Вражеские юниты, кроме героев
 
 
 
@@ -934,7 +934,7 @@ TargetScheme_enemy_nonhero_units								Non-Hero Enemy Units
 
 
 
-TargetScheme_organic_enemy_units								Organic Enemy Units
+TargetScheme_organic_enemy_units							Живые вражеские юниты
 
 
 
@@ -942,7 +942,7 @@ TargetScheme_organic_enemy_units								Organic Enemy Units
 
 
 
-TargetScheme_organic_ally_units									Organic Ally Units
+TargetScheme_organic_ally_units								Живые союзные юниты
 
 
 
@@ -982,7 +982,7 @@ TargetScheme_ally_well											Союзный источник
 
 
 
-TargetScheme_all_other_nonboss_units							All Non-Boss Units
+TargetScheme_all_other_nonboss_units						Все юниты, кроме боссов
 
 
 
@@ -1006,7 +1006,7 @@ TargetScheme_other_bosses										Другие боссы
 
 
 
-TargetScheme_enemy_nonboss_units								Non-Boss Enemies
+TargetScheme_enemy_nonboss_units							Враги, кроме боссов
 
 
 
@@ -1046,7 +1046,7 @@ TargetScheme_WellMarker
 
 
 
-TargetScheme_enemy_nonboss_npc_units							Non-Boss Enemy NPCs
+TargetScheme_enemy_nonboss_npc_units						Вражеские NPC, кроме боссов
 
 
 
@@ -1086,7 +1086,7 @@ TargetScheme_visible_organic_enemy_units
 
 
 
-TargetScheme_enemy_units_and_self								Self/Enemy Units
+TargetScheme_enemy_units_and_self							На себя / вражеские юниты
 
 
 
@@ -1102,7 +1102,7 @@ TargetScheme_all_other_units_and_buildings
 
 
 
-TargetScheme_summoned_enemy_units								Summoned Enemy Units
+TargetScheme_summoned_enemy_units							Призванные вражеские юниты
 
 
 
@@ -1150,7 +1150,7 @@ TargetScheme_electriceyes
 
 
 
-TargetScheme_other_ally_units									Other Ally Units
+TargetScheme_other_ally_units								Прочие союзные юниты
 
 
 
@@ -1270,7 +1270,7 @@ TargetScheme_turret_targets
 
 
 
-TargetScheme_ally_units_and_structures							Ally Units/Structures
+TargetScheme_ally_units_and_structures						Союзные юниты / строения
 
 
 
@@ -1278,7 +1278,7 @@ TargetScheme_ally_units_and_structures							Ally Units/Structures
 
 
 
-TargetScheme_ally_heroes_and_structures							Ally Heroes/Structures
+TargetScheme_ally_heroes_and_structures						Союзные герои / строения
 
 
 
@@ -1310,7 +1310,7 @@ TargetScheme_Zephyr_Cyclones
 
 
 
-TargetScheme_enemy_mana_units									Enemy Units with Mana
+TargetScheme_enemy_mana_units								Вражеские юниты с маной
 
 
 
@@ -1318,7 +1318,7 @@ TargetScheme_enemy_mana_units									Enemy Units with Mana
 
 
 
-TargetScheme_ally_mana_units									Ally Units with Mana
+TargetScheme_ally_mana_units								Союзные юниты с маной
 
 
 
@@ -1342,7 +1342,7 @@ TargetScheme_all_corpses
 
 
 
-TargetScheme_enemy_units_and_deniable							Deniable and Enemy Units
+TargetScheme_enemy_units_and_deniable						Добиваемые и вражеские юниты
 
 
 
@@ -1350,7 +1350,7 @@ TargetScheme_enemy_units_and_deniable							Deniable and Enemy Units
 
 
 
-TargetScheme_ally_nonhero_units									Allied Non-Hero Units
+TargetScheme_ally_nonhero_units								Союзные юниты, кроме героев
 
 
 
@@ -1358,7 +1358,7 @@ TargetScheme_ally_nonhero_units									Allied Non-Hero Units
 
 
 
-TargetScheme_player_controlled_enemy_units						Enemy Player Units
+TargetScheme_player_controlled_enemy_units					Вражеские юниты игроков
 
 
 
@@ -1478,7 +1478,7 @@ TargetScheme_enemy_and_willing_ally_heroes						Вражеские/союзны�
 
 
 
-TargetScheme_enemy_heroes_and_Towers							Enemy Heroes and Towers
+TargetScheme_enemy_heroes_and_Towers						Вражеские герои и башни
 
 
 
@@ -1494,7 +1494,7 @@ TargetScheme_Deadlift											Все органические юниты
 
 
 
-TargetScheme_not_visible_enemy_units							Not Visible Enemy Units
+TargetScheme_not_visible_enemy_units						Невидимые вражеские юниты
 
 
 
@@ -9790,7 +9790,7 @@ Ability_Artesia4_description2:ult_boost 	^gЭта способность мож�
 
 
 
-Ability_Artesia4_description_simple							Вызывает проекцию на ^o20 сек.^*, которая дает героям-союзникам ^o{20,30,40} здоровья^* или ^oмана^* в сек. в режиме лечения или урона соответственно. \n\nКроме того, она будет отражать ваши применения ^494Чародейской ракеты^* и получать заряды ^494Чародейских стрел^* как вы это делаете.\n\nПроекция ^oможет быть перемещена^* с 8-сек.ным временем восстановления.\n\n^gПосох Мастера^* увеличивает дальность до глобального, уменьшает перезарядка до 60 сек. и уменьшает перезарядка перемещения до 4 сек. (+2 сек., если слишком близко к вражескому колодцу).
+Ability_Artesia4_description_simple						Укажите точку, чтобы призвать Проекцию на ^o20 сек.^*: она даёт союзным героям рядом ^o{20,30,40} здоровья^* или ^oманы^* в секунду - в режиме лечения или урона соответственно.\n\nКроме того, она повторяет ваши применения ^494Arcane Missile^* и набирает заряды ^494Arcane Bolts^* вместе с вами.\n\nПроекцию ^oможно перемещать^* с перезарядкой 8 сек.\n\n^gПосох Мастера^* делает дальность применения глобальной, снижает перезарядку до 60 сек. и перезарядку перемещения до 4 сек. (+2 сек., если слишком близко к вражескому источнику).
 
 
 
@@ -24868,7 +24868,7 @@ Hero_DrunkenMaster_description									Для Пьяного Мастера су
 
 
 
-Hero_DrunkenMaster_role											Drunken Master is a mobile Strength hero who is capable of delivering devestating blows to his enemies if he can manage to complete his combo. Staying on the move is key to playing Drunken Master, as Stagger will help you avoid many a threat and position yourself properly for a powerful punch.								
+Hero_DrunkenMaster_role										Drunken Master - подвижный герой силы, способный обрушить на врагов сокрушительные удары, если сумеет довести связку до конца. Главное за него - всё время двигаться: Stagger поможет уйти от многих угроз и встать как надо для мощного удара.
 
 
 
@@ -36326,7 +36326,7 @@ Hero_Geomancer_description									Когда убийства, злодеяни
 
 
 
-Hero_Geomancer_role												Geomancer is a ganker and area-of-effect team fighter with a variety of crowd control and disable abilities. However, because of how unreliable his skill shots are, he is best paired with more reliable disablers.	
+Hero_Geomancer_role											Geomancer - ганкер и боец командных схваток с уроном по площади и целым набором способностей контроля. Однако его прицельные способности ненадёжны, поэтому его лучше ставить в пару с более надёжным контролем.
 
 
 
@@ -49907,7 +49907,7 @@ Ability_Magmus1_description_simple		Рвётся к выбранной точк�
 
 
 
-Extra tooltip?													You are invulnerable & unable to take action for the first 0.55 seconds.
+Extra tooltip?												Первые 0,55 сек. вы неуязвимы и не можете действовать.
 
 
 
@@ -52307,7 +52307,7 @@ Ability_MasterOfArms3_description_simple	^bBulldozer^*\nBulldozer добавля
 
 
 
-Ability_MasterOfArms3_description_simple:MasterOfArms_Electrical	^bBulldozer^*\nBulldozer adds ^o{0,105,120,135,150} Attack Range^* and ^o{0,8,16,24,32} Attack Damage^*.\n\nActivate to swap to the Cheetah gun.\n^bBulldozer^*\n\n^gStaff of the master^* simultaneously grants the effects of both ^bBulldozer^* and ^rCheetah^*.
+Ability_MasterOfArms3_description_simple:MasterOfArms_Electrical	^bBulldozer^*\nBulldozer добавляет ^o{0,105,120,135,150} дальности атаки^* и ^o{0,8,16,24,32} урона атаки^*.\n\nАктивируйте, чтобы сменить оружие на Cheetah.\n^bBulldozer^*\n\n^gПосох Мастера^* даёт эффекты ^bBulldozer^* и ^rCheetah^* одновременно.
 
 
 
@@ -52323,7 +52323,7 @@ Ability_MasterOfArms3_description_simple:MasterOfArms_Magnetic	^rCheetah^*\nChee
 
 
 
-Ability_MasterOfArms3_IMPACT_effect:MasterOfArms_Electrical		^bBulldozer^*\nPulling out his rifle, Bulldozer, adds {0,105,120,135,150} Attack Range and {0,8,16,24,32} Attack Damage.\n\nActivate to swap to the Cheetah gun.\n^bBulldozer^*\n\n^gStaff of the master^* simultaneously grants the effects of both Bulldozer and Cheetah.
+Ability_MasterOfArms3_IMPACT_effect:MasterOfArms_Electrical	^bBulldozer^*\nДостав винтовку Bulldozer, добавляет {0,105,120,135,150} дальности атаки и {0,8,16,24,32} урона атаки.\n\nАктивируйте, чтобы сменить оружие на Cheetah.\n^bBulldozer^*\n\n^gПосох Мастера^* даёт эффекты Bulldozer и Cheetah одновременно.
 
 
 
@@ -52355,7 +52355,7 @@ Ability_MasterOfArms3_name:ult_boost							^gBulldozer-Cheetah*^*
 
 
 
-Ability_MasterOfArms3_description2:ult_boost					^gGains the effects of both Bulldozer and Cheetah:^* {0,105,120,135,150} Attack Range, {0,8,16,24,32} Attack Damage, {0,45,70,95,120} Attack Speed, and -{0,22,18,14,10}% Attack Damage against heroes.
+Ability_MasterOfArms3_description2:ult_boost				^gДаёт эффекты и Bulldozer, и Cheetah:^* {0,105,120,135,150} дальности атаки, {0,8,16,24,32} урона атаки, {0,45,70,95,120} скор. атаки и -{0,22,18,14,10}% к урону атаки по героям.
 
 
 
@@ -52363,7 +52363,7 @@ Ability_MasterOfArms3_description2:ult_boost					^gGains the effects of both Bul
 
 
 
-Ability_MasterOfArms3_description_simple:ult_boost				^gGains the effects of both Bulldozer and Cheetah:^* {0,105,120,135,150} Attack Range, {0,8,16,24,32} Attack Damage, {0,45,70,95,120} Attack Speed, and -{0,22,18,14,10}% Attack Damage against heroes.
+Ability_MasterOfArms3_description_simple:ult_boost			^gДаёт эффекты и Bulldozer, и Cheetah:^* {0,105,120,135,150} дальности атаки, {0,8,16,24,32} урона атаки, {0,45,70,95,120} скор. атаки и -{0,22,18,14,10}% к урону атаки по героям.
 
 
 
@@ -52867,7 +52867,7 @@ Ability_Midas4_description										Midas призывает золотую дл
 
 
 
-Ability_Midas4_description2										This skill can be ^oupgraded at levels 4, 8 and 12^*.\n\nYour abilities apply a Reagent for 4 seconds to enemies hit. Combining Reagents from two different abilities triggers them, dealing ^o{100,175,250} Magic Damage^* and applies a ^o2 second stun^*. Also grants Midas ^o{15,30,45} Gold^*. Passively ^odecreases ability cooldowns:^*\nGolden Salvo by ^o{2,4,6} seconds^*\nLion's Pride by ^o{1,2,3} seconds^*\nElemental Warp by ^o{2,3,4} seconds^*.
+Ability_Midas4_description2									Это умение ^oулучшается на 4, 8 и 12 уровнях^*.\n\nВаши способности накладывают Реагент на 4 сек. на задетых врагов. Соединение Реагентов от двух разных способностей запускает их, нанося ^o{100,175,250} маг. урона^* и накладывая ^oОглушение на 2 сек.^* Также даёт Midas ^o{15,30,45} золота^*. Пассивно ^oснижает перезарядку способностей:^*\nGolden Salvo на ^o{2,4,6} сек.^*\nLion's Pride на ^o{1,2,3} сек.^*\nElemental Warp на ^o{2,3,4} сек.^*
 
 
 
@@ -56611,7 +56611,7 @@ Ability_Pharaoh4_effect_header									Статусные эффекты
 
 
 
-Ability_Pharaoh4_IMPACT_effect									Fires a projectile in target direction, taking 0.5 seconds to reach its ^omaximum range of {2000,2500,3000}^*. Upon impacting a non-neutral enemy unit, ^oStuns^* that unit for 0.5 seconds and drags self over 0.5 seconds toward the impacted unit's location. During the drag, any units that pass within a 200 radius of self will be ^oStunned for {1,1.5,2} second(s)^* and receive ^o{150,225,300} Magic Damage^*.
+Ability_Pharaoh4_IMPACT_effect								Запускает снаряд в указанном направлении, он за 0,5 сек. достигает ^oпредельной дальности {2000,2500,3000}^*. Попав по вражескому юниту, не являющемуся нейтралом, ^oоглушает^* его на 0,5 сек. и за 0,5 сек. подтягивает вас к месту попадания. Во время рывка все юниты, оказавшиеся в радиусе 200 от вас, будут ^oоглушены на {1,1.5,2} сек.^* и получат ^o{150,225,300} маг. урона^*.
 
 
 
@@ -56627,7 +56627,7 @@ Ability_Pharaoh4_name:ult_boost									^gReturn of the Pharaoh*^*
 
 
 
-Ability_Pharaoh4_description_simple:ult_boost					Shoot a projectile in a target direction. If it hits a ^onon-neutral enemy^*, launch yourself at it and apply a ^o0.5 second Stun^*.\n\nWhile traveling, inflict ^o{150,225,300} Magic Damage^* and ^o{1,1.5,2} second Stun^* to enemies.
+Ability_Pharaoh4_description_simple:ult_boost				Выпускает снаряд в указанном направлении. Если он попадёт во ^oвражеского не-нейтрала^*, вы бросаетесь к нему и накладываете ^oОглушение на 0,5 сек.^*\n\nВо время полёта наносит врагам ^o{150,225,300} маг. урона^* и ^oОглушение на {1,1.5,2} сек.^*
 
 
 
@@ -56699,7 +56699,7 @@ Ability_Pharaoh4_Ally_effect_header								Статусные эффекты
 
 
 
-Ability_Pharaoh4_Ally_IMPACT_effect								Fires a projectile in target direction, taking 0.5 seconds to reach its ^omaximum range of {2000,2500,3000}^*. Upon impacting a non-neutral enemy unit or ^gally hero^*, ^oStuns^* that unit for 0.5 seconds and drags self over 0.5 seconds toward the impacted unit's location. During the drag, any units that pass within a 200 radius of self will be ^oStunned for {1,1.5,2} second(s)^* and receive ^o{150,225,300} Magic Damage^*.
+Ability_Pharaoh4_Ally_IMPACT_effect							Запускает снаряд в указанном направлении, он за 0,5 сек. достигает ^oпредельной дальности {2000,2500,3000}^*. Попав по вражескому юниту, не являющемуся нейтралом, или по ^gсоюзному герою^*, ^oоглушает^* его на 0,5 сек. и за 0,5 сек. подтягивает вас к месту попадания. Во время рывка все юниты, оказавшиеся в радиусе 200 от вас, будут ^oоглушены на {1,1.5,2} сек.^* и получат ^o{150,225,300} маг. урона^*.
 
 
 
@@ -60403,7 +60403,7 @@ Hero_Parallax_description										Мастеровые - инопланетна
 
 
 
-Hero_Parallax_role												Parallax is a strong Int caster that can effectively zone out the enemy team with his Fulcrum. With the ability to scale damage through Max Mana, this hero remains a huge damage threat even in the late game. 	
+Hero_Parallax_role											Parallax - сильный интеллектовый кастер, который своим Fulcrum надёжно отрезает вражескую команду от нужного места. Урон у него растёт от макс. маны, поэтому он остаётся серьёзной угрозой и в поздней игре.
 
 
 
@@ -61019,7 +61019,7 @@ Hero_Parasite_description										Пока мир наверху пылал, в
 
 
 
-Hero_Parasite_role												Parasite is a jungle hero who is extremely powerful in one-vs-one situations. He is capable of staying active in ganking while maintaining his progression in the neutrals.	
+Hero_Parasite_role											Parasite - лесной герой, крайне сильный в схватках один на один. Он способен ходить на ганки, не теряя при этом темпа развития на нейтралах.
 
 
 
@@ -61715,7 +61715,7 @@ Ability_Pearl4_description2
 
 
 
-Ability_Pearl4_description_simple	^oPush nearby enemies^* away, stunning them over 1 second. Create an area for your allies that ^oreduces all incoming damage from enemies on the other side by {45,60,75}%^*. The damage reduction also applies if your ally is outside and enemy hero is inside the bubble.\n\nHeals allies for ^o{150,250,350} Health^* upon cast. Lasts for ^o{7,8.5,10}^* seconds.\n\n^gStaff of the Master:^* allows Pearl to reposition the bubble once after the initial cast, applying all of its effects (with a lesser healing amount of 50%).
+Ability_Pearl4_description_simple	^oОтталкивает врагов рядом^*, оглушая их на 1 сек. Создаёт для союзников область, которая ^oснижает весь входящий урон от врагов с другой стороны на {45,60,75}%^*. Снижение урона работает и когда союзник снаружи, а вражеский герой внутри пузыря.\n\nПри применении лечит союзников на ^o{150,250,350} здоровья^*. Держится ^o{7,8.5,10}^* сек.\n\n^gПосох Мастера:^* позволяет Pearl один раз переставить пузырь после применения, заново накладывая все его эффекты (лечение при этом вдвое слабее).
 
 
 
@@ -62211,7 +62211,7 @@ Ability_Pestilence4_description2:ult_boost	^gЭта способность мо�
 
 
 
-Ability_Pestilence4_description_simple							Release a swarm of locusts at an enemy to ^oReveal^* it and apply ^o{-7,-12,-17} Armor for {16,20,24} seconds^*.\n\n^gStaff of the Master^* causes the ability to apply to ^oall enemies^* in a targeted cone area, and deals ^o{50,100,150} Physical Damage on impact^*.
+Ability_Pestilence4_description_simple						Напускает рой саранчи на врага, ^oраскрывая^* его и накладывая ^o{-7,-12,-17} к броне на {16,20,24} сек.^*\n\n^gПосох Мастера^* заставляет способность действовать на ^oвсех врагов^* в указанном конусе и наносить ^o{50,100,150} физ. урона при попадании^*.
 
 
 
@@ -62219,7 +62219,7 @@ Ability_Pestilence4_description_simple							Release a swarm of locusts at an en
 
 
 
-Ability_Pestilence4_description_simple:ult_boost				Release a swarm of locusts at an enemy ^gor location to deal {50,100,150} Physical Damage in a cone^*. Reveals and applies ^o{-7,-12,-17} Armor for {16,20,24} seconds^* to anyone hit.
+Ability_Pestilence4_description_simple:ult_boost			Напускает рой саранчи на врага ^gили в точку, нанося {50,100,150} физ. урона в конусе^*. Раскрывает всех задетых и накладывает на них ^o{-7,-12,-17} к броне на {16,20,24} сек.^*
 
 
 
@@ -63547,7 +63547,7 @@ Ability_Predator1_effect_header									Эффект(ы) яда
 
 
 
-Ability_Predator1_IMPACT_effect									Leaps toward target, dealing {100,150,200,250} Magic Damage, ^oRestraining them for {1.6,1.9,2.2,2.5} seconds^*, and applying Venomous for {2.5,3,3.5,4} seconds.
+Ability_Predator1_IMPACT_effect								Прыгает к цели, нанося {100,150,200,250} маг. урона, ^oсковывая её на {1.6,1.9,2.2,2.5} сек.^* и накладывая Venomous на {2.5,3,3.5,4} сек.
 
 
 
@@ -67787,7 +67787,7 @@ State_Rampage_Ability2_name										Might of the Herd
 
 
 
-State_Rampage_Ability2_FRAME_effect								Emitting shockwaves every 300 units travelled, each dealing {15,30,45,60} + 25% of your Attack Damage as Physical Damage.
+State_Rampage_Ability2_FRAME_effect							Испускает ударные волны каждые 300 пройденных единиц, каждая наносит {15,30,45,60} + 25% от вашего урона атаки как физ. урон.
 
 
 
@@ -71355,7 +71355,7 @@ Ability_Riptide1_description_simple		Окатывает вражеского ю�
 
 
 
-Ability_Riptide1_IMPACT_effect									Drench an enemy unit with a blast of water, dealing ^o{100,175,250,325} Magic Damage^* and ^oSlowing their Movement Speed by 50% and Attack Speed by 20%^* for ^o{2,2.5,3,3.5} seconds^*.
+Ability_Riptide1_IMPACT_effect								Окатывает вражеского юнита потоком воды, нанося ^o{100,175,250,325} маг. урона^* и ^oснижая ему скор. движ. на 50% и скор. атаки на 20%^* на ^o{2,2.5,3,3.5} сек.^*
 
 
 
@@ -75939,7 +75939,7 @@ State_DementedShaman_Ability3_name										Unbreakable
 
 
 
-State_DementedShaman_Ability3_FRAME_effect								Upon receiving fatal damage, your health is set to ^o{100,180,260,340}^* + ^o{3,4,5,6}% of your Max Health^*.
+State_DementedShaman_Ability3_FRAME_effect							При получении смертельного урона ваше здоровье выставляется в ^o{100,180,260,340}^* + ^o{3,4,5,6}% от вашего макс. здоровья^*.
 
 
 
@@ -102131,7 +102131,7 @@ Item_Codex_shop_categories										Filter_Strength,Filter_Agility,Filter_Intell
 
 
 
-Item_Codex_IMPACT_effect											Deals ^o{375,500,625,750,875} Magic Damage^* to target.
+Item_Codex_IMPACT_effect										Наносит цели ^o{375,500,625,750,875} маг. урона^*.
 
 
 
@@ -125308,8 +125308,8 @@ Gadget_Tombstone_name	Tombstone
 
 
 
-Mode_SameHeroDraft												Same Hero Draft
-Ability_Artesia4_description_simple 							Target a location to summon a Projection for ^o20 seconds^* that grants nearby ally heroes ^o{20,30,40} Health^* or ^oMana^* per second in Healing or Damage Mode, respectively.\n\nIn addition, it will mirror your ^494Arcane Missile^* casts and gain charges of ^494Arcane Bolts^* as you do.\n\nThe Projection ^ocan be moved^* on an 8 second cooldown.\n\n^gStaff of the Master^* increases cast range to Global, reduces cooldown to 60 seconds, and reduces the relocation cooldown to 4 seconds (+2 seconds if too close to enemy Well).
+Mode_SameHeroDraft											Драфт одного героя
+Ability_Artesia4_description_simple 						Укажите точку, чтобы призвать Проекцию на ^o20 сек.^*: она даёт союзным героям рядом ^o{20,30,40} здоровья^* или ^oманы^* в секунду - в режиме лечения или урона соответственно.\n\nКроме того, она повторяет ваши применения ^494Arcane Missile^* и набирает заряды ^494Arcane Bolts^* вместе с вами.\n\nПроекцию ^oможно перемещать^* с перезарядкой 8 сек.\n\n^gПосох Мастера^* делает дальность применения глобальной, снижает перезарядку до 60 сек. и перезарядку перемещения до 4 сек. (+2 сек., если слишком близко к вражескому источнику).
 State_Circe_Ability1_Immobilized_name							Entrapment
 State_Circe_Ability1_Immobilized_description
 State_Circe_Ability1_Immobilized_description2
@@ -125395,26 +125395,26 @@ State_LordSalforis_Ability3_Self_name							Presence of the Dark Lord
 Ability_LordSalforis2_description2	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект Посоха:^* перезарядка снижена до 3 сек.
 Ability_LordSalforis3_description_simple	^oКрадёт^* {30,45,60,75}% ^oреген. здоровья^* у врагов рядом и отдаёт его вам.\n\nВраги рядом пассивно получают до ^o{15,25,35,45} чист. урона^* в сек. Этот урон делится между всеми врагами рядом. Минимум - 15 урона в сек.
 Hero_LordSalforis_role	Lord Salforis - смертоносный ближний кастер, способный выдать огромный всплеск урона через Mors Certissima. The Undying позволяет ему отключить лечение и реген. здоровья у одной цели, что делает его отличным ответом вражеским танкам и керри с вампиризмом.
-Ability_Tarot4_description2:ult_boost							Passively grants a ^o25% chance^* to perform a ^o{2,2.8,3.6}x Critical Hit^* on attack.
+Ability_Tarot4_description2:ult_boost						Пассивно даёт ^o25% шанс^* нанести ^o{2,2.8,3.6}x критический удар^* при атаке.
 State_LordSalforis_Ability4_name									The Undying
 Shout_ILoveMyTeam_name											I Love My Team!
-Shout_ILoveMyTeam_description_simple							I Love My Team!
+Shout_ILoveMyTeam_description_simple						Обожаю свою команду!
 Ability_LordSalforis4_description2:ult_boost						\r
-Ability_Cthulhuphant2_description2:ult_boost					^gThis ability can be boosted by Staff of the Master.^*\n\n^gStaff Effect:^* Reduces cooldown by 3 seconds.							
+Ability_Cthulhuphant2_description2:ult_boost				^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект Посоха:^* снижает перезарядку на 3 сек.
 Ability_DarkLady2_description_simple		Поражает душу врага, нанося ^o{75,100,125,150} маг. урона^* и накладывая ^o60% замедление скор. движ.^*, постепенно спадающее за ^o{2,3,4,5} сек.^*
 State_DarkLady_Ability4_FRAME_effect		Снижает радиус обзора до {500,450,400}. Отключает общий обзор с союзниками.
 State_DarkLady_Ability1_ATTACK_IMPACT_effect		Накладывает Безмолвие на 2.5 сек.
 Hero_LordSalforis_name											Lord Salforis
-State_Revenant_Ability2_Boosted_description						Dealing {15,25,35,45} Magic Damage per second in a 300 unit radius\nEnemies in the radius have healing, lifesteal and regeneration received reduced by 33%.
+State_Revenant_Ability2_Boosted_description					Наносит {15,25,35,45} маг. урона в сек. в радиусе 300 единиц\nУ врагов в радиусе получаемые лечение, вампиризм и регенерация снижены на 33%.
 State_LordSalforis_Ability1_Regen_name							Mors Certissima
-State_DoctorRepulsor_Ability3_FRAME_effect:ult_boost			On attack impact, deals {40,60,80,100} ^gplus 3% of your Max Mana^* as Magic Damage in a 300 radius and applies Electric Frenzy for 0.6 seconds.
+State_DoctorRepulsor_Ability3_FRAME_effect:ult_boost		При попадании атаки наносит {40,60,80,100} ^gплюс 3% от вашей макс. маны^* как маг. урон в радиусе 300 и накладывает Electric Frenzy на 0,6 сек.
 Ability_LordSalforis4_tooltip_flavor	То, что убивает тебя, делает меня сильнее.
 Neutral_BoglingWrangler_name								 Bogling Wrangler
 State_LordSalforis_Ability4_FRAME_effect:ult_boost	Наносит {20,35,50} абсолютного маг. урона в сек.\nНаносит +5 урона в сек. за каждый заряд.\nНе может восстанавливать или лечить здоровье.\nЭффект нельзя передать другому юниту
 Ability_DarkLady4_effect_header		При активации наносит урон всем врагам вокруг и получает бафф
 Ability_LordSalforis3_IMPACT_effect	При использовании отключает пассивный урон.
 State_Stunned_name												Stunned
-State_Aluna_Ability4_FRAME_effect:ult_boost						+250% Cooldown Refresh Speed\nYour abilities are powered up!
+State_Aluna_Ability4_FRAME_effect:ult_boost					+250% к скорости восстановления перезарядки\nВаши способности усилены!
 Ability_SoulReaper1_name:ult_boost								^gFinal Judgment^*
 State_Tarot_Ability4_name										Draw a card
 Ability_Glacius1_IMPACT_effect:OnlyMidMap						Deals {170,200,230,260} Magic Damage and applies Tundra Blast to all units in a 400 radius. Lasts {3,3.5,4,4.5} seconds.
@@ -125432,21 +125432,21 @@ Ability_LordSalforis1_description	Lord Salforis терзает область н
 Ability_LordSalforis1_IMPACT_effect	После задержки 0,65 сек. бьёт по указанной области. Наносит {130,210,290,370} маг. урона врагам в радиусе и накладывает Mors Certissima на 5 сек., возвращая 40% полученного урона как реген. здоровья.
 State_LordSalforis_Ability3_EnemyRegen_name						Dark Lord's Presence
 Ability_Kinesis2_Launch_description_simple:ult_boost	Бросает все поднятые объекты, нанося цели ^o{85,90,95,100} маг. урона^* за объект и накладывая ^o- {10,15,20,25}% скор. движ. на 2 сек.^*, а также ^gотскакивая дважды к врагам в радиусе 400^*.
-Ability_SoulReaper1_description_simple:ult_boost				Release a soul at every nearby unit. Souls deal ^g{75,150,225,300} plus 10% of target's current Health as Magic Damage^* to enemies while allies are ^ghealed for {60,85,110,135} plus 5% of their missing Health^*.
+Ability_SoulReaper1_description_simple:ult_boost			Выпускает душу в каждого юнита рядом. Души наносят врагам ^g{75,150,225,300} плюс 10% от текущего здоровья цели как маг. урон^*, а союзники ^gлечатся на {60,85,110,135} плюс 5% от недостающего здоровья^*.
 Ability_DarkLady1_name												Dark Blades
-Ability_Midas4_description_simple:ult_boost						This skill can be ^oupgraded at levels 4, 8 and 12^*.\n\nDecreases cooldown of ^oGolden Salvo by {2,4,6} seconds^*, ^oLion's Pride by {1,2,3} seconds^* and ^oElemental Warp by {2,3,4}^*.\n\nImbues each of your three basic abilities with a 4 second ^oReagent^*. Combining ^oReagents^* on an enemy will inflict ^o{100,175,250} Magic Damage^*, a ^o2 second stun^* and grant you ^o{15,30,45} Gold^*.\n\n^gTransmute a hero for 2.5 seconds, granting it 60% damage reduction while stunning it for the duration. If the target dies while Transmuted (except you), gain 40% of their gold bounty.^*
+Ability_Midas4_description_simple:ult_boost					Это умение ^oулучшается на 4, 8 и 12 уровнях^*.\n\nСнижает перезарядку ^oGolden Salvo на {2,4,6} сек.^*, ^oLion's Pride на {1,2,3} сек.^* и ^oElemental Warp на {2,3,4}^*.\n\nНаделяет каждую из трёх ваших базовых способностей ^oРеагентом^* на 4 сек. Соединение ^oРеагентов^* на враге наносит ^o{100,175,250} маг. урона^*, ^oОглушение на 2 сек.^* и даёт вам ^o{15,30,45} золота^*.\n\n^gПревращает героя на 2,5 сек., давая ему 60% снижения урона и оглушая на это время. Если цель погибнет под превращением (кроме вас), вы получите 40% её награды золотом.^*
 Ability_LordSalforis3_name										Dark Lord's Presence
-Ability_Tarot4_IMPACT_effect:ult_boost							^gActivate to empower the next ability cast over the next 6 seconds:\n\n - Ricochet: Disarms and Silences all enemies hit by the initial blast for 2 seconds.\n - Far Scry: The next 4 attacks against the target gain 165 Attack Speed.\n - Bound by Fate: Binds an additional pair of enemies and restrains all enemies affected this way.^*
+Ability_Tarot4_IMPACT_effect:ult_boost						^gАктивируйте, чтобы усилить следующую способность, применённую в ближайшие 6 сек.:\n\n - Ricochet: обезоруживает и накладывает Безмолвие на всех врагов, задетых первым взрывом, на 2 сек.\n - Far Scry: следующие 4 атаки по цели получают 165 скор. атаки.\n - Bound by Fate: связывает ещё одну пару врагов и сковывает всех задетых так врагов.^*
 Ability_DarkLady2_description		Тёмная Леди поражает душу врага, ослабляя цель: наносит маг. урон и сильно замедляет.
 State_DarkLady_Ability3_name										Charging Strikes
-Ability_Tarot4_description_simple:ult_boost						Grants a ^o25% chance^* to perform a ^o{2,2.8,3.6}x Critical Hit^* on attack.\n\n^gEmpower the next ability cast over the next 6 seconds:\n\n - Ricochet: Disarms and Silences all enemies hit by the initial blast for 2 seconds.\n - Far Scry: The next 4 attacks against the target gain 165 Attack Speed.\n - Bound by Fate: Binds an additional pair of enemies and restrains all enemies affected this way.^*
+Ability_Tarot4_description_simple:ult_boost					Даёт ^o25% шанс^* нанести ^o{2,2.8,3.6}x критический удар^* при атаке.\n\n^gУсиливает следующую способность, применённую в ближайшие 6 сек.:\n\n - Ricochet: обезоруживает и накладывает Безмолвие на всех врагов, задетых первым взрывом, на 2 сек.\n - Far Scry: следующие 4 атаки по цели получают 165 скор. атаки.\n - Bound by Fate: связывает ещё одну пару врагов и сковывает всех задетых так врагов.^*
 Ability_Chipper1_description_simple:ult_boost					Shoot a rocket in target direction, hitting the first enemy it touches. The rocket deals ^o{90,105,120,135} Magic Damage^* in a ^g250 radius^* and applies a ^oMini-Stun^* to the initial target. It deals an additional ^o7% Max Health^* to non ^oboss-units^* if it travelled ^o2000 units or more^*.\n\nIf the target is affected by Tar Toss, they will burn for ^o{15,20,25,30} Magic Damage per second^* for each rocket hit. The rocket grants vision around itself.\n\nMax of ^o{3,4,5,6} charges^* and recharge time of ^o{3,2.66,2.33,2} seconds^*.
 State_LordSalforis_Ability3_name									Presence of the Dark Lord
 Ability_LordSalforis2_description2:ult_boost						\r
 Ability_LordSalforis1_tooltip_flavor	Жизнь неопределённа, абсолютна только смерть.
 State_Stunned_Knockdown_name									Stunned
 Ability_DarkLady3_tooltip_flavor		«Можно влезть без очереди?»
-State_Revenant_Ability2_Debuff_Aura_Boosted_description			Taking {15,25,35,45} Magic Damage per second. Healing, lifesteal and regeneration received reduced by 33%.
+State_Revenant_Ability2_Debuff_Aura_Boosted_description		Получает {15,25,35,45} маг. урона в сек. Получаемые лечение, вампиризм и регенерация снижены на 33%.
 Ability_LordSalforis4_IMPACT_effect	Накладывает ^oThe Undying^* на цель на ^o12 сек.^*
 Ability_LordSalforis2_tooltip_flavor	Когда жизнь подсовывает тебе лимоны, тебе конец!
 Neutral_BoglingQuibbler_name								 Bogling Quibbler
@@ -125456,10 +125456,10 @@ State_DarkLady_Ability1_name										Dark Blades
 State_LordSalforis_Ability3_Self_description	Даёт реген. здоровья за каждого вражеского юнита рядом.
 Ability_LordSalforis1_effect_header	Эффекты Mors Certissima
 State_LordSalforis_Ability2_Slow_name							Life Tap
-State_Revenant_Ability2_Debuff_Aura_Boosted_FRAME_effect		Taking {15,25,35,45} Magic Damage per second. Healing, lifesteal and regeneration received reduced by 33%.
-Ability_Cthulhuphant3_description2:ult_boost					^gWhenever you deal damage to an enemy hero with Trample, Obliterate or Dreams of Madness, your Strength increases by 2 for 24 seconds. This effect stacks, but each stack has a separate timer.^*								
+State_Revenant_Ability2_Debuff_Aura_Boosted_FRAME_effect	Получает {15,25,35,45} маг. урона в сек. Получаемые лечение, вампиризм и регенерация снижены на 33%.
+Ability_Cthulhuphant3_description2:ult_boost				^gКаждый раз, когда вы наносите урон вражескому герою через Trample, Obliterate или Dreams of Madness, ваша сила растёт на 2 на 24 сек. Эффект складывается, но у каждого заряда свой таймер.^*
 Ability_LordSalforis2_name:ult_boost		^gLife Tap*^*
-State_Revenant_Ability2_Debuff_Aura_Boosted_description_simple	Taking {15,25,35,45} Magic Damage per second. Healing, lifesteal and regeneration received reduced by 33%.
+State_Revenant_Ability2_Debuff_Aura_Boosted_description_simple	Получает {15,25,35,45} маг. урона в сек. Получаемые лечение, вампиризм и регенерация снижены на 33%.
 State_ProtectiveTalisman_name									Protective Talisman
 Ability_DarkLady1_tooltip_flavor		«Эти клинки решают твою судьбу!»
 Ability_DarkLady2_IMPACT_effect		Наносит {75,100,125,150} маг. урона и применяет Поражённую Душу на {2,3,4,5} сек.
@@ -125473,7 +125473,7 @@ Ability_LordSalforis3_description	Пассивно крадёт {30,45,60,75}% �
 Ability_DarkLady2_tooltip_flavor		«Я хочу поглотить твою душу.»
 Ability_LordSalforis4_effect_header	Эффекты The Undying
 Roast_Goal_description_simple									Gooooal!
-Shout_ILoveMyTeam_description									I Love My Team, they are so good!
+Shout_ILoveMyTeam_description								Обожаю свою команду, они великолепны!
 Ability_LordSalforis4_description	Lord Salforis вырывает душу врага, нанося большой урон со временем. Пока эффект держится, цель не может лечиться и восстанавливать здоровье.
 Ability_LordSalforis2_description_simple	Накладывает вокруг себя затухающее ^oзамедление скор. движ. 40%^* на 2 сек.\n\nНа 5 сек. или до первой успешной атаки даёт ^o50 скор. движ.^*, а следующая атака заряжается энергией Нижнего мира: добавляет ^o{40,60,80,100} урона^*, превращает его в абсолютный маг. урон и даёт ^o{55,70,85,100}% вампиризма^*.\n\n^gПосох Мастера^*: перезарядка снижена до 3 сек.
 State_Electrician_Ability4_Immobilized_FRAME_effect				
@@ -125483,10 +125483,10 @@ Ability_LordSalforis4_description2	^gЭта способность может б
 Ability_DarkLady3_name											Charging Strikes
 Ability_DarkLady1_IMPACT_effect		Применяет Тёмные Клинки на {3,4,5,6} сек.
 Ability_LordSalforis3_IMPACT_effect:salforis_dmgaura_off	При использовании включает пассивный урон.
-Item_Chaosbrand_FRAME_effect								 \nRandomly cycles between four elemental modes. ^oEvery second and every time you attack^*, there’s a ^o5% chance^* to change element, each granting different bonuses:\n\n^oEmberfrost^*: Attacks slow ^oMovement Speed^* by 40% for 2 seconds.\n^oStarborn^*: Non-DOT damage deals ^o75 bonus Magic Damage^* over 2 seconds.\n^oDuskwrath^*: 27% of non-DOT damage is also dealt to the enemy's ^oMana^* (dealt to Health instead if no Mana remains).\n^oIronroot^*: Attacks slow ^oAttack Speed^* by 25% for 2 seconds.\n\nActivate to temporarily gain ^oall^* effects at once for 10 seconds.
+Item_Chaosbrand_FRAME_effect							\nСлучайно переключается между четырьмя стихийными режимами. ^oКаждую секунду и при каждой вашей атаке^* есть ^o5% шанс^* сменить стихию, и каждая даёт свои бонусы:\n\n^oEmberfrost^*: атаки снижают ^oскор. движ.^* на 40% на 2 сек.\n^oStarborn^*: непериодический урон дополнительно наносит ^o75 маг. урона^* за 2 сек.\n^oDuskwrath^*: 27% непериодического урона также снимается с ^oманы^* врага (если маны не осталось, урон идёт по здоровью).\n^oIronroot^*: атаки снижают ^oскор. атаки^* на 25% на 2 сек.\n\nАктивируйте, чтобы на 10 сек. получить ^oвсе^* эффекты сразу.
 Ability_LordSalforis2_description	Клинок Lord Salforis жаждет душ и вытягивает жизнь из врагов. При активации замедляет врагов вокруг, а следующая атака крадёт у врага жизнь.
 State_Circe_Ability1_Immobilized_description2					
-Gesture_NoobSpray_description									Made for noobs, use with caution
+Gesture_NoobSpray_description								Создан для нубов, применять с осторожностью
 Neutral_TurtleRed_name											Bog Turtle
 Ability_DoctorRepulsor3_name:ult_boost							^gElectric Fury^*
 State_Revenant_Ability2_Boosted_name							Mortification
@@ -125516,14 +125516,14 @@ Ability_LordSalforis4_description_simple:ult_boost	Вырывает душу в�
 Ability_DarkLady4_name												Cover of Darkness
 State_Magmus_Ability1_Enemy_Staff_name							Lava Surge
 Ability_LordSalforis4_IMPACT_effect:ult_boost	Накладывает ^oThe Undying^* на цель на ^o12 сек.^*\n\n^gДлительность приостанавливается, пока Salforis в пределах 900 единиц от цели. Наносит +5 урона в сек. за каждого героя, погибшего под действием The Undying, максимум +50.^*
-Ability_DoctorRepulsor3_description_simple:ult_boost			Charges you with energy after ^ocasting a spell^*, adding ^o{40,60,80,100} Magic Damage^* ^gplus 3% of your Max Mana^* to your next attack in a 300 radius and apply ^o-80% Movement Speed and -50 Attack Speed^* for 0.6 seconds.
+Ability_DoctorRepulsor3_description_simple:ult_boost		Заряжает вас энергией после ^oприменения заклинания^*: следующая атака наносит ^o{40,60,80,100} маг. урона^* ^gплюс 3% от вашей макс. маны^* в радиусе 300 и накладывает ^o-80% к скор. движ. и -50 к скор. атаки^* на 0,6 сек.
 State_Circe_Ability1_Immobilized_description					
-State_Gunblade_Ability4_Reduced_FRAME_effect					-25% Damage Dealt to Gunblade
+State_Gunblade_Ability4_Reduced_FRAME_effect				-25% к урону, наносимому Gunblade
 Ability_Thunderbringer4_description_simple:OnlyMidMap					Spawn a ^oThunder Cloud^* at target location for ^o9 seconds^*, releasing ^o{4,5,6} lightning strikes^* over the duration, hitting all enemy units in a 400 radius, dealing ^o{150,175,200} Magic Damage^* and applying a ^oMini Stun to enemies^* for 0.05 second.
-Roast_PumpSomeIron_description_simple							Pump some iron!
+Roast_PumpSomeIron_description_simple						Покачать железо!
 State_LordSalforis_Ability2_description	Следующая атака превращает 100% урона от атаки в абсолютный маг. урон.
-State_Tarot_Ability4_description								Your next ability is empowered.
-Roast_PumpSomeIron_description									Pump some iron to carry your heavy team!
+State_Tarot_Ability4_description							Ваша следующая способность усилена.
+Roast_PumpSomeIron_description								Надо покачать железо, чтобы вытащить эту неподъёмную команду!
 Ability_DarkLady3_description_simple	Рывок к указанной точке: огибает препятствия и мгновенно атакует каждого встречного врага, нанося ^oна 15% меньше урона^* каждому следующему задетому.\n\nПосле рывка вы получаете ^o{30,45,60,75} скор. атаки^* на ^o6 сек.^*\n\n^gПосох Мастера^*: увеличивает ^oдальность применения до 750/850/950/1050^*. Убийства сбрасывают перезарядку способности, а непрямые убийства и помощь снижают её на 50%.
 Ability_DarkLady3_description		Тёмная Леди совершает молниеносный рывок к цели, атакуя врагов на пути и нанося урон от макс. здоровья.
 Ability_LordSalforis2_description_simple:ult_boost	Накладывает вокруг себя затухающее ^oзамедление скор. движ. 40%^* на 2 сек.\n\nНа 5 сек. или до первой успешной атаки даёт ^o50 скор. движ.^*, а следующая атака заряжается энергией Нижнего мира: добавляет ^o{40,60,80,100} урона^*, превращает его в абсолютный маг. урон и даёт ^o{55,70,85,100}% вампиризма^*.
@@ -125531,20 +125531,20 @@ Ability_Thunderbringer4_IMPACT_effect:OnlyMidMap						Spawn a ^oThunder Cloud^* 
 Ability_DarkLady3_effect_header		Эффекты Рвения
 State_DarkLady_Ability_1_Target_name								Silenced
 Neutral_TurtleBlue_name											Bog Turtle
-Gesture_NoobSpray_description_simple							Made for noobs.
+Gesture_NoobSpray_description_simple						Создан для нубов.
 Ability_DarkLady3_name:ult_boost								^gThousand Cuts^*
 Ability_Lodestone3_name:ult_boost								Lodestone Armor
 State_DarkLady_Ability2_name										Tainted Soul
 Ability_DarkLady4_description_simple		Отравляет разум врагов в области, накладывая ^o{20,25,30}% замедление скор. движ.^* и ^oОтключение общего обзора^* на ^o{4,5,6} сек.^* Радиус обзора снижается до ^o{500,450,400}^*.
 State_LordSalforis_Ability3_description	Получает чист. урон в сек., равный числу зарядов.
-Roast_Goal_description											Shoots...Scores! Gooooal!
+Roast_Goal_description										Бьёт... Забивает! Гооол!
 State_LordSalforis_Ability2_name									Life Tap
 Ability_DarkLady2_name												Taint Soul
 State_LordSalforis_Ability4_FRAME_effect	Наносит {20,35,50} абсолютного маг. урона в сек.\nНе может восстанавливать или лечить здоровье.\nЭффект нельзя передать другому юниту
 Ability_DarkLady4_tooltip_flavor		«Ты совсем один, никто не рядом!»
 Ability_Kinesis2_Lift_name										Lift
 Ability_DarkLady3_description_simple:ult_boost	Рывок к указанной точке: огибает препятствия и мгновенно атакует каждого врага, через которого вы прошли, нанося ^g100% своего урона атаки^*.\n\nПосле рывка вы получаете ^o{30,45,60,75} скор. атаки^* на ^o6 сек.^*\n\n^gУбийства сбрасывают перезарядку способности, а непрямые убийства и помощь снижают её на 50%.^*
-Ability_Magmus1_description_simple:ult_boost					Surge towards the target location, dealing ^o{100,160,220,280} Magic Damage^* and ^ostunning^* enemy units along the way for ^o2.15 seconds^*, ^gleaving a lava trail behind you that deals 125 Magic Damage per second to enemies inside for 3 seconds.^*
+Ability_Magmus1_description_simple:ult_boost				Рывок к указанной точке: наносит ^o{100,160,220,280} маг. урона^* и ^oоглушает^* вражеских юнитов на пути на ^o2.15 сек.^*, ^gоставляя за собой лавовый след, наносящий 125 маг. урона в сек. врагам внутри в течение 3 сек.^*
 State_DarkLady_Ability2_FRAME_effect		Снижает скор. движ. на 60%, постепенно восстанавливаясь за {2,3,4,5} сек.
 Ability_LordSalforis2_IMPACT_effect	Сбрасывает перезарядку атаки и накладывает на себя Life Tap до следующей атаки или на 5 сек., а врагам в радиусе даёт затухающее замедление скор. движ. 40% на 2 сек.
 Ability_Glacius4_description2:ult_boost		^gУсиление ультой:^* увеличивает радиус ультимейта и добавляет эффект безмолвия.
@@ -125596,3 +125596,8 @@ State_DementedShaman_Ability3_FRAME_effect:OnlyMidMap		^rMid Wars:^* При по
 // Описания способностей
 Ability_Succubus3_description_simple:Succubus_E_active		Снимает Mesmerize с Succubus.
 Ability_Succubus3_IMPACT_effect:Succubus_E_active		Снимает Mesmerize с Succubus.
+// Описания способностей и предметов
+Ability_Chipper1_IMPACT_effect:ult_boost		Запускает ракету, которая при попадании наносит ^o{90,105,120,135} маг. урона (+7% от макс. здоровья цели, если пролетела 2000 единиц и больше, по не-боссам)^* в радиусе 250 и оглушает на 0,1 сек. Если цель под действием Tar Toss, она получает ^o{15,20,25,30} маг. урона в сек. за каждое попадание ракеты^* на всё время замедления.\n\nЗаряд восстанавливается каждые {3,2.66,2.33,2} сек. Максимум {3,4,5,6} зарядов. В полёте ракеты дают 400 беспрепятственного обзора днём и ночью. Обзор держится ещё 1,5 сек. после попадания.
+Ability_Glacius1_description_simple:OnlyMidMap		^rMid Wars:^* Обрушивает на врагов взрыв льда в указанной точке, нанося ^o{170,200,230,260} маг. урона^* по области и накладывая ^oзатухающее замедление скор. движ. {25,30,35,40}%^* и ^o-20 к скор. атаки^* на {3,3.5,4,4.5} сек.
+Ability_Riptide1_description_simple:ult_boost		Окатывает вражеского юнита потоком воды, нанося ^o{100,175,250,325} маг. урона^* и ^oснижая ему скор. движ. на 50% и скор. атаки на 20%^* на ^o{2,2.5,3,3.5} сек.^*, ^gс двумя отскоками^*.
+Item_MastersLegacy_IMPACT_effect:item_masterslegacy_Unusable		^rНельзя применить на другого союзника, пока предмет не потерян^*\n\nУкажите другого союзного героя, чтобы ^oнавсегда усилить его способности^* всеми эффектами Посоха Мастера, какие у них есть (только если у героя есть усиливаемая способность).\n\n^oСделать это можно лишь один раз^* и только с героями, которые ещё не усилены. Потеря предмета снимает усиление с союзника и отправляет предмет в перезарядку на 1 минуту.

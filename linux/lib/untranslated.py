@@ -12,6 +12,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from honru import parse_str, load_overrides, lookup
 
 
+SERVICE = ('_search_terms', '_shop_categories', '_keywords')
+
+
+def strip_markup(text):
+    return re.sub(r'\^[a-zA-Z0-9*;:#!]|\\n|\{[^}]*\}', ' ', text)
+
+
 def is_name(key):
     """Имена героев, способностей, предметов и состояний по правилу проекта
     остаются английскими - это не пробел в переводе."""
@@ -51,6 +58,7 @@ def main():
     detail = sys.argv[4] if len(sys.argv) > 4 else ''
 
     groups = {}
+    same_as_english = []
     total_keys = total_left = 0
 
     for stem in ('entities', 'interface', 'client_messages',
@@ -78,6 +86,13 @@ def main():
             total_keys += 1
             value = over.get(key) or lookup(key, ru, ru_lower)
             if value:
+                # Значение, дословно равное английскому, отчёт о пробелах
+                # раньше не видел: ключ есть, а перевода нет. Служебные
+                # ключи и строки без слов не в счёт - там нечего переводить
+                if (value == english and not is_name(key)
+                        and not key.endswith(SERVICE)):
+                    if len(re.findall(r'[A-Za-z]{2,}', strip_markup(english))) >= 3:
+                        same_as_english.append((stem, key, english))
                 continue
             total_left += 1
             groups.setdefault(group_of(key), []).append((stem, key, english))
@@ -87,6 +102,9 @@ def main():
     print('Всего ключей в игре: %d, без перевода: %d (%.1f%%)'
           % (total_keys, total_left, 100.0 * total_left / max(total_keys, 1)))
     print('Из них требуют перевода: %d, остальное - имена' % real)
+    if same_as_english:
+        print('Плюс %d строк, где перевод дословно равен английскому'
+              % len(same_as_english))
     print()
     for name in sorted(groups, key=lambda g: (g.startswith('имена'),
                                               -len(groups[g]))):
