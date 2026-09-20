@@ -31746,7 +31746,7 @@ plinko_tier_3_range				Выпадает 10+
 
 
 
-plinko_drops_until_next	Остался {value} бросок до следующего уровня
+plinko_drops_until_next	Осталось {count} бросков до следующего уровня
 
 
 

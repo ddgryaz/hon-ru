@@ -64,7 +64,7 @@ multikill3							У {killer} ^084АННИГИЛИРОВАЛ^* своих про�
 
 
 
-killtower							{killer} разрушил башню {ping_tile}. \n{reвард} получает ^y{gold} зол.^*
+killtower							{killer} разрушил башню {ping_tile}. \n{reward} получает ^y{gold} зол.^*
 
 отказtower							{player} ^444запретил ^* башню {ping_tile}!
 
@@ -494,11 +494,11 @@ teamотказtower						{denier} ^444запретил ^* башню {ping_tile}
 
 
 
-killkongor							{killer} убил Конгора. {reвард} награждаются ^y{gold} зол.^*
+killkongor							{killer} убил Конгора. {reward} награждаются ^y{gold} зол.^*
 
 teamkillkongor						{killer} убил Конгора. {killer} награждаются ^y{gold} зол.^*
 
-killboss							{killer} убил {boss}. {reвард} награждаются ^y{gold} зол.^*
+killboss							{killer} убил {boss}. {reward} награждаются ^y{gold} зол.^*
 
 teamkillboss						{killer} убил {boss}. {killer} награждаются ^y{gold} зол.^*
 
@@ -538,19 +538,19 @@ payback								{killer} получил ^rРАСПЛАТУ^* против {victim
 
 
 
-client_connected					{player_color}{player}^* подключился.
+client_connected					{account_color}{player}^* подключился.
 
-client_reconnected					{player_color}{player}^* повторно подключился. (Оставшееся время отключения: {time})
+client_reconnected					{account_color}{player}^* повторно подключился. (Оставшееся время отключения: {time})
 
-client_disconnected					{player_color}{player}^* отключен.
+client_disconnected					{account_color}{player}^* отключен.
 
-client_timedout						{player_color}{player}^* отключен по таймауту.
+client_timedout						{account_color}{player}^* отключен по таймауту.
 
-client_terminated					{player_color}{player}^* исключён. Его герой удалён, а ресурсы переданы команде.
+client_terminated					{account_color}{player}^* исключён. Его герой удалён, а ресурсы переданы команде.
 
-client_connected_mentor				{player_color}{player}^* связался с вами и стал вашим наставником.
+client_connected_mentor				{account_color}{player}^* связался с вами и стал вашим наставником.
 
-client_connected_spec				{player_color}{player}^* наблюдает за {spec_color}{spec_player}^*.
+client_connected_spec				{account_color}{player}^* наблюдает за {spec_color}{spec_player}^*.
 
 
 
@@ -584,11 +584,11 @@ hero_hidden_ban						{team_color}{team} ^*забанил ^r^*: ^885{hero}^*.
 
 hero_vote_ban						Следующие герои были забанены в этой игре: ^885{hero}^*.
 
-hero_picked_both_teams				Герой выбран обеими командами! {player_color}{player}^* получил героя ^885{hero_name}^* ко времени фазы добавлено 15 сек.!
+hero_picked_both_teams				Герой выбран обеими командами! {account_color}{player}^* получил героя ^885{hero_name}^* ко времени фазы добавлено 15 сек.!
 
 
 
-random_filter_message				{player_color}{player}^* случайным образом выбрал {filters}{favorites} с {num_of_heroes} героями для случайного выбора.
+random_filter_message				{account_color}{player}^* случайным образом выбрал {filters}{favorites} с {num_of_heroes} героями для случайного выбора.
 
 using_favorites						^* с использованием списка избранного ^558^*
 
@@ -646,15 +646,15 @@ round_phase_ended					Раунд {round} окончен!
 
 
 
-player_ready						{player_color}{player}^* ^gготов^*.
+player_ready						{account_color}{player}^* ^gготов^*.
 
-player_unready						{player_color}{player}^* ^rбольше не готов^*.
+player_unready						{account_color}{player}^* ^rбольше не готов^*.
 
 
 
-player_boughtback					{player_color}{player}^* выкупил
+player_boughtback					{account_color}{player}^* выкупил
 
-player_boughtback2					{player_color}{player}^* выкупил. Использовано {buybacks_used}/{buybacks_remaining} обратных выкупов
+player_boughtback2					{account_color}{player}^* выкупил. Использовано {buybacks_used}/{buybacks_remaining} обратных выкупов
 
 
 
@@ -696,13 +696,13 @@ chat_emote							^839[ЭМОЦИЯ]^* {color}{message}
 
 chat_team							{color}{player} ({hero}): ^*{message}
 
-chat_all_lobby						^269[ВСЕ] {color}{player}: ^*{message}
+chat_all_lobby						^269[ВСЕ] {account_color}{player}: ^*{message}
 
 chat_roll_lobby						^190[БРОСОК]^* {color}{message}
 
 chat_emote_lobby					^839[ЭМОЦИЯ]^* {color}{message}
 
-chat_team_lobby						^y[КОМАНДА] {color}{player}: ^*{message}
+chat_team_lobby						^y[КОМАНДА] {account_color}{player}: ^*{message}
 
 server_message						^188[СЕРВЕР] ^yСообщение сервера: {message}
 
@@ -1090,17 +1090,17 @@ shop_action_unavailable				^rНедоступно в этом месте
 
 
 
-vote_called						{player_color}{player}^* объявил голосование: {vote}
+vote_called						{account_color}{player}^* объявил голосование: {vote}
 
-vote_called_concede				{player_color}{player}^* объявил голосование за то, чтобы {team_color}{team}^* уступил
+vote_called_concede				{account_color}{player}^* объявил голосование за то, чтобы {team_color}{team}^* уступил
 
-vote_called_remake				{player_color}{player}^* объявил голосование за повторный матч.
+vote_called_remake				{account_color}{player}^* объявил голосование за повторный матч.
 
-vote_called_kick				{player_color}{player}^* объявил голосование за исключение {target_color}{target}^*
+vote_called_kick				{account_color}{player}^* объявил голосование за исключение {target_account_color}{target}^*
 
-vote_called_kick_afk			{player_color}{player}^* объявил голосование за исключение {target_color}{target}^*
+vote_called_kick_afk			{account_color}{player}^* объявил голосование за исключение {target_account_color}{target}^*
 
-vote_called_pause				{player_color}{player}^* объявил голосование за приостановку игры
+vote_called_pause				{account_color}{player}^* объявил голосование за приостановку игры
 
 vote_passed						Голосование прошло
 
@@ -1126,7 +1126,7 @@ lobby_connect					{color}{player}^* подключается.
 
 lobby_connect_mentor			{color}{player}^* будет вашим наставником.
 
-lobby_connect_spec				{player_color}{player}^* подключается к наблюдателю {spec_player}.
+lobby_connect_spec				{color}{player}^*^; подключается, чтобы наблюдать за {spec_player}.
 
 lobby_kick						{color}{player}^* удален хостом.
 
@@ -1182,31 +1182,31 @@ rejected_invalid_вард_location		Вард нельзя поставить в 
 
 
 
-pre_firstblood_reconnect_300		{player_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 5 минут, матч будет прерван.
+pre_firstblood_reconnect_300		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 5 минут, матч будет прерван.
 
-pre_firstblood_reconnect_240		{player_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 4 минут, матч будет прерван.
+pre_firstblood_reconnect_240		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 4 минут, матч будет прерван.
 
-pre_firstblood_reconnect_180		{player_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 3 минут, матч будет прерван.
+pre_firstblood_reconnect_180		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 3 минут, матч будет прерван.
 
-pre_firstblood_reconnect_120		{player_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 2 минут, матч будет прерван.
+pre_firstblood_reconnect_120		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 2 минут, матч будет прерван.
 
-pre_firstblood_reconnect_60		 {player_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 1 минуты, матч будет прерван.
+pre_firstblood_reconnect_60		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 1 минуты, матч будет прерван.
 
-pre_firstblood_reconnect_30		 Матч будет прерван, если {player_color}{player}^* не подключится повторно в течение 30 сек..
+pre_firstblood_reconnect_30		Матч будет прерван, если {account_color}{player}^* не подключится повторно в течение 30 сек..
 
-pre_firstblood_reconnect_10		 Матч будет прервано, если {player_color}{player}^* не подключится повторно в течение 10 сек..
+pre_firstblood_reconnect_10		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 10 сек..
 
-pre_firstblood_reconnect_5		 Матч будет прервано, если {player_color}{player}^* не подключится повторно в течение 5 сек..
+pre_firstblood_reconnect_5		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 5 сек..
 
-pre_firstblood_reconnect_4		 Матч будет прервано, если {player_color}{player}^* не подключится повторно в течение 4 сек..
+pre_firstblood_reconnect_4		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 4 сек..
 
-pre_firstblood_reconnect_3		 Матч будет прервано, если {player_color}{player}^* не подключится повторно в течение 3 сек..
+pre_firstblood_reconnect_3		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 3 сек..
 
-pre_firstblood_reconnect_2		 Матч будет прервано, если {player_color}{player}^* не подключится повторно в течение 2 сек..
+pre_firstblood_reconnect_2		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 2 сек..
 
-pre_firstblood_reconnect_1		 Матч будет прервано, если {player_color}{player}^* не подключится повторно в течение 1 сек.ы.
+pre_firstblood_reconnect_1		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 1 сек.ы.
 
-pre_firstblood_reconnect_lobby		Матч будет прерван, если {player_color}{player}^* не подключится повторно до окончания этапа драфта.
+pre_firstblood_reconnect_lobby		Матч будет прерван, если {account_color}{player}^* не подключится повторно до окончания этапа драфта.
 
 
 
@@ -1242,13 +1242,13 @@ bad_snapshot					Вы были отключены, поскольку файлы
 
 
 
-masters_legacy_applied				{player1_color}{player1}^* передал ^gНаследие Мастера^* {player2_color}{player2}!
+masters_legacy_applied				{account1_color}{player1}^* передал ^gНаследие Мастера^* {account2_color}{player2}!
 
-masters_legacy_removed				{player1_color}{player1}^* удалил ^gНаследие Мастера^* из {player2_color}{player2}!
+masters_legacy_removed				{account1_color}{player1}^* удалил ^gНаследие Мастера^* из {account2_color}{player2}!
 
-masters_legacy_target_applied		{player1_color}{player1}^* подарил ^gНаследие Мастера^* ^rвам^*!
+masters_legacy_target_applied		{account1_color}{player1}^* подарил ^gНаследие Мастера^* ^rвам^*!
 
-masters_legacy_target_removed		{player1_color}{player1}^* удалил ^gThe Master's Legacy^* из ^ryou^*!
+masters_legacy_target_removed		{account1_color}{player1}^* удалил ^gThe Master's Legacy^* из ^ryou^*!
 
 
 
@@ -1368,7 +1368,7 @@ pick_pocket_total						Всего золота, полученного от за
 
 
 
-hero_pirate_ability3_switched			Ваш охотник за головами теперь сосредоточен на {player1_color}{player1}^*.
+hero_pirate_ability3_switched			Ваш охотник за головами теперь сосредоточен на {account1_color}{player1}^*.
 
 
 
@@ -1396,19 +1396,19 @@ thegrimmhunt_endgame_hellbourne			^rАдские ^* собрали достат�
 
 ctf_legion_flagreturn					^gГолубой флаг^* возвращен на базу!
 
-ctf_legion_flagreturn_player			^gГолубой флаг^* был возвращен на базу {player1_color}{player1}^*!
+ctf_legion_flagreturn_player			^gГолубой флаг^* был возвращен на базу {account1_color}{player1}^*!
 
 
 
 ctf_hellbourne_flagreturn				^rЖелтый флаг^* возвращен на базу!
 
-ctf_hellbourne_flagreturn_player		^rЖелтый флаг^* был возвращен на базу {player1_color}{player1}^*!
+ctf_hellbourne_flagreturn_player		^rЖелтый флаг^* был возвращен на базу {account1_color}{player1}^*!
 
 
 
-ctf_legion_flagcap						^gГолубой флаг^* был успешно захвачен {player1_color}{player1}^*!
+ctf_legion_flagcap						^gГолубой флаг^* был успешно захвачен {account1_color}{player1}^*!
 
-ctf_hellbourne_flagcap					^rЖелтый флаг^* был успешно захвачен {player1_color}{player1}^*!
+ctf_hellbourne_flagcap					^rЖелтый флаг^* был успешно захвачен {account1_color}{player1}^*!
 
 
 
@@ -1464,15 +1464,15 @@ krosmode_hellbourne_basedead			^gБаза Хеллборн^* почти мерт
 
 
 
-devowars_runegrab_elec					{player1_color}{player1}^* зацепил ^gЭлектрическую руну^*!
+devowars_runegrab_elec					{account1_color}{player1}^* зацепил ^gЭлектрическую руну^*!
 
-devowars_runegrab_bomb					{player1_color}{player1}^* зацепил ^gБомбовую руну^*!
+devowars_runegrab_bomb					{account1_color}{player1}^* зацепил ^gБомбовую руну^*!
 
-devowars_runegrab_gold					{player1_color}{player1}^* зацепил ^gЗолотую руну^*!
+devowars_runegrab_gold					{account1_color}{player1}^* зацепил ^gЗолотую руну^*!
 
-devowars_runegrab_split					{player1_color}{player1}^* зацепил ^gSplit Rune^*!
+devowars_runegrab_split					{account1_color}{player1}^* зацепил ^gSplit Rune^*!
 
-devowars_runegrab_time					{player1_color}{player1}^* зацепил ^gРуну Времени^*!
+devowars_runegrab_time					{account1_color}{player1}^* зацепил ^gРуну Времени^*!
 
 
 
@@ -1488,7 +1488,7 @@ soccer_scoregoal_team1						^gLegion^* забил гол!
 
 soccer_scoregoal_team2						^rХеллборн^* забил гол!
 
-soccer_scoregoal_player						{player1_color}{player1}^* забил гол!
+soccer_scoregoal_player						{account1_color}{player1}^* забил гол!
 
 
 
@@ -1685,7 +1685,7 @@ rejected_invalid_ward_location		Недопустимое место для ва�
 showdown_random_victory_legion		Легион победил по жребию!
 showdown_towerkill_victory_legion		Легион победил по снесённым башням!
 showdown_creepscore_victory_hellbourne		Хеллборн победил по добитым крипам!
-Onev1mid_creepdeny_victory_hellbourne		{player} победил по отказам!
+Onev1mid_creepdeny_victory_hellbourne		Время вышло. Убийства крипов равны. Hellbourne побеждает по добиваниям: {param}!
 vanity_msg_watergun		Водяной пистолет
 vanity_msg_myteamsucks		Моя команда сосёт
 int_mult_bonus		Множитель интеллекта
@@ -1712,7 +1712,7 @@ boughtflyingcourier		Куплен летающий курьер
 vanity_msg_iqtest		IQ тест
 vanity_msg_questionmark_owned		Вопросительный знак
 hero_random_favorites				{player_color}{player}^* has randomed ^885{hero_name}^* ^yusing favourites.
-Onev1mid_creepdeny_victory_legion		{player} победил по отказам!
+Onev1mid_creepdeny_victory_legion		Время вышло. Убийства крипов равны. Legion побеждает по добиваниям: {param}!
 courier_msg_fetching		Курьер забирает предметы
 showdown_towerdamage_victory_hellbourne		Хеллборн победил по урону башням!
 error_courier_no_stash		У курьера нет тайника
