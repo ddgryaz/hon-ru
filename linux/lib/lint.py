@@ -22,7 +22,7 @@ LAT = set('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
 
 
 def tags(value):
-    return (len(re.findall(r'\^[a-zA-Z0-9]{1,3}', value)),
+    return (len(re.findall(r'\^[a-zA-Z0-9]', value)),
             len(re.findall(r'\^\*', value)))
 
 
@@ -81,7 +81,10 @@ def check(base_dir, bundle_dir, overrides):
             if '^n' in value and '^n' not in eng:
                 add('^n вместо переноса строки', '%s:%s' % (stem, key))
 
-            clean = re.sub(r'\^[a-zA-Z0-9]{1,3}|\\n', ' ', value)
+            # Цветовой код - каретка плюс один символ: ^o, ^*, ^;, ^!b
+            # (слот игрока), ^^ - экранированная каретка. Срезать \n надо
+            # первым, иначе каретка съест у него бэкслеш
+            clean = re.sub(r'\\n|\^\^|\^![a-zA-Z0-9]|\^[a-zA-Z0-9*;:#]', ' ', value)
             mixed = [w for w in re.findall(r'[A-Za-zА-Яа-яёЁ]+', clean)
                      if set(w) & CYR and set(w) & LAT]
             if mixed:
