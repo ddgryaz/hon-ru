@@ -66,6 +66,14 @@ def check(base_dir, bundle_dir, overrides):
                     '%s:%s' % (stem, key), value[:40])
                 continue
 
+            # Категории магазина - это идентификаторы фильтров, а не текст:
+            # видимое имя лежит отдельно, в Shop_Filter_*_description.
+            # Переведённый токен выкидывает предмет из фильтра
+            if key.endswith('_shop_categories') and value != eng:
+                add('переведён служебный токен фильтра',
+                    '%s:%s' % (stem, key), value[:40])
+                continue
+
             num_en = set(re.findall(r'\{[^}]*\}', eng))
             num_ru = set(re.findall(r'\{[^}]*\}', value))
             if num_en and num_ru - num_en:

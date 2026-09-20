@@ -92179,7 +92179,7 @@ Item_AcolytesStaff_shop_flavor									Одеяния послушника об�
 
 
 
-Item_AcolytesStaff_shop_categories								Фильтр_Интеллект
+Item_AcolytesStaff_shop_categories							Filter_Intelligence
 
 
 
@@ -92323,7 +92323,7 @@ Item_ApprenticesRobe_shop_flavor								Одеяния послушника об
 
 
 
-Item_ApprenticesRobe_shop_categories							Фильтр_Интеллект
+Item_ApprenticesRobe_shop_categories						Filter_Intelligence
 
 
 
@@ -92539,7 +92539,7 @@ Item_AxeOfTheMalphai_shop_flavor								Излюбленное оружие ис
 
 
 
-Item_AxeOfTheMalphai_shop_categories							Фильтр_Сила
+Item_AxeOfTheMalphai_shop_categories						Filter_Strength
 
 
 
@@ -92611,7 +92611,7 @@ Item_BastardSword_shop_flavor									Особенно популярные ср
 
 
 
-Item_BastardSword_shop_categories								Фильтр_Урон
+Item_BastardSword_shop_categories							Filter_Damage
 
 
 
@@ -92683,7 +92683,7 @@ Item_Beastheart_shop_flavor										Вырванные из могучего в
 
 
 
-Item_Beastheart_shop_categories									Фильтр_Усиление
+Item_Beastheart_shop_categories								Filter_Booster
 
 
 
@@ -92755,7 +92755,7 @@ Item_BolsteringArmband_shop_flavor									Эти тяжелые стальны�
 
 
 
-Item_BolsteringArmband_shop_categories								Фильтр_Сила
+Item_BolsteringArmband_shop_categories							Filter_Strength
 
 
 
@@ -93371,7 +93371,7 @@ Item_PickledBrain_effect_header								Статусные эффекты
 
 
 
-Item_PickledBrain_shop_categories								Фильтр_Усиление
+Item_PickledBrain_shop_categories							Filter_Booster
 
 
 
@@ -93443,7 +93443,7 @@ Item_Broadsword_shop_flavor										Особенно популярные ср�
 
 
 
-Item_Broadsword_shop_categories									Фильтр_Урон
+Item_Broadsword_shop_categories								Filter_Damage
 
 
 
@@ -93603,7 +93603,7 @@ Item_BlessedOrb_shop_flavor										Живой, кипящий сгусток �
 
 
 
-Item_BlessedOrb_shop_categories									Фильтр_Сила,Фильтр_Ловкость,Фильтр_Интеллект
+Item_BlessedOrb_shop_categories								Filter_Strength,Filter_Agility,Filter_Intelligence
 
 
 
@@ -93675,7 +93675,7 @@ Item_CrushingClaws_shop_flavor									Дробящие Когти наполн�
 
 
 
-Item_CrushingClaws_shop_categories								Фильтр_Сила
+Item_CrushingClaws_shop_categories							Filter_Strength
 
 
 
@@ -93803,7 +93803,7 @@ Item_DuckBoots_shop_flavor										В эти мрачные времена юм
 
 
 
-Item_DuckBoots_shop_categories									Фильтр_Ловкость
+Item_DuckBoots_shop_categories								Filter_Agility
 
 
 
@@ -93883,7 +93883,7 @@ Item_DustOfRevelation_IMPACT_effect								Вражеские юниты и Rave
 
 
 
-Item_DustOfRevelation_shop_categories							Фильтр_Расходный
+Item_DustOfRevelation_shop_categories						Filter_Consumable
 
 
 
@@ -94235,7 +94235,7 @@ Item_JadeSpire_effect_header
 
 
 
-Item_JadeSpire_shop_categories									Фильтр_Регенерация
+Item_JadeSpire_shop_categories								Filter_Regeneration
 
 
 
@@ -94339,7 +94339,7 @@ Item_WardOfSight_shop_flavor									Лишь один карьер во все�
 
 
 
-Item_WardOfSight_shop_categories								Фильтр_Расходный
+Item_WardOfSight_shop_categories							Filter_Consumable
 
 
 
@@ -94419,7 +94419,7 @@ Item_Fleetfeet_effect_header									Статусные эффекты
 
 
 
-Item_Fleetfeet_shop_categories									Фильтр_Ловкость
+Item_Fleetfeet_shop_categories								Filter_Agility
 
 
 
@@ -94563,7 +94563,7 @@ Item_Glowstone_shop_flavor										Продукт неудачной попыт
 
 
 
-Item_Glowstone_shop_categories									Фильтр_Усиление
+Item_Glowstone_shop_categories								Filter_Booster
 
 
 
@@ -94635,7 +94635,7 @@ Item_VeiledRot_shop_flavor										Отвратительное зелье, с�
 
 
 
-Item_VeiledRot_shop_categories									Фильтр_Расходный
+Item_VeiledRot_shop_categories								Filter_Consumable
 
 
 
@@ -94931,7 +94931,7 @@ Item_GroundFamiliar_shop_flavor									Обезьяна трагра - одна
 
 
 
-Item_GroundFamiliar_shop_categories								Фильтр_Расходный
+Item_GroundFamiliar_shop_categories							Filter_Consumable
 
 
 
@@ -95011,7 +95011,7 @@ Item_FlyingCourier_shop_flavor									Обезьяна трагра - одна 
 
 
 
-Item_FlyingCourier_shop_categories								Фильтр_Расходный
+Item_FlyingCourier_shop_categories							Filter_Consumable
 
 
 
@@ -95275,7 +95275,7 @@ Item_GuardianRing_shop_flavor									Простого благословени�
 
 
 
-Item_GuardianRing_shop_categories								Фильтр_Броня
+Item_GuardianRing_shop_categories							Filter_Armor
 
 
 
@@ -96683,7 +96683,7 @@ Item_IronBuckler_shop_flavor									Простой щит, выкованный
 
 
 
-Item_IronBuckler_shop_categories								Фильтр_Броня
+Item_IronBuckler_shop_categories							Filter_Armor
 
 
 
@@ -96827,7 +96827,7 @@ Item_Lifetube_shop_flavor										Специализированное устр
 
 
 
-Item_Lifetube_shop_categories									Фильтр_Регенерация
+Item_Lifetube_shop_categories								Filter_Regeneration
 
 
 
@@ -97467,7 +97467,7 @@ Item_MajorTotem_effect_header									Статусные эффекты
 
 
 
-Item_MajorTotem_shop_categories									Фильтр_Сила,Фильтр_Ловкость,Фильтр_Интеллект
+Item_MajorTotem_shop_categories								Filter_Strength,Filter_Agility,Filter_Intelligence
 
 
 
@@ -97651,7 +97651,7 @@ Item_WardOfRevelation_shop_flavor										Лишь один карьер во �
 
 
 
-Item_WardOfRevelation_shop_categories									Фильтр_Расходный
+Item_WardOfRevelation_shop_categories								Filter_Consumable
 
 
 
@@ -97843,7 +97843,7 @@ Item_Manatube_shop_flavor										Специализированное устр
 
 
 
-Item_Manatube_shop_categories									Фильтр_Регенерация
+Item_Manatube_shop_categories								Filter_Regeneration
 
 
 
@@ -97915,7 +97915,7 @@ Item_PerpetualCogwheel_shop_flavor
 
 
 
-Item_PerpetualCogwheel_shop_categories							Фильтр_Регенерация
+Item_PerpetualCogwheel_shop_categories						Filter_Regeneration
 
 
 
@@ -98067,7 +98067,7 @@ Item_MarkOfTheNovice_shop_flavor								Десятилетиями странс�
 
 
 
-Item_MarkOfTheNovice_shop_categories							Фильтр_Интеллект
+Item_MarkOfTheNovice_shop_categories						Filter_Intelligence
 
 
 
@@ -98139,7 +98139,7 @@ Item_MightyBlade_shop_flavor									Могучие Клинки - технол�
 
 
 
-Item_MightyBlade_shop_categories								Фильтр_Сила
+Item_MightyBlade_shop_categories							Filter_Strength
 
 
 
@@ -98211,7 +98211,7 @@ Item_MinorTotem_shop_flavor										Простая дань одному из �
 
 
 
-Item_MinorTotem_shop_categories									Фильтр_Сила,Фильтр_Ловкость,Фильтр_Интеллект
+Item_MinorTotem_shop_categories								Filter_Strength,Filter_Agility,Filter_Intelligence
 
 
 
@@ -98363,7 +98363,7 @@ Item_NeophytesBook_shop_flavor									Знакомые рецепты, поле
 
 
 
-Item_NeophytesBook_shop_categories								Фильтр_Интеллект
+Item_NeophytesBook_shop_categories							Filter_Intelligence
 
 
 
@@ -98435,7 +98435,7 @@ Item_LuminousPrism_shop_flavor
 
 
 
-Item_LuminousPrism_shop_categories								Фильтр_Интеллект
+Item_LuminousPrism_shop_categories							Filter_Intelligence
 
 
 
@@ -98779,7 +98779,7 @@ Item_Platemail_shop_flavor										Прекрасное произведени�
 
 
 
-Item_Platemail_shop_categories									Фильтр_Броня
+Item_Platemail_shop_categories								Filter_Armor
 
 
 
@@ -99579,7 +99579,7 @@ Item_PretendersCrown_shop_flavor								Во Времена Раздора, ко
 
 
 
-Item_PretendersCrown_shop_categories							Фильтр_Сила,Фильтр_Ловкость,Фильтр_Интеллект
+Item_PretendersCrown_shop_categories						Filter_Strength,Filter_Agility,Filter_Intelligence
 
 
 
@@ -99779,7 +99779,7 @@ Item_Punchdagger_shop_flavor									Старая наемничья погов�
 
 
 
-Item_Punchdagger_shop_categories								Фильтр_Урон
+Item_Punchdagger_shop_categories							Filter_Damage
 
 
 
@@ -99939,7 +99939,7 @@ Item_Quickblade_shop_flavor										Короткий кинжал, предна
 
 
 
-Item_Quickblade_shop_categories									Фильтр_Ловкость
+Item_Quickblade_shop_categories								Filter_Agility
 
 
 
@@ -100011,7 +100011,7 @@ Item_Ringmail_shop_flavor										Кольчуга годами была ста
 
 
 
-Item_Ringmail_shop_categories									Фильтр_Броня
+Item_Ringmail_shop_categories								Filter_Armor
 
 
 
@@ -100187,7 +100187,7 @@ Item_Scarab_shop_flavor											Тысячи Скарабеев были об�
 
 
 
-Item_Scarab_shop_categories										Фильтр_Регенерация
+Item_Scarab_shop_categories									Filter_Regeneration
 
 
 
@@ -100579,7 +100579,7 @@ Item_SwordOfTheHigh_shop_flavor									Высшие Рыцари, служив�
 
 
 
-Item_SwordOfTheHigh_shop_categories								Фильтр_Урон
+Item_SwordOfTheHigh_shop_categories							Filter_Damage
 
 
 
@@ -100875,7 +100875,7 @@ Item_TrinketOfRestoration_effect_header							Статусные эффекты
 
 
 
-Item_TrinketOfRestoration_shop_categories						Фильтр_Регенерация
+Item_TrinketOfRestoration_shop_categories					Filter_Regeneration
 
 
 
@@ -101123,7 +101123,7 @@ Item_Slayer_shop_flavor											Эти двулезвийные Топоры, 
 
 
 
-Item_Slayer_shop_categories										Фильтр_Урон
+Item_Slayer_shop_categories									Filter_Damage
 
 
 
@@ -101195,7 +101195,7 @@ Item_Warhammer_shop_flavor										Тупой, грубый урон - цель
 
 
 
-Item_Warhammer_shop_categories									Фильтр_Урон
+Item_Warhammer_shop_categories								Filter_Damage
 
 
 
@@ -101667,7 +101667,7 @@ Item_DancingBlade_shop_flavor										Любимое оружие изящны�
 
 
 
-Item_DancingBlade_shop_categories									Фильтр_Ловкость
+Item_DancingBlade_shop_categories								Filter_Agility
 
 
 
@@ -103099,7 +103099,7 @@ Item_TemporalBeads_search_terms								 mpregen,mpregeneration,manaregen,manareg
 
 
 
-Item_TemporalBeads_shop_categories							 Фильтр_Интеллект
+Item_TemporalBeads_shop_categories						Filter_Intelligence
 
 
 
@@ -103523,7 +103523,7 @@ Item_DesertScream_search_terms									desert,scream,desertscream,jade,spire,jad
 
 
 
-Item_DesertScream_shop_categories								Фильтр_Сила,Фильтр_Ловкость,Фильтр_Интеллект
+Item_DesertScream_shop_categories							Filter_Strength,Filter_Agility,Filter_Intelligence
 
 
 
@@ -104979,7 +104979,7 @@ Item_Riftshards_shop_flavor										Когда разломы Хеллборн�
 
 
 
-Item_Riftshards_shop_categories									Фильтр_Урон
+Item_Riftshards_shop_categories								Filter_Damage
 
 
 
@@ -107467,7 +107467,7 @@ Item_GraveLocket_search_terms									gravelocket,locket,lockit,synchronizer,syn
 
 
 
-Item_GraveLocket_shop_categories								Фильтр_Сила,Фильтр_Ловкость,Фильтр_Интеллект
+Item_GraveLocket_shop_categories							Filter_Strength,Filter_Agility,Filter_Intelligence
 
 
 
@@ -107571,7 +107571,7 @@ Item_DoomBringer_shop_flavor										Величайшие творения ку
 
 
 
-Item_DoomBringer_shop_categories									Фильтр_Урон
+Item_DoomBringer_shop_categories								Filter_Damage
 
 
 
@@ -107891,7 +107891,7 @@ Item_FortifiedBracer_shop_flavor										Строители Легиона Лю
 
 
 
-Item_FortifiedBracer_shop_categories									Фильтр_Сила,Фильтр_Ловкость,Фильтр_Интеллект
+Item_FortifiedBracer_shop_categories								Filter_Strength,Filter_Agility,Filter_Intelligence
 
 
 
@@ -109387,7 +109387,7 @@ Item_SolsBulwark_effect_header:SolsBulwark_EnemyAura			Эффекты Аура �
 
 
 
-Item_SolsBulwark_shop_categories								Фильтр_Броня
+Item_SolsBulwark_shop_categories							Filter_Armor
 
 
 
@@ -110651,7 +110651,7 @@ Item_Sustainer_shop_flavor											Созданные по образцу Др
 
 
 
-Item_Sustainer_shop_categories										Фильтр_Регенерация
+Item_Sustainer_shop_categories									Filter_Regeneration
 
 
 
@@ -110715,7 +110715,7 @@ Item_LexTalionis_effect_header2									Эффект(ы) Закона Возме
 
 
 
-Item_LexTalionis_search_terms									armor,the lex,health regen,Магическая броня,hp regen,medallion,talionis,tlt,lex,regeneration,regen,LexTalionis,medallionofcourage,courage
+Item_LexTalionis_search_terms								armor,the lex,health regen,Magic Armor,Магическая броня,hp regen,medallion,talionis,tlt,lex,regeneration,regen,LexTalionis,medallionofcourage,courage
 
 
 
@@ -111275,7 +111275,7 @@ Item_MockOfBrilliance_shop_flavor										Немногие из восемна�
 
 
 
-Item_MockOfBrilliance_shop_categories									Фильтр_Урон
+Item_MockOfBrilliance_shop_categories								Filter_Damage
 
 
 
@@ -112227,7 +112227,7 @@ Item_SandScepter_search_terms									sandscepter,SandScepter,sand,scepter,immob
 
 
 
-Item_SandScepter_shop_categories								Фильтр_Сила,Фильтр_Ловкость,Фильтр_Интеллект
+Item_SandScepter_shop_categories							Filter_Strength,Filter_Agility,Filter_Intelligence
 
 
 
@@ -113203,7 +113203,7 @@ Item_ToxinClaws_shop_flavor
 
 
 
-Item_ToxinClaws_shop_categories									Фильтр_Урон
+Item_ToxinClaws_shop_categories								Filter_Damage
 
 
 
@@ -113379,7 +113379,7 @@ Item_GoldenApple_IMPACT_effect									Мгновенно восстанавли
 
 
 
-Item_GoldenApple_shop_categories								Фильтр_Расходный
+Item_GoldenApple_shop_categories							Filter_Consumable
 
 
 
@@ -113451,7 +113451,7 @@ Item_LunarTear_IMPACT_effect									Мгновенно восстанавлив
 
 
 
-Item_LunarTear_shop_categories									Фильтр_Расходный
+Item_LunarTear_shop_categories								Filter_Consumable
 
 
 
@@ -113523,7 +113523,7 @@ Item_BloodRuby_shop_flavor										Мерцающий рубин со свеч�
 
 
 
-Item_BloodRuby_shop_categories									Фильтр_Усиление
+Item_BloodRuby_shop_categories								Filter_Booster
 
 
 
@@ -113595,7 +113595,7 @@ Item_EtherJewel_shop_flavor										Аквамариновый кристалл
 
 
 
-Item_EtherJewel_shop_categories									Фильтр_Усиление
+Item_EtherJewel_shop_categories								Filter_Booster
 
 
 
@@ -113675,7 +113675,7 @@ Item_NihilCrystal_shop_flavor									Кристалл, словно устой�
 
 
 
-Item_NihilCrystal_shop_categories								Фильтр_Регенерация
+Item_NihilCrystal_shop_categories							Filter_Regeneration
 
 
 
@@ -113867,7 +113867,7 @@ Item_AdevesCloak_shop_flavor									Плащ таинственного маг�
 
 
 
-Item_AdevesCloak_shop_categories								Фильтр_Усиление
+Item_AdevesCloak_shop_categories							Filter_Booster
 
 
 
@@ -114067,7 +114067,7 @@ Item_ShadowMist_shop_flavor
 
 
 
-Item_ShadowMist_shop_categories								Фильтр_Расходный
+Item_ShadowMist_shop_categories							Filter_Consumable
 
 
 
