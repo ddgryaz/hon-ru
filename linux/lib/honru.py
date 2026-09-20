@@ -1,0 +1,258 @@
+#!/usr/bin/env python3
+"""Операции для linux/apply.sh: merge, cfg, onlaunch.
+
+Работаем с байтами: .str приходят в UTF-8 (часть с BOM) и всегда с CRLF,
+а startup.cfg игра пишет в UTF-16LE. Перекодировать нельзя - движок
+перестанет их читать.
+"""
+import sys
+import os
+
+
+def sniff(data):
+    """Возвращает (кодировка, BOM) по сигнатуре в начале файла."""
+    if data.startswith(b'\xff\xfe'):
+        return 'utf-16-le', b'\xff\xfe'
+    if data.startswith(b'\xfe\xff'):
+        return 'utf-16-be', b'\xfe\xff'
+    if data.startswith(b'\xef\xbb\xbf'):
+        return 'utf-8', b'\xef\xbb\xbf'
+    return 'utf-8', b''
+
+
+def load_overrides(path, stem):
+    """Читает overrides.str и отдаёт {ключ: значение} для одного файла перевода."""
+    out = {}
+    if not os.path.exists(path):
+        return out
+    with open(path, 'rb') as fh:
+        data = fh.read()
+    enc, bom = sniff(data)
+    text = data[len(bom):].decode(enc)
+    for raw in text.replace('\r\n', '\n').split('\n'):
+        line = raw.strip()
+        if not line or line.startswith('//'):
+            continue
+        if '\t' not in line:
+            continue
+        head, value = line.split('\t', 1)
+        if ':' not in head:
+            continue
+        target, key = head.split(':', 1)
+        if target.strip() == stem:
+            out[key.strip()] = value.strip()
+    return out
+
+
+def cmd_merge(src, dst, overrides_path):
+    """Копирует src в dst, подменив значения ключей из overrides."""
+    stem = os.path.basename(src)
+    for suffix in ('_en.str', '.str'):
+        if stem.endswith(suffix):
+            stem = stem[:-len(suffix)]
+            break
+
+    over = load_overrides(overrides_path, stem)
+
+    with open(src, 'rb') as fh:
+        data = fh.read()
+
+    if over:
+        enc, bom = sniff(data)
+        body = data[len(bom):].decode(enc)
+        lines = body.split('\r\n')
+        hits = 0
+        for i, line in enumerate(lines):
+            if not line or line.startswith('//') or '\t' not in line:
+                continue
+            key = line.split('\t', 1)[0].strip()
+            if key in over:
+                lines[i] = key + '\t\t' + over[key]
+                hits += 1
+        data = bom + '\r\n'.join(lines).encode(enc)
+        print('  %-24s переопределено ключей: %d' % (os.path.basename(src), hits))
+
+    tmp = dst + '.tmp'
+    with open(tmp, 'wb') as fh:
+        fh.write(data)
+    os.replace(tmp, dst)
+
+
+def cmd_cfg(path, pairs):
+    """Выставляет SetSave "<имя>" "<значение>" в startup.cfg, сохраняя кодировку."""
+    with open(path, 'rb') as fh:
+        data = fh.read()
+    enc, bom = sniff(data)
+    text = data[len(bom):].decode(enc)
+    newline = '\r\n' if '\r\n' in text else '\n'
+    lines = text.split(newline)
+
+    changed = []
+    for name, value in pairs:
+        want = 'SetSave "%s" "%s"' % (name, value)
+        found = False
+        for i, line in enumerate(lines):
+            stripped = line.strip()
+            if stripped.lower().startswith('setsave "%s"' % name.lower()):
+                found = True
+                if stripped != want:
+                    lines[i] = want
+                    changed.append('%s -> %s' % (name, value))
+                break
+        if not found:
+            insert_at = len(lines)
+            while insert_at > 0 and not lines[insert_at - 1].strip():
+                insert_at -= 1
+            lines.insert(insert_at, want)
+            changed.append('%s -> %s (добавлено)' % (name, value))
+
+    if not changed:
+        print('  startup.cfg: уже настроен, изменений нет')
+        return
+
+    out = bom + newline.join(lines).encode(enc)
+    tmp = path + '.tmp'
+    with open(tmp, 'wb') as fh:
+        fh.write(out)
+    os.replace(tmp, path)
+    for item in changed:
+        print('  startup.cfg: %s' % item)
+
+
+def game_running(pattern):
+    """Запущен ли процесс игры.
+
+    Ищем по имени процесса, а не по командной строке: пути к игре содержат
+    "Juvio", и поиск по -f находил сам этот скрипт.
+    """
+    import subprocess
+    try:
+        rc = subprocess.run(['pgrep', '-x', pattern],
+                            stdout=subprocess.DEVNULL,
+                            stderr=subprocess.DEVNULL).returncode
+        return rc == 0
+    except OSError:
+        return False
+
+
+def main():
+    if len(sys.argv) < 2:
+        sys.exit('usage: honru.py {merge,cfg} ...')
+    if sys.argv[1] == 'merge':
+        cmd_merge(sys.argv[2], sys.argv[3], sys.argv[4])
+    elif sys.argv[1] == 'onlaunch':
+        cmd_onlaunch(sys.argv[2], sys.argv[8:], sys.argv[3].split(','),
+                     sys.argv[4], float(sys.argv[5]), sys.argv[6],
+                     sys.argv[7] == '1')
+    elif sys.argv[1] == 'cfg':
+        pairs = [tuple(a.split('=', 1)) for a in sys.argv[3:]]
+        cmd_cfg(sys.argv[2], pairs)
+    else:
+        sys.exit('unknown subcommand: %s' % sys.argv[1])
+
+
+
+def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False):
+    """Кладёт перевод в окно между проверками лаунчера и стартом движка.
+
+    Лаунчер считает установку битой, если в каталоге игры есть файл, которого
+    нет в его манифесте: требует обновление и вычищает каталог. Строку
+    "Delegating to the entry point" он пишет, когда проверки позади и
+    управление уходит движку; движок открывает stringtables примерно через
+    100 мс. После выхода из игры убираем файлы, чтобы следующий запуск
+    лаунчера снова прошёл чисто.
+    """
+    import time
+    import glob
+
+    sources = {}
+    for name in os.listdir(stage):
+        with open(os.path.join(stage, name), 'rb') as fh:
+            sources[name] = fh.read()
+
+    plan = []
+    for target in targets:
+        for name, blob in sources.items():
+            base = name[:-len('_en.str')]
+            for suffix in suffixes:
+                plan.append((os.path.join(target, base + suffix), blob))
+
+    def newest_log():
+        logs = glob.glob(os.path.join(logdir, '*.log'))
+        return max(logs, key=os.path.getmtime) if logs else None
+
+    def delegated(path):
+        if not path:
+            return False
+        try:
+            with open(path, 'rb') as fh:
+                return b'Delegating to the entry point' in fh.read()
+        except OSError:
+            return False
+
+    baseline = newest_log()
+    print('  ожидаю запуск игры (текущий лог: %s)'
+          % (os.path.basename(baseline) if baseline else 'нет'))
+
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        current = newest_log()
+        if current and current != baseline and delegated(current):
+            break
+        time.sleep(0.02)
+    else:
+        print('  игра так и не запустилась, выхожу')
+        return
+
+    written = 0
+    for path, blob in plan:
+        try:
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            with open(path, 'wb') as fh:
+                fh.write(blob)
+            written += 1
+        except OSError:
+            pass
+    placed_at = time.time()
+    print('  лаунчер передал управление движку - положено файлов: %d' % written)
+
+    # Без inotify не отличить "движок не читает диск" от "не успели положить"
+    probes = []
+    if probe:
+        import subprocess
+        script = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                              'probe.py')
+        probes = [subprocess.Popen([sys.executable, script, t,
+                                    str(placed_at), '90'])
+                  for t in targets if os.path.isdir(t)]
+
+    seen = False
+    while time.time() < deadline + 7200:
+        if game_running(pattern):
+            seen = True
+        elif seen:
+            break
+        time.sleep(1.0)
+
+    for pr in probes:
+        try:
+            pr.wait(timeout=95)
+        except Exception:
+            pr.kill()
+
+    removed = 0
+    for path, _ in plan:
+        try:
+            os.remove(path)
+            removed += 1
+        except OSError:
+            pass
+    for target in targets:
+        try:
+            os.rmdir(target)
+        except OSError:
+            pass
+    print('  игра закрыта, файлов убрано: %d' % removed)
+
+if __name__ == '__main__':
+    main()
