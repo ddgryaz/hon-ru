@@ -63,7 +63,7 @@ point` - она означает, что проверки позади и упр
 (ПКМ по игре -> Свойства -> Параметры запуска):
 
 ```
-bash -c '/путь/до/HoN_RU_Pack/linux/apply.sh --on-launch & exec "$@"' -- %command%
+bash -c '/путь/до/hon-ru-linux/linux/apply.sh --on-launch & exec "$@"' -- %command%
 ```
 
 Скрипт стартует в фоне вместе с игрой, дожидается конца проверок лаунчера,

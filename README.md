@@ -1,4 +1,4 @@
-# HoN RU Pack - Linux
+# hon-ru-linux
 
 Русский перевод Heroes of Newerth (HoN Reborn) для Linux: Proton, Lutris, Bottles, чистый wine.
 
