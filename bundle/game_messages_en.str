@@ -564,7 +564,7 @@ hero_random_blind					{player_color}{player}^* выбрал случайного
 
 hero_repick							{player_color}{player}^* перевыбирает. ^885{hero_name}^* теперь доступен.
 
-hero_repick_blind					{player_color}{player}^* перебирает.
+hero_repick_blind				{player_color}{player}^* перевыбирает.
 
 hero_swap							{player_color}{player}^* поменял героев местами на {player2_color}{player2}^*.
 

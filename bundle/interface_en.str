@@ -222,7 +222,7 @@ general_connect								Подключиться
 
 
 
-general_disconnect							Отключить
+general_disconnect						Отключиться
 
 
 
@@ -430,7 +430,7 @@ general_apply								Применить
 
 
 
-general_ready								Готово
+general_ready							Готов
 
 
 
@@ -754,7 +754,7 @@ general_mode_easy_mode						Простой режим
 
 
 
-general_mode_no_hero_repick					Нет реплика героя
+general_mode_no_hero_repick				Без перевыбора героя
 
 
 
@@ -1562,7 +1562,7 @@ confirm_leaver_result_nowleaver				Вы НЕ сможете присоедини
 
 
 
-confirm_leaver_result_notleaver				Вы НЕ выйдете из игры, если отключитесь от этой игры.
+confirm_leaver_result_notleaver			Вы НЕ станете покинувшим игру, если отключитесь от этого матча.
 
 
 
@@ -4770,7 +4770,7 @@ kick_player_insufficient_funds_title Недостаточно билетов
 
 
 
-kick_player_insufficient_funds_body		 У вас недостаточно билетов, чтобы инициировать исключение с голосования.
+kick_player_insufficient_funds_body	У вас недостаточно билетов, чтобы созвать голосование за исключение.
 
 
 
@@ -11618,7 +11618,7 @@ game_label_ally_level						L
 
 
 
-game_label_buy_back							Выкупить обратно
+game_label_buy_back						Выкупиться
 
 
 
@@ -11674,7 +11674,7 @@ game_invulnerable							Неуязвимый
 
 
 
-game_disconnect								Отключение
+game_disconnect							Отключиться
 
 
 
@@ -14370,7 +14370,7 @@ game_hero_select_ready_tip_me_ready			Вы готовы к бою!
 
 
 
-game_hero_select_ready_tip					Нажмите эту кнопку, когда будете готовы начать игру. После того, как вы будете готовы, вы не сможете поменять местами или перебрать. Когда все игроки будут готовы, матч начнется.
+game_hero_select_ready_tip				Нажмите эту кнопку, когда будете готовы начать игру. После готовности вы не сможете поменяться героями или перевыбрать героя. Когда готовы будут все игроки, матч начнётся.
 
 
 
@@ -14482,31 +14482,31 @@ hselect_swap_accept_tip_text				Этот игрок предложил вам п
 
 
 
-game_hero_select_repick						Репик Герой
+game_hero_select_repick				Перевыбрать героя
 
 
 
-game_hero_select_repick_tip_disabled		В этом матче повторный выбор отключен.
+game_hero_select_repick_tip_disabled	В этом матче перевыбор отключён.
 
 
 
-game_hero_select_repick_tip_already_used	Вы уже использовали свой репин.
+game_hero_select_repick_tip_already_used	Вы уже использовали свой перевыбор.
 
 
 
-game_hero_select_repick_tip_already_swapped	Вы не можете повторно выбрать, потому что вы поменялись местами.
+game_hero_select_repick_tip_already_swapped	Вы не можете перевыбрать героя, потому что уже менялись.
 
 
 
-game_hero_select_repick_tip_no_hero			После того, как вы выберете героя, использовать эту кнопку, чтобы отменить свой выбор. Повторная сборка стоит ^y{gold}^* золота. перебрать только один раз. После перепаковки поменять местами нельзя.
+game_hero_select_repick_tip_no_hero		После того как выберете героя, этой кнопкой можно отменить свой выбор. Перевыбор стоит ^y{gold}^* золота. Перевыбрать можно только один раз. После перевыбора меняться героями нельзя.
 
 
 
-game_hero_select_repick_tip					Нажмите эту кнопку, чтобы выбрать нового героя. Повторная сборка стоит ^y{gold}^* золота. перебрать только один раз. После перепаковки поменять местами нельзя.
+game_hero_select_repick_tip				Нажмите эту кнопку, чтобы выбрать нового героя. Перевыбор стоит ^y{gold}^* золота. Перевыбрать можно только один раз. После перевыбора меняться героями нельзя.
 
 
 
-game_hero_select_repick_tip_free			Нажмите здесь, чтобы выбрать нового героя. перебрать только один раз. После перепаковки поменять местами нельзя.
+game_hero_select_repick_tip_free		Нажмите здесь, чтобы выбрать нового героя. Перевыбрать можно только один раз. После перевыбора меняться героями нельзя.
 
 
 
@@ -16342,7 +16342,7 @@ globby_disabled_tip							В этом режиме игры блокировка
 
 
 
-globby_kick_spec_tip						Кик из этой игры.
+globby_kick_spec_tip					Выгнать из этой игры.
 
 
 
@@ -16518,7 +16518,7 @@ globby_eap_btn								Купить ранний доступ
 
 
 
-globby_purchase_repick						Нет, спасибо, выбери нового героя
+globby_purchase_repick					Нет, спасибо, выбрать нового героя
 
 
 
@@ -16558,7 +16558,7 @@ gamelobby_referee_tip						Судьи назначаются Организат�
 
 
 
-gamelobby_kick_tip							Ударь {name}
+gamelobby_kick_tip						Выгнать {name}
 
 
 
@@ -16586,7 +16586,7 @@ gamelobby_spectate_button					Стать зрителем
 
 
 
-gamelobby_disconnect_button					Отключить
+gamelobby_disconnect_button				Отключиться
 
 
 
@@ -17022,7 +17022,7 @@ game_menu_options_button					Опции
 
 
 
-game_menu_disconnect_button					Отключить
+game_menu_disconnect_button				Отключиться
 
 
 
@@ -17030,19 +17030,19 @@ game_menu_spec_button					 Зрители
 
 
 
-game_menu_concede_button					Уступить
+game_menu_concede_button				Сдаться
 
 
 
-game_menu_remake_button						Ремейк
+game_menu_remake_button					Пересоздать
 
 
 
-game_menu_kick_button						Удар
+game_menu_kick_button					Выгнать
 
 
 
-game_menu_report_button						Отчет
+game_menu_report_button					Пожаловаться
 
 
 
@@ -17110,7 +17110,7 @@ game_menu_spec_tooltip						Взаимодействовать с {player}
 
 
 
-game_menu_kick_tooltip						Проголосуйте за исключение {player}
+game_menu_kick_tooltip					Созвать голосование за исключение {player}
 
 
 
@@ -17238,11 +17238,11 @@ game_menu_menu								Меню
 
 
 
-game_menu_kick								Удар
+game_menu_kick							Выгнать
 
 
 
-game_menu_kick_afk							Кик АФК
+game_menu_kick_afk						Выгнать AFK
 
 
 
@@ -17326,11 +17326,11 @@ game_menu_spec_tip							Взаимодействуйте со зрителям�
 
 
 
-game_menu_kick_tip							Проголосуйте за исключение игрока из матча
+game_menu_kick_tip						Голосование за исключение игрока из матча
 
 
 
-game_menu_kick_afk_tip						Проголосуйте за исключение игрока из AFK
+game_menu_kick_afk_tip					Голосование за исключение AFK-игрока
 
 
 
@@ -17346,7 +17346,7 @@ game_menu_remake_tip						Проголосуйте за переделку ма�
 
 
 
-game_menu_concede_tip						Голосуйте за разрешение матча
+game_menu_concede_tip					Голосование за сдачу матча
 
 
 
@@ -17354,11 +17354,11 @@ game_menu_concede_tip						Голосуйте за разрешение матч
 
 
 
-game_menu_concede_confirm					Подтвердите свой выбор, чтобы объявить матч и проголосовать за согласие.
+game_menu_concede_confirm				Подтвердите выбор, чтобы созвать голосование за сдачу матча.
 
 
 
-game_menu_concede_btn						Сдаться
+game_menu_concede_btn					Созвать голосование за сдачу
 
 
 
@@ -17410,7 +17410,7 @@ game_menu_pause_reason_bathroom 		 Ванная комната
 
 
 
-vote_concede								Уступить?
+vote_concede							Сдаться?
 
 
 
@@ -19454,7 +19454,7 @@ ui_items_cc_right_click_user_info			Информация о пользовате
 
 
 
-ui_items_cc_right_click_channel_kick		Выкинуть с канала
+ui_items_cc_right_click_channel_kick	Выгнать с канала
 
 
 
@@ -19462,7 +19462,7 @@ ui_items_cc_right_click_channel_ban			Запретить доступ к кан�
 
 
 
-ui_items_cc_right_click_channel_silence		Тишина пользователя
+ui_items_cc_right_click_channel_silence	Заглушить пользователя
 
 
 
@@ -19526,7 +19526,7 @@ ui_items_cc_right_click_watch_game			Мониторная игра
 
 
 
-ui_items_cc_right_click_spectate_player		Игрок-наблюдатель
+ui_items_cc_right_click_spectate_player	Наблюдать за игроком
 
 
 
@@ -20490,7 +20490,7 @@ mm3_coop_botinfo				Боты в подборе игроков использую
 
 
 
-mm3_coop_repickbot_title		Перебрать вражеского бота
+mm3_coop_repickbot_title	Перевыбрать вражеского бота
 
 
 
@@ -20498,7 +20498,7 @@ mm3_coop_repickbot_desc			Выберите бота для добавления 
 
 
 
-mm3_coop_repickbot 				Репик
+mm3_coop_repickbot 		Перевыбрать
 
 
 
@@ -23278,7 +23278,7 @@ ladder_field_acc_concedes					Уступает
 
 
 
-ladder_field_acc_concedevotes				Пропустить голоса
+ladder_field_acc_concedevotes			Голосов за сдачу
 
 
 
@@ -25502,7 +25502,7 @@ rap_dont_submit						Отменить
 
 
 
-rap_submission_failed				Отчет не выполнен
+rap_submission_failed			Жалоба не отправлена
 
 
 
@@ -25758,7 +25758,7 @@ tpp_give_gold				+15000 золота
 
 
 
-tpp_repick_hero				Репик Герой
+tpp_repick_hero			Перевыбрать героя
 
 
 
@@ -25814,7 +25814,7 @@ tpp_instant_pause			Мгновенная пауза (переключение)
 
 
 
-tpp_disc					Отключить
+tpp_disc				Отключиться
 
 
 
@@ -26286,11 +26286,11 @@ chat_opt_add_friend					Добавить друга
 
 
 
-chat_opt_mute_player				Немой проигрыватель
+chat_opt_mute_player			Заглушить игрока
 
 
 
-chat_opt_unmute_player 				Включить звук игрока
+chat_opt_unmute_player 			Включить звук игрока
 
 
 
@@ -30978,7 +30978,7 @@ status_effect_stun								Оглушение
 
 
 
-status_effect_silence							Тишина
+status_effect_silence						Безмолвие
 
 
 
@@ -31082,7 +31082,7 @@ kill_log_0										СОЛО
 
 
 
-kill_log_1										ОТРИЦАТЬ
+kill_log_1									ДЕНАЙ
 
 
 
@@ -32266,7 +32266,7 @@ lobby_bigbutton_pick						Выбрать
 
 
 
-lobby_bigbutton_ban							Запретить
+lobby_bigbutton_ban						Забанить
 
 
 
@@ -32310,7 +32310,7 @@ lobby_com_joinspecs							Стать зрителем
 
 
 
-lobby_com_leavespecs						Оставить зрителей
+lobby_com_leavespecs					Покинуть зрителей
 
 
 
@@ -32558,7 +32558,7 @@ scoreboard_avoid_tip						Избегать игрока
 
 
 
-scoreboard_kick_tip							Проголосовать за исключение игрока
+scoreboard_kick_tip						Голосование за исключение игрока
 
 
 
@@ -32610,7 +32610,7 @@ report_playerpopup_header			Пожаловаться на игрока
 
 
 
-report_player_responsepopup_header	Отчет отправлен
+report_player_responsepopup_header	Жалоба отправлена
 
 
 
@@ -33170,7 +33170,7 @@ tutorial_slide_matchmaking_tuning_desc_top	"Быстрая очередь" ст�
 
 tutorial_slide_matchmaking_tuning_desc_bottom	Выбери скорость или точность при поиске матча
 
-tutorial_slide_invite_teammates	Пригласи друзей в команду
+tutorial_slide_invite_teammates	Пригласите товарищей по команде
 
 tutorial_slide_limited_hero_pool	Ограниченный выбор героев
 
@@ -33294,7 +33294,7 @@ options_hdr_tonemap_tip		Filmic — плавное расширение к пи�
 options_hdr_black_point		Точка чёрного
 loading_stage_download 				Downloading Resources
 options_hdr_exposure		Экспозиция
-globby_mute_chat_tip						Mute Chat
+globby_mute_chat_tip					Заглушить чат
 boss_info_phoenix_ability3_desc	Даёт 5% реген. здоровья в сек. (отключается на 10 сек. при получении атаки).\n\nКогда Phoenix теряет 40% макс. здоровья, он отбрасывает врагов рядом и порождает до 16 смерчей. Те разлетаются наружу, нанося 100/200 маг. урона + 10% от макс. здоровья цели и накладывая замедление скор. движ. 40% на 2 сек.
 store_show_listings		 	Show Listings
 player_role_unassigned_tip					В этом режиме роли не назначаются. Берите любого героя, который подходит команде.
@@ -33309,7 +33309,7 @@ boss_info_kongor_ability3_desc	Пассивно восстанавливает 5
 boss_info_phoenix_ability2_desc	Швыряет цепь вперёд, нанося 150 маг. урона и накладывая Оглушение на 1,5 сек. на задетых врагов. После короткой задержки цепь идёт обратно и наносит те же эффекты на возврате.
 store_unequip								Unequip
 plinko_skip1					Click to
-globby_mute_voice_tip						Mute Voice
+globby_mute_voice_tip					Заглушить голос
 options_hdr_highlight_desat		Спад светов
 boss_info_kongor_subtitle		Древний страж джунглей
 boss_info_kongor_stat_damage		^oФиз. урон:^* 125
