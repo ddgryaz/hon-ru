@@ -5,7 +5,7 @@ UPSTREAM_URL ?= https://github.com/Xyling12/HoN_RU_Pack.git
 BRANCH       ?= master
 APPLY        := ./linux/apply.sh
 
-.PHONY: help run probe uninstall update diff-upstream launch-options untranslated pr
+.PHONY: help run probe uninstall update diff-upstream launch-options untranslated pr lint
 
 help:
 	@echo 'Цели:'
@@ -16,6 +16,7 @@ help:
 	@echo '  make diff-upstream   показать, что изменилось в апстриме'
 	@echo '  make launch-options  строка для Steam -> Свойства -> Параметры запуска'
 	@echo '  make untranslated    что осталось без перевода (GROUP=предметы - детали)'
+	@echo '  make lint            проверить bundle/ на дефекты перевода'
 	@echo '  make pr NAME=...     ветка с переводами для PR в апстрим'
 
 run:
@@ -37,7 +38,10 @@ pr: _need-upstream
 	@test -n '$(NAME)' || { echo 'Укажи имя: make pr NAME=translate-report-ui'; exit 1; }
 	@UPSTREAM='$(UPSTREAM)' BRANCH='$(BRANCH)' ./linux/pr-branch.sh '$(NAME)'
 
-# База для сравнения - файлы из resources0.jz, поэтому нужна установленная игра
+# Эталон строк берётся из resources0.jz, поэтому нужна установленная игра
+lint:
+	@./linux/lint.sh $(LIMIT)
+
 untranslated:
 	@./linux/untranslated.sh '$(GROUP)'
 
