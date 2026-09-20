@@ -15,6 +15,8 @@ linux/                  порт под Linux
 |-- uninstall.sh        откат
 |-- config.sh           поиск игры в wine-префиксах
 |-- overrides.str       локальные правки строк
+|-- renames.txt         переименованные игрой ключи
+|-- untranslated.sh     отчёт о пробелах в переводе
 `-- lib/                honru.py (мерж, startup.cfg), probe.py (inotify)
 
 docs/                   правила перевода
@@ -33,6 +35,16 @@ interface:main_label_username	Имя пользователя
 Комментарии через `//`.
 
 Проверить: `make run`, затем запустить игру.
+
+Посмотреть, что ещё не переведено:
+
+```sh
+make untranslated
+make untranslated GROUP=интерфейс
+```
+
+Перевод берётся из `bundle/`, а база строк - из `resources0.jz`, поэтому
+строки, которых нет в `bundle/`, остаются английскими, но не пропадают.
 
 ## Формат .str
 

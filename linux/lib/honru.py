@@ -44,38 +44,95 @@ def load_overrides(path, stem):
     return out
 
 
-def cmd_merge(src, dst, overrides_path):
-    """Копирует src в dst, подменив значения ключей из overrides."""
-    stem = os.path.basename(src)
+def parse_str(data):
+    """Разбирает .str в {ключ: значение}, сохраняя порядок."""
+    if data.startswith(b'\xef\xbb\xbf'):
+        data = data[3:]
+    out = {}
+    for line in data.decode('utf-8', 'replace').replace('\r\n', '\n').split('\n'):
+        if not line or line.startswith('//') or '\t' not in line:
+            continue
+        key, value = line.split('\t', 1)
+        out[key.strip()] = value.strip()
+    return out
+
+
+def load_renames(path):
+    """Читает linux/renames.txt: [(как в игре, как в bundle), ...]."""
+    out = []
+    if not os.path.exists(path):
+        return out
+    with open(path, encoding='utf-8') as fh:
+        for raw in fh:
+            line = raw.strip()
+            if not line or line.startswith('#') or '->' not in line:
+                continue
+            new, old = line.split('->', 1)
+            out.append((new.strip(), old.strip()))
+    return out
+
+
+def lookup(key, ru, ru_lower, renames):
+    """Ищет перевод: точное совпадение, затем регистр, затем переименования."""
+    value = ru.get(key)
+    if value:
+        return value
+    alt = ru_lower.get(key.lower())
+    if alt:
+        return alt
+    for new, old in renames:
+        if new in key:
+            value = ru.get(key.replace(new, old))
+            if value:
+                return value
+    return None
+
+
+def cmd_merge(base_path, ru_path, dst, overrides_path, renames_path=''):
+    """Собирает файл строк: база из архива игры + русские значения сверху.
+
+    База обязательно берётся из resources0.jz, а не из bundle/: файл на диске
+    заменяет архивный целиком, без отката к нему по отсутствующим ключам.
+    Если положить один bundle/, все ключи, которых в нём нет (а игра их
+    добавляет с каждым патчем), исчезнут из интерфейса вместе с английским
+    текстом. Пустые значения в bundle/ по той же причине игнорируются.
+    """
+    stem = os.path.basename(ru_path)
     for suffix in ('_en.str', '.str'):
         if stem.endswith(suffix):
             stem = stem[:-len(suffix)]
             break
 
+    with open(base_path, 'rb') as fh:
+        base_raw = fh.read()
+    bom = b'\xef\xbb\xbf' if base_raw.startswith(b'\xef\xbb\xbf') else b''
+    base = parse_str(base_raw)
+
+    with open(ru_path, 'rb') as fh:
+        ru = parse_str(fh.read())
+
     over = load_overrides(overrides_path, stem)
+    renames = load_renames(renames_path)
+    ru_lower = {}
+    for k, v in ru.items():
+        if v:
+            ru_lower.setdefault(k.lower(), v)
 
-    with open(src, 'rb') as fh:
-        data = fh.read()
+    translated = kept = 0
+    for key in base:
+        value = over.get(key) or lookup(key, ru, ru_lower, renames)
+        if value:
+            base[key] = value
+            translated += 1
+        else:
+            kept += 1
 
-    if over:
-        enc, bom = sniff(data)
-        body = data[len(bom):].decode(enc)
-        lines = body.split('\r\n')
-        hits = 0
-        for i, line in enumerate(lines):
-            if not line or line.startswith('//') or '\t' not in line:
-                continue
-            key = line.split('\t', 1)[0].strip()
-            if key in over:
-                lines[i] = key + '\t\t' + over[key]
-                hits += 1
-        data = bom + '\r\n'.join(lines).encode(enc)
-        print('  %-24s переопределено ключей: %d' % (os.path.basename(src), hits))
+    lines = ['%s\t\t%s' % (k, v) for k, v in base.items()]
+    with open(dst, 'wb') as fh:
+        fh.write(bom + '\r\n'.join(lines).encode('utf-8'))
 
-    tmp = dst + '.tmp'
-    with open(tmp, 'wb') as fh:
-        fh.write(data)
-    os.replace(tmp, dst)
+    print('  %-24s переведено %5d, на английском %4d'
+          % (stem, translated, kept))
 
 
 def cmd_cfg(path, pairs):
@@ -139,7 +196,8 @@ def main():
     if len(sys.argv) < 2:
         sys.exit('usage: honru.py {merge,cfg} ...')
     if sys.argv[1] == 'merge':
-        cmd_merge(sys.argv[2], sys.argv[3], sys.argv[4])
+        cmd_merge(sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5],
+                  sys.argv[6] if len(sys.argv) > 6 else '')
     elif sys.argv[1] == 'onlaunch':
         cmd_onlaunch(sys.argv[2], sys.argv[8:], sys.argv[3].split(','),
                      sys.argv[4], float(sys.argv[5]), sys.argv[6],
@@ -166,8 +224,12 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
     import glob
 
     sources = {}
-    for name in os.listdir(stage):
-        with open(os.path.join(stage, name), 'rb') as fh:
+    for name in sorted(os.listdir(stage)):
+        path = os.path.join(stage, name)
+        # В stage лежит ещё подкаталог base/ с распакованным архивом
+        if not name.endswith('_en.str') or not os.path.isfile(path):
+            continue
+        with open(path, 'rb') as fh:
             sources[name] = fh.read()
 
     plan = []

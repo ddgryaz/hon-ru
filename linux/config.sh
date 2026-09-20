@@ -61,6 +61,38 @@ hon_logdir() {
     printf '%s\n' "${HON_LOG_DIR:-$(dirname "$HON_GAME_DIR")/logs}"
 }
 
+# Проверяет, что нужные утилиты на месте
+hon_require() {
+    local tool missing=0
+    for tool in "$@"; do
+        command -v "$tool" >/dev/null || { echo "Нужен $tool." >&2; missing=1; }
+    done
+    return $missing
+}
+
+# Извлекает англоязычные stringtables из resources0.jz в указанный каталог.
+# Они нужны и как база для мержа, и как эталон для отчёта о пробелах.
+hon_extract_base() {
+    local dst="$1" zip=""
+    for candidate in 7z 7zz 7za; do
+        command -v "$candidate" >/dev/null && { zip="$candidate"; break; }
+    done
+    if [ -z "$zip" ]; then
+        echo "Нужен 7z (пакет p7zip) для чтения resources0.jz." >&2
+        return 1
+    fi
+    if [ ! -f "$HON_GAME_DIR/resources0.jz" ]; then
+        echo "Не найден архив игры: $HON_GAME_DIR/resources0.jz" >&2
+        return 1
+    fi
+    mkdir -p "$dst"
+    if ! "$zip" e "$HON_GAME_DIR/resources0.jz" "stringtables/*_en.str" \
+            -o"$dst" -y >/dev/null 2>&1; then
+        echo "Не удалось прочитать stringtables из resources0.jz." >&2
+        return 1
+    fi
+}
+
 # Движок запрашивает /stringtables/interface.str и сам подставляет суффикс
 # локали, а в архиве лежат только *_en.str - кладём оба варианта
 HON_STR_SUFFIXES=("_en.str" ".str")

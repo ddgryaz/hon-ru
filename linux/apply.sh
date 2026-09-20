@@ -29,15 +29,14 @@ done
 SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
 BUNDLE_DIR="$(dirname "$SCRIPT_DIR")/bundle"
 OVERRIDES="$SCRIPT_DIR/overrides.str"
+RENAMES="$SCRIPT_DIR/renames.txt"
 
 # shellcheck source=config.sh
 source "$SCRIPT_DIR/config.sh"
 # shellcheck source=/dev/null
 [ -f "$SCRIPT_DIR/config.local.sh" ] && source "$SCRIPT_DIR/config.local.sh"
 
-for tool in python3 pgrep; do
-    command -v "$tool" >/dev/null || { echo "Нужен $tool." >&2; exit 1; }
-done
+hon_require python3 pgrep || exit 1
 
 if ! hon_detect; then
     echo "Игра не найдена. Задай пути в linux/config.local.sh:" >&2
@@ -61,11 +60,19 @@ TARGET="$HON_GAME_DIR/stringtables"
 STAGE="$(mktemp -d)"
 trap 'rm -rf "$STAGE"' EXIT
 
+# База берётся из архива игры, а не из bundle/: файл на диске подменяет
+# архивный целиком, поэтому ключи, которых нет в bundle/, иначе пропали бы
+# из игры вместе с английским текстом. Заодно новые строки из патчей игры
+# подхватываются сами.
+hon_extract_base "$STAGE/base" || exit 1
+
 echo
 for base in "${HON_STR_BASES[@]}"; do
-    src="$BUNDLE_DIR/${base}_en.str"
-    [ -f "$src" ] || { echo "  нет в bundle/: ${base}_en.str" >&2; continue; }
-    python3 "$SCRIPT_DIR/lib/honru.py" merge "$src" "$STAGE/${base}_en.str" "$OVERRIDES"
+    ru="$BUNDLE_DIR/${base}_en.str"
+    orig="$STAGE/base/${base}_en.str"
+    [ -f "$orig" ] || { echo "  нет в архиве игры: ${base}_en.str" >&2; continue; }
+    [ -f "$ru" ] || { echo "  нет в bundle/: ${base}_en.str" >&2; continue; }
+    python3 "$SCRIPT_DIR/lib/honru.py" merge "$orig" "$ru" "$STAGE/${base}_en.str" "$OVERRIDES" "$RENAMES"
 done
 
 # host_locale=en обязателен: русский текст подменяет собой английский,
