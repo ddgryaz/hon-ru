@@ -223,9 +223,9 @@ ping_ext_alt_health									{account_color}{player_name}^*^; {player_color}({pla
 
 ping_ext_alt_mana									{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня ^379{param}^* маны
 
-ping_ext_alt_buyback_enough_gold					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и я могу выкупиться
+ping_ext_alt_buyback_enough_gold					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, могу выкупиться
 
-ping_ext_alt_buyback_lack_of_gold					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и я не могу выкупиться
+ping_ext_alt_buyback_lack_of_gold					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, не могу выкупиться
 
 ping_ext_alt_selected_attribute {account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{selected_hero_name}^* имеет {attribute_value} {attribute_type}
 
@@ -288,11 +288,11 @@ ping_ext_alt_buff_state								{account_color}{player_name}^*^; {player_color}({
 ping_ext_alt_stash_item								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^667{item}^* в моем тайнике
 
 
-ping_ext_alt_buyback_info_enoughgold				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и я могу выкупить (осталось {remaining_buybacks})
+ping_ext_alt_buyback_info_enoughgold				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, могу выкупиться (осталось выкупов: {remaining_buybacks})
 
-ping_ext_alt_buyback_info_shortofgold				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и мне нужно {remaining_gold} дополнительного золота для выкупа
+ping_ext_alt_buyback_info_shortofgold				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, на выкуп не хватает ^y{remaining_gold}^*
 
-ping_ext_alt_buyback_info_zeroleft					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и у меня выкупы закончились
+ping_ext_alt_buyback_info_zeroleft					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, но выкупы закончились
 
 ping_ext_alt_latency								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Мой пинг ^y{latency}^*ms
 
@@ -645,13 +645,13 @@ player_unready						{account_color}{player}^*^; ^rбольше не готов^*
 
 
 
-player_boughtback					{account_color}{player}^*^; выкупил
+player_boughtback					{account_color}{player}^*^; выкупился
 
-player_boughtback2					{account_color}{player}^*^; выкупил. Использовано {buybacks_used}/{buybacks_remaining} обратных выкупов
+player_boughtback2					{account_color}{player}^*^; выкупился. Использовано выкупов: {buybacks_used}/{buybacks_remaining}
 
 
 
-error_all_buybacks_used				У вас не осталось обратных выкупов.
+error_all_buybacks_used				У вас не осталось выкупов.
 
 
 
