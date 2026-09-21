@@ -25950,11 +25950,11 @@ tpp_enterreplay				Введите здесь название повтора...
 
 
 
-tpp_legion_sky_box			Небесный ящик Легиона
+tpp_legion_sky_box			Небо Легиона
 
 
 
-tpp_hellbourne_sky_box		Небесный ящик Хеллборна
+tpp_hellbourne_sky_box		Небо Хеллборна
 
 
 
@@ -31550,7 +31550,7 @@ profile_totaldeaths								Всего смертей
 
 
 
-profile_totalassists							Всего передач
+profile_totalassists							Всего ассистов
 
 
 
@@ -31570,11 +31570,11 @@ profile_totalgames								Всего игр
 
 
 
-profile_totalhellbourne							Тотал Хеллборн
+profile_totalhellbourne							За Хеллборн
 
 
 
-profile_totallegion								Тотальный Легион
+profile_totallegion								За Легион
 
 
 
@@ -31582,7 +31582,7 @@ profile_totalwins								Всего побед
 
 
 
-profile_totalloss								Общие потери
+profile_totalloss								Поражений
 
 
 

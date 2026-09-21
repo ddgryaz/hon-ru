@@ -368,15 +368,15 @@ area_legion_ancient_spawn				Лагерь древних Легиона
 
 area_hellbourne_ancient_spawn			Лагерь древних Хеллборна
 
-area_hellbourne_neutral_spawn1			Джангл Легиона hard camp
+area_hellbourne_neutral_spawn1			Сложный лагерь Легиона
 
-area_hellbourne_neutral_spawn2			Джангл Легиона easy camp
+area_hellbourne_neutral_spawn2			Лёгкий лагерь Легиона
 
-area_hellbourne_neutral_spawn3			Джангл Легиона medium camp
+area_hellbourne_neutral_spawn3			Средний лагерь Легиона
 
-area_hellbourne_neutral_spawn4			Джангл Легиона medium camp
+area_hellbourne_neutral_spawn4			Средний лагерь Легиона
 
-area_hellbourne_neutral_spawn5			Джангл Легиона medium camp
+area_hellbourne_neutral_spawn5			Средний лагерь Легиона
 
 area_legion_neutral_spawn1				Сложный лагерь Хеллборна
 
@@ -1365,7 +1365,7 @@ hero_pirate_ability3_switched			Ваш охотник за головами те
 
 thegrimmhunt_endgame_legion				^gЛегион^* собрал достаточно ресурсов! Герои Хеллборна будут возрождаться медленнее, а база Хеллборна теперь уязвима!
 
-thegrimmhunt_endgame_hellbourne			^rАдские ^* собрали достаточно ресурсов! Герои Легиона будут возрождаться медленнее, а база Легиона теперь уязвима!
+thegrimmhunt_endgame_hellbourne			^rХеллборн^* собрал достаточно ресурсов! Герои Легиона будут возрождаться медленнее, а база Легиона теперь уязвима!
 
 
 
