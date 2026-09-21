@@ -110,6 +110,13 @@ def check(base_dir, bundle_dir, overrides):
                 add('невидимый символ в строке', '%s:%s' % (stem, key),
                     ', '.join(invis))
 
+            # Значение chat_command_<имя> - сама команда (/colors, /w).
+            # Переведённая команда перестаёт работать
+            if (key.startswith('chat_command_') and re.fullmatch(r'/\S+', eng.strip())
+                    and value.strip() != eng.strip()):
+                add('переведена команда чата', '%s:%s' % (stem, key), value[:40])
+                continue
+
             # Категории магазина - это идентификаторы фильтров, а не текст:
             # видимое имя лежит отдельно, в Shop_Filter_*_description.
             # Переведённый токен выкидывает предмет из фильтра
