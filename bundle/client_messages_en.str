@@ -126,7 +126,6 @@ disconnect_early_leaver				Матч был отменён, так как игр�
 
 rejected_invalid_request		Ваш клиент отправил недопустимый запрос на подключение.
 
-rejected_invalid_вард_location	Вы не можете поставить вард здесь.
 
 rejected_empty_address			Серверу не удалось определить ваш адрес.
 
@@ -342,7 +341,6 @@ chat_requested_approval_limit		^279* Вы достигли лимита друз
 
 chat_approving_buddy				^279* Утверждаю ^990{name}^279 в качестве друга...
 
-chat_отказing_buddy					^279* Отклонил ^990{name}^279 как друга...
 
 chat_failed_approving_buddy			^279* Не удалось одобрить ^990{name}^279 в качестве друга...
 

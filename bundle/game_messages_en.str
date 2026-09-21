@@ -1,5 +1,4 @@
-﻿отказ								{killer_color}{killer}^* отклонено {victim_color}{victim}^*!
-
+﻿
 kill0								{killer_color}{killer}^* нанес удар по голове {victim_color}{victim}^*! за ^y{gold}^* золото!!
 
 kill1								{killer_color}{killer}^* нанес удар по голове {victim_color}{victim}^*! за ^y{gold}^* золото!!
@@ -66,17 +65,13 @@ multikill3							У {killer} ^084АННИГИЛИРОВАЛ^* своих про�
 
 killtower							{killer} разрушил башню {ping_tile}.\n{reward} получает ^y{gold} зол.^*
 
-отказtower							{player} ^444запретил ^* башню {ping_tile}!
 
 killmeleerax						Казармы {victim} {ping_tile} ^724Melee^* {victim} были разрушены.
 
 killrangedrax						Казармы {victim} {ping_tile} ^266Ranged^* уничтожены.
 
-killкурьер							Курьер {victim} был убит {killer}!
 
-boughtwalkingкурьер				{player_color}{player}^* купил пешеходного курьера.
 
-boughtflyingкурьер					{player_color}{player}^* купил летающего курьера.
 
 ping_target						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {mode}{unit_team_color}{unit_name}^* сейчас!
 
@@ -292,7 +287,6 @@ ping_ext_alt_buff_state							{account_color}{player_name}^*^; {player_color}({p
 
 ping_ext_alt_stash_item							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^667{item}^* в моем тайнике
 
-ping_ext_alt_курьер_inventory_item					{player_color}{player_name} ({player_hero_name})^*: ^667{item}^* доставляется мне
 
 ping_ext_alt_buyback_info_enoughgold			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: у меня есть ^y{param}^* золота, и я могу выкупить (осталось {remaining_buybacks})
 
@@ -490,7 +484,6 @@ kill								{victim} умер.
 
 teamkilltower						{killer} разрушил башню {ping_tile}.\n{killer} получает ^y{gold} зол.^*
 
-teamотказtower						{denier} ^444запретил ^* башню {ping_tile}!
 
 
 
@@ -678,13 +671,11 @@ error_not_unit						Нужно выбрать цель-юнита.
 
 error_invalid_target				Это недопустимая цель.
 
-error_курьер_no_stash				В вашем тайнике нет предметов.
 
 error_safe_channel					Безопасный канал предотвратил действие.
 
 
 
-курьер_actions_queued				Доставка ваших предметов.
 
 
 
@@ -740,17 +731,11 @@ purchase_msg_out_of_stock			Нет в наличии.
 
 
 
-курьер_msg_has_returned			Курьер вернулся к фонтану
 
-курьер_msg_delivering				Курьер несёт ваши предметы
 
-курьер_msg_returning				Курьер возвращается к фонтану
 
-курьер_msg_fetching				Курьер забирает ваши предметы с фонтана
 
-курьер_msg_following				Курьер следует за вами для передачи предметов.
 
-курьер_msg_attacked				Курьер вынужден вернуться на базу
 
 
 
@@ -1178,7 +1163,6 @@ admin_unpause					^188[СЕРВЕР] {player1} снял игру с паузы.
 
 
 
-rejected_invalid_вард_location		Вард нельзя поставить в этом месте.
 
 
 
@@ -1332,7 +1316,6 @@ item_ophelias_pact_quest_objective2		^cПакт Офелии^* прогресс:
 
 item_ophelias_pact_quest_objective3		^cПакт Офелии^* прогресс: установлено {param}/2 Защиты Откровения!
 
-item_ophelias_pact_quest_objective3_counterвард		^cПакт Офелии^* прогресс: 1/1 Вард of Sight отменено!
 
 
 
@@ -1518,9 +1501,7 @@ Onev1mid_creepkill_victory_hellbourne		Лимит времени исчерпа�
 
 
 
-Onev1mid_creepотказ_victory_legion			Лимит времени исчерпан. Убийства крипов связаны. Легион побеждает, отрицая крипа {param}!
 
-Onev1mid_creepотказ_victory_hellbourne		Лимит времени исчерпан. Убийства крипов связаны. Хеллборн побеждает, отрицая крип {param}!
 
 
 
