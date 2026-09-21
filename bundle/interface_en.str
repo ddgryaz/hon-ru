@@ -414,7 +414,7 @@ general_submit								Отправить
 
 
 
-general_close								Закрывать
+general_close								Закрыть
 
 
 
@@ -1046,7 +1046,7 @@ general_how_many 							Сколько?
 
 
 
-general_confirm 							Подтвердите
+general_confirm 							Подтвердить
 
 
 
@@ -17122,7 +17122,7 @@ game_menu_kick_disabled_cooldown_tooltip	Вам нужно подождать {t
 
 
 
-game_menu_remake_tooltip					Нажатие этой кнопки инициирует голосование за повторный матч. Чтобы голосование было признано, все игроки должны проголосовать единогласно. Ремейк вернет всех игроков обратно в лобби, как если бы игра никогда не запускалась.
+game_menu_remake_tooltip					Эта кнопка созывает голосование за рестарт матча. Чтобы оно прошло, все игроки должны проголосовать "за" единогласно. Рестарт вернёт всех игроков в лобби, как будто игра и не начиналась.
 
 
 
@@ -17178,7 +17178,7 @@ game_menu_moved_title						Совместное использование, пе
 
 
 
-game_menu_moved								Чтобы поделиться управлением, используйте кнопки на панели вашей команды в левом верхнем углу игрового экрана. Чтобы пересоздать, уступить или приостановить игру, используйте меню голосования в правом верхнем углу игрового экрана.
+game_menu_moved								Чтобы поделиться управлением, используйте кнопки на панели команды слева вверху экрана. Рестарт, сдача и пауза - в меню голосования справа вверху экрана.
 
 
 
@@ -17290,7 +17290,7 @@ game_menu_menu_tip							Открыть меню игры
 
 
 
-game_menu_vote_tip							Проголосовать
+game_menu_vote_tip							Голосование
 
 
 
@@ -17362,7 +17362,7 @@ game_menu_concede_btn						Созвать голосование за сдачу
 
 
 
-game_menu_remake_confirm					Подтвердите свой выбор, чтобы объявить голосование за римейк.
+game_menu_remake_confirm					Подтвердите выбор, чтобы созвать голосование за рестарт.
 
 
 
@@ -17378,23 +17378,23 @@ game_menu_pause_reason					 Выберите причину паузы.
 
 
 
-game_menu_pause_reason_emergency		 Короткая экстренная помощь
+game_menu_pause_reason_emergency		Срочное дело
 
 
 
-game_menu_pause_reason_family 		 Раздражающая семья
+game_menu_pause_reason_family 		Семья зовёт
 
 
 
-game_menu_pause_reason_door 		 Ответить на дверь
+game_menu_pause_reason_door 		Открыть дверь
 
 
 
-game_menu_pause_reason_tech 		 Проблемы с сетью/ПК
+game_menu_pause_reason_tech 		Сбой сети/ПК
 
 
 
-game_menu_pause_reason_bathroom 		 Ванная комната
+game_menu_pause_reason_bathroom 		Туалет
 
 
 
@@ -17414,7 +17414,7 @@ vote_concede								Сдаться?
 
 
 
-vote_remake									Ремейк?
+vote_remake									Рестарт?
 
 
 
