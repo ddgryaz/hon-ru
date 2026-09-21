@@ -32848,7 +32848,7 @@ tutorial_slide_ingame_shop_desc	Выберите интерфейс магази
 tutorial_slide_ingame_shop_desc2	Изменить выбор можно в любой момент в меню настроек.
 tutorial_slide_ingame_shop_modern	Современный
 tutorial_slide_ingame_shop_modern_desc	Упрощённый интерфейс магазина с обновлённым поведением, занимающий меньше места на экране.
-tutorial_slide_invite_teammates_desc_top	Нажмите Пригласить для добавления друга в группу.
+tutorial_slide_invite_teammates_desc_top	Хотите играть с друзьями?\nНажмите "Пригласить игрока", чтобы добавить их в группу и встать в очередь вместе.
 tutorial_slide_keybinds	Горячие клавиши
 tutorial_slide_keybinds_options	Можно изменить в настройках.
 tutorial_slide_keybinds_skip	Пропустить этот шаг (ваши клавиши не изменятся)
@@ -33004,7 +33004,7 @@ hselect_label_hd_attack_speed		Скор. атак.
 
 tutorial_npe_welcome_title	Добро пожаловать в Heroes of Newerth
 
-tutorial_npe_welcome_message	Прежде чем начать, расскажи нам о своём игровом опыте
+tutorial_npe_welcome_message	Давайте настроим обучение под вас.\nНасколько хорошо вы знакомы с MOBA?
 
 
 
@@ -33150,7 +33150,7 @@ tutorial_slide_bans	Баны героев
 
 tutorial_slide_bans_desc_top	Нажми «Играть», чтобы открыть меню подбора матча
 
-tutorial_slide_bans_desc_bottom	Выбери до трёх героев, которых хочешь заблокировать в матче
+tutorial_slide_bans_desc_bottom	Приоритет идёт СВЕРХУ ВНИЗ.\nЧем выше герой, тем вероятнее его забанят.
 
 tutorial_slide_role_priority	Приоритет ролей
 
