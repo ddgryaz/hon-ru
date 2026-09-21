@@ -17970,19 +17970,19 @@ player_stats_serialkiller					Серийный убийца ^v(3)^*
 
 
 
-player_stats_ultimatewarrior				Абсолютный Воин ^v(4)^*
+player_stats_ultimatewarrior				Абсолютный воин ^v(4)^*
 
 
 
-player_stats_legndary						Легендарный ^v(5)^*
+player_stats_legndary						Легенда ^v(5)^*
 
 
 
-player_stats_onslaught						Натиск ^v(6)^*
+player_stats_onslaught						Неудержимый ^v(6)^*
 
 
 
-player_stats_savagesick						Дикий больной ^v(7)^*
+player_stats_savagesick						Беспощадный ^v(7)^*
 
 
 
@@ -18002,7 +18002,7 @@ player_stats_immortal						Бессмертный ^v(15)^*
 
 
 
-player_stats_doubletap						Двойное нажатие
+player_stats_doubletap						Дабл-килл
 
 
 
@@ -18010,11 +18010,11 @@ player_stats_hattrick						Хет-трик
 
 
 
-player_stats_quadkill						Четырехкратное убийство
+player_stats_quadkill						Квадра-килл
 
 
 
-player_stats_annihilated					Уничтожение
+player_stats_annihilated					Аннигиляция
 
 
 

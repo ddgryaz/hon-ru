@@ -1,65 +1,65 @@
 ﻿
-kill0								{killer_color}{killer}^* нанес удар по голове {victim_color}{victim}^*! за ^y{gold}^* золото!!
+kill0								{killer_color}{killer}^*^; уничтожил {victim_color}{victim}^*^; и получил ^y{gold}^* золота!!
 
-kill1								{killer_color}{killer}^* нанес удар по голове {victim_color}{victim}^*! за ^y{gold}^* золото!!
+kill1								{killer_color}{killer}^*^; уничтожил {victim_color}{victim}^*^; и получил ^y{gold}^* золота!!
 
-kill2								{killer_color}{killer}^* нанес удар по голове {victim_color}{victim}^*! за ^y{gold}^* золото!!
+kill2								{killer_color}{killer}^*^; уничтожил {victim_color}{victim}^*^; и получил ^y{gold}^* золота!!
 
-kill3								{killer_color}{killer}^* нанес удар по голове {victim_color}{victim}^*! за ^y{gold}^* золото!!
+kill3								{killer_color}{killer}^*^; уничтожил {victim_color}{victim}^*^; и получил ^y{gold}^* золота!!
 
-kill4								{killer_color}{killer}^* нанес удар по голове {victim_color}{victim}^*! за ^y{gold}^* золото!
+kill4								{killer_color}{killer}^*^; уничтожил {victim_color}{victim}^*^; и получил ^y{gold}^* золота!
 
-first_kill							У {killer_color}{killer}^* ^rжажда крови^*! (^y+{gold}^* золото!)
+first_kill							У {killer_color}{killer}^*^; ^rжажда крови^*! (^y+{gold}^* золота!)
 
-first_kill_team						У {killer_color}{killer}^* ^rжажда крови^*! (золота ^y+{gold}^* разделено!)
+first_kill_team						У {killer_color}{killer}^*^; ^rжажда крови^*! (^y+{gold}^* золота на всю команду!)
 
-killstreak0							{killer_color}{killer}^* - ^082серийный убийца^*!
+killstreak0							{killer_color}{killer}^*^; - ^082серийный убийца^*!
 
-killstreak1							{killer_color}{killer}^* - ^204совершенный воин^*!
+killstreak1							{killer_color}{killer}^*^; - ^204абсолютный воин^*!
 
-killstreak2							{killer_color}{killer}^* - это ^808легендарный^*!
+killstreak2							{killer_color}{killer}^*^; - ^808легенда^*!
 
-killstreak3							{killer_color}{killer}^* совершает ^840НАТИСК^*!
+killstreak3							{killer_color}{killer}^*^; ^840НЕУДЕРЖИМ^*!
 
-killstreak4							{killer_color}{killer}^* ^440жестоко болен^*!!
+killstreak4							{killer_color}{killer}^*^; ^440беспощаден^*!!
 
-killstreak5							{killer_color}{killer}^* ^848доминирует^*!!
+killstreak5							{killer_color}{killer}^*^; ^848доминирует^*!!
 
-killstreak6							{killer_color}{killer}^* - ^800ЧЕМПИОН НОВЫХ^*!!!
+killstreak6							{killer_color}{killer}^*^; - ^800ЧЕМПИОН^*!!!
 
-killstreak7							{killer_color}{killer}^* устроил ^840КРОВАВУЮ БАНЮ^*! Кто-нибудь, УБЕЙ ИХ!
+killstreak7							{killer_color}{killer}^*^; устроил ^840КРОВАВУЮ БАНЮ^*! Кто-нибудь, УБЕЙТЕ ЕГО!
 
-killstreak8							{killer_color}{killer}^* - это ^860БЕССМЕРТНЫЙ^*!!
-
-
-
-streakend0							{killer} только что завершил серию ^082серийных убийц^* {victim}, завоевав золото ^y{gold}^*!!
-
-streakend1							{killer} только что завершил серию ^204Совершенного Воина^* {victim}, завоевавшую ^y{gold}^* золото!!
-
-streakend2							{killer} только что завершил серию ^808легендарной^* {victim}, завоевавшей золото ^y{gold}^*!!
-
-streakend3							{killer} только что завершил серию ^840натиска^* {victim} и завоевал золото ^y{gold}^*!!
-
-streakend4							{killer} только что завершил серию ^440жестокой болезни^* {victim}, завоевав золото ^y{gold}^*!!
-
-streakend5							{killer} только что завершил серию ^848доминирования^* {victim} и завоевал золото ^y{gold}^*!!
-
-streakend6							{killer} только что завершил серию ^800ЧЕМПИОНА НЬЮЕРТА^* {victim} и завоевал золото ^y{gold}^*!!
-
-streakend7							{killer} только что завершил серию ^840КРОВАВОЙ БАНИ^* {victim}, завоевав золото ^y{gold}^*!!
-
-streakend8							{killer} только что завершил серию ^860БЕССМЕРТИЯ^* {victim}, завоевав золото ^y{gold}^*!!
+killstreak8							{killer_color}{killer}^*^; ^860БЕССМЕРТЕН^*!!
 
 
 
-multikill0							{killer} только что получил ^008Дабл Килл^*!
+streakend0							{killer} прервал серию ^082серийного убийцы^* {victim} и получил ^y{gold}^* золота!!
 
-multikill1							{killer} только что сделал ^084хет-трик^*!!!
+streakend1							{killer} прервал серию ^204абсолютного воина^* {victim} и получил ^y{gold}^* золота!!
 
-multikill2							{killer} только что совершил ^084Квадра Килл^*!!!
+streakend2							{killer} прервал серию ^808легендарного^* {victim} и получил ^y{gold}^* золота!!
 
-multikill3							У {killer} ^084АННИГИЛИРОВАЛ^* своих противников!!!
+streakend3							{killer} прервал серию ^840неудержимого^* {victim} и получил ^y{gold}^* золота!!
+
+streakend4							{killer} прервал серию ^440беспощадного^* {victim} и получил ^y{gold}^* золота!!
+
+streakend5							{killer} прервал ^848доминирование^* {victim} и получил ^y{gold}^* золота!!
+
+streakend6							{killer} прервал серию ^800ЧЕМПИОНА^* {victim} и получил ^y{gold}^* золота!!
+
+streakend7							{killer} прервал ^840КРОВАВУЮ БАНЮ^* {victim} и получил ^y{gold}^* золота!!
+
+streakend8							{killer} прервал серию ^860БЕССМЕРТНОГО^* {victim} и получил ^y{gold}^* золота!!
+
+
+
+multikill0							{killer} делает ^008дабл-килл^*!
+
+multikill1							{killer} делает ^084хет-трик^*!!!
+
+multikill2							{killer} делает ^084квадра-килл^*!!!
+
+multikill3							{killer} ^084АННИГИЛИРОВАЛ^* противников!!!
 
 
 
