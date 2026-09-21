@@ -1563,17 +1563,17 @@ general_magic Магический
 
 
 
-vanity_msg_self						{ownerPlayer_color}{ownerPlayer}^*^; ^999играл ^o{ability}^*
+vanity_msg_self						{ownerPlayer_color}{ownerPlayer}^*^; ^999использует ^o{ability}^*
 
-vanity_msg_dookie {ownerPlayer_color}{ownerPlayer}^*^; ^999выронил ^n кукушку!
+vanity_msg_dookie {ownerPlayer_color}{ownerPlayer}^*^; ^999навалил ^nкучу!
 
-vanity_msg_dookie_count {ownerPlayer_color}{ownerPlayer}^*^; ^999выронил ^n кукушку!
+vanity_msg_dookie_count {ownerPlayer_color}{ownerPlayer}^*^; ^999навалил ^nкучу!
 
-vanity_msg_piss 	{ownerPlayer_color}{ownerPlayer}^*^; ^999просто злился повсюду!
+vanity_msg_piss 	{ownerPlayer_color}{ownerPlayer}^*^; ^999обмочил тут все вокруг!
 
-vanity_msg_bamf_welcometonewerth {ownerPlayer_color}{ownerPlayer}^*^; ^999приветствует вас в мире Ньюэрта
+vanity_msg_bamf_welcometonewerth {ownerPlayer_color}{ownerPlayer}^*^; ^999приветствует вас в мире Неверта
 
-vanity_msg_bamf_immortal			{ownerPlayer_color}{ownerPlayer}^*^; ^999это чертовски хорошо!
+vanity_msg_bamf_immortal			{ownerPlayer_color}{ownerPlayer}^*^; ^999просто чертовски хорош!
 
 vanity_msg_bamf_genocide			{ownerPlayer_color}{ownerPlayer}^*^; ^999никто тебя не спасет...
 
@@ -1581,75 +1581,75 @@ vanity_msg_bamf_smackdown			{ownerPlayer_color}{ownerPlayer}^*^; ^999садис�
 
 vanity_msg_dumpster {ownerPlayer_color}{ownerPlayer}^*^; ^999вынес мусор
 
-vanity_msg_kiss {ownerPlayer_color}{ownerPlayer}^*^; ^999подарил {targetPlayer_color}{targetPlayer}^*^; ^999большую, мокрую ^rпоцелуй
+vanity_msg_kiss {ownerPlayer_color}{ownerPlayer}^*^; ^999подарил {targetPlayer_color}{targetPlayer}^*^; ^999большой мокрый ^rпоцелуй
 
-vanity_msg_kiss_owned {ownerPlayer_color}{ownerPlayer}^*^; ^999подарил {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999большую, мокрую ^r поцелуй
+vanity_msg_kiss_owned {ownerPlayer_color}{ownerPlayer}^*^; ^999подарил большой мокрый ^rпоцелуй^999: {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}
 
-vanity_msg_ballsofsteel {ownerPlayer_color}{ownerPlayer}^*^; ^999спамит JstJ, пока может
+vanity_msg_ballsofsteel {ownerPlayer_color}{ownerPlayer}^*^; ^999JstJ спамят, пока можно
 
 vanity_msg_forgottospecify {ownerPlayer_color}{ownerPlayer}^*^; ^999забыл указать текст сообщения!
 
 vanity_msg_soap						{ownerPlayer_color}{ownerPlayer}^*^; ^999только что уронил мыло!
 
-vanity_msg_getplanted				{ownerPlayer_color}{ownerPlayer}^*^; ^G^:ПОСТАВЛЕНО!!
+vanity_msg_getplanted				{ownerPlayer_color}{ownerPlayer}^*^; ^G^:ПОСАЖЕН!!
 
-vanity_msg_clown					{ownerPlayer_color}{ownerPlayer}^*^; ^rc^gl^bo^rw^gn^be^rd {targetPlayer_color}{targetPlayer}^*^;
+vanity_msg_clown					{ownerPlayer_color}{ownerPlayer}^*^; ^rо^gс^bм^rе^gя^bл {targetPlayer_color}{targetPlayer}^*^;
 
-vanity_msg_clown_owned				{ownerPlayer_color}{ownerPlayer}^*^; ^rc^gl^bo^rw^gn^be^rd {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}
+vanity_msg_clown_owned				{ownerPlayer_color}{ownerPlayer}^*^; ^rо^gс^bм^rе^gя^bл {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}
 
-vanity_msg_thebest {ownerPlayer_color}{ownerPlayer}^*^; ^999присвоил {targetPlayer_color}{targetPlayer}^*^; ^999 звание ^yMVP
+vanity_msg_thebest {ownerPlayer_color}{ownerPlayer}^*^; ^999короновал {targetPlayer_color}{targetPlayer}^*^; ^999как ^yMVP
 
-vanity_msg_thebest_owned {ownerPlayer_color}{ownerPlayer}^*^; ^999наградил {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999самым ценным игроком ^y
+vanity_msg_thebest_owned {ownerPlayer_color}{ownerPlayer}^*^; ^999короновал {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999как ^yMVP
 
 vanity_msg_roulette {ownerPlayer_color}{ownerPlayer}^*^; ^999испытывает свою удачу!
 
-vanity_msg_tv						{ownerPlayer_color}{ownerPlayer}^*^; ^999Последние новости! Местный ну замечен в Ньюерте!
+vanity_msg_tv						{ownerPlayer_color}{ownerPlayer}^*^; ^999Срочные новости! В Неверте замечен местный нуб!
 
-vanity_msg_mmrburglar				{ownerPlayer_color}{ownerPlayer}^*^; ^999спасибо за ^Gбесплатный MMR!
+vanity_msg_mmrburglar				{ownerPlayer_color}{ownerPlayer}^*^; ^999благодарит за ^Gбесплатный MMR!
 
 vanity_msg_sitdown					{ownerPlayer_color}{ownerPlayer}^*^; ^999пододвинул стул, садись!
 
-vanity_msg_merrick_stripper			{ownerPlayer_color}{ownerPlayer}^*^; ^999начал ^Pразборку!
+vanity_msg_merrick_stripper			{ownerPlayer_color}{ownerPlayer}^*^; ^999начал ^Pстриптиз!
 
-vanity_msg_bigpimpin				{ownerPlayer_color}{ownerPlayer}^*^; ^Y^:БОЛЬШОЙ СУДЕНЕЦ!!
+vanity_msg_bigpimpin				{ownerPlayer_color}{ownerPlayer}^*^; ^Y^:ЖИВУ КРАСИВО!!
 
 vanity_msg_flamboyant				{ownerPlayer_color}{ownerPlayer}^*^; ^b^:B^g^:I^y^:T^r^:C^p^:H ^b^:S^g^:L^y^:A^r^:P^p^:P^b^:E^g^:D ^w!
 
-vanity_msg_happynewyearnewerth		{ownerPlayer_color}{ownerPlayer}^*^; ^978желает вам СЧАСТЛИВОГО ^oНОВОГО ^yГОДА ^wНОВОСТИ!!!
+vanity_msg_happynewyearnewerth		{ownerPlayer_color}{ownerPlayer}^*^; ^978поздравляет: С ^oНОВЫМ ^yГОДОМ, ^wНЕВЕРТ!!!
 
 vanity_msg_mmrcalculator			{ownerPlayer_color}{ownerPlayer}^*^; ^999Вычисление MMR... ^r^: ОШИБКА: ^rНЕВОЗМОЖНО ВЫЧИСЛИТЬ ОТРИЦАТЕЛЬНЫЙ MMR!
 
-vanity_msg_warbanner				{ownerPlayer_color}{ownerPlayer}^*^; ^999бросили свое боевое знамя!
+vanity_msg_warbanner				{ownerPlayer_color}{ownerPlayer}^*^; ^999водрузил свое боевое знамя!
 
-vanity_msg_coffin					{ownerPlayer_color}{ownerPlayer}^*^; ^999Танец гроба!!!
+vanity_msg_coffin					{ownerPlayer_color}{ownerPlayer}^*^; ^999Танец с гробом!!!
 
-vanity_msg_cleanupcrew				{ownerPlayer_color}{ownerPlayer}^*^; ^999Зачистка на острове 4, бригада зачистки уже здесь!
+vanity_msg_cleanupcrew				{ownerPlayer_color}{ownerPlayer}^*^; ^999Уборка в четвертом ряду, бригада уборщиков уже здесь!
 
 vanity_msg_goodnight 				{ownerPlayer_color}{ownerPlayer}^*^; ^999Время поспать! Спокойной ночи...
 
-vanity_msg_nerds 					{ownerPlayer_color}{ownerPlayer}^*^; ^999PUBTRAINING ^r NERDS!!!
+vanity_msg_nerds 					{ownerPlayer_color}{ownerPlayer}^*^; ^999PUBTRAINING ^rБОТАНЫ!!!
 
-vanity_msg_rps						{ownerPlayer_color}{ownerPlayer}^*^; ^999бросил вызов {targetPlayer_color}{targetPlayer}^*^; ^999 в игре "Камень, ножницы, бумага"!
+vanity_msg_rps						{ownerPlayer_color}{ownerPlayer}^*^; ^999вызвал {targetPlayer_color}{targetPlayer}^*^; ^999на камень-ножницы-бумагу!
 
-vanity_msg_rps_owned				{ownerPlayer_color}{ownerPlayer}^*^; ^999бросил вызов: {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999 - камень, ножницы, бумага!
+vanity_msg_rps_owned				{ownerPlayer_color}{ownerPlayer}^*^; ^999вызвал {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999на камень-ножницы-бумагу!
 
-vanity_msg_crybaby					{ownerPlayer_color}{ownerPlayer}^*^; ^999думает {targetPlayer_color}{targetPlayer}^*^; ^999 - маленькая плаксивая сучка!
+vanity_msg_crybaby					{ownerPlayer_color}{ownerPlayer}^*^; ^999считает, что {targetPlayer_color}{targetPlayer}^*^; ^999- мелкая плаксивая сучка!
 
-vanity_msg_crybaby_owned			{ownerPlayer_color}{ownerPlayer}^*^; ^999считает, что {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999- маленькая плакса!
+vanity_msg_crybaby_owned			{ownerPlayer_color}{ownerPlayer}^*^; ^999считает, что {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999- мелкая плаксивая сучка!
 
 vanity_msg_toxicbarrel				{ownerPlayer_color}{ownerPlayer}^*^; ^999Ты такой токсичный...
 
-vanity_msg_getjuked					{ownerPlayer_color}{ownerPlayer}^*^; ^999Держись, сынок!
+vanity_msg_getjuked					{ownerPlayer_color}{ownerPlayer}^*^; ^999Тебя НАДУЛИ, сынок!
 
-vanity_msg_salt						{ownerPlayer_color}{ownerPlayer}^*^; ^999Посыпал солью {targetPlayer_color}{targetPlayer}^*^;. ^999Такой соленый!
+vanity_msg_salt						{ownerPlayer_color}{ownerPlayer}^*^; ^999Посыпал солью {targetPlayer_color}{targetPlayer}^*^;. ^999Бомбит!
 
-vanity_msg_christmaspresent			{ownerPlayer_color}{ownerPlayer}^*^; ^999Получил вам рождественский подарок!
+vanity_msg_christmaspresent			{ownerPlayer_color}{ownerPlayer}^*^; ^999Приготовил тебе рождественский подарок!
 
 vanity_msg_chipperbush				{ownerPlayer_color}{ownerPlayer}^*^; ^999Прячется в кустах...
 
 vanity_msg_ambulance				{ownerPlayer_color}{ownerPlayer}^*^; ^999Вызовите скорую! Вызовите скорую! Но не для меня...
 
-vanity_msg_duncecap					{ownerPlayer_color}{ownerPlayer}^*^; ^999Думает {targetPlayer_color}{targetPlayer}^*^; ^999идиот!
+vanity_msg_duncecap					{ownerPlayer_color}{ownerPlayer}^*^; ^999Считает, что {targetPlayer_color}{targetPlayer}^*^; ^999идиот!
 
 vanity_msg_participationtrophy		{ownerPlayer_color}{ownerPlayer}^*^; ^999Вы старались изо всех сил...
 
@@ -1660,14 +1660,14 @@ vanity_msg_participationtrophy		{ownerPlayer_color}{ownerPlayer}^*^; ^999Вы с
 showdown_herodamage_victory_hellbourne		Время вышло. Счёт по крипам равный. Хеллборн побеждает по урону героям!
 showdown_herodamage_victory_legion		Время вышло. Счёт по крипам равный. Легион побеждает по урону героям!
 vanity_msg_pumpsomeiron		{ownerPlayer_color}{ownerPlayer} ^999Надо покачать железо, чтобы вытащить эту ^911неподъёмную ^999команду!
-vanity_msg_noobspray		{ownerPlayer_color}{ownerPlayer} ^999применил спрей нуба на {targetPlayer_color}{targetPlayer}^999.
+vanity_msg_noobspray		{ownerPlayer_color}{ownerPlayer} ^999обрызгал {targetPlayer_color}{targetPlayer}^999 антинубским спреем.
 total_mana_regen_mult_bonus		{value}% к общему реген. маны
 rejected_invalid_ward_location		Недопустимое место для варда
 showdown_random_victory_legion		Время вышло. Все показатели равны! Легион побеждает по жребию!
 showdown_towerkill_victory_legion		Легион победил по снесённым башням!
 showdown_creepscore_victory_hellbourne		Хеллборн победил по добитым крипам!
 Onev1mid_creepdeny_victory_hellbourne		Время вышло. Убийства крипов равны. Hellbourne побеждает по добиваниям: {param}!
-vanity_msg_watergun		{ownerPlayer_color}{ownerPlayer} ^999Водяной бой!!
+vanity_msg_watergun		{ownerPlayer_color}{ownerPlayer} ^999Водяная битва!!
 vanity_msg_myteamsucks		{ownerPlayer_color}{ownerPlayer}^*^; ^999Моя команда - ДНО!!!
 int_mult_bonus		{value}% интеллекта
 agi_mult_bonus		{value}% ловкости
@@ -1680,8 +1680,8 @@ denytower		{player} ^444добил^* башню {ping_tile}!
 ping_ext_alt_courier_inventory_item		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^667{item}^* везут мне
 str_mult_bonus		{value}% силы
 courier_msg_has_returned		Курьер вернулся
-vanity_msg_duncecap_owned		{ownerPlayer_color}{ownerPlayer}^*^; ^999считает, что {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999идиот!
-vanity_msg_salt_owned		{ownerPlayer_color}{ownerPlayer}^*^; ^999сыплет соль на {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}. ^999Вот это соль!
+vanity_msg_duncecap_owned		{ownerPlayer_color}{ownerPlayer}^*^; ^999Считает, что {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999идиот!
+vanity_msg_salt_owned		{ownerPlayer_color}{ownerPlayer}^*^; ^999Посыпал солью {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}. ^999Бомбит!
 boughtwalkingcourier		{account_color}{player}^*^; купил наземного курьера.
 vanity_msg_goal		{ownerPlayer_color}{ownerPlayer} ^999Гооол!!
 item_ophelias_pact_quest_points		^cOphelia's Pact^* прогресс: {param}/25 очков!
@@ -1698,7 +1698,7 @@ courier_msg_fetching		Курьер забирает предметы
 showdown_towerdamage_victory_hellbourne		Время вышло. Урон героям равный. Хеллборн побеждает по урону башням!
 error_courier_no_stash		У курьера нет тайника
 courier_msg_attacked				Курьер вынужден вернуться на базу
-vanity_msg_noobspray_owned			{ownerPlayer_color}{ownerPlayer} ^999применил спрей нуба на {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity}^999.
+vanity_msg_noobspray_owned			{ownerPlayer_color}{ownerPlayer} ^999обрызгал {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity}^999 антинубским спреем.
 vanity_msg_questionmark				^999Что вытворяет {targetPlayer_color}{targetPlayer}^*^; ^999???
 showdown_herokill_victory_hellbourne		2 смерти Легиона! Хеллборн побеждает!
 total_health_regen_mult_bonus		{value}% к общему реген. здоровья

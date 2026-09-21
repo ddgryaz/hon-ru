@@ -1330,20 +1330,20 @@ staff_message				^188[ПЕРСОНАЛ] ^r{player}^*:
 
 
 // === NEW KEYS FOR TRANSLATION ===
-chat_command_colors		Цветовая схема чата
-chat_command_colors_line_2		Доступные цвета: white, red, green, blue, yellow, cyan, magenta, orange, pink, purple
+chat_command_colors		/colors
+chat_command_colors_line_2		^279*^999 ^^;r ^rкрасный^999   ^^;g ^gзелёный^999   ^^;b ^bсиний^999   ^^;y ^yжёлтый^999   ^^;c ^cголубой^999   ^^;m ^mпурпурный^999   ^^;w ^wбелый
 chat_denying_buddy		^279* Отклонено предложение дружбы от ^990{name}^279...
 chat_command_colors_line_8		^279*^999 ^^;* возвращает обычный цвет, ^^;# переключает на предыдущий.
 chat_command_colors_line_7		^279*^999 Свечение:   ^^;: белое свечение вкл., ^^;; выкл., ^^;$RGB задаёт цвет свечения, ^^;$RGBI добавляет яркость 0-9.   ^900^:вот так^*^;
 chat_im_send_failed_rate_limited		Слишком много сообщений. Подождите.
 chat_command_colors_line_3		^279*^999 ^^;o ^oоранжевый^999   ^^;p ^pфиолетовый^999   ^^;t ^tбирюзовый^999   ^^;n ^nкоричневый^999   ^^;v ^vсерый^999   ^^;k ^kчёрный^999   - заглавные тоже работают
 chat_command_colors_line_4		^279*^999 ^^;RGB - по одной цифре 0-9 на красный, зелёный и синий:   ^900^^;900^999   ^090^^;090^999   ^009^^;009^999   ^950^^;950^999   ^999^^;999
-chat_command_colors_info		Используйте /colors для настройки цвета ника
+chat_command_colors_info		^279*^707 /colors - список цветовых кодов для текста в чате.
 chat_im_send_failed_offline		Игрок не в сети
 chat_command_colors_line_6		^279*^999 Слоты игроков от ^^;!b до ^^;!n:   ^!bсиний^999 ^!tбирюзовый^999 ^!pфиолетовый^999 ^!yжёлтый^999 ^!oоранжевый^999 ^!iрозовый^999 ^!vсерый^999 ^!lголубой^999 ^!gтёмно-зелёный^999 ^!nкоричневый
-chat_command_colors_line_5		Цвет применяется ко всем последующим сообщениям
+chat_command_colors_line_5		^279*^999 ^^;aRGBA - четвёртая цифра 1-9 задаёт непрозрачность:   ^a9009^^;a9009^999   ^a9005^^;a9005^999   ^a9002^^;a9002
 chat_im_send_failed_generic		Не удалось отправить сообщение
 rejected_invalid_ward_location		Недопустимое место для варда
-chat_command_colors_line_1		/colors [цвет] [цель] [отправитель]
+chat_command_colors_line_1		^279*^999 Цветовые коды - пишите их в любом месте сообщения.
 // Справка по командам чата
 chat_command_kick_info	/kick <игрок> (нужны права админа канала)
