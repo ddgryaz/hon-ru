@@ -582,7 +582,7 @@ general_mode_banningpick_desc				Игроки начинают с полным �
 
 
 
-general_mode_lockpick						Отмычка
+general_mode_lockpick						Lock Pick
 
 
 
@@ -590,7 +590,7 @@ general_mode_lockpick_desc					Lock Pick требует, чтобы у вас б
 
 
 
-general_mode_lockpick_desc_short			Lock Pick - официальный тип игры для соревновательной игры. Для игр Lock Pick требуется полная группа из 5 игроков, и в них можно играть только на карте "Леса Калдавара". Лидер группы будет назначен капитаном команды.
+general_mode_lockpick_desc_short			Lock Pick - официальный тип игры для соревнований. Для Lock Pick нужна полная группа из 5 игроков, играть можно только на карте Forests of Caldavar. Лидер группы становится капитаном команды.
 
 
 
@@ -698,7 +698,7 @@ general_mode_tournament						Соревновательный режим
 
 
 
-general_mode_tournament_dec					Для соревновательного режима требуется, чтобы у вас была полная группа из 5 игроков. В эти игры можно играть только в обычных лесах Калдавара, используя игровой режим "Взлом".
+general_mode_tournament_dec					Для соревновательного режима нужна полная группа из 5 игроков. Такие игры идут только на обычном Forests of Caldavar в режиме Lock Pick.
 
 
 
@@ -1930,7 +1930,7 @@ map_blankworld								Пустой мир
 
 
 
-map_caldavarphoenix							Леса Кальдавара (Феникс)
+map_caldavarphoenix							Forests of Caldavar (Phoenix)
 
 
 
@@ -1938,7 +1938,7 @@ map_fieldtest Полевые испытания
 
 
 
-map_midwars									Середина войн
+map_midwars									Mid Wars
 
 
 
@@ -1954,19 +1954,19 @@ map_ALL									 Любая карта
 
 
 
-mode_RankedCaldavar							Леса Калдавара
+mode_RankedCaldavar							Forests of Caldavar
 
 
 
-mode_RankedMidwars							Середина войн
+mode_RankedMidwars							Mid Wars
 
 
 
-mode_UnrankedCaldavar						Леса Калдавара (без рейтинга)
+mode_UnrankedCaldavar						Forests of Caldavar (без рейтинга)
 
 
 
-mode_UnrankedMidwars						Середина войн (без рейтинга)
+mode_UnrankedMidwars						Mid Wars (без рейтинга)
 
 
 
@@ -15498,11 +15498,11 @@ mainlobby_gamelist_watchtower_desc			Сыграйте в игру на Стор�
 
 
 
-mainlobby_gamelist_caldavar_title			Леса Калдавара
+mainlobby_gamelist_caldavar_title			Forests of Caldavar
 
 
 
-mainlobby_gamelist_caldavar_desc			Сыграйте в игру в Лесах Калдавара
+mainlobby_gamelist_caldavar_desc			Сыграть на Forests of Caldavar
 
 
 
@@ -15530,7 +15530,7 @@ mainlobby_gamelist_blitz_mode_desc			Сыграйте в блиц-режиме �
 
 
 
-mainlobby_gamelist_midwars_title			Середина войн
+mainlobby_gamelist_midwars_title			Mid Wars
 
 
 
@@ -15546,7 +15546,7 @@ mainlobby_gamelist_showdown_desc Сыграйте в игру Showdown
 
 
 
-mainlobby_gamelist_midwars_old_title		Середина войн Старая
+mainlobby_gamelist_midwars_old_title		Mid Wars Old
 
 
 
@@ -18058,7 +18058,7 @@ player_stats_public							Публичный
 
 
 
-player_stats_midwars						Середина войн
+player_stats_midwars						Mid Wars
 
 
 
@@ -18102,7 +18102,7 @@ player_stats_casual_tab 					Статистика в обычном режиме
 
 
 
-player_stats_midwars_tab 					Статистика середины войн
+player_stats_midwars_tab 					Статистика Mid Wars
 
 
 
@@ -20554,7 +20554,7 @@ mm3_pvp_simplemaps 				Карты
 
 
 
-mm3_pvp_simplemaps_desc 	Калдавар - это стандартная карта 5 на 5.\nMidwars - это динамичная однополосовая карта.
+mm3_pvp_simplemaps_desc 	Caldavar - стандартная карта 5 на 5.\nMidwars - динамичная карта с одной линией.
 
 
 
@@ -20630,7 +20630,7 @@ mm3_season_win_streaks 			Серии побед:
 
 
 
-mm3_season_map_name 			Леса Калдавара
+mm3_season_map_name 			Forests of Caldavar
 
 
 
@@ -33509,8 +33509,8 @@ report_ui_boosting_not		Такие жалобы идут сразу к стар�
 mm_honor_coc		Правила поведения
 mm_honor_coc_tip		Прочитать правила поведения Heroes of Newerth
 mm_npe_title		Аккаунт новичка
-mm_npe_body		Аккаунты новичков могут выбирать героев только под назначенную роль. Все герои открываются после 100 матчей или раньше со статусом ветерана.
-mm_npe_cta		Купить статус ветерана
+mm_npe_body		Новички могут брать героев только своей роли. Все герои откроются после 100 матчей или раньше со статусом ветерана.
+mm_npe_cta		Стать ветераном
 mm_client_version_outofdate		Версия клиента устарела, перезапустите игру для обновления.
 mm_queue_cooldown_btn		Очередь доступна через: {time}
 mm_queue_btn_required		Отметьте роль поддержки, чтобы встать в очередь
