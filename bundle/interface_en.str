@@ -17022,7 +17022,7 @@ game_menu_options_button					Опции
 
 
 
-game_menu_disconnect_button					Отключиться
+game_menu_disconnect_button					Покинуть
 
 
 
@@ -17034,7 +17034,7 @@ game_menu_concede_button					Сдаться
 
 
 
-game_menu_remake_button						Пересоздать
+game_menu_remake_button						Рестарт
 
 
 
@@ -17042,11 +17042,11 @@ game_menu_kick_button						Выгнать
 
 
 
-game_menu_report_button						Пожаловаться
+game_menu_report_button						Жалоба
 
 
 
-game_menu_quit_button						Выйти из HoN
+game_menu_quit_button						Выход
 
 
 
@@ -17194,7 +17194,7 @@ game_menu_nopauseleft_tooltip				Ваша команда использовал�
 
 
 
-game_menu_sharing_button					Совместное использование
+game_menu_sharing_button					Доступ
 
 
 
