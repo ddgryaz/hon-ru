@@ -18,6 +18,7 @@ from honru import parse_str, load_overrides, lookup
 
 STEMS = ('entities', 'interface', 'client_messages', 'game_messages', 'bot_messages')
 CYR = set('абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ')
+NO_GLYPH = {0x2192, 0x2190, 0x2191, 0x2193, 0x21D2}  # стрелки
 LAT = set('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
 
 
@@ -65,6 +66,14 @@ def check(base_dir, bundle_dir, overrides):
                 add('имена переведены (должны быть английскими)',
                     '%s:%s' % (stem, key), value[:40])
                 continue
+
+            # Символов, которых нет в шрифтах игры, быть не должно: они
+            # рисуются пустым квадратом. Проверено разбором cmap всех пяти
+            # ttf - стрелки там нет, а тире, многоточие, ёлочки и буллет есть
+            noglyph = sorted(set(c for c in value if ord(c) in NO_GLYPH))
+            if noglyph:
+                add('нет глифа в шрифте игры', '%s:%s' % (stem, key),
+                    ' '.join('U+%04X %s' % (ord(c), c) for c in noglyph))
 
             # Следы машинного перевода, каждый ловился в живом тексте:
             # "сек.." (сокращение уже несёт точку), "Длит.:" и "Перез.:"
