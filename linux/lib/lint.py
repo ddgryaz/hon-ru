@@ -136,6 +136,16 @@ def check(base_dir, bundle_dir, overrides):
                 add('цветовой код не закрыт', '%s:%s' % (stem, key),
                     'откр %d / закр %d' % (ro, rc))
 
+            # ^; выключает свечение (справка /colors в client_messages), ^*
+            # его не сбрасывает. В оригинале он стоит после ника, иначе
+            # свечение цвета ника перетекает на весь текст после него
+            # (^^; - экранированная каретка, а не код)
+            glow_en = len(re.findall(r'(?<!\^)\^;', eng))
+            glow_ru = len(re.findall(r'(?<!\^)\^;', value))
+            if value != eng and glow_ru < glow_en:
+                add('потерян ^; (выключение свечения)', '%s:%s' % (stem, key),
+                    '%d -> %d' % (glow_en, glow_ru))
+
             if '^n' in value and '^n' not in eng:
                 add('^n вместо переноса строки', '%s:%s' % (stem, key))
 

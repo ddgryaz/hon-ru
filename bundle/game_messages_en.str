@@ -81,9 +81,9 @@ ping_ext_building_attack				{account_color}{player_name}^*^; {player_color}({pla
 
 ping_ext_building_defend				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите {unit_team_color}{tower_location}{tower_tier}^* на ^g{current_health}/{max_health}^* здоровья {backdoor_protected}
 
-ping_ext_hero_attack					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^* в позиции {ping_tile}.
+ping_ext_hero_attack					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^*^; в позиции {ping_tile}.
 
-ping_ext_hero_get_back					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Возвращайтесь из {unit_team_color}{unit_name}^* в {ping_tile}.
+ping_ext_hero_get_back					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Возвращайтесь из {unit_team_color}{unit_name}^*^; в {ping_tile}.
 
 ping_ext_hero_missing					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
@@ -213,7 +213,7 @@ ping_ext_ground_fight_here_generic					{account_color}{player_name}^*^; {player_
 
 ping_ext_ground_coming_to_help_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Иду на помощь
 
-ping_ext_assist_ally_hero_generic 			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Помогите нашему {unit_team_color}{unit_name}^* на {ping_tile}!
+ping_ext_assist_ally_hero_generic 			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Помогите нашему {unit_team_color}{unit_name}^*^; на {ping_tile}!
 
 
 
@@ -241,17 +241,17 @@ ping_ext_alt_selected_enemy_mana 					{account_color}{player_name}^*^; {player_c
 
 ping_ext_alt_selected_enemy_inventory 				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{selected_hero_name}^* имеет предмет ^667{item}^*
 
-ping_ext_alt_scoreboard_inventory 					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {scoreboard_color}{scoreboard_hero_name}^* имеет ^667{item}^*
+ping_ext_alt_scoreboard_inventory 					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {scoreboard_color}{scoreboard_hero_name}^*^; имеет ^667{item}^*
 
-ping_ext_alt_scoreboard_ability 					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {scoreboard_color}{scoreboard_hero_name}^* имеет способность ^667{ability}^*
+ping_ext_alt_scoreboard_ability 					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {scoreboard_color}{scoreboard_hero_name}^*^; имеет способность ^667{ability}^*
 
-ping_ext_alt_hero									{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{hero_name}^* (Уровень {level})
+ping_ext_alt_hero									{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{hero_name}^*^; (Уровень {level})
 
-ping_ext_alt_hero_dead								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{unit_name}^* (уровень {level}) возродится через ^y{time} секунд^*
+ping_ext_alt_hero_dead								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{unit_name}^*^; (уровень {level}) возродится через ^y{time} секунд^*
 
-ping_ext_alt_hero_missing							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{unit_name}^* отсутствует
+ping_ext_alt_hero_missing							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{unit_name}^*^; отсутствует
 
-ping_ext_alt_hero_afk								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{unit_name}^* (уровень {param}) - AFK
+ping_ext_alt_hero_afk								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^943{unit_name}^*^; (уровень {param}) - AFK
 
 ping_ext_alt_shop_item_enough_gold					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: я могу купить ^667{item}^*
 
@@ -531,19 +531,19 @@ payback								{killer} получил ^rРАСПЛАТУ^* против {victim
 
 
 
-client_connected					{account_color}{player}^* подключился.
+client_connected					{account_color}{player}^*^; подключился.
 
-client_reconnected					{account_color}{player}^* повторно подключился. (Оставшееся время отключения: {time})
+client_reconnected					{account_color}{player}^*^; повторно подключился. (Оставшееся время отключения: {time})
 
-client_disconnected					{account_color}{player}^* отключен.
+client_disconnected					{account_color}{player}^*^; отключен.
 
-client_timedout						{account_color}{player}^* отключен по таймауту.
+client_timedout						{account_color}{player}^*^; отключен по таймауту.
 
-client_terminated					{account_color}{player}^* исключён. Его герой удалён, а ресурсы переданы команде.
+client_terminated					{account_color}{player}^*^; исключён. Его герой удалён, а ресурсы переданы команде.
 
-client_connected_mentor				{account_color}{player}^* связался с вами и стал вашим наставником.
+client_connected_mentor				{account_color}{player}^*^; связался с вами и стал вашим наставником.
 
-client_connected_spec				{account_color}{player}^* наблюдает за {spec_color}{spec_player}^*.
+client_connected_spec				{account_color}{player}^*^; наблюдает за {spec_color}{spec_player}^*^;.
 
 
 
@@ -577,11 +577,11 @@ hero_hidden_ban						{team_color}{team} ^*забанил ^r^*: ^885{hero}^*.
 
 hero_vote_ban						Следующие герои были забанены в этой игре: ^885{hero}^*.
 
-hero_picked_both_teams				Герой выбран обеими командами! {account_color}{player}^* получил героя ^885{hero_name}^* ко времени фазы добавлено 15 сек.!
+hero_picked_both_teams				Герой выбран обеими командами! {account_color}{player}^*^; получил героя ^885{hero_name}^* ко времени фазы добавлено 15 сек.!
 
 
 
-random_filter_message				{account_color}{player}^* случайным образом выбрал {filters}{favorites} с {num_of_heroes} героями для случайного выбора.
+random_filter_message				{account_color}{player}^*^; случайным образом выбрал {filters}{favorites} с {num_of_heroes} героями для случайного выбора.
 
 using_favorites						^* с использованием списка избранного ^558^*
 
@@ -639,15 +639,15 @@ round_phase_ended					Раунд {round} окончен!
 
 
 
-player_ready						{account_color}{player}^* ^gготов^*.
+player_ready						{account_color}{player}^*^; ^gготов^*.
 
-player_unready						{account_color}{player}^* ^rбольше не готов^*.
+player_unready						{account_color}{player}^*^; ^rбольше не готов^*.
 
 
 
-player_boughtback					{account_color}{player}^* выкупил
+player_boughtback					{account_color}{player}^*^; выкупил
 
-player_boughtback2					{account_color}{player}^* выкупил. Использовано {buybacks_used}/{buybacks_remaining} обратных выкупов
+player_boughtback2					{account_color}{player}^*^; выкупил. Использовано {buybacks_used}/{buybacks_remaining} обратных выкупов
 
 
 
@@ -687,13 +687,13 @@ chat_emote							^839[ЭМОЦИЯ]^* {color}{message}
 
 chat_team							{account_color}{player}^*^; {color}({hero})^*: {message}
 
-chat_all_lobby						^269[ВСЕ] {account_color}{player}: ^*{message}
+chat_all_lobby						^269[ВСЕ] {account_color}{player}^*^;: {message}
 
 chat_roll_lobby						^190[БРОСОК]^* {color}{message}
 
 chat_emote_lobby					^839[ЭМОЦИЯ]^* {color}{message}
 
-chat_team_lobby						^y[КОМАНДА] {account_color}{player}: ^*{message}
+chat_team_lobby						^y[КОМАНДА] {account_color}{player}^*^;: {message}
 
 server_message						^188[СЕРВЕР] ^yСообщение сервера: {message}
 
@@ -1075,17 +1075,17 @@ shop_action_unavailable				^rНедоступно в этом месте
 
 
 
-vote_called						{account_color}{player}^* объявил голосование: {vote}
+vote_called						{account_color}{player}^*^; объявил голосование: {vote}
 
-vote_called_concede				{account_color}{player}^* объявил голосование за то, чтобы {team_color}{team}^* уступил
+vote_called_concede				{account_color}{player}^*^; объявил голосование за то, чтобы {team_color}{team}^* уступил
 
-vote_called_remake				{account_color}{player}^* объявил голосование за повторный матч.
+vote_called_remake				{account_color}{player}^*^; объявил голосование за повторный матч.
 
-vote_called_kick				{account_color}{player}^* объявил голосование за исключение {target_account_color}{target}^*
+vote_called_kick				{account_color}{player}^*^; объявил голосование за исключение {target_account_color}{target}^*^;
 
-vote_called_kick_afk			{account_color}{player}^* объявил голосование за исключение {target_account_color}{target}^*
+vote_called_kick_afk			{account_color}{player}^*^; объявил голосование за исключение {target_account_color}{target}^*^;
 
-vote_called_pause				{account_color}{player}^* объявил голосование за приостановку игры
+vote_called_pause				{account_color}{player}^*^; объявил голосование за приостановку игры
 
 vote_passed						Голосование прошло
 
@@ -1107,17 +1107,17 @@ afk_return_self 				Вы больше не АФК
 
 
 
-lobby_connect					{color}{player}^* подключается.
+lobby_connect					{color}{player}^*^; подключается.
 
-lobby_connect_mentor			{color}{player}^* будет вашим наставником.
+lobby_connect_mentor			{color}{player}^*^; будет вашим наставником.
 
 lobby_connect_spec				{color}{player}^*^; подключается, чтобы наблюдать за {spec_player}.
 
-lobby_kick						{color}{player}^* удален хостом.
+lobby_kick						{color}{player}^*^; удален хостом.
 
-lobby_kick_spec					{color}{player}^* был исключён.
+lobby_kick_spec					{color}{player}^*^; был исключён.
 
-lobby_disconnect				{color}{player}^* отключился.
+lobby_disconnect				{color}{player}^*^; отключился.
 
 lobby_balance					Хост сбалансировал команды.
 
@@ -1129,13 +1129,13 @@ lobby_lock						Хост заблокировал слот {slot_color}{slot}^*.
 
 lobby_unlock					Хост разблокировал слот {slot_color}{slot}^*.
 
-lobby_assign_host				{slot_color}{player}^* назначен новым хостом.
+lobby_assign_host				{slot_color}{player}^*^; назначен новым хостом.
 
-lobby_assign_spectator			Организатор назначил {slot_color}{player}^* наблюдателем.
+lobby_assign_spectator			Организатор назначил {slot_color}{player}^*^; наблюдателем.
 
-lobby_assign_referee			Организатор назначил {slot_color}{player}^* судьей.
+lobby_assign_referee			Организатор назначил {slot_color}{player}^*^; судьей.
 
-lobby_demote_referee			Хозяин удалил {slot_color}{player}^* с должности судьи.
+lobby_demote_referee			Хозяин удалил {slot_color}{player}^*^; с должности судьи.
 
 lobby_assign_first_ban				Хозяин назначил первый бан команде {team_color}{team}^*.
 
@@ -1166,31 +1166,31 @@ admin_unpause					^188[СЕРВЕР] {player1} снял игру с паузы.
 
 
 
-pre_firstblood_reconnect_300		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 5 минут, матч будет прерван.
+pre_firstblood_reconnect_300		{account_color}{player}^*^; отключился до первой крови, если он не подключится повторно в течение 5 минут, матч будет прерван.
 
-pre_firstblood_reconnect_240		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 4 минут, матч будет прерван.
+pre_firstblood_reconnect_240		{account_color}{player}^*^; отключился до первой крови, если он не подключится повторно в течение 4 минут, матч будет прерван.
 
-pre_firstblood_reconnect_180		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 3 минут, матч будет прерван.
+pre_firstblood_reconnect_180		{account_color}{player}^*^; отключился до первой крови, если он не подключится повторно в течение 3 минут, матч будет прерван.
 
-pre_firstblood_reconnect_120		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 2 минут, матч будет прерван.
+pre_firstblood_reconnect_120		{account_color}{player}^*^; отключился до первой крови, если он не подключится повторно в течение 2 минут, матч будет прерван.
 
-pre_firstblood_reconnect_60		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 1 минуты, матч будет прерван.
+pre_firstblood_reconnect_60		{account_color}{player}^*^; отключился до первой крови, если он не подключится повторно в течение 1 минуты, матч будет прерван.
 
-pre_firstblood_reconnect_30		Матч будет прерван, если {account_color}{player}^* не подключится повторно в течение 30 сек.
+pre_firstblood_reconnect_30		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 30 сек.
 
-pre_firstblood_reconnect_10		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 10 сек.
+pre_firstblood_reconnect_10		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 10 сек.
 
-pre_firstblood_reconnect_5		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 5 сек.
+pre_firstblood_reconnect_5		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 5 сек.
 
-pre_firstblood_reconnect_4		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 4 сек.
+pre_firstblood_reconnect_4		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 4 сек.
 
-pre_firstblood_reconnect_3		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 3 сек.
+pre_firstblood_reconnect_3		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 3 сек.
 
-pre_firstblood_reconnect_2		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 2 сек.
+pre_firstblood_reconnect_2		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 2 сек.
 
-pre_firstblood_reconnect_1		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 1 секунды.
+pre_firstblood_reconnect_1		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 1 секунды.
 
-pre_firstblood_reconnect_lobby		Матч будет прерван, если {account_color}{player}^* не подключится повторно до окончания этапа драфта.
+pre_firstblood_reconnect_lobby		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно до окончания этапа драфта.
 
 
 
@@ -1226,13 +1226,13 @@ bad_snapshot					Вы были отключены, поскольку файлы
 
 
 
-masters_legacy_applied				{account1_color}{player1}^* передал ^gНаследие Мастера^* {account2_color}{player2}!
+masters_legacy_applied				{account1_color}{player1}^*^; передал ^gНаследие Мастера^* {account2_color}{player2}^*^;!
 
-masters_legacy_removed				{account1_color}{player1}^* удалил ^gНаследие Мастера^* из {account2_color}{player2}!
+masters_legacy_removed				{account1_color}{player1}^*^; удалил ^gНаследие Мастера^* из {account2_color}{player2}^*^;!
 
-masters_legacy_target_applied		{account1_color}{player1}^* подарил ^gНаследие Мастера^* ^rвам^*!
+masters_legacy_target_applied		{account1_color}{player1}^*^; подарил ^gНаследие Мастера^* ^rвам^*!
 
-masters_legacy_target_removed		{account1_color}{player1}^* удалил ^gThe Master's Legacy^* из ^ryou^*!
+masters_legacy_target_removed		{account1_color}{player1}^*^; удалил ^gThe Master's Legacy^* из ^ryou^*!
 
 
 
@@ -1379,19 +1379,19 @@ thegrimmhunt_endgame_hellbourne			^rАдские ^* собрали достат�
 
 ctf_legion_flagreturn					^gГолубой флаг^* возвращен на базу!
 
-ctf_legion_flagreturn_player			^gГолубой флаг^* был возвращен на базу {account1_color}{player1}^*!
+ctf_legion_flagreturn_player			^gГолубой флаг^* был возвращен на базу {account1_color}{player1}^*^;!
 
 
 
 ctf_hellbourne_flagreturn				^rЖелтый флаг^* возвращен на базу!
 
-ctf_hellbourne_flagreturn_player		^rЖелтый флаг^* был возвращен на базу {account1_color}{player1}^*!
+ctf_hellbourne_flagreturn_player		^rЖелтый флаг^* был возвращен на базу {account1_color}{player1}^*^;!
 
 
 
-ctf_legion_flagcap						^gГолубой флаг^* был успешно захвачен {account1_color}{player1}^*!
+ctf_legion_flagcap						^gГолубой флаг^* был успешно захвачен {account1_color}{player1}^*^;!
 
-ctf_hellbourne_flagcap					^rЖелтый флаг^* был успешно захвачен {account1_color}{player1}^*!
+ctf_hellbourne_flagcap					^rЖелтый флаг^* был успешно захвачен {account1_color}{player1}^*^;!
 
 
 
@@ -1447,15 +1447,15 @@ krosmode_hellbourne_basedead			^gБаза Хеллборн^* почти мерт
 
 
 
-devowars_runegrab_elec					{account1_color}{player1}^* зацепил ^gЭлектрическую руну^*!
+devowars_runegrab_elec					{account1_color}{player1}^*^; зацепил ^gЭлектрическую руну^*!
 
-devowars_runegrab_bomb					{account1_color}{player1}^* зацепил ^gБомбовую руну^*!
+devowars_runegrab_bomb					{account1_color}{player1}^*^; зацепил ^gБомбовую руну^*!
 
-devowars_runegrab_gold					{account1_color}{player1}^* зацепил ^gЗолотую руну^*!
+devowars_runegrab_gold					{account1_color}{player1}^*^; зацепил ^gЗолотую руну^*!
 
-devowars_runegrab_split					{account1_color}{player1}^* зацепил ^gSplit Rune^*!
+devowars_runegrab_split					{account1_color}{player1}^*^; зацепил ^gSplit Rune^*!
 
-devowars_runegrab_time					{account1_color}{player1}^* зацепил ^gРуну Времени^*!
+devowars_runegrab_time					{account1_color}{player1}^*^; зацепил ^gРуну Времени^*!
 
 
 
@@ -1565,9 +1565,9 @@ general_magic Магический
 
 vanity_msg_self						{ownerPlayer_color}{ownerPlayer}^*^; ^999играл ^o{ability}^*
 
-vanity_msg_dookie {ownerPlayer_color}{ownerPlayer} ^999выронил ^n кукушку!
+vanity_msg_dookie {ownerPlayer_color}{ownerPlayer}^*^; ^999выронил ^n кукушку!
 
-vanity_msg_dookie_count {ownerPlayer_color}{ownerPlayer} ^999выронил ^n кукушку!
+vanity_msg_dookie_count {ownerPlayer_color}{ownerPlayer}^*^; ^999выронил ^n кукушку!
 
 vanity_msg_piss 	{ownerPlayer_color}{ownerPlayer}^*^; ^999просто злился повсюду!
 
@@ -1581,9 +1581,9 @@ vanity_msg_bamf_smackdown			{ownerPlayer_color}{ownerPlayer}^*^; ^999садис�
 
 vanity_msg_dumpster {ownerPlayer_color}{ownerPlayer}^*^; ^999вынес мусор
 
-vanity_msg_kiss {ownerPlayer_color}{ownerPlayer} ^999подарил {targetPlayer_color}{targetPlayer} ^999большую, мокрую ^rпоцелуй
+vanity_msg_kiss {ownerPlayer_color}{ownerPlayer}^*^; ^999подарил {targetPlayer_color}{targetPlayer}^*^; ^999большую, мокрую ^rпоцелуй
 
-vanity_msg_kiss_owned {ownerPlayer_color}{ownerPlayer} ^999подарил {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity} ^999большую, мокрую ^r поцелуй
+vanity_msg_kiss_owned {ownerPlayer_color}{ownerPlayer}^*^; ^999подарил {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999большую, мокрую ^r поцелуй
 
 vanity_msg_ballsofsteel {ownerPlayer_color}{ownerPlayer}^*^; ^999спамит JstJ, пока может
 
@@ -1595,11 +1595,11 @@ vanity_msg_getplanted				{ownerPlayer_color}{ownerPlayer}^*^; ^G^:ПОСТАВЛ
 
 vanity_msg_clown					{ownerPlayer_color}{ownerPlayer}^*^; ^rc^gl^bo^rw^gn^be^rd {targetPlayer_color}{targetPlayer}^*^;
 
-vanity_msg_clown_owned				{ownerPlayer_color}{ownerPlayer}^*^; ^rc^gl^bo^rw^gn^be^rd {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity}
+vanity_msg_clown_owned				{ownerPlayer_color}{ownerPlayer}^*^; ^rc^gl^bo^rw^gn^be^rd {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}
 
-vanity_msg_thebest {ownerPlayer_color}{ownerPlayer} ^999присвоил {targetPlayer_color}{targetPlayer} ^999 звание ^yMVP
+vanity_msg_thebest {ownerPlayer_color}{ownerPlayer}^*^; ^999присвоил {targetPlayer_color}{targetPlayer}^*^; ^999 звание ^yMVP
 
-vanity_msg_thebest_owned {ownerPlayer_color}{ownerPlayer} ^999наградил {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity} ^999самым ценным игроком ^y
+vanity_msg_thebest_owned {ownerPlayer_color}{ownerPlayer}^*^; ^999наградил {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity} ^999самым ценным игроком ^y
 
 vanity_msg_roulette {ownerPlayer_color}{ownerPlayer}^*^; ^999испытывает свою удачу!
 
@@ -1641,7 +1641,7 @@ vanity_msg_toxicbarrel				{ownerPlayer_color}{ownerPlayer}^*^; ^999Ты тако
 
 vanity_msg_getjuked					{ownerPlayer_color}{ownerPlayer}^*^; ^999Держись, сынок!
 
-vanity_msg_salt						{ownerPlayer_color}{ownerPlayer}^*^; ^999Посыпал солью {targetPlayer_color}{targetPlayer}. Такой соленый!
+vanity_msg_salt						{ownerPlayer_color}{ownerPlayer}^*^; ^999Посыпал солью {targetPlayer_color}{targetPlayer}^*^;. ^999Такой соленый!
 
 vanity_msg_christmaspresent			{ownerPlayer_color}{ownerPlayer}^*^; ^999Получил вам рождественский подарок!
 
