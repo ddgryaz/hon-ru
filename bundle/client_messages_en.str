@@ -632,7 +632,7 @@ chat_clan_create_result_success			Готово! Ваш клан был созд�
 
 chat_clan_left							^279* ^990{name}^279 покинул клан.
 
-chat_clan_left_self					^279* Вы покинули клан.
+chat_clan_left_self						^279* Вы покинули клан.
 
 chat_clan_kick							^279* ^990{changer}^279 выгнал ^990{name}^279 из клана.
 
@@ -776,7 +776,7 @@ chat_command_whisper				/whisper
 
 chat_command_whisper 			/w
 
-chat_command_whisper_info		^279*^707 /whisper <имя> <сообщение>.
+chat_command_whisper_info			^279*^707 /whisper <имя> <сообщение>.
 
 chat_command_staffmessage			/staffmessage
 
@@ -798,7 +798,7 @@ chat_command_buddy					/buddy
 
 chat_command_friend					/friend
 
-chat_command_friend_info		^279*^707 /friend add <имя>.
+chat_command_friend_info			^279*^707 /friend add <имя>.
 
 chat_command_buddy_short			/b
 
@@ -818,19 +818,19 @@ chat_command_buddy_message			message
 
 chat_command_buddy_message_short	m
 
-chat_command_buddy_message_help	^279*^707 /friend message <сообщение>.
+chat_command_buddy_message_help		^279*^707 /friend message <сообщение>.
 
 chat_command_buddy_add				add
 
 chat_command_buddy_add_short		a
 
-chat_command_buddy_add_help		^279*^707 /friend add <ник>.
+chat_command_buddy_add_help			^279*^707 /friend add <ник>.
 
 chat_command_buddy_delete			delete
 
 chat_command_buddy_delete_short		d
 
-chat_command_buddy_delete_help	^279*^707 /friend delete <ник>.
+chat_command_buddy_delete_help		^279*^707 /friend delete <ник>.
 
 chat_command_clan					/clan
 
@@ -850,31 +850,31 @@ chat_command_clan_message			message
 
 chat_command_clan_message_short		m
 
-chat_command_clan_message_help	^279*^707 /clan message <сообщение>.
+chat_command_clan_message_help		^279*^707 /clan message <сообщение>.
 
 chat_command_clan_promote			promote
 
 chat_command_clan_promote_short		p
 
-chat_command_clan_promote_help	^279*^707 /clan promote <имя>.
+chat_command_clan_promote_help		^279*^707 /clan promote <имя>.
 
 chat_command_clan_demote			demote
 
 chat_command_clan_demote_short		d
 
-chat_command_clan_demote_help	^279*^707 /clan demote <имя>.
+chat_command_clan_demote_help		^279*^707 /clan demote <имя>.
 
 chat_command_clan_remove			remove
 
 chat_command_clan_remove_short		r
 
-chat_command_clan_remove_help	^279*^707 /clan remove <имя>.
+chat_command_clan_remove_help		^279*^707 /clan remove <имя>.
 
 chat_command_clan_invite			invite
 
 chat_command_clan_invite_short		i
 
-chat_command_clan_invite_help	^279*^707 /clan invite <имя>.
+chat_command_clan_invite_help		^279*^707 /clan invite <имя>.
 
 chat_command_clan_leave				leave
 
@@ -910,7 +910,7 @@ chat_command_stats_short			/s
 
 chat_command_stats_pop				pop
 
-chat_command_stats_help			^279*^707 /stats <игрок> [pop].
+chat_command_stats_help				^279*^707 /stats <игрок> [pop].
 
 chat_command_joingame				/joingame
 
@@ -930,9 +930,9 @@ chat_command_joingame_ip_short		i
 
 chat_command_joingame_buddy_help	^279*^707 /joingame friend <имя>
 
-chat_command_joingame_name_help	^279*^707 /joingame name <имя>
+chat_command_joingame_name_help		^279*^707 /joingame name <имя>
 
-chat_command_joingame_ip_help	^279*^707 /joingame ip <адрес>
+chat_command_joingame_ip_help		^279*^707 /joingame ip <адрес>
 
 chat_command_joingame_buddy_failed	^279* Не удалось присоединиться к игре — пользователь не существует или не в игре.
 
@@ -942,7 +942,7 @@ chat_command_topic_short			/t
 
 chat_command_topic_help				^279*^707 /topic
 
-chat_command_topic_set_help		^279*^707 /topic <тема> (нужны права админа канала)
+chat_command_topic_set_help			^279*^707 /topic <тема> (нужны права админа канала)
 
 chat_command_kick					/kick
 
@@ -952,15 +952,15 @@ chat_command_kick_info /kick <игрок> (нужны права админа к
 
 chat_command_ban					/ban
 
-chat_command_ban_help			^279*^707 /ban <игрок> (нужны права админа канала)
+chat_command_ban_help				^279*^707 /ban <игрок> (нужны права админа канала)
 
 chat_command_unban					/unban
 
-chat_command_unban_help			^279*^707 /unban <игрок> (нужны права админа канала)
+chat_command_unban_help				^279*^707 /unban <игрок> (нужны права админа канала)
 
 chat_command_silence				/silence
 
-chat_command_silence_help		^279*^707 /silence <игрок> <срок в минутах> (нужны права админа канала)
+chat_command_silence_help			^279*^707 /silence <игрок> <срок в минутах> (нужны права админа канала)
 
 chat_command_message_all_long		/messageall
 
@@ -986,7 +986,7 @@ chat_command_banlist_add			add
 
 chat_command_banlist_add_short		a
 
-chat_command_banlist_add_help	^279*^707 /banlist add <ник> <причина>.
+chat_command_banlist_add_help		^279*^707 /banlist add <ник> <причина>.
 
 chat_command_banlist_delete			delete
 
@@ -1034,13 +1034,13 @@ chat_command_ignore_add				add
 
 chat_command_ignore_add_short		a
 
-chat_command_ignore_add_help	^279*^707 /ignore add <ник>.
+chat_command_ignore_add_help		^279*^707 /ignore add <ник>.
 
 chat_command_ignore_delete			delete
 
 chat_command_ignore_delete_short	d
 
-chat_command_ignore_delete_help	^279*^707 /ignore delete <ник>.
+chat_command_ignore_delete_help		^279*^707 /ignore delete <ник>.
 
 chat_command_notes					/notes
 
@@ -1064,13 +1064,13 @@ chat_command_notes_add_success		^279* Заметка успешно добавл
 
 chat_command_notes_add_short		a
 
-chat_command_notes_add_help		^279*^707 /notes add <заметка>.
+chat_command_notes_add_help			^279*^707 /notes add <заметка>.
 
 chat_command_notes_delete			delete
 
 chat_command_notes_delete_short		d
 
-chat_command_notes_delete_help	^279*^707 /notes delete <id>.
+chat_command_notes_delete_help		^279*^707 /notes delete <id>.
 
 chat_command_notes_delete_success	^279* Заметка успешно удалена.
 
@@ -1080,13 +1080,13 @@ chat_command_promote				/promote
 
 chat_command_promote_short			/p
 
-chat_command_promote_help		^279*^707 /promote <игрок> (нужны права админа канала)
+chat_command_promote_help			^279*^707 /promote <игрок> (нужны права админа канала)
 
 chat_command_demote					/demote
 
 chat_command_demote_short			/d
 
-chat_command_demote_help		^279*^707 /demote <игрок> (нужны права админа канала)
+chat_command_demote_help			^279*^707 /demote <игрок> (нужны права админа канала)
 
 chat_command_auth					/auth
 
@@ -1108,17 +1108,17 @@ chat_command_auth_add				add
 
 chat_command_auth_add_short			a
 
-chat_command_auth_add_help		^279*^707 /auth add <ник>.
+chat_command_auth_add_help			^279*^707 /auth add <ник>.
 
 chat_command_auth_delete			delete
 
 chat_command_auth_delete_short		d
 
-chat_command_auth_delete_help	^279*^707 /auth delete <ник>.
+chat_command_auth_delete_help		^279*^707 /auth delete <ник>.
 
 chat_command_auth_enable			enable
 
-chat_command_auth_enable_help	^279*^707 /auth enable (пускает в канал только тех, кто в списке допуска).
+chat_command_auth_enable_help		^279*^707 /auth enable (пускает в канал только тех, кто в списке допуска).
 
 chat_command_auth_disable			disable
 
@@ -1128,17 +1128,17 @@ chat_command_password				/password
 
 chat_command_password_short			/pass
 
-chat_command_password_set_help	^279*^707 /password (снимает пароль, нужны права админа канала)
+chat_command_password_set_help		^279*^707 /password (снимает пароль, нужны права админа канала)
 
 chat_command_password_clear_help	^279*^707 /password <пароль> (ставит пароль, нужны права админа канала)
 
 chat_command_roll					/roll
 
-chat_command_roll_help			^279*^707 /roll <мин> <макс> (бросает число от мин до макс, от 1 до 32 767).
+chat_command_roll_help				^279*^707 /roll <мин> <макс> (бросает число от мин до макс, от 1 до 32 767).
 
 chat_command_emote					/emote
 
-chat_command_emote_help			^279*^707 /emote <текст эмоции>.
+chat_command_emote_help				^279*^707 /emote <текст эмоции>.
 
 chat_command_emote_short			/em
 
@@ -1172,13 +1172,13 @@ chat_command_dnd					/dnd
 
 chat_command_dnd_message			^279* Ваш статус в чате теперь "Не беспокоить": {reason}
 
-chat_command_dnd_info			^279*^707 /dnd <сообщение режима не беспокоить>
+chat_command_dnd_info				^279*^707 /dnd <сообщение режима не беспокоить>
 
 chat_command_streaming				/streaming
 
 chat_command_streaming_message		^279* Ваш статус чата теперь "потоковое": {reason}
 
-chat_command_streaming_info		^279*^707 /streaming <сообщение о трансляции>
+chat_command_streaming_info			^279*^707 /streaming <сообщение о трансляции>
 
 
 
@@ -1208,7 +1208,7 @@ chat_command_toast 					/toast
 
 chat_command_admin_cmd				/admincmd
 
-chat_command_admin_cmd_help		^279*^707 /admincmd <команда...> - отправить удалённую команду.
+chat_command_admin_cmd_help			^279*^707 /admincmd <команда...> - отправить удалённую команду.
 
 
 
@@ -1332,15 +1332,15 @@ staff_message				^188[ПЕРСОНАЛ] ^r{player}^*:
 // === NEW KEYS FOR TRANSLATION ===
 chat_command_colors		Цветовая схема чата
 chat_command_colors_line_2		Доступные цвета: white, red, green, blue, yellow, cyan, magenta, orange, pink, purple
-chat_denying_buddy	^279* Отклонено предложение дружбы от ^990{name}^279...
-chat_command_colors_line_8	^279*^999 ^^;* возвращает обычный цвет, ^^;# переключает на предыдущий.
-chat_command_colors_line_7	^279*^999 Свечение:   ^^;: белое свечение вкл., ^^;; выкл., ^^;$RGB задаёт цвет свечения, ^^;$RGBI добавляет яркость 0-9.   ^900^:вот так^*^;
+chat_denying_buddy		^279* Отклонено предложение дружбы от ^990{name}^279...
+chat_command_colors_line_8		^279*^999 ^^;* возвращает обычный цвет, ^^;# переключает на предыдущий.
+chat_command_colors_line_7		^279*^999 Свечение:   ^^;: белое свечение вкл., ^^;; выкл., ^^;$RGB задаёт цвет свечения, ^^;$RGBI добавляет яркость 0-9.   ^900^:вот так^*^;
 chat_im_send_failed_rate_limited		Слишком много сообщений. Подождите.
-chat_command_colors_line_3	^279*^999 ^^;o ^oоранжевый^999   ^^;p ^pфиолетовый^999   ^^;t ^tбирюзовый^999   ^^;n ^nкоричневый^999   ^^;v ^vсерый^999   ^^;k ^kчёрный^999   - заглавные тоже работают
-chat_command_colors_line_4	^279*^999 ^^;RGB - по одной цифре 0-9 на красный, зелёный и синий:   ^900^^;900^999   ^090^^;090^999   ^009^^;009^999   ^950^^;950^999   ^999^^;999
+chat_command_colors_line_3		^279*^999 ^^;o ^oоранжевый^999   ^^;p ^pфиолетовый^999   ^^;t ^tбирюзовый^999   ^^;n ^nкоричневый^999   ^^;v ^vсерый^999   ^^;k ^kчёрный^999   - заглавные тоже работают
+chat_command_colors_line_4		^279*^999 ^^;RGB - по одной цифре 0-9 на красный, зелёный и синий:   ^900^^;900^999   ^090^^;090^999   ^009^^;009^999   ^950^^;950^999   ^999^^;999
 chat_command_colors_info		Используйте /colors для настройки цвета ника
 chat_im_send_failed_offline		Игрок не в сети
-chat_command_colors_line_6	^279*^999 Слоты игроков от ^^;!b до ^^;!n:   ^!bсиний^999 ^!tбирюзовый^999 ^!pфиолетовый^999 ^!yжёлтый^999 ^!oоранжевый^999 ^!iрозовый^999 ^!vсерый^999 ^!lголубой^999 ^!gтёмно-зелёный^999 ^!nкоричневый
+chat_command_colors_line_6		^279*^999 Слоты игроков от ^^;!b до ^^;!n:   ^!bсиний^999 ^!tбирюзовый^999 ^!pфиолетовый^999 ^!yжёлтый^999 ^!oоранжевый^999 ^!iрозовый^999 ^!vсерый^999 ^!lголубой^999 ^!gтёмно-зелёный^999 ^!nкоричневый
 chat_command_colors_line_5		Цвет применяется ко всем последующим сообщениям
 chat_im_send_failed_generic		Не удалось отправить сообщение
 rejected_invalid_ward_location		Недопустимое место для варда
