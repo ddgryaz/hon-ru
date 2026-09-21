@@ -64,7 +64,7 @@ multikill3							У {killer} ^084АННИГИЛИРОВАЛ^* своих про�
 
 
 
-killtower							{killer} разрушил башню {ping_tile}. \n{reward} получает ^y{gold} зол.^*
+killtower							{killer} разрушил башню {ping_tile}.\n{reward} получает ^y{gold} зол.^*
 
 отказtower							{player} ^444запретил ^* башню {ping_tile}!
 
@@ -488,7 +488,7 @@ kill								{victim} умер.
 
 
 
-teamkilltower						{killer} разрушил башню {ping_tile}. \n{killer} получает ^y{gold} зол.^*
+teamkilltower						{killer} разрушил башню {ping_tile}.\n{killer} получает ^y{gold} зол.^*
 
 teamотказtower						{denier} ^444запретил ^* башню {ping_tile}!
 
@@ -1164,7 +1164,7 @@ warn_nomods					{slot_color}{player}^* использует модифициро
 
 nomods						Не удалось запустить игру. {slot_color}{player}^* использует модифицированные файлы и должен просмотреть или отключить ВСЕ моды (интерфейс, текстуру и т. д.), прежде чем ему будет разрешено играть в этой игре с правилами турнира.
 
-game_unpause					{name} снял игру с паузы, игра возобновится через 5 сек..
+game_unpause					{name} снял игру с паузы, игра возобновится через 5 сек.
 
 player_ping					{slot_color}{player}^* пинг: {ping}ms, потеря пакетов: {pktloss}%
 
@@ -1192,19 +1192,19 @@ pre_firstblood_reconnect_120		{account_color}{player}^* отключился д�
 
 pre_firstblood_reconnect_60		{account_color}{player}^* отключился до первой крови, если он не подключится повторно в течение 1 минуты, матч будет прерван.
 
-pre_firstblood_reconnect_30		Матч будет прерван, если {account_color}{player}^* не подключится повторно в течение 30 сек..
+pre_firstblood_reconnect_30		Матч будет прерван, если {account_color}{player}^* не подключится повторно в течение 30 сек.
 
-pre_firstblood_reconnect_10		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 10 сек..
+pre_firstblood_reconnect_10		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 10 сек.
 
-pre_firstblood_reconnect_5		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 5 сек..
+pre_firstblood_reconnect_5		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 5 сек.
 
-pre_firstblood_reconnect_4		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 4 сек..
+pre_firstblood_reconnect_4		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 4 сек.
 
-pre_firstblood_reconnect_3		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 3 сек..
+pre_firstblood_reconnect_3		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 3 сек.
 
-pre_firstblood_reconnect_2		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 2 сек..
+pre_firstblood_reconnect_2		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 2 сек.
 
-pre_firstblood_reconnect_1		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 1 сек.ы.
+pre_firstblood_reconnect_1		Матч будет прервано, если {account_color}{player}^* не подключится повторно в течение 1 секунды.
 
 pre_firstblood_reconnect_lobby		Матч будет прерван, если {account_color}{player}^* не подключится повторно до окончания этапа драфта.
 
