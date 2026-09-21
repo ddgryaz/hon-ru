@@ -1998,7 +1998,7 @@ Popup_fake														Фейк!
 
 
 
-Mode_Normal														Свободный выбор
+Mode_Normal														All Pick
 
 
 
@@ -2006,7 +2006,7 @@ Mode_Normal														Свободный выбор
 
 
 
-Mode_RandomDraft												Случайный драфт
+Mode_RandomDraft												Random Draft
 
 
 
@@ -2014,7 +2014,7 @@ Mode_RandomDraft												Случайный драфт
 
 
 
-Mode_SingleDraft												Одиночный драфт
+Mode_SingleDraft												Single Draft
 
 
 
@@ -2022,7 +2022,7 @@ Mode_SingleDraft												Одиночный драфт
 
 
 
-Mode_BanningDraft												Драфт с банами
+Mode_BanningDraft												Banning Draft
 
 
 
@@ -2030,7 +2030,7 @@ Mode_BanningDraft												Драфт с банами
 
 
 
-Mode_CaptainsDraft												Капитанский драфт
+Mode_CaptainsDraft												Captains Draft
 
 
 
@@ -2038,7 +2038,7 @@ Mode_CaptainsDraft												Капитанский драфт
 
 
 
-Mode_CaptainsMode												Капитанский режим
+Mode_CaptainsMode												Captains Mode
 
 
 
@@ -2054,7 +2054,7 @@ Mode_Deathmatch													Дезматч
 
 
 
-Mode_BanningPick												Выбор с банами
+Mode_BanningPick												Banning Pick
 
 
 
@@ -2062,7 +2062,7 @@ Mode_BanningPick												Выбор с банами
 
 
 
-Mode_AllRandom													Сбалансированный рандом
+Mode_AllRandom													Balanced Random
 
 
 
@@ -2086,7 +2086,7 @@ Mode_Invalid													Недопустимый
 
 
 
-Mode_BlindBan													Слепой бан
+Mode_BlindBan													Blind Ban
 
 
 
@@ -2102,7 +2102,7 @@ Mode_BotMatch													Матч с ботами
 
 
 
-Mode_Captains													Капитанский выбор
+Mode_Captains													Captains Pick
 
 
 
@@ -2110,7 +2110,7 @@ Mode_Captains													Капитанский выбор
 
 
 
-Mode_KrosMode													Случайный выбор
+Mode_KrosMode													Shuffle Pick
 
 
 
@@ -2118,7 +2118,7 @@ Mode_KrosMode													Случайный выбор
 
 
 
-Mode_ForcePick													Принудительный выбор
+Mode_ForcePick													Force Pick
 
 
 
@@ -2126,7 +2126,7 @@ Mode_ForcePick													Принудительный выбор
 
 
 
-Mode_SoccerPick													Ограниченный выбор
+Mode_SoccerPick													Limited Pick
 
 
 
@@ -2150,7 +2150,7 @@ Mode_SoloDiff													Разные герои
 
 
 
-Mode_CounterPick												Контрвыбор
+Mode_CounterPick												Counter Pick
 
 
 
@@ -2166,7 +2166,7 @@ Mode_MidWars_Beta												Mid Wars Бета
 
 
 
-Mode_HeroBan													Бан героев
+Mode_HeroBan													Hero Ban
 
 
 
@@ -2182,7 +2182,7 @@ Mode_Reborn														Рейтинговый выбор
 
 
 
-Mode_BlindPick 													Слепой выбор
+Mode_BlindPick 													Blind Pick
 
 
 
@@ -2422,7 +2422,7 @@ Option_CorePool													Основной пул
 
 
 
-Option_BalancedRandom 											Сбалансированный рандом
+Option_BalancedRandom 											Balanced Random
 
 
 
@@ -125251,7 +125251,7 @@ Gadget_Tombstone_name	Tombstone
 
 
 
-Mode_SameHeroDraft												Драфт одного героя
+Mode_SameHeroDraft												Same Hero Draft
 Ability_Artesia4_description_simple 							Укажите точку, чтобы призвать Проекцию на ^o20 сек.^*: она даёт союзным героям рядом ^o{20,30,40} здоровья^* или ^oманы^* в секунду - в режиме лечения или урона соответственно.\n\nКроме того, она повторяет ваши применения ^494Arcane Missile^* и набирает заряды ^494Arcane Bolts^* вместе с вами.\n\nПроекцию ^oможно перемещать^* с перезарядкой 8 сек.\n\n^gПосох Мастера^* делает дальность применения глобальной, снижает перезарядку до 60 сек. и перезарядку перемещения до 4 сек. (+2 сек., если слишком близко к вражескому источнику).
 State_Circe_Ability1_Immobilized_name							Entrapment
 State_Circe_Ability1_Immobilized_description

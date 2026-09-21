@@ -510,7 +510,7 @@ general_mode_all_heroes						Все герои
 
 
 
-general_mode_all_pick						Все выбрать
+general_mode_all_pick						All Pick
 
 
 
@@ -518,7 +518,7 @@ general_mode_all_pick_desc					Все герои, к которым у игро�
 
 
 
-general_mode_random_draft					Случайный драфт
+general_mode_random_draft					Random Draft
 
 
 
@@ -526,7 +526,7 @@ general_mode_random_draft_desc				Ограничивает выбор герое
 
 
 
-general_mode_allrandom						Сбалансированный случайный
+general_mode_allrandom						Balanced Random
 
 
 
@@ -534,7 +534,7 @@ general_mode_allrandom_desc					Всем игрокам предоставляе
 
 
 
-general_mode_balancedrandom					Сбалансированный случайный режим (теперь объединенный с оригинальным All Random)
+general_mode_balancedrandom					Balanced Random (теперь объединён с исходным All Random)
 
 
 
@@ -542,7 +542,7 @@ general_mode_balancedrandom_desc			Всем игрокам предоставл�
 
 
 
-general_mode_blindban						Слепой бан
+general_mode_blindban						Blind Banning
 
 
 
@@ -550,7 +550,7 @@ general_mode_blindban_desc					Игроки начинают с полным н�
 
 
 
-general_mode_blindbanningpick				Слепой бан
+general_mode_blindbanningpick				Blind Banning
 
 
 
@@ -558,7 +558,7 @@ general_mode_blindbanningpick_desc			Игроки начинают с полны
 
 
 
-general_mode_blindbanningpickblitz			Слепой запрет на блиц
+general_mode_blindbanningpickblitz			Blitz Blind Banning
 
 
 
@@ -566,7 +566,7 @@ general_mode_blindbanningpickblitz_desc		Игроки начинают с пол
 
 
 
-general_mode_banningdraftblitz				Блиц-запрет драфта
+general_mode_banningdraftblitz				Blitz Banning Draft
 
 
 
@@ -574,7 +574,7 @@ general_mode_banningdraftblitz_desc			Игроки начинают с пуло�
 
 
 
-general_mode_banningpick					Запретить выбор
+general_mode_banningpick					Banning Pick
 
 
 
@@ -586,7 +586,7 @@ general_mode_lockpick						Lock Pick
 
 
 
-general_mode_lockpick_desc					Lock Pick требует, чтобы у вас была полная группа из 5 игроков.\n\nЛидеры групп являются капитанами команды и выполняют все функции запрета, блокировки и выбора игроков для команды.\n\nИгроки начинают с полным набором героев. Затем каждый капитан слепо блокирует двух героев.\n\nПосле слепого бана капитаны поочередно блокируют 6 героев в пул замков, из которых обе команды выберут позже.\n\nКапитаны затем поочередно банят по 3 героя из оставшегося пула.\n\nПосле бонна капитаны поочередно выбирают героев из оставшегося пула героев для первых 3 игроков каждой команды. Наконец, капитаны поочередно выбирают героев из заблокированного пула для оставшихся двух игроков каждой команды.
+general_mode_lockpick_desc					Для Lock Pick нужна полная группа из 5 игроков.\n\nЛидеры групп - капитаны команд, они сами банят, закрепляют и выбирают героев за всю команду.\n\nВ начале доступен весь пул героев. Каждый капитан вслепую банит двух героев.\n\nПосле этого капитаны по очереди закрепляют 6 героев в закрытый пул, из которого обе команды будут выбирать позже.\n\nЗатем капитаны по очереди банят ещё по 3 героя из оставшегося пула.\n\nПосле банов капитаны по очереди выбирают героев из оставшегося пула для первых трёх игроков каждой команды. Наконец, капитаны по очереди выбирают героев из закрытого пула для оставшихся двух игроков каждой команды.
 
 
 
@@ -602,7 +602,7 @@ general_mode_botmatch						Бот-матч
 
 
 
-general_mode_captainsmode					Выбор капитанов
+general_mode_captainsmode					Captains Pick
 
 
 
@@ -610,7 +610,7 @@ general_mode_captainsmode_desc				Лидеры групп являются ка�
 
 
 
-general_mode_krosmode						Перемешать выбор
+general_mode_krosmode						Shuffle Pick
 
 
 
@@ -626,7 +626,7 @@ general_mode_gated_desc						Игроки выбирают из созданно
 
 
 
-general_mode_dupe_hero 						Дублирующийся герой
+general_mode_dupe_hero 						Повтор героя
 
 
 
@@ -634,7 +634,7 @@ general_mode_dupe_hero_desc					Несколько игроков могут в�
 
 
 
-general_mode_force_pick 					Принудительный выбор
+general_mode_force_pick 					Force Pick
 
 
 
@@ -642,7 +642,7 @@ general_mode_force_pick_desc				Каждый вынужден выбрать к�
 
 
 
-general_mode_soccer_pick			 		Ограниченный выбор
+general_mode_soccer_pick			Limited Pick
 
 
 
@@ -666,7 +666,7 @@ general_mode_solo_diff_desc			 	Игроки выбирают по три гер
 
 
 
-general_mode_herobanpick					Бан героя
+general_mode_herobanpick					Hero Ban
 
 
 
@@ -702,7 +702,7 @@ general_mode_tournament_dec					Для соревновательного реж
 
 
 
-general_mode_singledraft					Одиночный драфт
+general_mode_singledraft					Single Draft
 
 
 
@@ -710,7 +710,7 @@ general_mode_singledraft_desc				Каждому игроку дается выб
 
 
 
-general_mode_banningdraft					Запрет драфта
+general_mode_banningdraft					Banning Draft
 
 
 
@@ -718,7 +718,7 @@ general_mode_banningdraft_desc				Игроки начинают с пулом и
 
 
 
-general_mode_counterpick					Контр выбор
+general_mode_counterpick					Counter Pick
 
 
 
@@ -746,7 +746,7 @@ general_mode_bots							Бот-матч
 
 
 
-general_mode_allPlayers						Базовый и проверенный
+general_mode_allPlayers						Базовые и проверенные
 
 
 
@@ -758,35 +758,35 @@ general_mode_no_hero_repick					Без перевыбора героя
 
 
 
-general_mode_no_hero_swap					Нет замены героев
+general_mode_no_hero_swap					Без обмена героями
 
 
 
-general_mode_no_agi_heroes					Нет героев Аги
+general_mode_no_agi_heroes					Без ловкости
 
 
 
-general_mode_no_intel_heroes				Никаких героев Intel
+general_mode_no_intel_heroes				Без интеллекта
 
 
 
-general_mode_no_str_heroes					Нет героев с силой
+general_mode_no_str_heroes					Без силы
 
 
 
-general_mode_no_respawn_timer				Нет таймера возрождения
+general_mode_no_respawn_timer				Без таймера возрождения
 
 
 
-general_mode_drop_items						Выбросить предметы
+general_mode_drop_items						Выпадение предметов
 
 
 
-general_mode_no_runes						Никаких усилений
+general_mode_no_runes						Без рун
 
 
 
-general_mode_super_creeps					Супер командные крипы
+general_mode_super_creeps					Суперкрипы
 
 
 
@@ -794,7 +794,7 @@ general_mode_alt_hero_pick					Альтернативный выбор геро�
 
 
 
-general_mode_duplicate_heroes				Дублирующиеся герои
+general_mode_duplicate_heroes				Повтор героев
 
 
 
@@ -802,15 +802,15 @@ general_mode_reverse_hero_select			Обратный выбор героя
 
 
 
-general_mode_no_top_lane					Нет верхней полосы
+general_mode_no_top_lane					Без верхней линии
 
 
 
-general_mode_no_middle_lane					Нет средней полосы
+general_mode_no_middle_lane					Без средней линии
 
 
 
-general_mode_no_bottem_lane					Нет нижней полосы
+general_mode_no_bottem_lane					Без нижней линии
 
 
 
@@ -818,23 +818,23 @@ general_mode_allow_veto						Разрешить вето
 
 
 
-general_mode_shuffle						Перемешать команду
+general_mode_shuffle						Перемешать команды
 
 
 
-general_mode_autobalance					Авто балансировка
+general_mode_autobalance					Автобаланс
 
 
 
-general_mode_no_leavers						Нет выпускников
+general_mode_no_leavers						Без покинувших
 
 
 
-general_mode_no_stats						Нет статистики
+general_mode_no_stats						Без статистики
 
 
 
-general_mode_balaned_random					Сбалансированный случайный
+general_mode_balaned_random					Balanced Random
 
 
 
@@ -1982,19 +1982,19 @@ mode_UnrankedMidwars						Mid Wars (без рейтинга)
 
 
 
-pickmode_allpick Все выбор
+pickmode_allpick All Pick
 
 
 
-pickmode_blindpick Слепой выбор
+pickmode_blindpick Blind Pick
 
 
 
-pickmode_banningpick Запретить выбор
+pickmode_banningpick Banning Pick
 
 
 
-pickmode_rolepick Выбор роли
+pickmode_rolepick Role Pick
 
 
 
@@ -14638,19 +14638,19 @@ mainlobby_header_game_type					Тип игры
 
 
 
-mainlobby_label_normal						Все выбор
+mainlobby_label_normal						All Pick
 
 
 
-mainlobby_label_random_draft				Случайный драфт
+mainlobby_label_random_draft				Random Draft
 
 
 
-mainlobby_label_single_draft				Одиночный драфт
+mainlobby_label_single_draft				Single Draft
 
 
 
-mainlobby_label_banning_draft				Запрет драфта
+mainlobby_label_banning_draft				Banning Draft
 
 
 
@@ -14658,15 +14658,15 @@ mainlobby_label_banning_draft_blitz			Блиц БД
 
 
 
-mainlobby_label_banning_pick				Запретить выбор
+mainlobby_label_banning_pick				Banning Pick
 
 
 
-mainlobby_label_lockpick					Взлом
+mainlobby_label_lockpick					Lockpick
 
 
 
-mainlobby_label_krosmode					Перемешать выбор
+mainlobby_label_krosmode					Shuffle Pick
 
 
 
@@ -14674,15 +14674,15 @@ mainlobby_label_botmatch					Бот-матч
 
 
 
-mainlobby_label_captainsmode 				Выбор капитанов
+mainlobby_label_captainsmode 				Captains Pick
 
 
 
-mainlobby_label_all_random					Сбалансированный случайный
+mainlobby_label_all_random					Balanced Random
 
 
 
-mainlobby_label_balanced_random 			Сбалансированный случайный режим (объединенный с All Random)
+mainlobby_label_balanced_random 			Balanced Random (объединён с All Random)
 
 
 
@@ -14690,15 +14690,15 @@ mainlobby_label_deathmatch					Смертельный бой
 
 
 
-mainlobby_label_blind_ban					Слепой бан
+mainlobby_label_blind_ban					Blind Ban
 
 
 
-mainlobby_label_blind_ban_blitz				Блиц-запрет вслепую
+mainlobby_label_blind_ban_blitz				Blitz Blind Ban
 
 
 
-mainlobby_label_blindban					Слепой бан
+mainlobby_label_blindban					Blind Ban
 
 
 
@@ -14706,15 +14706,15 @@ mainlobby_label_gated						Публичное бета-тестирование 
 
 
 
-mainlobby_label_dupe_hero					Дублирующийся герой
+mainlobby_label_dupe_hero					Повтор героя
 
 
 
-mainlobby_label_force_pick					Принудительный выбор
+mainlobby_label_force_pick					Force Pick
 
 
 
-mainlobby_label_soccer_pick					Ограниченный выбор
+mainlobby_label_soccer_pick					Limited Pick
 
 
 
@@ -14738,11 +14738,11 @@ mainlobby_label_solo_diff_playerhosted		Соло Разных героев
 
 
 
-mainlobby_label_heroban						Бан героя
+mainlobby_label_heroban						Hero Ban
 
 
 
-mainlobby_label_counter_pick				Контр выбор
+mainlobby_label_counter_pick				Counter Pick
 
 
 
@@ -14882,7 +14882,7 @@ mainlobby_label_custom_game_type			Игровой режим
 
 
 
-mainlobby_label_custom_game_type_desc		Режимы игры обычно меняют способ выбора героев.\n\n^yВыбор всех героев^* - Стандартный выбор героев.\n^yСлучайный выбор ^* - Ограничивает выбор героев до 20 героев, затем выбор героев чередуется между игроками.\n^yОдиночный выбор ^* - Каждому игроку предоставляется выбор героя с одной ловкостью, одним интеллектом и одной силой герой.\n^yБаннинг Драфт^* - Идентичен случайному дауту, за исключением того, что Синий и Розовый сначала по очереди банят 4 героев.\n^yБаннинг выбора^* - Синий и Розовый по очереди банят 8 героев, а затем игроки поочередно выбирают из оставшегося пула героев.
+mainlobby_label_custom_game_type_desc		Режимы игры в основном меняют то, как выбираются герои.\n\n^yAll Pick^* - обычный выбор героев.\n^yRandom Draft^* - выбор ограничен 20 героями, игроки выбирают по очереди.\n^ySingle Draft^* - каждому игроку предлагают по одному герою ловкости, интеллекта и силы.\n^yBanning Draft^* - как Random Draft, но сначала Синий и Розовый по очереди банят 4 героя.\n^yBanning Pick^* - Синий и Розовый по очереди банят 8 героев, затем игроки по очереди выбирают из оставшегося пула.
 
 
 
@@ -15482,7 +15482,7 @@ mainlobby_gamelist_veteran_desc				Присоединиться к этой иг
 
 
 
-mainlobby_gamelist_noleaver_title			Нет выходцев
+mainlobby_gamelist_noleaver_title			Без покинувших
 
 
 
@@ -15630,7 +15630,7 @@ mainlobby_gamelist_test_desc				Это секрет для всех.
 
 
 
-mainlobby_gamelist_normal_title				Все выбор
+mainlobby_gamelist_normal_title				All Pick
 
 
 
@@ -15638,7 +15638,7 @@ mainlobby_gamelist_normal_desc				Применяется стандартный 
 
 
 
-mainlobby_gamelist_randomdraft_title		Случайный драфт
+mainlobby_gamelist_randomdraft_title		Random Draft
 
 
 
@@ -15646,7 +15646,7 @@ mainlobby_gamelist_randomdraft_desc			Игроки по очереди выби�
 
 
 
-mainlobby_gamelist_singledraft_title		Одиночный драфт
+mainlobby_gamelist_singledraft_title		Single Draft
 
 
 
@@ -15654,7 +15654,7 @@ mainlobby_gamelist_singledraft_desc			Игроки выбирают для иг�
 
 
 
-mainlobby_gamelist_banningdraft_title		Запрет драфта
+mainlobby_gamelist_banningdraft_title		Banning Draft
 
 
 
@@ -15662,11 +15662,11 @@ mainlobby_gamelist_banningdraft_desc		Игроки по очереди выби�
 
 
 
-mainlobby_gamelist_banningpick_title		Запретить выбор
+mainlobby_gamelist_banningpick_title		Banning Pick
 
 
 
-mainlobby_gamelist_lockpick_title			Взлом
+mainlobby_gamelist_lockpick_title			Lockpick
 
 
 
@@ -15674,7 +15674,7 @@ mainlobby_gamelist_banningpick_desc			Капитаны команд по оче�
 
 
 
-mainlobby_gamelist_captainsdraft_title		Капитанский драфт
+mainlobby_gamelist_captainsdraft_title		Captains Draft
 
 
 
@@ -15682,7 +15682,7 @@ mainlobby_gamelist_captainsdraft_desc		Капитаны сначала по оч
 
 
 
-mainlobby_gamelist_krosmode_title			Перемешать выбор
+mainlobby_gamelist_krosmode_title			Shuffle Pick
 
 
 
@@ -15690,7 +15690,7 @@ mainlobby_gamelist_krosmode_desc			Игроки выбирают героя, а 
 
 
 
-mainlobby_gamelist_captainsmode_title		Выбор капитанов
+mainlobby_gamelist_captainsmode_title		Captains Pick
 
 
 
@@ -15706,7 +15706,7 @@ mainlobby_gamelist_deathmatch_desc			После смерти игроки вын
 
 
 
-mainlobby_gamelist_random_title				Сбалансированный случайный
+mainlobby_gamelist_random_title				Balanced Random
 
 
 
@@ -15714,7 +15714,7 @@ mainlobby_gamelist_random_desc				Герои случайным образом �
 
 
 
-mainlobby_gamelist_balanced_random_title	Сбалансированный случайный
+mainlobby_gamelist_balanced_random_title	Balanced Random
 
 
 
@@ -15722,11 +15722,11 @@ mainlobby_gamelist_balanced_random_desc		Герои случайным обра�
 
 
 
-mainlobby_gamelist_blindban					Слепой бан
+mainlobby_gamelist_blindban					Blind Banning
 
 
 
-mainlobby_gamelist_blindban_title			Слепой бан
+mainlobby_gamelist_blindban_title			Blind Banning
 
 
 
@@ -15762,11 +15762,11 @@ mainlobby_gamelist_private_desc				К этой игре можно присое�
 
 
 
-mainlobby_gamelist_counterpick_title		Контр выбор
+mainlobby_gamelist_counterpick_title		Counter Pick
 
 
 
-mainlobby_gamelist_counterpick_desc			Игроки поочередно выбирают героев из пула по схеме 1-2-2-2-2-1. Если в игре присутствуют все игроки с рейтингом "Легендарный" и "Бессмертный", то перед началом выбора произойдет фаза слепого бана с двумя Банами, назначенными синим и розовым игрокам.
+mainlobby_gamelist_counterpick_desc			Игроки по очереди выбирают героев из пула по схеме 1-2-2-2-2-1. Если в игре только игроки рангов Legendary и Immortal, перед выбором проходит фаза Blind Ban: по 2 бана у Синего и Розового игроков.
 
 
 
@@ -15782,7 +15782,7 @@ mainlobby_gamelist_forcerandom_desc			Игроки вынуждены брать
 
 
 
-mainlobby_gamelist_forcepick_title			Принудительный выбор
+mainlobby_gamelist_forcepick_title			Force Pick
 
 
 
@@ -15806,7 +15806,7 @@ mainlobby_gamelist_allheroes_desc			Все герои доступны обеи�
 
 
 
-mainlobby_gamelist_soccerpick_title			Ограниченный выбор
+mainlobby_gamelist_soccerpick_title			Limited Pick
 
 
 
@@ -15838,7 +15838,7 @@ mainlobby_gamelist_shuffleteams_desc		Игроки случайным образ
 
 
 
-mainlobby_gamelist_autobalance_title		Авто балансировка
+mainlobby_gamelist_autobalance_title		Автобаланс
 
 
 
@@ -15886,7 +15886,7 @@ mainlobby_gamelist_solodiff_desc			Игроки выбирают по три г�
 
 
 
-mainlobby_gamelist_heroban_title			Бан героя
+mainlobby_gamelist_heroban_title			Hero Ban
 
 
 
@@ -16794,7 +16794,7 @@ game_lobby_first_ban						Первый бан
 
 
 
-game_lobby_captains_pick					Выбор капитана
+game_lobby_captains_pick					Captn's Pick
 
 
 
@@ -16850,11 +16850,11 @@ game_lobby_phase_locking					Фаза блокировки
 
 
 
-game_lobby_phase_lock_pick					Фаза взлома замка
+game_lobby_phase_lock_pick					Фаза Lock Pick
 
 
 
-game_lobby_phase_shuffle_pick				Фаза выбора в случайном порядке
+game_lobby_phase_shuffle_pick				Фаза Shuffle Pick
 
 
 
@@ -16970,7 +16970,7 @@ filters_tip_body 							Фильтруйте героев по категори�
 
 
 
-filter_rolepick 							Рейтинг выбора ролей
+filter_rolepick 							Рейтинг Role Pick
 
 
 
@@ -18174,7 +18174,7 @@ player_stats_season_history					История сезона
 
 
 
-player_stats_noseason						Нет статистики
+player_stats_noseason						Без статистики
 
 
 
@@ -18274,7 +18274,7 @@ game_setup_type_label						Игровой режим
 
 
 
-game_setup_type_tip							Режимы игры обычно меняют способ выбора героев.\n\n^yВыбор всех героев^* - Стандартный выбор героев.\n^yСлучайный выбор ^* - Ограничивает выбор героев до 20 героев, затем выбор героев чередуется между игроками.\n^yОдиночный выбор ^* - Каждому игроку предоставляется выбор героя с одной ловкостью, одним интеллектом и одной силой герой.\n^yБаннинг Драфт^* - Идентичен случайному дауту, за исключением того, что Синий и Розовый сначала по очереди банят 4 героев.\n^yБаннинг выбора^* - Синий и Розовый по очереди банят 6 героев, а затем игроки поочередно выбирают из оставшегося пула героев.
+game_setup_type_tip							Режимы игры в основном меняют то, как выбираются герои.\n\n^yAll Pick^* - обычный выбор героев.\n^yRandom Draft^* - выбор ограничен 20 героями, игроки выбирают по очереди.\n^ySingle Draft^* - каждому игроку предлагают по одному герою ловкости, интеллекта и силы.\n^yBanning Draft^* - как Random Draft, но сначала Синий и Розовый по очереди банят 4 героя.\n^yBanning Pick^* - Синий и Розовый по очереди банят 6 героев, затем игроки по очереди выбирают из оставшегося пула.
 
 
 
@@ -18298,7 +18298,7 @@ game_setup_private_tip						Если вы выберете эту функцию
 
 
 
-game_setup_no_leavers						Нет выходцев
+game_setup_no_leavers						Без покинувших
 
 
 
@@ -18350,35 +18350,35 @@ game_setup_five_v_five						Пять против пяти
 
 
 
-game_setup_normal							Все выбор
+game_setup_normal							All Pick
 
 
 
-game_setup_counterpick						Контр выбор
+game_setup_counterpick						Counter Pick
 
 
 
-game_setup_random_draft						Случайный драфт
+game_setup_random_draft						Random Draft
 
 
 
-game_setup_single_draft						Одиночный драфт
+game_setup_single_draft						Single Draft
 
 
 
-game_setup_banningdraft						Запрет драфта
+game_setup_banningdraft						Banning Draft
 
 
 
-game_setup_banningpick						Запретить выбор
+game_setup_banningpick						Banning Pick
 
 
 
-game_setup_lockpick							Взлом
+game_setup_lockpick							Lockpick
 
 
 
-game_setup_krosmode							Перемешать выбор
+game_setup_krosmode							Shuffle Pick
 
 
 
@@ -18394,7 +18394,7 @@ game_setup_gated_desc						Игроки выбирают из созданног
 
 
 
-game_setup_captainsmode						Выбор капитанов
+game_setup_captainsmode						Captains Pick
 
 
 
@@ -18402,11 +18402,11 @@ game_setup_deathmatch						Смертельный бой
 
 
 
-game_setup_blindban							Слепой бан
+game_setup_blindban							Blind Ban
 
 
 
-game_setup_heroban							Бан героя
+game_setup_heroban							Hero Ban
 
 
 
@@ -18446,7 +18446,7 @@ game_setup_casual							Казуальный
 
 
 
-game_setup_allrandom						Сбалансированный случайный
+game_setup_allrandom						Balanced Random
 
 
 
@@ -20410,7 +20410,7 @@ mm3_localgamebutton 			Запустите локальную игру с бот�
 
 
 
-mm3_lockpicktoosmall 			Для режима взлома требуется пять человек
+mm3_lockpicktoosmall 			Для режима Lockpick нужно пять человек
 
 
 
@@ -20558,7 +20558,7 @@ mm3_pvp_simplemaps_desc 	Caldavar - стандартная карта 5 на 5.\
 
 
 
-mm3_pvp_simplemodes_ap 			Все выбрать
+mm3_pvp_simplemodes_ap 			All Pick
 
 
 
@@ -20582,7 +20582,7 @@ mm3_pvp_simplemodes_cp_desc2	Отлично подходит для обучен
 
 
 
-mm3_pvp_simplemodes_bb			Слепой бан
+mm3_pvp_simplemodes_bb			Blind Ban
 
 
 
@@ -20866,7 +20866,7 @@ mm_gated_caldavar_1				Геймплей в обычном режиме
 
 
 
-mm_gated_caldavar_2				Режим "Все выборы"
+mm_gated_caldavar_2				Режим All Pick
 
 
 
@@ -20878,7 +20878,7 @@ mm_gated_midwars_1				Экшн-геймплей
 
 
 
-mm_gated_midwars_2				Режим слепого бана
+mm_gated_midwars_2				Режим Blind Ban
 
 
 
@@ -31438,7 +31438,7 @@ banpick_select_hero								Выберите героя, чтобы заполн�
 
 
 
-banpick_select_slot								Установите запросы на бан вашего героя, ранжированные по ненависти к вам.
+banpick_select_slot								Задайте запросы на бан героев - по степени вашей ненависти к ним.
 
 
 
@@ -33148,7 +33148,7 @@ tutorial_slide_plinko_tickets	Талоны используются для бр�
 
 tutorial_slide_bans	Баны героев
 
-tutorial_slide_bans_desc_top	Нажми «Играть», чтобы открыть меню подбора матча
+tutorial_slide_bans_desc_top	Нажмите "Играть", чтобы открыть выбор режима - там же проходят баны героев.
 
 tutorial_slide_bans_desc_bottom	Приоритет идёт СВЕРХУ ВНИЗ.\nЧем выше герой, тем вероятнее его забанят.
 
@@ -33221,7 +33221,7 @@ vanity_emote_wheel_setup_desc	Назначь эмоции на позиции к
 
 
 // === NEW KEYS FOR TRANSLATION ===
-general_mode_normal		Обычный
+general_mode_normal		All Pick
 store_unavailable		Магазин недоступен
 mm_machine_tag_denied_body		Тег отклонён: не соответствует требованиям
 boss_info_kongor_name		Конгор
@@ -33267,7 +33267,7 @@ play_ban_notice_temporary				Ошибка: вам запрещено играт�
 options_hdr_mode_tip		scRGB (FP16) — совместимость; HDR10 (PQ) — 10 бит. Требует HDR-монитор.
 mm_mmr_caldavar_tip							Рейтинг подбора игр (MMR) на Forests of Caldavar
 mm_machine_tag_notice_locked_sub		Снимите рейтинговые режимы или смените привязку
-general_mode_sameherodraft					Драфт одного героя
+general_mode_sameherodraft					Same Hero Draft
 boss_info_phoenix_reward1_name		Крылья Феникса
 boss_info_kongor_stat_movespeed		^oСкор. движ.:^* 270
 mm_play_ban_denied_notice				Очередь недоступна: ^279{names}^* - запрет на игру
@@ -33553,8 +33553,8 @@ vanity_cat_profile_backgrounds		Фоны профиля
 vanity_cat_profile_effects		Эффекты профиля
 store_equipped		Надето
 // Режимы, настройки, наборы магазина
-pickmode_sameherodraft		Драфт одного героя
-pickmode_singledraft		Одиночный драфт
+pickmode_sameherodraft		Same Hero Draft
+pickmode_singledraft		Single Draft
 options_dropdown_miniprofile_open		Карточка профиля игрока
 options_dropdown_miniprofile_open_tip		Как открывается карточка профиля при наведении на игрока в чате, списке друзей или лобби.
 options_dropdown_miniprofile_open_hover		При наведении

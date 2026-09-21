@@ -14,6 +14,14 @@ from honru import parse_str, load_overrides, lookup
 
 SERVICE = ('_search_terms', '_shop_categories', '_keywords')
 
+# Названия карт и режимов по решению проекта остаются английскими, как имена
+MODE_NAME = re.compile(
+    r'(?:Blitz )?(?:Forests of Caldavar|Mid Wars|All Pick|All Random|'
+    r'Balanced Random|Random Draft|Single Draft|Same Hero Draft|'
+    r'Banning Draft|Banning Pick|Blind Ban(?:ning)?|Blind Pick|Lock ?[Pp]ick|'
+    r'Captains (?:Pick|Draft|Mode)|Counter Pick|Force Pick|Shuffle Pick|'
+    r'Limited Pick|Hero Ban|Role Pick)(?: Old)?(?: \(\w+\))?')
+
 
 def strip_markup(text):
     return re.sub(r'\^[a-zA-Z0-9*;:#!]|\\n|\{[^}]*\}', ' ', text)
@@ -90,7 +98,8 @@ def main():
                 # раньше не видел: ключ есть, а перевода нет. Служебные
                 # ключи и строки без слов не в счёт - там нечего переводить
                 if (value == english and not is_name(key)
-                        and not key.endswith(SERVICE)):
+                        and not key.endswith(SERVICE)
+                        and not MODE_NAME.fullmatch(english.strip())):
                     if len(re.findall(r'[A-Za-z]{2,}', strip_markup(english))) >= 3:
                         same_as_english.append((stem, key, english))
                 continue

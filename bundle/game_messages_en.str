@@ -569,7 +569,7 @@ hero_ban_random						Судьба ^rзабанила^* ^885{hero_name}^*.
 
 hero_lock							{player_color}{player}^* ^yзафиксировал^* ^885{hero_name}^*.
 
-hero_shuffle_pick					{player_color}{player}^* выбрал ^pв случайном порядке^* ^885{hero_name}^*.
+hero_shuffle_pick					{player_color}{player}^* взял через ^pShuffle Pick^* ^885{hero_name}^*.
 
 hero_lock_random					Судьба ^yзафиксировала^* ^885{hero_name}^*.
 
@@ -613,15 +613,15 @@ game_phase_picking					Начните ^rФазу выбора^*.
 
 game_phase_lock						Начните ^rФазу фиксации^*.
 
-game_phase_lock_pick				Начните ^rФазу взлома^*.
+game_phase_lock_pick				Начало ^rфазы Lock Pick^*.
 
 game_phase_hero_hidden_ban			Начните ^rФазу скрытого бана^*.
 
-game_phase_hero_ban					Начните ^rФазу запрета героев^*.
+game_phase_hero_ban					Начало ^rфазы бана героев^*.
 
 game_phase_vote_blind_ban			Начните ^rФазу запрета голосования^*.
 
-game_phase_shuffle_pick				Начало ^rФазы случайного выбора^*: ^yВыберите двух героев, чтобы добавить их способности в пул^*.
+game_phase_shuffle_pick				Начало ^rфазы Shuffle Pick^*: ^yвыберите двух героев, чтобы добавить их способности в пул^*.
 
 game_turn_ban						Теперь очередь {player_color}{player}^* на ^rban^*.
 
