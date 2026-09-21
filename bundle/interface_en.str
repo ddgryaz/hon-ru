@@ -5046,7 +5046,7 @@ options_screen_hide_full_healthbar_trip 	Если эта опция включе
 
 
 
-options_slider_creep_health_bar_transparency 		 		Процент прозрачности полосы HP Creep
+options_slider_creep_health_bar_transparency 		 		Процент прозрачности полосы здоровья Creep
 
 
 
@@ -5058,7 +5058,7 @@ options_slider_creep_health_bar_transparency_tip 			Это устанавлив�
 
 
 
-options_slider_creep_health_bar_threshold 		 			Порог прозрачности полосы HP Creep
+options_slider_creep_health_bar_threshold 		 			Порог прозрачности полосы здоровья Creep
 
 
 
@@ -25790,7 +25790,7 @@ tpp_hero_stats				Статистика героев (переключить)
 
 
 
-tpp_max_hpmp				Макс. HP/MP
+tpp_max_hpmp				Макс. здоровья/MP
 
 
 
@@ -25798,7 +25798,7 @@ tpp_attackspeed	Скор. атак.
 
 
 
-tpp_hpmp_regen				Регенерация HP/MP
+tpp_hpmp_regen				Регенерация здоровья и маны
 
 
 
@@ -32808,7 +32808,7 @@ tutorial_slide_hero_attributes_desc	Каждый герой специализи
 tutorial_slide_hero_attributes_intelligence	Интеллект
 tutorial_slide_hero_attributes_intelligence_desc	+13 макс. маны и 0,04 регенерации маны за единицу.
 tutorial_slide_hero_attributes_strength	Сила
-tutorial_slide_hero_attributes_strength_desc	+21 макс. HP и 0,08 регенерации HP за единицу.
+tutorial_slide_hero_attributes_strength_desc	+21 макс. здоровья и 0,08 регенерации здоровья за единицу.
 tutorial_slide_hero_interface_ability_level	Уровень умения
 tutorial_slide_hero_interface_ability_mana_cost	Стоимость умения
 tutorial_slide_hero_interface_base_attributes	Базовые характеристики
@@ -32883,7 +32883,7 @@ tutorial_slide_rune_illusion_desc	Создаёт 2 слабые иллюзии �
 tutorial_slide_rune_invis	Невидимость
 tutorial_slide_rune_invis_desc	Даёт Скрытность на 60 сек. Скрытность снимается атакой, применением способности или предмета.
 tutorial_slide_rune_regeneration	Регенерация
-tutorial_slide_rune_regeneration_desc	Быстро восстанавливает HP и ману.
+tutorial_slide_rune_regeneration_desc	Быстро восстанавливает здоровье и ману.
 tutorial_slide_rune_title	Руны
 tutorial_slide_runes	Руны
 tutorial_slide_shop_ui	Интерфейс магазина

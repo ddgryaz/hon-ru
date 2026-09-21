@@ -82,9 +82,9 @@ ping_target						{account_color}{player_name}^*^; {player_color}({player_hero_na
 
 
 
-ping_ext_building_attack			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{tower_location}{tower_tier}^* по ^g{current_health}/{max_health}^* HP {backdoor_protected}
+ping_ext_building_attack			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{tower_location}{tower_tier}^* по ^g{current_health}/{max_health}^* здоровья {backdoor_protected}
 
-ping_ext_building_defend			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите {unit_team_color}{tower_location}{tower_tier}^* на ^g{current_health}/{max_health}^* HP {backdoor_protected}
+ping_ext_building_defend			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите {unit_team_color}{tower_location}{tower_tier}^* на ^g{current_health}/{max_health}^* здоровья {backdoor_protected}
 
 ping_ext_hero_attack				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^* в позиции {ping_tile}.
 
