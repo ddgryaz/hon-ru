@@ -1098,7 +1098,7 @@ general_buy									Купить
 
 
 
-general_drops								Капли
+general_drops								Фишки
 
 
 
@@ -1182,7 +1182,7 @@ currency_jade_tip							Это платная валюта Juvio, которая
 
 
 
-currency_drops_tip							Вот как вы играете в Плинко. Каждый раз, когда вы бросаете шайбу, это стоит Drop валюты. зарабатывать Drops, играя в игру, а также в качестве награды за выполнение определенных задач, таких как последовательный вход в систему, игра с друзьями, добавление друзей и другие вещи (скоро).
+currency_drops_tip							Это валюта для игры в Плинко: каждый бросок шайбы стоит фишку. Фишки можно получать за матчи и в награду за разные действия: ежедневные входы, игру с друзьями, добавление друзей и не только (скоро).
 
 
 
@@ -31418,7 +31418,7 @@ rolepick_highdemand_title						Высокий спрос
 
 
 
-rolepick_highdemand_desc						Эта вакансия сейчас очень востребована! Выбор этого параметра приведет к сокращению времени ожидания и получению +1 пинок за игру.
+rolepick_highdemand_desc						Эта роль сейчас очень востребована! Если выбрать её, поиск игры будет быстрее, а за каждый матч вы получите +1 бросок в Плинко.
 
 
 
@@ -31666,11 +31666,11 @@ plinko_buy_drops 				Купить фишки
 
 
 
-plinko_drops 					Чипсы
+plinko_drops 					Фишки
 
 
 
-plinko_drops_amount 			{amount} Чипы
+plinko_drops_amount 			Фишки: {amount}
 
 
 
@@ -31734,15 +31734,15 @@ plinko_pricing_desc				Цена увеличивается при ежеднев
 
 
 
-plinko_tier_1_range				Выбросить 1
+plinko_tier_1_range				Бросок 1
 
 
 
-plinko_tier_2_range				Выпадает 2-9
+plinko_tier_2_range				Броски 2-9
 
 
 
-plinko_tier_3_range				Выпадает 10+
+plinko_tier_3_range				Броски 10+
 
 
 
@@ -31750,7 +31750,7 @@ plinko_drops_until_next	Осталось {count} бросков до следу�
 
 
 
-plinko_daily_drops_today		Сегодняшние капли: {count}
+plinko_daily_drops_today		Бросков сегодня: {count}
 
 
 
@@ -33137,11 +33137,11 @@ tutorial_slide_ladder_desc_bottom	Следи за своим местом в р�
 
 tutorial_slide_plinko	Плинко
 
-tutorial_slide_plinko_desc	Бросай жетоны в Плинко, чтобы выиграть призы и косметику
+tutorial_slide_plinko_desc	Здесь можно потратить
 
-tutorial_slide_plinko_drops	Дропы — случайные награды за бросок
+tutorial_slide_plinko_drops	фишки Плинко или
 
-tutorial_slide_plinko_tickets	Талоны используются для бросков в Плинко
+tutorial_slide_plinko_tickets	билеты, чтобы получить награды.
 
 
 
