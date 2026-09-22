@@ -888,7 +888,7 @@ chat_command_clear_short			/cl
 
 chat_command_join					/join
 
-chat_command_join_help				^279*^707 /join <channel> "password". (surround password with quotes)
+chat_command_join_help				^279*^707 /join <канал> "пароль". (пароль в кавычках)
 
 chat_command_join_short				/j
 
