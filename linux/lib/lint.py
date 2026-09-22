@@ -115,6 +115,16 @@ def check(base_dir, bundle_dir, overrides):
                     or re.search(r'(?<![А-Яа-яЁё])((?:[а-яё]+\.? ){1,3}[а-яё]+\.?)'
                                  r' (?:и|или) \1(?![а-яё])', bare)):
                 sloppy.append('повтор слова')
+            # Термины, которые машинный перевод давал вразнобой: unit -
+            # "отряд" (153 строки), Clearvision - пять вариантов, "скор. атак."
+            if re.search(r'(?i)скор\. атак\.', value):
+                sloppy.append('"скор. атак." вместо "скор. атаки"')
+            if (re.search(r'(?i)\bотряд', value) and re.search(r'(?i)\bunits?\b', eng)
+                    and not re.search(r'(?i)squad|party|group', eng)):
+                sloppy.append('"отряд" вместо "юнит"')
+            if (re.search(r'(?i)clear\s*vision', eng)
+                    and re.search(r'(?i)ясн\w* (зрени|обзор)|ясновид|ч[её]ткост', value)):
+                sloppy.append('Clearvision - "беспрепятственный обзор"')
             if sloppy:
                 add('следы машинного перевода', '%s:%s' % (stem, key),
                     ', '.join(sloppy))
