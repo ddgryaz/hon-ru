@@ -44088,7 +44088,7 @@ Ability_Jeraziah2_description_simple							Выпускает ауру ^o{6,12,1
 
 
 
-Ability_Jeraziah2_effect_header									Эффект(ы) защитного способности
+Ability_Jeraziah2_effect_header									Эффект(ы) Защитного оберега
 
 
 
@@ -44096,7 +44096,7 @@ Ability_Jeraziah2_effect_header									Эффект(ы) защитного сп
 
 
 
-Ability_Jeraziah2_IMPACT_effect									Применяется к союзнику или себе: ^oснять с него дебаффы^*, предоставить иммунитет к магии и предоставить ^o{6,12,18,24}% ауру замедления скор. движ.^* на ^o6 сек.^*\n\nЕсли на союзника не действует Защитное способность, аура замедления вокруг Иеразии будет пассивной.\n\nЗащитный Очарование можно развеять.
+Ability_Jeraziah2_IMPACT_effect									Применяется к союзнику или себе: ^oснять с него дебаффы^*, предоставить иммунитет к магии и предоставить ^o{6,12,18,24}% ауру замедления скор. движ.^* на ^o6 сек.^*\n\nЕсли на союзника не действует Защитный оберег, аура замедления вокруг Иеразии будет пассивной.\n\nЗащитный Очарование можно развеять.
 
 
 
@@ -55587,7 +55587,7 @@ State_Moraxus_Ability2_name										Arcane Shield
 
 
 
-State_Moraxus_Ability2_description								Поглощает следующее способность, направленное на Moraxus, или следующий снаряд способности.
+State_Moraxus_Ability2_description								Поглощает следующее заклинание, направленное на Moraxus, или следующий снаряд способности, коснувшийся Moraxus.
 
 
 
@@ -99608,7 +99608,7 @@ Item_NullStone_shop_categories									Filter_Strength,Filter_Agility,Filter_Int
 
 
 
-Item_NullStone_FRAME_effect										\nКогда ^o не находится в режиме восстановления, ^o отменяет одно целевое способность^*.^*
+Item_NullStone_FRAME_effect										\nКогда не на перезарядке, ^oотменяет одно направленное заклинание^*.
 
 
 
@@ -99656,7 +99656,7 @@ State_NullStone_name											Null Stone Protection
 
 
 
-State_NullStone_FRAME_effect									Поглощает одно направленное способность.
+State_NullStone_FRAME_effect									Отменяет одно направленное заклинание.
 
 
 
