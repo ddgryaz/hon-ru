@@ -1310,11 +1310,8 @@ track_abilities_gauntgrapple			Точность захвата: {param}%
 
 ability_rampage_charge					{player1_color}{player1_hero_name}^*: атакуем {player2_color}{player2_hero_name}^* с помощью Stampede!
 
-item_ophelias_pact_quest_objective1		^cПакт Офелии^* прогресс: {param}/5 нейтральных крипов сложено!
 
-item_ophelias_pact_quest_objective2		^cПакт Офелии^* прогресс: установлено {param}/3 вардов обзора!
 
-item_ophelias_pact_quest_objective3		^cПакт Офелии^* прогресс: установлено {param}/2 Защиты Откровения!
 
 
 

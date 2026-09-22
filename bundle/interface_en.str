@@ -942,7 +942,6 @@ general_min									Мин
 
 
 
-general_sec									Сек
 
 
 
@@ -4506,7 +4505,6 @@ vanity_cat_wards							Варды
 
 
 
-vanity_cat_teleport							Телепорт
 
 
 
@@ -12582,7 +12580,6 @@ im_user_not_found							Имя пользователя не найдено!
 
 
 
-im_user_offline								Пользователь офлайн!
 
 
 
@@ -21150,7 +21147,6 @@ mm_group_queue_rejoin			Ваша группа была помещена обра
 
 
 
-mm_notice_longqueues			Предупреждение: ожидается длительное время ожидания при стоянии в очереди из 3 игроков.
 
 
 
@@ -23826,7 +23822,6 @@ ladder_error_message						Произошла ошибка при получен�
 
 
 
-news_title									Новости Обновления
 
 
 
@@ -23834,15 +23829,6 @@ news_title									Новости Обновления
 
 
 
-news_honcast_offline						Прямая трансляция Honcast в настоящее время не в сети. Посетите сайт для просмотра видео по запросу.
-
-
-
-news_honcast_online							Honcast в настоящее время ведет прямую трансляцию!
-
-
-
-news_honcast_copyURL						Нажмите, чтобы скопировать URL-адрес
 
 
 
@@ -23850,7 +23836,6 @@ news_honcast_copyURL						Нажмите, чтобы скопировать URL-
 
 
 
-news_time_left								Осталось время для покупки
 
 
 
@@ -23858,19 +23843,21 @@ news_time_left								Осталось время для покупки
 
 
 
-news_unowned_hero							Неизвестный герой
 
 
 
-news_unowned_hero_eap						Этот аватар предназначен для героя EAP, к которому у вас нет доступа. Хотели бы вы, чтобы вас отвезли в магазин купить этого героя?
 
 
 
-news_unowned_hero_body						Этот аватар предназначен для героя, к которому у вас нет доступа. Хотели бы вы, чтобы вас отвезли в магазин купить этого героя?
 
 
 
-news_unowned_hero_unaccessable				Этот аватар предназначен для героя, к которому у вас нет доступа и который в данный момент недоступен для покупки.
+
+
+
+
+
+
 
 
 
@@ -28582,19 +28569,15 @@ hero_tip_defensive_tip_Hero_Soulstealer_2		Когда Soulstealer использ
 
 
 
-hero_tip_offensive_tip_Hero_Succubis_1			Используйте "Гипноз" на целях, на которые не обращают внимания ваши союзники. Любой союзник, атакующий цель, вместо этого получит на себя дебаффы.
 
 
 
-hero_tip_offensive_tip_Hero_Succubis_2			При использовании "Удержания Суккуба" убедитесь, что вы находитесь в безопасном месте, чтобы получить длительное удержание.
 
 
 
-hero_tip_defensive_tip_Hero_Succubis_1			Лучше всего приближаться к Суккубу с союзником, чтобы вас не заблокировал ее альтиметр отключения канала.
 
 
 
-hero_tip_defensive_tip_Hero_Succubis_2			Щелкнув правой кнопкой мыши по союзнику, переключить "Гипноз" на себя, чтобы ваш товарищ по команде мог сбежать.
 
 
 
@@ -32916,91 +32899,69 @@ tutorial_slide_towers_title	Башни
 
 
 
-role_priority		Приоритет роли
 
 
 
-roles_carry		Керри
 
 
 
-roles_mid		Мид
 
 
 
-roles_jungle		Лес
 
 
 
-roles_offlane	Offlane
 
 
 
-roles_soft		Частичная поддержка
 
 
 
-roles_hard		Полная поддержка
 
 
 
-roles_solo	Solo-Offlane
 
 
 
-matchmaking_modes_title	Выбор игровых режимов
 
 
 
-mm3_ranked_queue_type	Рейтинг
 
 
 
-plinko_board_change	Сменить доску
 
 
 
-plinko_ticket_cost	Стоимость билетов
 
 
 
-plinko_ticket_cost_desc	Цена увеличивается при ежедневных играх
 
 
 
-plinko_drops_1	Бросок 1 шт.
 
 
 
-plinko_drops_2	Бросок 2-9 шт.
 
 
 
-plinko_drops_10	Бросок 10+ шт.
 
 
 
-plinko_drops_today	Бросков сегодня: {value}
 
 
 
-plinko_resets_in	Обновление через {time}
 
 
 
-plinko_jackpot_name	Джекпот
 
 
 
-plinko_jackpot_desc	Главный приз
 
 
 
-mm_region_code_cis	CIS
 
 
 
-hselect_label_hd_attack_speed		скор. атаки
 
 tutorial_npe_welcome_title	Добро пожаловать в Heroes of Newerth: Reborn
 
@@ -33168,13 +33129,11 @@ tutorial_slide_matchmaking_tuning	Настройка подбора матча
 
 tutorial_slide_matchmaking_tuning_desc_top	"Быстрая очередь" ставит во главу угла скорость, чтобы вы поскорее попали в игру, а "Лучший баланс" - подбор игроков ближе к вашему уровню.
 
-tutorial_slide_matchmaking_tuning_desc_bottom	Выбери скорость или точность при поиске матча
 
 tutorial_slide_invite_teammates	Пригласите товарищей
 
 tutorial_slide_limited_hero_pool	Ограниченный выбор героев
 
-tutorial_slide_bonus_rating	Бонусный рейтинг
 
 
 

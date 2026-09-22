@@ -6510,7 +6510,6 @@ Ability_Aluna1_description										Молния никогда не бьет в
 
 
 
-Ability_Aluna1_description2										^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Количество отскоков увеличено с 1 до 3 (только для Изумрудно-красной версии способности).
 
 
 
@@ -6518,7 +6517,6 @@ Ability_Aluna1_description2										^gЭта способность может 
 
 
 
-Ability_Aluna1_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Количество отскоков увеличено с 1 до 3 (только для Изумрудно-красной версии способности).
 
 
 
@@ -6534,7 +6532,6 @@ Ability_Aluna1_description_simple		Бьёт врага молнией, кото�
 
 
 
-Ability_Aluna1_description_simple:ult_boost						Выстреливает молнию во врага, ^o отскакивает один раз^* к ближайшему врагу и Оглушает его на ^o{1.25,1.5,1.75,2} сек.^* и крадет ^o{30,40,50,60} Скор. атаки^* у каждого на 5 сек.
 
 
 
@@ -6550,7 +6547,6 @@ Ability_Aluna1_IMPACT_effect									Выпускает молнию, пораж
 
 
 
-Ability_Aluna1_IMPACT_effect:ult_boost							Выпускает молнию, поражающую цель и ближайшего к цели врага. Цели Оглушены на ^o{1.25,1.5,1.75,2}^* сек. Пораженные цели также теряют ^o{30,40,50,60}^* скор. атаки на 5 сек., а Алуна получает скор. атаки, равную уменьшенной величине, на 5 сек.\n\n^rEmerald Red^* изменяет длительность положительного эффекта скор. атаки и штрафа на 10 сек., изменяет значение положительного эффекта/штрафа скор. атаки на 75, а ^g увеличивает количество отскоков на 3^*.
 
 
 
@@ -11042,7 +11038,6 @@ Ability_Bephelgor1_description									Balphagore изрыгает горящу�
 
 
 
-Ability_Bephelgor1_description2	
 
 
 
@@ -11146,7 +11141,6 @@ Ability_Bephelgor2_description									Один из множества пато
 
 
 
-Ability_Bephelgor2_description2	
 
 
 
@@ -12746,7 +12740,6 @@ Ability_Berzerker3_description_simple 							При активации: ^o ук�
 
 
 
-Ability_Berzerker3_effect_header	
 
 
 
@@ -17186,7 +17179,6 @@ Ability_Chipper4_description									Chipper умеет переговарива
 
 
 
-Ability_Chipper4_description2									^gЭту способность можно усилить с помощью Посоха Мастера.^*\n\n^gЭффект посоха:^* Увеличивает дальность применения до 1000, а пилы замедляют скор. движ. на 90%, которая уменьшается в течение 4 сек.
 
 
 
@@ -17218,7 +17210,6 @@ Ability_Chipper4_IMPACT_effect									Создает пилы на 8 сек. П
 
 
 
-Ability_Chipper4_IMPACT_effect:ult_boost						Создает пилы на 8 сек. Применяет Sawblade ^g и замедляющее скор. движ. на 90% на 4 сек.^* к врагам, которые входят в пилы. Пилы, очевидно, разрушают деревья.\n\n Дает 200 дневного и ночного беспрепятственного обзора вдоль пил, пока они активны.
 
 
 
@@ -17226,7 +17217,6 @@ Ability_Chipper4_IMPACT_effect:ult_boost						Создает пилы на 8 с�
 
 
 
-Ability_Chipper4_name:ult_boost									^gРезня пилой*^*
 
 
 
@@ -17234,7 +17224,6 @@ Ability_Chipper4_name:ult_boost									^gРезня пилой*^*
 
 
 
-Ability_Chipper4_description2:ult_boost	^gЭту способность можно усилить с помощью Посоха Мастера.^*\n\n^gЭффект посоха:^* Увеличивает дальность применения до 1000, а пилы замедляют скор. движ. на 90%, которая уменьшается в течение 4 сек.
 
 
 
@@ -17242,7 +17231,6 @@ Ability_Chipper4_description2:ult_boost	^gЭту способность можн
 
 
 
-Ability_Chipper4_description_simple:ult_boost					Создайте лезвия пилы в линию, которая длится ^o8 сек.^*\n\nНаносит ^o{200,300,400} маг. урона^* врагам, которые касаются лезвий, и применяет сужение ^o-90% скор. движ.^*, а затем ^o{75,125,175} маг. урона в сек.^*, когда они касаются лезвий.
 
 
 
@@ -19341,7 +19329,6 @@ Ability_Cthulhuphant4_name	Dreams of Madness
 
 
 
-Ability_Cthulhuphant4_name:ult_boost							^gМечты о безумии*^*
 
 
 
@@ -19357,7 +19344,6 @@ Ability_Cthulhuphant4_description								Зловещая аура Cthulhuphant 
 
 
 
-Ability_Cthulhuphant4_description2								^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Врагам больше не нужно стоять лицом к вам, чтобы начать сходить с ума.
 
 
 
@@ -19365,7 +19351,6 @@ Ability_Cthulhuphant4_description2								^gЭта способность мож
 
 
 
-Ability_Cthulhuphant4_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Врагам больше не нужно стоять лицом к вам, чтобы начать сходить с ума.
 
 
 
@@ -19382,7 +19367,6 @@ Ability_Cthulhuphant4_description_simple		Концентрируется до 2 
 
 
 
-Ability_Cthulhuphant4_description_simple:ult_boost				Активируйте, чтобы получить ауру на 6 сек., которая замедляет скор. движ. на ^o{20,35,50}%^* к вражеским юнитам.\n\nВраги, которые ^gостаются рядом с вами в течение 2 сек.^*, сойдут с ума, ^oатакуя Cthulhuphant в течение {2,2.5,3} сек.^*
 
 
 
@@ -19423,7 +19407,6 @@ Ability_Cthulhuphant4_IMPACT_effect		Концентрируется до 2 се�
 
 
 
-Ability_Cthulhuphant4_IMPACT_effect:ult_boost					Активируйте, чтобы получить ауру на 6 сек., которая замедляет скор. движ. на ^o{20,35,50}%^* к вражеским юнитам.\n\nВраги, которые ^gостаются рядом с вами в течение 2 сек.^*, сойдут с ума, ^oатакуя Cthulhuphant в течение {2,2.5,3} сек.^*
 
 
 
@@ -21880,7 +21863,6 @@ Ability_Defiler4_name:ult_boost									^gUnholy Expatriation*^*
 
 
 
-Ability_Defiler4_name:Defiler4_SotM_Active						^gНечестивое изгнание*^*
 
 
 
@@ -21960,7 +21942,6 @@ Ability_Defiler4_tooltip_flavor									Призраки HoN!
 
 
 
-Ability_Defiler4_description2:Defiler4_SotM_Active		^gПосох Мастера:^* позволяет активировать ультимейт, выпуская волну духов во всех направлениях.
 
 
 
@@ -21968,7 +21949,6 @@ Ability_Defiler4_description2:Defiler4_SotM_Active		^gПосох Мастера:
 
 
 
-Ability_Defiler4_description_simple:Defiler4_SotM_Active		Активируйте эту способность, пока активны духи, чтобы быстро направить их к цели. Нацеливание на вражеские юниты и постройки отправит духов в атаку один раз с 75% урона от атаки, а затем вернется к Осквернителю.\n\nНацеливание на союзного героя поглотит всех духов, исцеляя цель на половину накопленного урона.
 
 
 
@@ -21976,7 +21956,6 @@ Ability_Defiler4_description_simple:Defiler4_SotM_Active		Активируйте
 
 
 
-Ability_Defiler4_IMPACT_effect:Defiler4_SotM_Active				Активируйте эту способность, пока активны духи, чтобы быстро направить их к цели. Нацеливание на вражеские юниты и постройки отправит духов в атаку один раз с 75% урона от атаки, а затем вернется к Осквернителю.\n\nНацеливание на союзного героя поглотит всех духов, исцеляя цель на половину накопленного урона.
 
 
 
@@ -23232,7 +23211,6 @@ Hero_PlagueRider_role											У Plague Rider почти безграничн�
 
 
 
-Ability_Dreadknight1_name										Mors Certissima
 
 
 
@@ -23240,7 +23218,6 @@ Ability_Dreadknight1_name										Mors Certissima
 
 
 
-Ability_Dreadknight1_description								Lord Salforis выпускает смертоносное способность, наносящее маг. урон и замедляющее всех врагов на пути.
 
 
 
@@ -23248,7 +23225,6 @@ Ability_Dreadknight1_description								Lord Salforis выпускает сме�
 
 
 
-Ability_Dreadknight1_description_simple							Выберите область и взорвите ее, нанеся ^o{130,210,290,370} маг. урона^*.\n\nВ течение следующих 5 сек. пораженные цели восстанавливают 40% нанесенного урона в виде реген. здоровья, но получают ^o-50% меньше исцеления^*.
 
 
 
@@ -23256,7 +23232,6 @@ Ability_Dreadknight1_description_simple							Выберите область и
 
 
 
-Ability_Dreadknight1_IMPACT_effect								После задержки в 0,5 сек. поражает выбранную область. Наносит {130,210,290,370} маг. урона врагам в радиусе и применяет Mors Certissima на 5 сек., восстанавливая 40% урона, полученного за время действия реген. здоровья.
 
 
 
@@ -23264,7 +23239,6 @@ Ability_Dreadknight1_IMPACT_effect								После задержки в 0,5 с�
 
 
 
-Ability_Dreadknight1_effect_header								Эффекты Mors Certissima
 
 
 
@@ -23272,7 +23246,6 @@ Ability_Dreadknight1_effect_header								Эффекты Mors Certissima
 
 
 
-Ability_Dreadknight1_tooltip_flavor								Жизнь неопределенна, лишь смерть абсолютна.
 
 
 
@@ -23296,7 +23269,6 @@ Ability_Dreadknight1_tooltip_flavor								Жизнь неопределенна
 
 
 
-State_Dreadknight_Ability1_Regen_name							Mors Certissima
 
 
 
@@ -23320,7 +23292,6 @@ State_Dreadknight_Ability1_Regen_name							Mors Certissima
 
 
 
-State_Dreadknight_Ability1_Debuff_name							Mors Certissima
 
 
 
@@ -23344,7 +23315,6 @@ State_Dreadknight_Ability1_Debuff_name							Mors Certissima
 
 
 
-Ability_Dreadknight2_name										Life Tap
 
 
 
@@ -23352,7 +23322,6 @@ Ability_Dreadknight2_name										Life Tap
 
 
 
-Ability_Dreadknight2_description								Lord Salforis заряжает свою следующую атаку, конвертируя весь урон атаки в превосходящий маг. урон.
 
 
 
@@ -23360,7 +23329,6 @@ Ability_Dreadknight2_description								Lord Salforis заряжает свою 
 
 
 
-Ability_Dreadknight2_description2								^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Перезарядка уменьшено до 3 сек.
 
 
 
@@ -23368,7 +23336,6 @@ Ability_Dreadknight2_description2								^gЭта способность мож�
 
 
 
-Ability_Dreadknight2_description_simple 					Вызывает сужающееся замедление скор. движ. на ^o40%^* вокруг вас на 2 сек.\n\nТем временем на 5 сек. или до тех пор, пока вы не успешно атакуете, вы получаете ^o50 скор. движ.^*, а ваша следующая атака заряжается энергиями Пустоты, добавляя ^o{40,60,80,100} урона^*, преобразуя его в абсолютный маг. урон и даруя его. ^o{55,70,85,100}% Вампиризм^*.\n\n^gПосох Мастера^* сокращает перезарядку до 3 сек.
 
 
 
@@ -23376,7 +23343,6 @@ Ability_Dreadknight2_description_simple 					Вызывает сужающеес
 
 
 
-Ability_Dreadknight2_IMPACT_effect								Сбрасывает перезарядку атаки и накладывает Высасывание жизни на себя для следующей атаки или на 5 сек., и замедляет скор. движ. врагов в радиусе на 40% на 2 сек.
 
 
 
@@ -23384,7 +23350,6 @@ Ability_Dreadknight2_IMPACT_effect								Сбрасывает перезаря�
 
 
 
-Ability_Dreadknight2_effect_header								Эффекты Высасывания жизни
 
 
 
@@ -23392,7 +23357,6 @@ Ability_Dreadknight2_effect_header								Эффекты Высасывания 
 
 
 
-Ability_Dreadknight2_tooltip_flavor								Когда жизнь подкидывает лимоны - ты умрешь!
 
 
 
@@ -23408,7 +23372,6 @@ Ability_Dreadknight2_tooltip_flavor								Когда жизнь подкиды�
 
 
 
-Ability_Dreadknight2_name:ult_boost								^gЖизнеотвод*^*
 
 
 
@@ -23416,7 +23379,6 @@ Ability_Dreadknight2_name:ult_boost								^gЖизнеотвод*^*
 
 
 
-Ability_Dreadknight2_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Перезарядка уменьшено до 3 сек.
 
 
 
@@ -23424,7 +23386,6 @@ Ability_Dreadknight2_description2:ult_boost	^gЭта способность мо
 
 
 
-Ability_Dreadknight2_description_simple:ult_boost 			Активируйте, чтобы вызвать сужающееся замедление скор. движ. на ^o40%^* вокруг вас на 2 сек.\n\nТем временем в течение 5 сек. или до тех пор, пока вы не успешно атакуете, вы получаете ^o50 скор. движ.^*, а ваша следующая атака заряжается энергиями Пустоты, добавляя ^o{40,60,80,100} урона^*, преобразуя его в абсолютный маг. урон и даруя его. ^o{55,70,85,100}% Вампиризм^*.
 
 
 
@@ -23448,7 +23409,6 @@ Ability_Dreadknight2_description_simple:ult_boost 			Активируйте, ч�
 
 
 
-State_Dreadknight_Ability2_name									Life Tap
 
 
 
@@ -23456,7 +23416,6 @@ State_Dreadknight_Ability2_name									Life Tap
 
 
 
-State_Dreadknight_Ability2_description							Следующая атака конвертирует 100% урона атаки в превосходящий маг. урон
 
 
 
@@ -23480,7 +23439,6 @@ State_Dreadknight_Ability2_description							Следующая атака ко�
 
 
 
-State_Dreadknight_Ability2_Slow_name							Life Tap
 
 
 
@@ -23504,7 +23462,6 @@ State_Dreadknight_Ability2_Slow_name							Life Tap
 
 
 
-Ability_Dreadknight3_name										Dark Lord's Presence
 
 
 
@@ -23512,7 +23469,6 @@ Ability_Dreadknight3_name										Dark Lord's Presence
 
 
 
-Ability_Dreadknight3_description								Пассивно крадет {30,45,60,75}% реген. здоровья ближайшего врага, передавая его себе. Аура также наносит {15,25,35,45} чист. урона в сек., который равномерно распределяется между всеми врагами в радиусе. Минимум 15 чист. урона в сек.\n\nИллюзии наследуют присутствие Темного Лорда, но наносят 33% урона. Снижение реген. здоровья не суммируется.
 
 
 
@@ -23520,7 +23476,6 @@ Ability_Dreadknight3_description								Пассивно крадет {30,45,60,
 
 
 
-Ability_Dreadknight3_description_simple							Пассивно ^o крадет^* {30,45,60,75}% ^oреген. здоровья^* ближайшего врага, передавая его себе.\n\nВрагам поблизости пассивно наносится до ^o{15,25,35,45} чист. урона^* в сек. Этот урон делится между всеми ближайшими врагами. Минимум 15 урона в сек.
 
 
 
@@ -23528,7 +23483,6 @@ Ability_Dreadknight3_description_simple							Пассивно ^o крадет^*
 
 
 
-Ability_Dreadknight3_IMPACT_effect								При активации выключает пассивный урон.
 
 
 
@@ -23536,7 +23490,6 @@ Ability_Dreadknight3_IMPACT_effect								При активации выключ
 
 
 
-Ability_Dreadknight3_IMPACT_effect:salforis_dmgaura_on			При активации выключает пассивный урон.
 
 
 
@@ -23544,7 +23497,6 @@ Ability_Dreadknight3_IMPACT_effect:salforis_dmgaura_on			При активаци
 
 
 
-Ability_Dreadknight3_IMPACT_effect:salforis_dmgaura_off			При активации включает пассивный урон.
 
 
 
@@ -23552,7 +23504,6 @@ Ability_Dreadknight3_IMPACT_effect:salforis_dmgaura_off			При активац�
 
 
 
-Ability_Dreadknight3_tooltip_flavor								Не понимаю, почему все вокруг меня умирают.
 
 
 
@@ -23576,7 +23527,6 @@ Ability_Dreadknight3_tooltip_flavor								Не понимаю, почему в�
 
 
 
-State_Dreadknight_Ability3_name									Presence of the Dark Lord
 
 
 
@@ -23584,7 +23534,6 @@ State_Dreadknight_Ability3_name									Presence of the Dark Lord
 
 
 
-State_Dreadknight_Ability3_description 							Получает чист. урон в сек., равный количеству зарядов
 
 
 
@@ -23608,7 +23557,6 @@ State_Dreadknight_Ability3_description 							Получает чист. уро�
 
 
 
-State_Dreadknight_Ability3_Self_name							Presence of the Dark Lord
 
 
 
@@ -23616,7 +23564,6 @@ State_Dreadknight_Ability3_Self_name							Presence of the Dark Lord
 
 
 
-State_Dreadknight_Ability3_Self_description						Получает реген. здоровья за каждого ближайшего вражеского юнита.
 
 
 
@@ -23640,7 +23587,6 @@ State_Dreadknight_Ability3_Self_description						Получает реген. з
 
 
 
-State_Dreadknight_Ability3_EnemyRegen_name						Dark Lord's Presence
 
 
 
@@ -23648,7 +23594,6 @@ State_Dreadknight_Ability3_EnemyRegen_name						Dark Lord's Presence
 
 
 
-State_Dreadknight_Ability3_EnemyRegen_FRAME_effect				Лорд Салфорис крадет {30,45,60,75}% вашей реген. здоровья.
 
 
 
@@ -23672,7 +23617,6 @@ State_Dreadknight_Ability3_EnemyRegen_FRAME_effect				Лорд Салфорис 
 
 
 
-Ability_Dreadknight4_name										The Undying
 
 
 
@@ -23680,7 +23624,6 @@ Ability_Dreadknight4_name										The Undying
 
 
 
-Ability_Dreadknight4_name:ult_boost								^gБессмертный*^*
 
 
 
@@ -23688,7 +23631,6 @@ Ability_Dreadknight4_name:ult_boost								^gБессмертный*^*
 
 
 
-Ability_Dreadknight4_description 								Lord Salforis обрушивает мощнейшее проклятие на вражеского героя, наносящее огромный маг. урон.
 
 
 
@@ -23696,7 +23638,6 @@ Ability_Dreadknight4_description 								Lord Salforis обрушивает мо
 
 
 
-Ability_Dreadknight4_description2								^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Приостанавливает длительность, пока Салфорис находится в пределах 900 единиц. Любой герой, который умирает от этого дебаффа, навсегда увеличивает урон в сек. на 5, максимум до 50 доп. урона.
 
 
 
@@ -23704,7 +23645,6 @@ Ability_Dreadknight4_description2								^gЭта способность мож�
 
 
 
-Ability_Dreadknight4_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Приостанавливает длительность, пока Салфорис находится в пределах 900 единиц. Любой герой, который умирает от этого дебаффа, навсегда увеличивает урон в сек. на 5, максимум до 50 доп. урона.
 
 
 
@@ -23712,7 +23652,6 @@ Ability_Dreadknight4_description2:ult_boost	^gЭта способность мо
 
 
 
-Ability_Dreadknight4_description_simple 						Наносит ему эффект "Бессмертие" на 12 сек.\n\nВ течение этого времени цель получает ^o{20,35,50} Абсолютного маг. урона^* в сек. и не может восстанавливать или лечить здоровье.\n\n^gПосох Мастера^* приостанавливает действие, пока Салфорис находится рядом, и увеличивает урон на 5 за каждого героя, погибшего при включенном режиме "Бессмертие".
 
 
 
@@ -23720,7 +23659,6 @@ Ability_Dreadknight4_description_simple 						Наносит ему эффект
 
 
 
-Ability_Dreadknight4_description_simple:ult_boost				Примените на юнита, чтобы нанести ему эффект "Бессмертность" на 12 сек.\n\nВ течение этого времени цель получает ^o{20,35,50} абсолютного маг. урона^* в сек. и не может восстанавливать или исцелять здоровье. ^gПриостанавливает длительность, пока Салфорис близко, и увеличивает урон на 5 за каждого героя, погибшего от Undying на^*.
 
 
 
@@ -23728,7 +23666,6 @@ Ability_Dreadknight4_description_simple:ult_boost				Примените на ю�
 
 
 
-Ability_Dreadknight4_IMPACT_effect								Применяет ^oThe Undying^* к цели на ^o12 сек.^*
 
 
 
@@ -23736,7 +23673,6 @@ Ability_Dreadknight4_IMPACT_effect								Применяет ^oThe Undying^* к 
 
 
 
-Ability_Dreadknight4_IMPACT_effect:ult_boost					Применяет ^oThe Undying^* к цели на ^o12 сек.^*\n\n^gПриостанавливает длительность, пока Салфорис находится в пределах 900 от цели. Наносит 5 доп. урона в сек. за каждого героя, погибшего под действием Undying, максимум до 50 доп. урона.^*
 
 
 
@@ -23744,7 +23680,6 @@ Ability_Dreadknight4_IMPACT_effect:ult_boost					Применяет ^oThe Undyin
 
 
 
-Ability_Dreadknight4_effect_header								Эффекты Бессмертного
 
 
 
@@ -23752,7 +23687,6 @@ Ability_Dreadknight4_effect_header								Эффекты Бессмертног�
 
 
 
-Ability_Dreadknight4_tooltip_flavor								То, что убивает тебя, делает меня сильнее.
 
 
 
@@ -23776,7 +23710,6 @@ Ability_Dreadknight4_tooltip_flavor								То, что убивает тебя,
 
 
 
-State_Dreadknight_Ability4_name									The Undying
 
 
 
@@ -23784,7 +23717,6 @@ State_Dreadknight_Ability4_name									The Undying
 
 
 
-State_Dreadknight_Ability4_FRAME_effect							Наносит {20,35,50} абсолютного маг. урона в сек.\nНевозможно восстановить или исцелить здоровье.\nСостояние не может быть передано другому юниту
 
 
 
@@ -23792,7 +23724,6 @@ State_Dreadknight_Ability4_FRAME_effect							Наносит {20,35,50} абсо
 
 
 
-State_Dreadknight_Ability4_FRAME_effect:ult_boost				Наносит {20,35,50} абсолютного маг. урона в сек.\nНаносит 5 дополнительных урона в сек. за заряд.\nНевозможно восстановить или исцелить здоровье.\nСостояние не может быть передано другому юниту
 
 
 
@@ -23816,7 +23747,6 @@ State_Dreadknight_Ability4_FRAME_effect:ult_boost				Наносит {20,35,50} �
 
 
 
-Hero_Dreadknight_name											Lord Salforis
 
 
 
@@ -23824,7 +23754,6 @@ Hero_Dreadknight_name											Lord Salforis
 
 
 
-Hero_Dreadknight_description									Лорд Сальфорис, Барон Черной Стены, повелевает некромантскими силами, отличающими его от типичного пушечного мяса Хеллборна. Могущественный колдун и полководец, само его присутствие на поле боя способно вызвать видения ужаса у врагов, разлагая их изнутри и высасывая души. Ходят слухи, что пасть от его копья - значит обречь свою душу.
 
 
 
@@ -23832,7 +23761,6 @@ Hero_Dreadknight_description									Лорд Сальфорис, Барон Ч�
 
 
 
-Hero_Dreadknight_role											Lord Salforis - смертоносный маг ближнего боя, способный наносить огромный взрывной урон с помощью Mors Certissima.
 
 
 
@@ -24608,7 +24536,6 @@ Ability_DrunkenMaster3_description								Пьяный Мастер пьет, г
 
 
 
-Ability_DrunkenMaster3_description2								^gЭту способность можно усилить с помощью Посоха Мастера:^* увеличивает максимальное количество зарядов на 10.
 
 
 
@@ -24664,7 +24591,6 @@ Ability_DrunkenMaster3_IMPACT_effect							Мгновенно получите {
 
 
 
-Ability_DrunkenMaster3_name:ult_boost							^gПить*^*
 
 
 
@@ -24672,7 +24598,6 @@ Ability_DrunkenMaster3_name:ult_boost							^gПить*^*
 
 
 
-Ability_DrunkenMaster3_description_simple:ult_boost				Мгновенно получите {3,6,9,12} зарядов опьянения. Концентрируется, выпивая до 2 сек., и получает ^o{2,3,4,5} зарядов опьянения^* и сокращает перезарядку Выпада и Пошатывания на 0,5 сек. за каждые 0,25 сек. концентрации. Максимум ^g{28,37,46,55} Пьяных зарядов^*.\n\nКаждый пьяный заряд дает ^o0,55% уклонения, 0,5% уменьшения длительности Оглушения/дебаффа и 1% шанс нанести критический удар, наносящий {1.3,1.4,1.5,1.6}x урона^*. Каждый пьяный заряд естественным образом истекает каждые 2 сек., ^o исцеляет вас на 7 единиц здоровья^*.\n\nПри использовании ^rВыпад^* ^o потребляет 6 пьяных зарядов, чтобы добавить 30% замедления скор. движ.^*. Когда используется ^rStagger^*, ^o потребляет 4 пьяных заряда, чтобы добавить +50 к скор. движ.^*. Получите 10 зарядов опьянения за убийство настоящего вражеского героя или помощь в нем.
 
 
 
@@ -24680,7 +24605,6 @@ Ability_DrunkenMaster3_description_simple:ult_boost				Мгновенно пол
 
 
 
-Ability_DrunkenMaster3_description2:ult_boost	^gЭту способность можно усилить с помощью Посоха Мастера:^* увеличивает максимальное количество зарядов на 10.
 
 
 
@@ -24688,7 +24612,6 @@ Ability_DrunkenMaster3_description2:ult_boost	^gЭту способность м
 
 
 
-Ability_DrunkenMaster3_IMPACT_effect:ult_boost					Мгновенно получите {3,6,9,12} зарядов опьянения. Концентрируется, выпивая до 2 сек., и получает ^o{2,3,4,5} зарядов опьянения^* и сокращает перезарядку Выпада и Пошатывания на 0,5 сек. за каждые 0,25 сек. концентрации. Максимум ^g{28,37,46,55} Пьяных зарядов^*.\n\nКаждый пьяный заряд дает ^o0,55% уклонения, 0,5% уменьшения длительности Оглушения/дебаффа и 1% шанс нанести критический удар, наносящий {1.3,1.4,1.5,1.6}x урона^*. Каждый пьяный заряд естественным образом истекает каждые 2 сек., ^o исцеляет вас на 7 единиц здоровья^*.\n\nПри использовании ^rВыпад^* ^o потребляет 6 пьяных зарядов, чтобы добавить 30% замедления скор. движ.^*. Когда используется ^rStagger^*, ^o потребляет 4 пьяных заряда, чтобы добавить +50 к скор. движ.^*. Получите 10 зарядов опьянения за убийство настоящего вражеского героя или помощь в нем.
 
 
 
@@ -25990,7 +25913,6 @@ State_Electrician_Ability1_FRAME_effect							{40,50,60,70} Маг. урон в 
 
 
 
-State_Electrician_Ability1_Self_name	Статический захват (на себя)
 
 
 
@@ -31753,7 +31675,6 @@ Ability_Flux2_description_simple 								^cВытяните^* или ^!ipush^* �
 
 
 
-Ability_Flux2_description2	
 
 
 
@@ -31761,7 +31682,6 @@ Ability_Flux2_description2
 
 
 
-Ability_Flux2_effect_header	
 
 
 
@@ -31769,7 +31689,6 @@ Ability_Flux2_effect_header
 
 
 
-Ability_Flux2_effect_header2	
 
 
 
@@ -38760,7 +38679,6 @@ State_Gunblade_Ability4_Reveal_name								Grappled
 
 
 
-State_Gunblade_Ability4_Reveal_FRAME_effect						-25% наносимого урона по Ганблейду
 
 
 
@@ -39208,7 +39126,6 @@ Ability_Hammerstorm3_name:off									Mighty Swing (Off)
 
 
 
-Ability_Hammerstorm3_ATTACK_IMPACT_effect:off	
 
 
 
@@ -40968,7 +40885,6 @@ Ability_SoulReaper4_description									Soul Reaper обрушивает на ц
 
 
 
-Ability_SoulReaper4_description2								^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Снижает перезарядку до 70 сек. на всех уровнях и увеличивает маг. урон с {40,65,90}% от недостающего здоровья цели до {60,90,120}% от недостающего здоровья цели. Урон от "Демонической казни", нанесенный основной цели, теперь цепляется за вражеских героев в радиусе 500 с силой 60% каждый раз, до 5 раз.
 
 
 
@@ -40984,7 +40900,6 @@ Ability_SoulReaper4_description_simple							Проводит демоничес
 
 
 
-Ability_SoulReaper4_description_simple:ult_boost				Выполните демоническую казнь вражеского юнита, ^oоглушив его на 1,5 сек.^* и нанеся ^g{60,90,120}%^* недостающего здоровья цели в виде маг. урона. ^gЭтот урон наносится цепочкой врагам в радиусе 500 с силой 60% каждый раз, до 5 раз.^*
 
 
 
@@ -41000,7 +40915,6 @@ Ability_SoulReaper4_IMPACT_effect								^o{40,65,90}% от недостающе
 
 
 
-Ability_SoulReaper4_name:ult_boost								^gАдская казнь*^*
 
 
 
@@ -41008,7 +40922,6 @@ Ability_SoulReaper4_name:ult_boost								^gАдская казнь*^*
 
 
 
-Ability_SoulReaper4_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Снижает перезарядку до 70 сек. на всех уровнях и увеличивает маг. урон с {40,65,90}% от недостающего здоровья цели до {60,90,120}% от недостающего здоровья цели. Урон от "Демонической казни", нанесенный основной цели, теперь цепляется за вражеских героев в радиусе 500 с силой 60% каждый раз, до 5 раз.
 
 
 
@@ -41016,7 +40929,6 @@ Ability_SoulReaper4_description2:ult_boost	^gЭта способность мо�
 
 
 
-Ability_SoulReaper4_IMPACT_effect:ult_boost						^g{60,90,120}%^* ^oот недостающего здоровья цели^* наносится как ^oмаг. урон^*, ^g, который привязывается к вражеским героям в радиусе 500 с силой 60% каждый раз, до 5 раз.^*.\n\n^oОглушает основную цель на 1,5 сек. сек.^*
 
 
 
@@ -44400,7 +44312,6 @@ State_Jeraziah_Ability4_FRAME_effect							Отменяет {40,50,60}% полу
 
 
 
-State_Jeraziah_Ability4_Unpurgeable_name						Sol's Blessing
 
 
 
@@ -44408,7 +44319,6 @@ State_Jeraziah_Ability4_Unpurgeable_name						Sol's Blessing
 
 
 
-State_Jeraziah_Ability4_Unpurgeable_FRAME_effect				Отменяет {40,50,60}% полученного физ. урона
 
 
 
@@ -44626,7 +44536,6 @@ State_Kinesis_Ability1_FRAME_effect		Наносит {60,120,180,240} маг. у�
 
 
 
-State_Kinesis_Ability1_Enemy_name								Кража мыслей
 
 
 
@@ -44634,7 +44543,6 @@ State_Kinesis_Ability1_Enemy_name								Кража мыслей
 
 
 
-State_Kinesis_Ability1_Enemy_FRAME_effect						Ваша первая способность украдена!
 
 
 
@@ -44730,7 +44638,6 @@ Ability_Kinesis2_IMPACT_effect		Поднимает в воздух ^oближа�
 
 
 
-Ability_Kinesis2_IMPACT_effect:kinesis_ability2_Active			Поднимает ближайшие ^o{1,2,3,4} деревья или ползет ^* на срок до 8 сек. Если их недостаточно, вместо этого поднимаются куски земли. Поднятые объекты неуязвимы и во время действия эффекта будут следовать за Кинезисом со скоростью 450.\n\n^oАктивируйте снова^*, нацелившись на врага, чтобы бросить в него все поднятые объекты, нанося ^o60 маг. урона^* за каждый объект и применяя ^o15% замедление скор. движ. на 2 сек.^* Для броска объекты должны находиться в пределах 1500 единиц.
 
 
 
@@ -44834,7 +44741,6 @@ Ability_Kinesis3_tooltip_flavor									Пожалуйста, занимайся
 
 
 
-Ability_Kinesis3_IMPACT_effect									При активации: ^o забыть об украденной способности у Thoughtsteal^* и перевести Thoughtsteal на перезарядку.
 
 
 
@@ -44898,7 +44804,6 @@ Ability_Kinesis4_name	Mass Control
 
 
 
-Ability_Kinesis4_name:ult_boost									^gСтазисный бросок*^*
 
 
 
@@ -44906,7 +44811,6 @@ Ability_Kinesis4_name:ult_boost									^gСтазисный бросок*^*
 
 
 
-Ability_Kinesis4_name:kinesis_ability4_BoostActive				^gСтазисный бросок*^*
 
 
 
@@ -44922,7 +44826,6 @@ Ability_Kinesis4_description									Поднимает сразу нескол�
 
 
 
-Ability_Kinesis4_description2									^gThis ability can be boosted by Staff of the Master.^*\n\n^gStaff Effect:^* Increases number of entites lifted to {6,8,10}.
 
 
 
@@ -44930,7 +44833,6 @@ Ability_Kinesis4_description2									^gThis ability can be boosted by Staff of 
 
 
 
-Ability_Kinesis4_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Увеличивает радиус до 600 и выбирать, где приземлится цель.
 
 
 
@@ -44938,7 +44840,6 @@ Ability_Kinesis4_description2:ult_boost	^gЭта способность може
 
 
 
-Ability_Kinesis4_description2:kinesis_ability4_BoostActive		\r
 
 
 
@@ -44954,7 +44855,6 @@ Ability_Kinesis4_description_simple		^oПоднимает^* ближайшие ^
 
 
 
-Ability_Kinesis4_description_simple:ult_boost					^oLifts^* the closest ^g{6,8,10} trees or creeps^* for up to ^o8 seconds^*. Creeps are invulnerable while Lifted. All currently Lifted objects will follow you at Max Movement Speed.\n\nActivate again to ^othrow^* all Lifted objects at target position, dealing ^o100 Magic Damage per lifted object^* in a ^o350 radius^*. Must be within 1200 units to throw a Lifted object.
 
 
 
@@ -44962,7 +44862,6 @@ Ability_Kinesis4_description_simple:ult_boost					^oLifts^* the closest ^g{6,8,1
 
 
 
-Ability_Kinesis4_description_simple:kinesis_ability4_BoostActive	Примените на юнита, чтобы ^oоглушить^* и поднять вокруг него юнитов, не являющихся героями, на ^o{2,2.5,3} сек.^*\n\nПосле этого цель падает на землю, получая ^o{200,300,400} маг. урона^* и доп. ^o{20,30,40} бонусного урона^* за каждого поднятого юнита. Поднятые юниты получают одинаковый урон. Враги в области затем получают ^o50% замедление скор. движ. на 1,5 сек.^*\n\nСпособность можно ^oактивировать снова^*, чтобы ^gперебросить все поднятые юниты, включая цель, в выбранное вами место^*.
 
 
 
@@ -44994,7 +44893,6 @@ Ability_Kinesis4_IMPACT_effect		^oПоднимает^* ближайшие ^o{3,5
 
 
 
-Ability_Kinesis4_IMPACT_effect:kinesis_ability4_Active			Помещает цель в стазе и поднимает вокруг нее юнитов, не являющихся героями, на время до ^o{2,2.5,3} сек.^* Цель ^oоглушена^* в ст азисе.\n\nКогда стазе истекает, цель получает ^o{200,300,400} маг. урона^* и доп. ^o{20,30,40} бонусного маг. урона^* за каждую другую поднятую единицу. Поднятые юниты получают одинаковый урон. Враги в области затем получают ^o50% замедление скор. движ. на 1,5 сек.^*\n\nСпособность можно ^oактивировать снова^*, чтобы досрочно завершить эффект.\n\n- Юниты, брошенные в цель с помощью телекинетического контроля, также будут пойманы.
 
 
 
@@ -45002,7 +44900,6 @@ Ability_Kinesis4_IMPACT_effect:kinesis_ability4_Active			Помещает цел
 
 
 
-Ability_Kinesis4_IMPACT_effect:ult_boost						^oLifts^* the closest ^{6,8,10} trees or creeps^* for up to ^o8 seconds^*. Creeps are invulnerable while Lifted. All currently Lifted objects will follow you at Max Movement Speed.\n\nActivate again to ^othrow^* all Lifted objects at target position, dealing ^o100 Magic Damage per lifted object^* in a ^o350 radius^*. Must be within 1200 units to throw a Lifted object.
 
 
 
@@ -45010,7 +44907,6 @@ Ability_Kinesis4_IMPACT_effect:ult_boost						^oLifts^* the closest ^{6,8,10} tr
 
 
 
-Ability_Kinesis4_IMPACT_effect:kinesis_ability4_BoostActive		Помещает цель в стазе и поднимает вокруг нее юнитов, не являющихся героями, на время до ^o{2,2.5,3} сек.^* Цель ^oоглушена^* в ст азисе.\n\nКогда стазе истекает, цель получает ^o{200,300,400} маг. урона^* и доп. ^o{20,30,40} бонусного маг. урона^* за каждую другую поднятую единицу. Поднятые юниты получают одинаковый урон. Враги в области затем получают ^o50% замедление скор. движ. на 1,5 сек.^*\n\nСпособность можно ^oактивировать снова^*, чтобы ^gперебросить все поднятые юниты, включая цель, в выбранное вами место^*. Невозможно бросить дальше, чем на расстояние 1200.\n\n- Юниты, брошенные в цель с помощью телекинетического контроля, также будут пойманы.
 
 
 
@@ -45034,7 +44930,6 @@ Ability_Kinesis4_IMPACT_effect:kinesis_ability4_BoostActive		Помещает ц
 
 
 
-State_Kinesis_Ability4_name										Удар стазиса
 
 
 
@@ -45042,7 +44937,6 @@ State_Kinesis_Ability4_name										Удар стазиса
 
 
 
-State_Kinesis_Ability4_description								Вы в воздухе!
 
 
 
@@ -45066,7 +44960,6 @@ State_Kinesis_Ability4_description								Вы в воздухе!
 
 
 
-State_Kinesis_Ability4_Slow_name								Удар стазиса
 
 
 
@@ -47827,7 +47720,6 @@ Ability_Thunderbringer4_description										Thunderbringer вызывает г�
 
 
 Ability_Thunderbringer4_description_simple		Создаёт ^oThunder Cloud^* в выбранной точке на ^o9 сек.^*: за это время бьёт ^o{4,5,6} молниями^* по всем вражеским юнитам в радиусе 600, нанося ^o250 маг. урона^* и накладывая ^oзамедление скор. движ. 25%^* на 1 сек.
-Ability_Thunderbringer4_description2					^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Грозовое облако выпускает дополнительные молниеносные удары. Дальность цепной молнии и радиус действия Громоотвода увеличены. Замедление скор. движ. от Громоотвода увеличивается до ^o40%^*.
 
 
 
@@ -49491,7 +49383,6 @@ Ability_Lodestone3_description_simple							Блокирует ^o{0,15,30,45,60}
 
 
 
-Ability_Lodestone3_description_simple:Lodestone_W				Пассивно блокирует ^o{0,15,30,45,60} физ. урона^* от каждой атаки. Не суммируется с другими формами ^yблока урона^*.\n\nПри наличии ^o уменьшает следующий урон героя свыше 150 на 40%^*. Для перезарядки требуется ^c{0,11,9,7,5} сек.^*\n\n^cАктивируйте эту способность, чтобы применить Headsmash к ближайшему вражескому герою.^*
 
 
 
@@ -49507,7 +49398,6 @@ Ability_Lodestone3_IMPACT_effect								Пассивно блокирует ^o{0
 
 
 
-Ability_Lodestone3_IMPACT_effect:Lodestone_W					Пассивно блокирует ^o{0,15,30,45,60} физ. урона^* от каждой атаки. Не суммируется с другими формами ^yблока урона^*.\n\nПри наличии ^o уменьшает следующий урон героя свыше 150 на 40%^*. Для перезарядки требуется ^c{0,11,9,7,5} сек.^*\n\n^cАктивируйте эту способность, чтобы применить Headsmash к ближайшему вражескому герою.^*
 
 
 
@@ -50339,7 +50229,6 @@ Ability_Magmus4_name											Eruption
 
 
 
-Ability_Magmus4_description2 									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Увеличивает длительность с {1.75,2.45,3.15} до {2.45,3.15,3.85} сек. и радиус с {550,675,725} до {600,700,800}. Уменьшает перезарядку до {120,100,80} сек.
 
 
 
@@ -50363,7 +50252,6 @@ Ability_Magmus4_effect_header 									Эффект(ы) извержения
 
 
 
-Ability_Magmus4_effect_header2	
 
 
 
@@ -50395,7 +50283,6 @@ Ability_Magmus4_CHANNEL_END_effect
 
 
 
-Ability_Magmus4_name:ult_boost									^gПироклазм*^*
 
 
 
@@ -50403,7 +50290,6 @@ Ability_Magmus4_name:ult_boost									^gПироклазм*^*
 
 
 
-Ability_Magmus4_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Увеличивает длительность с {1.75,2.45,3.15} до {2.45,3.15,3.85} сек. и радиус с {550,675,725} до {600,700,800}. Уменьшает перезарядку до {120,100,80} сек.
 
 
 
@@ -50411,7 +50297,6 @@ Ability_Magmus4_description2:ult_boost	^gЭта способность може�
 
 
 
-Ability_Magmus4_description_simple:ult_boost	После ^o2 сек. концентрации^* выпускает {6,8,10} импульсы, каждый из которых наносит ^g140 маг. урона^* ближайшим врагам в течение ^o{1.75,2.45,3.15} сек.^* и применяет ^o-30% скор. движ.^* к ближайшим врагам.
 
 
 
@@ -50419,7 +50304,6 @@ Ability_Magmus4_description_simple:ult_boost	После ^o2 сек. концен
 
 
 
-Ability_Magmus4_IMPACT_effect:ult_boost							После концентрации вокруг вас каждые 0,35 сек. высвобождается импульс, до ^g{8,10,12} импульсов^*.\n\nКаждый импульс наносит ^o110 маг. урона^* и накладывает ^oEruption^* на вражеских героев на 3 сек. или на 5 сек. на юнитов, не являющихся героями. Радиус импульсов начинается с 300 и увеличивается до радиуса ^g{600,700,800}^* в течение ^g{2.45,3.15,3.85}^* сек.
 
 
 
@@ -52723,7 +52607,6 @@ Ability_Midas3_description 										Перенеситесь сквозь пр�
 
 
 
-Ability_Midas3_description2										^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Увеличивает дальность применения этой способности на 300 и сокращает перезарядку способностей на 2 сек.
 
 
 
@@ -52755,7 +52638,6 @@ Ability_Midas3_tooltip_flavor 									"Я выхожу за пределы фи
 
 
 
-Ability_Midas3_name:ult_boost									^gЭлементальный сдвиг*^*
 
 
 
@@ -52763,7 +52645,6 @@ Ability_Midas3_name:ult_boost									^gЭлементальный сдвиг*^*
 
 
 
-Ability_Midas3_description2:ult_boost							^gПассивно сокращает перезарядку ваших способностей на 2 сек.^*
 
 
 
@@ -52771,7 +52652,6 @@ Ability_Midas3_description2:ult_boost							^gПассивно сокращае�
 
 
 
-Ability_Midas3_description_simple:ult_boost						^gСокращает перезарядку ваших способностей на 2 сек.^*\n\nПереносите себя через пространство, перемещаясь в целевое местоположение. При выходе и прибытии Мидаса взрывается ударная волна.\n\nПораженные враги получают ^o{75,105,135,165} маг. урона^* за ударную волну.
 
 
 
@@ -52779,7 +52659,6 @@ Ability_Midas3_description_simple:ult_boost						^gСокращает перез
 
 
 
-Ability_Midas3_IMPACT_effect:ult_boost							Телепортируется в целевую позицию, выпуская вокруг вас ударную волну при отправлении и прибытии. Каждая ударная волна наносит ^o{75,105,135,165} маг. урона^* цели в радиусе.
 
 
 
@@ -61603,7 +61482,6 @@ State_Pearl_Ability3_Tooltip_name								Soothing Presence
 
 
 
-State_Pearl_Ability3_Tooltip_description	
 
 
 
@@ -66627,7 +66505,6 @@ State_AmunRa_Ability1_Self_name										Path of Destruction
 
 
 
-State_AmunRa_Ability1_Self_description	
 
 
 
@@ -66659,7 +66536,6 @@ State_AmunRa_Ability1_Path_name										On the Path of Destruction
 
 
 
-State_AmunRa_Ability1_Path_description	
 
 
 
@@ -66691,7 +66567,6 @@ State_AmunRa_Ability2_Enemy_name									Ignite
 
 
 
-State_AmunRa_Ability2_Enemy_description	
 
 
 
@@ -68659,7 +68534,6 @@ State_Ravenor_Ability3_Buff_ATTACKED_DAMAGE_EVENT_effect
 
 
 
-State_Ravenor_Ability3_Buff_INFLICT_effect	
 
 
 
@@ -69587,7 +69461,6 @@ Ability_Revenant3_description_simple 							Выберите себя или н�
 
 
 
-Ability_Revenant3_effect_header	
 
 
 
@@ -69595,7 +69468,6 @@ Ability_Revenant3_effect_header
 
 
 
-Ability_Revenant3_effect_header2	
 
 
 
@@ -71562,7 +71434,6 @@ Ability_Riptide4_name											Perfect Storm
 
 
 
-Ability_Riptide4_name:ult_boost									^gИдеальный Шторм^*
 
 
 
@@ -75618,7 +75489,6 @@ Ability_DementedShaman1_description										Demented Shaman опутывает 
 
 
 
-Ability_DementedShaman1_description_name	
 
 
 
@@ -79466,7 +79336,6 @@ Ability_Solstice4_description_simple:Night_Solstice				^rДневное врем
 
 
 
-Ability_Solstice4_effect_header	
 
 
 
@@ -80330,7 +80199,6 @@ Hero_Soulstealer_role											Soulstealer - один из самых сбал�
 
 
 
-Ability_Succubis1_name	Smitten
 
 
 
@@ -80338,7 +80206,6 @@ Ability_Succubis1_name	Smitten
 
 
 
-Ability_Succubis1_description									Succubus поражает вражеского героя разбитым сердцем, наносящим маг. урон.
 
 
 
@@ -80346,7 +80213,6 @@ Ability_Succubis1_description									Succubus поражает вражеско
 
 
 
-Ability_Succubis1_description2									
 
 
 
@@ -80354,7 +80220,6 @@ Ability_Succubis1_description2
 
 
 
-Ability_Succubis1_description_simple 							Атакует, уменьшить весь его урон на ^o{26,34,42,50}%^* на {10,12,14,16} сек.
 
 
 
@@ -80362,7 +80227,6 @@ Ability_Succubis1_description_simple 							Атакует, уменьшить �
 
 
 
-Ability_Succubis1_IMPACT_effect 								Применяет Smitten к цели на {10,12,14,16} сек. Уменьшает наносимый целью урон на {26,34,42,50}%.
 
 
 
@@ -80370,7 +80234,6 @@ Ability_Succubis1_IMPACT_effect 								Применяет Smitten к цели �
 
 
 
-Ability_Succubis1_effect_header									Эффект(ы) поражения
 
 
 
@@ -80378,7 +80241,6 @@ Ability_Succubis1_effect_header									Эффект(ы) поражения
 
 
 
-Ability_Succubis1_effect_header2								
 
 
 
@@ -80386,7 +80248,6 @@ Ability_Succubis1_effect_header2
 
 
 
-Ability_Succubis1_tooltip_flavor								Красота в глазах смотрящего.
 
 
 
@@ -80410,7 +80271,6 @@ Ability_Succubis1_tooltip_flavor								Красота в глазах смот�
 
 
 
-State_Succubis_Ability1_name									Smitten
 
 
 
@@ -80418,7 +80278,6 @@ State_Succubis_Ability1_name									Smitten
 
 
 
-State_Succubis_Ability1_description 							Наносимый урон уменьшен на {26,34,42,50}%.
 
 
 
@@ -80426,7 +80285,6 @@ State_Succubis_Ability1_description 							Наносимый урон умен�
 
 
 
-State_Succubis_Ability1_description2							
 
 
 
@@ -80450,7 +80308,6 @@ State_Succubis_Ability1_description2
 
 
 
-Ability_Succubis2_name											Heartache
 
 
 
@@ -80458,7 +80315,6 @@ Ability_Succubis2_name											Heartache
 
 
 
-Ability_Succubis2_description									Succubus обезмолвливает вражеского героя и снижает его урон атаки.
 
 
 
@@ -80466,7 +80322,6 @@ Ability_Succubis2_description									Succubus обезмолвливает вр
 
 
 
-Ability_Succubis2_description2									
 
 
 
@@ -80474,7 +80329,6 @@ Ability_Succubis2_description2
 
 
 
-Ability_Succubis2_description_simple							Наносит ^o{75,150,225,300} чист. урона^* и исцелить себя на такое же количество.
 
 
 
@@ -80482,7 +80336,6 @@ Ability_Succubis2_description_simple							Наносит ^o{75,150,225,300} ч�
 
 
 
-Ability_Succubis2_effect_header									
 
 
 
@@ -80490,7 +80343,6 @@ Ability_Succubis2_effect_header
 
 
 
-Ability_Succubis2_effect_header2								
 
 
 
@@ -80498,7 +80350,6 @@ Ability_Succubis2_effect_header2
 
 
 
-Ability_Succubis2_tooltip_flavor								Не умирай от разбитого сердца!
 
 
 
@@ -80506,7 +80357,6 @@ Ability_Succubis2_tooltip_flavor								Не умирай от разбитог�
 
 
 
-Ability_Succubis2_IMPACT_effect									Наносит {75,150,225,300} чист. урона целевому юниту и исцеляет себя на {75,150,225,300}.
 
 
 
@@ -80530,7 +80380,6 @@ Ability_Succubis2_IMPACT_effect									Наносит {75,150,225,300} чист
 
 
 
-Ability_Succubis3_name	Mesmerize
 
 
 
@@ -80538,7 +80387,6 @@ Ability_Succubis3_name	Mesmerize
 
 
 
-Ability_Succubis3_description									Succubus гипнотизирует вражеского героя, усыпляя его на несколько сек.
 
 
 
@@ -80546,7 +80394,6 @@ Ability_Succubis3_description									Succubus гипнотизирует вра
 
 
 
-Ability_Succubis3_description2									
 
 
 
@@ -80554,7 +80401,6 @@ Ability_Succubis3_description2
 
 
 
-Ability_Succubis3_description_simple							Усыпите юнита на ^o{3,4,5,6}^* сек., удаляя ^o30 здоровья в сек.^* Прямой урон снимет сон, и в случае нападения сон передается атакующему на 3 сек.\n\nЦель неуязвима на первой сек. состояния сна. Суккуб может в любой момент рассеять на себе гипноз.
 
 
 
@@ -80562,7 +80408,6 @@ Ability_Succubis3_description_simple							Усыпите юнита на ^o{3,4
 
 
 
-Ability_Succubis3_description_simple:Succubus_E_active			Снимает Гипноз с Succubus.
 
 
 
@@ -80570,7 +80415,6 @@ Ability_Succubis3_description_simple:Succubus_E_active			Снимает Гипн
 
 
 
-Ability_Succubis3_effect_header									Эффект(ы) гипноза
 
 
 
@@ -80578,7 +80422,6 @@ Ability_Succubis3_effect_header									Эффект(ы) гипноза
 
 
 
-Ability_Succubis3_effect_header2								
 
 
 
@@ -80586,7 +80429,6 @@ Ability_Succubis3_effect_header2
 
 
 
-Ability_Succubis3_IMPACT_effect									Применяет ^oMesmerize^* к цели на ^o{3,4,5,6} сек.^* Цель становится неуязвимой на первой сек. после гипноза. Если какой-либо юнит атакует загипнотизированную цель, эффекты передаются на нее на 3 сек.\n\nСуккуб может рассеять гипноз на себе в любое время.
 
 
 
@@ -80594,7 +80436,6 @@ Ability_Succubis3_IMPACT_effect									Применяет ^oMesmerize^* к це
 
 
 
-Ability_Succubis3_IMPACT_effect:Succubus_E_active				Снимает Гипноз с Succubus.
 
 
 
@@ -80602,7 +80443,6 @@ Ability_Succubis3_IMPACT_effect:Succubus_E_active				Снимает Гипноз
 
 
 
-Ability_Succubis3_tooltip_flavor								Твои глаза тяжелеют!
 
 
 
@@ -80626,7 +80466,6 @@ Ability_Succubis3_tooltip_flavor								Твои глаза тяжелеют!
 
 
 
-State_Succubis_Ability3_name									Mesmerize
 
 
 
@@ -80634,7 +80473,6 @@ State_Succubis_Ability3_name									Mesmerize
 
 
 
-State_Succubis_Ability3_FRAME_effect							30 здоровья удаляется каждую сек.\nПри атаке Mesmerize снимается и передается атакующему на 3 сек.
 
 
 
@@ -80658,7 +80496,6 @@ State_Succubis_Ability3_FRAME_effect							30 здоровья удаляетс�
 
 
 
-State_Succubis_Ability3_Invulnerable_name						Mesmerize Invulnerability
 
 
 
@@ -80666,7 +80503,6 @@ State_Succubis_Ability3_Invulnerable_name						Mesmerize Invulnerability
 
 
 
-State_Succubis_Ability3_Invulnerable_description				
 
 
 
@@ -80674,7 +80510,6 @@ State_Succubis_Ability3_Invulnerable_description
 
 
 
-State_Succubis_Ability3_Invulnerable_description2				
 
 
 
@@ -80698,7 +80533,6 @@ State_Succubis_Ability3_Invulnerable_description2
 
 
 
-Ability_Succubis4_name											Cursed Embrace
 
 
 
@@ -80706,7 +80540,6 @@ Ability_Succubis4_name											Cursed Embrace
 
 
 
-Ability_Succubis4_name:ult_boost								^gПроклятая хватка*^*
 
 
 
@@ -80714,7 +80547,6 @@ Ability_Succubis4_name:ult_boost								^gПроклятая хватка*^*
 
 
 
-Ability_Succubis4_description									Succubus высасывает сущность врага, нанося периодический урон и похищая ману. Пока длится высасывание, цель не может действовать.
 
 
 
@@ -80722,7 +80554,6 @@ Ability_Succubis4_description									Succubus высасывает сущнос
 
 
 
-Ability_Succubis4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Способность больше не требует концентрации, длительность увеличивается на 1 сек., а перезарядка уменьшается на 15 сек. Имеет дальность привязи 1200 единиц.
 
 
 
@@ -80730,7 +80561,6 @@ Ability_Succubis4_description2									^gЭта способность може�
 
 
 
-Ability_Succubis4_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Способность больше не требует концентрации, длительность увеличивается на 1 сек., а перезарядка уменьшается на 15 сек. Имеет дальность привязи 1200 единиц.
 
 
 
@@ -80738,7 +80568,6 @@ Ability_Succubis4_description2:ult_boost	^gЭта способность мож�
 
 
 
-Ability_Succubis4_description_simple							Выберите вражеского юнита и концентрируйтесь на нем до 5 сек., оглушая его и нанося ^o{100,160,220} маг. урона в сек.^* За время действия высасывает до 25% маны цели и передает ее вам.\n\n^gПосох Мастера^* убирает концентрацию, увеличивает длительность на 1 сек. и сокращает перезарядку на 15 сек. Имеет дальность привязи 1200 единиц.
 
 
 
@@ -80746,7 +80575,6 @@ Ability_Succubis4_description_simple							Выберите вражеского
 
 
 
-Ability_Succubis4_description_simple:ult_boost					Выберите вражеского юнита, чтобы применить Оглушение и ^o{100,160,220} маг. урона в сек.^* в течение 6 сек. Высасывает до 25% маны цели и передает ее Суккубу в течение всего времени действия.\n\nЦель освобождается, если Суккуб оглушен или наложен Безмолвие во время действия эффекта. Имеет дальность привязи 1200 единиц.
 
 
 
@@ -80754,7 +80582,6 @@ Ability_Succubis4_description_simple:ult_boost					Выберите вражес
 
 
 
-Ability_Succubis4_effect_header									Эффект(ы) проклятых объятий
 
 
 
@@ -80762,7 +80589,6 @@ Ability_Succubis4_effect_header									Эффект(ы) проклятых об
 
 
 
-Ability_Succubis4_effect_header2								
 
 
 
@@ -80770,7 +80596,6 @@ Ability_Succubis4_effect_header2
 
 
 
-Ability_Succubis4_tooltip_flavor								Ты все еще за свадьбу?
 
 
 
@@ -80778,7 +80603,6 @@ Ability_Succubis4_tooltip_flavor								Ты все еще за свадьбу?
 
 
 
-Ability_Succubis4_IMPACT_effect									Накладывает Проклятое объятие на цель на время концентрации.
 
 
 
@@ -80786,7 +80610,6 @@ Ability_Succubis4_IMPACT_effect									Накладывает Проклято�
 
 
 
-Ability_Succubis4_IMPACT_effect:ult_boost						Применяет ^oПроклятые объятия^* к цели на ^g6 сек.^* Цель освобождается, если Суккуб оглушен или наложен Безмолвие во время действия эффекта. Имеет дальность привязи 1200 единиц.
 
 
 
@@ -80794,7 +80617,6 @@ Ability_Succubis4_IMPACT_effect:ult_boost						Применяет ^oПрокля
 
 
 
-Ability_Succubis4_CHANNEL_START_effect							
 
 
 
@@ -80818,7 +80640,6 @@ Ability_Succubis4_CHANNEL_START_effect
 
 
 
-State_Succubis_Ability4_name									Cursed Embrace
 
 
 
@@ -80826,7 +80647,6 @@ State_Succubis_Ability4_name									Cursed Embrace
 
 
 
-State_Succubis_Ability4_description								
 
 
 
@@ -80834,7 +80654,6 @@ State_Succubis_Ability4_description
 
 
 
-State_Succubis_Ability4_description2							
 
 
 
@@ -80842,7 +80661,6 @@ State_Succubis_Ability4_description2
 
 
 
-State_Succubis_Ability4_FRAME_effect							{100,160,220} Маг. урон в сек.\n5% от максимума маны высасывается в сек. и передается доносителю
 
 
 
@@ -80850,7 +80668,6 @@ State_Succubis_Ability4_FRAME_effect							{100,160,220} Маг. урон в с�
 
 
 
-State_Succubis_Ability4_FRAME_effect:ult_boost					{100,160,220} Маг. урон в сек.\n5% от максимального количества маны высасывается в сек. и передается наносителю\nИмеет дальность действия 1200 единиц.
 
 
 
@@ -80858,7 +80675,6 @@ State_Succubis_Ability4_FRAME_effect:ult_boost					{100,160,220} Маг. уро�
 
 
 
-State_Succubis_Ability4_IMPACT_effect							
 
 
 
@@ -80882,7 +80698,6 @@ State_Succubis_Ability4_IMPACT_effect
 
 
 
-Hero_Succubis_name												Succubus
 
 
 
@@ -80890,7 +80705,6 @@ Hero_Succubis_name												Succubus
 
 
 
-Hero_Succubis_description										Многие солдаты Легиона исчезали на одиночных дежурствах, когда Суккуб на свободе, завлеченные ее соблазнительным зовом. Раздувшаяся от украденной жизни, эта демонесса не дарует истинного наслаждения поддавшимся, но ее имя несет определенное ужасное очарование.
 
 
 
@@ -80898,7 +80712,6 @@ Hero_Succubis_description										Многие солдаты Легиона и
 
 
 
-Hero_Succubis_role												Succubus обладает набором дизаблов и дебаффов, позволяющих одновременно обесценить нескольких противников в бою.
 
 
 
@@ -86194,39 +86007,6 @@ Hero_Valkyrie_role												Набор умений Valkyrie обеспечи�
 
 
 
-Ability_Vanya1_name												Dark Blades
-
-
-
-
-
-
-
-Ability_Vanya1_description										Dark Lady накладывает Безмолвие на цель, а ее атаки наносят увеличенный урон.
-
-
-
-
-
-
-
-Ability_Vanya1_description_simple								Применяет к себе Темные клинки на {3,4,5,6} сек.\n\nТемные клинки дадут вам ^o{35,50,65,80}% баз. урона^*, а ваши атаки ^oБезмолвность на 2,5 сек.^*
-
-
-
-
-
-
-
-Ability_Vanya1_effect_header									Эффект(ы) темных клинков
-
-
-
-
-
-
-
-Ability_Vanya1_IMPACT_effect									Применяет к себе Темные клинки на {3,4,5,6} сек.
 
 
 
@@ -86242,7 +86022,34 @@ Ability_Vanya1_IMPACT_effect									Применяет к себе Темные
 
 
 
-Ability_Vanya1_tooltip_flavor									Эти клинки управляют твоей судьбой!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -86266,7 +86073,6 @@ Ability_Vanya1_tooltip_flavor									Эти клинки управляют т�
 
 
 
-State_Vanya_Ability1_name										Dark Blades
 
 
 
@@ -86274,7 +86080,6 @@ State_Vanya_Ability1_name										Dark Blades
 
 
 
-State_Vanya_Ability1_FRAME_effect								Атаки накладывают Безмолвие на цель на 2.5 сек.
 
 
 
@@ -86282,7 +86087,6 @@ State_Vanya_Ability1_FRAME_effect								Атаки накладывают Бе�
 
 
 
-State_Vanya_Ability1_ATTACK_IMPACT_effect						Обезмолвливает цель на 2.5 сек.
 
 
 
@@ -86306,7 +86110,6 @@ State_Vanya_Ability1_ATTACK_IMPACT_effect						Обезмолвливает це
 
 
 
-State_Vanya_Ability_1_Target_name								Silenced
 
 
 
@@ -86330,39 +86133,6 @@ State_Vanya_Ability_1_Target_name								Silenced
 
 
 
-Ability_Vanya2_name	Taint Soul
-
-
-
-
-
-
-
-Ability_Vanya2_description										Dark Lady наносит мощный удар, покрывающий всех врагов в области тьмой и замедляя их.
-
-
-
-
-
-
-
-Ability_Vanya2_description_simple								Наносит ^o{75,100,125,150} маг. урона^* и снизить скор. движ. ^o-60%^* на {2,3,4,5} сек.
-
-
-
-
-
-
-
-Ability_Vanya2_effect_header									Эффект(ы) оскверненной души
-
-
-
-
-
-
-
-Ability_Vanya2_IMPACT_effect									Наносит {75,100,125,150} маг. урона и применяет к цели Tainted Soul на {2,3,4,5} сек.
 
 
 
@@ -86378,7 +86148,34 @@ Ability_Vanya2_IMPACT_effect									Наносит {75,100,125,150} маг. у�
 
 
 
-Ability_Vanya2_tooltip_flavor									Я хочу поглотить твою душу.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -86402,7 +86199,6 @@ Ability_Vanya2_tooltip_flavor									Я хочу поглотить твою д
 
 
 
-State_Vanya_Ability2_name										Tainted Soul
 
 
 
@@ -86410,7 +86206,6 @@ State_Vanya_Ability2_name										Tainted Soul
 
 
 
-State_Vanya_Ability2_FRAME_effect								Изначально снижает скор. движ. на 60%, восстанавливая ее до полной скорости за {2,3,4,5} сек.
 
 
 
@@ -86434,7 +86229,6 @@ State_Vanya_Ability2_FRAME_effect								Изначально снижает с�
 
 
 
-Ability_Vanya3_name	Charging Strikes
 
 
 
@@ -86442,7 +86236,6 @@ Ability_Vanya3_name	Charging Strikes
 
 
 
-Ability_Vanya3_description										Dark Lady пассивно получает увеличенный урон атаки.
 
 
 
@@ -86450,7 +86243,6 @@ Ability_Vanya3_description										Dark Lady пассивно получает 
 
 
 
-Ability_Vanya3_description_simple								Бросает в указанное место, прорваться к нему, обходя препятствия. Вы мгновенно атакуете любого врага, через которого проходите.\n\nПосле заряда вы получаете ^o{30,45,60,75} Скор. атаки^* на 6 сек.
 
 
 
@@ -86458,7 +86250,6 @@ Ability_Vanya3_description_simple								Бросает в указанное м
 
 
 
-Ability_Vanya3_effect_header									Эффект(ы) рвения
 
 
 
@@ -86466,7 +86257,6 @@ Ability_Vanya3_effect_header									Эффект(ы) рвения
 
 
 
-Ability_Vanya3_IMPACT_effect									Стремится к выбранному месту, нанося одну атаку каждому врагу, проходящему в радиусе его действия. Каждая последующая атака во время заряда наносит на 15% меньше урона, чем предыдущая.\n\nПосле завершения заряда накладывает на себя рвение на 6 сек.
 
 
 
@@ -86474,7 +86264,6 @@ Ability_Vanya3_IMPACT_effect									Стремится к выбранному 
 
 
 
-Ability_Vanya3_tooltip_flavor									Можно мне без очереди?
 
 
 
@@ -86498,7 +86287,6 @@ Ability_Vanya3_tooltip_flavor									Можно мне без очереди?
 
 
 
-State_Vanya_Ability3_name										Charging Strikes
 
 
 
@@ -86506,7 +86294,6 @@ State_Vanya_Ability3_name										Charging Strikes
 
 
 
-State_Vanya_Ability3_Attackspeed_name							Zeal
 
 
 
@@ -86530,7 +86317,6 @@ State_Vanya_Ability3_Attackspeed_name							Zeal
 
 
 
-Ability_Vanya4_name	Cover of Darkness
 
 
 
@@ -86538,7 +86324,6 @@ Ability_Vanya4_name	Cover of Darkness
 
 
 
-Ability_Vanya4_description										Dark Lady покрывает поле боя тьмой, снижая обзор всех вражеских героев до минимума.
 
 
 
@@ -86546,7 +86331,6 @@ Ability_Vanya4_description										Dark Lady покрывает поле боя
 
 
 
-Ability_Vanya4_description_simple								Применяет покров тьмы ко всем врагам в области на {4,5,6} сек.\n\nПокров тьмы применяет ^o{-20,-25,-30}% скор. движ.^* и ^oНесвязанное видение^*, уменьшая их дальность обзора до {500,450,400} юнитов и удаляя любой обзор, который они получают от юнитов, отличных от них самих.
 
 
 
@@ -86554,7 +86338,6 @@ Ability_Vanya4_description_simple								Применяет покров тьм�
 
 
 
-Ability_Vanya4_effect_header									Эффект(ы) тьмы
 
 
 
@@ -86562,7 +86345,6 @@ Ability_Vanya4_effect_header									Эффект(ы) тьмы
 
 
 
-Ability_Vanya4_IMPACT_effect									Применяет тьму к целям в радиусе на {4,5,6} сек.
 
 
 
@@ -86570,7 +86352,6 @@ Ability_Vanya4_IMPACT_effect									Применяет тьму к целям �
 
 
 
-Ability_Vanya4_tooltip_flavor									Ты совсем один, рядом никого!
 
 
 
@@ -86594,7 +86375,6 @@ Ability_Vanya4_tooltip_flavor									Ты совсем один, рядом н�
 
 
 
-State_Vanya_Ability4_name										Darkness
 
 
 
@@ -86602,7 +86382,6 @@ State_Vanya_Ability4_name										Darkness
 
 
 
-State_Vanya_Ability4_FRAME_effect								Уменьшает радиус обзора до {500,450,400}. Разъединяет общее видение с союзниками.
 
 
 
@@ -86626,7 +86405,6 @@ State_Vanya_Ability4_FRAME_effect								Уменьшает радиус обз�
 
 
 
-Hero_Vanya_name													The Dark Lady
 
 
 
@@ -86634,7 +86412,6 @@ Hero_Vanya_name													The Dark Lady
 
 
 
-Hero_Vanya_description											Вооруженная двойными серповидными клинками, жница, известная как Темная Леди, прошла сквозь ряды Легиона словно тень смерти. Для солдат, набирающихся храбрости, она - шутка: "Смотри, не встреть Темную Леди", подшучивают они. Но даже эти шутки сопровождаются дрожью. Стремительная, холодная и смертоносная, как ледяной ветер со степей, черная, как ночь без звезд - с ней не шутят.
 
 
 
@@ -86642,7 +86419,6 @@ Hero_Vanya_description											Вооруженная двойными сер�
 
 
 
-Hero_Vanya_role													Dark Lady - поздней игры мощь с экспоненциальным ростом силы, но сильно зависит от правильной поддержки в начале и середине игры.
 
 
 
@@ -93986,7 +93762,6 @@ Item_Energizer_tooltip_flavor									Дань уважения DivA за его
 
 
 
-State_Energizer_FRAME_effect	
 
 
 
@@ -102796,7 +102571,6 @@ Item_ObsidianBell_search_terms	obsidian,bell,obsidianbell,spellamp,amp,magicpene
 
 
 
-Item_ObsidianBell_shop_flavor	
 
 
 
@@ -107644,7 +107418,6 @@ State_OpheliasPact_description									Наберите ^g25 очков^*, чт�
 
 
 
-State_OpheliasPact_description:quest_opheliaspact_State100		Выполните следующие задачи, чтобы получить награду:\n^g+ Сложите 5 нейтральных лагерей.^*\n- Разместите 3 Wards of Sight.\n- Счетчик 1 Ward of Sight или установите 2 Ward of Revelation.\n\nПосле выполнения цели станут ^gзелеными^*.
 
 
 
@@ -107652,7 +107425,6 @@ State_OpheliasPact_description:quest_opheliaspact_State100		Выполните �
 
 
 
-State_OpheliasPact_description:quest_opheliaspact_State110		Выполните следующие задачи, чтобы получить награду:\n^g+ Сгруппируйте 5 нейтральных лагерей.^*\n^g+ Разместите 3 Wards of Sight.^*\n- Счетчик 1 Ward of Sight или разместите 2 Wards of Revelation.\n\nПо завершении цели приобретут цвет ^gзеленого^*.
 
 
 
@@ -107660,7 +107432,6 @@ State_OpheliasPact_description:quest_opheliaspact_State110		Выполните �
 
 
 
-State_OpheliasPact_description:quest_opheliaspact_State101		Выполните следующие задачи, чтобы получить награду:\n^g+ Сложите 5 нейтральных лагерей.^*\n- Разместите 3 Wards of Sight.\n^g+ Жетон 1 Ward of Sight или установите 2 Wards of Revelation.^*\n\nПосле выполнения цели станут ^gзелеными^*.
 
 
 
@@ -107668,7 +107439,6 @@ State_OpheliasPact_description:quest_opheliaspact_State101		Выполните �
 
 
 
-State_OpheliasPact_description:quest_opheliaspact_State010		Выполните следующие задачи, чтобы получить награду:\n- Сложите 5 нейтральных лагерей.\n^g+ Разместите 3 Wards of Sight.^*\n- Счетчик 1 Ward of Sight или установите 2 Wards of Revelation.\n\nПосле выполнения цели станут ^gзелеными^*.
 
 
 
@@ -107676,7 +107446,6 @@ State_OpheliasPact_description:quest_opheliaspact_State010		Выполните �
 
 
 
-State_OpheliasPact_description:quest_opheliaspact_State011		Выполните следующие задачи, чтобы получить награду:\n- Сложите 5 нейтральных лагерей.\n^g+ Разместите 3 Wards of Sight.^*\n^g+ Жетон 1 Ward of Sight или установите 2 Wards of Revelation.^*\n\nПосле выполнения цели станут ^gзелеными^*.
 
 
 
@@ -107684,7 +107453,6 @@ State_OpheliasPact_description:quest_opheliaspact_State011		Выполните �
 
 
 
-State_OpheliasPact_description:quest_opheliaspact_State001		Выполните следующие задачи, чтобы получить награду:\n- Сложите 5 нейтральных лагерей.\n- Разместите 3 Wards of Sight.\n^g+ Жетон 1 Ward of Sight или установите 2 Wards of Revelation.^*\n\nПо завершении цели станут ^gзелеными^*.
 
 
 
@@ -110652,7 +110420,6 @@ Item_LexTalionis_effect_header									Эффект(ы) Закона Возме�
 
 
 
-Item_LexTalionis_effect_header2									Эффект(ы) Закона Возмездия (союзник)
 
 
 
@@ -112412,7 +112179,6 @@ Item_TomeOfElements_shop_categories							Filter_Activatable
 
 
 
-Item_TomeOfElements_FRAME_effect	
 
 
 
@@ -125284,7 +125050,6 @@ Ability_Kinesis2_Launch_nameLaunch
 Ability_Kinesis2_Launch_description_simple						Бросает все поднятые объекты, нанося цели ^o{85,90,95,100} маг. урона^* за объект и накладывая ^o- {10,15,20,25}% скор. движ. на 2 сек.^*\n\n^gЭффект Посоха Мастера:^* объект ^oотскакивает дважды^* к врагам ^oв радиусе 400^*.
 State_Pearl_Ability3_Dazed_nameОшеломление
 State_Pearl_Ability3_Dazed_description							Дальность прыжка Pearl уменьшена на 50% на 3 сек.
-Ability_AmunRa2_description_simple:ult_boost						^rСтоит 10% от макс. здоровья.^* Дает ^o{0.7,1.4,2.1,2.8} реген. здоровья^*.\n\nВыстреливает 8 снарядов звездой, каждый наносит ^o{10,20,30,40} + {1.2,1.3,1.4,1.5}% от макс. здоровья ед. маг. урона^* (-^o10%^* за каждый след. снаряд), накладывая ^o-0.5 маг. брони и -3% скор. движ.^* (стакается) на 3 сек. Затем останавливаются на 2 сек. и возвращаются с тем же эффектом.\n\n^gТакже пассивно выстреливает Снаряды в врагов рядом (в приоритете - герои) по 1 шт. в сек., если Ashes to Ashes заряжен полностью.^*
 Ability_AmunRa3_description_simple:ult_boost						Дает ^o{0.7,1.4,2.1,2.8} реген. здоровья.^*\n\nПри получении урона вы наносите до ^o{20,30,40,50} маг. урона в сек.^* врагам рядом (зависит от полученного урона). Эффект исчезает, если не получать урон 4 сек.\n\n^gПри полном заряде пассивно выстреливает Огненную Звезду во врагов рядом (в приоритете - герои) по 1 снаряду в сек.^*
 State_Riftwalker_Ability2_Immobilized_name						Shared Existence
 Ability_Riptide1_name:ult_boost									^gWatery Tomb^*
@@ -125358,7 +125123,6 @@ State_Stunned_name												Stunned
 State_Aluna_Ability4_FRAME_effect:ult_boost						+250% к скорости восстановления перезарядки\nВаши способности усилены!
 Ability_SoulReaper1_name:ult_boost								^gFinal Judgment^*
 State_Tarot_Ability4_name										Draw a card
-Ability_Glacius1_IMPACT_effect:OnlyMidMap						Deals {170,200,230,260} Magic Damage and applies Tundra Blast to all units in a 400 radius. Lasts {3,3.5,4,4.5} seconds.
 Ability_DarkLady4_description		Глубинами своей Темной силы Dark Lady отравляет разум всех вражеских героев в области. На время действия они двигаются чуть медленнее, теряют обзор союзников и хуже видят.
 Ability_DarkLady3_IMPACT_effect:ult_boost		Рывок к указанной точке: наносит по одной атаке каждому врагу, попавшему в радиус. Каждая следующая атака во время рывка наносит ^gполный урон^*.\n\nПо завершении рывка накладывает на себя Zeal на 6 сек.\n\n^gУбийства сбрасывают перезарядку способности, а непрямые убийства и помощь снижают её на 50%.^*
 State_DarkLady_Ability1_FRAME_effect		Атаки накладывают Безмолвие на 2.5 сек.
