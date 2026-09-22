@@ -145,6 +145,15 @@ def check(base_dir, bundle_dir, overrides):
                 add('невидимый символ в строке', '%s:%s' % (stem, key),
                     ', '.join(invis))
 
+            # untranslated ловит только дословные копии оригинала, а строка на
+            # английском, но с мелкой правкой (ShadowBlade1: "Activate to deal"
+            # вместо "Deal") проходила незамеченной
+            words = re.findall(r'[A-Za-z]{3,}', re.sub(r'\^.|\{[^}]*\}|\\n', ' ', eng))
+            if (value != eng and len(words) >= 4 and not any(c in CYR for c in value)
+                    and not key.split(':')[0].endswith(('_search_terms', '_shop_categories'))
+                    and not key.startswith('chat_command_')):
+                add('перевод без кириллицы', '%s:%s' % (stem, key), value[:40])
+
             # Значение chat_command_<имя> - сама команда (/colors, /w).
             # Переведённая команда перестаёт работать
             if (key.startswith('chat_command_') and re.fullmatch(r'/\S+', eng.strip())
