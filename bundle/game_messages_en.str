@@ -454,7 +454,7 @@ hero_returned							{heroname} вернулся в {zone}
 
 
 
-teamkillstreak						{team} являются ^rДОМИНИРУЕТ!!!^*
+teamkillstreak						{team} ^rДОМИНИРУЮТ!!!^*
 
 
 
@@ -1696,7 +1696,7 @@ hero_random_favorites				{player_color}{player}^* взял случайного 
 Onev1mid_creepdeny_victory_legion		Время вышло. Убийства крипов равны. Legion побеждает по добиваниям: {param}!
 courier_msg_fetching		Курьер забирает предметы
 showdown_towerdamage_victory_hellbourne		Время вышло. Урон героям равный. Хеллборн побеждает по урону башням!
-error_courier_no_stash		У курьера нет тайника
+error_courier_no_stash		В тайнике нет предметов.
 courier_msg_attacked				Курьер вынужден вернуться на базу
 vanity_msg_noobspray_owned			{ownerPlayer_color}{ownerPlayer} ^999обрызгал {targetPlayer_color}{targetPlayer} {ownedEntity_color}{ownedEntity}^999 антинубским спреем.
 vanity_msg_questionmark				^999Что вытворяет {targetPlayer_color}{targetPlayer}^*^; ^999???

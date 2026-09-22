@@ -406,7 +406,7 @@ HeroCategory_cc													Контроль толпы
 
 
 
-HeroCategory_magic												маг. урон
+HeroCategory_magic												Маг. урон
 
 
 
@@ -422,7 +422,7 @@ HeroCategory_muc												Мультиюнит-контроль
 
 
 
-HeroCategory_physical											физ. урон
+HeroCategory_physical											Физ. урон
 
 
 
@@ -7422,7 +7422,7 @@ Ability_Andromeda3_description2									^gЭта способность може
 
 
 
-Ability_Andromeda3_description2:ult_boost						^g Дает +1000 дальности атаки на ^o4^g сек., когда используемая вами способность поражает вражеского героя.^*\n\n^gПосох Мастера:^* Дает +1000 дальности атаки на ^o4^g сек., когда используемая вами способность поражает вражеского героя.^*^*^*^*
+Ability_Andromeda3_description2:ult_boost						^gДает +1000 дальности атаки на ^o4^g сек., когда используемая вами способность поражает вражеского героя.^*\n\n^gПосох Мастера:^* Дает +1000 дальности атаки на ^o4^g сек., когда используемая вами способность поражает вражеского героя.^*
 
 
 
@@ -65931,7 +65931,7 @@ Ability_Pyromancer1_description									Pyromancer посылает феникс
 
 
 
-Ability_Pyromancer1_description_simple							Запускает вперед разрушительную волну огня.\n\n^cЭффект на линии:^*\n^yУрон:^* ^o{110,180,250,320} маг. урона^*
+Ability_Pyromancer1_description_simple							Посылает вперед феникса, который наносит ^o{110,180,250,320} маг. урона^* врагам, сквозь которых пролетает.
 
 
 
@@ -110692,7 +110692,7 @@ Item_LexTalionis_IMPACT_effect									Применяет ^oLex Talionis^* к с
 
 
 
-Item_LexTalionis_tooltip_flavor									Посвящается Buro за его дизайны героев HoN! И за его фирменную тильду ~
+Item_LexTalionis_tooltip_flavor									Посвящается Buro за его дизайны героев HoN!
 
 
 

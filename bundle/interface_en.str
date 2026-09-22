@@ -3366,7 +3366,7 @@ options_yellow_label_primary				Первичный
 
 
 
-options_yellow_label_secondary				вторичный
+options_yellow_label_secondary				Вторичный
 
 
 
@@ -11082,7 +11082,7 @@ game_shop_label_mobility					Мобильность
 
 
 
-game_shop_label_attack_speed				скор. атаки
+game_shop_label_attack_speed				Скор. атаки
 
 
 
@@ -11598,7 +11598,7 @@ game_ui_label_gold							Золото
 
 
 
-game_attributes_label_atk_spd				скор. атаки
+game_attributes_label_atk_spd				Скор. атаки
 
 
 
@@ -12866,7 +12866,7 @@ endstats_label_hero_info_speed				Скорость
 
 
 
-endstats_label_hero_info_atk_spd			скор. атаки
+endstats_label_hero_info_atk_spd			Скор. атаки
 
 
 
@@ -13578,7 +13578,7 @@ match_awards_retribution_l					-
 
 
 
-match_awards_teamcreepkills_m				истребитель
+match_awards_teamcreepkills_m				Истребитель
 
 
 
@@ -14426,7 +14426,7 @@ hselect_label_hd_attack_range	Дальн. атак.
 
 
 
-hselect_label_hd_attack_rate				скор. атаки
+hselect_label_hd_attack_rate				Скор. атаки
 
 
 
@@ -14446,7 +14446,7 @@ hselect_header_statistics					Статистика
 
 
 
-hselect_label_strength						ул
+hselect_label_strength						Сил
 
 
 
@@ -14554,7 +14554,7 @@ game_hero_select_label_attack_range			^yДиапазон атаки:^* {range}
 
 
 
-game_hero_select_label_attack_speed			^yскор. атаки:^* {speed}
+game_hero_select_label_attack_speed			^yСкор. атаки:^* {speed}
 
 
 
@@ -18678,7 +18678,7 @@ tooltip_damage								Урон:
 
 
 
-tooltip_attack_speed						скор. атаки:
+tooltip_attack_speed						Скор. атаки:
 
 
 
@@ -21830,7 +21830,7 @@ mm_region_code_philippines			PH
 
 
 
-mm_region_code_indonesia			идентификатор
+mm_region_code_indonesia			ID
 
 
 
@@ -23094,7 +23094,7 @@ compendium_m_cks							СК
 
 
 
-compendium_m_cds							компакт-диск
+compendium_m_cds							КД
 
 
 
@@ -23890,7 +23890,7 @@ lang_fr										Французский
 
 
 
-lang_de										немецкий
+lang_de										Немецкий
 
 
 
@@ -23910,23 +23910,23 @@ lang_ru										Русский
 
 
 
-lang_ro										румынский
+lang_ro										Румынский
 
 
 
-lang_th										тайский
+lang_th										Тайский
 
 
 
-lang_ta										тайский
+lang_ta										Тайский
 
 
 
-lang_kr										корейский
+lang_kr										Корейский
 
 
 
-lang_ko										корейский
+lang_ko										Корейский
 
 
 
@@ -23942,7 +23942,7 @@ lang_my										Малазийский
 
 
 
-lang_tr										турецкий
+lang_tr										Турецкий
 
 
 
@@ -29582,7 +29582,7 @@ HeroCategory_cc								Контроль толпы
 
 
 
-HeroCategory_magic							маг. урон
+HeroCategory_magic							Маг. урон
 
 
 
@@ -29590,7 +29590,7 @@ HeroCategory_muc							Многоблочное управление
 
 
 
-HeroCategory_physical						физ. урон
+HeroCategory_physical						Физ. урон
 
 
 
@@ -30574,7 +30574,7 @@ store2_hero_select_label_attack_range			^oДиапазон атаки:^* {range}
 
 
 
-store2_hero_select_label_attack_speed			^oскор. атаки:^* {speed}
+store2_hero_select_label_attack_speed			^oСкор. атаки:^* {speed}
 
 
 
@@ -32474,7 +32474,7 @@ match_stat_time_spent_dead Время, проведенное мертвым
 
 
 
-emote_cat_1									жаркое
+emote_cat_1									Подколки
 
 
 
@@ -32837,7 +32837,7 @@ tutorial_slide_hero_stats_attack_desc	Определяет, сколько ур�
 tutorial_slide_hero_stats_desc	Начальные характеристики у разных героев разные.\nИх меняют, в частности, повышение уровня, прокачка способностей и покупка предметов.
 tutorial_slide_hero_stats_magic_armor	Магическая броня
 tutorial_slide_hero_stats_magic_armor_desc	Снижает получаемый маг. урон на процент.
-tutorial_slide_hero_stats_move_speed	скор. движ.
+tutorial_slide_hero_stats_move_speed	Скор. движ.
 tutorial_slide_hero_stats_move_speed_desc	Определяет, насколько быстро ваш герой перемещается по карте.
 tutorial_slide_honor_rating	Рейтинг чести
 tutorial_slide_honor_rating_desc	Здесь вы найдёте свой Рейтинг чести - систему, которая вознаграждает хорошее поведение более приятной игрой.
@@ -33017,7 +33017,7 @@ tutorial_npe_skill_lvl_hon	Ветеран HoN
 
 tutorial_npe_skill_lvl_desc_new	Я новичок в MOBA и хочу начать с основ
 
-tutorial_npe_skill_lvl_desc_moba	У меня есть опыт в других MOBA-играх
+tutorial_npe_skill_lvl_desc_moba	Я играл в другие MOBA и знаком с основами.
 
 tutorial_npe_skill_lvl_desc_hon	Я уже играл в HoN и знаю как всё устроено
 
@@ -33179,7 +33179,7 @@ tutorial_slide_bonus_rating	Бонусный рейтинг
 
 
 
-marketplace_header_title	Маркетплейс выходного дня
+marketplace_header_title	Мания маркетплейса!
 
 marketplace_header_subtitle	Ограниченное время!
 
@@ -33259,7 +33259,7 @@ store_marketplace_play_banned_btn			Marketplace Unavailable
 main_reconnect_note		Примечание: если вернуться в матч не получается, зайдите в публичное лобби. Пока ошибка не исправлена, это сбросит ваш статус.
 boss_info_kongor_ability4_desc		Даёт 70% снижения длительности дебаффов, длительности оглушений и сопротивления замедлениям. При Оглушении эти сопротивления растут на 15% (предел 100%).\n\nВраги, атакующие Kongor, получают на 50% меньше вампиризма.
 mm_machine_tag_denied_reason_shared		^279{name}:^* делит компьютер с другим участником группы
-mm_machine_tag_retag_error_generic		Ошибка смены тега
+mm_machine_tag_retag_error_generic		Не удалось сменить тег. Повторите попытку позже.
 boss_info_kongor_reward2_name		Тотем Бессмертия
 options_checkbox_inventory_dragdrop		Перетаскивание предметов
 store_powered_by							POWERED BY
