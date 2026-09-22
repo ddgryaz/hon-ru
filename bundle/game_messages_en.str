@@ -1178,17 +1178,17 @@ pre_firstblood_reconnect_60		{account_color}{player}^*^; отключился д
 
 pre_firstblood_reconnect_30		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 30 сек.
 
-pre_firstblood_reconnect_10		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 10 сек.
+pre_firstblood_reconnect_10		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 10 сек.
 
-pre_firstblood_reconnect_5		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 5 сек.
+pre_firstblood_reconnect_5		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 5 сек.
 
-pre_firstblood_reconnect_4		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 4 сек.
+pre_firstblood_reconnect_4		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 4 сек.
 
-pre_firstblood_reconnect_3		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 3 сек.
+pre_firstblood_reconnect_3		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 3 сек.
 
-pre_firstblood_reconnect_2		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 2 сек.
+pre_firstblood_reconnect_2		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 2 сек.
 
-pre_firstblood_reconnect_1		Матч будет прервано, если {account_color}{player}^*^; не подключится повторно в течение 1 секунды.
+pre_firstblood_reconnect_1		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 1 секунды.
 
 pre_firstblood_reconnect_lobby		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно до окончания этапа драфта.
 
