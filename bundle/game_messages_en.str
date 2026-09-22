@@ -1505,9 +1505,9 @@ Onev1mid_creepkill_victory_hellbourne		Лимит времени исчерпа�
 
 
 
-Onev1mid_towerhealth_victory_legion			Лимит времени исчерпан. Крип убивает и отрицает связь. Легион побеждает, если у Башни осталось {param} здоровья!
+Onev1mid_towerhealth_victory_legion			Время вышло. Счет по убийствам и денаям крипов равный. Легион побеждает: у его башни осталось {param} здоровья!
 
-Onev1mid_towerhealth_victory_hellbourne		Лимит времени исчерпан. Крип убивает и отрицает связь. Хеллборн побеждает, имея в башне {param} здоровья!
+Onev1mid_towerhealth_victory_hellbourne		Время вышло. Счет по убийствам и денаям крипов равный. Хеллборн побеждает: у его башни осталось {param} здоровья!
 
 
 
