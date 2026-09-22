@@ -94,7 +94,7 @@ disconnect_server_full				Сервер заполнен.
 
 disconnect_snapshot_fragment		Слишком много фрагментов снимка.
 
-disconnect_staff_spec_not_staff		быть наблюдателем персонала только на аккаунте персонала.
+disconnect_staff_spec_not_staff		Наблюдателем от персонала можно быть только с аккаунта персонала.
 
 disconnect_terminated				Вы превысили максимальное время отключения и больше не можете переподключиться к этой игре.
 

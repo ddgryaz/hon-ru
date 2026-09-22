@@ -37704,7 +37704,7 @@ State_Grinex_Invis_Ability2_name								Rift Stalk
 
 
 
-State_Grinex_Invis_Ability2_FRAME_effect						атаковать один раз, не нарушая невидимость
+State_Grinex_Invis_Ability2_FRAME_effect						Можно атаковать один раз, не нарушая невидимость
 
 
 
@@ -54563,7 +54563,7 @@ State_MonkeyKing_Ability1_name									Illusive Strike
 
 
 
-State_MonkeyKing_Ability1_description							использовать второй Иллюзорный удар.
+State_MonkeyKing_Ability1_description							Можно использовать второй Иллюзорный удар.
 
 
 
@@ -54595,7 +54595,7 @@ State_MonkeyKing_Ability2_Linger_name							Heavenly Vault
 
 
 
-State_MonkeyKing_Ability2_Linger_description					использовать второй Небесный свод.
+State_MonkeyKing_Ability2_Linger_description					Можно использовать второй Небесный свод.
 
 
 
