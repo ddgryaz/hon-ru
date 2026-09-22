@@ -21,7 +21,7 @@ POPUP = 'Popup_'
 
 # Названия карт и режимов по решению проекта остаются английскими, как имена
 MODE_NAME = re.compile(
-    r'(?:Blitz )?(?:Forests of Caldavar|Mid Wars|All Pick|All Random|'
+    r'(?:Blitz )?(?:Forests? of Caldavar|Mid Wars|All Pick|All Random|'
     r'Balanced Random|Random Draft|Single Draft|Same Hero Draft|'
     r'Banning Draft|Banning Pick|Blind Ban(?:ning)?|Blind Pick|Lock ?[Pp]ick|'
     r'Captains (?:Pick|Draft|Mode)|Counter Pick|Force Pick|Shuffle Pick|'
