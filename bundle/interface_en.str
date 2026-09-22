@@ -33245,7 +33245,7 @@ globby_host_tip		Создать свою игру с настройками
 store_marketplace_you_own		Уже куплено: {count}
 options_hdr_pipeline		HDR Пайплайн
 mm_machine_tag_retag_confirm_title		Сменить тег матчмейкинга?
-boss_info_kongor_stat_magic_armor		^oМаг. броня:^* 3
+boss_info_kongor_stat_magic_armor		^oМаг. броня:^* 30
 lobby_reminder_game_mode		Напоминание о режиме игры
 boss_info_kongor_ability2_desc		Бьёт по земле в радиусе 250, нанося маг. урон и снижая скор. движ. на 50% и скор. атаки на 50% на 2 сек. (4 сек. для не-героев).\n\nПрименяется автоматически, когда в радиусе ближнего боя оказываются 3 и более врагов.
 boss_info_phoenix_stat_movespeed		^oСкор. движ.:^* 350
@@ -33277,7 +33277,7 @@ store_toggle_teleport_phase		Переключить вид телепорта (�
 options_slider_select_hero_center_delay		Задержка центрирования (мс)
 lobby_vanity_viewtoggle_customization		Customize Layout
 mm_machine_tag_denied_title				Рейтинговая очередь недоступна
-boss_info_phoenix_stat_armor		^oБроня:^* 5
+boss_info_phoenix_stat_armor		^oБроня:^* 15
 system_bar_buy_jades							BUY
 options_checkbox_disable_input_background		Блокировать ввод в фоне
 vanity_cat_teleports						Teleport
@@ -33335,7 +33335,7 @@ vanity_listing_failed_message				Не удалось выставить {product
 store_model_viewer_prompt 	Выберите товар для предпросмотра
 vanity_listing_success_message				{product} выставлен за {price} нефрита.
 store_marketplace_viewing_history			Viewing History
-boss_info_phoenix_stat_damage		^oФиз. урон:^* 90
+boss_info_phoenix_stat_damage		^oФиз. урон:^* 150
 vanity_cat_account_upgrades				Account Upgrades
 general_mode_blind_pick						Blind Pick
 loading_stage_gamedata 				Загрузка игровых данных
@@ -33355,12 +33355,12 @@ mm_play_ban_denied_title				Cannot Queue
 store_marketplace_list_my					List my {item}
 options_hdr_highlight_boost		Усиление светов
 mm_machine_tag_locked_to_you			Этот компьютер привязан к вашему аккаунту для рейтинговых игр
-boss_info_phoenix_stat_health		^oЗдоровье:^* 2500
+boss_info_phoenix_stat_health		^oЗдоровье:^* 4000
 mm_unranked_roles_notice					Приоритет ролей учитывается только в рейтинговом Forests of Caldavar
 tutorial_slide_hero_attributes_example_suffix				^369Интеллекте^*, она также получает 1 урона за каждую единицу ^369Интеллекта^*
 login_error_account_disabled_reason		Этот аккаунт отключён, войти с него нельзя. Причина: {reason}
 play_ban_reason_unspecified				Причина не указана
-boss_info_phoenix_stat_magic_armor		^oМаг. броня:^* 5
+boss_info_phoenix_stat_magic_armor		^oМаг. броня:^* 25
 mm_play_ban_denied_body					Следующим участникам группы запрещено играть:
 login_error_account_disabled			Этот аккаунт отключён, войти с него нельзя. Если считаете это ошибкой, обратитесь в поддержку.
 boss_info_phoenix_ability4_desc		Даёт 70% снижения длительности дебаффов, длительности оглушений и сопротивления замедлениям. При Оглушении эти сопротивления растут на 15% (предел 100%).\n\nВраги, атакующие Phoenix, получают на 50% меньше вампиризма.
@@ -33372,9 +33372,9 @@ boss_info_kongor_ability3_name		Null Stone (Kongor)
 boss_info_kongor_reward2_desc		Добивший герой в течение 30 сек. выбирает линию. Появляется союзный Kongor и пушит её, убивая крипов с одного удара и атакуя строения. Даёт глобальную ауру всем союзникам: +10% скор. атаки, +10% базового урона и +25 скор. движ. Со второго убийства также даёт щит, поглощающий урон.
 im_send_failed_muted						Вы заглушены и не можете отправлять сообщения.
 boss_info_kongor_ability2_name		Slam
-boss_info_phoenix_stat_attack_speed		^oПерезарядка атаки:^* 1.5 сек.
+boss_info_phoenix_stat_attack_speed		^oПерезарядка атаки:^* 1,55 сек.
 boss_info_phoenix_ability2_name		Hot Chains
-boss_info_phoenix_stat_hp_regen		^oРеген. здоровья:^* 5/сек.
+boss_info_phoenix_stat_hp_regen		^oРеген. здоровья:^* 15/сек.
 loading_stage_shaders 				Compiling Shaders
 boss_info_phoenix_ability1_name		Fiery Rain
 plinko_skip2					ускорить падение
@@ -33433,7 +33433,7 @@ boss_info_rewards_header		Награды
 loading_stage_connecting 			Connecting
 marketplace_play_games_claim_desc				Можно забрать! Нажмите ниже, чтобы получить награду.
 marketplace_claim_button						Claim Reward
-boss_info_phoenix_stat_attack_range		^oДальность атаки:^* 500 (Дальний бой)
+boss_info_phoenix_stat_attack_range		^oДальность атаки:^* 200 (ближний бой)
 lobby_hero_favorite_tip						Добавить героя в избранное или убрать оттуда. Кнопка случайного выбора со ^885звездой^* берёт героя из избранного.
 store_list_item	 			List Item
 marketplace_claimed_button						Claimed!
