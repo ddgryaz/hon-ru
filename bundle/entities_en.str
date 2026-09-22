@@ -1542,7 +1542,7 @@ Popup_critical													{value}!
 
 
 
-Popup_miss														Промах!
+Popup_miss														Miss!
 
 
 
@@ -1550,7 +1550,7 @@ Popup_miss														Промах!
 
 
 
-Popup_deny														Отказано!
+Popup_deny														Denied!
 
 
 
@@ -1662,7 +1662,7 @@ Popup_seconds_decimal														{value}s!
 
 
 
-Popup_max														МАКС!
+Popup_max														MAX!
 
 
 
@@ -1670,7 +1670,7 @@ Popup_max														МАКС!
 
 
 
-Popup_pow														БАМ!
+Popup_pow														POW!
 
 
 
@@ -1718,7 +1718,7 @@ Popup_morult													{value}
 
 
 
-Popup_EmeraldWarden1														Гавейн использует Пикирующий Удар!
+Popup_EmeraldWarden1														Gawain uses Diving Strike!
 
 
 
@@ -1726,7 +1726,7 @@ Popup_EmeraldWarden1														Гавейн использует Пикиру
 
 
 
-Popup_EmeraldWarden2														Гавейн использует Прикосновение Леса!
+Popup_EmeraldWarden2														Gawain uses Forest's Touch!
 
 
 
@@ -1734,7 +1734,7 @@ Popup_EmeraldWarden2														Гавейн использует Прикос
 
 
 
-Popup_EmeraldWarden3														Гавейн использует Изумрудный Шторм!
+Popup_EmeraldWarden3														Gawain uses Emerald Storm!
 
 
 
@@ -1870,7 +1870,7 @@ Popup_silenced														Silenced {value}s
 
 
 
-Popup_silenced_notimer														Безмолвие
+Popup_silenced_notimer														silenced
 
 
 
@@ -1894,7 +1894,7 @@ Popup_immobilized														Immobilized {value}s
 
 
 
-Popup_immobilized_notimer														Обездвижен
+Popup_immobilized_notimer														immobilized
 
 
 
@@ -1974,7 +1974,7 @@ Popup_pluspointsblue														+{value} Blue
 
 
 
-Popup_fake														Фейк!
+Popup_fake														Fake!
 
 
 
