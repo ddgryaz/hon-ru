@@ -1345,5 +1345,3 @@ chat_command_colors_line_5		^279*^999 ^^;aRGBA - четвёртая цифра 1
 chat_im_send_failed_generic		Не удалось отправить сообщение. Повторите попытку чуть позже.
 rejected_invalid_ward_location		Недопустимое место для варда
 chat_command_colors_line_1		^279*^999 Цветовые коды - пишите их в любом месте сообщения.
-// Справка по командам чата
-chat_command_kick_info	/kick <игрок> (нужны права админа канала)

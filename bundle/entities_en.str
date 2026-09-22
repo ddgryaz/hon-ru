@@ -125018,7 +125018,6 @@ Gadget_Tombstone_name	Tombstone
 
 
 Mode_SameHeroDraft												Same Hero Draft
-Ability_Artesia4_description_simple 							Укажите точку, чтобы призвать Проекцию на ^o20 сек.^*: она даёт союзным героям рядом ^o{20,30,40} здоровья^* или ^oманы^* в секунду - в режиме лечения или урона соответственно.\n\nКроме того, она повторяет ваши применения ^494Arcane Missile^* и набирает заряды ^494Arcane Bolts^* вместе с вами.\n\nПроекцию ^oможно перемещать^* с перезарядкой 8 сек.\n\n^gПосох Мастера^* делает дальность применения глобальной, снижает перезарядку до 60 сек. и перезарядку перемещения до 4 сек. (+2 сек., если она слишком близко к вражескому колодцу).
 State_Circe_Ability1_Immobilized_name							Entrapment
 State_Circe_Ability1_Immobilized_description
 State_Circe_Ability1_Immobilized_description2
@@ -125044,11 +125043,8 @@ State_Electrician_Ability4_Immobilized_FRAME_effect
 State_EmeraldWarden_Ability3_Immobilized_name					Overgrowth
 State_EmeraldWarden_Ability3_Immobilized_FRAME_effect			{60,70,80,90} маг. урона в сек. (1.5x не героям)
 State_Goldenveil_Ability2_Immobilized_name						Plunge
-Ability_Kinesis2_Lift_nameLift
 Ability_Kinesis2_Lift_description_simple						Поднимает в воздух ^oближайшего крипа или дерево^*, делая их неуязвимыми на ^o8 сек.^* Если подходящей цели рядом нет, поднимает кусок земли.\n\nИмеет до ^o{1,2,3,4} зарядов^* (восстанавливаются по одному раз в ^o{4,3.3,2.6,2} сек.^*).
-Ability_Kinesis2_Launch_nameLaunch
 Ability_Kinesis2_Launch_description_simple						Бросает все поднятые объекты, нанося цели ^o{85,90,95,100} маг. урона^* за объект и накладывая ^o- {10,15,20,25}% скор. движ. на 2 сек.^*\n\n^gЭффект Посоха Мастера:^* объект ^oотскакивает дважды^* к врагам ^oв радиусе 400^*.
-State_Pearl_Ability3_Dazed_nameОшеломление
 State_Pearl_Ability3_Dazed_description							Дальность прыжка Pearl уменьшена на 50% на 3 сек.
 Ability_AmunRa3_description_simple:ult_boost						Дает ^o{0.7,1.4,2.1,2.8} реген. здоровья.^*\n\nПри получении урона вы наносите до ^o{20,30,40,50} маг. урона в сек.^* врагам рядом (зависит от полученного урона). Эффект исчезает, если не получать урон 4 сек.\n\n^gПри полном заряде пассивно выстреливает Огненную Звезду во врагов рядом (в приоритете - герои) по 1 снаряду в сек.^*
 State_Riftwalker_Ability2_Immobilized_name						Shared Existence
@@ -125063,7 +125059,6 @@ Ability_Riptide3_description_simple:ult_boost					Дает баффы ^oв во�
 State_Riptide_Ability3_FRAME_effect:ult_boost					Стоя в воде, накапливает Щит по 20 здоровья в сек., максимум 340. Пока щит держится, вы считаетесь стоящим в воде.
 State_Riptide_Ability3_Staff_name								Water Shield
 State_Riptide_Ability3_Staff_FRAME_effect						Щит растёт по 20 здоровья в сек., пока вы стоите в воде, максимум 340.\nПока щит держится, вы считаетесь стоящим в воде.
-Ability_ShadowBlade1_description_simple 						Наносит врагам в радиусе ^o{70,120,170,220} маг. урона и замедляет их скор. движ. на 25%^* на ^o{2.5,3,3.5,4} сек.^*\n\n^oФорма Gargantuan^* длится 15 сек. или до призыва другой формы.\n^oФорма Gargantuan^* дает ^o{4,8,12,16} силы^*, а в первые 3,5 сек. еще и ^o{3,6,9,12} брони и {1,2,3,4} маг. брони^*.
 State_Energizer_Active_Unitwalking_name							Energizer Cooldown
 State_Energizer_Buff_Unitwalking_name							Energized
 State_Energizer_Buff_Unitwalking_name							Energized
@@ -125078,8 +125073,6 @@ Item_AbyssalFlower_IMPACT_effect									Накладывает ^oAbyssal Flower
 Item_AbyssalFlower_tooltip_flavor
 State_AbyssalFlower_name											Abyssal Flower
 State_AbyssalFlower_FRAME_effect									Оставляет видимый след за пораженной целью
-State_Stunned_nameОглушение
-State_Stunned_Knockdown_nameОглушение
 Shout_MyTeamSucks_name											My Team Sucks
 Shout_MyTeamSucks_description									Тьфу... Моя команда просто отстой!
 Shout_MyTeamSucks_description_simple							Моя команда — отстой!
@@ -125181,7 +125174,6 @@ Roast_Goal_description_simple									Gooooal!
 Shout_ILoveMyTeam_description									Обожаю свою команду, они великолепны!
 Ability_LordSalforis4_description		Lord Salforis вырывает душу врага, нанося большой урон со временем. Пока эффект держится, цель не может лечиться и восстанавливать здоровье.
 Ability_LordSalforis2_description_simple		Накладывает вокруг себя затухающее ^oзамедление скор. движ. 40%^* на 2 сек.\n\nНа 5 сек. или до первой успешной атаки даёт ^o50 скор. движ.^*, а следующая атака заряжается энергией Нижнего мира: добавляет ^o{40,60,80,100} урона^*, превращает его в абсолютный маг. урон и даёт ^o{55,70,85,100}% вампиризма^*.\n\n^gПосох Мастера^*: перезарядка снижена до 3 сек.
-State_Electrician_Ability4_Immobilized_FRAME_effect				
 Hero_DarkLady_role		The Dark Lady - грозная сила поздней игры с экспоненциальным ростом мощи, но она сильно зависит от грамотной поддержки на ранней и средней стадиях. Накопив достаточно золота, она вырезает целые волны врагов при помощи Dark Blades и Charging Strikes.
 Ability_DarkLady1_description_simple		Наполняет ^oDark Blades^* злой энергией на ^o{3,4,5,6} сек.^*: атаки наносят ^o+{35,50,65,80}% баз. урона^* и при попадании накладывают ^oБезмолвие на 2,5 сек.^*
 Ability_LordSalforis4_description2		^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект Посоха:^* длительность приостанавливается, пока Salforis в пределах 900 единиц. Каждый герой, погибший под этим эффектом, навсегда увеличивает урон в сек. на 5, максимум +50.
@@ -125190,7 +125182,6 @@ Ability_DarkLady1_IMPACT_effect		Применяет Тёмные Клинки н
 Ability_LordSalforis3_IMPACT_effect:salforis_dmgaura_off		При использовании включает пассивный урон.
 Item_Chaosbrand_FRAME_effect								\nСлучайно переключается между четырьмя стихийными режимами. ^oКаждую секунду и при каждой вашей атаке^* есть ^o5% шанс^* сменить стихию, и каждая даёт свои бонусы:\n\n^oEmberfrost^*: атаки снижают ^oскор. движ.^* на 40% на 2 сек.\n^oStarborn^*: непериодический урон дополнительно наносит ^o75 маг. урона^* за 2 сек.\n^oDuskwrath^*: 27% непериодического урона также снимается с ^oманы^* врага (если маны не осталось, урон идёт по здоровью).\n^oIronroot^*: атаки снижают ^oскор. атаки^* на 25% на 2 сек.\n\nАктивируйте, чтобы на 10 сек. получить ^oвсе^* эффекты сразу.
 Ability_LordSalforis2_description		Клинок Lord Salforis жаждет душ и вытягивает жизнь из врагов. При активации замедляет врагов вокруг, а следующая атака крадёт у врага жизнь.
-State_Circe_Ability1_Immobilized_description2					
 Gesture_NoobSpray_description									Создан для нубов, применять с осторожностью
 Neutral_TurtleRed_name											Bog Turtle
 Ability_DoctorRepulsor3_name:ult_boost							^gElectric Fury^*
@@ -125198,7 +125189,6 @@ State_Revenant_Ability2_Boosted_name							Mortification
 Ability_DarkLady1_effect_header		Эффекты Тёмных Клинков
 Ability_LordSalforis4_name:ult_boost		^gThe Undying*^*
 Ability_DarkLady1_description		Dark Lady пробуждает злую энергию в своих Клинках Гнева: её атаки накладывают Безмолвие, не давая врагам применять заклинания и способности. Эта же энергия временно повышает её базовый урон.
-Item_AbyssalFlower_tooltip_flavor										
 Ability_DarkLady3_IMPACT_effect		Рывок к указанной точке: наносит по одной атаке каждому врагу, попавшему в радиус. Каждая следующая атака во время рывка наносит на 15% меньше урона, чем предыдущая.\n\nПо завершении рывка накладывает на себя Zeal на 6 сек.
 Hero_LordSalforis_description		Lord Salforis, барон Блэкволла, повелевает силами некромантии, что отличает его от обычного пушечного мяса Хеллборна. Могучий чародей и полководец, он одним своим присутствием на поле боя вселяет в противников страх, разлагая их изнутри и вытягивая души. Поговаривают, что павший от его копья обрекает свою душу навеки.
 Ability_DarkLady2_effect_header		Эффекты Поражённой Души
@@ -125214,7 +125204,6 @@ Ability_DarkLady3_description2:ult_boost		^gПосох Мастера:^* вдв�
 Ability_LordSalforis4_name										The Undying
 Ability_LordSalforis3_IMPACT_effect:salforis_dmgaura_on		При использовании отключает пассивный урон.
 Ability_LordSalforis3_tooltip_flavor		Не знаю, почему все вокруг меня умирают.
-State_Circe_Ability1_Immobilized_description_simple				
 State_LordSalforis_Ability1_Debuff_name							Mors Certissima
 Hero_DarkLady_name													The Dark Lady
 Ability_LordSalforis4_description_simple:ult_boost		Вырывает душу врага, накладывая ^oThe Undying^* на 12 сек.\n\nВсё это время цель получает ^o{20,35,50} абсолютного маг. урона^* в сек. и не может восстанавливать или лечить здоровье. ^gДлительность приостанавливается, пока вы рядом, а урон растёт на 5 за каждого героя, погибшего под The Undying, максимум +50^*.
@@ -125222,7 +125211,6 @@ Ability_DarkLady4_name												Cover of Darkness
 State_Magmus_Ability1_Enemy_Staff_name							Lava Surge
 Ability_LordSalforis4_IMPACT_effect:ult_boost		Накладывает ^oThe Undying^* на цель на ^o12 сек.^*\n\n^gДлительность приостанавливается, пока Salforis в пределах 900 единиц от цели. Наносит +5 урона в сек. за каждого героя, погибшего под действием The Undying, максимум +50.^*
 Ability_DoctorRepulsor3_description_simple:ult_boost			Заряжает вас энергией после ^oприменения заклинания^*: следующая атака наносит ^o{40,60,80,100} маг. урона^* ^gплюс 3% от вашей макс. маны^* в радиусе 300 и накладывает ^o-80% к скор. движ. и -50 к скор. атаки^* на 0,6 сек.
-State_Circe_Ability1_Immobilized_description					
 State_Gunblade_Ability4_Reduced_FRAME_effect					-25% к урону, наносимому Gunblade
 Ability_Thunderbringer4_description_simple:OnlyMidMap					^rMid Wars:^* создает в выбранной точке ^oThunder Cloud^* на ^o9 сек.^*: за это время он бьет ^o{4,5,6} молниями^* по всем вражеским юнитам в радиусе 400, нанося ^o{150,175,200} маг. урона^* и ^oмини-оглушая врагов^* на 0,05 сек.
 Roast_PumpSomeIron_description_simple							Покачать железо!
