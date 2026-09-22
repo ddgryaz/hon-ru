@@ -14,6 +14,11 @@ from honru import parse_str, load_overrides, lookup
 
 SERVICE = ('_search_terms', '_shop_categories', '_keywords')
 
+# Всплывающий текст над юнитами (Miss!, Denied!) игра рисует шрифтом без
+# кириллицы: перевод превращается в квадраты, поэтому Popup_* остаются
+# английскими
+POPUP = 'Popup_'
+
 # Названия карт и режимов по решению проекта остаются английскими, как имена
 MODE_NAME = re.compile(
     r'(?:Blitz )?(?:Forests of Caldavar|Mid Wars|All Pick|All Random|'
@@ -99,6 +104,7 @@ def main():
                 # ключи и строки без слов не в счёт - там нечего переводить
                 if (value == english and not is_name(key)
                         and not key.endswith(SERVICE)
+                        and not key.startswith(POPUP)
                         and not MODE_NAME.fullmatch(english.strip())):
                     if len(re.findall(r'[A-Za-z]{2,}', strip_markup(english))) >= 3:
                         same_as_english.append((stem, key, english))
