@@ -3022,11 +3022,11 @@ options_time_between_announcer_callouts_tip Время в миллисекунд
 
 
 
-options_newannouncervolume					Громкость анонсера событий
+options_newannouncervolume					Громкость анонсера событий (%)
 
 
 
-options_newannouncervolume_tip				Определяет громкость анонсера событий.
+options_newannouncervolume_tip				Громкость анонсера событий. 100% - базовый уровень.
 
 
 
@@ -33189,15 +33189,15 @@ marketplace_fees_waived_desc	Торговые сборы отменены на �
 
 marketplace_visit_ingame_store	Открыть магазин
 
-marketplace_play_games_title	Играй и зарабатывай жетоны
+marketplace_play_games_title	+250 Jade за игры
 
-marketplace_play_games_desc	Сыграй игры, чтобы получить жетон маркетплейса
+marketplace_play_games_desc	Сыграйте 15 матчей, чтобы получить награду.
 
 marketplace_play_button	Играть
 
 marketplace_buy_jade_skin_title	Скин «Нефрит»
 
-marketplace_buy_jade_bonus_title	Бонус набора «Нефрит»
+marketplace_buy_jade_bonus_title	+500 бонусного Jade
 
 marketplace_buy_jade_desc	Приобрети набор Нефрита и получи эксклюзивный скин в подарок
 
@@ -33225,7 +33225,7 @@ general_mode_normal		All Pick
 store_unavailable		Магазин недоступен
 mm_machine_tag_denied_body		Тег отклонён: не соответствует требованиям
 boss_info_kongor_name		Конгор
-options_submen_hdr		Настройки HDR
+options_submen_hdr		HDR ^555(экспериментально)^*
 store_no_listings		Нет объявлений
 mm_machine_tag_retag_btn		Сменить тег
 mm_mmr_midwars_tip		Рейтинг Midwars учитывается отдельно
@@ -33239,7 +33239,7 @@ options_disable_input_background_tip		Когда включено, курсор 
 store_marketplace_confirm_title		Подтверждение покупки
 options_hdr_enable_tip		Выводит сигнал с расширенным динамическим диапазоном на монитор с поддержкой HDR. Сначала включите HDR в настройках экрана Windows.
 ph_advanced_options		Расширенные настройки
-marketplace_play_games_progress_demo		Сыграйте игр для разблокировки
+marketplace_play_games_progress_demo		5/15
 mm_machine_tag_locked_to_other		Рейтинговые игры на этом компьютере привязаны к ^279{name}^*
 globby_host_tip		Создать свою игру с настройками
 store_marketplace_you_own		Уже куплено: {count}
@@ -33347,7 +33347,7 @@ mm_play_ban_denied_reason_permanent		^279{name}:^* запрет на игру. �
 options_hdr_gamut_tip		Расширяет цвета в более широкий диапазон. 0 — нейтрально.
 mm_machine_tag_denied_reason_unknown	^279{name}:^* компьютер не удалось определить
 store_marketplace_update_my_listing			Обновить мой лот
-options_hdr_pipeline_tip		Рендер в float16 для HDR и тонирования. Отключите если мелькает.
+options_hdr_pipeline_tip		Рендерит сцену в float16, чтобы работали HDR и тонмаппинг. Отключите, чтобы вернуться к старому 8-битному конвейеру.
 mm_notice_high_mmr_queue_limit_tip	В вашей группе есть игрок с рейтингом выше {threshold} MMR, поэтому группа ограничена {limit} игроками. Вставайте в очередь в одиночку или вдвоём либо отделите игрока с высоким рейтингом.
 vanity_purchase_failed_message				Не удалось купить {product}. Попробуйте ещё раз.
 tutorial_slide_hero_stats_alt_info							Удержание ALT в игре показывает больше сведений по каждой характеристике.
@@ -33443,7 +33443,7 @@ store_buy_jade									Buy Jade
 boss_info_title		Боссы
 options_checkbox_smart_unit_selection_tip		Выбирает юнита, ближайшего к курсору, а не к камере, и делает юнитов проще для клика, особенно у самых ног.
 boss_info_kongor_reward1_desc		Все герои команды-убийцы получают золото и опыт. Добивший получает доп. золото. Награда растёт с каждым убийством Kongor.
-options_hdr_highlight_desat_tip		Сводит самые яркие света к белому, как на плёнке.
+options_hdr_highlight_desat_tip		Сводит самые яркие блики к белому, как на пленке. 0 сохраняет полный цвет.
 options_slider_max_ui_framerate_tip		Задаёт максимум кадров в секунду для отрисовки интерфейса. Высокие значения делают анимацию интерфейса и HTML-панели плавнее, низкие снижают нагрузку на поток интерфейса.
 vanity_listing_complete				 	Listing Complete
 options_hdr_peak_tip		Пиковая яркость дисплея. Установите по характеристикам монитора.

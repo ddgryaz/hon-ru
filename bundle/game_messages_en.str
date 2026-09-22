@@ -1671,7 +1671,7 @@ vanity_msg_watergun		{ownerPlayer_color}{ownerPlayer} ^999Водяная бит�
 vanity_msg_myteamsucks		{ownerPlayer_color}{ownerPlayer}^*^; ^999Моя команда - ДНО!!!
 int_mult_bonus		{value}% интеллекта
 agi_mult_bonus		{value}% ловкости
-showdown_herokill_victory_legion		Легион победил по убийствам героев!
+showdown_herokill_victory_legion		2 смерти Хеллборна! Легион побеждает!
 showdown_towerdamage_victory_legion		Время вышло. Урон героям равный. Легион побеждает по урону башням!
 courier_msg_delivering		Курьер доставляет
 showdown_random_victory_hellbourne		Время вышло. Все показатели равны! Хеллборн побеждает по жребию!
