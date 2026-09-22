@@ -1,11 +1,18 @@
 # hon-ru-linux
 
+![game version](https://img.shields.io/badge/game%20version-0.12.8.1-blue) ![last commit](https://img.shields.io/github/last-commit/ddgryaz/hon-ru-linux)
+
 Русский перевод Heroes of Newerth (HoN Reborn) для Linux: Proton, Lutris,
 Bottles, чистый wine.
 
 Форк [Xyling12/HoN_RU_Pack](https://github.com/Xyling12/HoN_RU_Pack). Здесь
 **только перевод**: без фонового агента, обращений в сеть, баннеров и обхода
 блокировок. Windows-обвязка удалена, перевод в `bundle/` берётся из апстрима.
+
+> [!NOTE]
+> Перевод сверен с версией игры **0.12.8.1**. После патча игры перевод не
+> ломается: новые строки (герои, предметы, способности) остаются на
+> английском, пока их не переведут.
 
 ## Установка
 
