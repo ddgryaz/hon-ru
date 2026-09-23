@@ -11772,15 +11772,15 @@ game_objectives_quests						Квесты
 
 
 
-courier_state_Idle 							Курьер бездействует
+courier_state_Idle 							Курьер свободен
 
 
 
-courier_state_GettingStashItems 			Курьер получает тайники
+courier_state_GettingStashItems 			Курьер забирает предметы из тайника
 
 
 
-courier_state_DeliveringItems 				Курьерская доставка товаров
+courier_state_DeliveringItems 				Курьер доставляет предметы
 
 
 
@@ -11788,7 +11788,7 @@ courier_state_Returning						Курьер возвращается
 
 
 
-courier_state_Roaming						Курьер Роуминг
+courier_state_Roaming						Курьер без задания
 
 
 
@@ -11800,15 +11800,15 @@ courier_state_Dead							Курьер мертв
 
 
 
-courier_state_Idle_desc 					Курьер простаивает и ждет вас!
+courier_state_Idle_desc 					Курьер свободен и ждет ваших приказов!
 
 
 
-courier_state_GettingStashItems_desc		Курьер загружает спрятанные вещи!
+courier_state_GettingStashItems_desc		Курьер забирает предметы из тайника!
 
 
 
-courier_state_DeliveringItems_desc			Курьер уже в пути и скоро доставит вещи, которые он везет!
+courier_state_DeliveringItems_desc			Курьер в пути и скоро доставит вам предметы!
 
 
 
@@ -11816,11 +11816,11 @@ courier_state_Returning_desc				Курьер возвращается к фон�
 
 
 
-courier_state_Roaming_desc					Курьер отсутствует, его кто-то контролирует. Однако никакой конкретной задачи он не выполняет.
+courier_state_Roaming_desc					Курьер вне базы и под чьим-то управлением, но не выполняет никакого задания.
 
 
 
-courier_state_Dead_desc						Курьер умер!
+courier_state_Dead_desc						Курьер мертв!
 
 
 
@@ -11828,11 +11828,11 @@ courier_state_Dead_desc						Курьер умер!
 
 
 
-courier_action 								Используйте курьера
+courier_action 								Отправить курьера
 
 
 
-courier_action_desc 						Нажав на нее, курьер соберет все, что сможет унести из вашего тайника, доставит вам как можно быстрее, а затем вернется к фонтану!
+courier_action_desc 						Курьер заберет из вашего тайника все, что сможет унести, как можно быстрее доставит вам и вернется к фонтану!
 
 
 
@@ -11844,7 +11844,7 @@ courier_status_dead 						Курьер мертв
 
 
 
-courier_status_private 						Частный курьер
+courier_status_private 						Личный курьер
 
 
 
@@ -11856,15 +11856,15 @@ courier_status_shared 						Общий курьер
 
 
 
-courier_status_dead_desc					Курьер умер, нет курьера, который мог бы доставить вам товары!
+courier_status_dead_desc					Курьер мертв, доставить вам предметы некому!
 
 
 
-courier_status_private_desc					У вас есть личный курьер, которым поделиться с товарищами по команде.
+courier_status_private_desc					У вас личный курьер, которым можно поделиться с союзниками.
 
 
 
-courier_status_shared_desc					Вы используете курьера, который используется вами и вашими товарищами по команде.
+courier_status_shared_desc					Вы пользуетесь курьером, общим для вас и союзников.
 
 
 
@@ -11872,7 +11872,7 @@ courier_status_shared_desc					Вы используете курьера, ко�
 
 
 
-courier_no_controller 						Неиспользованный
+courier_no_controller 						Свободен
 
 
 
@@ -11884,7 +11884,7 @@ courier_no_controller_desc					На данный момент ни один иг
 
 
 
-courier_controller_desc 					Курьер в настоящее время контролируется или выполняет действия для {playerName}.
+courier_controller_desc 					Курьер сейчас подчиняется игроку {playerName}.
 
 
 
@@ -11892,7 +11892,7 @@ courier_controller_desc 					Курьер в настоящее время ко�
 
 
 
-courier_uncontrollable 						Вы не можете контролировать этого курьера, поскольку игрок, владеющий им, не поделился им с вами.
+courier_uncontrollable 						Вы не можете управлять этим курьером: владелец не поделился им с вами.
 
 
 
@@ -30993,23 +30993,23 @@ status_effect_fear							 Боялся
 
 
 
-courier_labelstatus_2							Результат
+courier_labelstatus_2							Можно доставить
 
 
 
-courier_labelstatus_3							{seconds}s На выезде
+courier_labelstatus_3							Через {seconds} сек.
 
 
 
-courier_labelstatus_4							Товар доступен
+courier_labelstatus_4							Есть предметы
 
 
 
-courier_labelstatus_5							Возвращение
+courier_labelstatus_5							Возврат
 
 
 
-courier_labelstatus_6							Получение
+courier_labelstatus_6							Забирает
 
 
 
@@ -31021,7 +31021,7 @@ stash_title										Тайник курьера
 
 
 
-stash_labelstatus_shoppable						Покупаемый
+stash_labelstatus_shoppable						Можно купить
 
 
 
@@ -31029,7 +31029,7 @@ stash_labelstatus_unavailable					Недоступно
 
 
 
-stash_labelstatus_transferable					Передаваемый
+stash_labelstatus_transferable					Можно передать
 
 
 
@@ -31045,7 +31045,7 @@ courier_send									^yНажмите, чтобы отправить вам ку
 
 
 
-courier_return									^yНажмите меня, чтобы отправить курьера обратно на базу^*
+courier_return									^yНажмите, чтобы вернуть курьера на базу^*
 
 
 
@@ -32801,7 +32801,7 @@ tutorial_slide_hero_interface_desc	Эта область снизу по цен�
 tutorial_slide_hero_interface_experience_bar	Полоса опыта
 tutorial_slide_hero_interface_gold_owned	Имеющееся золото
 tutorial_slide_hero_interface_health_bar	Полоса здоровья
-tutorial_slide_hero_interface_hero_ability	Умение героя
+tutorial_slide_hero_interface_hero_ability	Способность героя
 tutorial_slide_hero_interface_hero_level	Уровень героя
 tutorial_slide_hero_interface_hero_stats	Характеристики героя
 tutorial_slide_hero_interface_item_inventory	Инвентарь предметов
@@ -33479,7 +33479,7 @@ mm_denied_four_player_party_ranked		Группа из четырёх игрок�
 mm_denied_high_rated_party_size		Игроки с рейтингом 1850+ могут вставать в рейтинг только в одиночку или вдвоём.
 mm_denied_elite_party_rating_floor		Группа с игроком 1850+ может вставать в рейтинг только с игроками рейтинга 1500 и выше.
 mm_denied_insufficient_role_tokens		У вас нет жетонов очереди ролей. Отметьте мягкую или жёсткую поддержку, чтобы встать в рейтинговый Caldavar, либо сыграйте за поддержку и получите жетон.
-mm_denied_party_ratings_unavailable		Рейтинги вашей группы не удалось загрузить, поэтому рейтинг ей сейчас недоступен. Попробуйте через минуту.
+mm_denied_party_ratings_unavailable		Не удалось загрузить рейтинги вашей группы, поэтому рейтинговые игры ей сейчас недоступны. Попробуйте через минуту.
 mm_role_tokens_title		Жетоны очереди ролей
 mm_notice_party_disparity_tier		Разброс рейтинга в вашей группе - {spread} MMR (уровень {tier}). Вы получаете и теряете на {reduction}% меньше MMR, а жетоны очереди ролей начисляться не будут.
 mm_notice_party_support_locked		Разброс рейтинга в вашей группе - {spread} MMR, поэтому этот матч вы встаёте только на поддержку. Сохранённые роли не меняются и вернутся, когда разрыв сократится. Вы получаете и теряете на {reduction}% меньше MMR.
