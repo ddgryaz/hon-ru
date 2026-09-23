@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Операции для linux/apply.sh: merge, pack, cfg.
+"""Операции для linux/apply.sh: merge, cfg, onlaunch.
 
 Работаем с байтами: .str приходят в UTF-8 (часть с BOM) и всегда с CRLF,
 а startup.cfg игра пишет в UTF-16LE. Перекодировать нельзя - движок
@@ -189,31 +189,31 @@ def cmd_cfg_restore(path, saved):
     print('  startup.cfg: восстановлено значений: %d' % restored)
 
 
-def cmd_pack(dst, files):
-    """Упаковывает собранные .str в архив-мод для -mod "...;extensions".
+def game_running(pattern):
+    """Запущен ли процесс игры.
 
-    Внутри путь тот же, что в resources0.jz: stringtables/<имя>_en.str.
-    Сжатие не используем: движок читает и несжатые записи (в самом
-    resources0.jz такие есть), а zstd, которым жмёт игра, в zipfile есть
-    только с Python 3.14. Пишем во временный файл и подменяем целиком,
-    чтобы игра не застала архив недописанным.
+    Ищем по имени процесса, а не по командной строке: пути к игре содержат
+    "Juvio", и поиск по -f находил сам этот скрипт.
     """
-    import zipfile
-    tmp = dst + '.tmp'
-    with zipfile.ZipFile(tmp, 'w', compression=zipfile.ZIP_STORED) as zf:
-        for path in files:
-            zf.write(path, 'stringtables/' + os.path.basename(path))
-    os.replace(tmp, dst)
-    print('  архив перевода: %s (%d КБ)' % (dst, os.path.getsize(dst) // 1024))
+    import subprocess
+    try:
+        rc = subprocess.run(['pgrep', '-x', pattern],
+                            stdout=subprocess.DEVNULL,
+                            stderr=subprocess.DEVNULL).returncode
+        return rc == 0
+    except OSError:
+        return False
 
 
 def main():
     if len(sys.argv) < 2:
-        sys.exit('usage: honru.py {merge,pack,cfg,cfg-restore} ...')
+        sys.exit('usage: honru.py {merge,cfg} ...')
     if sys.argv[1] == 'merge':
         cmd_merge(sys.argv[2], sys.argv[3], sys.argv[4])
-    elif sys.argv[1] == 'pack':
-        cmd_pack(sys.argv[2], sys.argv[3:])
+    elif sys.argv[1] == 'onlaunch':
+        cmd_onlaunch(sys.argv[2], sys.argv[8:], sys.argv[3].split(','),
+                     sys.argv[4], float(sys.argv[5]), sys.argv[6],
+                     sys.argv[7] == '1')
     elif sys.argv[1] == 'cfg':
         pairs = [tuple(a.split('=', 1)) for a in sys.argv[4:]]
         cmd_cfg(sys.argv[2], pairs, sys.argv[3])
@@ -221,6 +221,134 @@ def main():
         cmd_cfg_restore(sys.argv[2], sys.argv[3])
     else:
         sys.exit('unknown subcommand: %s' % sys.argv[1])
+
+
+
+def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False):
+    """Кладёт перевод в окно между проверками лаунчера и стартом движка.
+
+    Лаунчер считает установку битой, если в каталоге игры есть файл, которого
+    нет в его манифесте: требует обновление и вычищает каталог. Строку
+    "Delegating to the entry point" он пишет, когда проверки позади и
+    управление уходит движку; движок открывает stringtables примерно через
+    100 мс. После выхода из игры убираем файлы, чтобы следующий запуск
+    лаунчера снова прошёл чисто.
+    """
+    import time
+    import glob
+
+    sources = {}
+    for name in sorted(os.listdir(stage)):
+        path = os.path.join(stage, name)
+        # В stage лежит ещё подкаталог base/ с распакованным архивом
+        if not name.endswith('_en.str') or not os.path.isfile(path):
+            continue
+        with open(path, 'rb') as fh:
+            sources[name] = fh.read()
+
+    plan = []
+    for target in targets:
+        for name, blob in sources.items():
+            base = name[:-len('_en.str')]
+            for suffix in suffixes:
+                plan.append((os.path.join(target, base + suffix), blob))
+
+    def newest_log():
+        logs = glob.glob(os.path.join(logdir, '*.log'))
+        return max(logs, key=os.path.getmtime) if logs else None
+
+    def delegated(path):
+        if not path:
+            return False
+        try:
+            with open(path, 'rb') as fh:
+                return b'Delegating to the entry point' in fh.read()
+        except OSError:
+            return False
+
+    baseline = newest_log()
+    print('  ожидаю запуск игры (текущий лог: %s)'
+          % (os.path.basename(baseline) if baseline else 'нет'))
+
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        current = newest_log()
+        if current and current != baseline and delegated(current):
+            break
+        time.sleep(0.02)
+    else:
+        print('  игра так и не запустилась, выхожу')
+        return
+
+    written = 0
+    for path, blob in plan:
+        try:
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            with open(path, 'wb') as fh:
+                fh.write(blob)
+            written += 1
+        except OSError:
+            pass
+    placed_at = time.time()
+    print('  лаунчер передал управление движку - положено файлов: %d' % written)
+
+    # Дальше файлы обязаны быть убраны при любом исходе: если они переживут
+    # скрипт, следующий запуск лаунчера сочтёт установку битой и зациклится
+    # на "требуется обновление"
+    import signal
+
+    def _stop(signum, frame):
+        raise KeyboardInterrupt
+
+    for sig in (signal.SIGTERM, signal.SIGHUP):
+        try:
+            signal.signal(sig, _stop)
+        except (OSError, ValueError):
+            pass
+
+    # Без inotify не отличить "движок не читает диск" от "не успели положить"
+    probes = []
+    if probe:
+        import subprocess
+        script = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                              'probe.py')
+        probes = [subprocess.Popen([sys.executable, script, t,
+                                    str(placed_at), '90'])
+                  for t in targets if os.path.isdir(t)]
+
+    try:
+        seen = False
+        while time.time() < deadline + 7200:
+            if game_running(pattern):
+                seen = True
+            elif seen:
+                break
+            time.sleep(1.0)
+
+        for pr in probes:
+            try:
+                pr.wait(timeout=95)
+            except Exception:
+                pr.kill()
+    except KeyboardInterrupt:
+        print('  прервано')
+    finally:
+        for pr in probes:
+            if pr.poll() is None:
+                pr.kill()
+        removed = 0
+        for path, _ in plan:
+            try:
+                os.remove(path)
+                removed += 1
+            except OSError:
+                pass
+        for target in targets:
+            try:
+                os.rmdir(target)
+            except OSError:
+                pass
+        print('  файлов убрано: %d' % removed)
 
 
 if __name__ == '__main__':

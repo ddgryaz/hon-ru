@@ -2,8 +2,8 @@
 # Убирает русификатор. resources0.jz при установке не трогался, откатывать
 # в самой игре нечего.
 #
-# Заодно чистит каталог игры от файлов прежних версий скрипта: если лаунчер
-# зациклился на "требуется обновление", этот скрипт чинит такое состояние.
+# Если лаунчер зациклился на "требуется обновление" - значит в каталоге игры
+# остались файлы перевода; этот скрипт чинит такое состояние.
 
 set -euo pipefail
 
@@ -19,21 +19,29 @@ if ! hon_detect; then
     exit 1
 fi
 
-hon_remove_legacy
+# Рабочий каталог один, остальные - от прежних версий скрипта
+TARGETS=(
+    "$HON_GAME_DIR/stringtables"
+    "$HON_GAME_DIR/game/stringtables"
+    "$HON_DOCS_DIR/stringtables"
+    "$HON_DOCS_DIR/game/stringtables"
+)
+SUFFIXES=("_en.str" ".str" "_ru.str" "_th.str")
 
-ARCHIVE="$(hon_mod_archive)"
-if [ -f "$ARCHIVE" ]; then
-    rm -f "$ARCHIVE" "$ARCHIVE.tmp"
-    echo "  архив перевода удалён"
-fi
-rmdir "$(dirname "$ARCHIVE")" 2>/dev/null || true
-
-# Только ссылку: настоящий каталог с таким именем мог завести сам игрок
-LINK="$(hon_profile_link)"
-if [ -L "$LINK" ]; then
-    rm -f "$LINK"
-    echo "  ссылка профиля удалена"
-fi
+removed=0
+for target in "${TARGETS[@]}"; do
+    [ -d "$target" ] || continue
+    # Только свои файлы: чужие моды в этих каталогах не трогаем
+    for base in "${HON_STR_BASES[@]}"; do
+        for suffix in "${SUFFIXES[@]}"; do
+            f="$target/${base}${suffix}"
+            [ -f "$f" ] && { rm -f "$f"; removed=$((removed + 1)); }
+        done
+    done
+    rmdir "$target" 2>/dev/null || true
+done
+rmdir "$HON_GAME_DIR/game" "$HON_DOCS_DIR/game" 2>/dev/null || true
+echo "Файлов удалено: $removed"
 
 # Возвращаем только те значения, которые меняли сами: остальное в этом
 # файле - настройки игрока, накопленные с момента установки
@@ -50,4 +58,4 @@ for cache in "$HON_DOCS_DIR/filecache" "$HON_DOCS_DIR/webcache"; do
 done
 rm -f "${XDG_CACHE_HOME:-$HOME/.cache}/hon-ru/strings.sha"
 
-echo "Готово. Не забудь убрать apply.sh из параметров запуска в Steam."
+echo "Готово. Не забудь убрать apply.sh из Launch Options в Steam."

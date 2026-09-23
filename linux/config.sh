@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Поиск установленной игры и общие пути. Подключается через source из скриптов linux/.
+# Поиск установленной игры. Подключается через source из apply.sh и uninstall.sh.
 #
 # Если автопоиск промахнулся - создай linux/config.local.sh (он в .gitignore):
 #   HON_GAME_DIR="/путь/до/AppData/Local/Juvio/heroes of newerth"
@@ -56,45 +56,9 @@ hon_detect() {
     return 1
 }
 
-# Перевод подключается модом: -mod "heroes of newerth;extensions" велит движку
-# читать ещё и Juvio/extensions/resources0.jz поверх основного архива. Каталог
-# лежит рядом с игрой, а не внутри неё, поэтому лаунчер его не проверяет
-HON_MOD=extensions
-
-hon_mod_archive() {
-    printf '%s\n' "$(dirname "$HON_GAME_DIR")/$HON_MOD/resources0.jz"
-}
-
-# Аргумент для juvio.exe: основной каталог игры и мод поверх него
-hon_mod_arg() {
-    printf '%s;%s\n' "$(basename "$HON_GAME_DIR")" "$HON_MOD"
-}
-
-# Последний мод в -mod заодно выбирает профиль настроек: без ссылки игра
-# завела бы пустой Documents/Juvio/extensions и разлогинила игрока
-hon_profile_link() {
-    printf '%s\n' "$(dirname "$HON_DOCS_DIR")/$HON_MOD"
-}
-
-# Убирает файлы, которые прежние версии скрипта клали прямо в каталог игры.
-# Оставшись там, они отправляют лаунчер в вечное "требуется обновление"
-hon_remove_legacy() {
-    local target base suffix removed=0
-    for target in "$HON_GAME_DIR/stringtables" "$HON_GAME_DIR/game/stringtables" \
-                  "$HON_DOCS_DIR/stringtables" "$HON_DOCS_DIR/game/stringtables"; do
-        [ -d "$target" ] || continue
-        # Только свои файлы: чужие моды в этих каталогах не трогаем
-        for base in "${HON_STR_BASES[@]}"; do
-            for suffix in _en.str .str _ru.str _th.str; do
-                [ -f "$target/$base$suffix" ] || continue
-                rm -f "$target/$base$suffix"
-                removed=$((removed + 1))
-            done
-        done
-        rmdir "$target" 2>/dev/null || true
-    done
-    rmdir "$HON_GAME_DIR/game" "$HON_DOCS_DIR/game" 2>/dev/null || true
-    [ "$removed" -eq 0 ] || echo "  убраны файлы прежней версии из каталога игры: $removed"
+# Логи апдейтера: по ним ловим момент, когда лаунчер передал управление движку
+hon_logdir() {
+    printf '%s\n' "${HON_LOG_DIR:-$(dirname "$HON_GAME_DIR")/logs}"
 }
 
 # Проверяет, что нужные утилиты на месте
@@ -129,4 +93,7 @@ hon_extract_base() {
     fi
 }
 
+# Движок запрашивает /stringtables/interface.str и сам подставляет суффикс
+# локали, а в архиве лежат только *_en.str - кладём оба варианта
+HON_STR_SUFFIXES=("_en.str" ".str")
 HON_STR_BASES=(entities interface client_messages game_messages bot_messages)
