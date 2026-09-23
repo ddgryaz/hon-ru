@@ -3494,7 +3494,7 @@ State_urf_name 													BLITZ MODE!
 
 
 
-State_urf_description											Все такие же безумные, как Блиц
+State_urf_description											Все такие же безумные, как Blitz
 
 
 
@@ -3534,7 +3534,7 @@ State_MidWarsBeta_name 											Mid Wars Beta
 
 
 
-State_MidWarsBeta_description									(Режим Блиц)
+State_MidWarsBeta_description									(Режим Blitz)
 
 
 
@@ -5542,7 +5542,7 @@ Ability_Accursed3_name	Sear
 
 
 
-Ability_Accursed3_description									Атаки и способности накладывают Ожог на 2 сек. при применении на врагов или Пылающие удары на 4.5 сек. при применении на союзников.
+Ability_Accursed3_description									Атаки и способности накладывают Ожог на 2 сек. при применении на врагов или Burning Strikes на 4.5 сек. при применении на союзников.
 
 
 
@@ -5566,7 +5566,7 @@ Ability_Accursed3_effect_header									Эффекты Ожога
 
 
 
-Ability_Accursed3_effect_header2								Эффекты Пылающих ударов
+Ability_Accursed3_effect_header2								Эффекты Burning Strikes
 
 
 
@@ -5670,7 +5670,7 @@ State_Accursed_Ability3_Debuff_name								Sear
 
 
 
-State_Accursed_Ability3_Debuff_FRAME_effect						При получении атаки накладывает Пылающие удары на атакующего на 4.5 сек.
+State_Accursed_Ability3_Debuff_FRAME_effect						При получении атаки накладывает Burning Strikes на атакующего на 4.5 сек.
 
 
 
@@ -6286,7 +6286,7 @@ Ability_Adrenaline4_name						 				Death's Halo
 
 
 
-Ability_Adrenaline4_description									Adrenaline окружает себя Нимбом смерти, запирая всех юнитов внутри и делая побег невозможным.
+Ability_Adrenaline4_description									Adrenaline окружает себя Death's Halo, запирая всех юнитов внутри и делая побег невозможным.
 
 
 
@@ -6390,7 +6390,7 @@ State_Adrenaline_Ability4_Self_name								Death's Halo
 
 
 
-State_Adrenaline_Ability4_Self_FRAME_effect						Получите {3,4,5} силы, 5 скор. атаки, 1 броню и 1 маг. броню за каждого настоящего героя на арене "Осколок" (в 2 раза для вражеских героев)\nДлительность "Ореола смерти" уменьшается на 1 сек. каждый раз, когда Адреналин получает совокупный урон, равный 25% от его макс. здоровья.
+State_Adrenaline_Ability4_Self_FRAME_effect						Получите {3,4,5} силы, 5 скор. атаки, 1 броню и 1 маг. броню за каждого настоящего героя на арене "Осколок" (в 2 раза для вражеских героев)\nДлительность "Ореола смерти" уменьшается на 1 сек. каждый раз, когда Adrenaline получает совокупный урон, равный 25% от его макс. здоровья.
 
 
 
@@ -8578,7 +8578,7 @@ Ability_Arachna4_description									Швыряет Паучонка к целе
 
 
 
-Ability_Arachna4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Паучок теперь обездвиживает цель. Уменьшает перезарядку до {30,25,20} сек. и увеличивает дальность применения до 900. Если Паучок убивает цель, он порождает управляемого Взрослого Паучка, который существует 50 сек. Если взрослый паучок убьет вражеского юнита, он создаст паучка-ребенка, который будет существовать 50 сек. Оба паучка могут быть убиты ударами {5,6,7}.
+Ability_Arachna4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Паучок теперь обездвиживает цель. Уменьшает перезарядку до {30,25,20} сек. и увеличивает дальность применения до 900. Если паучок убивает цель, он порождает управляемого Adult Spiderling, который существует 50 сек. Если Adult Spiderling убьет вражеского юнита, он создаст паучка-ребенка, который будет существовать 50 сек. Оба паучка могут быть убиты ударами {5,6,7}.
 
 
 
@@ -9670,7 +9670,7 @@ State_Artesia_Ability3_Bolts_name 								Arcane Bolts
 
 
 
-State_Artesia_Ability3_Bolts_description 						Стреляет мистическими снарядами
+State_Artesia_Ability3_Bolts_description 						Стреляет Arcane Bolts
 
 
 
@@ -9702,7 +9702,7 @@ State_Artesia_Ability3_Bolts_Wisp_name 							Arcane Bolts
 
 
 
-State_Artesia_Ability3_Bolts_Wisp_description 					Стреляет мистическими снарядами
+State_Artesia_Ability3_Bolts_Wisp_description 					Стреляет Arcane Bolts
 
 
 
@@ -11884,7 +11884,7 @@ Ability_Behemoth2_description									Behemoth дает волю гневу, и 
 
 
 
-Ability_Behemoth2_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Дает вспомогательную способность (Яростный прыжок), которую можно применить в целевой позиции на расстоянии до 800 от Бегемота, чтобы отсоединиться, прыгнуть туда и применить Исступление и применить там эффекты Тяжеловеса. Enrage также дает True Strike.\n\nEnraged Leap имеет перезарядку 8 сек. и при использовании вызывает Enrage. Использование Enrage помещает Enraged Leap на перезарядку этой способности.
+Ability_Behemoth2_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Дает вспомогательную способность (Яростный прыжок), которую можно применить в целевой позиции на расстоянии до 800 от Behemoth, чтобы отсоединиться, прыгнуть туда и применить Исступление и применить там эффекты Тяжеловеса. Enrage также дает True Strike.\n\nEnraged Leap имеет перезарядку 8 сек. и при использовании вызывает Enrage. Использование Enrage помещает Enraged Leap на перезарядку этой способности.
 
 
 
@@ -11892,7 +11892,7 @@ Ability_Behemoth2_description2									^gЭта способность може�
 
 
 
-Ability_Behemoth2_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Дает вспомогательную способность (Яростный прыжок), которую можно применить в целевой позиции на расстоянии до 800 от Бегемота, чтобы отсоединиться, прыгнуть туда и применить Исступление и применить там эффекты Тяжеловеса. Enrage также дает True Strike.\n\nEnraged Leap имеет перезарядку 8 сек. и при использовании вызывает Enrage. Использование Enrage помещает Enraged Leap на перезарядку этой способности.
+Ability_Behemoth2_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Дает вспомогательную способность (Яростный прыжок), которую можно применить в целевой позиции на расстоянии до 800 от Behemoth, чтобы отсоединиться, прыгнуть туда и применить Исступление и применить там эффекты Тяжеловеса. Enrage также дает True Strike.\n\nEnraged Leap имеет перезарядку 8 сек. и при использовании вызывает Enrage. Использование Enrage помещает Enraged Leap на перезарядку этой способности.
 
 
 
@@ -11980,7 +11980,7 @@ Ability_Behemoth2_Sub_name:ult_boost							^gEnraged Leap*^*
 
 
 
-Ability_Behemoth2_Sub_description								Бегемот высвобождает свой гнев, заставляя следующую атаку наносить увеличенный урон.
+Ability_Behemoth2_Sub_description								Behemoth высвобождает свой гнев, заставляя следующую атаку наносить увеличенный урон.
 
 
 
@@ -12364,7 +12364,7 @@ Ability_Berzerker1_effect_header
 
 
 
-Ability_Berzerker1_tooltip_flavor								Как вам цепная реакция?
+Ability_Berzerker1_tooltip_flavor								Как вам Chain Reaction?
 
 
 
@@ -13459,7 +13459,7 @@ Ability_Blitz3_description										Blitz заряжает союзника ад
 
 
 
-Ability_Blitz3_description2										^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха: Способности ^* больше не имеют времени применения. Каждый раз, когда Блиц использует способность, он также применяет к себе Quicken на 1 сек. (обычная длительность, если Quicken - это способность, которая была применена).^*
+Ability_Blitz3_description2										^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха: Способности ^* больше не имеют времени применения. Каждый раз, когда Blitz использует способность, он также применяет к себе Quicken на 1 сек. (обычная длительность, если Quicken - это способность, которая была применена).^*
 
 
 
@@ -13859,7 +13859,7 @@ Ability_Bombardier1_name										Sticky Bomb
 
 
 
-Ability_Bombardier1_description									Бомбардир использует свою клейкую смесь, чтобы бросать бомбы, прилипающие к первой поверхности - с контролируемым взрывным результатом.
+Ability_Bombardier1_description									Bombardier использует свою клейкую смесь, чтобы бросать бомбы, прилипающие к первой поверхности - с контролируемым взрывным результатом.
 
 
 
@@ -13955,7 +13955,7 @@ State_Bombardier_Ability1_name									Sticky Bomb
 
 
 
-State_Bombardier_Ability1_description							Кто-то подложил вам бомбу!\nКаждый заряд добавляет к взрыву 1 сек. Оглушения.\n\nБомба действует 6 сек., если ее не взорвал Бомбардир.
+State_Bombardier_Ability1_description							Кто-то подложил вам бомбу!\nКаждый заряд добавляет к взрыву 1 сек. Оглушения.\n\nБомба действует 6 сек., если ее не взорвал Bombardier.
 
 
 
@@ -14011,7 +14011,7 @@ State_Bombardier_Ability1_Modifier_name							Charging up Sticky Bomb
 
 
 
-State_Bombardier_Ability1_Modifier_description					Пока эффект активен, бомба-липучка получает 1 заряд каждые 2 сек.
+State_Bombardier_Ability1_Modifier_description					Пока эффект активен, Sticky Bomb получает 1 заряд каждые 2 сек.
 
 
 
@@ -14019,7 +14019,7 @@ State_Bombardier_Ability1_Modifier_description					Пока эффект акт�
 
 
 
-State_Bombardier_Ability1_Modifier_description2					Каждый заряд увеличивает длительность Оглушения бомбы-липучки на 1 сек.
+State_Bombardier_Ability1_Modifier_description2					Каждый заряд увеличивает длительность Оглушения Sticky Bomb на 1 сек.
 
 
 
@@ -14083,7 +14083,7 @@ State_Bombardier_Ability1_Ground_Bomb_name						Sticky Bomb
 
 
 
-State_Bombardier_Ability1_Ground_Bomb_description				Пока эффект активен, бомба-липучка получает 1 заряд каждые 2 сек.
+State_Bombardier_Ability1_Ground_Bomb_description				Пока эффект активен, Sticky Bomb получает 1 заряд каждые 2 сек.
 
 
 
@@ -14091,7 +14091,7 @@ State_Bombardier_Ability1_Ground_Bomb_description				Пока эффект ак�
 
 
 
-State_Bombardier_Ability1_Ground_Bomb_description2				Каждый заряд увеличивает длительность Оглушения бомбы-липучки на 1 сек.
+State_Bombardier_Ability1_Ground_Bomb_description2				Каждый заряд увеличивает длительность Оглушения Sticky Bomb на 1 сек.
 
 
 
@@ -14123,7 +14123,7 @@ State_Bombardier_Ability1_Ally_name								Sticky Bomb
 
 
 
-State_Bombardier_Ability1_Ally_description						Кто-то подставил вам бомбу!\nКаждый заряд увеличивает длительность Оглушения липкой бомбы на 1 сек.
+State_Bombardier_Ability1_Ally_description						Кто-то подставил вам бомбу!\nКаждый заряд увеличивает длительность Оглушения Sticky Bomb на 1 сек.
 
 
 
@@ -14155,7 +14155,7 @@ Ability_Bombardier2_name										Bombardment
 
 
 
-Ability_Bombardier2_description									Используя свою любимую пушку, Бомбардир осыпает целевую область взрывными ядрами, нанося урон по времени и замедляя врагов.
+Ability_Bombardier2_description									Используя свою любимую пушку, Bombardier осыпает целевую область взрывными ядрами, нанося урон по времени и замедляя врагов.
 
 
 
@@ -14299,7 +14299,7 @@ Ability_Bombardier3_name										Boom Dust
 
 
 
-Ability_Bombardier3_description									Бомбардир подбрасывает лишние бомбы на врага при нанесении урона, вызывая взрыв.
+Ability_Bombardier3_description									Bombardier подбрасывает лишние бомбы на врага при нанесении урона, вызывая взрыв.
 
 
 
@@ -14307,7 +14307,7 @@ Ability_Bombardier3_description									Бомбардир подбрасыва�
 
 
 
-Ability_Bombardier3_Enemy_description							Бомбардир подбрасывает лишние бомбы на врага при нанесении урона, вызывая взрыв.
+Ability_Bombardier3_Enemy_description							Bombardier подбрасывает лишние бомбы на врага при нанесении урона, вызывая взрыв.
 
 
 
@@ -14467,7 +14467,7 @@ Ability_Bombardier4_name										Air Strike!
 
 
 
-Ability_Bombardier4_description									Бомбардир вызывает помощника Твича, который пролетает над полем боя и сбрасывает серию бомб в линию.
+Ability_Bombardier4_description									Bombardier вызывает помощника Твича, который пролетает над полем боя и сбрасывает серию бомб в линию.
 
 
 
@@ -17662,7 +17662,7 @@ Ability_Chronos4_effect_header									Эффекты Хронополя
 
 
 
-Ability_Chronos4_effect_header2									Эффекты Замедления времени
+Ability_Chronos4_effect_header2									Эффекты Time Dilation
 
 
 
@@ -17854,7 +17854,7 @@ State_Chronos_Ability4_Timer_name								Chronofield
 
 
 
-State_Chronos_Ability4_Timer_FRAME_effect						Хронополе истекает вдвое быстрее, когда Хронос не внутри.
+State_Chronos_Ability4_Timer_FRAME_effect						Хронополе истекает вдвое быстрее, когда Chronos не внутри.
 
 
 
@@ -18209,7 +18209,7 @@ Ability_Circe3_IMPACT_effect									Делает вас невидимым мг
 
 
 
-Ability_Circe3_tooltip_flavor									404 Цирцея не найдена.
+Ability_Circe3_tooltip_flavor									404 Circe не найдена.
 
 
 
@@ -18417,7 +18417,7 @@ State_Circe_Ability4_Enemy_name									Twisted Visage
 
 
 
-State_Circe_Ability4_Enemy_FRAME_effect							Цирцея пытается превратиться в тебя!
+State_Circe_Ability4_Enemy_FRAME_effect							Circe пытается превратиться в тебя!
 
 
 
@@ -18561,7 +18561,7 @@ Ability_CorruptedDisciple1_name									Electric Tide
 
 
 
-Ability_CorruptedDisciple1_description							Corrupted Disciple выпускает из сферы Электрический прилив, который расходится и сжимается, раня всех вокруг.
+Ability_CorruptedDisciple1_description							Corrupted Disciple выпускает из сферы Electric Tide, который расходится и сжимается, раня всех вокруг.
 
 
 
@@ -21079,7 +21079,7 @@ Ability_Deadwood2_name:deadwood_ihasatree						Oakbolt
 
 
 
-Ability_Deadwood2_effect_header:deadwood_ihasatree				Эффект Сына березы
+Ability_Deadwood2_effect_header:deadwood_ihasatree				Эффект Son of a Birch
 
 
 
@@ -21567,7 +21567,7 @@ Ability_Defiler1_name											Wave of Death
 
 
 
-Ability_Defiler1_description									Defiler выпускает волну смерти, наносящую маг. урон всем врагам перед ней.
+Ability_Defiler1_description									Defiler выпускает Wave of Death, наносящую маг. урон всем врагам перед ней.
 
 
 
@@ -22443,7 +22443,7 @@ Ability_Devourer4_Staff_name									^gGorge^*
 
 
 
-Ability_Devourer4_Staff_description								Пожиратель проглатывает врага целиком, быстро переваривая его и исцеляя себя.
+Ability_Devourer4_Staff_description								Devourer проглатывает врага целиком, быстро переваривая его и исцеляя себя.
 
 
 
@@ -23027,7 +23027,7 @@ Ability_PlagueRider4_name										Plague Carrier
 
 
 
-Ability_PlagueRider4_description								Plague Rider выпускает во врага Разносчика чумы, который мини-оглушает первую цель. Разносчик ранит цель, на которую упал, и перескакивает на другую цель рядом.
+Ability_PlagueRider4_description								Plague Rider выпускает во врага Plague Carrier, который мини-оглушает первую цель. Plague Carrier ранит цель, на которую упал, и перескакивает на другую цель рядом.
 
 
 
@@ -24024,7 +24024,7 @@ State_DoctorRepulsor_Ability3_name								Fully Charged
 
 
 
-State_DoctorRepulsor_Ability3_FRAME_effect						При атаке наносит {40,60,80,100} маг. урона в радиусе 300 и применяет электрическое безумие на 0,6 сек.
+State_DoctorRepulsor_Ability3_FRAME_effect						При атаке наносит {40,60,80,100} маг. урона в радиусе 300 и применяет Electric Frenzy на 0,6 сек.
 
 
 
@@ -24088,7 +24088,7 @@ Ability_DoctorRepulsor4_ACTIVATE_COST_effect					^cСтоимость: 11% от 
 
 
 
-Ability_DoctorRepulsor4_description								Doctor Repulsor разгоняет капсулу до предела и за счет маны несется к указанной точке с Безумной Скоростью. Все юниты на пути получают урон, а деревья уничтожаются.
+Ability_DoctorRepulsor4_description								Doctor Repulsor разгоняет капсулу до предела и за счет маны несется к указанной точке с Ludicrous Speed. Все юниты на пути получают урон, а деревья уничтожаются.
 
 
 
@@ -24528,7 +24528,7 @@ Ability_DrunkenMaster3_name	Drink
 
 
 
-Ability_DrunkenMaster3_description								Пьяный Мастер пьет, готовясь к бою в пьяном стиле!
+Ability_DrunkenMaster3_description								Drunken Master пьет, готовясь к бою в пьяном стиле!
 
 
 
@@ -24667,7 +24667,7 @@ Ability_DrunkenMaster4_name										3 Point Strike
 
 
 
-Ability_DrunkenMaster4_description								Атакуя врага с нескольких сторон, Пьяный Мастер застает его врасплох, подбрасывая в воздух с силой пьяного бойца.
+Ability_DrunkenMaster4_description								Атакуя врага с нескольких сторон, Drunken Master застает его врасплох, подбрасывая в воздух с силой пьяного бойца.
 
 
 
@@ -24675,7 +24675,7 @@ Ability_DrunkenMaster4_description								Атакуя врага с неско�
 
 
 
-Ability_DrunkenMaster4_description2								^gЭта способность может быть усилена Посохом Мастера:^* при срабатывании обновляет перезарядку базовых способностей.\n\nВызывает появление 3 точек удара на ближайших вражеских героях.\n\nЛюбой урон, не связанный с DoT, от Пьяного Мастера активирует точку удара с его направления.\n\nКогда активированы все 3 точки удара, Пьяный Мастер наносит удар на ^o{250,375,500} физ. урона^* и подбрасывает их в воздух, применяя ^o{1,1.5,2} сек. Оглушения^*.\n\nОчки ударов сбрасываются через 12 сек., если ни одна новая точка удара не была активирована или все они были активированы.
+Ability_DrunkenMaster4_description2								^gЭта способность может быть усилена Посохом Мастера:^* при срабатывании обновляет перезарядку базовых способностей.\n\nВызывает появление 3 точек удара на ближайших вражеских героях.\n\nЛюбой урон, не связанный с DoT, от Drunken Master активирует точку удара с его направления.\n\nКогда активированы все 3 точки удара, Drunken Master наносит удар на ^o{250,375,500} физ. урона^* и подбрасывает их в воздух, применяя ^o{1,1.5,2} сек. Оглушения^*.\n\nОчки ударов сбрасываются через 12 сек., если ни одна новая точка удара не была активирована или все они были активированы.
 
 
 
@@ -24899,7 +24899,7 @@ Ability_Blacksmith2_name											Flaming Hammer
 
 
 
-Ability_Blacksmith2_description									Blacksmith швыряет во врага Пылающий Молот, который взрывается при попадании. Взрыв поджигает цель: она получает периодический урон, теряет скор. движ. и маг. броню.
+Ability_Blacksmith2_description									Blacksmith швыряет во врага Flaming Hammer, который взрывается при попадании. Взрыв поджигает цель: она получает периодический урон, теряет скор. движ. и маг. броню.
 
 
 
@@ -25118,7 +25118,7 @@ Ability_Blacksmith4_description_simple		Даёт ^oFireball^* и ^oFrenzy^* ша
 
 
 
-Ability_Blacksmith4_description2									^gПосох Мастера^* добавляет к этой способности ^oРискованное способность^*, затрачивая 30 % от вашего максимального запаса маны на применение огненного шара 4-го уровня к вражескому юниту.\n\nВаши автоатак также имеют 15 % шанс применить огненный шар, пылающий молот и/или безумие. Эти способности не могут использоваться одновременно и не имеют общего времени восстановления с вашими обычными способностями.
+Ability_Blacksmith4_description2									^gПосох Мастера^* добавляет к этой способности ^oRisky Cast^*, затрачивая 30 % от вашего максимального запаса маны на применение Fireball 4-го уровня к вражескому юниту.\n\nВаши автоатак также имеют 15 % шанс применить Fireball, Flaming Hammer и/или Frenzy. Эти способности не могут использоваться одновременно и не имеют общего времени восстановления с вашими обычными способностями.
 
 
 
@@ -25177,7 +25177,7 @@ Ability_Blacksmith4_description:ult_boost						Кузнец опытен в иг
 
 
 
-Ability_Blacksmith4_description2:ult_boost						^gВаши автоатак теперь с вероятностью 15% могут применить "Огненный шар", "Пылающий молот" и/или "Безумие". Эти способности не могут использоваться одновременно и не имеют общего времени восстановления с вашими обычными способностями.^*
+Ability_Blacksmith4_description2:ult_boost						^gВаши автоатак теперь с вероятностью 15% могут применить Fireball, Flaming Hammer и/или Frenzy. Эти способности не могут использоваться одновременно и не имеют общего времени восстановления с вашими обычными способностями.^*
 
 
 
@@ -25657,7 +25657,7 @@ Ability_Slither4_effect_header									Эффекты Кислотного яд�
 
 
 
-Ability_Slither4_effect_header:ult_boost							Эффекты Кислотного яда
+Ability_Slither4_effect_header:ult_boost							Эффекты Acidic Poison
 
 
 
@@ -25952,7 +25952,7 @@ Ability_Electrician2_description								Electrician создает вокруг 
 
 
 
-Ability_Electrician2_description2								^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Электрический щит становится переключателем. Если мана Электрика достигает 0, эффект ауры урона от Электрического щита остается активным.
+Ability_Electrician2_description2								^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Electric Shield становится переключателем. Если мана Electrician достигает 0, эффект ауры урона от Electric Shield остается активным.
 
 
 
@@ -26240,7 +26240,7 @@ State_Electrician_Ability3_name									Energy Absorption
 
 
 
-State_Electrician_Ability3_FRAME_effect							+5 скорости за каждого врага, задетого Поглощением Энергии, максимум +40
+State_Electrician_Ability3_FRAME_effect							+5 скорости за каждого врага, задетого Energy Absorption, максимум +40
 
 
 
@@ -27420,7 +27420,7 @@ Ability_EmeraldWarden4_name										Summon Gawain
 
 
 
-Ability_EmeraldWarden4_description								Навсегда вызвать неуправляемого фамильяра. Гавейн изучает "Пикирующий удар" на уровне 1, "Прикосновение леса" на уровне 2 и "Изумрудный шторм" на уровне 3.\n\n^oПикирующий удар:^* Наносит {100,200,300} физ. урона вражескому герою в радиусе 650 единиц. восстановление {8,7,6} сек.\n\n^oПрикосновение леса:^* Когда ваше здоровье падает ниже 40%, вы исцеляете вас на 200 ед. здоровья и применяете бафф, повышающий скор. атаки и передвижения на 40 на 5 сек. Перезарядка 35 сек.\n\n^oИзумрудный шторм:^* Вызывает шторм длительностью до 4 сек., который наносит 50 маг. урона в сек. и замедляет скор. движ. на 30% к врагам в радиусе 400. Перезарядка 50 сек.
+Ability_EmeraldWarden4_description								Навсегда вызвать неуправляемого фамильяра. Gawain изучает "Diving Strike" на уровне 1, "Forest's Touch" на уровне 2 и "Emerald Storm" на уровне 3.\n\n^oDiving Strike:^* Наносит {100,200,300} физ. урона вражескому герою в радиусе 650 единиц. восстановление {8,7,6} сек.\n\n^oForest's Touch:^* Когда ваше здоровье падает ниже 40%, вы исцеляете вас на 200 ед. здоровья и применяете бафф, повышающий скор. атаки и передвижения на 40 на 5 сек. Перезарядка 35 сек.\n\n^oEmerald Storm:^* Вызывает шторм длительностью до 4 сек., который наносит 50 маг. урона в сек. и замедляет скор. движ. на 30% к врагам в радиусе 400. Перезарядка 50 сек.
 
 
 
@@ -27428,7 +27428,7 @@ Ability_EmeraldWarden4_description								Навсегда вызвать неу
 
 
 
-Ability_EmeraldWarden4_description:ult_boost					Навсегда вызвать неуправляемого фамильяра. Гавейн изучает "Пикирующий удар" на уровне 1, "Прикосновение леса" на уровне 2 и "Изумрудный шторм" на уровне 3.\n\n^oПикирующий удар:^* Наносит {100,200,300} физ. урона вражескому герою в радиусе 650 единиц и ^gОглушает его на 0,3 сек.^* перезарядка {8,7,6} сек.\n\n^oПрикосновение леса:^* Когда ваше здоровье падает ниже 40%, лечит вас ^g и союзников в радиусе 400 ^* на 200 здоровья и накладывает на вас бафф, который увеличивает скор. атаки и передвижения на 40 на 5 сек. Перезарядка 35 сек.\n\n^oИзумрудный шторм:^* Вызывает шторм длительностью до 4 сек., который наносит 50 маг. урона в сек. и замедляет скор. движ. на 30% к врагам в радиусе 400. ^gТакже раскрывает врагов на 8 сек.^* Перезарядка 50 сек.
+Ability_EmeraldWarden4_description:ult_boost					Навсегда вызвать неуправляемого фамильяра. Gawain изучает "Diving Strike" на уровне 1, "Forest's Touch" на уровне 2 и "Emerald Storm" на уровне 3.\n\n^oDiving Strike:^* Наносит {100,200,300} физ. урона вражескому герою в радиусе 650 единиц и ^gОглушает его на 0,3 сек.^* перезарядка {8,7,6} сек.\n\n^oForest's Touch:^* Когда ваше здоровье падает ниже 40%, лечит вас ^g и союзников в радиусе 400 ^* на 200 здоровья и накладывает на вас бафф, который увеличивает скор. атаки и передвижения на 40 на 5 сек. Перезарядка 35 сек.\n\n^oEmerald Storm:^* Вызывает шторм длительностью до 4 сек., который наносит 50 маг. урона в сек. и замедляет скор. движ. на 30% к врагам в радиусе 400. ^gТакже раскрывает врагов на 8 сек.^* Перезарядка 50 сек.
 
 
 
@@ -27436,7 +27436,7 @@ Ability_EmeraldWarden4_description:ult_boost					Навсегда вызвать
 
 
 
-Ability_EmeraldWarden4_description2								^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* вызвать другого Гавейна на союзного героя. "Пикирующий удар" накладывает Оглушение на 0,3 сек., "Прикосновение леса" теперь исцеляет ближайших союзников на 200 ед. здоровья в течение 5 сек., а "Изумрудный шторм" раскрывает пораженных врагов на 8 сек.
+Ability_EmeraldWarden4_description2								^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* вызвать другого Gawain на союзного героя. "Diving Strike" накладывает Оглушение на 0,3 сек., "Forest's Touch" теперь исцеляет ближайших союзников на 200 ед. здоровья в течение 5 сек., а "Emerald Storm" раскрывает пораженных врагов на 8 сек.
 
 
 
@@ -27452,7 +27452,7 @@ Ability_EmeraldWarden4_description_simple						Призывает вашего �
 
 
 
-Ability_EmeraldWarden4_tooltip_flavor							"Гавейн, твой хозяин просит помощи!"
+Ability_EmeraldWarden4_tooltip_flavor							"Gawain, твой хозяин просит помощи!"
 
 
 
@@ -27476,7 +27476,7 @@ Ability_EmeraldWarden4_name:ult_boost							^gSummon Gawains*^*
 
 
 
-Ability_EmeraldWarden4_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* вызвать другого Гавейна на союзного героя. "Пикирующий удар" накладывает Оглушение на 0,3 сек., "Прикосновение леса" теперь исцеляет ближайших союзников на 200 ед. здоровья в течение 5 сек., а "Изумрудный шторм" раскрывает пораженных врагов на 8 сек.
+Ability_EmeraldWarden4_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* вызвать другого Gawain на союзного героя. "Пикирующий удар" накладывает Оглушение на 0,3 сек., "Прикосновение леса" теперь исцеляет ближайших союзников на 200 ед. здоровья в течение 5 сек., а "Изумрудный шторм" раскрывает пораженных врагов на 8 сек.
 
 
 
@@ -27532,7 +27532,7 @@ Ability_EmeraldWarden4_a_name:ult_boost							^gDiving Strike*^*
 
 
 
-Ability_EmeraldWarden4_a_description							Гавейн атакует ближайшего героя, нанося {100,200,300} физ. урона.
+Ability_EmeraldWarden4_a_description							Gawain атакует ближайшего героя, нанося {100,200,300} физ. урона.
 
 
 
@@ -27540,7 +27540,7 @@ Ability_EmeraldWarden4_a_description							Гавейн атакует ближ�
 
 
 
-Ability_EmeraldWarden4_a_description:ult_boost					Гавейн атакует ближайшего героя, нанося {100,200,300} физ. урона и ^gоглушая его на 0,3 сек.^*
+Ability_EmeraldWarden4_a_description:ult_boost					Gawain атакует ближайшего героя, нанося {100,200,300} физ. урона и ^gоглушая его на 0,3 сек.^*
 
 
 
@@ -27548,7 +27548,7 @@ Ability_EmeraldWarden4_a_description:ult_boost					Гавейн атакует �
 
 
 
-Ability_EmeraldWarden4_a_description_simple						Гавейн атакует ближайшего героя, нанося {100,200,300} физ. урона.
+Ability_EmeraldWarden4_a_description_simple						Gawain атакует ближайшего героя, нанося {100,200,300} физ. урона.
 
 
 
@@ -27564,7 +27564,7 @@ Ability_EmeraldWarden4_a_description_simple:ult_boost			Gawain атакует г
 
 
 
-Ability_EmeraldWarden4_a_tooltip_flavor							"Гавейн, используй "Пикирующий удар"!"
+Ability_EmeraldWarden4_a_tooltip_flavor							"Gawain, используй "Diving Strike"!"
 
 
 
@@ -27604,7 +27604,7 @@ Ability_EmeraldWarden4_b_name:ult_boost							^gForest's Touch*^*
 
 
 
-Ability_EmeraldWarden4_b_description							При здоровье ниже 40% Гавейн исцеляет на 200 и дает 40 скор. атаки и передвижения на 5 сек.
+Ability_EmeraldWarden4_b_description							При здоровье ниже 40% Gawain исцеляет на 200 и дает 40 скор. атаки и передвижения на 5 сек.
 
 
 
@@ -27612,7 +27612,7 @@ Ability_EmeraldWarden4_b_description							При здоровье ниже 40% 
 
 
 
-Ability_EmeraldWarden4_b_description:ult_boost					Когда ваш уровень здоровья ниже 40%, Гавейн исцеляет вас на 200 единиц здоровья и повышает скор. атаки и передвижения на 40 на 5 сек.\n^gТакже исцеляет союзников вокруг хозяина Гавейна на 200 единиц здоровья в течение 5 сек.^*
+Ability_EmeraldWarden4_b_description:ult_boost					Когда ваш уровень здоровья ниже 40%, Gawain исцеляет вас на 200 единиц здоровья и повышает скор. атаки и передвижения на 40 на 5 сек.\n^gТакже исцеляет союзников вокруг хозяина Gawain на 200 единиц здоровья в течение 5 сек.^*
 
 
 
@@ -27620,7 +27620,7 @@ Ability_EmeraldWarden4_b_description:ult_boost					Когда ваш урове�
 
 
 
-Ability_EmeraldWarden4_b_description_simple						При здоровье ниже 40% Гавейн исцеляет на 200 и дает 40 скор. атаки и передвижения на 5 сек.
+Ability_EmeraldWarden4_b_description_simple						При здоровье ниже 40% Gawain исцеляет на 200 и дает 40 скор. атаки и передвижения на 5 сек.
 
 
 
@@ -27636,7 +27636,7 @@ Ability_EmeraldWarden4_b_description_simple:ult_boost			Когда у вас м�
 
 
 
-Ability_EmeraldWarden4_b_tooltip_flavor							"Гавейн, используй "Касание леса"!"
+Ability_EmeraldWarden4_b_tooltip_flavor							"Gawain, используй "Касание леса"!"
 
 
 
@@ -27676,7 +27676,7 @@ Ability_EmeraldWarden4_c_name:ult_boost							^gEmerald Storm*^*
 
 
 
-Ability_EmeraldWarden4_c_description							Гавейн создает шторм, наносящий урон 2+ героям до 4 сек. 50 маг. урон/с и 30% замедление.
+Ability_EmeraldWarden4_c_description							Gawain создает шторм, наносящий урон 2+ героям до 4 сек. 50 маг. урон/с и 30% замедление.
 
 
 
@@ -27684,7 +27684,7 @@ Ability_EmeraldWarden4_c_description							Гавейн создает штор�
 
 
 
-Ability_EmeraldWarden4_c_description:ult_boost					Гавейн создает шторм, который наносит урон 2 или более героям на срок до 4 сек. Шторм наносит 50 маг. урона в сек., замедляет скор. движ. на 30% и ^gОбнаруживает врагов на 8 сек. Сохраняется после выхода из шторма.^*
+Ability_EmeraldWarden4_c_description:ult_boost					Gawain создает шторм, который наносит урон 2 или более героям на срок до 4 сек. Шторм наносит 50 маг. урона в сек., замедляет скор. движ. на 30% и ^gОбнаруживает врагов на 8 сек. Сохраняется после выхода из шторма.^*
 
 
 
@@ -27692,7 +27692,7 @@ Ability_EmeraldWarden4_c_description:ult_boost					Гавейн создает �
 
 
 
-Ability_EmeraldWarden4_c_description_simple						Гавейн создает шторм, наносящий урон 2+ героям до 4 сек. 50 маг. урон/с и 30% замедление.
+Ability_EmeraldWarden4_c_description_simple						Gawain создает шторм, наносящий урон 2+ героям до 4 сек. 50 маг. урон/с и 30% замедление.
 
 
 
@@ -27708,7 +27708,7 @@ Ability_EmeraldWarden4_c_description_simple:ult_boost			Gawain вызывает 
 
 
 
-Ability_EmeraldWarden4_c_tooltip_flavor							"Гавейн, используй "Изумрудный шторм"!"
+Ability_EmeraldWarden4_c_tooltip_flavor							"Gawain, используй "Emerald Storm"!"
 
 
 
@@ -28364,7 +28364,7 @@ Ability_Empath5_name											Faster!
 
 
 
-Ability_Empath5_description										Эмпат управляет разумом носителя, побуждая его двигаться быстрее.
+Ability_Empath5_description										Empath управляет разумом носителя, побуждая его двигаться быстрее.
 
 
 
@@ -28484,7 +28484,7 @@ State_Empath_Ability4_Target_description						Empath внутри!
 
 
 
-State_Empath_Ability4_Target_description:ult_boost				Эмпат находится внутри и дает вам эффекты ^gПосох Мастера^*.
+State_Empath_Ability4_Target_description:ult_boost				Empath находится внутри и дает вам эффекты ^gПосох Мастера^*.
 
 
 
@@ -28660,7 +28660,7 @@ Ability_Engineer2_name											Steam Turret
 
 
 
-Ability_Engineer2_description									Паровая турель - это чудо скорострельной технологии, дублирующей предметы инженера и стреляющей самостоятельно.\n\nИмеет доп. способность, позволяющую переключать алгоритм прицеливания.
+Ability_Engineer2_description									Steam Turret - это чудо скорострельной технологии, дублирующей предметы Engineer и стреляющей самостоятельно.\n\nИмеет доп. способность, позволяющую переключать алгоритм прицеливания.
 
 
 
@@ -29883,7 +29883,7 @@ Ability_Nymphora1_name:fairy_Q_active								Volatile Pod (Explode)
 
 
 
-Ability_Nymphora1_description										Nymphora выпускает взрывной стручок, исцеляющий союзников или наносящий урон врагам в области.
+Ability_Nymphora1_description										Nymphora выпускает Volatile Pod, исцеляющий союзников или наносящий урон врагам в области.
 
 
 
@@ -31291,7 +31291,7 @@ State_FlintBeastwood_Ability3_Aura_name							Dead Eye
 
 
 
-State_FlintBeastwood_Ability3_Aura_FRAME_effect					{30,40,50,60}% Шанс получить Точный удар от ваших атак
+State_FlintBeastwood_Ability3_Aura_FRAME_effect					{30,40,50,60}% Шанс получить True Strike от ваших атак
 
 
 
@@ -31904,7 +31904,7 @@ Ability_Flux3_description										Flux меняет полярность (пр�
 
 
 
-Ability_Flux3_description:Flux_subpush							Флакс меняет полярность (с притяжения на отталкивание). Пассивно увеличивает дальность атаки.
+Ability_Flux3_description:Flux_subpush							Flux меняет полярность (с притяжения на отталкивание). Пассивно увеличивает дальность атаки.
 
 
 
@@ -31912,7 +31912,7 @@ Ability_Flux3_description:Flux_subpush							Флакс меняет поляр�
 
 
 
-Ability_Flux3_description:Flux_subpull							Флакс меняет полярность (с отталкивания на притяжение). Пассивно увеличивает дальность атаки.
+Ability_Flux3_description:Flux_subpull							Flux меняет полярность (с отталкивания на притяжение). Пассивно увеличивает дальность атаки.
 
 
 
@@ -32560,7 +32560,7 @@ Ability_ForsakenArcher4_name									Piercing Arrows
 
 
 
-Ability_ForsakenArcher4_description								Движимая яростью в сердце, Forsaken Archer создает образ, стреляющий Пронзающими стрелами: они пролетают сквозь цель и поражают других врагов за ней, пока не рассеются.
+Ability_ForsakenArcher4_description								Движимая яростью в сердце, Forsaken Archer создает образ, стреляющий Piercing Arrows: они пролетают сквозь цель и поражают других врагов за ней, пока не рассеются.
 
 
 
@@ -33856,7 +33856,7 @@ Ability_Gauntlet4_Sub_name	Rocket Fist
 
 
 
-Ability_Gauntlet4_Sub_description								Подпитываемый зловещей силой, Гонтлет запускает перчатку в небо по целевой области, мгновенно получая обзор на 4 сек. После 1 сек. задержки враги в целевой области оглушаются (Высшая Магия), получают маг. урон и обнаруживаются.
+Ability_Gauntlet4_Sub_description								Подпитываемый зловещей силой, Gauntlet запускает перчатку в небо по целевой области, мгновенно получая обзор на 4 сек. После 1 сек. задержки враги в целевой области оглушаются (Высшая Магия), получают маг. урон и обнаруживаются.
 
 
 
@@ -34208,7 +34208,7 @@ Ability_Gemini3_tooltip_flavor									Зачем надевать ботинк�
 
 
 
-Ability_Gemini3_FRAME_effect									Близнецы получают бонусы в зависимости от атрибута.\n\n- Дает ^o1 пробивания брони^* за ^o{18,15,12,9}^* очков Силы.\n- Дает ^o1 Скор. движ.^* за ^o{6,5,4,3}^* очков ловкости.\n- Дает ^o1 Применение Скорость^* за ^o{4,2,1.33,1}^* очков Интеллекта.\n\nОгонь и лед получают 60% бонусов от Силы стихий.\n\nДополнительная скор. движ. и скорость сотворения чар ограничены 127.
+Ability_Gemini3_FRAME_effect									Gemini получают бонусы в зависимости от атрибута.\n\n- Дает ^o1 пробивания брони^* за ^o{18,15,12,9}^* очков Силы.\n- Дает ^o1 Скор. движ.^* за ^o{6,5,4,3}^* очков ловкости.\n- Дает ^o1 Применение Скорость^* за ^o{4,2,1.33,1}^* очков Интеллекта.\n\nFire and Ice получают 60% бонусов от Силы стихий.\n\nДополнительная скор. движ. и скорость сотворения чар ограничены 127.
 
 
 
@@ -34248,7 +34248,7 @@ Ability_Gemini4_description 									Gemini показывает, что он - 
 
 
 
-Ability_Gemini4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Теперь также порождает третью эле ментальную сущность, Свет. У Света есть свои варианты первой и второй способностей других элементальных сущностей, он может вернуться в Огонь и Лед после применения и имеет пассивную способность, основанную на разведке. ^rСвет наносит на 67% меньше урона, если находится рядом с огнем и льдом.^*
+Ability_Gemini4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Теперь также порождает третью элементальную сущность, Light. У Light есть свои варианты первой и второй способностей других элементальных сущностей, он может вернуться в Fire и Ice после применения и имеет пассивную способность, основанную на разведке. ^rРядом и с Fire, и с Ice Light наносит на 67% меньше урона.^*
 
 
 
@@ -34280,7 +34280,7 @@ Ability_Gemini4_name:ult_boost 									^gFire, Ice & Light*^*
 
 
 
-Ability_Gemini4_description:ult_boost 							Близнецы открывают, что на самом деле они - сочетание трех стихийных сущностей: Огня, Льда и Света, и возвращаются к своему базовому состоянию трех форм.
+Ability_Gemini4_description:ult_boost 							Gemini открывают, что на самом деле они - сочетание трех стихийных сущностей: Огня, Льда и Света, и возвращаются к своему базовому состоянию трех форм.
 
 
 
@@ -34552,7 +34552,7 @@ Ability_Firecat3_name											Together in Spirit
 
 
 
-Ability_Firecat3_description									Огонь и Лед связаны, как бы далеко они ни разошлись, позволяя найти друг друга за сек. в любой момент.
+Ability_Firecat3_description									Fire and Ice связаны, как бы далеко они ни разошлись, позволяя найти друг друга за сек. в любой момент.
 
 
 
@@ -34712,7 +34712,7 @@ Ability_Firecat4_name											Rebirth
 
 
 
-Ability_Firecat4_description									Огонь и Лед объединяются, вновь рождая Близнецов
+Ability_Firecat4_description									Fire and Ice объединяются, вновь рождая Gemini
 
 
 
@@ -34992,7 +34992,7 @@ Ability_Icecat3_name											Together in Spirit
 
 
 
-Ability_Icecat3_description										Огонь и Лед связаны, как бы далеко они ни разошлись, позволяя найти друг друга за сек. в любой момент.
+Ability_Icecat3_description										Fire and Ice связаны, как бы далеко они ни разошлись, позволяя найти друг друга за сек. в любой момент.
 
 
 
@@ -35136,7 +35136,7 @@ Ability_Icecat4_name											Rebirth
 
 
 
-Ability_Icecat4_description										Огонь и Лед объединяются, вновь рождая Близнецов
+Ability_Icecat4_description										Fire and Ice объединяются, вновь рождая Gemini
 
 
 
@@ -35656,7 +35656,7 @@ Ability_Geomancer1_name	Dig
 
 
 
-Ability_Geomancer1_description									Геомант зарывается под землю, мчится сквозь нее и вырывается наружу, оглушая ближайших врагов.
+Ability_Geomancer1_description									Geomancer зарывается под землю, мчится сквозь нее и вырывается наружу, оглушая ближайших врагов.
 
 
 
@@ -36880,7 +36880,7 @@ State_Gladiator_Ability4_Damage_name 					Call to Arms Buffer Damage
 
 
 
-State_Gladiator_Ability4_Damage_FRAME_effect					Наносит урон, накопленный "Зовом к оружию", Гладиатору как прямое снятие здоровья
+State_Gladiator_Ability4_Damage_FRAME_effect					Наносит урон, накопленный "Call to Arms", Gladiator как прямое снятие здоровья
 
 
 
@@ -39685,7 +39685,7 @@ Ability_NightHound4_description_simple							Дает ^o{6,12,18} ловкост
 
 
 
-Ability_NightHound4_description2									Этот навык можно ^oулучшить на уровнях 1, 6 и 11^*.\n\nПассивно дает постоянную скрытность с ^o{4,3.25,2.5} секундным временем затухания^*. Можно отключить.\n\nНевидимость становится неактивной, когда Night Hound под Безмолвием. ^oСкрытность не нарушается при использовании предметов (исключение: Камень телепортации)^*.
+Ability_NightHound4_description2									Этот навык можно ^oулучшить на уровнях 1, 6 и 11^*.\n\nПассивно дает постоянную скрытность с ^o{4,3.25,2.5} секундным временем затухания^*. Можно отключить.\n\nНевидимость становится неактивной, когда Night Hound под Безмолвием. ^oСкрытность не нарушается при использовании предметов (исключение: Teleportation Stone)^*.
 
 
 
@@ -41728,7 +41728,7 @@ State_BloodHunter_Ability1_Debuff_name								Blood Crazy
 
 
 
-State_BloodHunter_Ability1_Debuff_FRAME_effect						Получение {10,20,30,40} маг. урона в сек.\nУвеличивает длительность Безмолвия на 1 сек. при получении атаки от Кровавого Охотника.
+State_BloodHunter_Ability1_Debuff_FRAME_effect						Получение {10,20,30,40} маг. урона в сек.\nУвеличивает длительность Безмолвия на 1 сек. при получении атаки от Blood Hunter.
 
 
 
@@ -42104,7 +42104,7 @@ State_BloodHunter_Ability4_name										Hemorrhage
 
 
 
-State_BloodHunter_Ability4_FRAME_effect								Абсолютный маг. урон, получаемый в зависимости от {40,60,80}% пройденного расстояния\n\nТелепортации "Камень телепортации" и "Пост-ускорение" не вызывают урон, вызванный "Кровоизлиянием", когда юнит перемещается.
+State_BloodHunter_Ability4_FRAME_effect								Абсолютный маг. урон, получаемый в зависимости от {40,60,80}% пройденного расстояния\n\nТелепортации Teleportation Stone и Post Haste не вызывают урон от Hemorrhage, когда юнит перемещается.
 
 
 
@@ -43048,7 +43048,7 @@ State_Ichor_Ability2_Ally_name									Transfusion
 
 
 
-State_Ichor_Ability2_Ally_FRAME_effect							{30}% полученного урона наносится Ихору вместо несмертельного урона.
+State_Ichor_Ability2_Ally_FRAME_effect							{30}% полученного урона наносится Ichor вместо несмертельного урона.
 
 
 
@@ -43136,7 +43136,7 @@ Ability_Ichor3_description_simple 								Пассивно снижает вес
 
 
 
-Ability_Ichor3_DAMAGED_effect									Пассивно снижает все виды физического и маг. урона ^oна 5% + {4,6,8,10}%^* за каждый дебафф на Ихоре (максимальное общее снижение урона составляет ^o{21,29,38,45}%^*).\n\nВыберите союзного героя, чтобы наложить на него Ихорическую кровь на неопределенный срок, срок действия которого истекает только в случае их смерти или передачи Ихорической крови другому союзному герою.\n\nНаходясь в радиусе 1200 от Ихора, урон, нанесенный авто атаками и не ультимативными способностями Ихора вражеским героям, исцеляет союзника Ихоровой кровью на ^o{5,10,15,20} здоровья^*.
+Ability_Ichor3_DAMAGED_effect									Пассивно снижает все виды физического и маг. урона ^oна 5% + {4,6,8,10}%^* за каждый дебафф на Ichor (максимальное общее снижение урона составляет ^o{21,29,38,45}%^*).\n\nВыберите союзного героя, чтобы наложить на него Ichoric Blood на неопределенный срок, срок действия которого истекает только в случае их смерти или передачи Ichoric Blood другому союзному герою.\n\nНаходясь в радиусе 1200 от Ichor, урон, нанесенный авто атаками и не ультимативными способностями Ichor вражеским героям, исцеляет союзника Ichoric Blood на ^o{5,10,15,20} здоровья^*.
 
 
 
@@ -43168,7 +43168,7 @@ State_Ichor_Ability3_Mark_name									Ichoric Blood
 
 
 
-State_Ichor_Ability3_Mark_FRAME_effect							Находясь в радиусе 1200 от Ихора, урон, нанесенный авто атаками и не ультимативными способностями Ихора вражеским героям, исцеляет союзника Ихоровой кровью на {5,10,15,20} здоровья}.
+State_Ichor_Ability3_Mark_FRAME_effect							Находясь в радиусе 1200 от Ichor, урон, нанесенный авто атаками и не ультимативными способностями Ichor вражеским героям, исцеляет союзника Ichoric Blood на {5,10,15,20} здоровья}.
 
 
 
@@ -43920,7 +43920,7 @@ Ability_Jeraziah1_name											Inner Light
 
 
 
-Ability_Jeraziah1_description									Jeraziah высвобождает Внутренний свет союзного юнита рядом, исцеляя его. Сила Света опаляет врагов рядом, нанося им урон.
+Ability_Jeraziah1_description									Jeraziah высвобождает Inner Light союзного юнита рядом, исцеляя его. Сила Света опаляет врагов рядом, нанося им урон.
 
 
 
@@ -45631,7 +45631,7 @@ State_KingKlout_Ability4_name									King Klout's Parade
 
 
 
-State_KingKlout_Ability4_description							В страхе от Парада силы
+State_KingKlout_Ability4_description							Страх от Parade of Power
 
 
 
@@ -45663,7 +45663,7 @@ State_KingKlout_Ability4_Self_name								Parade of Power
 
 
 
-State_KingKlout_Ability4_Self_description						Можно телепортироваться к местоположению Парада силы
+State_KingKlout_Ability4_Self_description						Можно телепортироваться к местоположению Parade of Power
 
 
 
@@ -45919,7 +45919,7 @@ Ability_Klanx2_effect_header2
 
 
 
-Ability_Klanx2_tooltip_flavor									Высотный воздушный змей
+Ability_Klanx2_tooltip_flavor									Высотный Wing Kite
 
 
 
@@ -47175,7 +47175,7 @@ Ability_MoonQueen3_description										Moon Queen излучает силу л�
 
 
 
-Ability_MoonQueen3_description2										Увеличивает радиус ночного зрения Лунной Королевы на 800 единиц.
+Ability_MoonQueen3_description2										Увеличивает радиус ночного зрения Moon Queen на 800 единиц.
 
 
 
@@ -47295,7 +47295,7 @@ Ability_MoonQueen4_name	Moon Finale
 
 
 
-Ability_MoonQueen4_description										Moon Queen ненадолго раз за разом применяет Лунный луч на случайных врагов рядом.
+Ability_MoonQueen4_description										Moon Queen ненадолго раз за разом применяет Moon Beam на случайных врагов рядом.
 
 
 
@@ -48791,7 +48791,7 @@ Ability_Kane3_description										С каждым взмахом Kane подр�
 
 
 
-Ability_Kane3_description2										Пассивно заставляет ваши автоатаки и Waylay накладывать на цель заряд Мучения Кейна на 4 сек. Максимальное количество зарядов ^o{1,2,3,4}^*.\n\nМучение Кейна заставляет атаки цели наносить на ^o{20}%^* меньше урона от атаки за заряд, а также получать урон, равный ^o5% от ее силы атаки за заряд^*, когда Кейн атакует ее.\n\nЭта способность работает на башнях.
+Ability_Kane3_description2										Пассивно заставляет ваши автоатаки и Waylay накладывать на цель заряд Мучения Kane на 4 сек. Максимальное количество зарядов ^o{1,2,3,4}^*.\n\nМучение Kane заставляет атаки цели наносить на ^o{20}%^* меньше урона от атаки за заряд, а также получать урон, равный ^o5% от ее силы атаки за заряд^*, когда Kane атакует ее.\n\nЭта способность работает на башнях.
 
 
 
@@ -48815,7 +48815,7 @@ Ability_Kane3_effect_header
 
 
 
-Ability_Kane3_tooltip_flavor									Меч Кейна - продолжение его самого. Он наносит удары с такой точностью и свирепостью, что даже самые грозные существа падают перед его мощью.
+Ability_Kane3_tooltip_flavor									Меч Kane - продолжение его самого. Он наносит удары с такой точностью и свирепостью, что даже самые грозные существа падают перед его мощью.
 
 
 
@@ -48847,7 +48847,7 @@ State_Kane_Ability3_name										Kane's Anguish
 
 
 
-State_Kane_Ability3_description									Ваши атаки наносят на ^o20%^* меньше урона за заряд\nПолучайте урон, равный ^o5% от вашего урона от атаки за заряд^* при атаке Кейна\nМаксимум {1,2,3,4} зарядов
+State_Kane_Ability3_description									Ваши атаки наносят на ^o20%^* меньше урона за заряд\nПолучайте урон, равный ^o5% от вашего урона от атаки за заряд^* при атаке Kane\nМаксимум {1,2,3,4} зарядов
 
 
 
@@ -48903,7 +48903,7 @@ Ability_Kane4_description										Kane всегда первым лезет в 
 
 
 
-Ability_Kane4_description2										^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха: ^* пробуждает спящие бонусы от выигранных дуэлей, предоставляя 1 урон от атаки за каждый заряд. Во время Face Off Кейн получает 50% снижение урона от источников урона, отличных от его цели.
+Ability_Kane4_description2										^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха: ^* пробуждает спящие бонусы от выигранных дуэлей, предоставляя 1 урон от атаки за каждый заряд. Во время Face Off Kane получает 50% снижение урона от источников урона, отличных от его цели.
 
 
 
@@ -48959,7 +48959,7 @@ Ability_Kane4_name:ult_boost									^gFace Off*^*
 
 
 
-Ability_Kane4_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха: ^* пробуждает спящие бонусы от выигранных дуэлей, предоставляя 1 урон от атаки за каждый заряд. Во время Face Off Кейн получает 50% снижение урона от источников урона, отличных от его цели.
+Ability_Kane4_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха: ^* пробуждает спящие бонусы от выигранных дуэлей, предоставляя 1 урон от атаки за каждый заряд. Во время Face Off Kane получает 50% снижение урона от источников урона, отличных от его цели.
 
 
 
@@ -50455,7 +50455,7 @@ Ability_Maliken1_description									Maliken бросает меч, раня з�
 
 
 
-Ability_Maliken1_description:malikenswordthrow					Маликен телепортируется к брошенному мечу.
+Ability_Maliken1_description:malikenswordthrow					Maliken телепортируется к брошенному мечу.
 
 
 
@@ -50703,7 +50703,7 @@ Ability_Maliken2_effect_header									Эффект(ы) зачарованног
 
 
 
-Ability_Maliken2_effect_header2									Эффекты Жизненной эссенции
+Ability_Maliken2_effect_header2									Эффекты Life Essence
 
 
 
@@ -50783,7 +50783,7 @@ State_Maliken_Ability2_Flame_description2
 
 
 
-State_Maliken_Ability2_Flame_FRAME_effect						Наносит 15 маг. урона самому себе при атаке. Не приводит к падению здоровья ниже 15%.\n\n^yМодификации броска меча:^* Заставляет бросок меча наносить +{40,50,60,70} доп. маг. урона за каждую цель.
+State_Maliken_Ability2_Flame_FRAME_effect						Наносит 15 маг. урона самому себе при атаке. Не приводит к падению здоровья ниже 15%.\n\n^yМодификации Sword Throw:^* Заставляет Sword Throw наносить +{40,50,60,70} доп. маг. урона за каждую цель.
 
 
 
@@ -50839,7 +50839,7 @@ State_Maliken_Ability2_Healing_description2
 
 
 
-State_Maliken_Ability2_Healing_FRAME_effect						Исцеляет себя на здоровье, равное {10,20,30,40} + {2,3,4,5}% от вашего урона от атаки за атаку.\n\n^yМодификации броска меча:^* Заставляет бросок меча исцелять себя на {10,20,30,40} за каждую цель.
+State_Maliken_Ability2_Healing_FRAME_effect						Исцеляет себя на здоровье, равное {10,20,30,40} + {2,3,4,5}% от вашего урона от атаки за атаку.\n\n^yМодификации Sword Throw:^* Заставляет Sword Throw исцелять себя на {10,20,30,40} за каждую цель.
 
 
 
@@ -51023,7 +51023,7 @@ Ability_Maliken4_effect_header									Эффект(ы) одержимости
 
 
 
-Ability_Maliken4_effect_header2									В страхе
+Ability_Maliken4_effect_header2									Feared
 
 
 
@@ -52007,7 +52007,7 @@ Ability_MasterOfArms2_name										Acid Bomb
 
 
 
-Ability_MasterOfArms2_description								Master of Arms бросает в указанную точку кислотную бомбу, которая наносит периодический урон стоящим в ней врагам.
+Ability_MasterOfArms2_description								Master of Arms бросает в указанную точку Acid Bomb, которая наносит периодический урон стоящим в ней врагам.
 
 
 
@@ -52247,7 +52247,7 @@ Ability_MasterOfArms4_description								Master of Arms ставит на себ
 
 
 
-Ability_MasterOfArms4_description2								^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха: ^* несовершенства приводят к тому, что бонусы к скор. атаки и урону от атаки от "Зова мастера" падают до 70% эффективности.
+Ability_MasterOfArms4_description2								^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха: ^* несовершенства приводят к тому, что бонусы к скор. атаки и урону от атаки от "Master's Call" падают до 70% эффективности.
 
 
 
@@ -52746,7 +52746,7 @@ State_Midas_Reagent1_name										Salvo Reagent
 
 
 
-State_Midas_Reagent1_description								Применение другого реагента к этому существу способностями Мидаса рассеет все реагенты и применит Трансмутацию, оглушая и нанося маг. урон.
+State_Midas_Reagent1_description								Применение другого реагента к этому существу способностями Midas рассеет все реагенты и применит Трансмутацию, оглушая и нанося маг. урон.
 
 
 
@@ -52802,7 +52802,7 @@ State_Midas_Reagent2_name										Lion's Reagent
 
 
 
-State_Midas_Reagent2_description								Применение другого реагента к этому существу способностями Мидаса рассеет все реагенты и применит Трансмутацию, оглушая и нанося маг. урон.
+State_Midas_Reagent2_description								Применение другого реагента к этому существу способностями Midas рассеет все реагенты и применит Трансмутацию, оглушая и нанося маг. урон.
 
 
 
@@ -52834,7 +52834,7 @@ State_Midas_Reagent3_name										Elemental Reagent
 
 
 
-State_Midas_Reagent3_description								Применение другого реагента к этому существу способностями Мидаса рассеет все реагенты и применит Трансмутацию, оглушая и нанося маг. урон.
+State_Midas_Reagent3_description								Применение другого реагента к этому существу способностями Midas рассеет все реагенты и применит Трансмутацию, оглушая и нанося маг. урон.
 
 
 
@@ -52978,7 +52978,7 @@ Ability_Mimix1_name												Fractal Field
 
 
 
-Ability_Mimix1_description										Вихрь фрактальной энергии окружает каждого Земплара, взрываясь после короткой задержки.
+Ability_Mimix1_description										Вихрь фрактальной энергии окружает каждого Xemplar, взрываясь после короткой задержки.
 
 
 
@@ -53066,7 +53066,7 @@ Ability_Mimix2_name												Wall of Mirrors
 
 
 
-Ability_Mimix2_description										Земплар бросается к несчастному врагу, окружая его иллюзиями и создавая непроходимую стену зеркал за его спиной.
+Ability_Mimix2_description										Xemplar бросается к несчастному врагу, окружая его иллюзиями и создавая непроходимую стену зеркал за его спиной.
 
 
 
@@ -53218,7 +53218,7 @@ Ability_Mimix4_name:ult_boost									^gSchism*^*
 
 
 
-Ability_Mimix4_description										Призывая силу запретной геометрии, Земплар расщепляет свое тело на множество, каждое из которых способно применять все его способности.
+Ability_Mimix4_description										Призывая силу запретной геометрии, Xemplar расщепляет свое тело на множество, каждое из которых способно применять все его способности.
 
 
 
@@ -53394,7 +53394,7 @@ Ability_Monarch1_name	Crippling Pollen
 
 
 
-Ability_Monarch1_description									Монарх поражает глаза врага калечащей пыльцой, временно обездвиживая и накладывая Безмолвие на цель.
+Ability_Monarch1_description									Monarch поражает глаза врага калечащей пыльцой, временно обездвиживая и накладывая Безмолвие на цель.
 
 
 
@@ -53506,7 +53506,7 @@ Ability_Monarch2_name											Chrysalis
 
 
 
-Ability_Monarch2_description									Монарх заключает союзного героя в защитный кокон, позволяя ему выдержать входящий урон и восстановиться.
+Ability_Monarch2_description									Monarch заключает союзного героя в защитный кокон, позволяя ему выдержать входящий урон и восстановиться.
 
 
 
@@ -53738,7 +53738,7 @@ Ability_Gadget_Monarch3_name									Detonate
 
 
 
-Ability_Gadget_Monarch3_description								Взрывает Ядовитого Ползуна, создавая Ядовитое Облако.
+Ability_Gadget_Monarch3_description								Взрывает Noxious Nightcrawler, создавая Noxious Cloud.
 
 
 
@@ -53842,7 +53842,7 @@ Ability_Monarch4_name											Cleansing Wind
 
 
 
-Ability_Monarch4_description									Монарх выпускает порыв ветра, очищающий союзников в линии и дающий бафф к скорости. Способность кратко Оглушает врагов.
+Ability_Monarch4_description									Monarch выпускает порыв ветра, очищающий союзников в линии и дающий бафф к скорости. Способность кратко Оглушает врагов.
 
 
 
@@ -54410,7 +54410,7 @@ Ability_MonkeyKing4_description_simple 					Запрыгивает на верн
 
 
 
-Ability_MonkeyKing4_tooltip_flavor								"...Король Обезьян повелевает даже стихиями в своем священном путешествии."
+Ability_MonkeyKing4_tooltip_flavor								"...Monkey King повелевает даже стихиями в своем священном путешествии."
 
 
 
@@ -54442,7 +54442,7 @@ State_MonkeyKing_Ability1_name									Illusive Strike
 
 
 
-State_MonkeyKing_Ability1_description							Можно использовать второй Иллюзорный удар.
+State_MonkeyKing_Ability1_description							Можно использовать второй Illusive Strike.
 
 
 
@@ -54474,7 +54474,7 @@ State_MonkeyKing_Ability2_Linger_name							Heavenly Vault
 
 
 
-State_MonkeyKing_Ability2_Linger_description					Можно использовать второй Небесный свод.
+State_MonkeyKing_Ability2_Linger_description					Можно использовать второй Heavenly Vault.
 
 
 
@@ -54626,7 +54626,7 @@ Ability_Moira1_name												Shards of Harkon
 
 
 
-Ability_Moira1_description										Moira создаёт два Осколка Харкона: один поглощает сама, другой бросает союзнику. Через короткое время они взрываются, оглушая и раня врагов рядом.
+Ability_Moira1_description										Moira создаёт два Shards of Harkon: один поглощает сама, другой бросает союзнику. Через короткое время они взрываются, оглушая и раня врагов рядом.
 
 
 
@@ -55618,7 +55618,7 @@ Ability_Moraxus3_effect_header2
 
 
 
-Ability_Moraxus3_tooltip_flavor									Мораксус просто хочет поделиться. Врагам нужно научиться ловить.
+Ability_Moraxus3_tooltip_flavor									Moraxus просто хочет поделиться. Врагам нужно научиться ловить.
 
 
 
@@ -55906,7 +55906,7 @@ Ability_Moraxus4_description									Moraxus создает защитную м�
 
 
 
-Ability_Moraxus4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Стреляет топорами по врагам, которым вы наносите урон (за исключением ^oБольше топоров^*), нанося урон, равный вашему текущему уровню ^oБольше топоров^*.
+Ability_Moraxus4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Стреляет топорами по врагам, которым вы наносите урон (за исключением ^oMore Axes^*), нанося урон, равный вашему текущему уровню ^oMore Axes^*.
 
 
 
@@ -56106,7 +56106,7 @@ Ability_Pharaoh1_name												Hellfire
 
 
 
-Ability_Pharaoh1_description										Фараон вызывает столбы огня вокруг себя на короткое время, поражая случайных ближайших врагов, нанося урон и кратко оглушая.
+Ability_Pharaoh1_description										Pharaoh вызывает столбы огня вокруг себя на короткое время, поражая случайных ближайших врагов, нанося урон и кратко оглушая.
 
 
 
@@ -56170,7 +56170,7 @@ Ability_Pharaoh2_name												Wall of Mummies
 
 
 
-Ability_Pharaoh2_description										Фараон призывает стену Мумий вокруг себя и ближайших. Приближающиеся враги отталкиваются и получают урон.
+Ability_Pharaoh2_description										Pharaoh призывает стену Мумий вокруг себя и ближайших. Приближающиеся враги отталкиваются и получают урон.
 
 
 
@@ -56282,7 +56282,7 @@ Ability_Pharaoh3_name												Tormented Soul
 
 
 
-Ability_Pharaoh3_description										Фараон выпускает мучимую душу в любую точку карты. Достигнув цели, душа самоуничтожается, высвобождая темную энергию и нанося урон ближайшим врагам.
+Ability_Pharaoh3_description										Pharaoh выпускает мучимую душу в любую точку карты. Достигнув цели, душа самоуничтожается, высвобождая темную энергию и нанося урон ближайшим врагам.
 
 
 
@@ -56410,7 +56410,7 @@ Ability_Pharaoh4_name	Wrath of the Pharaoh
 
 
 
-Ability_Pharaoh4_description										Фараон направляет всю концентрацию в выбранном направлении. Его фокус столь интенсивен, что обретает физическую форму. При столкновении с врагом наносит урон и Оглушает, а Фараон мчится к месту попадания.
+Ability_Pharaoh4_description										Pharaoh направляет всю концентрацию в выбранном направлении. Его фокус столь интенсивен, что обретает физическую форму. При столкновении с врагом наносит урон и Оглушает, а Pharaoh мчится к месту попадания.
 
 
 
@@ -57146,7 +57146,7 @@ Ability_Nomad1_name												Sandstorm
 
 
 
-Ability_Nomad1_description										По команде Кочевник окутывает себя и ближайших союзников циклоном песка, даруя повышенную скорость и невидимость, замедляя врагов.
+Ability_Nomad1_description										По команде Nomad окутывает себя и ближайших союзников циклоном песка, даруя повышенную скорость и невидимость, замедляя врагов.
 
 
 
@@ -57234,7 +57234,7 @@ Ability_Nomad2_name:ult_boost									^gMirage Strike*^*
 
 
 
-Ability_Nomad2_description										Изучение Удара Миража дает Истинный Удар и Удар Миража, позволяя сбивать врагов с толку иллюзиями. Истинный Удар заставляет вас атаковать с бонусом к скорости, а Удар Миража посылает иллюзию и дарует скрытность.
+Ability_Nomad2_description										Изучение Mirage Strike дает True Strike и Mirage Strike, позволяя сбивать врагов с толку иллюзиями. True Strike заставляет вас атаковать с бонусом к скорости, а Mirage Strike посылает иллюзию и дарует скрытность.
 
 
 
@@ -57306,7 +57306,7 @@ Ability_Nomad2a_name:ult_boost									^gTrue Strike*^*
 
 
 
-Ability_Nomad2a_description										Кочевник безрассудно бросается на противника, нанося тяжелый урон и обрушивая шквал ударов.
+Ability_Nomad2a_description										Nomad безрассудно бросается на противника, нанося тяжелый урон и обрушивая шквал ударов.
 
 
 
@@ -57402,7 +57402,7 @@ Ability_Nomad2b_name:ult_boost									^gMirage Strike*^*
 
 
 
-Ability_Nomad2b_description										Кочевник посылает иллюзию атаковать противника вместо себя, нанося тяжелый урон.
+Ability_Nomad2b_description										Nomad посылает иллюзию атаковать противника вместо себя, нанося тяжелый урон.
 
 
 
@@ -57474,7 +57474,7 @@ Ability_Nomad3_name	Wanderer
 
 
 
-Ability_Nomad3_description										Мастер движения, клинок Кочевника набирает силу, пока он обдумывает следующий ход против вражеского героя.
+Ability_Nomad3_description										Мастер движения, клинок Nomad набирает силу, пока он обдумывает следующий ход против вражеского героя.
 
 
 
@@ -57530,7 +57530,7 @@ Ability_Nomad4_name												Edge Counter
 
 
 
-Ability_Nomad4_description										Моргни - и можешь пропустить. Кочевник отвечает на угрозу смертоносной демонстрацией силы, нейтрализуя следующую атаку или способность и посылая мощную ударную волну в нападающего.
+Ability_Nomad4_description										Моргни - и можешь пропустить. Nomad отвечает на угрозу смертоносной демонстрацией силы, нейтрализуя следующую атаку или способность и посылая мощную ударную волну в нападающего.
 
 
 
@@ -59834,7 +59834,7 @@ Ability_Parallax1_name:ult_boost								^gFulcrum Shift*^*
 
 
 
-Ability_Parallax1_description									Параллакс заставляет Точку Опоры двигаться к целевому месту, нанося маг. урон целям на пути.
+Ability_Parallax1_description									Parallax заставляет Точку Опоры двигаться к целевому месту, нанося маг. урон целям на пути.
 
 
 
@@ -59914,7 +59914,7 @@ Ability_Parallax2_name											Ionic Dash
 
 
 
-Ability_Parallax2_description 									Параллакс использует силу Точки Опоры, чтобы мгновенно переместиться к ней, нанося маг. урон и накладывая Безмолвие на врагов на пути.
+Ability_Parallax2_description 									Parallax использует силу Точки Опоры, чтобы мгновенно переместиться к ней, нанося маг. урон и накладывая Безмолвие на врагов на пути.
 
 
 
@@ -60026,7 +60026,7 @@ Ability_Parallax3_name	Dark Mana
 
 
 
-Ability_Parallax3_description									Жажда разрушения Точки Опоры вознаграждает агрессию Параллакса дополнительной максимальной маной.
+Ability_Parallax3_description									Жажда разрушения Точки Опоры вознаграждает агрессию Parallax дополнительной максимальной маной.
 
 
 
@@ -60098,7 +60098,7 @@ Ability_Parallax4_name:ult_boost								^gPlanet Cracker*^*
 
 
 
-Ability_Parallax4_description									Параллакс использует связь с Точкой Опоры для создания мощной конической привязки между собой и ней, нанося массивный маг. урон врагам внутри.
+Ability_Parallax4_description									Parallax использует связь с Точкой Опоры для создания мощной конической привязки между собой и ней, нанося массивный маг. урон врагам внутри.
 
 
 
@@ -60290,7 +60290,7 @@ Ability_Parasite1_name											Leech
 
 
 
-Ability_Parasite1_description									Паразит крадет сущность целевого врага, нанося урон и похищая скор. движ.
+Ability_Parasite1_description									Parasite крадет сущность целевого врага, нанося урон и похищая скор. движ.
 
 
 
@@ -60426,7 +60426,7 @@ Ability_Parasite2_name:ult_boost								^gInfest*^*
 
 
 
-Ability_Parasite2_description									Захватывает контроль над целевым существом, прячась внутри. Паразит может поглотить цель в любой момент, исцеляя себя.
+Ability_Parasite2_description									Захватывает контроль над целевым существом, прячась внутри. Parasite может поглотить цель в любой момент, исцеляя себя.
 
 
 
@@ -60522,7 +60522,7 @@ Ability_Parasite2_Target_name									Consume
 
 
 
-Ability_Parasite2_Target_description							Мгновенно убивает контролируемого крипа, исцеляя Паразита на часть его здоровья.
+Ability_Parasite2_Target_description							Мгновенно убивает контролируемого крипа, исцеляя Parasite на часть его здоровья.
 
 
 
@@ -60530,7 +60530,7 @@ Ability_Parasite2_Target_description							Мгновенно убивает к�
 
 
 
-Ability_Parasite2_Target_description_simple						Убивает крипа и лечит Паразита на ^o{30,40,50,60}% от его тек. здоровья^*.\n\n Дает 125 опыта и 75 золота Паразиту, когда зараженный крип умирает (кроме случаев, когда вы заразили крипа-союзника), а также распределяет эту сумму между каждым игроком противника, если он был поврежден вражеской командой на последних 10 сек.
+Ability_Parasite2_Target_description_simple						Убивает крипа и лечит Parasite на ^o{30,40,50,60}% от его тек. здоровья^*.\n\n Дает 125 опыта и 75 золота Parasite, когда зараженный крип умирает (кроме случаев, когда вы заразили крипа-союзника), а также распределяет эту сумму между каждым игроком противника, если он был поврежден вражеской командой на последних 10 сек.
 
 
 
@@ -60578,7 +60578,7 @@ State_Parasite_Ability2_Target_name								Infest
 
 
 
-State_Parasite_Ability2_Target_FRAME_effect						Теряет {3,2,1,0}% макс. здоровья в сек.\nПолучает +25% урона от вражеских юнитов, контролируемых игроком\n\nДает 125 опыта и 75 золота Паразиту, когда зараженный крип умирает (кроме случаев, когда вы заразили крипа-союзника)\nТакже распределяет эту сумму каждому противостоящему игроку, если он был поврежден вражеским игроком на последних 10 сек.
+State_Parasite_Ability2_Target_FRAME_effect						Теряет {3,2,1,0}% макс. здоровья в сек.\nПолучает +25% урона от вражеских юнитов, контролируемых игроком\n\nДает 125 опыта и 75 золота Parasite, когда зараженный крип умирает (кроме случаев, когда вы заразили крипа-союзника)\nТакже распределяет эту сумму каждому противостоящему игроку, если он был поврежден вражеским игроком на последних 10 сек.
 
 
 
@@ -60586,7 +60586,7 @@ State_Parasite_Ability2_Target_FRAME_effect						Теряет {3,2,1,0}% мак�
 
 
 
-State_Parasite_Ability2_Target_FRAME_effect:ult_boost			Теряет {3,2,1,0}% макс. здоровья в сек.\nПолучает +25% урона от вражеских юнитов, контролируемых игроком\n\nДает 125 опыта и 75 золота Паразиту, когда зараженный крип умирает (кроме случаев, когда вы заразили крипа-союзника)\nТакже распределяет эту сумму каждому противостоящему игроку, если он был поврежден вражеским игроком в течение последних 10 сек.
+State_Parasite_Ability2_Target_FRAME_effect:ult_boost			Теряет {3,2,1,0}% макс. здоровья в сек.\nПолучает +25% урона от вражеских юнитов, контролируемых игроком\n\nДает 125 опыта и 75 золота Parasite, когда зараженный крип умирает (кроме случаев, когда вы заразили крипа-союзника)\nТакже распределяет эту сумму каждому противостоящему игроку, если он был поврежден вражеским игроком в течение последних 10 сек.
 
 
 
@@ -60618,7 +60618,7 @@ State_Parasite_Ability2_Self_name								Infest
 
 
 
-State_Parasite_Ability2_Self_FRAME_effect						Теряет {3,2,1,0}% макс. здоровья в сек.\nЗараженный крип получает +25% урона от вражеских юнитов, контролируемых игроком\n\nДает 125 опыта и 75 золота Паразиту, когда зараженный крип умирает (кроме случаев, когда вы заразили крипа-союзника), а также распределяет эту сумму между каждым игроком противника, если он был поврежден вражеским игроком на последних 10 сек.
+State_Parasite_Ability2_Self_FRAME_effect						Теряет {3,2,1,0}% макс. здоровья в сек.\nЗараженный крип получает +25% урона от вражеских юнитов, контролируемых игроком\n\nДает 125 опыта и 75 золота Parasite, когда зараженный крип умирает (кроме случаев, когда вы заразили крипа-союзника), а также распределяет эту сумму между каждым игроком противника, если он был поврежден вражеским игроком на последних 10 сек.
 
 
 
@@ -60626,7 +60626,7 @@ State_Parasite_Ability2_Self_FRAME_effect						Теряет {3,2,1,0}% макс.
 
 
 
-State_Parasite_Ability2_Self_FRAME_effect:ult_boost				Теряет {3,2,1,0}% макс. здоровья в сек.\nЗараженный крип получает +25% урона от вражеских юнитов, контролируемых игроком\n\nДает 125 опыта и 75 золота Паразиту, когда зараженный крип умирает (кроме случаев, когда вы заразили крипа-союзника), а также распределяет эту сумму между каждым игроком противника, если он был поврежден вражеским игроком в течение последних 10 сек.
+State_Parasite_Ability2_Self_FRAME_effect:ult_boost				Теряет {3,2,1,0}% макс. здоровья в сек.\nЗараженный крип получает +25% урона от вражеских юнитов, контролируемых игроком\n\nДает 125 опыта и 75 золота Parasite, когда зараженный крип умирает (кроме случаев, когда вы заразили крипа-союзника), а также распределяет эту сумму между каждым игроком противника, если он был поврежден вражеским игроком в течение последних 10 сек.
 
 
 
@@ -60658,7 +60658,7 @@ Ability_Parasite3_name	Draining Venom
 
 
 
-Ability_Parasite3_description									Любая цель, которую атакует Паразит, получает от нее доп. урон и наносит ей меньший урон.\n\nDraining Venom применяется, когда вы атакуете цель зараженным юнитом или если вы используете способность на цели.
+Ability_Parasite3_description									Любая цель, которую атакует Parasite, получает от нее доп. урон и наносит ей меньший урон.\n\nDraining Venom применяется, когда вы атакуете цель зараженным юнитом или если вы используете способность на цели.
 
 
 
@@ -60722,7 +60722,7 @@ State_Parasite_Ability3_name									Draining Venom
 
 
 
-State_Parasite_Ability3_FRAME_effect							Получает на {6,12,18,24}% больше урона от Паразита и наносит на {6,12,18,24}% меньше урона Паразиту.
+State_Parasite_Ability3_FRAME_effect							Получает на {6,12,18,24}% больше урона от Parasite и наносит на {6,12,18,24}% меньше урона Parasite.
 
 
 
@@ -60754,7 +60754,7 @@ Ability_Parasite4_name											Facehug
 
 
 
-Ability_Parasite4_description									Паразит может красть сильные стороны врагов, передавая им собственные слабости.
+Ability_Parasite4_description									Parasite может красть сильные стороны врагов, передавая им собственные слабости.
 
 
 
@@ -63201,7 +63201,7 @@ Ability_PollywogPriest4_name									Voodoo Wards
 
 
 
-Ability_PollywogPriest4_description								Pollywog Priest призывает в выбранную точку несколько управляемых вардов Вуду. Варды атакуют врагов рядом. Лазерами.
+Ability_PollywogPriest4_description								Pollywog Priest призывает в выбранную точку несколько управляемых Voodoo Wards. Варды атакуют врагов рядом. Лазерами.
 
 
 
@@ -63497,7 +63497,7 @@ Ability_Predator2_effect_header									Эффекты Каменной шкур
 
 
 
-Ability_Predator2_description									Хищник превращает свою шкуру в каменную, что дает ему иммунитет к магии, снимает дебаффы и временно увеличивает его броню.\n\nЭффект иммунитета к магии этой способности имеет модификатор активации ^428^* с "Сморщенной головой" и талисманом Пустоты.
+Ability_Predator2_description									Predator превращает свою шкуру в каменную, что дает ему иммунитет к магии, снимает дебаффы и временно увеличивает его броню.\n\nЭффект иммунитета к магии этой способности имеет модификатор активации ^428^* с Shrunken Head и Void Talisman.
 
 
 
@@ -63657,7 +63657,7 @@ Ability_Predator4_description									Predator наводит Ужас на вр
 
 
 
-Ability_Predator4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Уменьшает необходимое количество стоков ужаса до 2, увеличивает бафф скор. атаки до ^o{50,75,100}^* и обновляет "Ядовитый прыжок" при убийстве.
+Ability_Predator4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Уменьшает необходимое количество зарядов Terror до 2, увеличивает бафф скор. атаки до ^o{50,75,100}^* и обновляет "Venomous Leap" при убийстве.
 
 
 
@@ -65153,7 +65153,7 @@ State_Prophet_Ability4_Debuff_name
 
 
 
-State_Prophet_Ability4_Debuff_FRAME_effect						Применение способностей и атаки Пророка будут нацелены на всех действующих героев, на которых действует Shared Fate\n\nРаспространяемые атаки наносят 50% урона.
+State_Prophet_Ability4_Debuff_FRAME_effect						Применение способностей и атаки Prophet будут нацелены на всех действующих героев, на которых действует Shared Fate\n\nРаспространяемые атаки наносят 50% урона.
 
 
 
@@ -66337,7 +66337,7 @@ Ability_AmunRa2_name												Burning Star
 
 
 
-Ability_AmunRa2_description											^rСтоит 10% от макс. здоровья.^*\n\nАмун-Ра выстреливает 8 снарядов в форме звезды, которые через некоторое время возвращаются, расплавляя вражескую защиту.
+Ability_AmunRa2_description											^rСтоит 10% от макс. здоровья.^*\n\nAmun-Ra выстреливает 8 снарядов в форме звезды, которые через некоторое время возвращаются, расплавляя вражескую защиту.
 
 
 
@@ -66393,7 +66393,7 @@ Ability_AmunRa3_name												Ashes to Ashes
 
 
 
-Ability_AmunRa3_description											Амун-Ра наносит периодический урон вокруг себя при получении урона. Урон тем больше, чем больше урона было получено недавно. Также дает пассивную реген. здоровья.
+Ability_AmunRa3_description											Amun-Ra наносит периодический урон вокруг себя при получении урона. Урон тем больше, чем больше урона было получено недавно. Также дает пассивную реген. здоровья.
 
 
 
@@ -66449,7 +66449,7 @@ Ability_AmunRa4_name	Pyroclasmic Rebirth
 
 
 
-Ability_AmunRa4_description											После смерти Амун-Ра тратит ману на свое воскрешение, восстанавливая здоровье в зависимости от количества потраченной маны и применяя Пылающую Звезду. Амун-Ра наносит доп. урон после воскрешения.
+Ability_AmunRa4_description											После смерти Amun-Ra тратит ману на свое воскрешение, восстанавливая здоровье в зависимости от количества потраченной маны и применяя Burning Star. Amun-Ra наносит доп. урон после воскрешения.
 
 
 
@@ -68086,7 +68086,7 @@ State_Ravenor_Ability1_name										Ball Lightning
 
 
 
-State_Ravenor_Ability1_description								Ревенор может телепортироваться к цели Шаровой Молнии, пока этот эффект активен. Рассеивается при телепортации.
+State_Ravenor_Ability1_description								Ravenor может телепортироваться к цели Ball Lightning, пока этот эффект активен. Рассеивается при телепортации.
 
 
 
@@ -68581,7 +68581,7 @@ State_Ravenor_Ability3_Slow_name								Electrical Feedback
 
 
 
-State_Ravenor_Ability3											Электрическая отдача
+State_Ravenor_Ability3											Electrical Feedback
 
 
 
@@ -71186,7 +71186,7 @@ Ability_Riptide1_IMPACT_effect									Окатывает вражеского �
 
 
 
-Ability_Riptide1_tooltip_flavor									"Народ, эта гигантская водяная тварь только что плюнула на меня?" - Кланкс (прямо перед смертью)
+Ability_Riptide1_tooltip_flavor									"Народ, эта гигантская водяная тварь только что плюнула на меня?" - Klanx (прямо перед смертью)
 
 
 
@@ -72457,7 +72457,7 @@ Ability_SandWraith1_name										Desert's Curse
 
 
 
-Ability_SandWraith1_description									Sand Wraith взывает к бесконечному Проклятию Пустыни, засыпая землю перед собой песком. Враги, попавшие в песок, замедляются, а сам Sand Wraith движется быстрее, и ему не мешают ни скалы, ни деревья.
+Ability_SandWraith1_description									Sand Wraith взывает к бесконечному Desert's Curse, засыпая землю перед собой песком. Враги, попавшие в песок, замедляются, а сам Sand Wraith движется быстрее, и ему не мешают ни скалы, ни деревья.
 
 
 
@@ -72481,7 +72481,7 @@ Ability_SandWraith1_effect_header								Знакомая земля
 
 
 
-Ability_SandWraith1_effect_header2								Проклятие пустыни
+Ability_SandWraith1_effect_header2								Desert's Curse
 
 
 
@@ -72761,7 +72761,7 @@ Ability_SandWraith4_name:SandWraith4_Active						Manifest
 
 
 
-Ability_SandWraith4_description:SandWraith4_Active				Песчаный Призрак может занять место любой иллюзии, созданной Миражом.
+Ability_SandWraith4_description:SandWraith4_Active				Sand Wraith может занять место любой иллюзии, созданной Миражом.
 
 
 
@@ -73017,7 +73017,7 @@ Ability_Sapphire2_name											Unstable Shard
 
 
 
-Ability_Sapphire2_description									Создает атакуемый Нестабильный Осколок в целевой точке.
+Ability_Sapphire2_description									Создает атакуемый Unstable Shard в целевой точке.
 
 
 
@@ -73385,7 +73385,7 @@ Ability_Madman1_name	Stalk
 
 
 
-Ability_Madman1_description										Безумец скрывается на короткое время, получая невидимость и повышенную скорость. В дикой одержимости он атакует всех врагов, приближающихся к нему.
+Ability_Madman1_description										The Madman скрывается на короткое время, получая невидимость и повышенную скорость. В дикой одержимости он атакует всех врагов, приближающихся к нему.
 
 
 
@@ -73489,7 +73489,7 @@ Ability_Madman2_name												Barrel Roll
 
 
 
-Ability_Madman2_description										Безумец делает бочку, врезаясь в противников на пути, затем откатывается на исходную позицию. Задетые враги получают урон и замедление.
+Ability_Madman2_description										The Madman делает бочку, врезаясь в противников на пути, затем откатывается на исходную позицию. Задетые враги получают урон и замедление.
 
 
 
@@ -73601,7 +73601,7 @@ Ability_Madman3_name	Gash
 
 
 
-Ability_Madman3_description										Безумец все искуснее потрошит врагов, нанося больше урона с каждой атакой.
+Ability_Madman3_description										The Madman все искуснее потрошит врагов, нанося больше урона с каждой атакой.
 
 
 
@@ -73673,7 +73673,7 @@ State_Madman_Ability3_Enemy_description
 
 
 
-State_Madman_Ability3_Enemy_FRAME_effect							Получает {5,6,7,8}% доп. урона за заряд от урона, нанесенного Безумцем.
+State_Madman_Ability3_Enemy_FRAME_effect							Получает {5,6,7,8}% доп. урона за заряд от урона, нанесенного The Madman.
 
 
 
@@ -73705,7 +73705,7 @@ Ability_Madman4_name												Berserk
 
 
 
-Ability_Madman4_description										Безумец срывается, впадая в полный берсерк, увеличивая скор. атаки.
+Ability_Madman4_description										The Madman срывается, впадая в полный берсерк, увеличивая скор. атаки.
 
 
 
@@ -73977,7 +73977,7 @@ Ability_Scout1_effect_header									Эффект(ы) исчезновения
 
 
 
-Ability_Scout1_effect_header2									Шквал ударов
+Ability_Scout1_effect_header2									Flurry
 
 
 
@@ -74081,7 +74081,7 @@ Ability_Scout2_name												Electric Eye
 
 
 
-Ability_Scout2_description										Разведчик размещает электрический глаз, который обеспечивает обзор области вокруг него. Электрические глаза можно взорвать, чтобы заставить замолчать ближайших врагов.\n Электрические глаза обеспечивают {700,800,900,1000} дневное и ночное зрение.
+Ability_Scout2_description										Scout размещает Electric Eye, который обеспечивает обзор области вокруг него. Electric Eyes можно взорвать, чтобы заставить замолчать ближайших врагов.\n Electric Eyes дают {700,800,900,1000} обзора днем и ночью.
 
 
 
@@ -74153,7 +74153,7 @@ Ability_Scout2_Detonate_name									Detonate
 
 
 
-Ability_Scout2_Detonate_description								Взрывает ближайший Электрический Глаз, накладывая Безмолвие на ближайших врагов.
+Ability_Scout2_Detonate_description								Взрывает ближайший Electric Eye, накладывая Безмолвие на ближайших врагов.
 
 
 
@@ -74249,7 +74249,7 @@ Ability_Gadget_Scout2_name										Destroy Electric Eye
 
 
 
-Ability_Gadget_Scout2_description								Уничтожает этот Электрический Глаз, позволяя Разведчику выбирать, какой Глаз уничтожить перед установкой нового.
+Ability_Gadget_Scout2_description								Уничтожает этот Electric Eye, позволяя Scout выбирать, какой Electric Eye уничтожить перед установкой нового.
 
 
 
@@ -74297,7 +74297,7 @@ Ability_Gadget_Scout2_2_name									Detonate
 
 
 
-Ability_Gadget_Scout2_2_description								Взрывает ближайший Электрический Глаз, накладывая Безмолвие на ближайших врагов.
+Ability_Gadget_Scout2_2_description								Взрывает ближайший Electric Eye, накладывая Безмолвие на ближайших врагов.
 
 
 
@@ -75840,7 +75840,7 @@ Ability_DementedShaman4_effect_header									Эффект(ы) штормово�
 
 
 
-Ability_DementedShaman4_effect_header2									Эффекты Штормового удара
+Ability_DementedShaman4_effect_header2									Эффекты Storm Strike
 
 
 
@@ -76072,7 +76072,7 @@ Ability_Shellshock1_name	Fireflies
 
 
 
-Ability_Shellshock1_description									Шеллшок никогда не путешествует один и может извлекать биолюминесцентных попутчиков из Светоча, чтобы освещать путь.
+Ability_Shellshock1_description									Shellshock никогда не путешествует один и может извлекать биолюминесцентных попутчиков из Светоча, чтобы освещать путь.
 
 
 
@@ -76144,7 +76144,7 @@ Ability_Shellshock2_name	Rolling Thunder
 
 
 
-Ability_Shellshock2_description									Сворачиваясь в панцирь, Шеллшок катится прямо к врагу, подбирая союзников по пути.
+Ability_Shellshock2_description									Сворачиваясь в панцирь, Shellshock катится прямо к врагу, подбирая союзников по пути.
 
 
 
@@ -76400,7 +76400,7 @@ Ability_Shellshock3_name	Sanctuary Stone
 
 
 
-Ability_Shellshock3_description 								Священный камень Светоча наделяет Шеллшока защитными и разрушительными силами Неверта.
+Ability_Shellshock3_description 								Священный камень Светоча наделяет Shellshock защитными и разрушительными силами Неверта.
 
 
 
@@ -76496,7 +76496,7 @@ State_Shellshock_Ability3_Pickedup_name							Sanctuary Stone
 
 
 
-State_Shellshock_Ability3_Pickedup_FRAME_effect					Несет Камень святилища!
+State_Shellshock_Ability3_Pickedup_FRAME_effect					Несет Sanctuary Stone!
 
 
 
@@ -76880,7 +76880,7 @@ Ability_Silhouette2_Go_name
 
 
 
-Ability_Silhouette2_Go_description 								Любимый танец Силуэт - тот, в котором она пляшет на головах врагов, над которыми пролетает.
+Ability_Silhouette2_Go_description 								Любимый танец Silhouette - тот, в котором она пляшет на головах врагов, над которыми пролетает.
 
 
 
@@ -76896,7 +76896,7 @@ Ability_Silhouette2_Go_description2
 
 
 
-Ability_Silhouette2_Go_description_simple						Отправляет Силуэт к дереву, к которому она прикована. Она наносит ^o{80,130,180,230} маг. урона^* и ^o{1} сек. Оглушения^* вражеским юнитам, через которые проходит.
+Ability_Silhouette2_Go_description_simple						Отправляет Silhouette к дереву, к которому она прикована. Она наносит ^o{80,130,180,230} маг. урона^* и ^o{1} сек. Оглушения^* вражеским юнитам, через которые проходит.
 
 
 
@@ -76960,7 +76960,7 @@ Ability_Silhouette2_Pull_name
 
 
 
-Ability_Silhouette2_Pull_description							Силуэт полностью вырывает дерево, используя ствол как оружие, притягивая его к себе.
+Ability_Silhouette2_Pull_description							Silhouette полностью вырывает дерево, используя ствол как оружие, притягивая его к себе.
 
 
 
@@ -76976,7 +76976,7 @@ Ability_Silhouette2_Pull_description2
 
 
 
-Ability_Silhouette2_Pull_description_simple						Активируйте, чтобы уничтожить дерево, к которому прикован Силуэт, и притяните его к себе. Дерево наносит ^o{80,130,180,230} маг. урона^* и ^o{1} сек. Оглушения^* вражеским юнитам, через которые оно проходит.
+Ability_Silhouette2_Pull_description_simple						Активируйте, чтобы уничтожить дерево, к которому прикован Silhouette, и притяните его к себе. Дерево наносит ^o{80,130,180,230} маг. урона^* и ^o{1} сек. Оглушения^* вражеским юнитам, через которые оно проходит.
 
 
 
@@ -77136,7 +77136,7 @@ Ability_Silhouette3_ABILITY_IMPACT_effect
 
 
 
-Ability_Silhouette3_FRAME_effect								Ваши атаки накладывают на цель эффект "Безжалостный залп", который длится 10 сек. и суммируется до 15 раз. Атаки наносят {4,8,12,16} бонусного физ. урона отдельным ударом за каждый заряд "Безжалостного залпа" на цели.\n\nПосле активации навыка Силуэт получает {400} скор. атаки на 2 атаки или 4 сек., если навык не перезаряжается.\n\nИллюзии могут применять заряды "Безжалостного залпа", но не наносят доп. урон.
+Ability_Silhouette3_FRAME_effect								Ваши атаки накладывают на цель эффект "Безжалостный залп", который длится 10 сек. и суммируется до 15 раз. Атаки наносят {4,8,12,16} бонусного физ. урона отдельным ударом за каждый заряд "Безжалостного залпа" на цели.\n\nПосле активации навыка Silhouette получает {400} скор. атаки на 2 атаки или 4 сек., если навык не перезаряжается.\n\nИллюзии могут применять заряды "Безжалостного залпа", но не наносят доп. урон.
 
 
 
@@ -77208,7 +77208,7 @@ State_Silhouette_Ability3_Enemy_name							Relentless Salvo
 
 
 
-State_Silhouette_Ability3_Enemy_description						Получает {4,8,12,16} доп. физ. урона за каждый заряд от атак Силуэта.
+State_Silhouette_Ability3_Enemy_description						Получает {4,8,12,16} доп. физ. урона за каждый заряд от атак Silhouette.
 
 
 
@@ -77216,7 +77216,7 @@ State_Silhouette_Ability3_Enemy_description						Получает {4,8,12,16} д
 
 
 
-State_Silhouette_Ability3_Enemy_description_simple				Получает {4,8,12,16} доп. физ. урона за каждый заряд от атак Силуэта.
+State_Silhouette_Ability3_Enemy_description_simple				Получает {4,8,12,16} доп. физ. урона за каждый заряд от атак Silhouette.
 
 
 
@@ -77336,7 +77336,7 @@ Ability_Silhouette4_Swap_description
 
 
 
-Ability_Silhouette4_Swap_description_simple						Меняет местами Силуэт и ее Тень.\n\nВремя применения начинается с 0 и увеличивается на 0,1 сек. на каждые 1000 единиц между Силуэтом и ее Тенью. Максимальное время каста 0,5 сек.
+Ability_Silhouette4_Swap_description_simple						Меняет местами Silhouette и ее Тень.\n\nВремя применения начинается с 0 и увеличивается на 0,1 сек. на каждые 1000 единиц между Silhouette и ее Тенью. Максимальное время каста 0,5 сек.
 
 
 
@@ -77720,7 +77720,7 @@ Ability_SirBenzington4_IMPACT_effect							После ^oконцентрации
 
 
 
-Ability_SirBenzington4_tooltip_flavor							"Я многим обязан Его Величеству, но не настолько, чтобы осквернить имя Драгунов." - Кейн
+Ability_SirBenzington4_tooltip_flavor							"Я многим обязан Его Величеству, но не настолько, чтобы осквернить имя Драгунов." - Kane
 
 
 
@@ -77856,7 +77856,7 @@ Ability_Skrap1_description_simple								Выберите область, что
 
 
 
-Ability_Skrap1_description										Сочетая пользу и мобильность, Скрэп привязывает самодельную бомбу к мелкому грызуну.
+Ability_Skrap1_description										Сочетая пользу и мобильность, Skrap привязывает самодельную бомбу к мелкому грызуну.
 
 
 
@@ -77912,7 +77912,7 @@ Ability_Skrap2_description_simple								Выберите точку, чтобы
 
 
 
-Ability_Skrap2_description										Зумеранг Скрэпа служит многим целям, но он всегда может положиться на его возврат. Ну, почти всегда.
+Ability_Skrap2_description										Зумеранг Skrap служит многим целям, но он всегда может положиться на его возврат. Ну, почти всегда.
 
 
 
@@ -78016,7 +78016,7 @@ Ability_Skrap3_description_simple								Включите, чтобы поеда
 
 
 
-Ability_Skrap3_description										Когда вкусные Кусочки усыпают поле боя, Скрэп не может удержаться от их сбора, пополняя зловонную коллекцию.
+Ability_Skrap3_description										Когда вкусные Кусочки усыпают поле боя, Skrap не может удержаться от их сбора, пополняя зловонную коллекцию.
 
 
 
@@ -78096,7 +78096,7 @@ Ability_Skrap4_description_simple								Выберите линию, на ко�
 
 
 
-Ability_Skrap4_description										Слышали этот ужасающий вой? Похоже на Воракса - монстра, которого Скрэп натренировал выполнять приказы.
+Ability_Skrap4_description										Слышали этот ужасающий вой? Похоже на Vorax - монстра, которого Skrap натренировал выполнять приказы.
 
 
 
@@ -78224,7 +78224,7 @@ Ability_Vorax2_description_simple								Выберите вражеского �
 
 
 
-Ability_Vorax2_description 										Воракс хватает большой камень и швыряет его в ближайшего героя.
+Ability_Vorax2_description 										Vorax хватает большой камень и швыряет его в ближайшего героя.
 
 
 
@@ -78360,7 +78360,7 @@ Ability_Solstice1_description									Выберите врага, чтобы б
 
 
 
-Ability_Solstice1_description:Day_Solstice						Солнцесто собирает энергию и бросается на врага.
+Ability_Solstice1_description:Day_Solstice						Solstice собирает энергию и бросается на врага.
 
 
 
@@ -78368,7 +78368,7 @@ Ability_Solstice1_description:Day_Solstice						Солнцесто собира�
 
 
 
-Ability_Solstice1_description:Night_Solstice					Солнцесто скрывается в лунном свете и бросается на врага.
+Ability_Solstice1_description:Night_Solstice					Solstice скрывается в лунном свете и бросается на врага.
 
 
 
@@ -78496,7 +78496,7 @@ Ability_Solstice1_name:Night_Solstice_Ult						Shadow Dash
 
 
 
-Ability_Solstice1_description:Day_Solstice_Ult					Солнцесто собирает энергию и бросается на врага.
+Ability_Solstice1_description:Day_Solstice_Ult					Solstice собирает энергию и бросается на врага.
 
 
 
@@ -78504,7 +78504,7 @@ Ability_Solstice1_description:Day_Solstice_Ult					Солнцесто собир
 
 
 
-Ability_Solstice1_description:Night_Solstice_Ult				Солнцесто скрывается в лунном свете и бросается на врага.
+Ability_Solstice1_description:Night_Solstice_Ult				Solstice скрывается в лунном свете и бросается на врага.
 
 
 
@@ -78744,7 +78744,7 @@ State_Solstice_Ability1_Self_Night_Speed_name					Shadow Dash
 
 
 
-State_Solstice_Ability1_Self_Night_Speed_description			Солнцесто мчится к врагу
+State_Solstice_Ability1_Self_Night_Speed_description			Solstice мчится к врагу
 
 
 
@@ -78776,7 +78776,7 @@ State_Solstice_Ability1_Self_Night_Stealth_name					Shadow Dash
 
 
 
-State_Solstice_Ability1_Self_Night_Stealth_description			Солнцесто мчится к врагу
+State_Solstice_Ability1_Self_Night_Stealth_description			Solstice мчится к врагу
 
 
 
@@ -78832,7 +78832,7 @@ Ability_Solstice2_description									Solstice взывает к звездам 
 
 
 
-Ability_Solstice2_description:Day_Solstice						Солнцесто призывает солнечные лучи, чтобы сжечь врагов.
+Ability_Solstice2_description:Day_Solstice						Solstice призывает солнечные лучи, чтобы сжечь врагов.
 
 
 
@@ -78840,7 +78840,7 @@ Ability_Solstice2_description:Day_Solstice						Солнцесто призыв�
 
 
 
-Ability_Solstice2_description:Night_Solstice					Солнцесто призывает лунный свет, усиливая себя и обнаруживая врагов.
+Ability_Solstice2_description:Night_Solstice					Solstice призывает лунный свет, усиливая себя и обнаруживая врагов.
 
 
 
@@ -79288,7 +79288,7 @@ Ability_Solstice4_description									Solstice купается в сиянии 
 
 
 
-Ability_Solstice4_description:Day_Solstice						Солнцесто купается в славе солнца, заряжая мощный луч.
+Ability_Solstice4_description:Day_Solstice						Solstice купается в славе солнца, заряжая мощный луч.
 
 
 
@@ -79296,7 +79296,7 @@ Ability_Solstice4_description:Day_Solstice						Солнцесто купает�
 
 
 
-Ability_Solstice4_description:Night_Solstice					Солнцесто погружается в объятия луны, заряжая мощный луч.
+Ability_Solstice4_description:Night_Solstice					Solstice погружается в объятия луны, заряжая мощный луч.
 
 
 
@@ -79343,7 +79343,7 @@ Ability_Solstice4_description_simple:Night_Solstice				^rДнем^*\nКонце�
 
 
 
-Ability_Solstice4_effect_header:Day_Solstice					Эффект(ы) дыхания Сола
+Ability_Solstice4_effect_header:Day_Solstice					Эффект(ы) Breath of Sol
 
 
 
@@ -79663,7 +79663,7 @@ Ability_Soulstealer1a_name										Demon Hand
 
 
 
-Ability_Soulstealer1a_description								Рука Демона атакует врагов на короткой дистанции перед Похитителем Душ.
+Ability_Soulstealer1a_description								Рука Демона атакует врагов на короткой дистанции перед Soulstealer.
 
 
 
@@ -79719,7 +79719,7 @@ Ability_Soulstealer1b_name										Demon Hand
 
 
 
-Ability_Soulstealer1b_description								Рука Демона атакует врагов на средней дистанции перед Похитителем Душ.
+Ability_Soulstealer1b_description								Рука Демона атакует врагов на средней дистанции перед Soulstealer.
 
 
 
@@ -79775,7 +79775,7 @@ Ability_Soulstealer1c_name										Demon Hand
 
 
 
-Ability_Soulstealer1c_description								Рука Демона атакует врагов на длинной дистанции перед Похитителем Душ.
+Ability_Soulstealer1c_description								Рука Демона атакует врагов на длинной дистанции перед Soulstealer.
 
 
 
@@ -81151,7 +81151,7 @@ Ability_Taint4_name												Zombie Apocalypse
 
 
 
-Ability_Taint4_description										Призывает Зомби-Апокалипсис в целевой точке!
+Ability_Taint4_description										Призывает Zombie Apocalypse в целевой точке!
 
 
 
@@ -81399,7 +81399,7 @@ Ability_Tarot1_name												Ricochet
 
 
 
-Ability_Tarot1_description										Тарот отражает особый защищенный взрывной снаряд от цели, замедляя ее и нанося доп. урон ближайшим врагам при рикошетах.
+Ability_Tarot1_description										Tarot отражает особый защищенный взрывной снаряд от цели, замедляя ее и нанося доп. урон ближайшим врагам при рикошетах.
 
 
 
@@ -81479,7 +81479,7 @@ Ability_Tarot2_name	Far Scry
 
 
 
-Ability_Tarot2_description										Тарот может сфокусироваться на одном враге, атакуя его с дальней дистанции и нанося бонусный урон.
+Ability_Tarot2_description										Tarot может сфокусироваться на одном враге, атакуя его с дальней дистанции и нанося бонусный урон.
 
 
 
@@ -81575,7 +81575,7 @@ State_Tarot_Ability2_Enemy_name									Far Scry
 
 
 
-State_Tarot_Ability2_Enemy_description							Атаки Тарот по ближайшим целям будут рикошетить в вас, если вы в радиусе 800 от ее основной цели
+State_Tarot_Ability2_Enemy_description							Атаки Tarot по ближайшим целям будут рикошетить в вас, если вы в радиусе 800 от ее основной цели
 
 
 
@@ -81615,7 +81615,7 @@ Ability_Tarot3_name	Bound by Fate
 
 
 
-Ability_Tarot3_description										Тарот может связать двух врагов вместе, затрудняя разделение. Если они разорвут связь, понесут серьезное наказание.
+Ability_Tarot3_description										Tarot может связать двух врагов вместе, затрудняя разделение. Если они разорвут связь, понесут серьезное наказание.
 
 
 
@@ -81727,7 +81727,7 @@ Ability_Tarot4_name	Luck of the Draw
 
 
 
-Ability_Tarot4_description										Тарот точна в выстрелах, часто попадая в критические слабые места.
+Ability_Tarot4_description										Tarot точна в выстрелах, часто попадая в критические слабые места.
 
 
 
@@ -82607,7 +82607,7 @@ Ability_KeeperOfTheForest1_effect_header									Эффект(ы) камуфля
 
 
 
-Ability_KeeperOfTheForest1_effect2_header									Эффект(ы) защиты природы
+Ability_KeeperOfTheForest1_effect2_header									Эффект(ы) Nature's Protection
 
 
 
@@ -83383,7 +83383,7 @@ Ability_Tremble2_name											Terrorform
 
 
 
-Ability_Tremble2_description									Вместе с Борисом создавайте Курганы Ужаса и передвигайтесь между ними под землей. После изучения Курган Ужаса появляется у вашего фонтана. Курганы Ужаса дают ^o{15,20,25,30}% скор. движ.^*, ^oпроход сквозь юнитов^*, ^o{2,3,4,5} реген. здоровья^* и ^oСкрытность^*. Также открывает Terror Port между Курганами. Перезарядка сокращается до 10 сек., если Terror Port ведет к Кургану Ужаса у вашего фонтана.\n\nМаксимум {2,4,6,8} Курганов Ужаса.
+Ability_Tremble2_description									Вместе с Boris создавайте Terror Mounds и передвигайтесь между ними под землей. После изучения Terror Mound появляется у вашего фонтана. Terror Mounds дают ^o{15,20,25,30}% скор. движ.^*, ^oпроход сквозь юнитов^*, ^o{2,3,4,5} реген. здоровья^* и ^oСкрытность^*. Также открывает Terror Port между Terror Mounds. Перезарядка сокращается до 10 сек., если Terror Port ведет к Terror Mound у вашего фонтана.\n\nМаксимум {2,4,6,8} Terror Mound.
 
 
 
@@ -83567,7 +83567,7 @@ Ability_Tremble2a_name											Terror Mound
 
 
 
-Ability_Tremble2a_description									Трембл строит Курган Ужаса, дающий невидимость и повышенную скорость.
+Ability_Tremble2a_description									Tremble строит Terror Mound, дающий невидимость и повышенную скорость.
 
 
 
@@ -83623,7 +83623,7 @@ Ability_Tremble2b_name											Terror Port
 
 
 
-Ability_Tremble2b_description									Все Курганы Ужаса связаны. Трембл может переходить от одного к другому.
+Ability_Tremble2b_description									Все Terror Mounds связаны. Tremble может переходить от одного к другому.
 
 
 
@@ -83679,7 +83679,7 @@ Ability_Tremble2c_name											Collapse
 
 
 
-Ability_Tremble2c_description									Уничтожает выбранный Курган ужаса.
+Ability_Tremble2c_description									Уничтожает выбранный Terror Mound.
 
 
 
@@ -83863,7 +83863,7 @@ Ability_Tremble4_description									Призывает Shudder на помощ�
 
 
 
-Ability_Tremble4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* теперь также порождает управляемую Содрогание с 1400 здоровья, Курганы Ужаса, Пронзатели и Бритвенный Панцирь (30 Отклонений).
+Ability_Tremble4_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* теперь также порождает управляемого Shudder с 1400 здоровья, Terror Mounds, Impalers и Razor Carapace (30 отражения).
 
 
 
@@ -83991,7 +83991,7 @@ State_Tremble_Ability4_Modifier_name							Hive Mind
 
 
 
-State_Tremble_Ability4_Modifier_FRAME_effect					Пока активно, Коллективный разум заменяется на Ловушку
+State_Tremble_Ability4_Modifier_FRAME_effect					Пока активно, Hive Mind заменяется на Ensnare
 
 
 
@@ -84159,7 +84159,7 @@ Ability_TremblePet2_name										Terrorform
 
 
 
-Ability_TremblePet2_description									Создавайте туннели через курганы ужаса. Находясь в Курганах Ужаса, вы получаете ^o{15,20,25,30}% скор. движ.^*, ^oпрохождение сквозь существ^*, ^o{2,3,4,5} реген. здоровья и ^oСкрытность^*. Также получите способность Террора Портироваться между Курганами.\n\nКурганы Террора умирают за 4 удара и имеют небоевую регенерацию 100 здоровья/секунду.\n\nМаксимум {2,4,6,8} Курганов Террора.^*
+Ability_TremblePet2_description									Создавайте туннели через Terror Mounds. Находясь в Terror Mounds, вы получаете ^o{15,20,25,30}% скор. движ.^*, ^oпрохождение сквозь существ^*, ^o{2,3,4,5} реген. здоровья и ^oСкрытность^*. Также открывает Terror Port между Terror Mounds.\n\nTerror Mounds погибают за 4 удара и имеют небоевую регенерацию 100 здоровья/секунду.\n\nМаксимум {2,4,6,8} Курганов Террора.^*
 
 
 
@@ -84199,7 +84199,7 @@ Ability_TremblePet2a_name										Terror Mound
 
 
 
-Ability_TremblePet2a_description								Шаддер строит Курган Ужаса, дающий невидимость и повышенную скорость.
+Ability_TremblePet2a_description								Shudder строит Terror Mound, дающий невидимость и повышенную скорость.
 
 
 
@@ -84247,7 +84247,7 @@ Ability_TremblePet2b_name										Terror Port
 
 
 
-Ability_TremblePet2b_description								Все Курганы Ужаса связаны. Трембл может переходить от одного к другому.
+Ability_TremblePet2b_description								Все Terror Mounds связаны. Tremble может переходить от одного к другому.
 
 
 
@@ -84615,7 +84615,7 @@ State_Tundra_Ability2_Debuff_name								Cold Shoulder
 
 
 
-State_Tundra_Ability2_Debuff_FRAME_effect						Увеличивает скор. атаки против этой цели на {0,20,40,60,80}\n\nПри атаке накладывает эффект "Хладнокровие"! на атакующего на 2 сек. и Холодные ноги на цель на 2 сек.
+State_Tundra_Ability2_Debuff_FRAME_effect						Увеличивает скор. атаки против этой цели на {0,20,40,60,80}\n\nПри атаке накладывает Cold Shouldered! на атакующего на 2 сек. и Cold Feet на цель на 2 сек.
 
 
 
@@ -85567,7 +85567,7 @@ Ability_Valkyrie2_name:ult_boost								^gJavelin of Light*^*
 
 
 
-Ability_Valkyrie2_description									Valkyrie метает Копьё Света в указанную точку. Первый задетый враг получает урон и Оглушение. Длительность Оглушения зависит от того, какое расстояние пролетело копьё.
+Ability_Valkyrie2_description									Valkyrie метает Javelin of Light в указанную точку. Первый задетый враг получает урон и Оглушение. Длительность Оглушения зависит от того, какое расстояние пролетело копьё.
 
 
 
@@ -85575,7 +85575,7 @@ Ability_Valkyrie2_description									Valkyrie метает Копьё Свет�
 
 
 
-Ability_Valkyrie2_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Применяет текущий уровень Зова Валькирии к любой цели, пораженной Джавелином.
+Ability_Valkyrie2_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Применяет текущий уровень Зова Valkyrie к любой цели, пораженной Джавелином.
 
 
 
@@ -85583,7 +85583,7 @@ Ability_Valkyrie2_description2									^gЭта способность може�
 
 
 
-Ability_Valkyrie2_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Применяет текущий уровень Зова Валькирии к любой цели, пораженной Джавелином.
+Ability_Valkyrie2_description2:ult_boost	^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Применяет текущий уровень Зова Valkyrie к любой цели, пораженной Джавелином.
 
 
 
@@ -85911,7 +85911,7 @@ State_Valkyrie_Ability4_ATTACK_START_effect
 
 
 
-State_Valkyrie_Ability4_FRAME_effect							Не истекает при атаке или использовании способностей\nДает помощь Валькирии, когда затронутый союзный герой убивает вражеского героя в радиусе 1700 от нее.
+State_Valkyrie_Ability4_FRAME_effect							Не истекает при атаке или использовании способностей\nДает помощь Valkyrie, когда затронутый союзный герой убивает вражеского героя в радиусе 1700 от нее.
 
 
 
@@ -86690,7 +86690,7 @@ Ability_Vindicator3_name 	Glyph of Silence
 
 
 
-Ability_Vindicator3_description 								Глиф Безмолвия, начертанный на переплете Книги, заставляет врагов вокруг умолкнуть и одновременно сковывает их движение.
+Ability_Vindicator3_description 								Glyph of Silence, начертанный на переплете Книги, заставляет врагов вокруг умолкнуть и одновременно сковывает их движение.
 
 
 
@@ -87010,7 +87010,7 @@ Ability_VoodooJester1_name											Acid Cocktail
 
 
 
-Ability_VoodooJester1_description										Шут Вуду бросает мерзкую смесь проклятых химикатов, оглушая врага и ближайших существ одного за другим.
+Ability_VoodooJester1_description										Voodoo Jester бросает мерзкую смесь проклятых химикатов, оглушая врага и ближайших существ одного за другим.
 
 
 
@@ -87074,7 +87074,7 @@ Ability_VoodooJester2_name											Mojo
 
 
 
-Ability_VoodooJester2_description										Шут Вуду наделяет союзника Хорошим Моджо или врага Плохим Моджо. Хорошее Моджо исцеляет, а Плохое - наносит урон.
+Ability_VoodooJester2_description										Voodoo Jester наделяет союзника Хорошим Моджо или врага Плохим Моджо. Хорошее Моджо исцеляет, а Плохое - наносит урон.
 
 
 
@@ -87098,7 +87098,7 @@ Ability_VoodooJester2_effect_header									Эффекты Доброй маги
 
 
 
-Ability_VoodooJester2_effect_header2									Эффекты Дурной магии
+Ability_VoodooJester2_effect_header2									Эффекты Bad Mojo
 
 
 
@@ -87274,7 +87274,7 @@ Ability_VoodooJester3_name											Cursed Ground
 
 
 
-Ability_VoodooJester3_description										Шут Вуду проклинает землю под ногами врага, нанося урон пропорционально потерянному здоровью через несколько сек.
+Ability_VoodooJester3_description										Voodoo Jester проклинает землю под ногами врага, нанося урон пропорционально потерянному здоровью через несколько сек.
 
 
 
@@ -87370,7 +87370,7 @@ Ability_VoodooJester4_name											Spirit Ward
 
 
 
-Ability_VoodooJester4_description										Шут Вуду концентрируется, направляя смертоносного Духа-Стража на вражеских героев.
+Ability_VoodooJester4_description										Voodoo Jester концентрируется, направляя смертоносного Духа-Стража на вражеских героев.
 
 
 
@@ -88514,7 +88514,7 @@ Ability_WitchSlayer4_name:ult_boost								^gHeavenly Blast*^*
 
 
 
-Ability_WitchSlayer4_description:ult_boost						Не имея другого выбора, Убийца Ведьм выпускает ^gНебесный взрыв^* из своего пистолета по выбранному врагу. В результате удара они обычно распадаются на множество маленьких, но благословенных частей.
+Ability_WitchSlayer4_description:ult_boost						Не имея другого выбора, Witch Slayer выпускает ^gНебесный взрыв^* из своего пистолета по выбранному врагу. В результате удара они обычно распадаются на множество маленьких, но благословенных частей.
 
 
 
@@ -88578,7 +88578,7 @@ State_WitchSlayer_Ability4_Stack_name							Silver Wound
 
 
 
-State_WitchSlayer_Ability4_Stack_description					При убийстве на 5 сек. дает заряд Серебряной Пуле Убийцы Ведьм
+State_WitchSlayer_Ability4_Stack_description					При убийстве на 5 сек. дает заряд Серебряной Пуле Witch Slayer
 
 
 
@@ -89130,7 +89130,7 @@ Ability_WarBeast3_name											Primal Rage
 
 
 
-Ability_WarBeast3_description									War Beast копит Первобытную ярость, повышая урон атаки и реген. здоровья себе и подвластным ему юнитам.
+Ability_WarBeast3_description									War Beast копит Primal Rage, повышая урон атаки и реген. здоровья себе и подвластным ему юнитам.
 
 
 
@@ -89786,7 +89786,7 @@ Ability_Bear1_name												Return
 
 
 
-Ability_Bear1_description										Телепортирует Бу-Бу к местоположению Дикой Души. 3 сек. перезарядки при получении урона от управляемого игроком существа.
+Ability_Bear1_description										Телепортирует Booboo к местоположению Wildsoul. 3 сек. перезарядки при получении урона от управляемого игроком существа.
 
 
 
@@ -90714,7 +90714,7 @@ Ability_Yogi4_IMPACT_effect										Включает Bear Form, расходу�
 
 
 
-Ability_Yogi4_description:yogi4_toggle_active					Дикая Душа возвращается в человеческий облик.
+Ability_Yogi4_description:yogi4_toggle_active					Wildsoul возвращается в человеческий облик.
 
 
 
@@ -91026,7 +91026,7 @@ Ability_Zephyr2_IMPACT_effect									Поглощает один Cyclone и ^o�
 
 
 
-Ability_Zephyr2_KILL_effect										Создает циклон, который существует ^o40 секунд^* и наносит ^o9 маг. урона в сек.^* вражеским юнитам, которых он касается.\n\nКогда циклон поглощается, он исцеляет Зефира на ^o20 здоровья^*. Исцеляет на ту же сумму по истечении срока действия Циклона.\n\nЦиклоны также появляются раз в 20 сек.\n\nМожет быть одновременно активным максимум ^c{3,5,7,9} циклонов^*.
+Ability_Zephyr2_KILL_effect										Создает циклон, который существует ^o40 секунд^* и наносит ^o9 маг. урона в сек.^* вражеским юнитам, которых он касается.\n\nКогда циклон поглощается, он исцеляет Zephyr на ^o20 здоровья^*. Исцеляет на ту же сумму по истечении срока действия Циклона.\n\nЦиклоны также появляются раз в 20 сек.\n\nМожет быть одновременно активным максимум ^c{3,5,7,9} циклонов^*.
 
 
 
@@ -91034,7 +91034,7 @@ Ability_Zephyr2_KILL_effect										Создает циклон, который
 
 
 
-Ability_Zephyr2_KILL_effect:ult_boost							Создает циклон, который существует ^o40 секунд^* и наносит ^o9 маг. урона в сек.^* вражеским юнитам, которых он касается.\n\nКогда циклон поглощается, он исцеляет Зефира на ^o20 здоровья^*. Исцеляет на ту же сумму по истечении срока действия Циклона.\n\nЦиклоны также появляются каждые ^g4^* секунды.\n\nМожет одновременно быть активным максимум ^g{7,9,11,13} циклонов^*.
+Ability_Zephyr2_KILL_effect:ult_boost							Создает циклон, который существует ^o40 секунд^* и наносит ^o9 маг. урона в сек.^* вражеским юнитам, которых он касается.\n\nКогда циклон поглощается, он исцеляет Zephyr на ^o20 здоровья^*. Исцеляет на ту же сумму по истечении срока действия Циклона.\n\nЦиклоны также появляются каждые ^g4^* секунды.\n\nМожет одновременно быть активным максимум ^g{7,9,11,13} циклонов^*.
 
 
 
@@ -91194,7 +91194,7 @@ Ability_Zephyr4_name:ult_boost									^gTyphoon*^*
 
 
 
-Ability_Zephyr4_description										Зефир создает могучий Тайфун, замедляющий скор. движ. и наносящий урон всем существам, находящимся рядом с ним. Чем ближе враг к центру Тайфуна, тем выше становится урон и снижение скорости.\nДает 600 дневного и ночного беспрепятственного обзора, пока активно.
+Ability_Zephyr4_description										Zephyr создает могучий Тайфун, замедляющий скор. движ. и наносящий урон всем существам, находящимся рядом с ним. Чем ближе враг к центру Тайфуна, тем выше становится урон и снижение скорости.\nДает 600 дневного и ночного беспрепятственного обзора, пока активно.
 
 
 
@@ -91410,7 +91410,7 @@ Ability_PyromancerTutorial1_name								Phoenix Wave
 
 
 
-Ability_PyromancerTutorial1_description							Пиромант выпускает феникса, наносящего урон врагам в линии.
+Ability_PyromancerTutorial1_description							Pyromancer выпускает феникса, наносящего урон врагам в линии.
 
 
 
@@ -91474,7 +91474,7 @@ Ability_PyromancerTutorial2_name								Dragonfire
 
 
 
-Ability_PyromancerTutorial2_description							Пиромант вызывает могучего огненного дракона, наносящего урон и оглушающего врагов в области.
+Ability_PyromancerTutorial2_description							Pyromancer вызывает могучего огненного дракона, наносящего урон и оглушающего врагов в области.
 
 
 
@@ -91538,7 +91538,7 @@ Ability_PyromancerTutorial3_name								Fervor
 
 
 
-Ability_PyromancerTutorial3_description							Овладев внутренним огнем, Пиромант увеличивает скорость применения, атаки и передвижения после каста, попутно поджигая задетых способностями или атаками.
+Ability_PyromancerTutorial3_description							Овладев внутренним огнем, Pyromancer увеличивает скорость применения, атаки и передвижения после каста, попутно поджигая задетых способностями или атаками.
 
 
 
@@ -91706,7 +91706,7 @@ Ability_PyromancerTutorial4_name								Blazing Strike
 
 
 
-Ability_PyromancerTutorial4_description							Используя силу Соля, Пиромант швыряет раскаленный шар в цель, нанося массивный урон.
+Ability_PyromancerTutorial4_description							Используя силу Соля, Pyromancer швыряет раскаленный шар в цель, нанося массивный урон.
 
 
 
@@ -92754,7 +92754,7 @@ Item_Bottle_IMPACT_effect:bottle_empty							Щелкните правой кн�
 
 
 
-Item_Bottle_effect_header:bottle_damage							Эффект(ы) двойного урона
+Item_Bottle_effect_header:bottle_damage							Эффект(ы) Double Damage
 
 
 
@@ -93034,7 +93034,7 @@ State_BoundEye_ItemDrop_name									Bound Eye (Drop)
 
 
 
-State_BoundEye_ItemDrop_FRAME_effect							Привязанный глаз выпадает при смерти и не может быть выброшен вручную
+State_BoundEye_ItemDrop_FRAME_effect							Bound Eye выпадает при смерти и не может быть выброшен вручную
 
 
 
@@ -94463,7 +94463,7 @@ Ability_GroundFamiliar1_name									Winged Courier
 
 
 
-Ability_GroundFamiliar1_description								Улучшить до Крылатого Курьера за 200 золота.
+Ability_GroundFamiliar1_description								Улучшить до Winged Courier за 200 золота.
 
 
 
@@ -96095,7 +96095,7 @@ Item_IoynStone_effect_header:ioyn_stone_damage					Эффект(ы) урона I
 
 
 
-Item_IoynStone_IMPACT_effect:ioyn_stone_damage					Наносит цели урон Ioyn на 12 сек.\n\n^oНе суммируется с двойным уроном.^*\n\nПри падении Ioyn Stone удаляются все заряды.
+Item_IoynStone_IMPACT_effect:ioyn_stone_damage					Наносит цели урон Ioyn на 12 сек.\n\n^oНе суммируется с Double Damage.^*\n\nПри падении Ioyn Stone удаляются все заряды.
 
 
 
@@ -98311,7 +98311,7 @@ State_Nomes_Shield_name											Nome's Shield
 
 
 
-State_Nomes_Shield_description									Щит из исцеления Мудрости Нома, превышающего макс. здоровье
+State_Nomes_Shield_description									Щит из исцеления Nome's Wisdom, превышающего макс. здоровье
 
 
 
@@ -98975,7 +98975,7 @@ Item_PostHaste_description
 
 
 
-Item_PostHaste_description2										^oУсиливает камень телепортации: теперь он переносит к юнитам и строениям.^*\n\nПредмет даёт пассивную прибавку к ^yскор. движ.^*, которая не складывается ни сама с собой, ни с другими ботинками.\n\n^oВне боя^* повышает скор. движ. на 45 и реген. здоровья на 2.\n\nПрибавка к скор. движ. вне боя пропадает, когда вы получаете урон, применяете заклинание, становитесь целью заклинания, атакуете или используете предмет.\n\nВарды, Bottle, Blight Stones, зелья и Lex Talionis прибавку не снимают.
+Item_PostHaste_description2										^oУсиливает Teleportation Stone: теперь он переносит к юнитам и строениям.^*\n\nПредмет даёт пассивную прибавку к ^yскор. движ.^*, которая не складывается ни сама с собой, ни с другими ботинками.\n\n^oВне боя^* повышает скор. движ. на 45 и реген. здоровья на 2.\n\nПрибавка к скор. движ. вне боя пропадает, когда вы получаете урон, применяете заклинание, становитесь целью заклинания, атакуете или используете предмет.\n\nВарды, Bottle, Blight Stones, зелья и Lex Talionis прибавку не снимают.
 
 
 
@@ -99151,7 +99151,7 @@ Item_PegasusBoots_description
 
 
 
-Item_PegasusBoots_description2									^oУсиливает камень телепортации: теперь он переносит к союзным героям, юнитам и строениям.^*\n\nПредмет даёт пассивную прибавку к ^yскор. движ.^*, которая не складывается ни сама с собой, ни с другими ботинками.\n\n^oВне боя^* повышает скор. движ. на 35 и реген. здоровья на 2.\n\nПрибавка к скор. движ. вне боя пропадает, когда вы получаете урон, применяете заклинание, становитесь целью заклинания, атакуете или используете предмет.\n\nВарды, Bottle, Blight Stones, зелья и Lex Talionis прибавку не снимают.
+Item_PegasusBoots_description2									^oУсиливает Teleportation Stone: теперь он переносит к союзным героям, юнитам и строениям.^*\n\nПредмет даёт пассивную прибавку к ^yскор. движ.^*, которая не складывается ни сама с собой, ни с другими ботинками.\n\n^oВне боя^* повышает скор. движ. на 35 и реген. здоровья на 2.\n\nПрибавка к скор. движ. вне боя пропадает, когда вы получаете урон, применяете заклинание, становитесь целью заклинания, атакуете или используете предмет.\n\nВарды, Bottle, Blight Stones, зелья и Lex Talionis прибавку не снимают.
 
 
 
@@ -101503,7 +101503,7 @@ State_PowerupIllusion_name										Mystic
 
 
 
-State_PowerupIllusion_description								Дает меньше снижения перезарядки при наличии Гримуара Силы.
+State_PowerupIllusion_description								Дает меньше снижения перезарядки при наличии Grimoire of Power.
 
 
 
@@ -102674,7 +102674,7 @@ Item_SpellSunder_FRAME_effect									\n^oКогда вы наносите ма�
 
 
 
-Item_SpellSunder_tooltip_flavor									Посвящается Kros за режим Блиц!
+Item_SpellSunder_tooltip_flavor									Посвящается Kros за режим Blitz!
 
 
 
@@ -103378,7 +103378,7 @@ Item_CrownGreaves_effect_header									Эффекты Стражи короны
 
 
 
-Item_CrownGreaves_effect_header2								Эффект(ы) коронной стражи (герои)
+Item_CrownGreaves_effect_header2								Эффект(ы) Crown Guard (герои)
 
 
 
@@ -105018,7 +105018,7 @@ Item_BarbedArmor_IMPACT_effect:OnlyMidMap						Применяет ^oBarbed^* к 
 
 
 
-Item_BarbedArmor_IMPACT_effect:rapidfire						Применяет ^oBarbed^* к себе на ^r3 сек. (режим "Блиц")^*.
+Item_BarbedArmor_IMPACT_effect:rapidfire						Применяет ^oBarbed^* к себе на ^r3 сек. (режим "Blitz")^*.
 
 
 
@@ -105226,7 +105226,7 @@ Ability_FlyingCourier1_name										Speed Burst
 
 
 
-Ability_FlyingCourier1_description								Дает Крылатому Курьеру огромный прирост скорости.
+Ability_FlyingCourier1_description								Дает Winged Courier огромный прирост скорости.
 
 
 
@@ -105410,7 +105410,7 @@ Ability_FlyingCourier3_name										Delivery
 
 
 
-Ability_FlyingCourier3_description								Крылатый курьер летит к вашему герою и передает все ваши вещи.
+Ability_FlyingCourier3_description								Winged Courier летит к вашему герою и передает все ваши вещи.
 
 
 
@@ -105458,7 +105458,7 @@ Ability_FlyingCourier4_name										Homeward Bound
 
 
 
-Ability_FlyingCourier4_description								Крылатый курьер летит обратно на базу.
+Ability_FlyingCourier4_description								Winged Courier летит обратно на базу.
 
 
 
@@ -107162,7 +107162,7 @@ Item_GraveLocket_IMPACT_effect									^oВыключает^* Grave Locket и с
 
 
 
-Item_GraveLocket_IMPACT_effect:item_OrbOfZamos_Disabled	 Превращает могильный медальон ^o на ^*.
+Item_GraveLocket_IMPACT_effect:item_OrbOfZamos_Disabled	 Превращает Grave Locket ^o на ^*.
 
 
 
@@ -107492,7 +107492,7 @@ State_OpheliasPact_PermaBuff1_name								Ophelia's Might
 
 
 
-State_OpheliasPact_PermaBuff1_FRAME_effect						\nПостоянная награда за выполнение Пакта Офелии.
+State_OpheliasPact_PermaBuff1_FRAME_effect						\nПостоянная награда за выполнение Пакта Ophelia.
 
 
 
@@ -107524,7 +107524,7 @@ State_OpheliasPact_PermaBuff3_name								Ophelia's Blessing
 
 
 
-State_OpheliasPact_PermaBuff3_FRAME_effect						\nПостоянная награда за выполнение Пакта Офелии.
+State_OpheliasPact_PermaBuff3_FRAME_effect						\nПостоянная награда за выполнение Пакта Ophelia.
 
 
 
@@ -110635,7 +110635,7 @@ Item_SymbolOfRage_shop_categories									Filter_Strength,Filter_Damage,Filter_M
 
 
 
-Item_SymbolOfRage_tooltip_flavor									Дань уважения Маликену!\n\nНесмотря на то, что иногда он может злиться, без него игра бы никогда не существовала! Если бы не он, у многих людей не было бы уникальных возможностей в игровой индустрии.
+Item_SymbolOfRage_tooltip_flavor									Дань уважения Maliken!\n\nНесмотря на то, что иногда он может злиться, без него игра бы никогда не существовала! Если бы не он, у многих людей не было бы уникальных возможностей в игровой индустрии.
 
 
 
@@ -117554,7 +117554,7 @@ Ability_SnotterBoss2_name										Snotter Jump!
 
 
 
-Ability_SnotterBoss2_description								Через 5 сек. после атаки Snotter Boss нацеливается на случайного вражеского героя в радиусе 650, становится неуязвимым и подпрыгивает в воздух на 4 сек. В течение этого периода здоровье босса-сноттера снижается до 1.\n\nПри приземлении на позицию цели наносит 5000 маг. урона в радиусе 450 единиц. Разделяется максимум на 10 Сноттеров (200 здоровья и 60 скор. движ. со всем ходьбой и GadgetImmunity), которые находятся на расстоянии 450 единиц от центра взрыва. Каждый Сноттер движется к центру.\n\nПо достижении радиуса 40 от центра они исчезают и дают Боссу Сноттера 1000 здоровья. Как только все оставшиеся в живых Сноттеры достигают центра, Босс Сноттер преобразуется с правильным значением здоровья (Босс Сноттер теряет 900 здоровья за каждого убитого Сноттера). Если все Сноттеры убиты, то Босс Сноттер возрождается с 1000 здоровья.
+Ability_SnotterBoss2_description								Через 5 сек. после атаки Snotter Boss нацеливается на случайного вражеского героя в радиусе 650, становится неуязвимым и подпрыгивает в воздух на 4 сек. В течение этого периода здоровье Snotter Boss снижается до 1.\n\nПри приземлении на позицию цели наносит 5000 маг. урона в радиусе 450 единиц. Разделяется максимум на 10 Сноттеров (200 здоровья и 60 скор. движ. со всем ходьбой и GadgetImmunity), которые находятся на расстоянии 450 единиц от центра взрыва. Каждый Сноттер движется к центру.\n\nПо достижении радиуса 40 от центра они исчезают и дают Snotter Boss 1000 здоровья. Как только все оставшиеся в живых Сноттеры достигают центра, Snotter Boss преобразуется с правильным значением здоровья (Snotter Boss теряет 900 здоровья за каждого убитого Сноттера). Если все Сноттеры убиты, то Snotter Boss возрождается с 1000 здоровья.
 
 
 
@@ -117594,7 +117594,7 @@ Ability_SnotterBoss3_name										Snotter Charge
 
 
 
-Ability_SnotterBoss3_description								После атаки выполняет проверку каждые 2,5 сек. Имеет 30% шанс нацелиться на случайного вражеского героя в радиусе 800 и атакует цель.\n\nНаносит 200 маг. урона, Оглушает цель на 0,2 сек. и отталкивает цель на 300 единиц от босса-сноттера. Также применяет к цели замедление скор. движ. на 50% на 2 сек.
+Ability_SnotterBoss3_description								После атаки выполняет проверку каждые 2,5 сек. Имеет 30% шанс нацелиться на случайного вражеского героя в радиусе 800 и атакует цель.\n\nНаносит 200 маг. урона, Оглушает цель на 0,2 сек. и отталкивает цель на 300 единиц от Snotter Boss. Также применяет к цели замедление скор. движ. на 50% на 2 сек.
 
 
 
@@ -117634,7 +117634,7 @@ Ability_SnotterBoss4_name										Snotter Speed!
 
 
 
-Ability_SnotterBoss4_description								После атаки каждые 2.5 сек. проверяет: с 30% шансом усиливает всех нейтральных крипов (фракция Босса Сноттера) в радиусе 900 на +100 к скорости и свободное перемещение на 8 сек.
+Ability_SnotterBoss4_description								После атаки каждые 2.5 сек. проверяет: с 30% шансом усиливает всех нейтральных крипов (фракция Snotter Boss) в радиусе 900 на +100 к скорости и свободное перемещение на 8 сек.
 
 
 
@@ -117930,7 +117930,7 @@ Ability_WinterBoss2_name										Giant Snowball
 
 
 
-Ability_WinterBoss2_description									После 2-секундного применения создает гигантский снежок. Гигантский снежок подбирает все на своем пути и катится к центру карты. При ударе все пойманные юниты получают Оглушение на ^o1 сек.^* и получают ^o30% от своего макс. здоровья^* в качестве маг. урона.
+Ability_WinterBoss2_description									После 2-секундного применения создает Giant Snowball. Giant Snowball подбирает все на своем пути и катится к центру карты. При ударе все пойманные юниты получают Оглушение на ^o1 сек.^* и получают ^o30% от своего макс. здоровья^* в качестве маг. урона.
 
 
 
@@ -119994,7 +119994,7 @@ Ability_Crazy_Hunter_name										Crazy Hunting!
 
 
 
-Ability_Crazy_Hunter_description								Безумный Охотник атакует!
+Ability_Crazy_Hunter_description								Crazy Hunter атакует!
 
 
 
@@ -120498,7 +120498,7 @@ Ability_HunterInvis1_name										On the Hunt
 
 
 
-Ability_HunterInvis1_description								Скрытный Охотник преследует добычу из теней!
+Ability_HunterInvis1_description								Stealth Hunter преследует добычу из теней!
 
 
 
@@ -120930,7 +120930,7 @@ Ability_Ogre1_effect_header										Бафф ледяной брони
 
 
 
-Ability_Ogre1_effect_header2									Дебафф ледяной брони
+Ability_Ogre1_effect_header2									Дебафф Icy Cold Armor
 
 
 
@@ -121018,7 +121018,7 @@ Ability_OgreLeader1_effect_header								Испепеляющее пламя (б
 
 
 
-Ability_OgreLeader1_effect_header2								Испепеляющее пламя (дебафф)
+Ability_OgreLeader1_effect_header2								Immolating Flames (дебафф)
 
 
 
@@ -125279,7 +125279,7 @@ Ability_Chipper1_description_simple:OnlyMidMap		^rMid Wars:^* Выпускает
 Ability_Engineer2_description_simple:OnlyMidMap		Ставит ^oSteam Turret^* в выбранную точку. Она наносит ^o{26,44,62,80} физ. урона^* за выстрел, у нее ^o{450,475,500,525} дальности атаки^*, она наследует ваш инвентарь и 50% скор. атаки, которую вам дает ловкость.\n\nНа ^oSteam Turret^* не действуют исцеление, реген. здоровья и реген. маны.\n\n^oSteam Turret^* погибает от 3 ударов героев ближнего боя, боссов и вражеских строений (6 ударов дальнобойных героев, 12 ударов прочих юнитов) и не привлекает крипов на линии. Если она 4 сек. не получает урон, ее здоровье полностью восстанавливается.\n\n^rMid Wars:^* турель ^rотключается^*, если Engineer дальше ^o800 единиц^*.\n\nСвою турель можно уничтожить, атаковав ее.
 Ability_FlintBeastwood2_description_simple:OnlyMidMap		^rMid Wars:^* Даёт атакам 30% шанс дополнительно нанести ^o{16,34,52,70} физ. урона^* и наложить ^oОглушение на {0.04,0.08,0.12,0.16} сек.^* на вражеских юнитов.\n\nУ иллюзий Оглушение не срабатывает.
 Ability_FlintBeastwood2_ATTACK_IMPACT_effect:OnlyMidMap		^rMid Wars:^* с шансом 30% наносит вражеским юнитам ^o{16,34,52,70} доп. физ. урона^* и ^oоглушает на {0.04,0.08,0.12,0.16} сек.^*\n\nАтаки иллюзий не оглушают.
-Ability_FlintBeastwood3_description2:OnlyMidMap		^rMid Wars:^* Даёт ^o{50,100,150,200} дальности атаки^* и ^o{75,150,225,300} обзора^*.\n\nДаёт союзным юнитам в радиусе ^o{30,40,50,60}% шанс^* получить ^oТочный удар^* при своих атаках.
+Ability_FlintBeastwood3_description2:OnlyMidMap		^rMid Wars:^* Даёт ^o{50,100,150,200} дальности атаки^* и ^o{75,150,225,300} обзора^*.\n\nДаёт союзным юнитам в радиусе ^o{30,40,50,60}% шанс^* получить ^oTrue Strike^* при своих атаках.
 Ability_FlintBeastwood3_description_simple:OnlyMidMap		^rMid Wars:^* дает ^o{50,100,150,200} дальности атаки^* и ^o{75,150,225,300} обзора^*.\n\nАтаки союзных юнитов в радиусе с шансом ^o{30,40,50,60}%^* получают ^oTrue Strike^*.
 Ability_Jeraziah2_description_simple:OnlyMidMap		Выпускает ауру ^o{6,12,18,24}% замедления скор. движ.^* на врагов вокруг вас.\n\nБлагословляет союзника защитным оберегом: ^oснимает отрицательные эффекты^*, даёт ^oиммунитет к магии^* на ^o5 сек.^* и ^oпередаёт ему ауру замедления скор. движ.^* на это время.\n\n^rMid Wars:^* Перезарядка - ^o30 сек.^*
 Ability_Jeraziah2_IMPACT_effect:OnlyMidMap		Выберите союзника (или себя), чтобы ^oснять с него отрицательные эффекты^*, дать ему иммунитет к магии и ^oауру замедления скор. движ. на {6,12,18,24}%^* на ^o5 сек.^*\n\nЕсли Protective Charm не висит на союзнике, аура замедления пассивно действует вокруг Jeraziah.\n\nProtective Charm можно снять. ^rMid Wars:^* перезарядка ^o30 сек.^*
