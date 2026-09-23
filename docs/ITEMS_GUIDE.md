@@ -74,8 +74,7 @@ Item_AbyssalFlower_search_terms    abyssalflower,flower,...,цветок,без�
 
 ## Проверка
 
-1. Правь `bundle/entities_en.str`. `linux/overrides.str` - только для
-   случаев, где проект намеренно расходится с апстримом.
+1. Правь `bundle/entities_en.str`.
 2. `make lint` - дефекты перевода.
 3. `make run`, затем в игре открой магазин и найди предмет: текст должен
    влезать в тултип.

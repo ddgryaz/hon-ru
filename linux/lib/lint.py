@@ -6,7 +6,7 @@
 русских слов.
 
 Буква "ё" здесь не проверяется: шрифты игры (hon_intl, hon_bold_intl,
-hon_cond_intl) содержат её глиф, хотя апстрим когда-то вычистил все 923
+hon_cond_intl) содержат её глиф, хотя исходный проект когда-то вычистил все 923
 вхождения как якобы неотображаемые.
 """
 import os
@@ -14,7 +14,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from honru import parse_str, load_overrides, lookup
+from honru import parse_str, lookup
 
 STEMS = ('entities', 'interface', 'client_messages', 'game_messages', 'bot_messages')
 CYR = set('абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ')
@@ -27,7 +27,7 @@ def tags(value):
             len(re.findall(r'\^\*', value)))
 
 
-def check(base_dir, bundle_dir, overrides):
+def check(base_dir, bundle_dir):
     found = {}
 
     def add(kind, key, detail=''):
@@ -42,7 +42,6 @@ def check(base_dir, bundle_dir, overrides):
             base = parse_str(fh.read())
         with open(ru_file, 'rb') as fh:
             ru = parse_str(fh.read())
-        over = load_overrides(overrides, stem)
         low = {}
         for k, v in ru.items():
             if v:
@@ -51,7 +50,7 @@ def check(base_dir, bundle_dir, overrides):
         for key, eng in base.items():
             if not eng:
                 continue
-            value = over.get(key) or lookup(key, ru, low)
+            value = lookup(key, ru, low)
             is_name = (key.split(':')[0].endswith('_name')
                        and key.startswith(('Ability_', 'Item_', 'State_',
                                            'Pet_', 'Hero_', 'Gadget_',
@@ -117,9 +116,10 @@ def check(base_dir, bundle_dir, overrides):
                 sloppy.append('повтор слова')
             # Термины, которые машинный перевод давал вразнобой: unit -
             # "отряд" (153 строки), Clearvision - пять вариантов, "скор. атак."
-            # Глоссарий апстрима (79f6934) менял подстроки внутри слов: "стан" на
-            # "оглушение" (Пакистан - "Пакиоглушение"), "том" на "тромкость",
-            # "в" на "п" в "вампиризм", "дальнего боя" на "дальний тип атаки"
+            # Глоссарий исходного проекта (79f6934) менял подстроки внутри
+            # слов: "стан" на "оглушение" (Пакистан - "Пакиоглушение"),
+            # "том" на "тромкость", "в" на "п" в "вампиризм", "дальнего боя"
+            # на "дальний тип атаки"
             if re.search(r'(?i)[а-яё]оглушени|тромкост|пампириз|поддержание[а-яё]'
                          r'|дальний тип атаки', value):
                 sloppy.append('склейка от слепой замены')
@@ -214,9 +214,9 @@ def check(base_dir, bundle_dir, overrides):
 
 
 def main():
-    base_dir, bundle_dir, overrides = sys.argv[1:4]
-    limit = int(sys.argv[4]) if len(sys.argv) > 4 else 5
-    found = check(base_dir, bundle_dir, overrides)
+    base_dir, bundle_dir = sys.argv[1:3]
+    limit = int(sys.argv[3]) if len(sys.argv) > 3 else 5
+    found = check(base_dir, bundle_dir)
 
     if not found:
         print('Проверки пройдены, замечаний нет.')

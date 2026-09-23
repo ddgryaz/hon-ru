@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Отчёт о непереведённых строках: что осталось на английском после мержа.
 
-Сравнивает базу из resources0.jz с bundle/ и overrides.str. Ключ считается
+Сравнивает базу из resources0.jz с bundle/. Ключ считается
 непереведённым, если значение совпадает с английским или отсутствует.
 """
 import os
@@ -9,7 +9,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from honru import parse_str, load_overrides, lookup
+from honru import parse_str, lookup
 
 
 SERVICE = ('_search_terms', '_shop_categories', '_keywords')
@@ -67,8 +67,8 @@ def group_of(key):
 
 
 def main():
-    base_dir, bundle_dir, overrides = sys.argv[1], sys.argv[2], sys.argv[3]
-    detail = sys.argv[4] if len(sys.argv) > 4 else ''
+    base_dir, bundle_dir = sys.argv[1], sys.argv[2]
+    detail = sys.argv[3] if len(sys.argv) > 3 else ''
 
     groups = {}
     same_as_english = []
@@ -85,7 +85,6 @@ def main():
             base = parse_str(fh.read())
         with open(ru_file, 'rb') as fh:
             ru = parse_str(fh.read())
-        over = load_overrides(overrides, stem)
         ru_lower = {}
         for k, v in ru.items():
             if v:
@@ -97,7 +96,7 @@ def main():
             if not english:
                 continue
             total_keys += 1
-            value = over.get(key) or lookup(key, ru, ru_lower)
+            value = lookup(key, ru, ru_lower)
             if value:
                 # Значение, дословно равное английскому, отчёт о пробелах
                 # раньше не видел: ключ есть, а перевода нет. Служебные

@@ -18,5 +18,4 @@ TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 hon_extract_base "$TMP" || exit 1
 
-python3 "$SCRIPT_DIR/lib/untranslated.py" "$TMP" "$BUNDLE_DIR" \
-    "$SCRIPT_DIR/overrides.str" "${1:-}"
+python3 "$SCRIPT_DIR/lib/untranslated.py" "$TMP" "$BUNDLE_DIR" "${1:-}"

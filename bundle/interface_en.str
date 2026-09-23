@@ -1265,7 +1265,7 @@ main_optimal_settings_prompt_body			Мы обнаружили, что ваша �
 
 
 
-main_label_username							RU v1.9.9p | boosty.to/xyling
+main_label_username							Имя пользователя
 
 
 
@@ -1449,7 +1449,7 @@ main_login_remember_me						Запомнить меня
 
 
 
-main_login_remember_me_tip					RU localization version: v1.9.9p. Updates: https://boosty.to/xyling
+main_login_remember_me_tip					При выборе ваши имя пользователя и пароль будут сохранены, и вы будете автоматически входить в игру при запуске.
 
 
 

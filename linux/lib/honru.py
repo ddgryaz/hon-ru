@@ -20,30 +20,6 @@ def sniff(data):
     return 'utf-8', b''
 
 
-def load_overrides(path, stem):
-    """Читает overrides.str и отдаёт {ключ: значение} для одного файла перевода."""
-    out = {}
-    if not os.path.exists(path):
-        return out
-    with open(path, 'rb') as fh:
-        data = fh.read()
-    enc, bom = sniff(data)
-    text = data[len(bom):].decode(enc)
-    for raw in text.replace('\r\n', '\n').split('\n'):
-        line = raw.strip()
-        if not line or line.startswith('//'):
-            continue
-        if '\t' not in line:
-            continue
-        head, value = line.split('\t', 1)
-        if ':' not in head:
-            continue
-        target, key = head.split(':', 1)
-        if target.strip() == stem:
-            out[key.strip()] = value.strip()
-    return out
-
-
 def parse_str(data):
     """Разбирает .str в {ключ: значение}, сохраняя порядок.
 
@@ -77,7 +53,7 @@ def lookup(key, ru, ru_lower):
     return ru.get(key) or ru_lower.get(key.lower())
 
 
-def cmd_merge(base_path, ru_path, dst, overrides_path):
+def cmd_merge(base_path, ru_path, dst):
     """Собирает файл строк: база из архива игры + русские значения сверху.
 
     База обязательно берётся из resources0.jz, а не из bundle/: файл на диске
@@ -100,7 +76,6 @@ def cmd_merge(base_path, ru_path, dst, overrides_path):
     with open(ru_path, 'rb') as fh:
         ru = parse_str(fh.read())
 
-    over = load_overrides(overrides_path, stem)
     ru_lower = {}
     for k, v in ru.items():
         if v:
@@ -108,7 +83,7 @@ def cmd_merge(base_path, ru_path, dst, overrides_path):
 
     translated = kept = 0
     for key in base:
-        value = over.get(key) or lookup(key, ru, ru_lower)
+        value = lookup(key, ru, ru_lower)
         if value:
             base[key] = value
             translated += 1
@@ -234,7 +209,7 @@ def main():
     if len(sys.argv) < 2:
         sys.exit('usage: honru.py {merge,cfg} ...')
     if sys.argv[1] == 'merge':
-        cmd_merge(sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
+        cmd_merge(sys.argv[2], sys.argv[3], sys.argv[4])
     elif sys.argv[1] == 'onlaunch':
         cmd_onlaunch(sys.argv[2], sys.argv[8:], sys.argv[3].split(','),
                      sys.argv[4], float(sys.argv[5]), sys.argv[6],

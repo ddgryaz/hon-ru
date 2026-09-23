@@ -28,7 +28,6 @@ done
 
 SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
 BUNDLE_DIR="$(dirname "$SCRIPT_DIR")/bundle"
-OVERRIDES="$SCRIPT_DIR/overrides.str"
 
 # shellcheck source=config.sh
 source "$SCRIPT_DIR/config.sh"
@@ -71,7 +70,7 @@ for base in "${HON_STR_BASES[@]}"; do
     orig="$STAGE/base/${base}_en.str"
     [ -f "$orig" ] || { echo "  нет в архиве игры: ${base}_en.str" >&2; continue; }
     [ -f "$ru" ] || { echo "  нет в bundle/: ${base}_en.str" >&2; continue; }
-    python3 "$SCRIPT_DIR/lib/honru.py" merge "$orig" "$ru" "$STAGE/${base}_en.str" "$OVERRIDES"
+    python3 "$SCRIPT_DIR/lib/honru.py" merge "$orig" "$ru" "$STAGE/${base}_en.str"
 done
 
 # host_locale=en обязателен: русский текст подменяет собой английский,
