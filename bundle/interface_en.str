@@ -1873,7 +1873,7 @@ main_filter_prequery_tip					При выборе этой опции списо�
 
 
 
-main_filter_hide_restricted_tip				Выбор этой опции скроет все игры, доступ к которым ограничен для вас из-за статуса "Выход" или PSR, не попадающего в диапазон Min/Max PSR, указанный хостом.
+main_filter_hide_restricted_tip				Выбор этой опции скроет все игры, доступ к которым ограничен для вас из-за статуса "Выход" или PSR, не попадающего в диапазон Мин/Макс PSR, указанный хостом.
 
 
 
@@ -14771,7 +14771,7 @@ mainlobby_label_min_max_psr					Мин/Макс PSR
 
 
 
-mainlobby_label_min_max_psr_tip				Позволяет игрокам присоединяться к играм только в том случае, если их указанный PSR находится в пределах 2% от диапазона Min/Max PSR сервера. Игрок, приглашенный в игру, обойдет все ограничения Min/Max PSR.
+mainlobby_label_min_max_psr_tip				Позволяет игрокам присоединяться к играм только в том случае, если их указанный PSR находится в пределах 2% от диапазона Мин/Макс PSR сервера. Игрок, приглашенный в игру, обойдет все ограничения Мин/Макс PSR.
 
 
 
@@ -15171,11 +15171,11 @@ mainlobby_header_custom_type				Тип
 
 
 
-mainlobby_header_custom_minpsr				ПСР >
+mainlobby_header_custom_minpsr				PSR >
 
 
 
-mainlobby_header_custom_maxpsr				ПСР <
+mainlobby_header_custom_maxpsr				PSR <
 
 
 
@@ -16675,11 +16675,11 @@ game_lobby_kick_bot_tip 					Выгнать этого бота
 
 
 
-game_lobby_prediction_tip					Прогнозируемый шанс этой команды на победу, основанный на рейтинге навыков паба (PSR).
+game_lobby_prediction_tip					Шанс этой команды на победу, рассчитанный по PSR (рейтингу в публичных играх).
 
 
 
-game_lobby_rank_tip							Текущий рейтинг навыков паба (PSR) {name}
+game_lobby_rank_tip							Текущий PSR игрока {name} (рейтинг в публичных играх)
 
 
 
@@ -16687,11 +16687,11 @@ game_lobby_point_value_penalty_tip			Количество очков этого 
 
 
 
-game_lobby_psr_value_tip					Публичный рейтинг навыков этого игрока (PSR)
+game_lobby_psr_value_tip					PSR этого игрока (рейтинг в публичных играх)
 
 
 
-game_lobby_rsr_value_tip					Рейтинг подбора игроков (MMR)
+game_lobby_rsr_value_tip					MMR этого игрока (рейтинг подбора)
 
 
 
@@ -17683,7 +17683,7 @@ player_stats_mastery_showfriends			Лестница друзей
 
 
 
-player_stats_mmr							ММР
+player_stats_mmr							MMR
 
 
 
@@ -17867,7 +17867,7 @@ player_stats_rank							Ранг: {rank}
 
 
 
-player_stats_psr							ПСР
+player_stats_psr							PSR
 
 
 
@@ -20667,11 +20667,11 @@ mm3_ranked_disabled 			В настоящее время вы не можете �
 
 
 
-mm3_ranked_disable				Играя в рейтинговую игру, вы будете подбираться к игрокам, близким к вашему рейтингу навыков, и статистика будет записываться. Вы можете столкнуться с более длительным временем ожидания в очереди.
+mm3_ranked_disable				В рейтинговой игре вас подбирают к игрокам, близким вам по рейтингу, и статистика записывается. Поиск может занять больше времени.
 
 
 
-mm3_ranked_enable 				Играя в игры без рейтинга, вам будут противостоять игроки с более широким диапазоном рейтинга навыков, чем у вас, но статистика не будет записываться. У вас должно сократиться время в очереди.
+mm3_ranked_enable 				В игре без рейтинга разброс рейтинга соперников шире, и статистика не записывается. Зато поиск должен идти быстрее.
 
 
 
@@ -21051,7 +21051,7 @@ mm_queue_disparity_med			Высокое групповое неравенств�
 
 
 
-mm_queue_disparity_high_tip		Если MMR игроков в вашей группе сильно различаются, вы можете столкнуться со значительным увеличением времени в очереди и снижением MMR.
+mm_queue_disparity_high_tip		Если MMR игроков в вашей группе сильно различается, поиск может занять намного больше времени, а прирост MMR снизится.
 
 
 
@@ -21154,7 +21154,7 @@ mm_notice_4stack				Ошибка: невозможно встать в очер�
 
 
 
-mm_notice_high_mmr_queue_limit	Ошибка: размер группы ограничен игроками {limit} для игроков с высоким рейтингом (выше {threshold} MMR)
+mm_notice_high_mmr_queue_limit	Ошибка: для игроков с высоким рейтингом (выше {threshold} MMR) размер группы ограничен {limit} игроками
 
 
 
@@ -22194,7 +22194,7 @@ matchmaker_status_leaver_msg				Как только все десять игро
 
 
 
-matchmaker_title							Выберите начальный рейтинг подбора игроков (SMR)
+matchmaker_title							Выберите начальный рейтинг подбора (SMR)
 
 
 
@@ -23294,7 +23294,7 @@ ladder_field_acc_kicked						Исключения
 
 
 
-ladder_field_acc_pub_skill					ПСР
+ladder_field_acc_pub_skill					PSR
 
 
 
@@ -23490,7 +23490,7 @@ ladder_field_Player							Имя игрока
 
 
 
-ladder_field_PlayerSkillRating				Рейтинг навыков игрока
+ladder_field_PlayerSkillRating				Рейтинг игрока (PSR)
 
 
 
@@ -23546,7 +23546,7 @@ ladder_fieldshort_acc_kicked					Искл.
 
 
 
-ladder_fieldshort_acc_pub_skill					ПСР
+ladder_fieldshort_acc_pub_skill					PSR
 
 
 
@@ -23742,7 +23742,7 @@ ladder_fieldshort_Player						Игрок
 
 
 
-ladder_fieldshort_PlayerSkillRating				ПСР
+ladder_fieldshort_PlayerSkillRating				PSR
 
 
 
@@ -31585,7 +31585,7 @@ profile_assistdeathratio						Соотношение передач и смер�
 
 
 
-profile_skillrating								Рейтинг навыков
+profile_skillrating								Рейтинг
 
 
 
@@ -33187,7 +33187,7 @@ boss_info_kongor_name		Конгор
 options_submen_hdr		HDR ^555(экспериментально)^*
 store_no_listings		Нет объявлений
 mm_machine_tag_retag_btn		Сменить тег
-mm_mmr_midwars_tip		Рейтинг Midwars учитывается отдельно
+mm_mmr_midwars_tip		MMR (рейтинг подбора) в Mid Wars
 boss_info_kongor_ability1_name		Boulder Toss
 options_label_max_aspect_ratio		Макс. соотношение сторон
 mm_machine_tag_retag_confirm_body		Это навсегда перенесёт рейтинговые игры на этом компьютере на ваш аккаунт. Прежний аккаунт больше не сможет вставать в рейтинговую очередь с этого компьютера. Сделать это можно раз в {days} дн.
@@ -33224,7 +33224,7 @@ options_checkbox_inventory_dragdrop		Перетаскивание предмет
 store_powered_by							POWERED BY
 play_ban_notice_temporary				Ошибка: вам запрещено играть. Причина: {reason} - истекает через {remaining}
 options_hdr_mode_tip		scRGB (FP16) — совместимость; HDR10 (PQ) — 10 бит. Требует HDR-монитор.
-mm_mmr_caldavar_tip							Рейтинг подбора игр (MMR) на Forests of Caldavar
+mm_mmr_caldavar_tip							MMR (рейтинг подбора) на Forests of Caldavar
 mm_machine_tag_notice_locked_sub		Снимите рейтинговые режимы или смените привязку
 general_mode_sameherodraft					Same Hero Draft
 boss_info_phoenix_reward1_name		Крылья Феникса
