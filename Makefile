@@ -2,22 +2,18 @@
 
 APPLY := ./linux/apply.sh
 
-.PHONY: help run probe uninstall launch-options untranslated lint
+.PHONY: help build uninstall launch-options untranslated lint
 
 help:
 	@echo 'Цели:'
-	@echo '  make run             дождаться запуска игры и применить перевод'
-	@echo '  make probe           то же плюс inotify-лог обращений движка'
+	@echo '  make build           собрать перевод без запуска игры'
 	@echo '  make uninstall       убрать перевод и вернуть startup.cfg'
 	@echo '  make launch-options  строка для Steam -> Свойства -> Параметры запуска'
 	@echo '  make untranslated    что осталось без перевода (GROUP=предметы - детали)'
 	@echo '  make lint            проверить bundle/ на дефекты перевода'
 
-run:
-	$(APPLY) --on-launch
-
-probe:
-	$(APPLY) --probe
+build:
+	$(APPLY)
 
 uninstall:
 	./linux/uninstall.sh
@@ -29,5 +25,7 @@ lint:
 untranslated:
 	@./linux/untranslated.sh '$(GROUP)'
 
+# Steam подставляет %command% пустым и дописывает команду игры в конец
+# строки - она приходит в apply.sh аргументами
 launch-options:
-	@echo "bash -c '$(CURDIR)/linux/apply.sh --on-launch & exec \"\$$@\"' -- %command%"
+	@echo "'$(CURDIR)/linux/apply.sh' %command%"
