@@ -23266,15 +23266,15 @@ ladder_field_acc_wins						Победы
 
 
 
-ladder_field_acc_losses						Потери
+ladder_field_acc_losses						Поражения
 
 
 
-ladder_field_acc_concedes					Уступает
+ladder_field_acc_concedes					Сдачи
 
 
 
-ladder_field_acc_concedevotes				Предложений сдаться
+ladder_field_acc_concedevotes				Голосов за сдачу
 
 
 
@@ -23282,11 +23282,11 @@ ladder_field_acc_buybacks					Выкупы
 
 
 
-ladder_field_acc_discos						Листья
+ladder_field_acc_discos						Выходы из игры
 
 
 
-ladder_field_acc_kicked						Выгнали
+ladder_field_acc_kicked						Исключения
 
 
 
@@ -23298,7 +23298,7 @@ ladder_field_acc_pub_skill					ПСР
 
 
 
-ladder_field_acc_pub_count					Паблик
+ladder_field_acc_pub_count					Публичные игры
 
 
 
@@ -23310,11 +23310,11 @@ ladder_field_acc_herokills					Убийства героев
 
 
 
-ladder_field_acc_herodmg					Урон героя
+ladder_field_acc_herodmg					Урон по героям
 
 
 
-ladder_field_acc_heroexp					Опыт героя
+ladder_field_acc_heroexp					Опыт за героев
 
 
 
@@ -23322,11 +23322,11 @@ ladder_field_acc_herokillsgold				Золото за убийства герое�
 
 
 
-ladder_field_acc_heroassists				Ассисты героев
+ladder_field_acc_heroassists				Ассисты
 
 
 
-ladder_field_acc_deaths						Смерти героев
+ladder_field_acc_deaths						Смерти
 
 
 
@@ -23334,7 +23334,7 @@ ladder_field_acc_goldlost2death				Потерянное золото
 
 
 
-ladder_field_acc_secs_dead					Секунды мертвы
+ladder_field_acc_secs_dead					Секунд мертвым
 
 
 
@@ -23358,11 +23358,11 @@ ladder_field_acc_neutralcreepkills			Убийства нейтральных к�
 
 
 
-ladder_field_acc_neutralcreepdmg			Нейтральный урон крипу
+ladder_field_acc_neutralcreepdmg			Урон нейтральным крипам
 
 
 
-ladder_field_acc_neutralcreepexp			Нейтральный опыт крипа
+ladder_field_acc_neutralcreepexp			Опыт от нейтральных крипов
 
 
 
@@ -23374,7 +23374,7 @@ ladder_field_acc_bdmg						Урон зданиям
 
 
 
-ladder_field_acc_bdmgexp					Опыт от повреждения зданий
+ladder_field_acc_bdmgexp					Опыт за урон зданиям
 
 
 
@@ -23382,7 +23382,7 @@ ladder_field_acc_razed						Разрушенные здания
 
 
 
-ladder_field_acc_bgold						Золото из зданий
+ladder_field_acc_bgold						Золото за здания
 
 
 
@@ -23390,7 +23390,7 @@ ladder_field_acc_denies						Денаи
 
 
 
-ladder_field_acc_exp_denied					XP от денаев
+ladder_field_acc_exp_denied					Отнятый опыт
 
 
 
@@ -23398,7 +23398,7 @@ ladder_field_acc_gold						Заработанное золото
 
 
 
-ladder_field_acc_gold_spent					Золото потрачено
+ladder_field_acc_gold_spent					Потраченное золото
 
 
 
@@ -23418,7 +23418,7 @@ ladder_field_acc_secs						Сыграно секунд
 
 
 
-ladder_field_acc_consumables				Расходные материалы
+ladder_field_acc_consumables				Расходники
 
 
 
@@ -23446,15 +23446,15 @@ ladder_field_acc_k_d_a						K:D:A
 
 
 
-ladder_field_acc_wardsPerGame				Уордов за игру
+ladder_field_acc_wardsPerGame				Вардов за игру
 
 
 
-ladder_field_acc_consumablesPerGame			Расходные материалы на игру
+ladder_field_acc_consumablesPerGame			Расходников за игру
 
 
 
-ladder_field_acc_avgGameLength				Средняя Длительность: игры
+ladder_field_acc_avgGameLength				Средняя длительность игры
 
 
 
@@ -23470,7 +23470,7 @@ ladder_field_acc_goldPerMin					Золото в минуту
 
 
 
-ladder_field_acc_spentPerMin				Потрачено за минуту
+ladder_field_acc_spentPerMin				Потрачено в минуту
 
 
 
@@ -23482,7 +23482,7 @@ ladder_field_acc_deniesPerGame				Денаев за игру
 
 
 
-ladder_field_acc_buildingsPerGame			Зданий в игре
+ladder_field_acc_buildingsPerGame			Зданий за игру
 
 
 
@@ -23510,7 +23510,7 @@ ladder_title								 Лестница игроков
 
 
 
-ladder_fieldshort_acc_games_played				G.P.
+ladder_fieldshort_acc_games_played				Игр
 
 
 
@@ -23518,15 +23518,15 @@ ladder_fieldshort_acc_wins						Победы
 
 
 
-ladder_fieldshort_acc_losses					Потери
+ladder_fieldshort_acc_losses					Пораж.
 
 
 
-ladder_fieldshort_acc_concedes					C
+ladder_fieldshort_acc_concedes					Сд.
 
 
 
-ladder_fieldshort_acc_concedevotes				C.V.
+ladder_fieldshort_acc_concedevotes				Гол.
 
 
 
@@ -23534,11 +23534,11 @@ ladder_fieldshort_acc_buybacks					Выкупы
 
 
 
-ladder_fieldshort_acc_discos					Листья
+ladder_fieldshort_acc_discos					Выходы
 
 
 
-ladder_fieldshort_acc_kicked					Выгнали
+ladder_fieldshort_acc_kicked					Искл.
 
 
 
@@ -23550,7 +23550,7 @@ ladder_fieldshort_acc_pub_skill					ПСР
 
 
 
-ladder_fieldshort_acc_pub_count					P-игры
+ladder_fieldshort_acc_pub_count					Публ.
 
 
 
@@ -23558,19 +23558,19 @@ ladder_fieldshort_acc_avg_score					Средний балл
 
 
 
-ladder_fieldshort_acc_herokills					ГК
+ladder_fieldshort_acc_herokills					Уб. гер.
 
 
 
-ladder_fieldshort_acc_herodmg					H урон
+ladder_fieldshort_acc_herodmg					Урон гер.
 
 
 
-ladder_fieldshort_acc_heroexp					H Опыт
+ladder_fieldshort_acc_heroexp					Опыт гер.
 
 
 
-ladder_fieldshort_acc_herokillsgold				Зол.ГК
+ladder_fieldshort_acc_herokillsgold				Зол. уб.
 
 
 
@@ -23578,63 +23578,63 @@ ladder_fieldshort_acc_heroassists				Ассисты
 
 
 
-ladder_fieldshort_acc_deaths					H Смерти
+ladder_fieldshort_acc_deaths					Смерти
 
 
 
-ladder_fieldshort_acc_goldlost2death			G потерян
+ladder_fieldshort_acc_goldlost2death			Зол. потер.
 
 
 
-ladder_fieldshort_acc_secs_dead					С Мертв
+ladder_fieldshort_acc_secs_dead					Сек. мертв.
 
 
 
-ladder_fieldshort_acc_teamcreepkills			ЭК
+ladder_fieldshort_acc_teamcreepkills			Уб. крипов
 
 
 
-ladder_fieldshort_acc_teamcreepdmg				Урон/ЭК
+ladder_fieldshort_acc_teamcreepdmg				Урон/крипы
 
 
 
-ladder_fieldshort_acc_teamcreepexp				Опыт/EC
+ladder_fieldshort_acc_teamcreepexp				Опыт/крипы
 
 
 
-ladder_fieldshort_acc_teamcreepgold				Золото/ЕС
+ladder_fieldshort_acc_teamcreepgold				Зол./крипы
 
 
 
-ladder_fieldshort_acc_neutralcreepkills			Убийства NC
+ladder_fieldshort_acc_neutralcreepkills			Уб. нейтр.
 
 
 
-ladder_fieldshort_acc_neutralcreepdmg			NC Урон
+ladder_fieldshort_acc_neutralcreepdmg			Урон/нейтр.
 
 
 
-ladder_fieldshort_acc_neutralcreepexp			NC Опыт
+ladder_fieldshort_acc_neutralcreepexp			Опыт/нейтр.
 
 
 
-ladder_fieldshort_acc_neutralcreepgold			Золото Северной Каролины
+ladder_fieldshort_acc_neutralcreepgold			Зол./нейтр.
 
 
 
-ladder_fieldshort_acc_bdmg						Б Урон
+ladder_fieldshort_acc_bdmg						Урон здан.
 
 
 
-ladder_fieldshort_acc_bdmgexp					Е/Б урон
+ladder_fieldshort_acc_bdmgexp					Опыт/здан.
 
 
 
-ladder_fieldshort_acc_razed						Б. Пункт назначения.
+ladder_fieldshort_acc_razed						Здан. разр.
 
 
 
-ladder_fieldshort_acc_bgold						Б Золото
+ladder_fieldshort_acc_bgold						Зол./здан.
 
 
 
@@ -23642,19 +23642,19 @@ ladder_fieldshort_acc_denies					Денаи
 
 
 
-ladder_fieldshort_acc_exp_denied				XP от денаев
+ladder_fieldshort_acc_exp_denied				Опыт отнят
 
 
 
-ladder_fieldshort_acc_gold						G заработано
+ladder_fieldshort_acc_gold						Зол. зараб.
 
 
 
-ladder_fieldshort_acc_gold_spent				G потрачено
+ladder_fieldshort_acc_gold_spent				Зол. потр.
 
 
 
-ladder_fieldshort_acc_exp						Общий опыт
+ladder_fieldshort_acc_exp						Всего опыта
 
 
 
@@ -23666,11 +23666,11 @@ ladder_fieldshort_acc_actions					Действия
 
 
 
-ladder_fieldshort_acc_secs						Сыграно в секундах
+ladder_fieldshort_acc_secs						Сек. в игре
 
 
 
-ladder_fieldshort_acc_consumables				Минусы.
+ladder_fieldshort_acc_consumables				Расх.
 
 
 
@@ -23678,7 +23678,7 @@ ladder_fieldshort_acc_wards						Варды
 
 
 
-ladder_fieldshort_acc_em_played					ЭМ %
+ladder_fieldshort_acc_em_played					EM %
 
 
 
@@ -23698,31 +23698,31 @@ ladder_fieldshort_acc_k_d_a						K:D:A
 
 
 
-ladder_fieldshort_acc_wardsPerGame				W/G
+ladder_fieldshort_acc_wardsPerGame				Вард./игра
 
 
 
-ladder_fieldshort_acc_consumablesPerGame		Минусы/Игра
+ladder_fieldshort_acc_consumablesPerGame		Расх./игра
 
 
 
-ladder_fieldshort_acc_avgGameLength				Среднее значение общего уровня
+ladder_fieldshort_acc_avgGameLength				Ср. длит.
 
 
 
-ladder_fieldshort_acc_expPerGame				Опыт/Игра
+ladder_fieldshort_acc_expPerGame				Опыт/игра
 
 
 
-ladder_fieldshort_acc_goldPerGame				Золото/Игра
+ladder_fieldshort_acc_goldPerGame				Зол./игра
 
 
 
-ladder_fieldshort_acc_goldPerMin				Золото/М
+ladder_fieldshort_acc_goldPerMin				Зол./мин
 
 
 
-ladder_fieldshort_acc_spentPerMin				Потрачено/М
+ladder_fieldshort_acc_spentPerMin				Потр./мин
 
 
 
@@ -23734,7 +23734,7 @@ ladder_fieldshort_acc_deniesPerGame				Денаи/игра
 
 
 
-ladder_fieldshort_acc_buildingsPerGame			Корпус/Г
+ladder_fieldshort_acc_buildingsPerGame			Здан./игра
 
 
 
@@ -23770,7 +23770,7 @@ ladder_next_page							Следующая страница
 
 
 
-ladder_fields								Лестничные поля
+ladder_fields								Поля рейтинга
 
 
 
