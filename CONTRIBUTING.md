@@ -18,6 +18,12 @@ linux/                  порт под Linux
 |-- lint.sh             проверка bundle/ на дефекты
 `-- lib/                honru.py (мерж, startup.cfg), probe.py (inotify)
 
+windows/                порт под Windows (PowerShell 5.1)
+|-- install.bat         ярлык "HoN (RU)" на рабочем столе
+|-- uninstall.bat       откат
+`-- lib/                apply.ps1 (запуск игры с переводом), common.ps1
+                        (поиск игры, распаковка, мерж, startup.cfg)
+
 docs/                   правила перевода
 ```
 

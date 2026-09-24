@@ -2,8 +2,8 @@
 
 ![game version](https://img.shields.io/badge/game%20version-0.12.8.1-blue) ![last commit](https://img.shields.io/github/last-commit/ddgryaz/hon-ru)
 
-Русский перевод Heroes of Newerth (HoN Reborn) для Linux: Proton, Lutris,
-Bottles, чистый wine.
+Русский перевод Heroes of Newerth (HoN Reborn) для Windows и Linux (Proton,
+Lutris, Bottles, чистый wine).
 
 Основан на переводе
 [Xyling12/HoN_RU_Pack](https://github.com/Xyling12/HoN_RU_Pack) и с тех пор
@@ -11,9 +11,9 @@ Bottles, чистый wine.
 
 ## Что сделано
 
-- **Работает под Linux.** С установщиком исходного проекта под Proton
+- **Работает под Windows и Linux.** С установщиком исходного проекта
   лаунчер уходит в бесконечное "требуется обновление". Здесь перевод
-  раскладывается при запуске и убирается после выхода, игра не замечает
+  раскладывается при запуске и убирается после выхода, лаунчер не замечает
   изменённых файлов.
 - **Актуален для текущей версии игры.** Описания переработанных героев и
   способностей были от старых версий, с другими цифрами урона, длительности и
@@ -43,6 +43,21 @@ Bottles, чистый wine.
 
 ## Установка
 
+### Windows
+
+1. Скачай [архив с переводом](https://github.com/ddgryaz/hon-ru/archive/refs/heads/master.zip)
+   и распакуй туда, где он будет лежать постоянно, например в Документы.
+   Ярлык будет вести в эту папку, так что потом её не переносить и не
+   переименовывать.
+2. Запусти `windows\install.bat`. На рабочем столе появится ярлык
+   "HoN (RU)" - играй через него. Родной ярлык Juvio запускает игру на
+   английском.
+
+На Windows 10 установщик один раз скачает с GitHub небольшую программу для
+чтения архива игры (zstd, около 2 МБ). На Windows 11 она не нужна.
+
+### Linux
+
 ```sh
 make launch-options
 ```
@@ -66,7 +81,7 @@ HON_GAME_DIR="/путь/до/AppData/Local/Juvio/heroes of newerth"
 HON_DOCS_DIR="/путь/до/Documents/Juvio/Heroes of Newerth"
 ```
 
-## Команды
+## Команды (Linux)
 
 | | |
 |---|---|
@@ -81,6 +96,10 @@ HON_DOCS_DIR="/путь/до/Documents/Juvio/Heroes of Newerth"
 
 ## Обновление
 
+Windows: скачай архив заново и распакуй поверх старой папки с заменой файлов.
+
+Linux:
+
 ```sh
 git pull
 ```
@@ -89,6 +108,10 @@ git pull
 запуске игры.
 
 ## Удаление
+
+Windows: запусти `windows\uninstall.bat`, потом удали папку с переводом.
+
+Linux:
 
 ```sh
 make uninstall
@@ -99,11 +122,12 @@ make uninstall
 
 Если лаунчер зациклился на "требуется обновление", значит в каталоге игры
 остались файлы перевода - например, скрипт сняли до того, как он прибрался.
-`make uninstall` это чинит.
+`uninstall.bat` на Windows и `make uninstall` на Linux это чинят.
 
 ## Что дальше
 
-- Как это устроено и почему именно так: [linux/README.md](linux/README.md)
+- Как это устроено и почему именно так: [windows/README.md](windows/README.md),
+  [linux/README.md](linux/README.md)
 - Как править перевод: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Переведены интерфейс, описания способностей и предметов, системные сообщения.

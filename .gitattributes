@@ -1,0 +1,4 @@
+# Скрипты для Windows: cmd.exe плохо переносит .bat с LF, у скачанного
+# с GitHub zip концы строк берутся отсюда
+*.bat text eol=crlf
+*.ps1 text eol=crlf
