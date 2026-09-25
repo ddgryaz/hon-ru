@@ -22,13 +22,13 @@ respawn3		Я вернулся, детка.
 respawn4		Эм, ну... Пересчитываю?
 respawn5		Реконструкция завершена.
 
-group_up		Группируемся, чтобы пушить линию {lane}.
+group_up		Собираемся пушить линию: {lane}.
 
-defend			Иду {lane} на защиту.
+defend			Иду защищать: {lane}.
 
-glhf1			Удачи, получайте удовольствие!
+glhf1			Удачи и приятной игры!
 glhf2			glhf
-ggwp1			Хорошая игра, хорошо сыграно.
+ggwp1			Хорошая игра, хорошо сыграли.
 ggwp2			ggwp
 
 lane_top		Верх
@@ -41,7 +41,7 @@ lane_jungle		Джангл
 
 stolenid_ra_kill1			Я не могу получить... УДОВЛЕТВОРЕНИЕ! — Неее, неее.
 stolenid_ra_kill2			Мой брат — ручная граната...
-stolenid_ra_kill3			ОГОНЬ В ДЫРУ!
+stolenid_ra_kill3			ПОБЕРЕГИСЬ!
 stolenid_ra_kill4			Я РАскошен... понятно?
 stolenid_ra_kill5			Ой, не грусти, друг.
 stolenid_ra_kill6			Цель пути разрушения — сам путь.
@@ -53,7 +53,7 @@ stolenid_ra_frosty2			Всё, что от тебя осталось — лужа
 stolenid_ra_treant1			Внимание, граждане! Кажется, лесной пожар.
 stolenid_ra_treant2			Мне не нравится твоя привязанность к несгоревшему дереву, {target}.
 stolenid_ra_mumra			Может быть только один король, {target}.
-stolenid_ra_rocky			Поэтому камень может гореть. Извини, {target}, я этого не знал :/
+stolenid_ra_rocky			Значит, камни всё-таки горят. Извини, {target}, я не знал :/
 stolenid_ra_pyromancer1		Мне и так хватает жара на двоих, извини.
 stolenid_ra_pyromancer2		Ты не сможешь жечь других так, как я.						
 stolenid_ra_zephyr1			ЖАРЕНАЯ ИНДЕЙКА!
@@ -121,7 +121,7 @@ viper_engineer_kill6	Это было примерно так же просто, 
 
 schnarchnase_grave_kill1		Не волнуйся. Скоро ты станешь одним из моих милых зомби!
 schnarchnase_grave_kill2		Лови труп!
-schnarchnase_grave_kill3		Покойся с кусками.
+schnarchnase_grave_kill3		Покойся по кусочкам.
 schnarchnase_grave_kill4		Ещё один довольный клиент!
 schnarchnase_grave_kill5		Упс! Извини, это была ошибка. Не принимай на свой счёт.
 schnarchnase_grave_kill6		Продолжение следует!

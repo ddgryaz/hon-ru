@@ -66,9 +66,9 @@ multikill3							{killer} ^084АННИГИЛИРОВАЛ^* противнико�
 killtower							{killer} разрушил башню {ping_tile}.\n{reward} получает ^y{gold} зол.^*
 
 
-killmeleerax						Казармы {victim} {ping_tile} ^724Melee^* {victim} были разрушены.
+killmeleerax						Казармы ^724ближнего боя^* {victim} ({ping_tile}) разрушены.
 
-killrangedrax						Казармы {victim} {ping_tile} ^266Ranged^* уничтожены.
+killrangedrax						Казармы ^266дальнего боя^* {victim} ({ping_tile}) разрушены.
 
 
 
@@ -77,13 +77,13 @@ ping_target							{account_color}{player_name}^*^; {player_color}({player_hero_n
 
 
 
-ping_ext_building_attack				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{tower_location}{tower_tier}^* по ^g{current_health}/{max_health}^* здоровья {backdoor_protected}
+ping_ext_building_attack				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{tower_location}{tower_tier}^* (^g{current_health}/{max_health}^* здоровья) {backdoor_protected}
 
-ping_ext_building_defend				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите {unit_team_color}{tower_location}{tower_tier}^* на ^g{current_health}/{max_health}^* здоровья {backdoor_protected}
+ping_ext_building_defend				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите {unit_team_color}{tower_location}{tower_tier}^* (^g{current_health}/{max_health}^* здоровья) {backdoor_protected}
 
 ping_ext_hero_attack					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^*^; в позиции {ping_tile}.
 
-ping_ext_hero_get_back					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Возвращайтесь из {unit_team_color}{unit_name}^*^; в {ping_tile}.
+ping_ext_hero_get_back					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Отходите от {unit_team_color}{unit_name}^*^; в {ping_tile}.
 
 ping_ext_hero_missing					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
@@ -97,7 +97,7 @@ ping_ext_hero_coming_to_gank			{account_color}{player_name}^*^; {player_color}({
 
 ping_ext_rune_present					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^g{unit_name}^* доступен здесь
 
-ping_ext_ctf_pick_up_enemy_flag			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: возьмите {unit_color}{unit_name}^* в {ping_tile}.
+ping_ext_ctf_pick_up_enemy_flag			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Возьмите {unit_color}{unit_name}^* в {ping_tile}.
 
 ping_ext_ctf_defend_ally_flag			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите наш {unit_color}{unit_name}^* на {ping_tile}.
 
@@ -105,7 +105,7 @@ ping_ext_assist_ally_hero 			{account_color}{player_name}^*^; {player_color}({pl
 
 ping_ext_ground_ping					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Внимание! {ping_tile}!
 
-ping_ext_ground_get_back				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: вернуться из {ping_tile}.
+ping_ext_ground_get_back				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Уходите из {ping_tile}.
 
 ping_ext_ground_danger_here				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Опасность на {ping_tile}
 
@@ -129,9 +129,9 @@ ping_ext_building_attack_lanes						{account_color}{player_name}^*^; {player_col
 
 ping_ext_building_defend_lanes						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите наш {unit_team_color}{unit_name}^* в {ping_tile}
 
-ping_ext_hero_attack_lanes							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^* по {ping_tile}!
+ping_ext_hero_attack_lanes							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_team_color}{unit_name}^* в {ping_tile}!
 
-ping_ext_hero_get_back_lanes						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Возвращайтесь из {unit_team_color}{unit_name}^* в {ping_tile}.
+ping_ext_hero_get_back_lanes						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Отходите от {unit_team_color}{unit_name}^*^; в {ping_tile}.
 
 ping_ext_hero_missing_lanes							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует
 
@@ -175,9 +175,9 @@ ping_ext_building_attack_generic					{account_color}{player_name}^*^; {player_co
 
 ping_ext_building_defend_generic					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите наш {unit_team_color}{unit_name}^*
 
-ping_ext_hero_attack_generic						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атака {unit_color}{unit_name}^*
+ping_ext_hero_attack_generic						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Атакуйте {unit_color}{unit_name}^*
 
-ping_ext_hero_get_back_generic						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: вернуться из {unit_color}{unit_name}^*
+ping_ext_hero_get_back_generic						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Отходите от {unit_color}{unit_name}^*
 
 ping_ext_hero_missing_generic						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {unit_color}{unit_name}^* отсутствует на линии
 
@@ -189,9 +189,9 @@ ping_ext_hero_missing_going_bot_generic				{account_color}{player_name}^*^; {pla
 
 ping_ext_hero_coming_to_gank_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Иду ганкнуть {unit_team_color}{unit_name}^*
 
-ping_ext_ctf_pick_up_enemy_flag_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: подобрать врага {unit_team_color}Flag^*
+ping_ext_ctf_pick_up_enemy_flag_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Подберите вражеский {unit_team_color}флаг^*
 
-ping_ext_ctf_defend_ally_flag_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите наш {unit_team_color}Flag^*
+ping_ext_ctf_defend_ally_flag_generic				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Защитите наш {unit_team_color}флаг^*
 
 ping_ext_ground_ping_generic						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Внимание!
 
@@ -255,7 +255,7 @@ ping_ext_alt_hero_afk								{account_color}{player_name}^*^; {player_color}({pl
 
 ping_ext_alt_shop_item_enough_gold					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: я могу купить ^667{item}^*
 
-ping_ext_alt_shop_item_lack_of_gold					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: мне нужно ^y{param}g^* для ^667{item}^*
+ping_ext_alt_shop_item_lack_of_gold					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: мне нужно ^y{param}^* золота на ^667{item}^*
 
 ping_ext_alt_inventory_item_disabled				{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: сейчас я не могу использовать ^667{item}^*
 
@@ -300,13 +300,13 @@ ping_ext_alt_framerate								{account_color}{player_name}^*^; {player_color}({p
 
 ping_ext_alt_experience_progress					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: мне ^759{current_level_exp}/{next_level_exp}^* до уровня ^759{next_level}^*
 
-ping_ext_alt_experience_max_level					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Мой максимальный уровень ^759^*
+ping_ext_alt_experience_max_level					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: У меня ^759максимальный уровень^*
 
 ping_ext_alt_scoreboard_gpm							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{hero_name}^* имеет ^o{gpm}^* GPM
 
 ping_ext_alt_scoreboard_bounty						{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{hero_name}^* имеет награду ^o{bounty}^*
 
-ping_ext_alt_selected_level							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{selected_hero_name}^* - это уровень ^759{hero_level}^*
+ping_ext_alt_selected_level							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{selected_hero_name}^*: уровень ^759{hero_level}^*
 
 ping_ext_alt_scoreboard_kda							{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: ^199{hero_name}^* K/D/A - ^o{kills}^*/^o{deaths}^*/^o{assists}^*
 
@@ -320,15 +320,15 @@ ping_ext_alt_scoreboard_teamgold					{account_color}{player_name}^*^; {player_co
 
 ping_ext_alt_scoreboard_vision					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {teamname} обзор составляет {vision}%
 
-ping_ext_alt_scoreboard_boss_respawn_time			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Конгор возродится в {boss_respawn_time}.
+ping_ext_alt_scoreboard_boss_respawn_time			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Конгор возродится через {boss_respawn_time}.
 
 ping_ext_alt_scoreboard_boss_respawn_time_alive		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Конгор жив!
 
-ping_ext_alt_scoreboard_boss2_respawn_time			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Феникс возродится в {boss_respawn_time}.
+ping_ext_alt_scoreboard_boss2_respawn_time			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Феникс возродится через {boss_respawn_time}.
 
 ping_ext_alt_scoreboard_boss2_respawn_time_alive	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Феникс жив!
 
-ping_ext_alt_game_time								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: в настоящее время ^y{totalGameTime}^* и {currentTimeOfDay}. ^y{remainingTime}^* до {otherTimeOfDay}
+ping_ext_alt_game_time								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: сейчас ^y{totalGameTime}^* и {currentTimeOfDay}. ^y{remainingTime}^* до {otherTimeOfDay}
 
 ping_ext_alt_team_score								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {teamname} имеет ^y{score}^* убийств
 
@@ -462,7 +462,7 @@ teamwipe							{team} полностью уничтожены!!!
 
 
 
-teamkill							{killer} ударил {victim} по голове!! ^y{gold} зол.^* разделен.
+teamkill							{killer} убил {victim}!! ^y{gold} зол.^* делится на команду.
 
 
 
@@ -509,7 +509,7 @@ share3								{player} теперь делится с вами контроле�
 
 powerup								{player} взял ^r{powerup}^*
 
-powerup_bottle						{player} разлил ^r{powerup}^* в бутылку
+powerup_bottle						{player} набрал ^r{powerup}^* в бутылку
 
 powerup_bottle_use					{player} использовал ^r{powerup}^*
 
@@ -523,11 +523,11 @@ megacreeps							Все казармы {victim} уничтожены. У {killer
 
 smackdown							{victim} был РАЗБИТ {killer}!
 
-humiliation							{killer} только что HUMILIATED {victim}!
+humiliation							{killer} УНИЗИЛ {victim}!
 
 rival								{killer} полностью ^rДОМИНИРУЕТ^* над {victim}!
 
-payback								{killer} получил ^rРАСПЛАТУ^* против {victim}!
+payback								{killer} ^rОТОМСТИЛ^* {victim}!
 
 
 
@@ -535,7 +535,7 @@ client_connected					{account_color}{player}^*^; подключился.
 
 client_reconnected					{account_color}{player}^*^; повторно подключился. (Оставшееся время отключения: {time})
 
-client_disconnected					{account_color}{player}^*^; отключен.
+client_disconnected					{account_color}{player}^*^; отключился.
 
 client_timedout						{account_color}{player}^*^; отключен по таймауту.
 
@@ -559,11 +559,11 @@ hero_repick							{player_color}{player}^* перевыбирает. ^885{hero_n
 
 hero_repick_blind					{player_color}{player}^* перевыбирает.
 
-hero_swap							{player_color}{player}^* поменял героев местами на {player2_color}{player2}^*.
+hero_swap							{player_color}{player}^* поменялся героями с {player2_color}{player2}^*.
 
 hero_swap_request					{player_color}{player}^* предложил вам поменяться героями.
 
-hero_ban							{player_color}{player}^* имеет ^rзапрещен^* ^885{hero_name}^*.
+hero_ban							{player_color}{player}^* ^rзабанил^* ^885{hero_name}^*.
 
 hero_ban_random						Судьба ^rзабанила^* ^885{hero_name}^*.
 
@@ -573,17 +573,17 @@ hero_shuffle_pick					{player_color}{player}^* взял через ^pShuffle Pic
 
 hero_lock_random					Судьба ^yзафиксировала^* ^885{hero_name}^*.
 
-hero_hidden_ban						{team_color}{team} ^*забанил ^r^*: ^885{hero}^*.
+hero_hidden_ban						{team_color}{team} ^*^rзабанил^*: ^885{hero}^*.
 
 hero_vote_ban						Следующие герои были забанены в этой игре: ^885{hero}^*.
 
-hero_picked_both_teams				Герой выбран обеими командами! {account_color}{player}^*^; получил героя ^885{hero_name}^* ко времени фазы добавлено 15 сек.!
+hero_picked_both_teams				Герой выбран обеими командами! {account_color}{player}^*^; получил героя ^885{hero_name}^*. Ко времени фазы добавлено 15 сек.!
 
 
 
-random_filter_message				{account_color}{player}^*^; случайным образом выбрал {filters}{favorites} с {num_of_heroes} героями для случайного выбора.
+random_filter_message				{account_color}{player}^*^; выбрал случайного героя{filters}{favorites}. Героев в выборке: {num_of_heroes}.
 
-using_favorites						^* с использованием списка избранного ^558^*
+using_favorites						^* из ^558списка избранного^*
 
 using_filters						^* с фильтрами ^558{filters}^*
 
@@ -607,25 +607,25 @@ filter_pusher						Пушер
 
 
 
-game_phase_banning					Начните ^rФазу запрета^*.
+game_phase_banning					Начало ^rфазы бана^*.
 
-game_phase_picking					Начните ^rФазу выбора^*.
+game_phase_picking					Начало ^rфазы выбора^*.
 
-game_phase_lock						Начните ^rФазу фиксации^*.
+game_phase_lock						Начало ^rфазы фиксации^*.
 
 game_phase_lock_pick				Начало ^rфазы Lock Pick^*.
 
-game_phase_hero_hidden_ban			Начните ^rФазу скрытого бана^*.
+game_phase_hero_hidden_ban			Начало ^rфазы скрытого бана^*.
 
 game_phase_hero_ban					Начало ^rфазы бана героев^*.
 
-game_phase_vote_blind_ban			Начните ^rФазу запрета голосования^*.
+game_phase_vote_blind_ban			Начало ^rфазы бана голосованием^*.
 
 game_phase_shuffle_pick				Начало ^rфазы Shuffle Pick^*: ^yвыберите двух героев, чтобы добавить их способности в пул^*.
 
-game_turn_ban						Теперь очередь {player_color}{player}^* на ^rban^*.
+game_turn_ban						Очередь {player_color}{player}^* ^rбанить^*.
 
-game_turn_picking					Теперь очередь {player_color}{player}^* к ^rpick^*.
+game_turn_picking					Очередь {player_color}{player}^* ^rвыбирать^*.
 
 
 
@@ -672,7 +672,7 @@ error_not_unit						Нужно выбрать цель-юнита.
 error_invalid_target				Это недопустимая цель.
 
 
-error_safe_channel					Безопасный канал предотвратил действие.
+error_safe_channel					Действие отменено: включена защита прерываемых умений.
 
 
 
@@ -787,7 +787,7 @@ move_speed_mult_bonus_per_charge	{value}% скор. движ. за заряд
 
 slow_resistance_bonus				{value}% Сопротивление замедлению
 
-move_speed_slow_bonus				{value}% Медленное движение
+move_speed_slow_bonus				{value}% замедление движения
 
 move_speed_slow_bonus_per_charge	{value}% замедление движения за заряд
 
@@ -797,17 +797,17 @@ attack_speed_bonus_per_charge		{value} скор. атаки за заряд
 
 attack_speed_mult_bonus				{value}% скор. атаки
 
-attack_speed_slow_bonus				{value}% Медленная атака
+attack_speed_slow_bonus				{value}% замедление атаки
 
-cast_speed_bonus					{value} Скорость сотворения чар
+cast_speed_bonus					{value} скор. каста
 
-cooldown_speed_bonus				{value} Скорость восстановления
+cooldown_speed_bonus				{value} скорость перезарядки
 
-reduced_ability_cooldowns_bonus		{value}% Снижение времени восстановления способностей
+reduced_ability_cooldowns_bonus		{value}% снижение перезарядки способностей
 
-reduced_item_cooldowns_bonus		{value}% Снижение времени восстановления предметов
+reduced_item_cooldowns_bonus		{value}% снижение перезарядки предметов
 
-increased_cooldowns_bonus			{value}% Увеличение времени восстановления
+increased_cooldowns_bonus			{value}% увеличение перезарядки
 
 reduced_manacosts_bonus				{value}% Снижение затрат маны
 
@@ -841,15 +841,15 @@ mana_regen_bonus					{value} Регенерация маны
 
 mana_regen_mult_bonus				{value}% Регенерация маны
 
-deflection_bonus					{value1}% шанс заблокировать {value2} урон от атаки
+deflection_bonus					{value1}% шанс заблокировать {value2} урона от атаки
 
 evasion_bonus						{value}% Уклонение
 
-ranged_evasion_bonus				{value}% Уклонение дальнего боя
+ranged_evasion_bonus				{value}% уклонение от атак дальнего боя
 
-melee_evasion_bonus					{value}% Уклонение в ближнем бою
+melee_evasion_bonus					{value}% уклонение от атак ближнего боя
 
-miss_chance_bonus					{value}% Промах
+miss_chance_bonus					{value}% шанс промаха
 
 lifesteal_bonus						{value}% вампиризм
 
@@ -857,15 +857,15 @@ critical_bonus						{value1}% шанс нанести {value2}x критичес
 
 incoming_damage_mult_bonus			{value}% полученного урона
 
-debuff_duration_mult_bonus 			{value}% Длительность: дебаффа
+debuff_duration_mult_bonus 			{value}% длительности негативных эффектов
 
-stunned_duration_mult_bonus 		{value}% Длительность: оглушения
+stunned_duration_mult_bonus 		{value}% длительности оглушения
 
-incoming_heal_mult_bonus			{value}% Получено исцеление
+incoming_heal_mult_bonus			{value}% получаемого исцеления
 
-total_heal_mult_bonus				{value}% Исцеление выполнено
+total_heal_mult_bonus				{value}% исходящего исцеления
 
-incoming_manaburn_mult_bonus		{value}% получено сжигание маны
+incoming_manaburn_mult_bonus		{value}% получаемого сжигания маны
 
 stunned_bonus						Оглушён
 
@@ -875,9 +875,9 @@ silenced_bonus						Безмолвие
 
 silenced_immunity_bonus				Иммунитет к безмолвию
 
-perplexed_bonus						Озадачен
+perplexed_bonus						Перплекс
 
-perplexed_immunity_bonus			Иммунитет к озадачиванию
+perplexed_immunity_bonus			Иммунитет к Перплексу
 
 disarmed_bonus						Обезоружен
 
@@ -895,7 +895,7 @@ revealed_bonus						Обнаружен
 
 reveal_bonus						{value} Радиус обнаружения
 
-stealth_bonus						Скрытность с временем затухания {value} секунды.
+stealth_bonus						Невидимость, исчезновение за {value} сек.
 
 unitwalking_bonus					Проход сквозь юнитов
 
@@ -905,7 +905,7 @@ cliffwalking_bonus					Проход по скалам
 
 buildingwalking_bonus				Проход сквозь здания
 
-immunity_bonus						{type} Иммунитет
+immunity_bonus						Иммунитет: {type}
 
 invulnerable_bonus					Неуязвим
 
@@ -919,7 +919,7 @@ health_regen_reduction_bonus		{value}% Снижение регенерации �
 
 mana_regen_reduction_bonus			{value}% Снижение регенерации маны
 
-incoming_lifesteal_mult_bonus {value}% Снижение вампиризм
+incoming_lifesteal_mult_bonus {value}% снижение вампиризма
 
 sighted_bonus						Обнаружен
 
@@ -993,7 +993,7 @@ ability_levelup_max					^gМаксимальный уровень^*
 
 ability_levelup_available			^yНажмите, чтобы повысить уровень этой способности^*
 
-ability_levelup_unavailable			^rТребования не соблюдены^*
+ability_levelup_unavailable			^rТребования не выполнены^*
 
 
 
@@ -1013,7 +1013,7 @@ activate_item_no_share				^rОтключено - принадлежит {name}
 
 activate_item_no_share_ownerless	^rОтключено
 
-activate_item_borrowed				^gЗаимствование из {name}
+activate_item_borrowed				^gОдолжено у {name}
 
 activate_passive					^gЭта способность пассивна.
 
@@ -1047,23 +1047,23 @@ auto_assemble						Авто
 
 
 
-creep_spawn_warning_message			Крипы будут появляться в {interval}s.
+creep_spawn_warning_message			Крипы появятся через {interval} сек.
 
 
 
-shop_action_view_recipe				^yНажмите, чтобы ^195ПРОСМОТР^* этого рецепта.
+shop_action_view_recipe				^yНажмите, чтобы ^195ПРОСМОТРЕТЬ^* этот рецепт
 
 shop_action_view_item				^yНажмите, чтобы ^195ПРОСМОТРЕТЬ^* этот предмет
 
 shop_action_auto_assemble			^yЭтот предмет собирается автоматически
 
-shop_action_already_purchased		^gЭтот предмет уже принадлежит
+shop_action_already_purchased		^gЭтот предмет у вас уже есть
 
-shop_action_cannot_shop				^rЭтот юнит не может перевозить предметы
+shop_action_cannot_shop				^rЭтот юнит не может носить предметы
 
-shop_action_cannot_afford_item		^rНе могу себе позволить этот предмет
+shop_action_cannot_afford_item		^rНе хватает золота на этот предмет
 
-shop_action_cannot_afford_recipe	^rНе могу позволить себе этот рецепт
+shop_action_cannot_afford_recipe	^rНе хватает золота на этот рецепт
 
 shop_action_purchase_item			^yНажмите, чтобы ^195КУПИТЬ^* этот товар
 
@@ -1077,9 +1077,9 @@ shop_action_unavailable				^rНедоступно в этом месте
 
 vote_called						{account_color}{player}^*^; объявил голосование: {vote}
 
-vote_called_concede				{account_color}{player}^*^; объявил голосование за то, чтобы {team_color}{team}^* уступил
+vote_called_concede				{account_color}{player}^*^; объявил голосование о сдаче команды {team_color}{team}^*
 
-vote_called_remake				{account_color}{player}^*^; объявил голосование за повторный матч.
+vote_called_remake				{account_color}{player}^*^; объявил голосование за рестарт матча.
 
 vote_called_kick				{account_color}{player}^*^; объявил голосование за исключение {target_account_color}{target}^*^;
 
@@ -1131,23 +1131,23 @@ lobby_unlock					Хост разблокировал слот {slot_color}{slot}
 
 lobby_assign_host				{slot_color}{player}^*^; назначен новым хостом.
 
-lobby_assign_spectator			Организатор назначил {slot_color}{player}^*^; наблюдателем.
+lobby_assign_spectator			Хост назначил {slot_color}{player}^*^; наблюдателем.
 
-lobby_assign_referee			Организатор назначил {slot_color}{player}^*^; судьей.
+lobby_assign_referee			Хост назначил {slot_color}{player}^*^; судьей.
 
-lobby_demote_referee			Хозяин удалил {slot_color}{player}^*^; с должности судьи.
+lobby_demote_referee			Хост снял {slot_color}{player}^*^; с роли судьи.
 
-lobby_assign_first_ban				Хозяин назначил первый бан команде {team_color}{team}^*.
+lobby_assign_first_ban				Хост назначил первый бан команде {team_color}{team}^*.
 
 
 
 game_info_practice				Тренировка
 
-nosolo							Чтобы начать игру, у вас должен быть противник. Запустите игру ^yPractice^*, если хотите играть в одиночку.
+nosolo							Чтобы начать игру, нужен противник. Запустите ^yТренировку^*, если хотите играть в одиночку.
 
 warn_nomods					{slot_color}{player}^* использует модифицированные файлы, и ему будет разрешено только наблюдать за игрой.
 
-nomods						Не удалось запустить игру. {slot_color}{player}^* использует модифицированные файлы и должен просмотреть или отключить ВСЕ моды (интерфейс, текстуру и т. д.), прежде чем ему будет разрешено играть в этой игре с правилами турнира.
+nomods						Не удалось запустить игру. {slot_color}{player}^* использует модифицированные файлы и должен перейти в наблюдатели или отключить ВСЕ моды (интерфейс, текстуры и т. д.), чтобы играть в этой игре по турнирным правилам.
 
 game_unpause					{name} снял игру с паузы, игра возобновится через 5 сек.
 
@@ -1228,15 +1228,15 @@ bad_snapshot					Вы были отключены, поскольку файлы
 
 masters_legacy_applied				{account1_color}{player1}^*^; передал ^gНаследие Мастера^* {account2_color}{player2}^*^;!
 
-masters_legacy_removed				{account1_color}{player1}^*^; удалил ^gНаследие Мастера^* из {account2_color}{player2}^*^;!
+masters_legacy_removed				{account1_color}{player1}^*^; забрал ^gНаследие Мастера^* у {account2_color}{player2}^*^;!
 
 masters_legacy_target_applied		{account1_color}{player1}^*^; подарил ^gНаследие Мастера^* ^rвам^*!
 
-masters_legacy_target_removed		{account1_color}{player1}^*^; удалил ^gThe Master's Legacy^* из ^ryou^*!
+masters_legacy_target_removed		{account1_color}{player1}^*^; забрал ^gНаследие Мастера^* у ^rвас^*!
 
 
 
-rally_ability4_message				^oЩелкните правой кнопкой мыши^* флаг Ралли, чтобы начать телепортироваться к нему.
+rally_ability4_message				^oЩелкните правой кнопкой мыши^* по флагу Rally, чтобы телепортироваться к нему.
 
 
 
@@ -1308,7 +1308,7 @@ track_abilities_gauntgrapple			Точность захвата: {param}%
 
 
 
-ability_rampage_charge					{player1_color}{player1_hero_name}^*: атакуем {player2_color}{player2_hero_name}^* с помощью Stampede!
+ability_rampage_charge					{player1_color}{player1_hero_name}^*: несусь на {player2_color}{player2_hero_name}^* со Stampede!
 
 
 
@@ -1408,17 +1408,17 @@ ctf_endgame_debug						======== Stats ========
 
 ctf_endgame_herokills					Убийства героев: {param}
 
-ctf_endgame_heroassists					Помощи героя: {param}
+ctf_endgame_heroassists					Помощь в убийствах героев: {param}
 
 ctf_endgame_flagcaptures				Захваты флага: {param}
 
 ctf_endgame_flagreturns					Возврат флага: {param}
 
-ctf_endgame_flagcarrierkills			Убийства флагманов: {param}
+ctf_endgame_flagcarrierkills			Убийства знаменосцев: {param}
 
 ctf_endgame_distancerunwithflag			Пройдено с флагом: {param}
 
-ctf_endgame_damagedonetoflagcarriers	Урон, нанесенный несущим флаг: {param}
+ctf_endgame_damagedonetoflagcarriers	Урон по знаменосцам: {param}
 
 
 
@@ -1432,7 +1432,7 @@ ctf_endgame_damagedonetoflagcarriers	Урон, нанесенный несущи
 
 krosmode_legion_basedead				^rБаза Легиона^* почти мертва! ^yГерои Легиона больше не возрождаются^*, а защита их базы ослаблена. Прикончите их!
 
-krosmode_hellbourne_basedead			^gБаза Хеллборн^* почти мертва! ^yГерои Хеллборна больше не возрождаются^*, а защита их базы ослаблена. Прикончите их!
+krosmode_hellbourne_basedead			^gБаза Хеллборна^* почти мертва! ^yГерои Хеллборна больше не возрождаются^*, а защита их базы ослаблена. Прикончите их!
 
 
 
@@ -1450,9 +1450,9 @@ devowars_runegrab_bomb					{account1_color}{player1}^*^; зацепил ^gБом
 
 devowars_runegrab_gold					{account1_color}{player1}^*^; зацепил ^gЗолотую руну^*!
 
-devowars_runegrab_split					{account1_color}{player1}^*^; зацепил ^gSplit Rune^*!
+devowars_runegrab_split					{account1_color}{player1}^*^; зацепил ^gРуну разделения^*!
 
-devowars_runegrab_time					{account1_color}{player1}^*^; зацепил ^gРуну Времени^*!
+devowars_runegrab_time					{account1_color}{player1}^*^; зацепил ^gРуну времени^*!
 
 
 
@@ -1464,7 +1464,7 @@ devowars_runegrab_time					{account1_color}{player1}^*^; зацепил ^gРун
 
 
 
-soccer_scoregoal_team1						^gLegion^* забил гол!
+soccer_scoregoal_team1						^gЛегион^* забил гол!
 
 soccer_scoregoal_team2						^rХеллборн^* забил гол!
 
@@ -1492,9 +1492,9 @@ Onev1mid_towerkill_victory_hellbourne		Башня Легиона разруше�
 
 
 
-Onev1mid_creepkill_victory_legion			Лимит времени исчерпан. Легион побеждает, убивая крипов {param}!
+Onev1mid_creepkill_victory_legion			Время вышло. Легион побеждает по убитым крипам: {param}!
 
-Onev1mid_creepkill_victory_hellbourne		Лимит времени исчерпан. Хеллборн побеждает, убивая крипов {param}!
+Onev1mid_creepkill_victory_hellbourne		Время вышло. Хеллборн побеждает по убитым крипам: {param}!
 
 
 
@@ -1516,15 +1516,15 @@ Onev1mid_towerhealth_victory_hellbourne		Время вышло. Счет по у
 
 
 
-stacking_logic_message1						Нейтральный лагерь ^cСложен^*!
+stacking_logic_message1						Лагерь нейтралов ^cзастакан^*!
 
-stacking_logic_message2						2 нейтральных лагеря ^cсложены^*! ^559Двойной стек^*!
+stacking_logic_message2						2 лагеря нейтралов ^cзастаканы^*! ^559Двойной стек^*!
 
-stacking_logic_message3						3 нейтральных лагеря ^cсложены^*! ^449ТРОЙНОЙ СТЕК^*!
+stacking_logic_message3						3 лагеря нейтралов ^cзастаканы^*! ^449ТРОЙНОЙ СТЕК^*!
 
-stacking_logic_message4						4 нейтральных лагеря ^cсложены^*! ^229Q-Q-Q-ЧЕТВЕРНОЙ СТЕК^*!
+stacking_logic_message4						4 лагеря нейтралов ^cзастаканы^*! ^229Ч-Ч-Ч-ЧЕТВЕРНОЙ СТЕК^*!
 
-stacking_logic_message5						5+ нейтральных лагерей ^cСложены^*! ^g^:СТЕК БОГОВ^*!
+stacking_logic_message5						5+ лагерей нейтралов ^cзастаканы^*! ^g^:СТЕК БОГОВ^*!
 
 
 
@@ -1536,9 +1536,9 @@ stacking_logic_message5						5+ нейтральных лагерей ^cСлож
 
 
 
-tdm_legion_points_alert						Для победы команде ^gLegion^* нужно ^o{param}^* очков!
+tdm_legion_points_alert						Команде ^gЛегион^* для победы нужно очков: ^o{param}^*!
 
-tdm_hellbourne_points_alert					Для победы команде ^rHellbourne^* нужно ^o{param}^* очков!
+tdm_hellbourne_points_alert					Команде ^rХеллборн^* для победы нужно очков: ^o{param}^*!
 
 tdm_both_points_alert						Обе команды близки к победе, пусть победит лучшая!
 
@@ -1662,8 +1662,8 @@ total_mana_regen_mult_bonus		{value}% к общему реген. маны
 rejected_invalid_ward_location		Недопустимое место для варда
 showdown_random_victory_legion		Время вышло. Все показатели равны! Легион побеждает по жребию!
 showdown_towerkill_victory_legion		Легион победил по снесённым башням!
-showdown_creepscore_victory_hellbourne		Хеллборн победил по добитым крипам!
-Onev1mid_creepdeny_victory_hellbourne		Время вышло. Убийства крипов равны. Hellbourne побеждает по добиваниям: {param}!
+showdown_creepscore_victory_hellbourne		Время вышло. Хеллборн побеждает по счёту крипов!
+Onev1mid_creepdeny_victory_hellbourne		Время вышло. Убийства крипов равны. Хеллборн побеждает по добиваниям: {param}!
 vanity_msg_watergun		{ownerPlayer_color}{ownerPlayer} ^999Водяная битва!!
 vanity_msg_myteamsucks		{ownerPlayer_color}{ownerPlayer}^*^; ^999Моя команда - ДНО!!!
 int_mult_bonus		{value}% интеллекта
@@ -1690,7 +1690,7 @@ boughtflyingcourier		{account_color}{player}^*^; купил летающего �
 vanity_msg_iqtest		{ownerPlayer_color}{ownerPlayer}^*^; ^999меряет IQ игрока {targetPlayer_color}{targetPlayer}^*^; ^999! Эээ... 32?
 vanity_msg_questionmark_owned		^999Что вытворяет {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}???
 hero_random_favorites				{player_color}{player}^* взял случайного героя ^885{hero_name}^* ^yиз избранного.
-Onev1mid_creepdeny_victory_legion		Время вышло. Убийства крипов равны. Legion побеждает по добиваниям: {param}!
+Onev1mid_creepdeny_victory_legion		Время вышло. Убийства крипов равны. Легион побеждает по добиваниям: {param}!
 courier_msg_fetching		Курьер забирает предметы
 showdown_towerdamage_victory_hellbourne		Время вышло. Урон героям равный. Хеллборн побеждает по урону башням!
 error_courier_no_stash		В тайнике нет предметов.

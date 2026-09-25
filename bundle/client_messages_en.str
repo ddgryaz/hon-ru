@@ -48,7 +48,7 @@ disconnect_kicked_spec				Вы были исключены из игры игр�
 
 disconnect_leaver					Вам не разрешено присоединяться к этой игре, так как ваш процент покиданий слишком высок.
 
-disconnect_match_neverending		Матч был прерван, так как его Длительность: превысила максимальную длительность матча.
+disconnect_match_neverending		Матч прерван: его длительность превысила максимально допустимую.
 
 disconnect_max_spec_clients			Невозможно расширить команду наблюдателей; достигнуто максимальное количество клиентов.
 
@@ -163,7 +163,7 @@ rejected_no_available Нет доступных игровых серверов
 
 chat_connecting						^279* Подключение к серверу чата...
 
-chat_reconnecting					^279* Подключение к хост-серверу... (Попытка {attempt} из {maxattempts})
+chat_reconnecting					^279* Подключение к серверу чата... (Попытка {attempt} из {maxattempts})
 
 chat_waiting_verification			^279* Ожидание проверки вашей личности сервером чата...
 
@@ -173,7 +173,7 @@ chat_connected_invisible			^279* Вы подключены в невидимом
 
 chat_disconnected					^279* Отключено от сервера чата.
 
-chat_reconnecting_delay				^279* Повторное подключение через {delay}s.
+chat_reconnecting_delay				^279* Повторное подключение через {delay} сек.
 
 chat_not_connected					^279* Вы не подключены к серверу чата.
 
@@ -187,11 +187,11 @@ chat_group_channel_message			^279
 
 chat_whisper						^099(Шепот от {sender}) ^888{message}
 
-chat_whisper_sent					^066(Шепотом {target}) ^888{message}
+chat_whisper_sent					^066(Шёпот для {target}) ^888{message}
 
 chat_whisper_buddies				^066<Шепотом друзьям> {message}
 
-chat_whisper_to_buddies				^099<{sender} Шепотом друзьям> {message}
+chat_whisper_to_buddies				^099<{sender} шепчет друзьям> {message}
 
 chat_whisper_failed_self			^279* Вы не можете шептать самому себе.
 
@@ -201,17 +201,17 @@ chat_mode_switch_fail				^279* Вы не можете изменить стат�
 
 chat_mode_switch_success ^279* Ваш статус чата был успешно изменён.
 
-chat_mode_afk_auto_response			^099* Ваше сообщение было доставлено, но ^990{target}^279 в настоящее время отсутствует на клавиатуре: {message}
+chat_mode_afk_auto_response			^099* Ваше сообщение доставлено, но ^990{target}^279 сейчас отошёл от клавиатуры: {message}
 
 chat_mode_afk_default_response		Вдали от клавиатуры
 
-chat_mode_dnd_auto_response			^099 Ваше сообщение доставлено, но его нельзя увидеть, ^990{target}^279 не хочет, чтобы его беспокоили: {message}
+chat_mode_dnd_auto_response			^099 Ваше сообщение доставлено, но его могут не увидеть: ^990{target}^279 просит не беспокоить: {message}
 
 chat_mode_dnd_default_response		^279* {target} находится в режиме "Не беспокоить" и в настоящее время может не видеть ваши сообщения.
 
-chat_mode_streaming_auto_response		^099 Ваше сообщение не доставлено, ^990{target}^279 идет потоковая передача: {message}
+chat_mode_streaming_auto_response		^099 Ваше сообщение не доставлено: ^990{target}^279 ведёт трансляцию: {message}
 
-chat_mode_streaming_default_response ^279* {target} находится в режиме потоковой передачи и в настоящее время не может отправлять сообщения.
+chat_mode_streaming_default_response ^279* {target} в режиме трансляции, сейчас ему нельзя отправлять сообщения.
 
 chat_user_offline					^279* Этот игрок не в сети.
 
@@ -335,7 +335,7 @@ chat_requested_approval_failed		^279* Не удалось запросить ^99
 
 chat_requested_approval_duplicate	^279* Либо вы, либо пользователь ^990{name}^279 недавно инициировали запрос на добавление в друзья. Подождите одну минуту, прежде чем отправлять повторный запрос...
 
-chat_requested_approval_ignored		^279* Пользователь ^990{name}^279 включил вас в свой список игнорирования и не может попросить его добавить в друзья.
+chat_requested_approval_ignored		^279* Пользователь ^990{name}^279 добавил вас в список игнорирования, запросить его в друзья нельзя.
 
 chat_requested_approval_limit		^279* Вы достигли лимита друзей.
 
@@ -346,7 +346,7 @@ chat_failed_approving_buddy			^279* Не удалось одобрить ^990{na
 
 chat_clan_promoting					^279* Повышение члена клана ^990{name}^279 до офицера...
 
-chat_failed_clan_promote			^279* Не удалось продвинуть ^990{target}^279.
+chat_failed_clan_promote			^279* Не удалось повысить ^990{target}^279.
 
 chat_failed_clan_promote_cannot_promote		^279* Вы не можете повысить этого пользователя.
 
@@ -388,9 +388,9 @@ chat_invalid_clan_tag_used			^279* Тег клана ^990{tag}^279 уже исп
 
 chat_invalid_clan_tag_used_tip		Тег клана ^990{tag}^* уже используется.
 
-chat_invalid_clan_name_format		^279* Название клана ^990{name}^279 не является допустимым названием клана. Он должен состоять из буквенно-цифровых символов, тире и пробелов и иметь длину от 1 до 32 символов.
+chat_invalid_clan_name_format		^279* Название клана ^990{name}^279 не является допустимым названием клана. Оно должно состоять из буквенно-цифровых символов, тире и пробелов и иметь длину от 1 до 32 символов.
 
-chat_invalid_clan_name_format_tip	Название клана ^990{name}^* не является допустимым названием клана. Он должен состоять из буквенно-цифровых символов, тире и пробелов и иметь длину от 1 до 32 символов.
+chat_invalid_clan_name_format_tip	Название клана ^990{name}^* не является допустимым названием клана. Оно должно состоять из буквенно-цифровых символов, тире и пробелов и иметь длину от 1 до 32 символов.
 
 chat_invalid_clan_tag_format		^279* Тег клана ^990{tag}^279 не является допустимым тегом клана. Он должен состоять из буквенно-цифровых символов и иметь длину от 1 до 4 символов.
 
@@ -428,9 +428,9 @@ chat_channel_banned					^279* Вы были забанены на канале "
 
 chat_channel_banned_no_name			^279* Вас забанили на канале "^990{channel}^279".
 
-chat_user_unbanned					^279* ^990{unbanned}^279 был разбанен на канале ^990{unbanner}^279.
+chat_user_unbanned					^279* ^990{unbanned}^279 был разбанен на канале пользователем ^990{unbanner}^279.
 
-chat_user_unbanned_no_name			^279* ^990{unbanned}^279 был разбоен на канале.
+chat_user_unbanned_no_name			^279* ^990{unbanned}^279 был разбанен на канале.
 
 chat_unbanned						^279* Вы были разбанены на канале '^990{channel}^279' пользователем ^990{unbanner}^279.
 
@@ -438,13 +438,13 @@ chat_unbanned_no_name				^279* Вас разбанили на канале '^990
 
 chat_banned_from_channel			^279* Вы забанены на канале '^990{channel}^279'.
 
-chat_silenced						^279* Вы под Безмолвием на этом канале и не можете говорить.
+chat_silenced						^279* Вам запрещено писать на этом канале.
 
-chat_silence_lifted					^279* Ваше Безмолвие снято на канале '^990{channel}^279'.
+chat_silence_lifted					^279* Вам снова можно писать на канале '^990{channel}^279'.
 
 chat_silence_placed					^279* ^990{name}^279 заставил вас замолчать на канале '^990{channel}^279' на {duration} минут.
 
-chat_user_silence_placed			^279* ^990{silenced}^279 был отключен ^990{name}^279 на {duration} минут.
+chat_user_silence_placed			^279* ^990{name}^279 запретил ^990{silenced}^279 писать в чат на {duration} мин.
 
 chat_muted							^279* Вы заглушены и не можете общаться.
 
@@ -454,27 +454,27 @@ chat_maintenance					^900Сообщение сервера:^999 Сервер ч�
 
 chat_matchmaking_disabled			^900Сообщение сервера:^999 Служба подбора игроков временно отключена. Приносим извинения за неудобства и возобновим работу как можно скорее.
 
-chat_roll_message					{player} выкинул {low} {high} и получил {number}.
+chat_roll_message					{player} бросает {low}-{high}: выпало {number}.
 
 chat_current_time					Текущее время: {time}.
 
 chat_current_ping					Текущий пинг: {ping}.
 
-chat_adding_banlist					^279* Добавление ^990{name}^279 в ваш список Банов...
+chat_adding_banlist					^279* Добавление ^990{name}^279 в ваш бан-лист...
 
-chat_failed_banlist_add				^279* Не удалось добавить ^990{target}^279 в список Банов.
+chat_failed_banlist_add				^279* Не удалось добавить ^990{target}^279 в бан-лист.
 
 chat_failed_banlist_add_self		^279* Вы не можете добавить себя в свой бан-лист.
 
 chat_failed_banlist_add_duplicate	^279* Этот пользователь уже в вашем бан-листе.
 
-chat_failed_banlist_add_reason		^279* Не удалось добавить ^990{target}^279 в список Банов: {reason}.
+chat_failed_banlist_add_reason		^279* Не удалось добавить ^990{target}^279 в бан-лист: {reason}.
 
-chat_failed_banlist_remove			^279* Не удалось удалить ^990{target}^279 из вашего списка Банов.
+chat_failed_banlist_remove			^279* Не удалось удалить ^990{target}^279 из вашего бан-листа.
 
 chat_failed_banlist_remove_not_found	^279* Не удалось удалить пользователя из бан-листа: Пользователь не найден.
 
-chat_success_banlist_add				^279* Добавлен ^990{target}^279 в ваш бан-лист. Если ^990{target}^279 обидел вас, воспользуйтесь функцией "Пожаловаться на игрока", чтобы можно было просмотреть его действия. Обратите внимание, что список Банов работает только в публичных играх и не будет иметь никакого эффекта в режиме подбора игроков.
+chat_success_banlist_add				^279* Добавлен ^990{target}^279 в ваш бан-лист. Если ^990{target}^279 обидел вас, воспользуйтесь функцией "Пожаловаться на игрока", чтобы можно было просмотреть его действия. Обратите внимание, что бан-лист работает только в публичных играх и не будет иметь никакого эффекта в режиме подбора игроков.
 
 chat_success_banlist_remove				^279* Удален ^990{target}^279 из вашего бан-листа.
 
@@ -496,13 +496,13 @@ chat_success_ignore_add					^279* Добавлен ^990{target}^279 в спис�
 
 chat_success_ignore_remove				^279* Удален ^990{target}^279 из списка игнорирования.
 
-chat_user_on_banlist					^279* ^990{name}^279 в вашем списке Банов: ^999{reason}
+chat_user_on_banlist					^279* ^990{name}^279 в вашем бан-листе: ^999{reason}
 
 chat_admin_level_none				Нет статуса администратора
 
-chat_admin_level_officer			Channel Офицер
+chat_admin_level_officer			Офицер канала
 
-chat_admin_level_leader				Channel Лидер
+chat_admin_level_leader				Лидер канала
 
 chat_admin_level_administrator		Администратор канала
 
@@ -554,7 +554,7 @@ chat_error_clan_rank				^279* Вам нужен более высокий ран
 
 chat_error_clan_not_found			^279* Член клана с именем ^990{name}^279 не найден.
 
-chat_clan_invite_sent				^279* Отправка приглашения в клан на ^990{name}^279...
+chat_clan_invite_sent				^279* Отправка приглашения в клан игроку ^990{name}^279...
 
 chat_failed_clan_invite_in_clan			^279* ^990{name}^279 уже состоит в клане.
 
@@ -586,7 +586,7 @@ chat_clan_create_fail_in_clan			^279* Не удалось создать кла�
 
 chat_clan_create_fail_duplicate			^279* Не удалось создать клан — дублирование основателей не допускается.
 
-chat_clan_create_fail_invite			^279* Не удалось создать клан - ^990{name}^* имеет выдающееся приглашение в клан.
+chat_clan_create_fail_invite			^279* Не удалось создать клан - у ^990{name}^* уже есть неотвеченное приглашение в клан.
 
 chat_clan_create_fail_not_found			^279* Не удалось создать клан - ^990{name}^* не найден, уже состоит в клане или не принимает приглашения в клан.
 
@@ -606,7 +606,7 @@ chat_clan_create_result_fail_in_clan	Не удалось - ^990{name}^* уже �
 
 chat_clan_create_result_fail_duplicate	Ошибка — дублирование основателей.
 
-chat_clan_create_result_fail_invite		Не удалось - ^990{name}^* получил выдающееся приглашение в клан.
+chat_clan_create_result_fail_invite		Не удалось - у ^990{name}^* уже есть неотвеченное приглашение в клан.
 
 chat_clan_create_result_fail_not_found	Ошибка - ^990{name}^* не найден.
 
@@ -668,9 +668,9 @@ chat_group_player_joined				^279* ^990{name}^279 присоединился к �
 
 chat_group_player_left					^279* ^990{name}^279 покинул группу подбора игроков.
 
-chat_group_player_kicked				^279* ^990{name}^279 исключен из группы подбора игроков ^990{kicker}^279.
+chat_group_player_kicked				^279* ^990{kicker}^279 исключил ^990{name}^279 из группы подбора игроков.
 
-chat_group_invite_broadcast				^279* ^990{invited}^279 был приглашен присоединиться к группе сватовства ^990{inviter}^279...
+chat_group_invite_broadcast				^279* ^990{inviter}^279 пригласил ^990{invited}^279 в группу подбора игроков...
 
 chat_group_invite_failed_unknown		^279* Невозможно пригласить ^990{invited}^279 в группу подбора игроков.
 
@@ -682,7 +682,7 @@ chat_group_invite_failed_in_group		^279* Невозможно пригласит
 
 chat_group_max_match_fidelity_diff		^279* Выбранное значение точности матча не может быть использовано при большой разнице в уровне мастерства между игроками в вашей группе.
 
-chat_sending_player_spectate_request	^279* Запрос отправлен на ^990{name}^279.
+chat_sending_player_spectate_request	^279* Запрос отправлен игроку ^990{name}^279.
 
 chat_player_spectate_denied				^279* ^990{name}^279 отклонил ваш запрос или не ответил.
 
@@ -1176,7 +1176,7 @@ chat_command_dnd_info				^279*^707 /dnd <сообщение режима не б
 
 chat_command_streaming				/streaming
 
-chat_command_streaming_message		^279* Ваш статус чата теперь "потоковое": {reason}
+chat_command_streaming_message		^279* Ваш статус чата теперь "Трансляция": {reason}
 
 chat_command_streaming_info			^279*^707 /streaming <сообщение о трансляции>
 
@@ -1186,9 +1186,9 @@ chat_command_weather				/weather
 
 chat_command_weather_intro			^279* Введите команду погоды:
 
-chat_command_weather_entry			^279* /погода {name}
+chat_command_weather_entry			^279* /weather {name}
 
-chat_command_weather_selected		^279* Выбранный погодный эффект '{name}'
+chat_command_weather_selected		^279* Выбран погодный эффект '{name}'
 
 
 
@@ -1276,17 +1276,17 @@ chat_command_help_password			^279*^707 /password <password>^279 — Устана
 
 chat_command_help_password_clear	^279*^707 /password^279						 — Очищает текущий пароль канала (требуются права администратора)
 
-chat_command_help_roll				^279*^707 /roll <low> <high>^279			 — Выдаёт случайное число от min до max (от 1 до 32 767).
+chat_command_help_roll				^279*^707 /roll <low> <high>^279			 — Выдаёт случайное число от low до high (от 1 до 32 767).
 
 chat_command_help_emote				^279*^707 /emote <message>^279				 — Отправляет эмоцию от вашего имени.
 
 chat_command_help_time				^279*^707 /time^279 — Показывает ваше текущее системное время.
 
-chat_command_help_ping				^279*^707 /ping^279 (in game only) — Показывает ваш текущий пинг до игрового сервера.
+chat_command_help_ping				^279*^707 /ping^279 (только в игре) — Показывает ваш текущий пинг до игрового сервера.
 
-chat_command_help_matchup			^279*^707 /matchup^279 (in game only) — Показывает команду/имя/цвет/героя игроков в текущей игре.
+chat_command_help_matchup			^279*^707 /matchup^279 (только в игре) — Показывает команду/имя/цвет/героя игроков в текущей игре.
 
-chat_command_help_gameinfo			^279*^707 /gameinfo^279 (in game only) — Показывает информацию о текущей игре.
+chat_command_help_gameinfo			^279*^707 /gameinfo^279 (только в игре) — Показывает информацию о текущей игре.
 
 chat_command_help_available			^279*^707 /available^279					 — Переключает статус чата на «Доступен».
 
@@ -1294,7 +1294,7 @@ chat_command_help_afk				^279*^707 /afk <afk message>^279			 — Переклю�
 
 chat_command_help_dnd				^279*^707 /dnd <dnd message>^279			 — Переключает статус чата на «Не беспокоить», останавливает входящие шёпоты и автоматически отвечает на них указанным сообщением.
 
-chat_command_help_weather			^279*^707 /weather^279 (in game only) — Установить погодный эффект
+chat_command_help_weather			^279*^707 /weather^279 (только в игре) — Установить погодный эффект
 
 chat_command_help_misc				^279* Введите любую команду без аргументов для информации о её использовании.
 
