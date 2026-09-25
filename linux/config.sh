@@ -35,7 +35,15 @@ _hon_prefixes() {
 }
 
 hon_detect() {
-    [ -n "${HON_GAME_DIR:-}" ] && return 0
+    if [ -n "${HON_GAME_DIR:-}" ]; then
+        # Профиль в том же префиксе: .../users/<имя>/Documents/Juvio/...
+        if [ -z "${HON_DOCS_DIR:-}" ]; then
+            local user
+            user="$(dirname "$(dirname "$(dirname "$(dirname "$HON_GAME_DIR")")")")"
+            HON_DOCS_DIR="$user/Documents/Juvio/Heroes of Newerth"
+        fi
+        return 0
+    fi
 
     # Под Proton внутренний пользователь всегда steamuser, в остальных
     # префиксах каталог называется именем системного пользователя

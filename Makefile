@@ -29,5 +29,8 @@ lint:
 untranslated:
 	@./linux/untranslated.sh '$(GROUP)'
 
+# Путь в кавычках: пробел или апостроф в нём иначе ломают строку для Steam
+QUOTED_DIR := $(subst ','\'',$(CURDIR))
+
 launch-options:
-	@echo "bash -c '$(CURDIR)/linux/apply.sh --on-launch & exec \"\$$@\"' -- %command%"
+	@echo "bash -c '\"$(QUOTED_DIR)/linux/apply.sh\" --on-launch & exec \"\$$@\"' -- %command%"

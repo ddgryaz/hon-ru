@@ -266,14 +266,19 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
         except OSError:
             return False
 
-    baseline = newest_log()
+    # apply.sh запоминает лог до подготовки строк; без него - текущий
+    if 'HON_BASELINE_LOG' in os.environ:
+        baseline = os.environ['HON_BASELINE_LOG'] or None
+    else:
+        baseline = newest_log()
     print('  ожидаю запуск игры (текущий лог: %s)'
           % (os.path.basename(baseline) if baseline else 'нет'))
 
     deadline = time.time() + timeout
     while time.time() < deadline:
         current = newest_log()
-        if current and current != baseline and delegated(current):
+        if current and (not baseline or os.path.basename(current)
+                        != os.path.basename(baseline)) and delegated(current):
             break
         time.sleep(0.02)
     else:
