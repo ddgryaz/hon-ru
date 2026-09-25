@@ -13627,11 +13627,11 @@ match_awards_neutcreepkills_m				Охотник
 
 
 
-match_awards_neutcreepkills_l				Охотник
+match_awards_neutcreepkills_l				Егерь
 
 
 
-match_awards_wards_m						Подглядывающий Том
+match_awards_wards_m						Соглядатай
 
 
 
@@ -13663,7 +13663,7 @@ match_awards_ks10_l							-
 
 
 
-match_awards_ks5_m							Веселье
+match_awards_ks5_m							Кураж
 
 
 
@@ -13671,7 +13671,7 @@ match_awards_ks5_l							-
 
 
 
-match_awards_ks3_m							Стрик
+match_awards_ks3_m							Серия
 
 
 
@@ -13683,7 +13683,7 @@ match_awards_avg_xpm_m						Ветеран
 
 
 
-match_awards_avg_xpm_l						Гринхорн
+match_awards_avg_xpm_l						Новичок
 
 
 
@@ -13711,7 +13711,7 @@ match_awards_ctfcarrierdamage_l				Белый флаг
 
 
 
-match_awards_ctfcarrierdamage_l_desc		Кажется, вы знаете, что "флаг" означает еще и "увядание". Нанесли наименьший урон авианосцам.
+match_awards_ctfcarrierdamage_l_desc		Кажется, вы знаете, что "flag" значит еще и "выдыхаться". Нанес меньше всех урона знаменосцам.
 
 
 
@@ -13719,7 +13719,7 @@ match_awards_ctfcarrierdamage_m				Охотник за головами
 
 
 
-match_awards_ctfcarrierdamage_m_desc		Этот флаг был для тебя просто мишенью. Нанес наибольший урон флагоносцам.
+match_awards_ctfcarrierdamage_m_desc		Этот флаг был для тебя просто мишенью. Нанес больше всех урона знаменосцам.
 
 
 
@@ -13731,7 +13731,7 @@ match_awards_ctfcaptures_m					Флагнаппер
 
 
 
-match_awards_ctfcaptures_m_desc				Ваша коллекция флагов легендарна. Было больше всего захватов флага.
+match_awards_ctfcaptures_m_desc				Ваша коллекция флагов легендарна. Больше всех захватов флага.
 
 
 
@@ -13743,11 +13743,11 @@ match_awards_ctfcaptures_l_desc				-
 
 
 
-match_awards_ctfreturns_m					Золотистый ресивер
+match_awards_ctfreturns_m					Золотистый ретривер
 
 
 
-match_awards_ctfreturns_m_desc				Время угоститься! Было больше всего возвратов флагов.
+match_awards_ctfreturns_m_desc				Время для вкусняшки! Больше всех возвратов флага.
 
 
 
@@ -13771,11 +13771,11 @@ match_awards_ctfdeaths_l_desc				-
 
 
 
-match_awards_ctfdeaths_m					Полумачта
+match_awards_ctfdeaths_m					Приспущенный флаг
 
 
 
-match_awards_ctfdeaths_m_desc				Мы оплакиваем ваши жертвы... все они... угу. Там было больше всего смертей.
+match_awards_ctfdeaths_m_desc				Мы скорбим о ваших жертвах... обо всех... ох. Больше всех смертей.
 
 
 
@@ -13787,15 +13787,15 @@ match_awards_soccergoals_m					Бомбардир
 
 
 
-match_awards_soccergoals_m_desc				Забил больше всего голов. Способ согнуть его, как Брейки!
+match_awards_soccergoals_m_desc				Забил больше всего голов. Закрутил, как Брейки!
 
 
 
-match_awards_soccergoalassists_m			Мастер Пассер
+match_awards_soccergoalassists_m			Мастер паса
 
 
 
-match_awards_soccergoalassists_m_desc		У него было больше всего результативных передач. Спасибо за распространение любви!
+match_awards_soccergoalassists_m_desc		Больше всего голевых передач. Спасибо, что делился любовью!
 
 
 
@@ -13803,23 +13803,23 @@ match_awards_soccersteals_m					Карманник
 
 
 
-match_awards_soccersteals_m_desc			Было больше всего перехватов, на что нужно много мячей.
+match_awards_soccersteals_m_desc			Больше всего перехватов, а для этого нужна смелость.
 
 
 
-match_awards_soccerknockouts_m				Инфорсер
+match_awards_soccerknockouts_m				Громила
 
 
 
-match_awards_soccerknockouts_m_desc			У противника было больше всего нокаутов. Вот вам и товарищеские матчи!
+match_awards_soccerknockouts_m_desc			Больше всех нокаутировал соперников. Вот тебе и товарищеский матч!
 
 
 
-match_awards_soccertimewithballs_m			Профессиональный дилер
+match_awards_soccertimewithballs_m			Мастер дриблинга
 
 
 
-match_awards_soccertimewithballs_m_desc		Путешествовал с мячом дольше всех. Дриблинг еще никогда не выглядел так круто.
+match_awards_soccertimewithballs_m_desc		Дольше всех вел мяч. Дриблинг еще никогда не выглядел так круто.
 
 
 
@@ -13827,7 +13827,7 @@ match_awards_soccertimewithballs_l			Я был открыт!
 
 
 
-match_awards_soccertimewithballs_l_desc		Наименьшее время перемещения с мячом. Надеюсь, ты был вратарем.
+match_awards_soccertimewithballs_l_desc		Меньше всех был с мячом. Надеемся, ты был вратарем.
 
 
 
@@ -13839,11 +13839,11 @@ match_awards_soccerselfgoals_m_desc			Забил автогол. По крайн
 
 
 
-match_awards_soccerrunesgathered_m			Рунический боров
+match_awards_soccerrunesgathered_m			Рунный жадина
 
 
 
-match_awards_soccerrunesgathered_m_desc		Собрано больше всего рун. Ты действительно управлял этим для всех остальных.
+match_awards_soccerrunesgathered_m_desc		Собрал больше всего рун. Остальным ничего не досталось.
 
 
 
@@ -13851,7 +13851,7 @@ match_awards_soccerbeknockedouts_m			Фейкер
 
 
 
-match_awards_soccerbeknockedouts_m_desc		Больше всех нокаутировал. Все знают, что ты просто притворяешься.
+match_awards_soccerbeknockedouts_m_desc		Чаще всех оказывался в нокауте. Все знают, что ты притворяешься.
 
 
 
@@ -13867,15 +13867,15 @@ match_awards_consumables_l_desc				Есть вещи поважнее, кото�
 
 
 
-match_awards_herokills_m_desc				Теперь ты видишь меня, теперь ты мертв! Заработано наибольшее количество убийств героев.
+match_awards_herokills_m_desc				Теперь ты видишь меня, теперь ты мертв! Больше всех убийств героев.
 
 
 
-match_awards_herokills_l_desc				Ты не стоишь моего времени. У него было меньше всего убийств героев.
+match_awards_herokills_l_desc				Ты не стоишь моего времени. Меньше всех убийств героев.
 
 
 
-match_awards_level_m_desc					Встаньте на мой уровень! Был высший уровень в конце матча.
+match_awards_level_m_desc					Дотянись до моего уровня! Самый высокий уровень к концу матча.
 
 
 
@@ -13891,11 +13891,11 @@ match_awards_deaths_l_desc					Бояться смерти? Смерть бои�
 
 
 
-match_awards_heroassists_m_desc				Не бойтесь, ваш спаситель здесь! Заработано наибольшее количество помощи героям.
+match_awards_heroassists_m_desc				Не бойтесь, ваш спаситель здесь! Больше всех помощи в убийствах героев.
 
 
 
-match_awards_heroassists_l_desc				Ты справишься без меня. Имел наименьшее количество передач по героям.
+match_awards_heroassists_l_desc				Ты справишься без меня. Меньше всех помощи в убийствах героев.
 
 
 
@@ -13907,7 +13907,7 @@ match_awards_gold_l_desc					-
 
 
 
-match_awards_gold_spent_m_desc				Вы не можете взять его с собой. Потратил больше всего золота.
+match_awards_gold_spent_m_desc				С собой не унесешь. Потратил больше всего золота.
 
 
 
@@ -13923,19 +13923,19 @@ match_awards_herodmg_l_desc					Я буду с тобой помягче. Нан
 
 
 
-match_awards_bdmg_m_desc					Доминирование в сельской местности! Нанес наибольший урон зданиям.
+match_awards_bdmg_m_desc					Гроза окрестностей! Нанес больше всех урона зданиям.
 
 
 
-match_awards_bdmg_l_desc					Я уважаю вашу собственность, но не более того. Нанесли наименьший урон зданиям.
+match_awards_bdmg_l_desc					Я уважаю вашу собственность, но не более того. Нанес меньше всех урона зданиям.
 
 
 
-match_awards_razed_m_desc					Спорим, им хотелось бы иметь на это страховку. Разрушено большинство зданий.
+match_awards_razed_m_desc					Спорим, им хотелось бы иметь на это страховку. Разрушил больше всего зданий.
 
 
 
-match_awards_razed_l_desc					Сохраните те немногие здания, которые остались в Неверте! Разрушено меньше всего зданий.
+match_awards_razed_l_desc					Сохраните те немногие здания, которые остались в Неверте! Разрушил меньше всего зданий.
 
 
 
@@ -13955,7 +13955,7 @@ match_awards_actions_l_desc					Когда они поймут, что одни�
 
 
 
-match_awards_bloodlust_m_desc				Мне не стыдно сказать, что ты был моим первым! Вы получили Жажда крови.
+match_awards_bloodlust_m_desc				Мне не стыдно сказать, что ты был моим первым! Пролил первую кровь.
 
 
 
@@ -13963,7 +13963,7 @@ match_awards_bloodlust_l_desc				-
 
 
 
-match_awards_smackdown_m_desc				Почему я намного лучше тебя? Набрал наибольшее количество Smackdowns.
+match_awards_smackdown_m_desc				Почему я намного лучше тебя? Больше всех разгромов.
 
 
 
@@ -13971,7 +13971,7 @@ match_awards_smackdown_l_desc				-
 
 
 
-match_awards_nemesis_m_desc					Что ты собираешься с этим делать? Набрал больше всего врагов.
+match_awards_nemesis_m_desc					Что ты собираешься с этим делать? Чаще всех становился заклятым врагом.
 
 
 
@@ -13979,7 +13979,7 @@ match_awards_nemesis_l_desc					-
 
 
 
-match_awards_retribution_m_desc				Думаешь, ты крутой? Подумайте еще раз! Набрал наибольшее количество возмездий.
+match_awards_retribution_m_desc				Думаешь, ты крутой? Подумай еще раз! Больше всех возмездий.
 
 
 
@@ -13991,11 +13991,11 @@ match_awards_teamcreepkills_m_desc			Не волнуйтесь, я позабо�
 
 
 
-match_awards_teamcreepkills_l_desc			Есть более крупная рыба, которую нужно жарить. Убил меньше всего крипов.
+match_awards_teamcreepkills_l_desc			Есть дела поважнее. Убил меньше всего крипов.
 
 
 
-match_awards_doublekill_m_desc				Никогда не делайте ставки против меня. Набрал наибольшее количество двойных нажатий.
+match_awards_doublekill_m_desc				Никогда не ставь против меня. Больше всех дабл-киллов.
 
 
 
@@ -14003,7 +14003,7 @@ match_awards_doublekill_l_desc				-
 
 
 
-match_awards_triplekill_m_desc				Нападение так же просто, как 1, 2, 3. Совершил наибольшее количество тройных убийств.
+match_awards_triplekill_m_desc				Нагибать просто, как раз-два-три. Больше всех тройных убийств.
 
 
 
@@ -14011,7 +14011,7 @@ match_awards_triplekill_l_desc				-
 
 
 
-match_awards_quadkill_m_desc				Ты можешь бежать, но тебе не спрятаться от меня! Совершил наибольшее количество четверных убийств.
+match_awards_quadkill_m_desc				Ты можешь бежать, но тебе не спрятаться от меня! Больше всех квадра-киллов.
 
 
 
@@ -14019,7 +14019,7 @@ match_awards_quadkill_l_desc				-
 
 
 
-match_awards_annihilation_m_desc			НУФ СКАЗАЛ! Набрал больше всего Аннигиляций.
+match_awards_annihilation_m_desc			БЕЗ КОММЕНТАРИЕВ! Больше всех аннигиляций.
 
 
 
@@ -14035,15 +14035,15 @@ match_awards_denies_l_desc					Лучшие друзья навсегда <3! Н
 
 
 
-match_awards_neutcreepkills_m_desc			Добро пожаловать в джунгли! Убито большинство нейтральных крипов.
+match_awards_neutcreepkills_m_desc			Добро пожаловать в джунгли! Убил больше всего нейтральных крипов.
 
 
 
-match_awards_neutcreepkills_l_desc			Берегите нейтралов! Убито наименее нейтральных крипов.
+match_awards_neutcreepkills_l_desc			Берегите нейтралов! Убил меньше всего нейтральных крипов.
 
 
 
-match_awards_wards_m_desc					Я тебя вижу! Установлено наибольшее количество вардов.
+match_awards_wards_m_desc					Я тебя вижу! Поставил больше всего вардов.
 
 
 
@@ -14051,7 +14051,7 @@ match_awards_wards_l_desc					-
 
 
 
-match_awards_humiliation_m_desc				Помнишь, как ты пытался меня подразнить? Да, об этом. Набрал больше всего унижений.
+match_awards_humiliation_m_desc				Помнишь, как ты пытался меня спровоцировать? Так вот. Больше всех унижений.
 
 
 
@@ -14143,7 +14143,7 @@ match_awards_special_9						Башенный дайвер
 
 
 
-match_awards_special_10						Ребята? Гууууйс?
+match_awards_special_10						Ребята? Ребяяята?
 
 
 
@@ -14159,7 +14159,7 @@ match_awards_special_13						Бой в тени
 
 
 
-match_awards_special_14						Герой Неверт, которого заслуживает
+match_awards_special_14						Герой, которого заслуживает Неверт
 
 
 
@@ -14175,7 +14175,7 @@ match_awards_special_17						Хорошо провели время
 
 
 
-match_awards_special_18						СРЕДНИЙ ПОЖАЛУЙСТА
+match_awards_special_18						МИД ПЛЗ
 
 
 
@@ -14211,11 +14211,11 @@ match_awards_special_4_desc					Это тяжелая работа, но кто-
 
 
 
-match_awards_special_5_desc					Ревенант не единственный. У нас есть такая команда!
+match_awards_special_5_desc					Revenant не единственный. Мы справимся, команда!
 
 
 
-match_awards_special_6_desc					Не оставляйте ни камня на камне, ни одну дорогу неисследованной!
+match_awards_special_6_desc					Проверь каждый камень, исследуй каждую линию!
 
 
 
@@ -14235,7 +14235,7 @@ match_awards_special_10_desc				Оказались не в том месте и 
 
 
 
-match_awards_special_11_desc				Хорошая игра, хорошо сыграна. Давай сыграем в другое!
+match_awards_special_11_desc				Хорошая игра, хорошо сыграли. Давайте еще одну!
 
 
 
@@ -14247,7 +14247,7 @@ match_awards_special_13_desc				Солнце заставляет меня по�
 
 
 
-match_awards_special_14_desc				Неверт попросил героя, и я ответил на звонок.
+match_awards_special_14_desc				Неверт попросил героя, и я откликнулся на зов.
 
 
 
@@ -14263,15 +14263,15 @@ match_awards_special_17_desc				Не могу нарадоваться Mid Wars!
 
 
 
-match_awards_special_18_desc				Я позвонил туда первым! Почему все остальные здесь?
+match_awards_special_18_desc				Я первый занял! Почему все остальные здесь?
 
 
 
-match_awards_special_19_desc				Сделал действие возможным.
+match_awards_special_19_desc				Устроил движуху.
 
 
 
-match_awards_special_20_desc				Если вам придется спросить, вы никогда не узнаете.
+match_awards_special_20_desc				Если нужно спрашивать, вы никогда не узнаете.
 
 
 
@@ -14287,7 +14287,7 @@ game_spectator_stats_gold/min				Золото/мин
 
 
 
-game_spectator_stats_bldgdmg				Урон зданию
+game_spectator_stats_bldgdmg				Урон зданиям
 
 
 
@@ -14303,15 +14303,15 @@ game_spectator_k/d/a						K/D/A
 
 
 
-ircchat_main_button_join_create_new			Присоединяйтесь/создайте новый прерываемое заклинание
+ircchat_main_button_join_create_new			Войти/создать новый канал
 
 
 
-ircchat_header_join_create_new				Присоединяйтесь/создайте новый прерываемое заклинание
+ircchat_header_join_create_new				Войти/создать новый канал
 
 
 
-ircchat_button_join_create					Присоединяйтесь/Создайте
+ircchat_button_join_create					Войти/создать
 
 
 
@@ -14323,7 +14323,7 @@ ircchat_button_chat_text_send_message		Отправить сообщение
 
 
 
-ircchat_button_chat_channel_create_new		Присоединяйтесь/создайте новый прерываемое заклинание
+ircchat_button_chat_channel_create_new		Войти/создать новый канал
 
 
 
@@ -14371,7 +14371,7 @@ game_hero_select_ready_tip					Нажмите эту кнопку, когда б
 
 
 
-game_hero_select_ready_tip_no_hero			Прежде чем подготовиться, вы должны выбрать героя.
+game_hero_select_ready_tip_no_hero			Сначала выберите героя.
 
 
 
@@ -14383,7 +14383,7 @@ game_hero_select_ready_tip_not_ready		Этот игрок еще не готов
 
 
 
-game_hero_select_random						Выберите случайного героя
+game_hero_select_random						Случайный герой
 
 
 
@@ -14419,7 +14419,7 @@ hselect_label_hd_attack_type				Тип атаки
 
 
 
-hselect_label_hd_attack_range	Дальн. атак.
+hselect_label_hd_attack_range	Дальн. атаки
 
 
 
@@ -14435,7 +14435,7 @@ game_hero_select_mana_cost					Расход маны: {value}
 
 
 
-game_hero_select_cooldown					Перезарядка: {time}s
+game_hero_select_cooldown					Перезарядка: {time} сек.
 
 
 
@@ -14447,7 +14447,7 @@ hselect_label_strength						Сил
 
 
 
-hselect_label_agility						Аги
+hselect_label_agility						Лов
 
 
 
@@ -14459,7 +14459,7 @@ hselect_swap_request_tip_header				Поменять героя
 
 
 
-hselect_swap_request_tip_text				Запросить обмен героями с этим игроком. После замены вы не можете повторно выбрать или поменять местами снова.
+hselect_swap_request_tip_text				Запросить обмен героями с этим игроком. После обмена нельзя перевыбрать героя или поменяться снова.
 
 
 
@@ -14467,7 +14467,7 @@ hselect_swap_request_noeap_tip_header		Замена героя недоступ�
 
 
 
-hselect_swap_request_noeap_tip_text			Вы не можете поменяться местами с этим игроком, так как ни у кого из вас нет доступа к этому герою EAP.
+hselect_swap_request_noeap_tip_text			Вы не можете поменяться с этим игроком: у одного из вас нет доступа к этому герою раннего доступа.
 
 
 
@@ -14475,7 +14475,7 @@ hselect_swap_accept_tip_header				Поменять героя
 
 
 
-hselect_swap_accept_tip_text				Этот игрок предложил вам поменяться героями. Нажмите на их портрет, чтобы завершить замену. После замены вы не можете повторно выбрать или поменять местами снова.
+hselect_swap_accept_tip_text				Этот игрок предложил вам поменяться героями. Нажмите на его портрет, чтобы завершить обмен. После обмена нельзя перевыбрать героя или поменяться снова.
 
 
 
@@ -14511,11 +14511,11 @@ game_hero_select_starting_gold				Стартовое золото
 
 
 
-game_hero_select_starting_gold_tip_me		В начале матча у вас будет золото ^y{gold}^*.
+game_hero_select_starting_gold_tip_me		В начале матча у вас будет ^y{gold}^* золота.
 
 
 
-game_hero_select_starting_gold_tip_other	На момент начала матча у этого игрока будет золото ^y{gold}^*.
+game_hero_select_starting_gold_tip_other	В начале матча у этого игрока будет ^y{gold}^* золота.
 
 
 
@@ -14539,7 +14539,7 @@ hero_select_voip_mute_tip					Вы отключили звук этого игр
 
 
 
-hero_select_voip_tip						Нажмите здесь, чтобы отключить звук этого проигрывателя.
+hero_select_voip_tip						Нажмите здесь, чтобы отключить звук этого игрока.
 
 
 
@@ -14547,7 +14547,7 @@ game_hero_select_label_damage				^yУрон:^* {damage}
 
 
 
-game_hero_select_label_attack_range			^yДиапазон атаки:^* {range}
+game_hero_select_label_attack_range			^yДальн. атаки:^* {range}
 
 
 
@@ -14559,7 +14559,7 @@ game_hero_select_label_armor				^yБроня:^* {armor}
 
 
 
-game_hero_select_label_magicarmor			^yМагическая броня:^* {armor}
+game_hero_select_label_magicarmor			^yМаг. броня:^* {armor}
 
 
 
@@ -14591,7 +14591,7 @@ main_lobby_ranked_play						Рейтинговая игра
 
 
 
-main_lobby_ranked_play_desc					Ранговая игра позволяет вам создавать игры с группами и даже размещать разных друзей в противоборствующих командах. Затем игроки будут искать похожие игры на основе ваших предпочтений и пытаться создать честные команды на основе статистики. Эти матчи затем используются для ранжирования игроков в нашем рейтинге.
+main_lobby_ranked_play_desc					Рейтинговая игра позволяет создавать игры группами и даже ставить друзей в противоположные команды. Затем система подберет игроков, ищущих похожие игры по вашим предпочтениям, и постарается составить равные команды по статистике. Эти матчи затем используются для ранжирования игроков в нашем рейтинге.
 
 
 
@@ -14599,7 +14599,7 @@ mainlobby_button_quick_play_config			Конфигурация быстрой и�
 
 
 
-main_lobby_button_quick_play_config_desc	Здесь вы можете выбрать "Безлимитный", "Нейтральный" или "Предпочтительный" для всех игровых режимов и опций игры. Затем ваш клиент просмотрит все доступные игры и присоединится к одной из них в зависимости от выбранных вами предпочтений. Чем больше опций вы запретите, тем больше времени может потребоваться, чтобы присоединиться к игре.
+main_lobby_button_quick_play_config_desc	Здесь для всех игровых режимов и опций можно выбрать "Запрещено", "Нейтрально" или "Предпочтительно". Затем клиент просмотрит все доступные игры и присоединится к одной из них по выбранным предпочтениям. Чем больше опций вы запретите, тем дольше может идти поиск игры.
 
 
 
@@ -14619,11 +14619,11 @@ main_lobby_qp_hide_advanced_filters_label	Чтобы скрыть расшире
 
 
 
-mainlobby_button_save_qp_config				Сохранить конфигурацию быстрого воспроизведения
+mainlobby_button_save_qp_config				Сохранить конфигурацию быстрой игры
 
 
 
-mainlobby_label_join_size					Присоединяйтесь к играм только с таким размером команды
+mainlobby_label_join_size					Заходить только в игры с таким размером команды
 
 
 
@@ -14651,7 +14651,7 @@ mainlobby_label_banning_draft				Banning Draft
 
 
 
-mainlobby_label_banning_draft_blitz			Блиц БД
+mainlobby_label_banning_draft_blitz			Blitz BD
 
 
 
@@ -14683,7 +14683,7 @@ mainlobby_label_balanced_random 			Balanced Random (объединён с All Ra
 
 
 
-mainlobby_label_deathmatch					Смертельный бой
+mainlobby_label_deathmatch					Deathmatch
 
 
 
@@ -14723,7 +14723,7 @@ mainlobby_label_solo_same					Те же герои
 
 
 
-mainlobby_label_solo_same_playerhosted		Одни и те же герои в одиночку
+mainlobby_label_solo_same_playerhosted		Соло: одинаковые герои
 
 
 
@@ -14731,7 +14731,7 @@ mainlobby_label_solo_diff					Разные герои
 
 
 
-mainlobby_label_solo_diff_playerhosted		Соло Разных героев
+mainlobby_label_solo_diff_playerhosted		Соло: разные герои
 
 
 
@@ -14743,7 +14743,7 @@ mainlobby_label_counter_pick				Counter Pick
 
 
 
-mainlobby_header_game_options				Варианты игры
+mainlobby_header_game_options				Параметры игры
 
 
 
@@ -14755,11 +14755,11 @@ mainlobby_label_tier_tip					Ограничить серверы в зависи
 
 
 
-mainlobby_header_game_tier1					Только для новичков
+mainlobby_header_game_tier1					Только нубы
 
 
 
-mainlobby_header_game_tier2					Нубам разрешено
+mainlobby_header_game_tier2					Нубы разрешены
 
 
 
@@ -14775,23 +14775,23 @@ mainlobby_label_min_max_psr_tip				Позволяет игрокам присо�
 
 
 
-mainlobby_header_game_official				Официально - записанная статистика
+mainlobby_header_game_official				Официальная - со статистикой
 
 
 
-mainlobby_header_game_official2				Не официально
+mainlobby_header_game_official2				Неофициальная
 
 
 
-main_lobby_public							Публичный
+main_lobby_public							Публичная
 
 
 
-main_lobby_private							Частное
+main_lobby_private							Закрытая
 
 
 
-main_lobby_leaver_restricted				Выход с ограничениями
+main_lobby_leaver_restricted				Без покинувших
 
 
 
@@ -14811,7 +14811,7 @@ mainlobby_label_more						Дополнительные параметры
 
 
 
-mainlobby_button_show_advanced				Показать расширенные
+mainlobby_button_show_advanced				Показать дополнительные
 
 
 
@@ -14839,7 +14839,7 @@ mainlobby_button_custom_game				Список игр
 
 
 
-mainlobby_button_custom_game_desc			Если вы не хотите использовать быструю игру и хотите вручную просмотреть доступные игры, воспользуйтесь этой кнопкой. В списке игр вы можете фильтровать результаты по размеру команды, режимам, опциям и пергам. Если вы хотите быстро приступить к действию одним нажатием кнопки, мы предлагаем использовать Quick Play.
+mainlobby_button_custom_game_desc			Если вы не хотите использовать быструю игру и хотите вручную просмотреть доступные игры, воспользуйтесь этой кнопкой. В списке игр можно фильтровать результаты по размеру команды, режимам, опциям и пингу. Если хотите быстро попасть в игру одним нажатием кнопки, используйте быструю игру.
 
 
 
@@ -14847,15 +14847,15 @@ mainlobby_button_create_game				Создать игру
 
 
 
-mainlobby_button_create_game_desc			Хотите разместить игру, настроенную именно так, как вы хотите, или облегчить присоединение ваших друзей? Используйте эту функцию! При создании игры вы можете установить для нее статус "Частный", дождаться, пока к ней присоединятся друзья, а затем объявить об этом, чтобы заполнить оставшиеся места.
+mainlobby_button_create_game_desc			Хотите провести игру, настроенную именно так, как вам нужно, или облегчить друзьям вход в нее? Используйте эту функцию! При создании игры можно сделать ее закрытой, дождаться друзей, а затем объявить ее, чтобы заполнить оставшиеся места.
 
 
 
-mainlobby_header_custom_join_a_game			Присоединился к игре
+mainlobby_header_custom_join_a_game			Присоединиться к игре
 
 
 
-mainlobby_header_custom_filter_results		Фильтрация результатов сервера
+mainlobby_header_custom_filter_results		Фильтр серверов
 
 
 
@@ -14867,11 +14867,11 @@ mainlobby_label_custom_game_name			Название игры
 
 
 
-mainlobby_label_custom_pickmode				Выбор режима
+mainlobby_label_custom_pickmode				Режим выбора
 
 
 
-main_lobby_game_name_desc					Отфильтруйте игровой браузер, введя полную или частичную поисковую фразу.\n\nИспользуйте '|' чтобы разделить поисковые фразы, используйте '-' в начале фразы, чтобы исключить термин, и используйте '\\|' или '\\-', чтобы избежать '|' или '-'.\n
+main_lobby_game_name_desc					Отфильтруйте игровой браузер, введя полную или частичную поисковую фразу.\n\nИспользуйте '|' чтобы разделить поисковые фразы, используйте '-' в начале фразы, чтобы исключить термин, и используйте '\\|' или '\\-', чтобы экранировать '|' или '-'.\n
 
 
 
@@ -14983,7 +14983,7 @@ mainlobby_label_custom_game_PHVIP			VIP-сервер Филиппин
 
 
 
-mainlobby_label_custom_game_RU				РУ
+mainlobby_label_custom_game_RU				RU
 
 
 
@@ -15035,7 +15035,7 @@ mainlobby_label_custom_game_BR				Бразилия
 
 
 
-mainlobby_label_custom_game_TOUR			ТУР
+mainlobby_label_custom_game_TOUR			TOUR
 
 
 
@@ -15043,11 +15043,11 @@ mainlobby_label_custom_team_size			Размер команды
 
 
 
-mainlobby_label_custom_team_size_desc		Ограничьте игры определенным размером команды.
+mainlobby_label_custom_team_size_desc		Ограничить игры определенным размером команды.
 
 
 
-main_lobby_filter_team_size_none			Не ограничивайте размер команды
+main_lobby_filter_team_size_none			Без ограничения размера
 
 
 
@@ -15055,7 +15055,7 @@ main_lobby_filter_any						Любой
 
 
 
-main_lobby_filter_advanced					Продвинутый
+main_lobby_filter_advanced					Дополнительно
 
 
 
@@ -15071,11 +15071,11 @@ main_lobby_filter_team_size_three_v_three	Трое против трех
 
 
 
-main_lobby_filter_team_size_four_v_four		Четыре против четырех
+main_lobby_filter_team_size_four_v_four		Четверо против четверых
 
 
 
-main_lobby_filter_team_size_five_v_five		Пять против пяти
+main_lobby_filter_team_size_five_v_five		Пятеро против пятерых
 
 
 
@@ -15083,7 +15083,7 @@ mainlobby_label_custom_map					Карта
 
 
 
-mainlobby_label_custom_map_desc				Ограничьте игры определенной картой.
+mainlobby_label_custom_map_desc				Ограничить игры определенной картой.
 
 
 
@@ -15091,7 +15091,7 @@ mainlobby_label_custom_server_type			Тип сервера
 
 
 
-mainlobby_label_custom_server_type_desc		Ограничьте игры в зависимости от типа сервера. Официальные серверы - это серверы, размещенные в Frostburn, на которых гарантированно работают официальные, некодифицированные игровые настройки и карты. Неофициальные серверы - это серверы, размещенные сообществом, которые могут использовать или не использовать измененные карты и настройки игры.
+mainlobby_label_custom_server_type_desc		Ограничить игры по типу сервера. Официальные серверы - это серверы Frostburn, на которых гарантированно работают официальные, немодифицированные настройки игры и карты. Неофициальные серверы размещает сообщество, и на них могут использоваться измененные карты и настройки игры.
 
 
 
@@ -15111,7 +15111,7 @@ msin_lobby_game_access						Доступ к игре
 
 
 
-main_lobby_view_advanced_filters			Нажмите ^yView^* ^yAdvanced^* ниже, чтобы отобразить все дополнительные параметры.
+main_lobby_view_advanced_filters			Нажмите ^yПросмотреть^* ^yдополнительно^* ниже, чтобы отобразить все дополнительные параметры.
 
 
 
@@ -15131,7 +15131,7 @@ mainlobby_label_team						Команда
 
 
 
-mainlobby_label_fakeplayers					Поддельные игроки
+mainlobby_label_fakeplayers					Фиктивные игроки
 
 
 
@@ -15195,7 +15195,7 @@ mainlobby_header_custom_karma				Игры с ограничением выход
 
 
 
-mainlobby_button_custom_instant_upgrade		Мгновенно обновите аккаунт до Prime прямо сейчас
+mainlobby_button_custom_instant_upgrade		Мгновенно улучшить аккаунт до Prime
 
 
 
@@ -15203,7 +15203,7 @@ mainlobby_button_custom_return				Вернуться в игровой брау�
 
 
 
-mainlobby_header_custom_prime_req			Требуется основная учетная запись
+mainlobby_header_custom_prime_req			Нужен Prime-аккаунт
 
 
 
@@ -15255,7 +15255,7 @@ mainlobby_tip_filter_server_name			Введите имя сервера или �
 
 
 
-mainlobby_create_game_remote				Удаленный запуск игры...
+mainlobby_create_game_remote				Удаленная игра запускается...
 
 
 
@@ -15263,11 +15263,11 @@ mainlobby_create_game_remote				Удаленный запуск игры...
 
 
 
-mainlobby_label_icon_key					Ключ значка просмотра
+mainlobby_label_icon_key					Обозначения значков
 
 
 
-mainlobby_filter_prequery					Фильтровать предварительный запрос
+mainlobby_filter_prequery					Предфильтр на сервере
 
 
 
@@ -15295,11 +15295,11 @@ mainlobby_icon_key_chat_staff				Сотрудники студии Frostburn
 
 
 
-mainlobby_icon_key_chat_garenastaff			Персонал Гарены
+mainlobby_icon_key_chat_garenastaff			Персонал Garena
 
 
 
-mainlobby_icon_key_chat_ntreevstaff			Нтреев Персонал
+mainlobby_icon_key_chat_ntreevstaff			Персонал Ntreev
 
 
 
@@ -15307,7 +15307,7 @@ mainlobby_icon_key_chat_axeso5staff			Персонал Axeso5
 
 
 
-mainlobby_icon_key_chat_gm					Мастер игры
+mainlobby_icon_key_chat_gm					Гейм-мастер
 
 
 
@@ -15339,7 +15339,7 @@ mainlobby_icon_key_opt_excluded				Исключено
 
 
 
-mainlobby_new_channel_header				Присоединиться/Создать прерываемое заклинание
+mainlobby_new_channel_header				Войти/создать канал
 
 
 
@@ -15371,7 +15371,7 @@ main_lobby_join_create						Присоединиться/Создать
 
 
 
-main_lobby_join_new_channel					Присоединяйтесь к новому каналу
+main_lobby_join_new_channel					Войти в новый канал
 
 
 
@@ -15379,15 +15379,15 @@ main_lobby_searching						Ищем...
 
 
 
-main_lobby_no_games_found					Игры не найдены! Почему бы не создать его?
+main_lobby_no_games_found					Игры не найдены! Почему бы не создать ее?
 
 
 
-main_lobby_response							{visible} ответа {count}
+main_lobby_response							{visible} из {count} ответа
 
 
 
-main_lobby_responses						{visible} из ответов {count}
+main_lobby_responses						{visible} из {count} ответов
 
 
 
@@ -15399,7 +15399,7 @@ main_lobby_no_servers_found					Серверы не найдены!
 
 
 
-main_lobby_did_you_know						Вы знали?
+main_lobby_did_you_know						А вы знали?
 
 
 
@@ -15455,7 +15455,7 @@ mainlobby_gamelist_unofficial_desc			Это неофициальная игра,
 
 
 
-mainlobby_gamelist_beginner_title			Только для новичков
+mainlobby_gamelist_beginner_title			Только нубы
 
 
 
@@ -15471,7 +15471,7 @@ mainlobby_gamelist_general_desc				В эту игру могут играть в
 
 
 
-mainlobby_gamelist_veteran_title			Профессиональная игра
+mainlobby_gamelist_veteran_title			Для профи
 
 
 
@@ -15487,11 +15487,11 @@ mainlobby_gamelist_noleaver_desc			Игроки с высоким процент
 
 
 
-mainlobby_gamelist_watchtower_title			Сторожевая башня
+mainlobby_gamelist_watchtower_title			Watchtower
 
 
 
-mainlobby_gamelist_watchtower_desc			Сыграйте в игру на Сторожевой башне
+mainlobby_gamelist_watchtower_desc			Сыграть на Watchtower
 
 
 
@@ -15503,19 +15503,19 @@ mainlobby_gamelist_caldavar_desc			Сыграть на Forests of Caldavar
 
 
 
-mainlobby_gamelist_darkwoodvale_title		Тёмнолесная долина
+mainlobby_gamelist_darkwoodvale_title		Darkwood Vale
 
 
 
-mainlobby_gamelist_darkwoodvale_desc		Сыграйте в игру на двухполосной карте Darkwood Vale
+mainlobby_gamelist_darkwoodvale_desc		Сыграть на двухлинейной карте Darkwood Vale
 
 
 
-mainlobby_gamelist_grimmscrossing_title		Перекресток Гримма
+mainlobby_gamelist_grimmscrossing_title		Grimm's Crossing
 
 
 
-mainlobby_gamelist_grimmscrossing_desc		Сыграйте в игру на "Перекрестке Гримма"
+mainlobby_gamelist_grimmscrossing_desc		Сыграть на Grimm's Crossing
 
 
 
@@ -15523,7 +15523,7 @@ mainlobby_gamelist_blitz_mode_title			Блиц-режим
 
 
 
-mainlobby_gamelist_blitz_mode_desc			Сыграйте в блиц-режиме на "Перекрестке Гримма"
+mainlobby_gamelist_blitz_mode_desc			Сыграть в блиц-режиме на Grimm's Crossing
 
 
 
@@ -15531,15 +15531,15 @@ mainlobby_gamelist_midwars_title			Mid Wars
 
 
 
-mainlobby_gamelist_midwars_desc				Сыграйте в игру на Mid Wars
+mainlobby_gamelist_midwars_desc				Сыграть на Mid Wars
 
 
 
-mainlobby_gamelist_showdown_title Разборки
+mainlobby_gamelist_showdown_title Showdown
 
 
 
-mainlobby_gamelist_showdown_desc Сыграйте в игру Showdown
+mainlobby_gamelist_showdown_desc Сыграть на Showdown
 
 
 
@@ -15547,43 +15547,43 @@ mainlobby_gamelist_midwars_old_title		Mid Wars Old
 
 
 
-mainlobby_gamelist_midwars_old_desc			Сыграйте в игру на Mid Wars Old
+mainlobby_gamelist_midwars_old_desc			Сыграть на Mid Wars Old
 
 
 
-mainlobby_gamelist_riftwars_title			Рифтовые войны
+mainlobby_gamelist_riftwars_title			Rift Wars
 
 
 
-mainlobby_gamelist_riftwars_desc			Сыграйте в игру на Rift Wars
+mainlobby_gamelist_riftwars_desc			Сыграть на Rift Wars
 
 
 
-mainlobby_gamelist_prophets_title			Пророки
+mainlobby_gamelist_prophets_title			Prophets
 
 
 
-mainlobby_gamelist_prophets_desc			Сыграйте в игру на Пророках
+mainlobby_gamelist_prophets_desc			Сыграть на Prophets
 
 
 
-mainlobby_gamelist_thegrimmhunt_title		Охота на Гримма
+mainlobby_gamelist_thegrimmhunt_title		The Grimm Hunt
 
 
 
-mainlobby_gamelist_thegrimmhunt_desc		Сыграйте в игру "Охота на Гримма"
+mainlobby_gamelist_thegrimmhunt_desc		Сыграть в The Grimm Hunt
 
 
 
-mainlobby_gamelist_capturetheflag_title		Захватите флаг
+mainlobby_gamelist_capturetheflag_title		Capture the Flag
 
 
 
-mainlobby_gamelist_capturetheflag_desc		Сыграйте в игру "Захват флага"!
+mainlobby_gamelist_capturetheflag_desc		Сыграйте в Capture the Flag!
 
 
 
-mainlobby_gamelist_devowars_title			Дево Войны
+mainlobby_gamelist_devowars_title			Devo Wars
 
 
 
@@ -15591,11 +15591,11 @@ mainlobby_gamelist_devowars_desc			Сыграйте в игру Devo Wars!
 
 
 
-mainlobby_gamelist_soccer_title				Забастовщики Неверта
+mainlobby_gamelist_soccer_title				Strikers of Newerth
 
 
 
-mainlobby_gamelist_soccer_desc				Сыграйте в игру "Нападающие Неверта"!
+mainlobby_gamelist_soccer_desc				Сыграйте в Strikers of Newerth!
 
 
 
@@ -15607,15 +15607,15 @@ mainlobby_gamelist_solo_desc				Сыграйте в игру "Один прот�
 
 
 
-mainlobby_gamelist_team_deathmatch_title	Командный бой насмерть
+mainlobby_gamelist_team_deathmatch_title	Team Deathmatch
 
 
 
-mainlobby_gamelist_team_deathmatch_desc		Сыграйте в командный бой насмерть!
+mainlobby_gamelist_team_deathmatch_desc		Сыграйте в Team Deathmatch!
 
 
 
-mainlobby_gamelist_midwars_text				Веселиться!
+mainlobby_gamelist_midwars_text				Веселитесь!
 
 
 
@@ -15667,7 +15667,7 @@ mainlobby_gamelist_lockpick_title			Lockpick
 
 
 
-mainlobby_gamelist_banningpick_desc			Капитаны команд по очереди банят по три игрока от каждой команды, а затем игроки поочередно выбирают героев из оставшегося пула.
+mainlobby_gamelist_banningpick_desc			Капитаны команд по очереди банят по три героя за каждую команду, а затем игроки поочередно выбирают героев из оставшегося пула.
 
 
 
@@ -15683,7 +15683,7 @@ mainlobby_gamelist_krosmode_title			Shuffle Pick
 
 
 
-mainlobby_gamelist_krosmode_desc			Игроки выбирают героя, а затем герои, способности которого будут добавлены в пул. Затем ваши способности случайным образом выбираются из этого пула каждый раз, когда вы появляетесь.
+mainlobby_gamelist_krosmode_desc			Игроки выбирают героя, а затем героев, чьи способности будут добавлены в пул. Затем ваши способности случайным образом выбираются из этого пула каждый раз, когда вы появляетесь.
 
 
 
@@ -15691,11 +15691,11 @@ mainlobby_gamelist_captainsmode_title		Captains Pick
 
 
 
-mainlobby_gamelist_captainsmode_desc		Лидеры групп являются капитанами команды и делают все, что касается запретов и подборов игроков для команды.
+mainlobby_gamelist_captainsmode_desc		Лидеры групп - капитаны команд, они сами банят и выбирают героев за всю команду.
 
 
 
-mainlobby_gamelist_deathmatch_title			Смертельный бой
+mainlobby_gamelist_deathmatch_title			Deathmatch
 
 
 
@@ -15727,7 +15727,7 @@ mainlobby_gamelist_blindban_title			Blind Banning
 
 
 
-mainlobby_gamelist_blindban_desc			Игроки начинают с полным набором героев. На этапе запрета каждый игрок может забанить 1 героя, при этом другая команда не знает, каких героев другая команда решила забанить. Затем игрокам показывают запреты, и всем им предоставляется возможность одновременно выбирать из оставшихся героев.
+mainlobby_gamelist_blindban_desc			Игроки начинают с полным набором героев. На этапе банов каждый игрок банит 1 героя, не зная, кого забанила другая команда. Затем всем показывают баны, и все одновременно выбирают из оставшихся героев.
 
 
 
@@ -15739,7 +15739,7 @@ mainlobby_gamelist_gated_title				Публичное бета-тестирова
 
 
 
-mainlobby_gamelist_gated_desc				Игроки выбирают из созданного пула из 40 героев.
+mainlobby_gamelist_gated_desc				Игроки выбирают из подобранного пула в 40 героев.
 
 
 
@@ -15751,7 +15751,7 @@ mainlobby_gamelist_botmatch_desc			Стандартный выбор герое�
 
 
 
-mainlobby_gamelist_private_title 			Частная игра
+mainlobby_gamelist_private_title 			Закрытая игра
 
 
 
@@ -15927,7 +15927,7 @@ replayv_button_view_replay					Посмотреть повтор
 
 
 
-replayv_button_download_compat				Совместить
+replayv_button_download_compat				Совместимость
 
 
 
@@ -15935,15 +15935,15 @@ replayv_button_close_window					Закрыть окно
 
 
 
-replayv_label_replay_detail_info			Чтобы просмотреть детали воспроизведения, выберите файл воспроизведения из списка слева.
+replayv_label_replay_detail_info			Чтобы посмотреть подробности повтора, выберите файл повтора в списке слева.
 
 
 
-replay_viewer_game_options					Варианты игры: {options}
+replay_viewer_game_options					Параметры игры: {options}
 
 
 
-replay_view_tip_online						Просмотрите онлайн-курс повторов.
+replay_view_tip_online						Просмотр онлайн-базы повторов.
 
 
 
@@ -15959,7 +15959,7 @@ replayv_label_date_played					Дата игры:
 
 
 
-replayv_label_match_length					Длина матча:
+replayv_label_match_length					Длительность матча:
 
 
 
@@ -15971,7 +15971,7 @@ replayv_label_game_mode						Игровой режим:
 
 
 
-replayv_label_game_option 					Вариант игры:
+replayv_label_game_option 					Параметр игры:
 
 
 
@@ -15991,7 +15991,7 @@ replayv_tip_replay_list						Повторы позволяют вам просм
 
 
 
-replay_compat_calculating					Расчет Скачать
+replay_compat_calculating					Расчет загрузки
 
 
 
@@ -15999,7 +15999,7 @@ replay_compat_downloading					Загрузка
 
 
 
-replay_compat_writing						Написание архива
+replay_compat_writing						Запись архива
 
 
 
@@ -16051,7 +16051,7 @@ pofeatures_ppbenefit2						БЕТА-ПРИГЛАШЕНИЯ ДЛЯ ВАШИХ Д�
 
 
 
-pofeatures_ppbenefit3						ВОЗМОЖНОСТЬ НАСУДНИТЬСЯ В ИГРЕ
+pofeatures_ppbenefit3						ВОЗМОЖНОСТЬ ПРОВОЦИРОВАТЬ В ИГРЕ
 
 
 
@@ -16059,11 +16059,11 @@ pofeatures_ppbenefit4						СПЕЦИАЛЬНЫЙ ВНУТРИГРОВОЙ ЗН�
 
 
 
-pofeatures_ppbenefit5						УНИКАЛЬНОЕ НАЗВАНИЕ ЧАТА ЦВЕТ
+pofeatures_ppbenefit5						УНИКАЛЬНЫЙ ЦВЕТ ИМЕНИ В ЧАТЕ
 
 
 
-pofeatures_ppbenefit6						Если вы приобрели предварительно приобретенный аккаунт, вы больше не увидите это объявление!
+pofeatures_ppbenefit6						Купив аккаунт заранее, вы больше не увидите эту рекламу!
 
 
 
@@ -16071,7 +16071,7 @@ pofeatures_onetime							РАЗОВАЯ ПЛАТА!
 
 
 
-pofeatures_oneusd							Доллары США
+pofeatures_oneusd							USD
 
 
 
@@ -16079,11 +16079,11 @@ pofeatures_feature_learnmore				Узнать больше
 
 
 
-pofeatures_feature_gameplay					УЛУЧШЕНИЯ ГЕЙМПЛЕЙ
+pofeatures_feature_gameplay					УЛУЧШЕНИЯ ГЕЙМПЛЕЯ
 
 
 
-pofeatures_feature_engine					ПРЕИМУЩЕСТВА ДВИГАТЕЛЯ
+pofeatures_feature_engine					ПРЕИМУЩЕСТВА ДВИЖКА
 
 
 
@@ -16091,7 +16091,7 @@ pofeatures_feature_matchmaking				Система подбора игроков
 
 
 
-pofeatures_feature_matchmakingtxt			Находите похожих игроков, если вы играете сами или с командой друзей.
+pofeatures_feature_matchmakingtxt			Подбор равных соперников, играете ли вы один или с командой друзей.
 
 
 
@@ -16111,7 +16111,7 @@ pofeatures_feature_heroestxt				Играйте как с новыми героя
 
 
 
-pofeatures_feature_ladder					Рейтинги по лестнице
+pofeatures_feature_ladder					Рейтинговые таблицы
 
 
 
@@ -16119,11 +16119,11 @@ pofeatures_feature_laddertxt				Рейтинги игроков и кланов 
 
 
 
-pofeatures_feature_questladder				Лестница квестов
+pofeatures_feature_questladder				Рейтинг квестов
 
 
 
-pofeatures_feature_questladdertxt			Посмотрите, как вы справляетесь с другими игроками при выполнении квестов.
+pofeatures_feature_questladdertxt			Сравните свои успехи в квестах с другими игроками.
 
 
 
@@ -16135,7 +16135,7 @@ pofeatures_feature_editortxt				Создавайте новые карты ил�
 
 
 
-pofeatures_feature_reconnection				Переподключение игры
+pofeatures_feature_reconnection				Переподключение к игре
 
 
 
@@ -16143,11 +16143,11 @@ pofeatures_feature_reconnectiontxt			Игры больше не портятся
 
 
 
-pofeatures_feature_noleaver					Защита от выхода
+pofeatures_feature_noleaver					Защита от покинувших
 
 
 
-pofeatures_feature_noleavertxt				Создавайте игры с ограниченным доступом и играйте в них, к которым не могут присоединиться игроки, ранее выходящие из игр.
+pofeatures_feature_noleavertxt				Создавайте игры, в которые не пустят игроков, часто покидающих игры раньше времени.
 
 
 
@@ -16183,7 +16183,7 @@ pofeatures_ulr								http://beta.heroesofnewerth.com/
 
 
 
-pofeatures_closemsg							Чтобы оформить предварительную покупку учетной записи HoN, войдите на бета-тест и нажмите кнопку покупки. Предварительная покупка вашей учетной записи осуществляется единоразово, и ваша учетная запись будет готова к игре, как только игра будет выпущена.
+pofeatures_closemsg							Чтобы оформить предварительную покупку учетной записи HoN, войдите на бета-сайт и нажмите кнопку покупки. Предварительная покупка вашей учетной записи осуществляется единоразово, и ваша учетная запись будет готова к игре, как только игра будет выпущена.
 
 
 
@@ -16207,7 +16207,7 @@ game_replay_control_view_as					Просмотреть как
 
 
 
-game_replay_control_view_as_tip				Когда выбрано имя игрока, вы увидите повтор, как если бы вы были этим игроком. Выбор зрителя позволит вам просмотреть повтор с помощью интерфейса зрителя.
+game_replay_control_view_as_tip				Когда выбрано имя игрока, вы увидите повтор, как если бы вы были этим игроком. Если выбрать наблюдателя, повтор покажется в интерфейсе наблюдателя.
 
 
 
@@ -16239,11 +16239,11 @@ game_replay_control_lockcam_tip2			Установите этот флажок, �
 
 
 
-game_replay_control_enablebullet			Включить комментарии к маркерам
+game_replay_control_enablebullet			Включить бегущие комментарии
 
 
 
-game_replay_control_enablebullet_tip		Если этот флажок установлен, будут отображаться комментарии к маркерам.
+game_replay_control_enablebullet_tip		Если этот флажок установлен, будут отображаться бегущие комментарии.
 
 
 
@@ -16251,7 +16251,7 @@ game_replay_tip_UnitFrames					Переключить видимость рам�
 
 
 
-game_replay_tip_PushBar						Переключить видимость панели кнопок
+game_replay_tip_PushBar						Переключить видимость панели пуша
 
 
 
@@ -16267,7 +16267,7 @@ game_replay_optn_cam 						Камера
 
 
 
-game_replay_optn_draw						Нарисовать расстояние
+game_replay_optn_draw						Дальность прорисовки
 
 
 
@@ -16275,7 +16275,7 @@ game_replay_optn_cammode					Режим камеры
 
 
 
-game_replay_spectator 						Зритель
+game_replay_spectator 						Наблюдатель
 
 
 
@@ -16283,7 +16283,7 @@ game_replay_spectator 						Зритель
 
 
 
-game_replay_spectator1						Зритель
+game_replay_spectator1						Наблюдатель
 
 
 
@@ -16295,7 +16295,7 @@ game_replay_control_title2					Управление потоковым веща�
 
 
 
-game_replay_control_voice_channel			Кастер
+game_replay_control_voice_channel			Комментатор
 
 
 
@@ -16327,7 +16327,7 @@ gamelobby_add_as_friend_tip					Добавить в список друзей
 
 
 
-globby_lock_tip								Слот для замка
+globby_lock_tip								Заблокировать слот
 
 
 
@@ -16351,31 +16351,31 @@ globby_spot_locked							Заблокировано
 
 
 
-globby_quick_stats							Победы\nПоражения\nK:D\nA:D\nK+A:D\nПодопечные\nXPM\nGPM
+globby_quick_stats							Победы\nПоражения\nK:D\nA:D\nK+A:D\nВарды\nXPM\nGPM
 
 
 
-game_gold_report							^wЗолото, полученное от убийств игроков\n^wЗолото, полученное от помощи игрокам в смерти\n^wЗолото, полученное от зданий\n^wЗолото, полученное от последних ударов по крипам\n^wЗолото, потерянное при смерти\n^vТекущая стоимость выкупа\n^vТекущее золото, которое будет потеряно в случае смерти\n^wЗолото за минуту\n
+game_gold_report							^wЗолото за убийства игроков\n^wЗолото за помощь в убийствах\n^wЗолото за здания\n^wЗолото за добивание крипов\n^wЗолото, потерянное при смертях\n^vТекущая стоимость выкупа\n^vПотеря золота при смерти сейчас\n^wЗолото в минуту\n
 
 
 
-gold_report_kills							От убийств
+gold_report_kills							За убийства
 
 
 
-gold_report_assists							Из передач
+gold_report_assists							За помощь
 
 
 
-gold_report_buildings						Из зданий
+gold_report_buildings						За здания
 
 
 
-gold_report_creeps							От крипов
+gold_report_creeps							За крипов
 
 
 
-gold_report_lost_to_death					Общая смертная казнь
+gold_report_lost_to_death					Всего потеряно при смертях
 
 
 
@@ -19567,7 +19567,7 @@ ui_items_cc_clan_offline					Офлайн-участники
 
 
 
-ui_items_chat_leavechan						Покиньте этот прерываемое заклинание
+ui_items_chat_leavechan						Покинуть этот канал
 
 
 
@@ -22294,7 +22294,7 @@ communicator_tab_quests_tip_ingame			Награды нельзя получит�
 
 
 
-communicator_join_chan						Присоединиться/Создать прерываемое заклинание
+communicator_join_chan						Войти/создать канал
 
 
 
@@ -29113,7 +29113,7 @@ hero_tip_offensive_tip_Hero_Riftwalker_2			Riftburn наносит увелич�
 
 
 
-hero_tip_defensive_tip_Hero_Riftwalker_1			Червоточина наносит большой маг. урон и оглушает врагов в области действия. Обязательно прервите ее до того, как ее прерываемое заклинание завершится.
+hero_tip_defensive_tip_Hero_Riftwalker_1			Wormhole наносит большой маг. урон и оглушает врагов в области действия. Обязательно прервите ее, пока концентрация не завершилась.
 
 
 
@@ -33200,7 +33200,7 @@ options_hdr_enable_tip		Выводит сигнал с расширенным д
 ph_advanced_options		Расширенные настройки
 marketplace_play_games_progress_demo		5/15
 mm_machine_tag_locked_to_other		Рейтинговые игры на этом компьютере привязаны к ^279{name}^*
-globby_host_tip		Создать свою игру с настройками
+globby_host_tip		Хост игры
 store_marketplace_you_own		Уже куплено: {count}
 options_hdr_pipeline		HDR Пайплайн
 mm_machine_tag_retag_confirm_title		Сменить тег матчмейкинга?
