@@ -62057,7 +62057,7 @@ Ability_Pestilence4_description_simple:ult_boost				Напускает рой с
 
 
 
-Ability_Pestilence4_effect_header								Эффект(ы) роя
+Ability_Pestilence4_effect_header								Эффекты Swarm
 
 
 
@@ -62137,7 +62137,7 @@ Hero_Pestilence_name	Pestilence
 
 
 
-Hero_Pestilence_description										Некогда советник Moon Queen, Pestilence предал свой народ - ведь как мужчина, он никогда не смог бы ими править. С силами, усиленными Хеллборном, он столь же могуч, как королева, которой когда-то служил. Но его искусства нечестивы: безмозглые, прожорливые насекомые, которых он призывает, жестокие и яростные навыки, которые он применяет.
+Hero_Pestilence_description										Некогда советник Moon Queen, Pestilence предал свой народ - ведь как мужчина, он никогда не смог бы им править. Хеллборн приумножил его силы, и теперь он столь же могуч, как королева, которой когда-то служил. Но его искусство нечестиво: он призывает безмозглых прожорливых насекомых и пускает в ход жестокие и яростные приемы.
 
 
 
@@ -62569,7 +62569,7 @@ Ability_Bramble3_ATTACK_IMPACT_effect								Если способность н�
 
 
 
-Ability_Bramble3_tooltip_flavor									Природа - та еще наркомания!
+Ability_Bramble3_tooltip_flavor									Природа - тот еще наркотик!
 
 
 
@@ -62785,7 +62785,7 @@ Hero_Bramble_name	Bramble
 
 
 
-Hero_Bramble_description											Когда война распространилась из северных земель в джунгли Неверта, и люди, и демоны поняли, почему местные зовут эту землю Колыбелью Смерти. Существа, искаженные хаосом прошлого, обитают в этих запретных землях, где звери - добыча, а растения - хищники. Глубоко в джунглях Хранитель нашел старейшую из мухоловок и напоил ее кровью развращенных - демонов и падших. Наполненная их темной силой, Bramble теперь преследует выбранную добычу по полям сражений, помогая уничтожать врагов Хранителя...
+Hero_Bramble_description											Когда война распространилась из северных земель в джунгли Неверта, и люди, и демоны поняли, почему местные зовут эту землю Колыбелью Смерти. Существа, искаженные хаосом прошлого, обитают в этих запретных землях, где звери - добыча, а растения - хищники. Глубоко в джунглях Keeper нашел старейшую из мухоловок и напоил ее кровью порченых - демонов и падших. Наполненная их темной силой, Bramble теперь преследует выбранную добычу по полям сражений, помогая уничтожать врагов Keeper...
 
 
 
@@ -62793,7 +62793,7 @@ Hero_Bramble_description											Когда война распростран�
 
 
 
-Hero_Bramble_role													Bramble - очень прочный герой силы, превосходит в поглощении АОЕ-урона и может разделить вражескую команду надвое с помощью Entangling Vine Wall.
+Hero_Bramble_role													Bramble - очень прочный герой силы, который отлично снижает урон по площади и может разделить вражескую команду надвое с помощью Entangling Vine Wall.
 
 
 
@@ -63001,7 +63001,7 @@ Ability_PollywogPriest2_description_simple						Превращает враже�
 
 
 
-Ability_PollywogPriest2_effect_header							Эффект(ы) превращения
+Ability_PollywogPriest2_effect_header							Эффекты Morphed
 
 
 
@@ -63121,7 +63121,7 @@ Ability_PollywogPriest3_description_simple						^oКонцентрируется
 
 
 
-Ability_PollywogPriest3_effect_header							Эффект(ы) связанного языка
+Ability_PollywogPriest3_effect_header							Эффекты Tongue Tied
 
 
 
@@ -63289,7 +63289,7 @@ Hero_PollywogPriest_name	Pollywog Priest
 
 
 
-Hero_PollywogPriest_description									Веками каждый великий Лягух болотных народов обладал и политической, и магической властью как верховный жрец Диких Культов. Призванный собратьями-зверями во время войны, Pollywog Priest вышел вперед, чтобы использовать те силы на защиту народа и самого Неверта.
+Hero_PollywogPriest_description									Веками каждый великий Лягух болотных народов обладал и политической, и магической властью как верховный жрец Диких Культов. Призванный собратьями-зверями во время войны, Pollywog Priest выступил, чтобы обратить эту силу на защиту своего народа и самого Неверта.
 
 
 
@@ -63673,7 +63673,7 @@ Ability_Predator4_description_simple	Четыре атаки или примен
 
 
 
-Ability_Predator4_effect_header									Эффекты Ужаса
+Ability_Predator4_effect_header									Эффекты Terror
 
 
 
@@ -63761,7 +63761,7 @@ State_Predator_Ability4_name
 
 
 
-State_Predator_Ability4_FRAME_effect							При атаке увеличивает скор. атаки атакующего на {25,50,75} и скор. движ. на 20% на 4,25 сек.
+State_Predator_Ability4_FRAME_effect							Когда носителя атакуют, атакующий получает +{25,50,75} скор. атаки и +20% скор. движ. на 4.25 сек.
 
 
 
@@ -63769,7 +63769,7 @@ State_Predator_Ability4_FRAME_effect							При атаке увеличива�
 
 
 
-State_Predator_Ability4_FRAME_effect:ult_boost					При атаке увеличивает скор. атаки атакующего на {50,75,100} и скор. движ. на 20% на 4,25 сек.
+State_Predator_Ability4_FRAME_effect:ult_boost					Когда носителя атакуют, атакующий получает +{50,75,100} скор. атаки и +20% скор. движ. на 4.25 сек.
 
 
 
@@ -63857,7 +63857,7 @@ State_Predator_Ability4_Enemy_name								Terrorized
 
 
 
-State_Predator_Ability4_Enemy_description						При получении 4 зарядов на этого юнита накладывается Ужас
+State_Predator_Ability4_Enemy_description						При получении 4 зарядов на этого юнита накладывается Terror
 
 
 
@@ -63865,7 +63865,7 @@ State_Predator_Ability4_Enemy_description						При получении 4 за�
 
 
 
-State_Predator_Ability4_Enemy_description:ult_boost				При получении 2 зарядов на этого юнита накладывается Ужас
+State_Predator_Ability4_Enemy_description:ult_boost				При получении 2 зарядов на этого юнита накладывается Terror
 
 
 
@@ -63897,7 +63897,7 @@ Hero_Predator_name	Predator
 
 
 
-Hero_Predator_description										С огромными, копьевидными когтями из сплошной кости, растущими из предплечий, и шипами, способными пронзить сильнейшего врага, Хищники больше похожи на демонов, чем на зверей. Люди, сражающиеся рядом, смотрят на них со вспомянутым страхом времен, когда Хищники охотились на людей, а не на демонов. Но голод, скорость и ярость, обращенные против Хеллборна - желанная помощь.
+Hero_Predator_description										С огромными копьевидными когтями из сплошной кости, растущими из предплечий, и шипами на твердом панцире, способными пронзить сильнейшего врага, Хищники больше похожи на демонов, чем на зверей. Люди, сражающиеся рядом с ними, до сих пор помнят страх тех дней, когда Хищники охотились на людей, а не на демонов. Но голод, скорость и ярость, которые они обращают против Хеллборна, - желанное подспорье.
 
 
 
@@ -63905,7 +63905,7 @@ Hero_Predator_description										С огромными, копьевидным
 
 
 
-Hero_Predator_role												В бою один на один Predator побеждает почти всех прочих бойцов благодаря растущему вампиризму от Carnivorous. Несмотря на упор в одиночную цель, Terror - одно из сильнейших снижений брони в игре, что отлично сочетает его с другими героями физ. урона.
+Hero_Predator_role												В бою один на один Predator побеждает почти всех прочих бойцов благодаря растущему вампиризму от Carnivorous. Несмотря на упор на одну цель, Terror - одно из сильнейших снижений брони в игре, что отлично сочетает его с другими героями физ. урона.
 
 
 
@@ -64105,7 +64105,7 @@ Ability_Prisoner2_description_simple							Приковывает к враже�
 
 
 
-Ability_Prisoner2_effect_header									Эффект(ы) оков
+Ability_Prisoner2_effect_header									Эффекты Shackled
 
 
 
@@ -64233,7 +64233,7 @@ Ability_Prisoner3_description_simple:Prisoner_W					Дает ^o+{0,15,20,25,30}%
 
 
 
-Ability_Prisoner3_effect_header									Эффект(ы) обезумевшего
+Ability_Prisoner3_effect_header									Эффекты Unhinged
 
 
 
@@ -64257,7 +64257,7 @@ Ability_Prisoner3_FRAME_effect									Пассивно дает ^o+{0,15,20,25,
 
 
 
-Ability_Prisoner3_FRAME_effect:Prisoner_W						Пассивно дает ^o+{0,15,20,25,30}% базового урона^* и дополнительно ^o{0,15,20,25,30}% за каждого видимого вражеского героя^* в радиусе.\n\n^cАктивируйте эту способность, чтобы применить "Скованность" к ближайшему вражескому герою.^*
+Ability_Prisoner3_FRAME_effect:Prisoner_W						Пассивно дает ^o+{0,15,20,25,30}% базового урона^* и дополнительно ^o{0,15,20,25,30}% за каждого видимого вражеского героя^* в радиусе.\n\n^cАктивируйте эту способность, чтобы применить Shackled к ближайшему вражескому герою.^*
 
 
 
@@ -64425,7 +64425,7 @@ State_Prisoner_Ability4_name:ult_boost							Jailbreak
 
 
 
-State_Prisoner_Ability4_FRAME_effect							По истечении естественного срока действия наносит {200,300,400} физ. урона, применяет Оглушение на {1.5,2,2.5} сек. и притягивает к пленнику.\n\nСнимает эффект при перемещении более чем на 600 единиц от пленника.
+State_Prisoner_Ability4_FRAME_effect							Если эффект истекает сам, наносит {200,300,400} физ. урона, оглушает на {1.5,2,2.5} сек. и притягивает к Prisoner.\n\nЭффект снимается, если отойти от Prisoner дальше 600 единиц.
 
 
 
@@ -64465,7 +64465,7 @@ State_Prisoner_Ability4_Self_name:ult_boost						Jailbreak
 
 
 
-State_Prisoner_Ability4_Self_description						По естественному истечению срока действия притягивает привязанных вражеских юнитов на 400 единиц к себе, наносит {200,300,400} физ. урона и применяет {1.5,2,2.5} сек. Оглушения.
+State_Prisoner_Ability4_Self_description						Если эффект истекает сам, притягивает привязанных вражеских юнитов на 400 единиц к вам, наносит {200,300,400} физ. урона и оглушает на {1.5,2,2.5} сек.
 
 
 
@@ -64497,7 +64497,7 @@ State_Prisoner_Ability4_Sotm_name								Jailbreak
 
 
 
-State_Prisoner_Ability4_Sotm_description						По истечении естественного срока действия наносит {200,300,400} физ. урона, применяет Оглушение на {1.5,2,2.5} сек. и притягивает к основной цели Jailbreak.\n\nСнимает эффект при перемещении более чем на 700 единиц от основной цели.
+State_Prisoner_Ability4_Sotm_description						Если эффект истекает сам, наносит {200,300,400} физ. урона, оглушает на {1.5,2,2.5} сек. и притягивает к основной цели Jailbreak.\n\nЭффект снимается, если отойти от основной цели дальше 700 единиц.
 
 
 
@@ -64529,7 +64529,7 @@ State_Prisoner_Ability4_Slow_name								Jailed
 
 
 
-State_Prisoner_Ability4_Slow_FRAME_effect						-{25,50,75}% урона, нанесенного пленнику
+State_Prisoner_Ability4_Slow_FRAME_effect						-{25,50,75}% урона по Prisoner
 
 
 
@@ -64633,7 +64633,7 @@ Ability_Prophet1_description_simple								Натравливает ворона
 
 
 
-Ability_Prophet1_effect_header									Эффект(ы) дебаффы
+Ability_Prophet1_effect_header									Эффекты Debilitate
 
 
 
@@ -64769,7 +64769,7 @@ Ability_Prophet2_description_simple:ult_boost					На ^o5 сек.^* вооду�
 
 
 
-Ability_Prophet2_effect_header									Эффекты Воодушевления
+Ability_Prophet2_effect_header									Эффекты Invigorate
 
 
 
@@ -64897,7 +64897,7 @@ Ability_Prophet3_description_simple								Проклинает врага, на
 
 
 
-Ability_Prophet3_effect_header									Эффект(ы) преследования
+Ability_Prophet3_effect_header									Эффекты Persecution
 
 
 
@@ -64953,7 +64953,7 @@ State_Prophet_Ability3_Debuff_name
 
 
 
-State_Prophet_Ability3_Debuff_FRAME_effect						Наносит {50} маг. урона и Оглушает на 0,25 сек. при атаке юнитом, управляемым игроком.
+State_Prophet_Ability3_Debuff_FRAME_effect						Когда носителя атакует юнит под управлением игрока, наносит {50} маг. урона и оглушает на 0.25 сек.
 
 
 
@@ -65033,7 +65033,7 @@ Ability_Prophet4_description_simple:ult_boost					Накладывает ^oShare
 
 
 
-Ability_Prophet4_effect_header									Эффект(ы) общей судьбы
+Ability_Prophet4_effect_header									Эффекты Shared Fate
 
 
 
@@ -65097,7 +65097,7 @@ State_Prophet_Ability4_Buff_name
 
 
 
-State_Prophet_Ability4_Buff_FRAME_effect						Воодушевление распространится на вас при применении
+State_Prophet_Ability4_Buff_FRAME_effect						Invigorate распространится на вас при применении
 
 
 
@@ -65153,7 +65153,7 @@ State_Prophet_Ability4_Debuff_name
 
 
 
-State_Prophet_Ability4_Debuff_FRAME_effect						Применение способностей и атаки Prophet будут нацелены на всех действующих героев, на которых действует Shared Fate\n\nРаспространяемые атаки наносят 50% урона.
+State_Prophet_Ability4_Debuff_FRAME_effect						Заклинания и атаки Prophet поражают всех подходящих героев под действием Shared Fate\n\nПовторенные атаки наносят 50% урона.
 
 
 
@@ -65409,7 +65409,7 @@ Ability_PuppetMaster2_description_simple						Заставляет вражес�
 
 
 
-Ability_PuppetMaster2_effect_header								Эффект(ы) Crazy Puppet
+Ability_PuppetMaster2_effect_header								Эффекты Crazy Puppet
 
 
 
@@ -65745,7 +65745,7 @@ Hero_PuppetMaster_description									Хотя все демоны Хеллбо�
 
 
 
-Hero_PuppetMaster_role											Сочетание огромного урона атаки и мощного одиночного контроля делает Puppet Master очень опасным, но ему не хватает живучести, поэтому предметы жизненно важны. В поздней игре Puppet Show на вражеском бойце может обернуться катастрофой для противника.
+Hero_PuppetMaster_role											Сочетание огромного урона атаки и мощного одиночного контроля не дает уйти от Puppet Master, но ему не хватает живучести, поэтому предметы жизненно важны. В поздней игре Puppet Show на вражеском бойце может обернуться катастрофой для противника.
 
 
 
@@ -65897,7 +65897,7 @@ Ability_Pyromancer2_IMPACT_effect								После задержки в 0,5 се
 
 
 
-Ability_Pyromancer2_tooltip_flavor								Мана:? Проверьте.\nПерезарядка? Проверить\nСпособность вызвать дракона?\n\nБесценно.
+Ability_Pyromancer2_tooltip_flavor								Стоимость маны? Есть.\nПерезарядка? Есть.\nСпособность призвать дракона?\n\nБесценно.
 
 
 
@@ -65945,7 +65945,7 @@ Ability_Pyromancer3_description_simple							Даёт ^o{30,45,60,75} скор. 
 
 
 
-Ability_Pyromancer3_effect_header								Эффекты Пыла
+Ability_Pyromancer3_effect_header								Эффекты Fervor
 
 
 
@@ -66241,7 +66241,7 @@ Hero_AmunRa_name											Amun-Ra
 
 
 
-Hero_AmunRa_description												Порченые ученики Сола подчинили блуждающие энергии солнца, и из этого средоточия извращенного эфира восстал древний демон-бог Amun-Ra, мерзость всего светлого и святого. Спаянный черным огнем и яростью, этот бессмертный конструкт грозит сровнять земли с каждым пылающим шагом, оскверняя все, чего касается, еретическим пылом.
+Hero_AmunRa_description												Порченые ученики Сола подчинили блуждающие энергии солнца, и из этого средоточия извращенного эфира восстал древний демон-бог Amun-Ra, поругание всего светлого и святого. Спаянный черным огнем и яростью, этот бессмертный конструкт грозит сровнять земли с каждым пылающим шагом, оскверняя все, чего касается, еретическим пылом.
 
 
 
@@ -66417,7 +66417,7 @@ Ability_AmunRa3_description_simple									Дает ^o{0.7,1.4,2.1,2.8} реге
 
 
 
-Ability_AmunRa3_tooltip_flavor										Меня признали самым горячим парнем в Newerth.
+Ability_AmunRa3_tooltip_flavor										Меня признали самым горячим парнем Неверта.
 
 
 
@@ -66473,7 +66473,7 @@ Ability_AmunRa4_IMPACT_effect										При смерти тратит до 50%
 
 
 
-Ability_AmunRa4_tooltip_flavor										Раунд Два, В БОЙ!
+Ability_AmunRa4_tooltip_flavor										Раунд второй, В БОЙ!
 
 
 
@@ -66598,7 +66598,7 @@ State_AmunRa_Ability2_Self_name										Ignited!
 
 
 
-State_AmunRa_Ability2_Self_description								Каждый заряд снижает стоимость здоровья Ignite на 1.5% макс. здоровья за заряд
+State_AmunRa_Ability2_Self_description								Каждый заряд снижает цену Ignite в здоровье на 1.5% макс. здоровья
 
 
 
@@ -66702,7 +66702,7 @@ State_AmunRa_Ability4_name											Reborn
 
 
 
-State_AmunRa_Ability4_description									{10,20,30}% Доп. урон
+State_AmunRa_Ability4_description									{10,20,30}% доп. урона
 
 
 
@@ -66950,7 +66950,7 @@ Ability_Rally2_description_simple								Активируйте, чтобы на
 
 
 
-Ability_Rally2_effect_header									Эффект(ы) деморализующего рева
+Ability_Rally2_effect_header									Эффекты Demoralizing Roar
 
 
 
@@ -67030,7 +67030,7 @@ State_Rally_Ability2_Active_b_name
 
 
 
-State_Rally_Ability2_Active_b_FRAME_effect						{30,45,60,75}% Скор. движ. изначально медленная, постепенно снижается с течением времени.
+State_Rally_Ability2_Active_b_FRAME_effect						{30,45,60,75}% замедление, затухающее со временем
 
 
 
@@ -67254,7 +67254,7 @@ Hero_Rally_name	Rally
 
 
 
-Hero_Rally_description											В армиях людей и зверей большинство солдат храбры и верны. Они лояльны и следуют приказам своих командиров. Но среди армий должны быть лидеры, генералы, перед которыми склоняются воли и головы. Это мужчины и женщины, берущие командование силами, защищающими Неверт от орд Хеллборна. Они дают новое значение слову "герой", и все бойцы сбегаются на их зов - РАЛЛИ!
+Hero_Rally_description											В армиях людей и зверей большинство солдат храбры и верны. Они лояльны и следуют приказам своих командиров. Но среди армий должны быть лидеры, генералы, перед которыми склоняются воли и головы. Это мужчины и женщины, берущие командование силами, защищающими Неверт от орд Хеллборна. Они дают новое значение слову "герой", и все бойцы сбегаются на их зов - RALLY!
 
 
 
@@ -67342,7 +67342,7 @@ Ability_Rampage1_description_simple		Несётся к вражескому юн
 
 
 
-Ability_Rampage1_effect_header									Эффект(ы) давки
+Ability_Rampage1_effect_header									Эффекты Stampede
 
 
 
@@ -67766,7 +67766,7 @@ Ability_Rampage4_effect_header2
 
 
 
-Ability_Rampage4_tooltip_flavor									Оковы. Да. Я пошел туда.
+Ability_Rampage4_tooltip_flavor									Бондаж. Да, я это сказал.
 
 
 
@@ -67998,7 +67998,7 @@ Ability_Ravenor1_effect_header2
 
 
 
-Ability_Ravenor1_tooltip_flavor									Имеет ускорение и затаптывание.
+Ability_Ravenor1_tooltip_flavor									Обладает Ускорением и Пробивным ударом.
 
 
 
@@ -68134,7 +68134,7 @@ State_Enemy_Ravenor_Ability1_name								Ball Lightning
 
 
 
-State_Enemy_Ravenor_Ability1_description						Обнаружены - Ravenor может телепортироваться к вам.
+State_Enemy_Ravenor_Ability1_description						Вы замечены: Ravenor может телепортироваться к вам.
 
 
 
@@ -68206,7 +68206,7 @@ Ability_Ravenor2_description_simple								Заряжает ^oследующие
 
 
 
-Ability_Ravenor2_effect_header									Эффект(ы) Storm Blades
+Ability_Ravenor2_effect_header									Эффекты Storm Blades
 
 
 
@@ -68302,7 +68302,7 @@ State_Ravenor_Ability2_INFLICT_effect
 
 
 
-State_Ravenor_Ability2_FRAME_effect								Ваша атака наносит {50,75,100,125} доп. маг. урона, объединяя {3,4,5,6} врагов в радиусе 300 единиц.
+State_Ravenor_Ability2_FRAME_effect								Ваша атака наносит {50,75,100,125} доп. маг. урона и перескакивает на {3,4,5,6} врагов в радиусе 300 единиц.
 
 
 
@@ -68422,7 +68422,7 @@ Ability_Ravenor3_description_simple:ult_boost					Каждые 2 обычные 
 
 
 
-Ability_Ravenor3_effect_header									Эффект(ы) Static Shock
+Ability_Ravenor3_effect_header									Эффекты Static Shock
 
 
 
@@ -68877,7 +68877,7 @@ Hero_Ravenor_name	Ravenor
 
 
 
-Hero_Ravenor_description										Души проклятых терпят вечные муки в адах, управляемых Лордами Демонов. Исполнение этих мук доверено жесточайшим и самым садистским из осужденных. Эти неисправимые души так наслаждаются пытками, что пропитываются чистейшей сущностью гнева, жестокости и ненависти. Они заслуживают титул, вселяющий страх и в живых, и в мертвых; они - жнецы душ, крушители мечт, бастионы ужаса. Они Ревеноры, и их Лорда знают лишь по этому имени.
+Hero_Ravenor_description										Души проклятых терпят вечные муки в адах, управляемых Лордами Демонов. Исполнение этих мук доверено жесточайшим и самым садистским из осужденных. Эти неисправимые души так наслаждаются пытками, что пропитываются чистейшей сущностью гнева, жестокости и ненависти. Они заслуживают титул, вселяющий страх и в живых, и в мертвых; они - жнецы душ, крушители грез, оплоты ужаса и вестники проклятых. Они - Ravenor, и их Лорда знают лишь по этому титулу.
 
 
 
@@ -69563,7 +69563,7 @@ State_Revenant_Ability3_name									Essence Shroud
 
 
 
-State_Revenant_Ability3_description								Скрытно. Следующая атака уменьшит броню противника на {1,2,3,4}.
+State_Revenant_Ability3_description								Невидимость. Следующая атака снизит броню противника на {1,2,3,4}.
 
 
 
@@ -69739,7 +69739,7 @@ Hero_Revenant_name	Revenant
 
 
 
-Hero_Revenant_description										Восставший из душ павших и забытых, Реванант мчится сквозь битву - огненное напоминание о злой судьбе, уготованной проклятым войной. Солдаты и колдуны содрогаются от его беззвучного вопля, дикого воспоминания о прошлых боях. Те, кто заглянет в его пустой взгляд, не найдут ничего, кроме забвения.
+Hero_Revenant_description										Восставший из душ павших и забытых, Revenant мчится сквозь битву - огненное напоминание о злой судьбе, уготованной проклятым войной. Солдаты и колдуны содрогаются от его беззвучного вопля, дикого воспоминания о прошлых боях. Те, кто заглянет в его пустой взгляд, не найдут ничего, кроме забвения.
 
 
 
@@ -69907,7 +69907,7 @@ State_Rhapsody_Ability1_Self_name
 
 
 
-State_Rhapsody_Ability1_Self_description						Пока этот эффект активен, применение Стаккато нанесет 50 маг. урона и 0.25 сек. Оглушения цели Стаккато.
+State_Rhapsody_Ability1_Self_description						Пока этот эффект активен, применение Staccato нанесет 50 маг. урона и 0.25 сек. Оглушения цели Staccato.
 
 
 
@@ -70179,7 +70179,7 @@ State_Rhapsody_Ability2_Ally_description2
 
 
 
-State_Rhapsody_Ability2_Ally_FRAME_effect						Исцеление {10,18,26,34} здоровья в сек. (1,25x, если вы двигаетесь, 0,85x, если вы не герой)
+State_Rhapsody_Ability2_Ally_FRAME_effect						Исцеление {10,18,26,34} здоровья в сек. (1.25x при движении)
 
 
 
@@ -70227,7 +70227,7 @@ State_Rhapsody_Ability2_Enemy_description2
 
 
 
-State_Rhapsody_Ability2_Enemy_FRAME_effect						Получение {18,27,36,45} маг. урона в сек. (0,75x при движении, 0,85x, если вы не герой)
+State_Rhapsody_Ability2_Enemy_FRAME_effect						Получение {18,27,36,45} маг. урона в сек. (0.75x при движении)
 
 
 
@@ -70587,7 +70587,7 @@ State_Rhapsody_Ability4_Self_name								Protective Melody
 
 
 
-State_Rhapsody_Ability4_Self_description						Каналирует для предоставления ближайшим союзникам 100% снижения физического и маг. урона
+State_Rhapsody_Ability4_Self_description						Поддерживает заклинание, давая ближайшим союзникам 100% снижение физ. и маг. урона
 
 
 
@@ -70651,7 +70651,7 @@ Hero_Rhapsody_name	Rhapsody
 
 
 
-Hero_Rhapsody_description										Давным-давно, я еще помню, как та Rhapsody присоединилась к Легиону. Она знала, что если ей выпадет шанс, она заставит Malphas петь и танцевать, и, может, он перестанет убивать ее фанатов. Но она натолкнулась на Slither, который отравил ее поклонников, и она не могла больше терпеть. Она посвятила жизнь делу Легиона, взяв Jeraziah в начальники, и поклялась быть на его стороне.
+Hero_Rhapsody_description										Давным-давно, я еще помню, как та Rhapsody присоединилась к Легиону. Она знала, что если ей выпадет шанс, она заставит Malphas петь и танцевать, и, может, он перестанет убивать ее фанатов. Но она натолкнулась на Slither, который отравил ее поклонников, и она не могла больше терпеть. Она посвятила жизнь делу Легиона, взяв Jeraziah в начальники, а тот утешил ее в утрате и поклялся быть на ее стороне.
 
 
 
@@ -70851,7 +70851,7 @@ State_Riftwalker_Ability2_name									Shared Existence
 
 
 
-State_Riftwalker_Ability2_IMPACT_effect							Добавляет 1 заряд при получении урона, не связанного с DoT\nМаксимум 5 зарядов.
+State_Riftwalker_Ability2_IMPACT_effect							Добавляет 1 заряд при получении непериодического урона\nМаксимум 5 зарядов.
 
 
 
@@ -70906,7 +70906,7 @@ Ability_Riftwalker3_description_simple							Ненадолго прорывае
 
 
 
-Ability_Riftwalker3_tooltip_flavor								Лучшее оскорбление Рифтуокера: "А ты вообще рифтуешь?"
+Ability_Riftwalker3_tooltip_flavor								Лучшее оскорбление Riftwalker: "А ты вообще рифтуешь?"
 
 
 
@@ -71066,7 +71066,7 @@ State_Riftwalker_Ability4_Staff_name								Bidirectional Wormhole
 
 
 
-State_Riftwalker_Ability4_Staff_FRAME_effect						Пока активно, можно телепортировать себя и всех врагов в радиусе червоточины к изначальному месту каста
+State_Riftwalker_Ability4_Staff_FRAME_effect						Пока эффект активен, можно телепортировать себя и всех врагов в радиусе Wormhole к исходному месту применения
 
 
 
@@ -71258,7 +71258,7 @@ Ability_Riptide2_description_simple								Превращается в прил�
 
 
 
-Ability_Riptide2_effect_header									Эффект(ы) отбойного течения
+Ability_Riptide2_effect_header									Эффекты Undertow
 
 
 
@@ -71354,7 +71354,7 @@ Ability_Riptide3_IMPACT_effect									При использовании у ва
 
 
 
-Ability_Riptide3_effect_header									Эффект(ы) "In My Element"
+Ability_Riptide3_effect_header									Эффекты In My Element
 
 
 
@@ -71457,7 +71457,7 @@ Ability_Riptide4_description_simple								Вызывает ^oPerfect Storm^*: �
 
 
 
-Ability_Riptide4_effect_header									Эффект(ы) Perfect Storm
+Ability_Riptide4_effect_header									Эффекты Perfect Storm
 
 
 
@@ -125056,7 +125056,7 @@ Ability_Riptide3_name:ult_boost									^gIn My Domain^*
 Ability_Riptide3_description2									^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Пока вы стоите в воде, создает щит со скоростью 20 здоровья в сек., максимум 340. Пока у вас есть щит, вы считаетесь находящимся в воде.
 Ability_Riptide3_description2:ult_boost							\r
 Ability_Riptide3_description_simple:ult_boost					^oВ воде^* вы получаете:\n- Ловкость: ^o{20,30,40,50}^*\n- Скор. движ.: ^o{15,30,45,60}^*\n- Проход сквозь юнитов\n^g- В воде накапливаете щит по 20 здоровья в сек., до 340. Пока щит есть, вы считаетесь в воде.^*\n\nПри использовании у ваших ног появляется ^oпостоянная лужа с беспрепятственным обзором^*. ^oПостоянная лужа может быть только одна^*.
-State_Riptide_Ability3_FRAME_effect:ult_boost					Стоя в воде, накапливает Щит по 20 здоровья в сек., максимум 340. Пока щит держится, вы считаетесь стоящим в воде.
+State_Riptide_Ability3_FRAME_effect:ult_boost					Пока вы стоите в воде, накапливается щит по 20 здоровья в сек., максимум 340. Пока щит держится, вы считаетесь стоящим в воде.
 State_Riptide_Ability3_Staff_name								Water Shield
 State_Riptide_Ability3_Staff_FRAME_effect						Щит растёт по 20 здоровья в сек., пока вы стоите в воде, максимум 340.\nПока щит держится, вы считаетесь стоящим в воде.
 State_Energizer_Active_Unitwalking_name							Energizer Cooldown
