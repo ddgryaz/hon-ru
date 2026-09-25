@@ -26709,7 +26709,7 @@ hero_tip_disable_tips	Отключить подсказки
 
 
 
-hero_tip_offensive_tip_Hero_Accursed_1			Во время "Flame Consumption" подвергайте себя опасности, чтобы исцелить больше. Прижигание также исцелит вас.
+hero_tip_offensive_tip_Hero_Accursed_1			Во время Flame Consumption подставляйтесь под урон, чтобы исцелиться сильнее. Cauterize тоже исцеляет вас.
 
 
 
@@ -26717,31 +26717,11 @@ hero_tip_offensive_tip_Hero_Accursed_2			Используйте Fire Shield, ч�
 
 
 
-hero_tip_defensive_tip_Hero_Accursed_1			Не наносите урон Проклятому, когда он использует "Flame Consumption".
+hero_tip_defensive_tip_Hero_Accursed_1			Не наносите урон Accursed, пока он использует Flame Consumption.
 
 
 
-hero_tip_defensive_tip_Hero_Accursed_2			По возможности отойдите от целей с помощью "Fire Shield", прежде чем нанести им урон.
-
-
-
-
-
-
-
-hero_tip_offensive_tip_Hero_Adrenaline_1		Раш - отличный инструмент для инициации и отступления, поэтому сэкономить достаточно маны, чтобы использовать его в случае необходимости, никогда не будет плохой идеей.
-
-
-
-hero_tip_offensive_tip_Hero_Adrenaline_2		Такие предметы, как Источник питания и Чаша Крови, можно активировать, чтобы предоставить Adrenaline дополнительную способность, которую можно использовать в случае необходимости.
-
-
-
-hero_tip_defensive_tip_Hero_Adrenaline_1		Если на вас накопилось много стоков ужаса, позвольте дебаффу спасть перед повторным включением, чтобы спасти вас от быстрой смерти.
-
-
-
-hero_tip_defensive_tip_Hero_Adrenaline_2		Stormspirit - мощный инструмент, позволяющий не дать идеальному комби Adrenaline убить себя или союзника.
+hero_tip_defensive_tip_Hero_Accursed_2			По возможности отойдите от целей под Fire Shield, прежде чем бить их.
 
 
 
@@ -26749,19 +26729,19 @@ hero_tip_defensive_tip_Hero_Adrenaline_2		Stormspirit - мощный инстр�
 
 
 
-hero_tip_offensive_tip_Hero_Aluna_1				Однократное нажатие Дежа Вю дает Алуне ускорение, которое поможет ей уйти. Повторное нажатие может сбить с толку врагов относительно того, где вы на самом деле находитесь. Третий раз телепортирует вас обратно к вашему изображению и отсеивает все летящие снаряды.
+hero_tip_offensive_tip_Hero_Adrenaline_1		Rush - отличный способ начать драку или отступить, так что держать для него запас маны всегда полезно.
 
 
 
-hero_tip_offensive_tip_Hero_Aluna_2				Помните, что вы можете остановить применение Power Throw в середине применения, если кажется, что вы не сможете попасть по нему. Отменить приказ по умолчанию привязан к "s".
+hero_tip_offensive_tip_Hero_Adrenaline_2		Предметы вроде Power Supply и Blood Chalice можно активировать, чтобы в нужный момент у Adrenaline хватило маны еще на одну способность.
 
 
 
-hero_tip_defensive_tip_Hero_Aluna_1				Двигайтесь беспорядочно, если вы ожидаете заряженного Power Throw.
+hero_tip_defensive_tip_Hero_Adrenaline_1		Если на вас накопилось много зарядов Dread, дайте дебаффу спасть, прежде чем снова лезть в драку, - это может спасти от быстрой смерти.
 
 
 
-hero_tip_defensive_tip_Hero_Aluna_2				Не стойте рядом с последним крипом в вашей волне, чтобы Изумрудная молния не оглушила вас.
+hero_tip_defensive_tip_Hero_Adrenaline_2		Stormspirit - мощное средство, чтобы комбо с ультом Adrenaline не убило вас или союзника.
 
 
 
@@ -26769,19 +26749,39 @@ hero_tip_defensive_tip_Hero_Aluna_2				Не стойте рядом с посл�
 
 
 
-hero_tip_offensive_tip_Hero_Apex_1				Пылающий уголек может удержать вас на вашей линии или позволить вам вернуться в бой, не возвращаясь к фонтану, обязательно используйте его с пользой.
+hero_tip_offensive_tip_Hero_Aluna_1				Первое нажатие Deja Vu дает Aluna ускорение, которое помогает уйти. Второе может запутать врагов, где вы на самом деле. Третье телепортирует вас обратно к образу и сбрасывает все летящие в вас снаряды.
 
 
 
-hero_tip_offensive_tip_Hero_Apex_2				Fire Surge - отличный инструмент для хар асса и рыкания. Использование этой способности в сочетании с Чашей Крови может обеспечить постоянный поток урона.
+hero_tip_offensive_tip_Hero_Aluna_2				Помните, что Power Throw можно прервать посреди применения, если видно, что не попадете. Приказ "Стоп" по умолчанию на клавише "s".
 
 
 
-hero_tip_defensive_tip_Hero_Apex_1				Иммунитет к магии является ключевым моментом в борьбе с Апексом. Позаботьтесь о том, чтобы как можно скорее получить сморщенную голову.
+hero_tip_defensive_tip_Hero_Aluna_1				Двигайтесь непредсказуемо, если ждете заряженный Power Throw.
 
 
 
-hero_tip_defensive_tip_Hero_Apex_2				У Apex низкий запас маны и много заклинаний. Попробуйте бульвар или героев, у которых есть способности вытягивания маны и сжигания.
+hero_tip_defensive_tip_Hero_Aluna_2				Не стойте рядом с последним крипом в своей волне, чтобы Emerald Lightning вас не оглушила.
+
+
+
+
+
+
+
+hero_tip_offensive_tip_Hero_Apex_1				The Burning Ember позволяет дольше стоять на линии или вернуться в драку без похода к фонтану, используйте его с умом.
+
+
+
+hero_tip_offensive_tip_Hero_Apex_2				Fire Surge отлично подходит для харасса. Вместе с Blood Chalice он позволяет наносить урон почти без остановки.
+
+
+
+hero_tip_defensive_tip_Hero_Apex_1				Против Apex главное - иммунитет к магии. Постарайтесь как можно скорее купить Shrunken Head.
+
+
+
+hero_tip_defensive_tip_Hero_Apex_2				У Apex маленький запас маны и много заклинаний. Попробуйте Nullfire Blade или героев, которые выкачивают и сжигают ману.
 
 
 
@@ -26793,15 +26793,15 @@ hero_tip_offensive_tip_Hero_AmunRa_1				Path of Destruction позволяет �
 
 
 
-hero_tip_offensive_tip_Hero_AmunRa_2				Подумайте о том, чтобы не произносить заклинания, когда у вас уже мало очков жизни.
+hero_tip_offensive_tip_Hero_AmunRa_2				Подумайте, стоит ли применять заклинания, когда у вас и так мало здоровья.
 
 
 
-hero_tip_defensive_tip_Hero_AmunRa_1				Path of Destruction имеет установленную дальность 600. Двигайтесь перпендикулярно, чтобы избежать его.
+hero_tip_defensive_tip_Hero_AmunRa_1				Дальность Path of Destruction фиксирована: 600. Уходите перпендикулярно, чтобы увернуться.
 
 
 
-hero_tip_defensive_tip_Hero_AmunRa_2				Высасывание маны Амона-Ра может уменьшить эффект "Пироклазмического возрождения" после его смерти.
+hero_tip_defensive_tip_Hero_AmunRa_2				Если выкачать ману Amun-Ra, Pyroclasmic Rebirth после его смерти сработает слабее.
 
 
 
@@ -26809,19 +26809,19 @@ hero_tip_defensive_tip_Hero_AmunRa_2				Высасывание маны Амон
 
 
 
-hero_tip_offensive_tip_Hero_Andromeda_1			Используйте Void Rip, чтобы поменяться позициями с ничего не подозревающим врагом. Оглушите его, чтобы обеспечить побег.
+hero_tip_offensive_tip_Hero_Andromeda_1			Используйте Void Rip, чтобы поменяться местами с ничего не подозревающим врагом. Оглушите его, чтобы наверняка уйти.
 
 
 
-hero_tip_offensive_tip_Hero_Andromeda_2			"Аврору" можно использовать для разведки территорий, покрытых туманом войны.
+hero_tip_offensive_tip_Hero_Andromeda_2			Aurora можно использовать для разведки мест, скрытых туманом войны.
 
 
 
-hero_tip_defensive_tip_Hero_Andromeda_1			Избегайте Разрыва Бездны Андромеды, оставаясь позади союзников или покупая Нулевой камень.
+hero_tip_defensive_tip_Hero_Andromeda_1			Чтобы избежать Void Rip от Andromeda, держитесь за союзниками или купите Null Stone.
 
 
 
-hero_tip_defensive_tip_Hero_Andromeda_2			Андромеда - один из самых эффективных анкеров поддержки. Будьте в курсе, где она находится на карте.
+hero_tip_defensive_tip_Hero_Andromeda_2			Andromeda - один из самых опасных ганкеров среди саппортов. Следите, где она на карте.
 
 
 
@@ -26829,19 +26829,19 @@ hero_tip_defensive_tip_Hero_Andromeda_2			Андромеда - один из с�
 
 
 
-hero_tip_offensive_tip_Hero_Arachna_1			Постарайтесь активировать Harden Carapace до того, как начнете получать урон. Герои поддержки и заклинатели станут легкой добычей для вашего Паучьего Укуса.
+hero_tip_offensive_tip_Hero_Arachna_1			Старайтесь активировать Harden Carapace до того, как начнете получать урон. Саппорты и маги - легкая добыча для вашего Spider Sting.
 
 
 
-hero_tip_offensive_tip_Hero_Arachna_2			Harden Carapace можно сохранить, чтобы снять определенные дебаффы, такие как "Хранитель корня леса".
+hero_tip_offensive_tip_Hero_Arachna_2			Harden Carapace можно приберечь, чтобы снять конкретный дебафф, например Root у Keeper of the Forest.
 
 
 
-hero_tip_defensive_tip_Hero_Arachna_1			У Арачи нет прерывающей способности. Носите с собой Homecoming Stone домой и телепортируйтесь, если у вас проблемы.
+hero_tip_defensive_tip_Hero_Arachna_1			У Arachna нет прерывающих способностей. Носите с собой Homecoming Stone и телепортируйтесь, если попали в беду.
 
 
 
-hero_tip_defensive_tip_Hero_Arachna_2			Паучка Паучьего Укуса можно убить, если атаковать его четыре раза. Его можно легко убить с помощью товарища по команде.
+hero_tip_defensive_tip_Hero_Arachna_2			Паучка от Spider Sting можно убить за четыре атаки. С помощью союзника это совсем просто.
 
 
 
@@ -26849,19 +26849,19 @@ hero_tip_defensive_tip_Hero_Arachna_2			Паучка Паучьего Укуса
 
 
 
-hero_tip_offensive_tip_Hero_Armadon_1			Постарайтесь предугадать атаки противника и повернуть Армадон спиной к ним. Сделав это, Бронедилло вызовет больше взрывов позвоночника и уменьшит входящий урон!
+hero_tip_offensive_tip_Hero_Armadon_1			Старайтесь предугадать атаки врагов и поворачивать Armadon к ним спиной. Тогда Armordillo чаще запускает Spine Burst и уменьшает входящий урон!
 
 
 
-hero_tip_offensive_tip_Hero_Armadon_2			Постарайтесь сэкономить ману, чтобы использовать ее в длительной битве, где вы можете нанести несколько Spine Bursts подряд на врагов.
+hero_tip_offensive_tip_Hero_Armadon_2			Берегите ману для затяжного боя, где можно выпустить в врагов несколько Spine Burst подряд.
 
 
 
-hero_tip_defensive_tip_Hero_Armadon_1			Следите за стеками Spine Burst и отступайте, если они становятся слишком высокими. Армадон наносит наибольший урон в продолжительных боях.
+hero_tip_defensive_tip_Hero_Armadon_1			Следите за зарядами Spine Burst и отступайте, если их стало слишком много. Больше всего урона Armadon наносит в затяжных боях.
 
 
 
-hero_tip_defensive_tip_Hero_Armadon_2			Армадон не имеет прерывающей способности. Носите с собой Homecoming Stone домой и телепортируйтесь, если у вас проблемы.
+hero_tip_defensive_tip_Hero_Armadon_2			У Armadon нет прерывающих способностей. Носите с собой Homecoming Stone и телепортируйтесь, если попали в беду.
 
 
 
@@ -26869,19 +26869,19 @@ hero_tip_defensive_tip_Hero_Armadon_2			Армадон не имеет прер�
 
 
 
-hero_tip_offensive_tip_Hero_Bephelgor_1			Бег по трупам восполняет здоровье Balphagore. Хоть это и немного, но зачастую это может сыграть решающую роль в бою.
+hero_tip_offensive_tip_Hero_Bephelgor_1			Проходя по трупам, Balphagore восстанавливает здоровье. Это немного, но в драке часто решает исход.
 
 
 
-hero_tip_offensive_tip_Hero_Bephelgor_2			Регургитацию можно использовать просто для лечения и получения зарядов для преобразования трупа.
+hero_tip_offensive_tip_Hero_Bephelgor_2			Regurgitate можно использовать просто для лечения и набора зарядов для Corpse Conversion.
 
 
 
-hero_tip_defensive_tip_Hero_Bephelgor_1			Не забывайте, что миньоны Balphagore наносят большой урон с течением времени, одновременно замедляя кого-то каждый раз, когда они наносят удар.
+hero_tip_defensive_tip_Hero_Bephelgor_1			Не забывайте, что миньоны Balphagore наносят много урона со временем и каждым ударом накладывают суммирующееся замедление.
 
 
 
-hero_tip_defensive_tip_Hero_Bephelgor_2			Такие предметы, как Shieldbreaker и Hellflower, - отличные способы помочь убить вражеских героев-танков, таких как Balphagore.
+hero_tip_defensive_tip_Hero_Bephelgor_2			Предметы вроде Shieldbreaker и Hellflower отлично помогают убивать вражеских танков вроде Balphagore.
 
 
 
@@ -26889,19 +26889,19 @@ hero_tip_defensive_tip_Hero_Bephelgor_2			Такие предметы, как Sh
 
 
 
-hero_tip_offensive_tip_Hero_Behemoth_1			Попробуйте использовать Fissure, чтобы оглушить и заблокировать путь нападавшим.
+hero_tip_offensive_tip_Hero_Behemoth_1			Используйте Fissure, чтобы оглушить преследователей и перекрыть им путь.
 
 
 
-hero_tip_offensive_tip_Hero_Behemoth_2			Скопленная группа врагов становится легкой добычей для Шоквейва. Купите ключ от портала, который поможет вам занять оптимальную позицию.
+hero_tip_offensive_tip_Hero_Behemoth_2			Кучка врагов - легкая добыча для Shockwave. Купите Portal Key, чтобы занять лучшую позицию.
 
 
 
-hero_tip_defensive_tip_Hero_Behemoth_1			Когда Shockwave доступен, крайне важно, чтобы ваша команда была разбросана. Скомканная команда погибнет почти мгновенно против Behemoth.
+hero_tip_defensive_tip_Hero_Behemoth_1			Когда у Behemoth готов Shockwave, команде нужно держаться врассыпную. Сбившаяся в кучу команда погибнет против него почти мгновенно.
 
 
 
-hero_tip_defensive_tip_Hero_Behemoth_2			Помните о расположении Behemoth и о том, где он может использовать Fissure, чтобы заблокировать вас.
+hero_tip_defensive_tip_Hero_Behemoth_2			Следите за позицией Behemoth и за тем, где он может перекрыть вам путь Fissure.
 
 
 
@@ -26909,19 +26909,19 @@ hero_tip_defensive_tip_Hero_Behemoth_2			Помните о расположен�
 
 
 
-hero_tip_offensive_tip_Hero_Blacksmith_1		Безумие можно использовать для увеличения скорости передвижения, чтобы помочь уйти от врагов. Использование Fireball и Пламенного молота также может замедлить врагов.
+hero_tip_offensive_tip_Hero_Blacksmith_1		Frenzy дает прибавку к скорости движения и помогает уйти от врагов. Fireball и Flaming Hammer тоже замедляют врагов.
 
 
 
-hero_tip_offensive_tip_Hero_Blacksmith_2		Запланируйте применение Fireball сразу после того, как Огненный молот поразит вашу цель, чтобы максимизировать маг. урон.
+hero_tip_offensive_tip_Hero_Blacksmith_2		Применяйте Fireball сразу после того, как Flaming Hammer попадет в цель, чтобы маг. урон был максимальным.
 
 
 
-hero_tip_defensive_tip_Hero_Blacksmith_1		"Flaming Hammer" снижает вашу магическую броню, поэтому сбор дополнительной магической брони из "Мистических облачений" или использование "Сморщенной головы" может помочь предотвратить это.
+hero_tip_defensive_tip_Hero_Blacksmith_1		Flaming Hammer снижает вашу маг. броню. Дополнительная маг. броня от Mystic Vestments или Shrunken Head помогает этому противостоять.
 
 
 
-hero_tip_defensive_tip_Hero_Blacksmith_2		Nullstone - эффективный способ противостоять героям с мощными заклинаниями на одну цель, такими как Blacksmith.
+hero_tip_defensive_tip_Hero_Blacksmith_2		Null Stone - эффективный способ противостоять героям с мощными заклинаниями на одну цель, такими как Blacksmith.
 
 
 
@@ -26929,19 +26929,19 @@ hero_tip_defensive_tip_Hero_Blacksmith_2		Nullstone - эффективный с�
 
 
 
-hero_tip_offensive_tip_Hero_BloodHunter_1			Если вас преследуют, примените "Кровоизлияние", чтобы заставить их получить урон. Если они потеряют слишком много здоровья, вы получите скор. движ. от "Чувства крови".
+hero_tip_offensive_tip_Hero_BloodHunter_1			Если за вами гонятся, примените Hemorrhage, чтобы преследователи получали урон. Если у них останется мало здоровья, Blood Sense даст вам скорость движения.
 
 
 
-hero_tip_offensive_tip_Hero_BloodHunter_2			Blood Crazy - одно из лучших айленов в игре, но будьте осторожны, накладывая его на вражеских героев с высоким уроном от атаки.
+hero_tip_offensive_tip_Hero_BloodHunter_2			Blood Crazy - одно из лучших Безмолвий в игре, но осторожнее с ним против вражеских героев с высоким уроном от атак.
 
 
 
-hero_tip_defensive_tip_Hero_BloodHunter_1			Не двигайтесь, пока вы поражены кровотечением! У Blood Hunter нет прерываний, поэтому носите с собой Homecoming Stone домой и телепортируйтесь при необходимости.
+hero_tip_defensive_tip_Hero_BloodHunter_1			Не двигайтесь под Hemorrhage! У Blood Hunter нет прерывания, так что носите Homecoming Stone и телепортируйтесь, если нужно.
 
 
 
-hero_tip_defensive_tip_Hero_BloodHunter_2			Будьте осторожны, чтобы не получить слишком мало очков здоровья, убивая нейтральных крипов против команды с Blood Hunter.
+hero_tip_defensive_tip_Hero_BloodHunter_2			Играя против Blood Hunter, не опускайте здоровье слишком низко, когда фармите нейтральных крипов.
 
 
 
@@ -26949,19 +26949,19 @@ hero_tip_defensive_tip_Hero_BloodHunter_2			Будьте осторожны, ч�
 
 
 
-hero_tip_offensive_tip_Hero_Bombardier_1		Используйте Бомбардировку, чтобы замедлить нападавших. Sticky Bomb также можно использовать в качестве сдерживающего средства.
+hero_tip_offensive_tip_Hero_Bombardier_1		Используйте Bombardment, чтобы замедлить преследователей. Sticky Bomb тоже помогает их отпугнуть.
 
 
 
-hero_tip_offensive_tip_Hero_Bombardier_2		Герои перестают двигаться, когда атакуют. Используйте этот период как возможность сбросить на них Sticky Bomb.
+hero_tip_offensive_tip_Hero_Bombardier_2		Во время атаки герои останавливаются. Пользуйтесь моментом, чтобы бросить в них Sticky Bomb.
 
 
 
-hero_tip_defensive_tip_Hero_Bombardier_1		Держитесь подальше от союзников и займите безопасную позицию, если у вас есть Sticky Bomb.
+hero_tip_defensive_tip_Hero_Bombardier_1		Если на вас Sticky Bomb, отойдите от союзников в безопасное место.
 
 
 
-hero_tip_defensive_tip_Hero_Bombardier_2		Air Strike имеет глобальный радиус действия, поэтому будьте внимательны и выбирайте необычные пути отступления, когда у вас мало очков жизни.
+hero_tip_defensive_tip_Hero_Bombardier_2		Air Strike бьет по всей карте, поэтому при малом здоровье будьте начеку и отступайте необычными путями.
 
 
 
@@ -26969,19 +26969,19 @@ hero_tip_defensive_tip_Hero_Bombardier_2		Air Strike имеет глобальн
 
 
 
-hero_tip_offensive_tip_Hero_Bubbles_1			Примените "Прибой ракушек", затем "Укройтесь", чтобы стать неуязвимым, прежде чем телепортироваться прочь.
+hero_tip_offensive_tip_Hero_Bubbles_1			Примените Shell Surf, а затем Take Cover, чтобы стать неуязвимым перед телепортацией.
 
 
 
-hero_tip_offensive_tip_Hero_Bubbles_2			Собравшаяся группа врагов становится легкой добычей для Song of the Sea и Поля водорослей. Ключ от портала может помочь поймать собравшихся врагов или помочь вам сбежать после укрытия.
+hero_tip_offensive_tip_Hero_Bubbles_2			Кучка врагов - легкая добыча для Song of the Sea и Kelp Field. Portal Key поможет поймать сбившихся врагов или сбежать после Take Cover.
 
 
 
-hero_tip_defensive_tip_Hero_Bubbles_1			Обратите внимание, где Bubbles находится Shell Surfing. Невыполнение этого требования часто приводит к тому, что он впоследствии понтирует его, чтобы поразить игроков "Song of the Sea" и "Kelp Field".
+hero_tip_defensive_tip_Hero_Bubbles_1			Следите, куда Bubbles бросает Shell Surf. Иначе он часто телепортируется туда и бьет игроков Song of the Sea и Kelp Field.
 
 
 
-hero_tip_defensive_tip_Hero_Bubbles_2			Важно оставаться разбросанными, чтобы избежать "Song of the Sea" и "Поля водорослей", когда вы ожидаете командного боя с Пузырями.
+hero_tip_defensive_tip_Hero_Bubbles_2			Если ожидается командный бой против Bubbles, держитесь врассыпную, чтобы избежать Song of the Sea и Kelp Field.
 
 
 
@@ -26989,7 +26989,7 @@ hero_tip_defensive_tip_Hero_Bubbles_2			Важно оставаться разб
 
 
 
-hero_tip_offensive_tip_Hero_Calamity_Sunder_1	Используйте клавиши W и E, чтобы перемещать сферы внутрь и наружу, что позволит вам наносить урон врагам, находящимся далеко, не подвергая себя риску!
+hero_tip_offensive_tip_Hero_Calamity_Sunder_1	Клавишами W и E сферы можно отдалять и приближать, чтобы бить далеких врагов, не подставляясь!
 
 
 
@@ -26997,11 +26997,11 @@ hero_tip_offensive_tip_Hero_Calamity_Sunder_2	Помните, что стена 
 
 
 
-hero_tip_defensive_tip_Hero_Calamity_Sunder_1	Отойдите от прыгающего огненного дождя, так как каждый раз, когда вас ударят, вы будете втягиваться в него!
+hero_tip_defensive_tip_Hero_Calamity_Sunder_1	Уходите от прыгающего Rain of Fire: каждое новое попадание снова затягивает вас в него!
 
 
 
-hero_tip_defensive_tip_Hero_Calamity_Sunder_2	Если вы оказались внутри стены Funeral Pyre, развернитесь и сражайтесь! Вы не сможете пройти через это!
+hero_tip_defensive_tip_Hero_Calamity_Sunder_2	Если вы оказались внутри стены Funeral Pyre, разворачивайтесь и деритесь! Сквозь нее не пройти!
 
 
 
@@ -27009,19 +27009,19 @@ hero_tip_defensive_tip_Hero_Calamity_Sunder_2	Если вы оказались �
 
 
 
-hero_tip_offensive_tip_Hero_Chi_1				A Thousand Cuts - отличный инструмент зонирования, который активирует Просвещение и очищает волны крипов. Обязательно используйте это часто и имейте высокий уровень поддержки маны!
+hero_tip_offensive_tip_Hero_Chi_1				A Thousand Cuts - отличный способ контролировать зону: он запускает Enlightenment и зачищает волны крипов. Используйте его часто и позаботьтесь о восполнении маны!
 
 
 
-hero_tip_offensive_tip_Hero_Chi_2				В конце игры сохраните Disarm на Crippling Puncture для вражеских автоатак. Это испортит им день!
+hero_tip_offensive_tip_Hero_Chi_2				В поздней игре приберегите Обезоруживание от Crippling Puncture для вражеских керри, бьющих автоатаками. Это испортит им весь день!
 
 
 
-hero_tip_defensive_tip_Hero_Chi_1				"A Thousand Cuts" относительно медленна и требует большого количества маны для Ци. Уклоняйтесь от этого как можно лучше и не позволяйте Ци одержать верх в начале игры!
+hero_tip_defensive_tip_Hero_Chi_1				A Thousand Cuts движется довольно медленно, а его поддержание обходится Qi в много маны. Уворачивайтесь как можете и не дайте Qi взять верх в начале игры!
 
 
 
-hero_tip_defensive_tip_Hero_Chi_2				У Ancestral Assault есть небольшая задержка перед срабатыванием. Будьте внимательны, чтобы избежать тяжелого взрывного урона от него!
+hero_tip_defensive_tip_Hero_Chi_2				Ancestral Assault срабатывает с небольшой задержкой. Будьте начеку, чтобы увернуться от его мощного урона!
 
 
 
@@ -27029,19 +27029,19 @@ hero_tip_defensive_tip_Hero_Chi_2				У Ancestral Assault есть неболь�
 
 
 
-hero_tip_offensive_tip_Hero_Chipper_1			Быстро примените "Ракетный залп" к нападавшим, чтобы мини-оглушить и замедлить их. Если они подойдут слишком близко, Tar Toss замедлит их еще больше.
+hero_tip_offensive_tip_Hero_Chipper_1			Быстро примените Rocket Barrage к преследователям, чтобы ненадолго оглушить и замедлить их. Если подойдут слишком близко, замедлите их еще сильнее Tar Toss.
 
 
 
-hero_tip_offensive_tip_Hero_Chipper_2			Если у вас возникли проблемы с попаданием "Rocket Barrage", попробуйте сохранить его на случай, когда враг приблизится, в середине анимации атаки или обездвижен.
+hero_tip_offensive_tip_Hero_Chipper_2			Если Rocket Barrage плохо попадает, приберегите его на момент, когда враг ближе, стоит в анимации атаки или обездвижен.
 
 
 
-hero_tip_defensive_tip_Hero_Chipper_1			Держитесь подальше от Sawblade Showdown! Если вас ударил Tar Toss, постарайтесь двигаться беспорядочно, чтобы уклониться от приближающегося ракетного залпа.
+hero_tip_defensive_tip_Hero_Chipper_1			Не заходите в Sawblade Showdown! Если попал Tar Toss, двигайтесь непредсказуемо, чтобы увернуться от Rocket Barrage.
 
 
 
-hero_tip_defensive_tip_Hero_Chipper_2			The Chipper наносит большой маг. урон, поэтому сбор дополнительной магической брони из Мистических облачений или использование Сморщенной головы может помочь предотвратить это.
+hero_tip_defensive_tip_Hero_Chipper_2			The Chipper наносит много маг. урона. Дополнительная маг. броня от Mystic Vestments или Shrunken Head помогает этому противостоять.
 
 
 
@@ -27049,19 +27049,19 @@ hero_tip_defensive_tip_Hero_Chipper_2			The Chipper наносит большо�
 
 
 
-hero_tip_offensive_tip_Hero_Chronos_1			Time Leap следует использовать либо в качестве инициации, ведущей в Хронополе, либо сохранить как побег.
+hero_tip_offensive_tip_Hero_Chronos_1			Time Leap стоит использовать либо чтобы начать драку перед Chronofield, либо приберечь для побега.
 
 
 
-hero_tip_offensive_tip_Hero_Chronos_2			Расположите Хронофилд так, чтобы вы ловили врагов на близком краю, чтобы позволить дружественным юнитам ближнего боя помочь атаковать их.
+hero_tip_offensive_tip_Hero_Chronos_2			Ставьте Chronofield так, чтобы враги оказались у ближнего края, - тогда союзники ближнего боя тоже смогут их бить.
 
 
 
-hero_tip_defensive_tip_Hero_Chronos_1			Убивайте Chronos как можно раньше и чаще, чтобы он не занимался фаимом. Chronos в поздней игре должен быть сосредоточен неустанно.
+hero_tip_defensive_tip_Hero_Chronos_1			Убивайте Chronos рано и часто, чтобы он не мог фармить. В поздней игре Chronos нужно фокусить без остановки.
 
 
 
-hero_tip_defensive_tip_Hero_Chronos_2			Важно оставаться рассеянным, чтобы избежать Хронополя, когда вы ожидаете командного боя против Chronos.
+hero_tip_defensive_tip_Hero_Chronos_2			Если ожидается командный бой против Chronos, держитесь врассыпную, чтобы не попасть в Chronofield.
 
 
 
@@ -27069,19 +27069,19 @@ hero_tip_defensive_tip_Hero_Chronos_2			Важно оставаться расс
 
 
 
-hero_tip_offensive_tip_Hero_CorruptedDisciple_1	Используйте Corrupted Conduit на нападавшего, чтобы истощить его урон. Используйте свою превосходную скор. движ., чтобы убежать, или просто нападите на него, чтобы убить, как только вы истощите его урон.
+hero_tip_offensive_tip_Hero_CorruptedDisciple_1	Примените Corrupted Conduit к преследователю, чтобы выкачать его урон. Уйдите за счет высокой скорости движения или развернитесь и убейте его, когда урон выкачан.
 
 
 
-hero_tip_offensive_tip_Hero_CorruptedDisciple_2	Corrupted Disciple хорошо себя чувствует в продолжительных битвах, где он может накапливать Corrupted Conduit и продолжать поражать врагов Overload. Защитные предметы могут помочь сражениям затянуться.
+hero_tip_offensive_tip_Hero_CorruptedDisciple_2	Corrupted Disciple хорош в затяжных боях, где он набирает заряды Corrupted Conduit и постоянно бьет врагов Overload. Защитные предметы помогают затянуть бой.
 
 
 
-hero_tip_defensive_tip_Hero_CorruptedDisciple_1	Corrupted Conduit снижает ваш урон, одновременно увеличивая урон Corrupted Disciple и давая ему возможность видеть цель! Избегайте этого, отбегая на 700 или более единиц от Оскверненного.
+hero_tip_defensive_tip_Hero_CorruptedDisciple_1	Corrupted Conduit снижает ваш урон, повышает урон Corrupted Disciple и дает ему обзор на цель! Чтобы разорвать его, отбегите от Corrupted Disciple на 700 или больше.
 
 
 
-hero_tip_defensive_tip_Hero_CorruptedDisciple_2	Следите за тем, как долго на Порченом ученике был включен Порченый проводник. Corrupted Disciple может нанести разрушительный урон, если у него большой заряд Corrupted Conduit.
+hero_tip_defensive_tip_Hero_CorruptedDisciple_2	Следите, сколько уже держится Corrupted Conduit у Corrupted Disciple. С большим числом зарядов Corrupted Conduit он наносит разрушительный урон.
 
 
 
@@ -27089,19 +27089,19 @@ hero_tip_defensive_tip_Hero_CorruptedDisciple_2	Следите за тем, ка
 
 
 
-hero_tip_offensive_tip_Hero_Cthulhuphant_1		Снижение урона от Hook'em применяется только в том случае, если враги ударили Cthulhuphant спереди. Пробивной удар также можно использовать как способ убежать от врагов.
+hero_tip_offensive_tip_Hero_Cthulhuphant_1		Снижение урона от Hook'em работает, только если враги бьют Cthulhuphant спереди. Trample можно использовать и для побега.
 
 
 
-hero_tip_offensive_tip_Hero_Cthulhuphant_2		Пробивайте крипов, чтобы оглушить их и нанести дополнительный урон.
+hero_tip_offensive_tip_Hero_Cthulhuphant_2		Проходите Trample сквозь крипов, чтобы наверняка оглушить и нанести дополнительный урон.
 
 
 
-hero_tip_defensive_tip_Hero_Cthulhuphant_1		Трамп л толкает крипов перед Ктулху фантом, нанося дополнительный урон и оглушая; избегая крипов между Ктулху фантом и вами, вы часто можете позволить себе полностью уклониться от пробивного удара.
+hero_tip_defensive_tip_Hero_Cthulhuphant_1		Trample толкает крипов перед Cthulhuphant, нанося дополнительный урон и оглушая. Если между вами и Cthulhuphant нет крипов, от Trample часто можно полностью увернуться.
 
 
 
-hero_tip_defensive_tip_Hero_Cthulhuphant_2		Наносите урон сзади, чтобы избежать щита Cthulhuphant.
+hero_tip_defensive_tip_Hero_Cthulhuphant_2		Бейте сзади, чтобы обойти щит Hook'em у Cthulhuphant.
 
 
 
@@ -27109,19 +27109,19 @@ hero_tip_defensive_tip_Hero_Cthulhuphant_2		Наносите урон сзади
 
 
 
-hero_tip_offensive_tip_Hero_Dampeer_1			Vampiric Flight и поглощение можно использовать для быстрого восстановления очков жизни. Борьба иногда является решением проблемы выживания!
+hero_tip_offensive_tip_Hero_Dampeer_1			Vampiric Flight и Consume помогают быстро восстановить здоровье. Иногда драка и есть способ выжить!
 
 
 
-hero_tip_offensive_tip_Hero_Dampeer_2			Ставьте заклинания в очередь, используя "Полет вампира". Встать в очередь можно, удерживая "Shift" по умолчанию.
+hero_tip_offensive_tip_Hero_Dampeer_2			Ставьте заклинания в очередь во время Vampiric Flight. По умолчанию для этого нужно удерживать "Shift".
 
 
 
-hero_tip_defensive_tip_Hero_Dampeer_1			Купите Магическую броню, чтобы смягчить урон от заклинаний Дампира.
+hero_tip_defensive_tip_Hero_Dampeer_1			Покупайте маг. броню, чтобы снизить урон от заклинаний Dampeer.
 
 
 
-hero_tip_defensive_tip_Hero_Dampeer_2			ГанкингД ампир отключит свой потенциал ганка на пару минут, пока ему придется восстанавливать сущности, чтобы действовать эффективно.
+hero_tip_defensive_tip_Hero_Dampeer_2			Если убить Dampeer, он на пару минут перестанет быть опасным ганкером, пока снова не наберет Essence.
 
 
 
@@ -27129,19 +27129,19 @@ hero_tip_defensive_tip_Hero_Dampeer_2			ГанкингД ампир отключ
 
 
 
-hero_tip_offensive_tip_Hero_Vanya_1				Примените "Покров тьмы", чтобы ослепить врагов, а затем используйте "Радующиеся удары", чтобы убежать.
+hero_tip_offensive_tip_Hero_Vanya_1				Примените Cover of Darkness, чтобы ослепить врагов, а затем уйдите с помощью Charging Strikes.
 
 
 
-hero_tip_offensive_tip_Hero_Vanya_2				Taint Soul можно использовать как эффективный инструмент для добивания крипов, когда попасть в ближний бой невозможно.
+hero_tip_offensive_tip_Hero_Vanya_2				Taint Soul помогает добивать крипов, когда подойти в ближний бой нельзя.
 
 
 
-hero_tip_defensive_tip_Hero_Vanya_1				Избегайте Темной Леди, когда у нее активированы Dark Blades. Без них она намного уязвимее!
+hero_tip_defensive_tip_Hero_Vanya_1				Избегайте Dark Lady, пока у нее активны Dark Blades. Без них она намного уязвимее!
 
 
 
-hero_tip_defensive_tip_Hero_Vanya_2				Убивайте Темную Леди как можно раньше и чаще, чтобы она не могла заниматься фаимом. Темная Леди в поздней игре должна быть неустанно сосредоточена.
+hero_tip_defensive_tip_Hero_Vanya_2				Убивайте Dark Lady рано и часто, чтобы она не могла фармить. В поздней игре Dark Lady нужно фокусить без остановки.
 
 
 
@@ -27149,7 +27149,7 @@ hero_tip_defensive_tip_Hero_Vanya_2				Убивайте Темную Леди к
 
 
 
-hero_tip_offensive_tip_Hero_Deadwood_1			Активируйте "Вырубку" и в случае опасности направляйтесь прямо к деревьям. Ваши противники потеряют вас из виду.
+hero_tip_offensive_tip_Hero_Deadwood_1			Если попали в беду, активируйте Clearcutting и идите прямо в деревья. Противники потеряют вас из виду.
 
 
 
@@ -27157,7 +27157,7 @@ hero_tip_offensive_tip_Hero_Deadwood_2			Rotten Grasp может застави�
 
 
 
-hero_tip_defensive_tip_Hero_Deadwood_1			Купите большое количество брони, чтобы Уиллоумейкер не взорвал вас.
+hero_tip_defensive_tip_Hero_Deadwood_1			Покупайте много брони, чтобы Willowmaker не снес вас одним ударом.
 
 
 
@@ -27169,19 +27169,19 @@ hero_tip_defensive_tip_Hero_Deadwood_2			Обзор от Wards of Sight и хо�
 
 
 
-hero_tip_offensive_tip_Hero_Defiler_1			Активируйте "Unholy Expulsion" и атакуйте одну цель, чтобы быстро уничтожить ее. Покупайте защитные предметы, поскольку ваш основной источник урона - это использование Unholy Expulsion и поддержание собственной жизни!
+hero_tip_offensive_tip_Hero_Defiler_1			Активируйте Unholy Expulsion и атакуйте одну цель, чтобы быстро ее убить. Покупайте защитные предметы: основной урон вы наносите через Unholy Expulsion, а для этого нужно оставаться в живых!
 
 
 
-hero_tip_offensive_tip_Hero_Defiler_2			"Wave of Death" имеет короткое время восстановления и может быть применена на значительном расстоянии, воздействуя одновременно на нескольких врагов. Позиция и мобильность являются ключевыми факторами для выстраивания врагов в ряд.
+hero_tip_offensive_tip_Hero_Defiler_2			Wave of Death быстро перезаряжается и бьет на большом расстоянии сразу по нескольким врагам. Чтобы выстроить врагов в линию, важны позиция и мобильность.
 
 
 
-hero_tip_defensive_tip_Hero_Defiler_1			Никогда не сражайтесь с Осквернителем один на один, если у нее активировано Unholy Expulsion. Будьте внимательны к своему здоровью, сражаясь с ней; когда призраки начнут нападать, у тебя будут проблемы.
+hero_tip_defensive_tip_Hero_Defiler_1			Никогда не деритесь с Defiler один на один, когда у нее активно Unholy Expulsion. Следите за здоровьем в бою с ней: когда налетают призраки, вам грозит беда.
 
 
 
-hero_tip_defensive_tip_Hero_Defiler_2			Wave of Death имеет очень большую дальность действия. Двигайтесь перпендикулярно, чтобы избежать этого.
+hero_tip_defensive_tip_Hero_Defiler_2			Wave of Death бьет очень далеко. Уходите перпендикулярно, чтобы увернуться.
 
 
 
@@ -27189,15 +27189,15 @@ hero_tip_defensive_tip_Hero_Defiler_2			Wave of Death имеет очень бо
 
 
 
-hero_tip_offensive_tip_Hero_DementedShaman_1			Примените Unbreakable на себя, когда у вас мало здоровья. Вместо этого любой смертельный урон исцелит вас!
+hero_tip_offensive_tip_Hero_DementedShaman_1			Примените Unbreakable на себя, когда здоровья мало. Любой смертельный урон вместо этого исцелит вас!
 
 
 
-hero_tip_offensive_tip_Hero_DementedShaman_2			Попробуйте привлечь вражеских героев в свою волну дружественных крипов, а затем примените "Healing Wave" для разрушительного эффекта.
+hero_tip_offensive_tip_Hero_DementedShaman_2			Попробуйте заманить вражеских героев в свою волну крипов, а затем примените Healing Wave - эффект будет разрушительным.
 
 
 
-hero_tip_defensive_tip_Hero_DementedShaman_1			Летальный урон исцелит Безумного Шамана, когда у него активирована Неуязвимость. Небольшое количество брони поможет смягчить последствия "Грозового облака"!
+hero_tip_defensive_tip_Hero_DementedShaman_1			Когда у Demented Shaman активен Unbreakable, смертельный урон его исцеляет. Немного брони сильно снизит урон от Storm Cloud!
 
 
 
@@ -27209,19 +27209,19 @@ hero_tip_defensive_tip_Hero_DementedShaman_2			Не стойте в волне �
 
 
 
-hero_tip_offensive_tip_Hero_Devourer_1			Периодически включайте и выключайте Decay, чтобы замедлить и нанести урон противникам. Если им не хватает прерывания, поглотите одного из них, чтобы вызвать значительное изменение здоровья, прежде чем продолжать убегать или атаковать их, чтобы убить.
+hero_tip_offensive_tip_Hero_Devourer_1			Включайте и выключайте Decay, чтобы замедлять и ранить преследователей. Если у них нет прерывания, примените Devour к одному из них, чтобы резко изменить расклад по здоровью, а затем продолжайте убегать или развернитесь и убейте их.
 
 
 
-hero_tip_offensive_tip_Hero_Devourer_2			Покупка магической брони, такой как Мистические облачения или Головной убор шамана, поможет вам получить меньше урона от собственного разложения.
+hero_tip_offensive_tip_Hero_Devourer_2			Маг. броня вроде Mystic Vestments или Shaman's Headdress поможет получать меньше урона от собственного Decay.
 
 
 
-hero_tip_defensive_tip_Hero_Devourer_1			Прервите Devourer, как только он начнет Пожирать.
+hero_tip_defensive_tip_Hero_Devourer_1			Прерывайте Devourer, как только он начинает Devour.
 
 
 
-hero_tip_defensive_tip_Hero_Devourer_2			Двигайтесь беспорядочно и оставайтесь позади союзных крипов, чтобы вас не схватил Пожирающий крюк.
+hero_tip_defensive_tip_Hero_Devourer_2			Двигайтесь непредсказуемо и держитесь за союзными крипами, чтобы вас не зацепил Guttling Hook.
 
 
 
@@ -27229,19 +27229,19 @@ hero_tip_defensive_tip_Hero_Devourer_2			Двигайтесь беспорядо
 
 
 
-hero_tip_offensive_tip_Hero_DoctorRepulsor_1	Можно использовать способности и предметы, двигаясь с невероятной скоростью.
+hero_tip_offensive_tip_Hero_DoctorRepulsor_1	Во время Ludicrous Speed можно использовать способности и предметы.
 
 
 
-hero_tip_offensive_tip_Hero_DoctorRepulsor_2	Поддерживайте высокий запас маны, чтобы при необходимости вы могли вступить в бой и выйти из него с помощью "Нелепой скорости".
+hero_tip_offensive_tip_Hero_DoctorRepulsor_2	Держите большой запас маны, чтобы при необходимости войти в драку и выйти из нее с помощью Ludicrous Speed.
 
 
 
-hero_tip_defensive_tip_Hero_DoctorRepulsor_1	Используйте эффективное управление толпой, сражаясь с Доктором Репульсором. У него не так много взрывного урона, но его постоянный урон и подвижность могут выйти из-под контроля, если вы не убьете его раньше.
+hero_tip_defensive_tip_Hero_DoctorRepulsor_1	Против Doctor Repulsor активно используйте контроль. Мгновенного урона у него немного, но постоянный урон и мобильность выйдут из-под контроля, если не убить его пораньше.
 
 
 
-hero_tip_defensive_tip_Hero_DoctorRepulsor_2	Hellflower и другие эффекты молчания очень эффективны для отключения Доктора Репульсора.
+hero_tip_defensive_tip_Hero_DoctorRepulsor_2	Hellflower и другие эффекты Безмолвия отлично выключают Doctor Repulsor.
 
 
 
@@ -27249,19 +27249,19 @@ hero_tip_defensive_tip_Hero_DoctorRepulsor_2	Hellflower и другие эффе
 
 
 
-hero_tip_offensive_tip_Hero_DrunkenMaster_1		Выпивка пассивно усиливает другие ваши способности, пока заряды есть в резерве. Активация "Выпивки" истощит ваши резервные заряды и пополнит немного жизни.
+hero_tip_offensive_tip_Hero_DrunkenMaster_1		Пока в запасе есть заряды, Drink пассивно усиливает другие способности. Активация Drink тратит запасенные заряды и восстанавливает немного здоровья.
 
 
 
-hero_tip_offensive_tip_Hero_DrunkenMaster_2		Используйте Stagger, чтобы разделить входящие заклинания и атаки, когда вы находитесь в беде.
+hero_tip_offensive_tip_Hero_DrunkenMaster_2		В беде используйте Stagger, чтобы сбросить летящие в вас заклинания и атаки.
 
 
 
-hero_tip_defensive_tip_Hero_DrunkenMaster_1		Избегайте использования целевых заклинаний на Drunken Master, пока активирован Untouchable.
+hero_tip_defensive_tip_Hero_DrunkenMaster_1		Не применяйте заклинания с выбором цели к Drunken Master, пока активен Untouchable.
 
 
 
-hero_tip_defensive_tip_Hero_DrunkenMaster_2		Drunken Master наносит много физ. урона, поэтому покупка брони поможет снизить его полезность.
+hero_tip_defensive_tip_Hero_DrunkenMaster_2		Drunken Master наносит много физ. урона, поэтому броня заметно снизит его пользу.
 
 
 
@@ -27269,19 +27269,19 @@ hero_tip_defensive_tip_Hero_DrunkenMaster_2		Drunken Master наносит мн�
 
 
 
-hero_tip_offensive_tip_Hero_Deadlift_1			Попробуйте использовать Натиск на башнях и сооружениях, когда поблизости находятся волны вражеских крипов, чтобы быстро повредить их.
+hero_tip_offensive_tip_Hero_Deadlift_1			Попробуйте применять Onslaught на башни и строения, когда рядом волны вражеских крипов, чтобы быстро их повредить.
 
 
 
-hero_tip_offensive_tip_Hero_Deadlift_2			Направлением и дальностью "Хватки смерти" можно управлять, повторно активируя способность во время концентрации.
+hero_tip_offensive_tip_Hero_Deadlift_2			Направлением и дальностью Death Grip можно управлять, повторно активируя способность во время концентрации.
 
 
 
-hero_tip_defensive_tip_Hero_Deadlift_1			Обязательно уничтожьте вражеские надгробия, чтобы становая тяга не смогла их оживить.
+hero_tip_defensive_tip_Hero_Deadlift_1			Обязательно уничтожайте надгробия врагов, чтобы Deadlift не смог их воскресить.
 
 
 
-hero_tip_defensive_tip_Hero_Deadlift_2			Будьте осторожны, находясь рядом с большой волной крипов, "Натиск" заставляет всех ближайших юнитов мгновенно угореть цель, быстро нанося большой физ. урон.
+hero_tip_defensive_tip_Hero_Deadlift_2			Осторожнее рядом с большой волной крипов: Onslaught заставляет всех юнитов рядом мгновенно атаковать цель, быстро нанося много физ. урона.
 
 
 
@@ -27289,19 +27289,19 @@ hero_tip_defensive_tip_Hero_Deadlift_2			Будьте осторожны, нах
 
 
 
-hero_tip_offensive_tip_Hero_Electrician_1		При побеге активируйте Electric Shield как можно чаще, чтобы смягчить входящий урон. Используйте "Очищающий шок" на себе, чтобы повысить свою скорость.
+hero_tip_offensive_tip_Hero_Electrician_1		При побеге активируйте Electric Shield как можно чаще, чтобы снизить входящий урон. Примените Cleansing Shock на себя, чтобы ускориться.
 
 
 
-hero_tip_offensive_tip_Hero_Electrician_2		Попробуйте использовать Static Grip после того, как вражеская команда применила свои отключающие заклинания или на герое с последним неиспользованным отключением, чтобы получить Static Grip на длительное время.
+hero_tip_offensive_tip_Hero_Electrician_2		Применяйте Static Grip после того, как вражеская команда потратила свой контроль, или на героя с последним неиспользованным контролем, - тогда Static Grip продлится дольше.
 
 
 
-hero_tip_defensive_tip_Hero_Electrician_1		Держитесь рядом с союзным дизейблером, чтобы избежать длительного действия Static Grip.
+hero_tip_defensive_tip_Hero_Electrician_1		Держитесь рядом с союзником, у которого есть контроль, чтобы Static Grip не длился долго.
 
 
 
-hero_tip_defensive_tip_Hero_Electrician_2		Электрик сильно зависит от Electric Shield при нанесении урона, поэтому уменьшите его ману, атакуя его, пока он включен, или сжигая его ману.
+hero_tip_defensive_tip_Hero_Electrician_2		Для урона Electrician сильно зависит от Electric Shield, поэтому снижайте его ману: атакуйте, пока щит активен, или сжигайте ману.
 
 
 
@@ -27309,19 +27309,19 @@ hero_tip_defensive_tip_Hero_Electrician_2		Электрик сильно зав�
 
 
 
-hero_tip_offensive_tip_Hero_EmeraldWarden_1		Emerald Warden имеет очень высокий постоянный урон. Старайтесь оставаться скрытыми за спинами союзников и использовать свои заклинания с безопасного расстояния.
+hero_tip_offensive_tip_Hero_EmeraldWarden_1		У Emerald Warden очень высокий постоянный урон. Держитесь за союзниками и применяйте заклинания с безопасного расстояния.
 
 
 
-hero_tip_offensive_tip_Hero_EmeraldWarden_2		Установите Overgrowth рядом с вашей башней, чтобы наказывать чрезмерно агрессивных врагов, или используйте их для обзора, чтобы избежать Ганков.
+hero_tip_offensive_tip_Hero_EmeraldWarden_2		Ставьте Overgrowth рядом со своей башней, чтобы наказывать слишком агрессивных врагов, или используйте для обзора, чтобы избегать ганков.
 
 
 
-hero_tip_defensive_tip_Hero_EmeraldWarden_1		Hunter's Command имеет огромную дальность действия и не требует зрения. Отступите заранее, чтобы избежать преждевременной смерти.
+hero_tip_defensive_tip_Hero_EmeraldWarden_1		Hunter's Command бьет очень далеко и не требует обзора. Отступайте заранее, чтобы не погибнуть внезапно.
 
 
 
-hero_tip_defensive_tip_Hero_EmeraldWarden_2		Заросли можно уничтожить с помощью 1-2 атак, если вы застряли в них.
+hero_tip_defensive_tip_Hero_EmeraldWarden_2		Если застряли в Overgrowth, его можно разрушить за 1-2 атаки.
 
 
 
@@ -27329,15 +27329,15 @@ hero_tip_defensive_tip_Hero_EmeraldWarden_2		Заросли можно унич�
 
 
 
-hero_tip_offensive_tip_Hero_Empath_1			Хорошо расположенная Иллюзорная Завеса может стать решающим фактором между жизнью и смертью. Вы также можете уклониться от входящего урона, прыгнув на союзника с помощью As One.
+hero_tip_offensive_tip_Hero_Empath_1			Удачно поставленный Illusory Veil может решить, жить вам или умереть. От входящего урона можно уйти и прыжком в союзника с помощью As One.
 
 
 
-hero_tip_offensive_tip_Hero_Empath_2			Если связь с Сущностью все равно скоро истечет, разорвите ее, отойдя, чтобы получить дополнительное оглушение.
+hero_tip_offensive_tip_Hero_Empath_2			Если Essence Link все равно скоро закончится, разорвите его, отойдя подальше, чтобы получить дополнительное оглушение.
 
 
 
-hero_tip_defensive_tip_Hero_Empath_1			Быстро сфокусируйтесь на Empath, прежде чем она сможет войти в союзника с помощью As One. Если она успешно объединится, убейте ее цель, чтобы она выскочила. Empath очень уязвим в одиночку.
+hero_tip_defensive_tip_Hero_Empath_1			Быстро убейте Empath, пока она не вошла в союзника с помощью As One. Если она успела слиться, убейте ее цель, и она вылетит обратно. В одиночку Empath очень уязвима.
 
 
 
@@ -27349,19 +27349,19 @@ hero_tip_defensive_tip_Hero_Empath_2			Разрывайте Essence Link ран�
 
 
 
-hero_tip_offensive_tip_Hero_Engineer_1			Попытайтесь приземлить бочонок на себя и преследовать врагов, чтобы оглушить их, увеличивая дистанцию. Высвобождение энергетического поля может замедлить окружающих врагов.
+hero_tip_offensive_tip_Hero_Engineer_1			Бросайте The Keg себе под ноги и в преследователей, чтобы оглушить их и разорвать дистанцию. Energy Field может почти остановить врагов вокруг.
 
 
 
-hero_tip_offensive_tip_Hero_Engineer_2			Отбрасывайте цели, пытающиеся исчерпать Energy Field, с помощью бочонка.
+hero_tip_offensive_tip_Hero_Engineer_2			С помощью The Keg отбрасывайте обратно цели, которые пытаются выбежать из Energy Field.
 
 
 
-hero_tip_defensive_tip_Hero_Engineer_1			Атакуйте гаджеты инженера, чтобы они не нанесли слишком много урона. Остерегайтесь попадания в ловушки "Паучьи мины".
+hero_tip_defensive_tip_Hero_Engineer_1			Атакуйте устройства Engineer, чтобы они не наносили слишком много урона. Не дайте заманить себя в ловушки из Spider Mines.
 
 
 
-hero_tip_defensive_tip_Hero_Engineer_2			Следите за маной и положением Engineer, чтобы понять, когда и где он размещает "Паучьи мины".
+hero_tip_defensive_tip_Hero_Engineer_2			Следите за маной и позицией Engineer, чтобы понимать, когда и где он ставит Spider Mines.
 
 
 
@@ -27369,19 +27369,19 @@ hero_tip_defensive_tip_Hero_Engineer_2			Следите за маной и по�
 
 
 
-hero_tip_offensive_tip_Hero_Fayde_1				Используйте "Burning Shadows", чтобы оглушить нападавших. Используя "Отражение", будьте осторожны с врагами, имеющими скрытное обнаружение.
+hero_tip_offensive_tip_Hero_Fayde_1				Используйте Burning Shadows, чтобы оглушить преследователей. Под Reflection остерегайтесь врагов со средствами обнаружения невидимости.
 
 
 
-hero_tip_offensive_tip_Hero_Fayde_2				Используйте хождение по дереву с помощью "Отражения", чтобы удивить врагов, у которых есть возможность скрытного обнаружения.
+hero_tip_offensive_tip_Hero_Fayde_2				Прохождение сквозь деревья от Reflection позволяет застать врасплох даже врагов с обнаружением невидимости.
 
 
 
-hero_tip_defensive_tip_Hero_Fayde_1				Следите за картой и покупайте Ward of Revelations, чтобы Фейд не застал вас врасплох.
+hero_tip_defensive_tip_Hero_Fayde_1				Следите за картой и покупайте Ward of Revelation, чтобы Fayde не застала вас врасплох.
 
 
 
-hero_tip_defensive_tip_Hero_Fayde_2				Купите предметы с очками жизни, такие как Укрепленные наручи, и магическую броню, такую как Мистические облачения, чтобы Фейд не убила вас своим взрывным магическим уроном.
+hero_tip_defensive_tip_Hero_Fayde_2				Покупайте предметы на здоровье вроде Fortified Bracer и маг. броню вроде Mystic Vestments, чтобы Fayde не убила вас своим мгновенным маг. уроном.
 
 
 
@@ -27389,19 +27389,19 @@ hero_tip_defensive_tip_Hero_Fayde_2				Купите предметы с очка
 
 
 
-hero_tip_offensive_tip_Hero_FlintBeastwood_1	Флинтом Биствудом лучше всего играть на задних линиях боя, нанося урон издалека, пока его товарищи по команде занимают вражескую команду.
+hero_tip_offensive_tip_Hero_FlintBeastwood_1	Flint Beastwood лучше всего играть в задних рядах, нанося урон издалека, пока союзники отвлекают вражескую команду.
 
 
 
-hero_tip_offensive_tip_Hero_FlintBeastwood_2	Взрывная вспышка наносит урон зданиям и может использоваться для уничтожения башен, которые враги пытаются разрушить.
+hero_tip_offensive_tip_Hero_FlintBeastwood_2	Explosive Flare наносит урон зданиям и помогает добить башни, которые враги пытаются заденаить.
 
 
 
-hero_tip_defensive_tip_Hero_FlintBeastwood_1	ФлинтБ иствуд наносит очень хороший урон на большом расстоянии, но у него мало способов убежать, если вы приблизитесь к нему.
+hero_tip_defensive_tip_Hero_FlintBeastwood_1	Flint Beastwood наносит много урона издалека, но если подобраться к нему близко, сбежать ему почти нечем.
 
 
 
-hero_tip_defensive_tip_Hero_FlintBeastwood_2	Старайтесь гавкать Флинта Биствуда как можно раньше и чаще. Он - легкая цель, от которой невозможно сбежать, и он очень хорошо масштабируется в поздней игре, если ему разрешено кормить.
+hero_tip_defensive_tip_Hero_FlintBeastwood_2	Ганкайте Flint Beastwood рано и часто. Без побега он легкая цель, а если дать ему фармить, в поздней игре он становится очень сильным.
 
 
 
@@ -27409,19 +27409,19 @@ hero_tip_defensive_tip_Hero_FlintBeastwood_2	Старайтесь гавкать
 
 
 
-hero_tip_offensive_tip_Hero_Flux_1				Активируйте "Разряд", находясь в фиолетовом режиме, чтобы оттолкнуть всех врагов. Увеличение силы Flux не только увеличивает его выживаемость, но и увеличивает урон от Magnetic Surge.
+hero_tip_offensive_tip_Hero_Flux_1				Активируйте Discharge в фиолетовом режиме, чтобы оттолкнуть всех врагов. Сила для Flux повышает не только живучесть, но и урон Magnetic Surge.
 
 
 
-hero_tip_offensive_tip_Hero_Flux_2				Разряд можно использовать, чтобы обнаружить замаскированных вражеских героев, которые в противном случае могли бы уйти.
+hero_tip_offensive_tip_Hero_Flux_2				Discharge раскрывает невидимых вражеских героев, которые иначе ушли бы.
 
 
 
-hero_tip_defensive_tip_Hero_Flux_1				Нулевой камень защитит вас от глобального разряда.
+hero_tip_defensive_tip_Hero_Flux_1				Null Stone защитит вас от глобального Discharge.
 
 
 
-hero_tip_defensive_tip_Hero_Flux_2				Быстро разбегайтесь от товарищей по команде после Разряда, потому что за ним обычно следует множество заклинаний по области действия.
+hero_tip_defensive_tip_Hero_Flux_2				После Discharge быстро разбегайтесь от союзников: за ним обычно следует много заклинаний по области.
 
 
 
@@ -27429,19 +27429,19 @@ hero_tip_defensive_tip_Hero_Flux_2				Быстро разбегайтесь от
 
 
 
-hero_tip_offensive_tip_Hero_ForsakenArcher_1	При побеге предугадывайте движения противников с помощью "Crippling Volley".
+hero_tip_offensive_tip_Hero_ForsakenArcher_1	При побеге упреждайте движение противников с помощью Crippling Volley.
 
 
 
-hero_tip_offensive_tip_Hero_ForsakenArcher_2	Приберегите скелетных миньонов "Зова проклятых" на случай, если вы сможете толкнуть башню или вступить в бой. Нажмите на способность, чтобы начать собирать миньонов, и щелкните ее еще раз, чтобы высвободить их.
+hero_tip_offensive_tip_Hero_ForsakenArcher_2	Копите скелетов Call of the Damned на момент, когда можно пушить башню или начать драку. Нажмите способность, чтобы начать копить скелетов, и нажмите снова, чтобы выпустить их.
 
 
 
-hero_tip_defensive_tip_Hero_ForsakenArcher_1	Piercing Arrows создается из иллюзии, но его все равно можно прервать оглушением или молчанием.
+hero_tip_defensive_tip_Hero_ForsakenArcher_1	Piercing Arrows выпускает иллюзия, но ее все равно можно прервать оглушением или Безмолвием.
 
 
 
-hero_tip_defensive_tip_Hero_ForsakenArcher_2	Двигайтесь беспорядочно, когда ожидаете Crippling Volley.
+hero_tip_defensive_tip_Hero_ForsakenArcher_2	Двигайтесь непредсказуемо, если ждете Crippling Volley.
 
 
 
@@ -27449,19 +27449,19 @@ hero_tip_defensive_tip_Hero_ForsakenArcher_2	Двигайтесь беспоря
 
 
 
-hero_tip_offensive_tip_Hero_Gauntlet_1			Примените Grapple к союзнику, чтобы увести его и себя от опасности.
+hero_tip_offensive_tip_Hero_Gauntlet_1			Примените Grapple к союзнику, чтобы вывести из-под удара и его, и себя.
 
 
 
-hero_tip_offensive_tip_Hero_Gauntlet_2			Grapple можно использовать, чтобы зацепить героя или подтолкнуть вас обоих вперед, в зависимости от того, как далеко вы его забросили.
+hero_tip_offensive_tip_Hero_Gauntlet_2			Grapple может притянуть героя или бросить вас обоих вперед, в зависимости от того, как далеко вы его применили.
 
 
 
-hero_tip_defensive_tip_Hero_Gauntlet_1			Нулевой камень защитит вас от Gauntlet Blast. Урон от Gauntlet - это весь маг. урон, поэтому купите магическую броню, чтобы смягчить ее эффекты.
+hero_tip_defensive_tip_Hero_Gauntlet_1			Null Stone защитит вас от Gauntlet Blast. Весь урон Gauntlet магический, поэтому покупайте маг. броню.
 
 
 
-hero_tip_defensive_tip_Hero_Gauntlet_2			Помните о расположении Gauntlet, чтобы его не зацепили и не втолкнули в зону действия его башни.
+hero_tip_defensive_tip_Hero_Gauntlet_2			Следите за позицией Gauntlet, чтобы он не притянул вас и не затолкнул под свою башню.
 
 
 
@@ -27469,19 +27469,19 @@ hero_tip_defensive_tip_Hero_Gauntlet_2			Помните о расположен�
 
 
 
-hero_tip_offensive_tip_Hero_Geomancer_1			Используйте Dig, чтобы путешествовать по непроходимой местности, например, по скалам и деревьям. И Quicksand, и Crystal Field можно размещать не только поверх врагов, но и перед ними в качестве сдерживающего фактора.
+hero_tip_offensive_tip_Hero_Geomancer_1			С помощью Dig можно проходить через непроходимые места вроде скал и деревьев. Quicksand и Crystal Field можно ставить не только прямо на врагов, но и перед ними, чтобы отпугнуть.
 
 
 
-hero_tip_offensive_tip_Hero_Geomancer_2			Можно произносить заклинания, путешествуя под землей, с помощью Dig.
+hero_tip_offensive_tip_Hero_Geomancer_2			Под землей с помощью Dig можно применять заклинания.
 
 
 
-hero_tip_defensive_tip_Hero_Geomancer_1			Когда установлено Crystal Field, быстро отойдите в сторону, пока оно не взорвалось.
+hero_tip_defensive_tip_Hero_Geomancer_1			Когда появилось Crystal Field, быстро уходите с него, пока оно не взорвалось.
 
 
 
-hero_tip_defensive_tip_Hero_Geomancer_2			Пульсирующего урона от "Earth's Grasp" можно избежать, если двигаться достаточно быстро. Участники марша помогут вам опередить их.
+hero_tip_defensive_tip_Hero_Geomancer_2			От пульсирующего урона Earth's Grasp можно уйти, если двигаться достаточно быстро. Marchers помогут опережать его.
 
 
 
@@ -27489,19 +27489,19 @@ hero_tip_defensive_tip_Hero_Geomancer_2			Пульсирующего урона 
 
 
 
-hero_tip_offensive_tip_Hero_Glacius_1			Используйте Ice Imprisonment, чтобы остановить нападавшего. Вы также можете применить к себе Ice Imprisonment, чтобы смягчить урон на время действия, а затем применить Ледниковый ливень, чтобы замедлить и нанести урон ближайшим врагам.
+hero_tip_offensive_tip_Hero_Glacius_1			Используйте Ice Imprisonment, чтобы обезвредить преследователя. Можно применить Ice Imprisonment и на себя, чтобы снизить урон на время действия, а затем Glacial Downpour, чтобы замедлить и ранить врагов рядом.
 
 
 
-hero_tip_offensive_tip_Hero_Glacius_2			Используйте Tundra Blast по мере затухания Ice Imprisonment, чтобы избежать перекрытия ваших эффектов отключения.
+hero_tip_offensive_tip_Hero_Glacius_2			Применяйте Tundra Blast, когда Ice Imprisonment заканчивается, чтобы контроль не накладывался друг на друга.
 
 
 
-hero_tip_defensive_tip_Hero_Glacius_1			Ледниковый ливень - одно из самых разрушительных заклинаний в игре. Быстро прервите его, если он направит это.
+hero_tip_defensive_tip_Hero_Glacius_1			Glacial Downpour - одно из самых разрушительных заклинаний в игре. Быстро прерывайте Glacius, если он начал концентрацию.
 
 
 
-hero_tip_defensive_tip_Hero_Glacius_2			Вы все еще можете произносить заклинания, находясь под эффектом Ледяного заключения.
+hero_tip_defensive_tip_Hero_Glacius_2			Под Ice Imprisonment можно применять заклинания.
 
 
 
@@ -27509,19 +27509,19 @@ hero_tip_defensive_tip_Hero_Glacius_2			Вы все еще можете прои
 
 
 
-hero_tip_offensive_tip_Hero_Gladiator_1			Постарайтесь расположить ловушку, чтобы предугадать движения противника.
+hero_tip_offensive_tip_Hero_Gladiator_1			Ставьте Pitfall с упреждением, предугадывая движение противника.
 
 
 
-hero_tip_offensive_tip_Hero_Gladiator_2			Позиционирование важно для максимизации количества врагов, пораженных Бичеванием. Плащаница убийцы может помочь вам позиционировать, а также увеличить урон от атаки "Жгутиков ание".
+hero_tip_offensive_tip_Hero_Gladiator_2			Чтобы Flagellation задела как можно больше врагов, важна позиция. Assassin's Shroud поможет занять позицию и усилит урон атаки Flagellation.
 
 
 
-hero_tip_defensive_tip_Hero_Gladiator_1			Двигайтесь перпендикулярно Гладиатору, чтобы не попасть в радиус действия Бичевания.
+hero_tip_defensive_tip_Hero_Gladiator_1			Двигайтесь перпендикулярно Gladiator, чтобы не попасть в радиус Flagellation.
 
 
 
-hero_tip_defensive_tip_Hero_Gladiator_2			Заклинания Гладиатора имеют большую задержку, поэтому двигайтесь беспорядочно, чтобы избежать их.
+hero_tip_defensive_tip_Hero_Gladiator_2			У заклинаний Gladiator большая задержка, так что двигайтесь непредсказуемо, чтобы увернуться.
 
 
 
@@ -27529,19 +27529,19 @@ hero_tip_defensive_tip_Hero_Gladiator_2			Заклинания Гладиато�
 
 
 
-hero_tip_offensive_tip_Hero_Goldenveil_1		Отшельник полезен в качестве инструмента обнаружения вардов. Если Золотая Покров теряет свою регенерацию и врага не видно, возможно, поблизости установлен вард.
+hero_tip_offensive_tip_Hero_Goldenveil_1		Recluse помогает находить варды. Если Goldenveil теряет регенерацию, а врагов не видно, рядом, скорее всего, поставлен вард.
 
 
 
-hero_tip_offensive_tip_Hero_Goldenveil_2		Ганк целей с большим количеством жетонов не только заставляет Жадного поглотителя наносить больше урона, но также приносит самую высокую награду в виде золота для Goldenveil и его команды.
+hero_tip_offensive_tip_Hero_Goldenveil_2		Если ганкать цели с большим числом жетонов, Greedgutter наносит больше урона, а Goldenveil и его команда получают больше золота.
 
 
 
-hero_tip_defensive_tip_Hero_Goldenveil_1		Золотая Вуаль хрупкая и должна находиться на расстоянии ближнего боя, чтобы выполнить комби. Используйте эту возможность, чтобы взорвать его, прежде чем он сможет убежать обратно в деревья.
+hero_tip_defensive_tip_Hero_Goldenveil_1		Goldenveil хрупкий и для комбо должен подойти вплотную. Пользуйтесь моментом, чтобы убить его, пока он не сбежал обратно в деревья.
 
 
 
-hero_tip_defensive_tip_Hero_Goldenveil_2		Уничтожение деревьев не только ограничивает количество мест, где Золотая Вуаль может спрятаться, но также оглушает и раскрывает его, если вы уничтожите дерево, на котором он сидит.
+hero_tip_defensive_tip_Hero_Goldenveil_2		Уничтожение деревьев не только лишает Goldenveil мест, где спрятаться, но и оглушает и раскрывает его, если срубить дерево, на котором он сидит.
 
 
 
@@ -27549,19 +27549,19 @@ hero_tip_defensive_tip_Hero_Goldenveil_2		Уничтожение деревье�
 
 
 
-hero_tip_offensive_tip_Hero_Hammerstorm_1		Сохраните "Hammer Throw" для инициации, убийства и побега. Правильное использование способности определит, как будет развиваться командный бой.
+hero_tip_offensive_tip_Hero_Hammerstorm_1		Берегите Hammer Throw, чтобы начать драку, добить или сбежать. От того, как вы его примените, зависит исход командного боя.
 
 
 
-hero_tip_offensive_tip_Hero_Hammerstorm_2		Покупка ключа портала поможет вам начать бой, не давая врагам времени распространиться за пределы области действия вашего оглушения.
+hero_tip_offensive_tip_Hero_Hammerstorm_2		Portal Key поможет начинать драки, не давая врагам разбежаться из зоны вашего оглушения.
 
 
 
-hero_tip_defensive_tip_Hero_Hammerstorm_1		Отойдите от союзников, когда Хаммершторм выполняет Hammer Throw. Контроль толпы очень эффективен, когда вы пытаетесь избежать усиленных автоатак во время его грубой силы.
+hero_tip_defensive_tip_Hero_Hammerstorm_1		Отходите от союзников, когда Hammerstorm бросает Hammer Throw. Контроль отлично помогает избежать усиленных автоатак во время Brute Strength.
 
 
 
-hero_tip_defensive_tip_Hero_Hammerstorm_2		Покупка и использование Талисмана Бездны может быть очень эффективным способом сохранить себе жизнь, если на вас обрушивается Шторм Молотов с помощью грубой силы.
+hero_tip_defensive_tip_Hero_Hammerstorm_2		Если Hammerstorm бьет вас под Brute Strength, Void Talisman может спасти вам жизнь.
 
 
 
@@ -28113,11 +28113,11 @@ hero_tip_offensive_tip_Hero_Pandamonium_1				Cannon Ball может запуст
 
 
 
-hero_tip_offensive_tip_Hero_Pandamonium_2				У Пандамониума может быть ограничено количество маны, а такие предметы, как Nullstone или Blood Chalice, могут помочь ему использовать все свои заклинания.
+hero_tip_offensive_tip_Hero_Pandamonium_2				У Пандамониума может быть ограничено количество маны, а такие предметы, как Null Stone или Blood Chalice, могут помочь ему использовать все свои заклинания.
 
 
 
-hero_tip_defensive_tip_Hero_Pandamonium_1				Купите Nullstone, чтобы предотвратить Face Smash. Талисман Бездны позволит вам на время уклониться от всех способностей Пандамониума.
+hero_tip_defensive_tip_Hero_Pandamonium_1				Купите Null Stone, чтобы предотвратить Face Smash. Талисман Бездны позволит вам на время уклониться от всех способностей Пандамониума.
 
 
 
@@ -28321,7 +28321,7 @@ hero_tip_defensive_tip_Hero_Pyromancer_1		Оглушение Pyromancer "Dragonf
 
 
 
-hero_tip_defensive_tip_Hero_Pyromancer_2		Nullstone не позволит Pyromancer использовать на вас Blazing Strike. У него нет других заклинаний, способных снять защиту от Нулевого камня.
+hero_tip_defensive_tip_Hero_Pyromancer_2		Null Stone не позволит Pyromancer использовать на вас Blazing Strike. У него нет других заклинаний, способных снять защиту от Нулевого камня.
 
 
 
@@ -28693,7 +28693,7 @@ hero_tip_offensive_tip_Hero_Tundra_2			Обязательно используй
 
 
 
-hero_tip_defensive_tip_Hero_Tundra_1			Быстро убейте Керла, чтобы его не замедлили. Покупка Nullstone может помочь предотвратить мощное оглушение от Лавины Тундры.
+hero_tip_defensive_tip_Hero_Tundra_1			Быстро убейте Керла, чтобы его не замедлили. Покупка Null Stone может помочь предотвратить мощное оглушение от Лавины Тундры.
 
 
 
@@ -28809,7 +28809,7 @@ hero_tip_offensive_tip_Hero_WitchSlayer_1		Миниатюризация прим
 
 
 
-hero_tip_offensive_tip_Hero_WitchSlayer_2		Power Drain отлично подходит для снятия защиты от Nullstone или против линий без дебилов. Его также можно использовать на крипах для пополнения вашей маны.
+hero_tip_offensive_tip_Hero_WitchSlayer_2		Power Drain отлично подходит для снятия защиты от Null Stone или против линий без дебилов. Его также можно использовать на крипах для пополнения вашей маны.
 
 
 
