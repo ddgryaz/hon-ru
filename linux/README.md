@@ -1,6 +1,6 @@
 # Как устроен порт под Linux
 
-Установка и команды - в [корневом README](../README.md).
+Установка - в [корневом README](../README.md), отладка - ниже.
 
 ## Когда раскладываются файлы
 
@@ -36,5 +36,19 @@ Wine часть из них не собирает, и эффекты рисую�
 ## Где ищется игра
 
 Префиксы Proton во всех библиотеках Steam (включая flatpak), `$WINEPREFIX`,
-`$STEAM_COMPAT_DATA_PATH`, `~/.wine`, Lutris и Bottles. Не нашлась - задай
-пути в `linux/config.local.sh`, см. корневой README.
+`$STEAM_COMPAT_DATA_PATH`, `~/.wine`, Lutris и Bottles. Не нашлась - создай
+`linux/config.local.sh` (он в `.gitignore`):
+
+```sh
+HON_GAME_DIR="/путь/до/AppData/Local/Juvio/heroes of newerth"
+HON_DOCS_DIR="/путь/до/Documents/Juvio/Heroes of Newerth"
+```
+
+`HON_DOCS_DIR` можно не задавать: он выводится из `HON_GAME_DIR` по
+стандартной раскладке префикса.
+
+## Отладка
+
+- `make run` - то же, что строка для Steam, но без Steam: запусти скрипт,
+  потом игру обычным способом.
+- `make probe` - то же плюс inotify-лог обращений движка к файлам строк.
