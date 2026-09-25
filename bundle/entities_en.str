@@ -109364,7 +109364,7 @@ Item_AssassinsShroud_effect_header										Эффект(ы) скрытност�
 
 
 
-Item_AssassinsShroud_shop_flavor										Легенда гласит, что одеяния, называемые Покровом Ассасина, были созданы по образу проклятого наряда того, кто сразил Слепого Пророка Сола века назад. Многие не согласны, указывая, что Пророка убила женщина, но каков бы ни был его источник, Покров дарует более смертоносные и быстрые атаки и способность растворяться в тенях.
+Item_AssassinsShroud_shop_flavor										Легенда гласит, что одеяние Assassin's Shroud создано по образу проклятого наряда человека, который века назад сразил Слепого Пророка Сола. Многие возражают, что Пророка убила женщина, но каково бы ни было его происхождение, Assassin's Shroud делает атаки быстрее и смертоноснее и позволяет растворяться в тенях.
 
 
 
@@ -109476,7 +109476,7 @@ Item_ShrunkenHead_search_terms										shrunkenhead,shrunken,head,shrunkhead,bk
 
 
 
-Item_ShrunkenHead_effect_header										Эффект(ы) сморщенной головы
+Item_ShrunkenHead_effect_header										Эффекты Shrunken Head
 
 
 
@@ -109484,7 +109484,7 @@ Item_ShrunkenHead_effect_header										Эффект(ы) сморщенной �
 
 
 
-Item_ShrunkenHead_shop_flavor										Мрачная реликвия войны между Звериной Ордой и Легионом Людей, Сморщенные Головы дарят силу мертвого воина, из которого они вырезаны, и защищают от враждебных чар.
+Item_ShrunkenHead_shop_flavor										Мрачная реликвия войны между Звериной Ордой и Легионом Людей, Shrunken Head дарит силу мертвого воина, из которого ее сделали, и защищает от враждебных чар.
 
 
 
@@ -109564,7 +109564,7 @@ Item_ShrunkenHead_Consumable_description_simple								^428Модификато�
 
 
 
-Item_ShrunkenHead_Consumable_effect_header										Эффект(ы) крошечной головы Конга
+Item_ShrunkenHead_Consumable_effect_header										Эффекты Kong's Tiny Head
 
 
 
@@ -109668,7 +109668,7 @@ Item_Firebrand_effect_header										Статусные эффекты
 
 
 
-Item_Firebrand_shop_flavor										Слэш - кинжал ассасина, дающий ловкость и скор. атаки для нанесения быстрых точных ударов и скор. движ. для побега. Несмотря на эти полезные свойства, само оружие наносит мало урона и, возможно, наиболее эффективно как талисман.
+Item_Firebrand_shop_flavor										Slash - кинжал ассасина, дающий ловкость и скор. атаки для нанесения быстрых точных ударов и скор. движ. для побега. Несмотря на эти полезные свойства, само оружие наносит мало урона и, возможно, наиболее эффективно как талисман.
 
 
 
@@ -109748,7 +109748,7 @@ Item_SoulscreamRing_effect_header									Статусные эффекты
 
 
 
-Item_SoulscreamRing_shop_flavor										Выкованные из духов, безвременно вырванных из тел, Кольца Крика Душ - одновременно благословение и проклятие. Любой достаточно порочный, чтобы надеть такое, получает часть способностей и сил заключенных душ, но вынужден терпеть бесконечный вопль жертв. Конечно, такой вой делает владельца особенно бдительным и быстрым.
+Item_SoulscreamRing_shop_flavor										Выкованное из духов, безвременно вырванных из тел, Soulscream Ring - одновременно благословение и проклятие. Любой достаточно порочный, чтобы надеть такое, получает часть способностей и сил заключенных душ, но вынужден терпеть бесконечный вопль жертв. Конечно, такой вой делает владельца особенно бдительным и быстрым.
 
 
 
@@ -109820,7 +109820,7 @@ Item_StaffOfTheMaster_effect_header
 
 
 
-Item_StaffOfTheMaster_shop_flavor									Наиболее погруженные в тайные искусства Неверта, люди и звери, носят крылатый Посох Мастера как знак своего ранга. Возможно, это знакакого-то тайного ордена, но скорее его носят ради интеллекта, здоровья и маны, которые он дарует, и стремления раскрыть его секретные силы.
+Item_StaffOfTheMaster_shop_flavor									Самые искушенные в тайных искусствах Неверта, люди и звери, носят крылатый Staff of the Master как знак своего ранга. Возможно, это знак какого-то тайного ордена, но скорее его носят ради интеллекта, здоровья и маны, которые он дарует, и в надежде раскрыть его тайные силы.
 
 
 
@@ -109948,7 +109948,7 @@ State_MastersLegacy_name										Master's Legacy
 
 
 
-State_MastersLegacy_FRAME_effect								Способности усилены эффектами Посоха Мастера.
+State_MastersLegacy_FRAME_effect								Способности усилены эффектами Staff of the Master.
 
 
 
@@ -110172,7 +110172,7 @@ Item_Stormspirit_search_terms									stormspirit,stromspirit,storm,spirit,euls,
 
 
 
-Item_Stormspirit_effect_header								Эффект(ы) циклона
+Item_Stormspirit_effect_header								Эффекты Cycloned
 
 
 
@@ -110180,7 +110180,7 @@ Item_Stormspirit_effect_header								Эффект(ы) циклона
 
 
 
-Item_Stormspirit_effect_header2								Эффект(ы) ветра
+Item_Stormspirit_effect_header2								Эффекты Windswept
 
 
 
@@ -110188,7 +110188,7 @@ Item_Stormspirit_effect_header2								Эффект(ы) ветра
 
 
 
-Item_Stormspirit_shop_flavor									Со времен Войны Древних дикие Духи Шторма бичевали поверхность Неверта. При правильных ритуалах и словах связывания Дух Шторма может быть привязан как фамильяр, даруя усиленные магические силы, скорость самого духа и способность призывать ветра против врагов.
+Item_Stormspirit_shop_flavor									Со времен Войны Древних дикие Stormspirit терзают поверхность Неверта. Правильными ритуалами и словами связывания Stormspirit можно привязать как фамильяра: он дарует усиленные магические силы, собственную скорость и способность призывать ветра против врагов.
 
 
 
@@ -110356,7 +110356,7 @@ Item_Sustainer_effect_header										Статусные эффекты
 
 
 
-Item_Sustainer_shop_flavor											Созданные по образцу Древних устройств из книг знаний, Подпитыватели питают жизнью и энергией каждого, кто их носит. Более того, усиленное состояние от всплеска сил Подпитывателя заставляет воинов наносить более мощные удары.
+Item_Sustainer_shop_flavor											Созданный по образцу устройств Древних из книг знаний, Sustainer питает жизнью и энергией того, кто его носит. Более того, прилив сил от Sustainer заставляет воинов бить врагов сильнее.
 
 
 
@@ -110412,7 +110412,7 @@ Item_LexTalionis_description_simple								Снижает броню вам и �
 
 
 
-Item_LexTalionis_effect_header									Эффект(ы) Закона Возмездия
+Item_LexTalionis_effect_header									Эффекты Lex Talionis (на себя)
 
 
 
@@ -110611,7 +110611,7 @@ Item_SymbolOfRage_search_terms									symbolofrage,rage,symbol,satanic,strength
 
 
 
-Item_SymbolOfRage_effect_header									Эффект(ы) Symbolic Rage
+Item_SymbolOfRage_effect_header									Эффекты Symbolic Rage
 
 
 
@@ -110803,7 +110803,7 @@ Item_Thunderclaw_effect_header									Статусные эффекты
 
 
 
-Item_Thunderclaw_shop_flavor										Вырезанные из конечности редкого существа, обитающего в зловонных болотах запада, Громовые Когти издавна были любимым оружием Звериной Орды. Пронзительная энергия внутри дарит новую ловкость владельцу и причиняет жгучую боль любому пораженному врагу. В редких случаях связь жизненной силы владельца и некротического Громового Когтя порождает взрыв энергии, поражающий ближайших врагов.
+Item_Thunderclaw_shop_flavor										Вырезанный из конечности редкого существа, обитающего в зловонных болотах запада, Thunderclaw издавна был любимым оружием Звериной Орды. Энергия внутри дарит владельцу новую ловкость и причиняет жгучую боль любому пораженному врагу. В редких случаях связь жизненной силы владельца и некротического Thunderclaw порождает взрыв энергии, поражающий ближайших врагов.
 
 
 
@@ -111099,7 +111099,7 @@ Item_KuldrasSheepstick_search_terms											kuldrassheepstick,kuldrasheepstick
 
 
 
-Item_KuldrasSheepstick_effect_header										Эффект(ы) превращения
+Item_KuldrasSheepstick_effect_header										Эффекты Transfigured
 
 
 
@@ -111163,7 +111163,7 @@ State_KuldrasSheepstick_name												Transfigured
 
 
 
-State_KuldrasSheepstick_FRAME_effect										Базовая скор. движ. установлена на 100\nОтменяет уклонение\n\nОчистка этого состояния уменьшит текущую длительность на 70% и сделает это состояние неизлечимым.
+State_KuldrasSheepstick_FRAME_effect										Базовая скор. движ. установлена на 100\nОтменяет уклонение\n\nОчистка этого состояния уменьшит текущую длительность на 70% и сделает это состояние неснимаемым.
 
 
 
@@ -111243,7 +111243,7 @@ Item_WhisperingHelm_effect_header								Статусные эффекты
 
 
 
-Item_WhisperingHelm_shop_flavor									Шепчущие Шлемы - дары Хеллборна своим испорченным лейтенантам. Хотя шлемы дают броню, усиленную атакующую мощь и способность высасывать жизнь из врага, наиболее ужасающи духи внутри шлемов, которые и сводят носителя с ума, и могут быть призваны для подчинения сознания слабых существ.
+Item_WhisperingHelm_shop_flavor									Whispering Helm - дар Хеллборна своим порченым лейтенантам. Хотя эти шлемы дают броню, усиленную атакующую мощь и способность высасывать жизнь из врага, наиболее ужасающи духи внутри шлемов, которые и сводят носителя с ума, и могут быть призваны для подчинения сознания слабых существ.
 
 
 
@@ -111387,7 +111387,7 @@ Item_Wingbow_effect_header										Статусные эффекты
 
 
 
-Item_Wingbow_shop_flavor										Крылолуки - лучшие луки, когда-либо созданные Звериной Ордой. Наделенные благословениями каждого из Новых Богов и пропитанные маслами и травяными отварами, это оружие дарует удивительную ловкость владельцу, так что его атаки почти всегда попадают в цель.
+Item_Wingbow_shop_flavor										Wingbow - лучшие луки, когда-либо созданные Звериной Ордой. Наделенные благословениями каждого из Новых Богов и пропитанные маслами и травяными отварами, это оружие дарует удивительную ловкость владельцу, так что его атаки почти всегда попадают в цель.
 
 
 
@@ -111491,7 +111491,7 @@ Item_FrostwolfsSkull_tooltip_flavor										Моя кровь стынет, к�
 
 
 
-Item_FrostwolfsSkull_shop_flavor											Один из Новых Богов, почитаемых зверями - Морозный Волк, мифическое существо, воплощающее холодную месть. В его честь из замороженных голов белых волков изготавливают тотемы - Черепа Морозного Волка. Эти священные черепа дарят замораживающую атаку, огромный рост всех способностей и больший потенциал здоровья и магии.
+Item_FrostwolfsSkull_shop_flavor											Один из Новых Богов, почитаемых зверями - Морозный Волк, мифическое существо, воплощающее холодную месть. В его честь из замороженных голов белых волков изготавливают тотемы - Frostwolf's Skull. Эти священные черепа дарят замораживающую атаку, огромный рост всех способностей и больший потенциал здоровья и магии.
 
 
 
@@ -111675,7 +111675,7 @@ Item_FrostfieldPlate_search_terms								frostfield,frost,shiva,guard,shivas,int
 
 
 
-Item_FrostfieldPlate_effect_header								Эффект(ы) ледяного поля
+Item_FrostfieldPlate_effect_header								Эффекты Frostfield
 
 
 
@@ -111683,7 +111683,7 @@ Item_FrostfieldPlate_effect_header								Эффект(ы) ледяного по
 
 
 
-Item_FrostfieldPlate_shop_flavor								В жестоко холодных северных пределах Неверта предприимчивые ученые нашли способ ковать доспехи изо льда. Знаменитые Доспехи Морозного Поля не только держат разум носителя бодрствующим, но и замораживают, замедляя любого ближайшего врага. Примечательнее всего, что одним нажатием переключателя доспехи могут высвободить накопленный взрывной холод.
+Item_FrostfieldPlate_shop_flavor								В жестоко холодных северных пределах Неверта предприимчивые ученые нашли способ ковать доспехи изо льда. Знаменитые Frostfield Plate не только держат разум носителя бодрствующим, но и замораживают, замедляя любого ближайшего врага. Примечательнее всего, что одним нажатием переключателя доспехи могут высвободить накопленный взрывной холод.
 
 
 
@@ -111803,7 +111803,7 @@ Item_RejuvenationPotion_search_terms							RejuvenationPotion,RejuvenationPotion
 
 
 
-Item_RejuvenationPotion_effect_header							Эффект(ы) зелья омоложения
+Item_RejuvenationPotion_effect_header							Эффекты Rejuvenation Potion
 
 
 
@@ -111859,7 +111859,7 @@ State_RejuvenationPotion_name									Rejuvenation Potion
 
 
 
-State_RejuvenationPotion_FRAME_effect							50 здоровья в сек.\nРассеивается при получении урона от нейтрального источника NPC, не являющегося лейн-критом и небосвод.
+State_RejuvenationPotion_FRAME_effect							50 здоровья в сек.\nСнимается при получении урона от любого источника, кроме крипов линии и нейтральных NPC (не боссов)
 
 
 
@@ -111915,7 +111915,7 @@ Item_SandScepter_description_simple 							Обездвиживает враго
 
 
 
-Item_SandScepter_effect_header									Эффект(ы) Sand Scepter
+Item_SandScepter_effect_header									Эффекты Sand Scepter
 
 
 
@@ -112051,7 +112051,7 @@ Item_CorruptedSword_search_terms								corruptedsword,CorruptedSword,damage,con
 
 
 
-Item_CorruptedSword_effect_header								Эффект(ы) оскверненного меча
+Item_CorruptedSword_effect_header								Эффекты Corrupted Sword
 
 
 
@@ -112242,7 +112242,7 @@ Item_Madfreds_BrassKnuckles_search_terms						madfredsbrassknuckles,MadfredsBras
 
 
 
-Item_Madfreds_BrassKnuckles_effect_header						Эффект(ы) латунного кастета Мадфреда
+Item_Madfreds_BrassKnuckles_effect_header						Эффекты Madfred's Brass Knuckles
 
 
 
@@ -112322,7 +112322,7 @@ Item_OrbOfZamos_description_simple 								Ускоряет вас и ближа
 
 
 
-Item_OrbOfZamos_effect_header									Эффекты Синхронизации
+Item_OrbOfZamos_effect_header									Эффекты Synchronized
 
 
 
@@ -112402,7 +112402,7 @@ State_OrbOfZamos_name											Synchronized
 
 
 
-State_OrbOfZamos_FRAME_effect									Убийство вражеских крипов на линии дает синхронизированному герою 20% золотой награды\nЗапрет на использование крипов на линии союзника дает синхронизированному герою 35% золотой награды\nНачинает истекать, если вы находитесь на расстоянии 1500 единиц от вашего синхронизированного партнера
+State_OrbOfZamos_FRAME_effect									Убийство вражеских крипов линии дает синхронизированному герою 20% награды золотом\nДенай союзных крипов линии дает синхронизированному герою 35% награды золотом\nЭффект начинает истекать, если вы дальше 1500 единиц от синхронизированного напарника
 
 
 
@@ -112650,7 +112650,7 @@ Item_Dreamcatcher_search_terms									soultrap,soul,heal,strength,str,st,urn,sh
 
 
 
-Item_Dreamcatcher_effect_header									Эффект(ы) ловца снов
+Item_Dreamcatcher_effect_header									Эффекты Dreamcatcher
 
 
 
@@ -112714,7 +112714,7 @@ State_Dreamcatcher_Ally_name									Dream
 
 
 
-State_Dreamcatcher_Ally_FRAME_effect							30 здоровья в сек.\nЭффективность этого состояния снижается на 60% при получении урона от врагов, не являющихся лейн-крипами.
+State_Dreamcatcher_Ally_FRAME_effect							30 здоровья в сек.\nЭффективность снижается на 60% при получении урона от врагов, кроме крипов линии.
 
 
 
@@ -112818,7 +112818,7 @@ Item_ArcaneBomb_search_terms									arcane,bomb,magic,damage,true,arcanebomb,cr
 
 
 
-Item_ArcaneBomb_effect_header									Эффект(ы) магической бомбы
+Item_ArcaneBomb_effect_header									Эффекты Arcane Bomb
 
 
 
@@ -112946,7 +112946,7 @@ State_ToxinClaws_name											Poisoned
 
 
 
-State_ToxinClaws_FRAME_effect									6 здоровья в сек. (после снижения от маг. брони)
+State_ToxinClaws_FRAME_effect									Снимает 6 здоровья в сек. (после снижения маг. броней)
 
 
 
@@ -112954,7 +112954,7 @@ State_ToxinClaws_FRAME_effect									6 здоровья в сек. (после 
 
 
 
-State_ToxinClaws_FRAME_effect:item_toxinclaws_MeleeSlow			6 здоровья в сек. (после снижения от маг. брони)
+State_ToxinClaws_FRAME_effect:item_toxinclaws_MeleeSlow			Снимает 6 здоровья в сек. (после снижения маг. броней)
 
 
 
@@ -112962,7 +112962,7 @@ State_ToxinClaws_FRAME_effect:item_toxinclaws_MeleeSlow			6 здоровья в 
 
 
 
-State_ToxinClaws_FRAME_effect:item_toxinclaws_RangedSlow		3 здоровья в сек. (после снижения от маг. брони)
+State_ToxinClaws_FRAME_effect:item_toxinclaws_RangedSlow		Снимает 3 здоровья в сек. (после снижения маг. броней)
 
 
 
@@ -113218,7 +113218,7 @@ Item_BloodRuby_search_terms										fluffyhat,blood,ruby,bloodruby,150hp,150hea
 
 
 
-Item_BloodRuby_effect_header									Эффект(ы) Blood Ruby
+Item_BloodRuby_effect_header									Эффекты Blood Ruby
 
 
 
@@ -113290,7 +113290,7 @@ Item_EtherJewel_search_terms									ether,jewel,etherjewel,100mp,100mana,mana,m
 
 
 
-Item_EtherJewel_effect_header									Эффект(ы) эфирного камня
+Item_EtherJewel_effect_header									Эффекты Ether Jewel
 
 
 
@@ -113370,7 +113370,7 @@ Item_NihilCrystal_search_terms									nihil,crystal,nihilcrystal,infusedraindro
 
 
 
-Item_NihilCrystal_effect_header									Эффект(ы) нигилистического кристалла
+Item_NihilCrystal_effect_header									Эффекты Nihil Crystal
 
 
 
@@ -113498,7 +113498,7 @@ Item_ProtectiveTalisman_shop_categories							Filter_Armor, Filter_Regeneration
 
 
 
-Item_ProtectiveTalisman_FRAME_effect								\nДает 80% шанс заблокировать 20 урона при атаке героем, если владелец является героем ближнего боя. Для героев дальнего боя блокируется только 10 урона.\n\nШанс заблокировать урон составляет 50% при атаке целей, не-героев.
+Item_ProtectiveTalisman_FRAME_effect								\nЕсли владелец - герой ближнего боя, дает 80% шанс заблокировать 20 урона, когда его атакует герой. Для героев дальнего боя блокируется только 10 урона.\n\nКогда атакуют не герои, шанс заблокировать урон составляет 50%.
 
 
 
@@ -113562,7 +113562,7 @@ Item_AdevesCloak_search_terms									adeve,adeves,cloak,adevescloak,aeon,disk,a
 
 
 
-Item_AdevesCloak_effect_header									Эффект(ы) плаща Адева
+Item_AdevesCloak_effect_header									Эффекты Adeve's Cloak
 
 
 
@@ -114194,7 +114194,7 @@ Item_ShieldOfHonor_description	Реликвия, выжженная смерть
 
 
 
-Item_ShieldOfHonor_FRAME_effect									\nКогда ^o атакован^*, вы получаете бафф ^o3 к силе атаки и скор. атаки^* на 5 сек. Эффект суммируется до 10 раз.
+Item_ShieldOfHonor_FRAME_effect									\nКогда вас ^oатакуют^*, вы получаете ^o+3 к урону от атаки и скор. атаки^* на 5 сек. Эффект суммируется до 10 раз.
 
 
 
@@ -114314,7 +114314,7 @@ Item_GoldenReach_description	Реликвия, выжженная смертью
 
 
 
-Item_GoldenReach_FRAME_effect									\nПолучение урона из любого источника удаляет бафф ^oСкорости передвижения^* на 5 сек.\n\nПолучайте доп. 5 золотых при убийстве вражеского юнита.
+Item_GoldenReach_FRAME_effect									\nПолучение урона из любого источника снимает бонус ^oскор. движ.^* на 5 сек.\n\nВы получаете доп. 5 золота за убийство вражеского юнита.
 
 
 
@@ -114354,7 +114354,7 @@ Item_ObsidianSpear_description	Реликвия, выжженная смерть
 
 
 
-Item_ObsidianSpear_FRAME_effect									\n^oПри убийстве/помощи героя^*: Сократите оставшуюся перезарядку ваших основных способностей на 4 сек.
+Item_ObsidianSpear_FRAME_effect									\n^oПри убийстве героя или помощи^*: сокращает оставшуюся перезарядку основных способностей на 4 сек.
 
 
 
@@ -114394,7 +114394,7 @@ Item_BrimstonePlate_description	Реликвия, выжженная смерт�
 
 
 
-Item_BrimstonePlate_FRAME_effect								\n^oПри атаке^* выстрелите в атакующего снарядом, нанося ^oмаг. урон^*, равный 30 + 2% от вашего максимального запаса здоровья, и получаемое им исцеление снижается на 25% на 2 сек.
+Item_BrimstonePlate_FRAME_effect								\n^oКогда вас атакуют^*, выпускает в атакующего снаряд, который наносит ^oмаг. урон^*, равный 30 + 2% от вашего макс. здоровья, и снижает получаемое им исцеление на 25% на 2 сек.
 
 
 
@@ -114474,7 +114474,7 @@ Item_EmberstoneBracers_description	Реликвия, выжженная смер
 
 
 
-Item_EmberstoneBracers_FRAME_effect								\nКаждый раз, когда вы наносите урон, не связанный с DOT, применяйте дебаффы, который снижает ^oСкор. движ.^* на 40%, постепенно уменьшаясь на 0,5 сек. Может срабатывать ^o раз в 2 сек.^* на заданной цели.
+Item_EmberstoneBracers_FRAME_effect								\nКогда вы наносите непериодический урон, накладывает дебафф, который снижает ^oскор. движ.^* на 40% с затуханием за 0,5 сек. Может ^oсрабатывать раз в 2 сек.^* на одной цели.
 
 
 
@@ -114546,7 +114546,7 @@ Item_LastWail_description	Реликвия, выжженная смертью в
 
 
 
-Item_LastWail_FRAME_effect								\nЕсли вас убивает ^oвражеский герой^*, взорвите его, нанеся ^oчист. урона^*, равного 250+10% от его макс. здоровья. Если этот эффект убивает, вы возрождается с 250+10% здоровья.
+Item_LastWail_FRAME_effect								\nЕсли вас убивает ^oвражеский герой^*, взрыв наносит ему ^oчист. урон^*, равный 250+10% от его макс. здоровья. Если этот эффект убивает, вы возрождаетесь с 250+10% здоровья.
 
 
 
@@ -114778,7 +114778,7 @@ Item_LagunaOrb_description	Реликвия, выжженная смертью �
 
 
 
-Item_LagunaOrb_FRAME_effect								\nКаждая шестая атака наносит дополнительно ^o100 чист. урона^*, снимает все баффы и снижает ^oСкор. движ. цели на 100%^*, постепенно уменьшаясь на 1 сек.
+Item_LagunaOrb_FRAME_effect								\nКаждая шестая атака наносит дополнительно ^o100 чист. урона^*, снимает все баффы и снижает ^oСкор. движ. цели на 100%^*, с затуханием за 1 сек.
 
 
 
@@ -114890,7 +114890,7 @@ State_Item_PhoenixTalon_Return_name							 Talon's Dive
 
 
 
-State_Item_PhoenixTalon_Return_FRAME_effect			 Возвращение к точке каста!
+State_Item_PhoenixTalon_Return_FRAME_effect			 Возвращение к точке применения!
 
 
 
@@ -114962,7 +114962,7 @@ Item_BurningTemper_description	Реликвия, выжженная смерть
 
 
 
-Item_BurningTemper_FRAME_effect								\nВаши атаки наносят доп. ^oфиз. урон^*, равный 2% от вашего ^oМакс. здоровья^*.
+Item_BurningTemper_FRAME_effect								\nВаши атаки наносят доп. ^oфиз. урон^*, равный 2% от вашего ^oмакс. здоровья^*.
 
 
 
@@ -115002,7 +115002,7 @@ Item_TwinTikiMask_description	Реликвия, выжженная смерть�
 
 
 
-Item_TwinTikiMask_FRAME_effect								\n^oПри выключении^*: наносите и получаете на 15% меньше урона от всех источников (10% для героев дальнего боя).\n\n^oПри включении^*: наносите и получаете на 15% больше урона от всех источников (10% для героев дальнего боя).
+Item_TwinTikiMask_FRAME_effect								\n^oВ выключенном состоянии^*: вы наносите и получаете на 15% меньше урона от всех источников (10% для героев дальнего боя).\n\n^oВо включенном состоянии^*: вы наносите и получаете на 15% больше урона от всех источников (10% для героев дальнего боя).
 
 
 
@@ -115042,7 +115042,7 @@ Item_HelmOfTheFirelands_description	Реликвия, выжженная сме�
 
 
 
-Item_HelmOfTheFirelands_FRAME_effect						\nКаждая ^o5-я атака^* порождает иллюзию на 5 сек. Иллюзия наносит 35% урона, получает 300% урона и ^oне может сработать^* этот предмет.
+Item_HelmOfTheFirelands_FRAME_effect						\nКаждая ^o5-я атака^* порождает иллюзию на 5 сек. Иллюзия наносит 35% урона, получает 300% урона и ^oне может активировать^* этот предмет.
 
 
 
@@ -115082,7 +115082,7 @@ Item_Chaosbrand_description		Реликвия, выжженная смертью
 
 
 
-Item_Chaosbrand_FRAME_effect:chaosbrand_emberfrost				\nАтаки снижают ^oСкор. движ.^* на 40% на 2 сек.\n\n^oКаждую сек. и каждый раз, когда вы атакуете ^*, существует ^o5% шанс^*, что предмет изменит свой элемент, предоставляя различные бонусы.\n\nПри активации: временно получить все возможные эффекты Chaosbrand на 10 сек.
+Item_Chaosbrand_FRAME_effect:chaosbrand_emberfrost				\nАтаки снижают ^oскор. движ.^* на 40% на 2 сек.\n\n^oКаждую сек. и при каждой вашей атаке^* есть ^o5% шанс^*, что предмет сменит стихию и даст другие бонусы.\n\nАктивируйте, чтобы на 10 сек. получить все эффекты Chaosbrand.
 
 
 
@@ -115090,7 +115090,7 @@ Item_Chaosbrand_FRAME_effect:chaosbrand_emberfrost				\nАтаки снижаю�
 
 
 
-Item_Chaosbrand_FRAME_effect:chaosbrand_starborn				\nНе-DOT-урон наносит доп. ^o75 маг. урона^* в течение 2 сек.\n\n^oКаждую сек. и каждый раз, когда вы атакуете^*, существует ^o5% шанс^*, что предмет изменит свой элемент, предоставляя различные бонусы.\n\nПри активации: временно получить все возможные эффекты Chaosbrand на 10 сек.
+Item_Chaosbrand_FRAME_effect:chaosbrand_starborn				\nНепериодический урон дополнительно наносит ^o75 маг. урона^* за 2 сек.\n\n^oКаждую сек. и при каждой вашей атаке^* есть ^o5% шанс^*, что предмет сменит стихию и даст другие бонусы.\n\nАктивируйте, чтобы на 10 сек. получить все эффекты Chaosbrand.
 
 
 
@@ -115098,7 +115098,7 @@ Item_Chaosbrand_FRAME_effect:chaosbrand_starborn				\nНе-DOT-урон нано
 
 
 
-Item_Chaosbrand_FRAME_effect:chaosbrand_duskwrath				\n27% нанесенного урона, не связанного с DOT, также наносится на ману врага. Если маны не осталось, вместо этого наносится доп. урон здоровью.\n\n^oКаждую сек. и каждый раз, когда вы атакуете^*, существует ^o5% шанс^*, что предмет изменит свой элемент, предоставляя различные бонусы.\n\nПри активации: временно получить все возможные эффекты Chaosbrand на 10 сек.
+Item_Chaosbrand_FRAME_effect:chaosbrand_duskwrath				\n27% непериодического урона также снимается с маны врага. Если маны не осталось, этот урон идет по здоровью.\n\n^oКаждую сек. и при каждой вашей атаке^* есть ^o5% шанс^*, что предмет сменит стихию и даст другие бонусы.\n\nАктивируйте, чтобы на 10 сек. получить все эффекты Chaosbrand.
 
 
 
@@ -115106,7 +115106,7 @@ Item_Chaosbrand_FRAME_effect:chaosbrand_duskwrath				\n27% нанесенног�
 
 
 
-Item_Chaosbrand_FRAME_effect:chaosbrand_ironroot				\nАтаки снижают ^oСкор. атаки^* на 25% на 2 сек.\n\n^oКаждую сек. и каждый раз, когда вы атакуете ^*, существует ^o5% шанс^*, что предмет изменит свой элемент, предоставляя различные бонусы.\n\nПри активации: временно получить все возможные эффекты Chaosbrand на 10 сек.
+Item_Chaosbrand_FRAME_effect:chaosbrand_ironroot				\nАтаки снижают ^oскор. атаки^* на 25% на 2 сек.\n\n^oКаждую сек. и при каждой вашей атаке^* есть ^o5% шанс^*, что предмет сменит стихию и даст другие бонусы.\n\nАктивируйте, чтобы на 10 сек. получить все эффекты Chaosbrand.
 
 
 
@@ -115114,7 +115114,7 @@ Item_Chaosbrand_FRAME_effect:chaosbrand_ironroot				\nАтаки снижают 
 
 
 
-Item_Chaosbrand_FRAME_effect:chaosbrand_active				\nВременно получаете все эффекты ^oКлейма Хаоса^*.\n\n- Атаки снижают ^oСкор. движ.^* на 40% на 2 сек.\n- Урон, не связанный с DOT, наносит доп. ^o75 маг. урона^* в течение 2 сек.\n- Также наносится 27% нанесенного урона, не связанного с DOT. к мане врага. Если маны не осталось, вместо этого наносится доп. урон здоровью.\n- Атаки снижают ^oСкор. атаки^* на 25% на 2 сек.
+Item_Chaosbrand_FRAME_effect:chaosbrand_active				\nВременно дает все эффекты ^oChaosbrand^*.\n\n- Атаки снижают ^oскор. движ.^* на 40% на 2 сек.\n- Непериодический урон дополнительно наносит ^o75 маг. урона^* за 2 сек.\n- 27% непериодического урона также снимается с маны врага. Если маны не осталось, этот урон идет по здоровью.\n- Атаки снижают ^oскор. атаки^* на 25% на 2 сек.
 
 
 
@@ -115666,7 +115666,7 @@ Shop_Boots_name													Boots
 
 
 
-Shop_Boots_description											Этот магазин предлагает выбор обуви для увеличения скорости, включая Марширующие и Быстроход.
+Shop_Boots_description											Этот магазин предлагает выбор обуви для увеличения скорости, включая Marchers и Post Haste.
 
 
 
@@ -115794,7 +115794,7 @@ Shop_Enchantment_name											Enchantment
 
 
 
-Shop_Enchantment_description									Магазин Зачарований содержит уникальные предметы с различными магическими эффектами, такие как трансформирующая Овечья Палка и универсальный Посох Толчка.
+Shop_Enchantment_description									Магазин Зачарований содержит уникальные предметы с различными магическими эффектами, такие как превращающий Sheepstick и универсальный Push Staff.
 
 
 
@@ -116186,7 +116186,7 @@ State_Kongor_Ability2_name										Slam
 
 
 
-State_Kongor_Ability2_description								Ваша скор. движ. и атаки снижена могучим ударом Kongor.
+State_Kongor_Ability2_description								Могучий удар Kongor снизил вашу скор. движ. и скор. атаки.
 
 
 
@@ -117050,7 +117050,7 @@ State_ElephantBoss_Scaling_name									Thick Skin
 
 
 
-State_ElephantBoss_Scaling_description							Сонгкранштейн набирает здоровье и урон по мере игры!
+State_ElephantBoss_Scaling_description							Songkranstein набирает здоровье и урон по мере игры!
 
 
 
@@ -118090,7 +118090,7 @@ State_WinterBoss_Ability4_name									Winter Spirit
 
 
 
-State_WinterBoss_Scaling_description							Морозная Хватка набирает здоровье и урон по мере игры!
+State_WinterBoss_Scaling_description							Frostbite набирает здоровье и урон по мере игры!
 
 
 
@@ -118314,7 +118314,7 @@ State_TowerGuardian_Ability2_name								Transmutanstein W
 
 
 
-State_TowerGuardian_Ability2_description						Трансмутанштейн передает здоровье Зоргату.
+State_TowerGuardian_Ability2_description						Transmutanstein передает здоровье Zorgath.
 
 
 
@@ -118346,7 +118346,7 @@ State_TowerGuardian_Ability2_Self_name							Transmutanstein W
 
 
 
-State_TowerGuardian_Ability2_Self_description					Передача здоровья Зоргату и увеличение баз. урона Зоргата.
+State_TowerGuardian_Ability2_Self_description					Передает здоровье Zorgath и увеличивает его баз. урон.
 
 
 
@@ -118434,7 +118434,7 @@ State_TokenOfSight_Heal_name									Transmutanstein's Healing
 
 
 
-State_TokenOfSight_Heal_FRAME_effect							Восстанавливает 15 % от вашего максимального запаса здоровья и максимального запаса маны за каждый заряд на продолжительности состояния.\n Рассеивается при получении урона.
+State_TokenOfSight_Heal_FRAME_effect							Восстанавливает 15% макс. здоровья и макс. маны за каждый заряд за время действия эффекта\nСнимается при получении урона
 
 
 
@@ -118746,7 +118746,7 @@ State_PhoenixBoss_GoldPile_Channel_name							Stealing Gold
 
 
 
-State_PhoenixBoss_GoldPile_Channel_description					Кто за ужасный человек стал бы красть золото у бедного дракона?
+State_PhoenixBoss_GoldPile_Channel_description					Какой ужасный человек станет красть золото у бедного дракона?
 
 
 
@@ -119730,7 +119730,7 @@ Ability_Catmanleader1_description_simple						Активируйте, чтобы
 
 
 
-Ability_Catmanleader1_effect_header								Эффекты Дикого удара
+Ability_Catmanleader1_effect_header								Эффекты Wild Strike
 
 
 
@@ -120114,7 +120114,7 @@ Ability_DragonMaster1_description_simple						Активируйте, чтобы
 
 
 
-Ability_DragonMaster1_effect_header								Сожжение
+Ability_DragonMaster1_effect_header								Burnination
 
 
 
@@ -121818,7 +121818,7 @@ Ability_VagabondAssassin1_description_simple					Выберите вражеск
 
 
 
-Ability_VagabondAssassin1_effect_header							Эффект(ы) прикосновения ассасина
+Ability_VagabondAssassin1_effect_header							Эффекты Assassin's Touch
 
 
 
