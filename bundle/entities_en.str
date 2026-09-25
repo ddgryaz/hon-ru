@@ -42848,7 +42848,7 @@ Ability_Ichor1_IMPACT_effect									Выберите вражеского юн�
 
 
 
-Ability_Ichor1_effect_header									Эффект(ы) вытягивания жизни
+Ability_Ichor1_effect_header									Эффекты Life Leech
 
 
 
@@ -42984,7 +42984,7 @@ Ability_Ichor2_IMPACT_effect:Ichor_ability2_active				Выберите друг�
 
 
 
-Ability_Ichor2_effect_header									Эффект(ы) переливания
+Ability_Ichor2_effect_header									Эффекты Transfusion
 
 
 
@@ -43048,7 +43048,7 @@ State_Ichor_Ability2_Ally_name									Transfusion
 
 
 
-State_Ichor_Ability2_Ally_FRAME_effect							{30}% полученного урона наносится Ichor вместо несмертельного урона.
+State_Ichor_Ability2_Ally_FRAME_effect							{30}% полученного урона вместо этого наносится Ichor в виде несмертельного урона.
 
 
 
@@ -43136,7 +43136,7 @@ Ability_Ichor3_description_simple 								Пассивно снижает вес
 
 
 
-Ability_Ichor3_DAMAGED_effect									Пассивно снижает все виды физического и маг. урона ^oна 5% + {4,6,8,10}%^* за каждый дебафф на Ichor (максимальное общее снижение урона составляет ^o{21,29,38,45}%^*).\n\nВыберите союзного героя, чтобы наложить на него Ichoric Blood на неопределенный срок, срок действия которого истекает только в случае их смерти или передачи Ichoric Blood другому союзному герою.\n\nНаходясь в радиусе 1200 от Ichor, урон, нанесенный авто атаками и не ультимативными способностями Ichor вражеским героям, исцеляет союзника Ichoric Blood на ^o{5,10,15,20} здоровья^*.
+Ability_Ichor3_DAMAGED_effect									Пассивно снижает весь физ. и маг. урон ^oна 5% + {4,6,8,10}%^* за каждый дебафф на Ichor (всего не больше ^o{21,29,38,45}%^*).\n\nВыберите другого союзного героя, чтобы бессрочно наложить на него Ichoric Blood. Эффект спадает, только если союзник умрет или Ichoric Blood передадут другому союзному герою.\n\nПока союзник с Ichoric Blood в радиусе 1200 от Ichor, урон, который Ichor наносит вражеским героям автоатаками и способностями (кроме ультимейта), исцеляет этого союзника на ^o{5,10,15,20} здоровья^*.
 
 
 
@@ -43168,7 +43168,7 @@ State_Ichor_Ability3_Mark_name									Ichoric Blood
 
 
 
-State_Ichor_Ability3_Mark_FRAME_effect							Находясь в радиусе 1200 от Ichor, урон, нанесенный авто атаками и не ультимативными способностями Ichor вражеским героям, исцеляет союзника Ichoric Blood на {5,10,15,20} здоровья}.
+State_Ichor_Ability3_Mark_FRAME_effect							Пока союзник с Ichoric Blood в радиусе 1200 от Ichor, урон, который Ichor наносит вражеским героям автоатаками и способностями (кроме ультимейта), исцеляет этого союзника на {5,10,15,20} здоровья}.
 
 
 
@@ -43216,7 +43216,7 @@ Ability_Ichor4_description_simple 								Активируйте, чтобы н�
 
 
 
-Ability_Ichor4_effect_header									Эффект(ы) кровавого порыва
+Ability_Ichor4_effect_header									Эффекты Bloodrush
 
 
 
@@ -43856,7 +43856,7 @@ Hero_Magebane_name	Magebane
 
 
 
-Hero_Magebane_description										Хранитель утраченных знаний и жрец забытых богов, Magebane призывает нечестивые ритуалы, чтобы высасывать энергию врагов и обращать ее против них. В менее отчаянные времена такие еретики, как Magebane, были бы сожжены на костре, но это не первое неожиданное помилование, вызванное войной с Хеллборном.
+Hero_Magebane_description										Хранитель утраченных знаний и жрец забытых богов, Magebane совершает нечестивые ритуалы, чтобы высасывать энергию врагов и обращать ее против них. В менее отчаянные времена такие еретики, как Magebane, были бы сожжены на костре, но это не первое неожиданное помилование, вызванное войной с Хеллборном.
 
 
 
@@ -44382,7 +44382,7 @@ Hero_Jeraziah_name	Jeraziah
 
 
 
-Hero_Jeraziah_description										Король Jeraziah, надежда человечества и один из двух лидеров нового Легиона, не просто могучий воин, но и избранник самого Сола. Наделенный божественным пылом и благосклонностью, он поднимает людей и сеет хаос среди демонов. Свет, исходящий от него, ведет всех к победе и олицетворяет рассвет нового дня - без туч и теней.
+Hero_Jeraziah_description										Король Jeraziah, надежда человечества и один из двух лидеров нового Легиона, не просто могучий воин, но и избранник самого Сола. Наделенный божественным пылом и благосклонностью, он воодушевляет своих людей и сеет хаос среди демонов. Свет, исходящий от него, ведет всех к победе и олицетворяет рассвет нового дня - без туч и теней.
 
 
 
@@ -44622,7 +44622,7 @@ Ability_Kinesis2_effect_header
 
 
 
-Ability_Kinesis2_tooltip_flavor									Иногда Хранитель Леса попадает под раздачу
+Ability_Kinesis2_tooltip_flavor									Иногда под раздачу попадает и Keeper of the Forest
 
 
 
@@ -44733,7 +44733,7 @@ Ability_Kinesis3_effect_header2
 
 
 
-Ability_Kinesis3_tooltip_flavor									Пожалуйста, занимайся своими делами
+Ability_Kinesis3_tooltip_flavor									Пожалуйста, не лезь не в свое дело
 
 
 
@@ -44991,7 +44991,7 @@ Hero_Kinesis_name	Kinesis
 
 
 
-Hero_Kinesis_description										Пророк учит, что энергия течет через все сущее, нам нужно лишь обуздать ее. Маги произносят способности, жрецы взывают к богам, но для истинно могущественных сила черпается изнутри. Это Ученики Пути, и среди них один известен мастерством - Kinesis. Пусть Хеллборн остережется силы его разума.
+Hero_Kinesis_description										Пророк учит, что энергия течет через все сущее, нам нужно лишь обуздать ее. Маги произносят заклинания, жрецы взывают к богам злым и праведным, но истинно могущественные черпают силу изнутри. Это Ученики Пути, и среди них один славится мастерством во всем - Kinesis. Пусть Хеллборн остережется силы его разума.
 
 
 
@@ -45079,7 +45079,7 @@ Ability_KingKlout1_description_simple							Вокруг вас собирает
 
 
 
-Ability_KingKlout1_effect_header								Эффект(ы) Minion Burn
+Ability_KingKlout1_effect_header								Эффекты Minion Burn
 
 
 
@@ -45087,7 +45087,7 @@ Ability_KingKlout1_effect_header								Эффект(ы) Minion Burn
 
 
 
-Ability_KingKlout1_effect_header2								Эффекты Замедления миньона
+Ability_KingKlout1_effect_header2								Эффекты Minion Slow
 
 
 
@@ -45175,7 +45175,7 @@ State_KingKlout_Ability1_DOT_name								Minion Burn
 
 
 
-State_KingKlout_Ability1_DOT_FRAME_effect						{15,20,25,30} Маг. урон за заряд, полученный за время действия
+State_KingKlout_Ability1_DOT_FRAME_effect						{15,20,25,30} маг. урона за заряд за время действия
 
 
 
@@ -45247,7 +45247,7 @@ Ability_KingKlout2_description_simple							При применении и за�
 
 
 
-Ability_KingKlout2_effect_header								Эффект(ы) бравирования
+Ability_KingKlout2_effect_header								Эффекты Bluster
 
 
 
@@ -45351,7 +45351,7 @@ Ability_KingKlout3_description									Откуда King Klout берет сво
 
 
 
-Ability_KingKlout3_effect_header								Эффект(ы) призыва на службу
+Ability_KingKlout3_effect_header								Эффекты Conscription
 
 
 
@@ -45359,7 +45359,7 @@ Ability_KingKlout3_effect_header								Эффект(ы) призыва на с�
 
 
 
-Ability_KingKlout3_effect_header2								Эффекты Призыва
+Ability_KingKlout3_effect_header2								Эффекты Conscripted
 
 
 
@@ -45479,7 +45479,7 @@ State_KingKlout_Ability3_NoMorph_name							Conscription Immunity
 
 
 
-State_KingKlout_Ability3_NoMorph_FRAME_effect					Невозможно призвать с помощью King Klout на время действия
+State_KingKlout_Ability3_NoMorph_FRAME_effect					King Klout не может применить к вам Conscription на время действия
 
 
 
@@ -45535,7 +45535,7 @@ Ability_KingKlout4_description_simple		Выпускает волну страх�
 
 
 
-Ability_KingKlout4_effect_header								Эффект(ы) парада Короля King Klout
+Ability_KingKlout4_effect_header								Эффекты King Klout's Parade
 
 
 
@@ -45695,7 +45695,7 @@ Hero_KingKlout_name	King Klout
 
 
 
-Hero_KingKlout_description										Милосердный и Великодушный Король King Klout начал свою эпопею как лидер шайки гоблинских карманников, но всегда знал, что предназначен для большего. Заполучив Корону и Скипетр Аловин благодаря чистой хитрости, мужеству и с огромным риском для жизни (не обязательно своей), он наконец вознесся до своего законного статуса величайшего и славнейшего правителя Неверта - прошлого, настоящего и будущего. Ура!
+Hero_KingKlout_description										Милосердный и Великодушный King Klout начал свою эпопею как лидер шайки гоблинских карманников, но всегда знал, что предназначен для большего. Заполучив Корону и Скипетр Аловин благодаря чистой хитрости, мужеству и с огромным риском для жизни (не обязательно своей), он наконец вознесся до своего законного статуса величайшего и славнейшего правителя Неверта - прошлого, настоящего и будущего. Ура!
 
 
 
@@ -45775,7 +45775,7 @@ Ability_Klanx1_description_simple								Выберите область, что
 
 
 
-Ability_Klanx1_effect_header									Эффект(ы) Б.А.Н.Г.
+Ability_Klanx1_effect_header									Эффекты B.A.N.G.
 
 
 
@@ -45903,7 +45903,7 @@ Ability_Klanx2_description_simple:ult_boost						Активируйте, что�
 
 
 
-Ability_Klanx2_effect_header									Эффект(ы) крыло-доски
+Ability_Klanx2_effect_header									Эффекты крыла-доски
 
 
 
@@ -45967,7 +45967,7 @@ State_Klanx_Ability2_name										Wing Kite
 
 
 
-State_Klanx_Ability2_FRAME_effect								Теряет 1 заряд H.A.W.K. при получении не-ДоТ урона от вражеских юнитов игрока
+State_Klanx_Ability2_FRAME_effect								Теряет 1 заряд H.A.W.K. при получении непериодического урона от вражеских юнитов под управлением игроков
 
 
 
@@ -46135,7 +46135,7 @@ Ability_Klanx3_tooltip_flavor
 
 
 
-Ability_Klanx3_ATTACK_effect									Ваш Лакей запускает ракету в сторону вашей цели атаки, которая наносит ^o{30,40,50,60} маг. урона^* и в 0,33 раза больше урона другим врагам вокруг него. Ракета летит со скоростью 1200 на расстояние до 1000 единиц.\n\nРаспространяется на иллюзии, но наносит 33% урона.
+Ability_Klanx3_ATTACK_effect									Ваш Lackey выпускает ракету в цель вашей атаки: она наносит ^o{30,40,50,60} маг. урона^*, а другим врагам вокруг цели - 0.33x этого урона. Ракета летит со скоростью 1200 на расстояние до 1000 единиц.\n\nРаспространяется на иллюзии, но наносит 33% урона.
 
 
 
@@ -46143,7 +46143,7 @@ Ability_Klanx3_ATTACK_effect									Ваш Лакей запускает рак
 
 
 
-Ability_Klanx3_ATTACK_effect:ult_boost							Ваш Лакей запускает ракету в сторону вашей цели атаки, которая наносит ^g{60,70,80,90} маг. урона^* и в 0,33 раза больше урона другим врагам вокруг него. Ракета летит со скоростью 1200 на расстояние до 1000 единиц.\n\nРаспространяется на иллюзии, но наносит 33% урона.
+Ability_Klanx3_ATTACK_effect:ult_boost							Ваш Lackey выпускает ракету в цель вашей атаки: она наносит ^g{60,70,80,90} маг. урона^*, а другим врагам вокруг цели - 0.33x этого урона. Ракета летит со скоростью 1200 на расстояние до 1000 единиц.\n\nРаспространяется на иллюзии, но наносит 33% урона.
 
 
 
@@ -46279,7 +46279,7 @@ Hero_Klanx_name	Klanx
 
 
 
-Hero_Klanx_description	Все ликуйте! Klanx здесь - самый дьявольский злодей из когда-либо ступавших по земле Неверта! Ни один разум не способен постичь его гениальность, а героические очи едва могут взглянуть на его суровый лик, не упав в восхищении. Забудьте Торка-Engineer с его жалким интеллектом и мнимой изобретательностью. Klanx расхаживает по полю боя, вооружённый новейшим и мощнейшим оружием - которое он сам и создал, разумеется - а также полным отрядом верных приспешников и головорезов. Победы сами падают к его ногам, и им следует считать за честь принадлежать столь ослепительной силе блестящего разрушения.
+Hero_Klanx_description	Все ликуйте! Klanx здесь - самый дьявольский злодей из когда-либо ступавших по земле Неверта! Ни один разум не способен постичь его гениальность, а героические очи едва могут взглянуть на его суровый лик, не пав ниц от восхищения. Забудьте Торка по прозвищу Engineer с его жалким интеллектом и мнимой изобретательностью. Klanx расхаживает по полю боя, вооружённый новейшим и мощнейшим оружием - которое он сам и создал, разумеется - а также полным отрядом верных приспешников и головорезов. Победы сами падают к его ногам, и им следует считать за честь принадлежать столь ослепительной силе блестящего разрушения.
 
 
 
@@ -46359,7 +46359,7 @@ Ability_Kraken1_description_simple								Топит врага волной м�
 
 
 
-Ability_Kraken1_effect_header									Эффект(ы) потока
+Ability_Kraken1_effect_header									Эффекты Torrent
 
 
 
@@ -47823,7 +47823,7 @@ Hero_Thunderbringer_name	Thunderbringer
 
 
 
-Hero_Thunderbringer_description											В отличие от дикой молнии, которой повелевает, Thunderbringer отмечен спокойным терпением и строгим следованием древним протоколам и этикету зверей. Хоть многие считают его ретроградом, он - непревзойденный мастер шаманского знания и могучий владелец мистических энергий.
+Hero_Thunderbringer_description											В отличие от дикой молнии, которой повелевает, Thunderbringer отмечен спокойным терпением и строгим следованием древним протоколам и этикету зверей. Хоть многие считают его ретроградом, он - непревзойденный мастер шаманского знания и могучий повелитель мистических энергий.
 
 
 
@@ -47887,7 +47887,7 @@ Ability_Legionnaire1_description_simple							^oПровоцирует^* вра�
 
 
 
-Ability_Legionnaire1_effect_header								Эффект(ы) провокации
+Ability_Legionnaire1_effect_header								Эффекты Taunting
 
 
 
@@ -48015,7 +48015,7 @@ Ability_Legionnaire2_description_simple							Бросается на враже
 
 
 
-Ability_Legionnaire2_effect_header								Эффект(ы) устрашения
+Ability_Legionnaire2_effect_header								Эффекты Terrify
 
 
 
@@ -48679,7 +48679,7 @@ State_Kane_Ability2_Regen_Mana_name								Offensive Force (Regen)
 
 
 
-State_Kane_Ability2_Regen_Mana_description						Восстанавливает {1,1.5,2,2.5}% недостающей маны в сек., не получая при этом урона.
+State_Kane_Ability2_Regen_Mana_description						Восстанавливает {1,1.5,2,2.5}% недостающей маны в сек., пока не получает урона.
 
 
 
@@ -48719,7 +48719,7 @@ State_Kane_Ability2_Switch_Offense_name							Offense Switch
 
 
 
-State_Kane_Ability2_Switch_Offense_description					Переключение на ауру Наступательной силы...
+State_Kane_Ability2_Switch_Offense_description					Переключение на ауру Offensive Force...
 
 
 
@@ -48751,7 +48751,7 @@ State_Kane_Ability2_Switch_Defense_name							Defense Switch
 
 
 
-State_Kane_Ability2_Switch_Defense_description					Переключение на ауру Оборонительной мощи...
+State_Kane_Ability2_Switch_Defense_description					Переключение на ауру Defensive Might...
 
 
 
@@ -48847,7 +48847,7 @@ State_Kane_Ability3_name										Kane's Anguish
 
 
 
-State_Kane_Ability3_description									Ваши атаки наносят на ^o20%^* меньше урона за заряд\nПолучайте урон, равный ^o5% от вашего урона от атаки за заряд^* при атаке Kane\nМаксимум {1,2,3,4} зарядов
+State_Kane_Ability3_description									Ваши атаки наносят на ^o20%^* меньше урона за заряд\nКогда Kane атакует вас, вы получаете урон, равный ^o5% от вашего урона от атаки за заряд^*\nМаксимум {1,2,3,4} зарядов
 
 
 
@@ -49055,7 +49055,7 @@ State_Kane_Ability4_Me_description								При активации вы и ва
 
 
 
-State_Kane_Ability4_Me_description2								Вынуждены атаковать цель до истечения времени\n\nЕсли другой дуэлянт умирает, вы получаете постоянный бафф {4,6,8} к силе атаки (бездействующий, пока не активен эффект "Посоха Мастера").
+State_Kane_Ability4_Me_description2								Вынуждены атаковать цель до истечения времени\n\nЕсли другой дуэлянт умирает, вы навсегда получаете +{4,6,8} к урону от атаки (не действует, пока не активен эффект Staff of the Master).
 
 
 
@@ -49063,7 +49063,7 @@ State_Kane_Ability4_Me_description2								Вынуждены атаковать
 
 
 
-State_Kane_Ability4_Me_description2:ult_boost					Вынуждены атаковать цель до истечения времени\n\Получите 50% снижение урона от источников урона, отличных от дуэлянта\n\nЕсли другой дуэлянт умирает, вы получаете постоянный бафф {4,6,8} Урон от атаки
+State_Kane_Ability4_Me_description2:ult_boost					Вынуждены атаковать цель до истечения времени\nСнижение урона на 50% от всех источников, кроме дуэлянта\n\nЕсли другой дуэлянт умирает, вы навсегда получаете +{4,6,8} к урону от атаки
 
 
 
@@ -49095,7 +49095,7 @@ Hero_Kane_name	Kane
 
 
 
-Hero_Kane_description											Kane Узурпатор - осиротевший воин-полукровка, воспитанный Maliken ненавидеть все формы власти и авторитета. Его утопия - Неверт без корон, где лишь сильнейшие и свирепейшие правят другими. Он невероятно самоуверен, но может это подкрепить - так что, может, он просто уверен в себе...
+Hero_Kane_description											Kane Узурпатор - осиротевший воин-полукровка, которого Maliken воспитал в ненависти ко всякой королевской власти и авторитетам. Его утопия - Неверт без корон, где лишь сильнейшие и свирепейшие правят другими. Он невероятно самоуверен, но может это подкрепить - так что, может, он просто уверен в себе...
 
 
 
@@ -49103,7 +49103,7 @@ Hero_Kane_description											Kane Узурпатор - осиротевший
 
 
 
-Hero_Kane_role													Боец первой линии, Kane превосходит в ведении атаки и сковывании вражеского керри, одновременно усиливая свою команду.
+Hero_Kane_role													Kane - боец первой линии, который отлично ведет атаку и сковывает вражеского керри, усиливая при этом свою команду.
 
 
 
@@ -49469,7 +49469,7 @@ Ability_Lodestone4_IMPACT_effect								Каждую секунду в тече�
 
 
 
-Ability_Lodestone4_effect_header								Эффект(ы) шаттершторма
+Ability_Lodestone4_effect_header								Эффекты Shatterstorm
 
 
 
@@ -49477,7 +49477,7 @@ Ability_Lodestone4_effect_header								Эффект(ы) шаттершторм�
 
 
 
-Ability_Lodestone4_tooltip_flavor								Darude - Шаттершторм
+Ability_Lodestone4_tooltip_flavor								Darude - Shatterstorm
 
 
 
@@ -49621,7 +49621,7 @@ State_Lodestone_Ability4_Lodestone_name							Shatterstorm
 
 
 
-State_Lodestone_Ability4_Lodestone_FRAME_effect					Атаки по этой цели имеют 100% проникновение брони и маг. брони.
+State_Lodestone_Ability4_Lodestone_FRAME_effect					Атаки по этой цели имеют 100% пробивание брони и маг. брони.
 
 
 
@@ -49629,7 +49629,7 @@ State_Lodestone_Ability4_Lodestone_FRAME_effect					Атаки по этой ц�
 
 
 
-State_Lodestone_Ability4_Lodestone_FRAME_effect:ult_boost		Атаки по этой цели имеют 100% пробивание брони и маг. брони ^g(50% для магнита)^*
+State_Lodestone_Ability4_Lodestone_FRAME_effect:ult_boost		Атаки по этой цели имеют 100% пробивание брони и маг. брони ^g(50% для Lodestone)^*
 
 
 
@@ -49661,7 +49661,7 @@ Hero_Lodestone_name	Lodestone
 
 
 
-Hero_Lodestone_description										Доктор Репульсор отступил и осмотрел свое творение в лаборатории. Голем из намагниченного камня и стали был завершен и готов к оживлению. Он наблюдал, как Hellbringer завершал ритуал призыва демона, который наполнит конструкт силой. Древние руны, выгравированные на каркасе, будут удерживать существо навечно. Хоть новому солдату и не хватает интеллекта Chronos, он станет первым из многих боевых машин на демонической тяге.
+Hero_Lodestone_description										Dr. Repulsor отступил и осмотрел свое творение в лаборатории. Голем из намагниченного камня и стали был завершен и готов к оживлению. Он наблюдал, как Hellbringer завершал ритуал призыва демона, который наполнит конструкт силой. Древние руны, выгравированные на каркасе, будут удерживать существо навечно. Хоть новому солдату и не хватает интеллекта Chronos, он станет первым из многих боевых машин на демонической тяге.
 
 
 
@@ -49885,7 +49885,7 @@ Ability_Magmus2_description_simple	^oКонцентрируется^*, нагр�
 
 
 
-Ability_Magmus2_effect_header									Эффект(ы) паровой бани
+Ability_Magmus2_effect_header									Эффекты Steam Bath
 
 
 
@@ -49965,7 +49965,7 @@ State_Magmus_Ability2_description2
 
 
 
-State_Magmus_Ability2_FRAME_effect								задержка {0.6,0.9,1.2,1.5} сек. перед нарушением скрытности
+State_Magmus_Ability2_FRAME_effect								Задержка {0.6,0.9,1.2,1.5} сек. перед выходом из невидимости
 
 
 
@@ -50117,7 +50117,7 @@ Ability_Magmus3_description_simple								^oПереключаемая спос�
 
 
 
-Ability_Magmus3_effect_header									Эффект(ы) вулканического касания
+Ability_Magmus3_effect_header									Эффекты Volcanic Touch
 
 
 
@@ -50197,7 +50197,7 @@ State_Magmus_Ability3_DEATH_effect
 
 
 
-State_Magmus_Ability3_FRAME_effect								При убийстве наносит {90,130,170,210} маг. урона врагам в радиусе 400.
+State_Magmus_Ability3_FRAME_effect								При смерти наносит {90,130,170,210} маг. урона врагам в радиусе 400.
 
 
 
@@ -50244,7 +50244,7 @@ Ability_Magmus4_description_simple 	После ^o2 сек. концентрац�
 
 
 
-Ability_Magmus4_effect_header 									Эффект(ы) извержения
+Ability_Magmus4_effect_header 									Эффекты Eruption
 
 
 
@@ -50487,7 +50487,7 @@ Ability_Maliken1_description_simple:malikenswordthrow			Активируйте, 
 
 
 
-Ability_Maliken1_effect_header									Искалечен
+Ability_Maliken1_effect_header									Maimed
 
 
 
@@ -50615,7 +50615,7 @@ State_Maliken_Ability1_Slow_name								Maimed
 
 
 
-State_Maliken_Ability1_Slow_FRAME_effect						{20,30,40,50}% Сначала скор. движ. замедляется, но снижается на 6 сек.
+State_Maliken_Ability1_Slow_FRAME_effect						{20,30,40,50}% замедление, затухающее за 6 сек.
 
 
 
@@ -50695,7 +50695,7 @@ Ability_Maliken2_description_simple:swordhealing				Каждая атака ^oи
 
 
 
-Ability_Maliken2_effect_header									Эффект(ы) Enchanted Flames
+Ability_Maliken2_effect_header									Эффекты Enchanted Flames
 
 
 
@@ -50919,7 +50919,7 @@ Ability_Maliken3_tooltip_flavor									Разобьешь мне сердце -
 
 
 
-Ability_Maliken3_FRAME_effect									^oПолучайте {0.5,1,1.5,2} скор. атаки и {0.025,0.05,0.075,0.1} Магическую броню^* за каждый недостающий ^o1% здоровья^*.
+Ability_Maliken3_FRAME_effect									^oДает {0.5,1,1.5,2} скор. атаки и {0.025,0.05,0.075,0.1} маг. брони^* за каждый недостающий ^o1% здоровья^*.
 
 
 
@@ -50927,7 +50927,7 @@ Ability_Maliken3_FRAME_effect									^oПолучайте {0.5,1,1.5,2} ско�
 
 
 
-Ability_Maliken3_FRAME_effect:maliken_ability3_Armor			^oПолучайте {0.5,1,1.5,2} скор. атаки и {0.025,0.05,0.075,0.1} Магическую броню^* за каждый недостающий ^o1% здоровья^*.
+Ability_Maliken3_FRAME_effect:maliken_ability3_Armor			^oДает {0.5,1,1.5,2} скор. атаки и {0.025,0.05,0.075,0.1} маг. брони^* за каждый недостающий ^o1% здоровья^*.
 
 
 
@@ -51015,7 +51015,7 @@ Ability_Maliken4_description_simple								^oЦеной 25% текущего з�
 
 
 
-Ability_Maliken4_effect_header									Эффект(ы) одержимости
+Ability_Maliken4_effect_header									Эффекты Possessed
 
 
 
@@ -51455,7 +51455,7 @@ State_Martyr_Ability2_Target_name								Guardian Angel
 
 
 
-State_Martyr_Ability2_Target_description						{55,70,85,100}% полученного урона поглощается.\nВесь поглощенный урон представляет собой потерю здоровья в зависимости от маг. брони по истечении срока действия, вплоть до минимума 7% от макс. здоровья\n\nСохраненный урон отображается в процентах от вашего макс. здоровья.
+State_Martyr_Ability2_Target_description						{55,70,85,100}% полученного урона поглощается.\nПо окончании весь поглощенный урон снимается как потеря здоровья с учетом маг. брони, но здоровье не опустится ниже 7% от максимума\n\nНакопленный урон отображается в процентах от вашего макс. здоровья.
 
 
 
@@ -51615,7 +51615,7 @@ State_Martyr_Ability3_Health_name								Sol's Conviction
 
 
 
-State_Martyr_Ability3_Health_FRAME_effect						Производится обмен здоровья и маны с момента применения Sol's Conviction...
+State_Martyr_Ability3_Health_FRAME_effect						Идет обмен здоровья и маны после применения Sol's Conviction...
 
 
 
@@ -51767,7 +51767,7 @@ State_Martyr_Ability4_name										Hand in Hand
 
 
 
-State_Martyr_Ability4_FRAME_effect								Изменение вашего здоровья от Martyr!
+State_Martyr_Ability4_FRAME_effect								Martyr меняет ваше здоровье!
 
 
 
@@ -51847,7 +51847,7 @@ Hero_Martyr_name	Martyr
 
 
 
-Hero_Martyr_description											Немногие священники Сола пылают столь ярко, чтобы подняться к высшим орденам жречества. Еще меньше тех, кто решается отдать свои души Легиону, рискуя вечностью в проклятии, чтобы другие процветали. Те немногие, кто это делает, обретают отчаянный титул Martyr, сжимая боевую реликвию в одной руке и Кодекс Солариса в другой. К верной гибели они маршируют; и некоторые говорят - с большим пылом, чем те, кто идет к жизни.
+Hero_Martyr_description											Немногие священники Сола пылают столь ярко, чтобы подняться к высшим орденам жречества. Еще меньше тех, кто решается отдать свою душу Легиону, обрекая себя на вечное проклятие, чтобы процветали другие. Те немногие, кто решается, получают горький титул Martyr: в одной руке у них боевая реликвия, в другой - Codex Solaris. Они идут на верную гибель - и, говорят, с большим пылом, чем иные идут к жизни.
 
 
 
