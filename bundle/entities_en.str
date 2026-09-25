@@ -71537,7 +71537,7 @@ Hero_Riptide_description										Существо, известное как Ri
 
 
 
-Hero_Riptide_role												Riptide набирает мощь в начале игры, позволяя ему эффективно ганкать, а к поздней стадии переходит в роль полукерри.
+Hero_Riptide_role												Riptide быстро набирает мощь в начале игры, что делает ее сильным ганкером, а к поздней стадии она переходит в роль полукерри.
 
 
 
@@ -72489,7 +72489,7 @@ Ability_SandWraith1_effect_header2								Desert's Curse
 
 
 
-Ability_SandWraith1_effect_header3	Благословение пустыни
+Ability_SandWraith1_effect_header3	Desert's Blessing
 
 
 
@@ -73281,7 +73281,7 @@ State_Sapphire_Ability4_name									Crystallized
 
 
 
-State_Sapphire_Ability4_FRAME_effect							По истечении срока получите {20,40,60} чист. урона и станете обездвиженным на 1 сек.
+State_Sapphire_Ability4_FRAME_effect							По истечении вы получите {20,40,60} чист. урона и будете обездвижены на 1 сек.
 
 
 
@@ -73337,7 +73337,7 @@ Hero_Sapphire_name	Sapphire
 
 
 
-Hero_Sapphire_description										Sapphire - дальнобойный кэрри на ловкости с полезностью для командных боев. Unstable Shard отлично фармит и харассит на ранней стадии, а грамотная Кристаллизация позволяет ему наносить огромный урон в командных боях.
+Hero_Sapphire_description										Sapphire - керри ловкости дальнего боя, который приносит и заметную пользу в командных боях. Unstable Shard годится для фарма и харасса в начале игры, а удачный Crystallize подготавливает Unstable Shard к большому урону в боях на протяжении всей игры.
 
 
 
@@ -73401,7 +73401,7 @@ Ability_Madman1_description_simple								Включает ^oStalk^* на 3,5 с
 
 
 
-Ability_Madman1_effect_header										Эффект(ы) выслеживания
+Ability_Madman1_effect_header										Эффекты Stalk
 
 
 
@@ -73505,7 +73505,7 @@ Ability_Madman2_description_simple								Быстро катится к выб�
 
 
 
-Ability_Madman2_effect_header										Эффект(ы) бочки
+Ability_Madman2_effect_header										Эффекты Barrel Rolled
 
 
 
@@ -73625,7 +73625,7 @@ Ability_Madman3_description_simple								При нанесении не пер�
 
 
 
-Ability_Madman3_effect_header										Эффекты Пореза
+Ability_Madman3_effect_header										Эффекты Gash
 
 
 
@@ -73729,7 +73729,7 @@ Ability_Madman4_description_simple								На 30 сек. дает ^o{5,7,9}% с
 
 
 
-Ability_Madman4_effect_header										Эффект(ы) берсерка
+Ability_Madman4_effect_header										Эффекты Berserk
 
 
 
@@ -73817,7 +73817,7 @@ State_Madman_Ability4_description
 
 
 
-State_Madman_Ability4_FRAME_effect:ult_boost						При смерти, гибель Madman откладывается на 4 сек.
+State_Madman_Ability4_FRAME_effect:ult_boost						Смерть Madman откладывается на 4 сек.
 
 
 
@@ -73881,7 +73881,7 @@ Hero_Madman_name													The Madman
 
 
 
-Hero_Madman_description											Никто доподлинно не знает личность этого замаскированного безумного убийцы. Одни говорят, он был заточен на века в глубочайшей яме Ада, злодей столь черносердечный, что даже Хеллборн считал его изгоем, но столь смертоносный, что пришлось призвать его на войну. Другие говорят - он просто человек, сведенный с ума бесконечной бойней, которую повидал.
+Hero_Madman_description											Никто доподлинно не знает личность этого безумного убийцы в маске. Одни говорят, он был заточен на века в глубочайшей яме Ада, злодей столь черносердечный, что даже Хеллборн считал его изгоем, но столь смертоносный, что пришлось призвать его на войну с Легионом. Другие говорят - он просто человек, сведенный с ума бесконечной бойней, которую повидал.
 
 
 
@@ -73969,7 +73969,7 @@ Ability_Scout1_description_simple								Уходит в ^oStealth^*, пока �
 
 
 
-Ability_Scout1_effect_header									Эффект(ы) исчезновения
+Ability_Scout1_effect_header									Эффекты Vanish
 
 
 
@@ -74489,7 +74489,7 @@ Ability_Scout4_description_simple:Scout4_Tether					Активируйте, чт
 
 
 
-Ability_Scout4_effect_header									Эффект(ы) ранения
+Ability_Scout4_effect_header									Эффекты Wounded
 
 
 
@@ -74633,7 +74633,7 @@ Hero_Scout_name	Scout
 
 
 
-Hero_Scout_description											Обученные с юности быть быстрыми, тихими и смертоносными, Разведчики проводят большую часть жизни в глуши, вдали от собратьев. После союза со Звериной Ордой они узнали еще больше диких путей и обратили все мастерство на разгром Хеллборна. Хоть многие считают их отстраненными, никто не сомневается в важности Разведчиков, о чем свидетельствуют бесчисленные трупы врагов, умерших от одного удара.
+Hero_Scout_description											Обученные с юности быть быстрыми, тихими и смертоносными, Разведчики проводят большую часть жизни в глуши, вдали от собратьев. После союза со Звериной Ордой они узнали еще больше диких путей и обратили все мастерство на разгром Хеллборна. Хоть многие считают их отстраненными, никто не сомневается в важности Разведчиков, о чем свидетельствуют бесчисленные трупы врагов, убитых одним ударом.
 
 
 
@@ -75153,7 +75153,7 @@ State_ShadowBlade_Ability3_Morph_name							Soul Form
 
 
 
-State_ShadowBlade_Ability3_Morph_description					Ваша первая атака наносит доп. маг. урон {16,24,32,40} и накладывает второе Оглушение на {0.6,0.8,1,1.2}.\nЭтот эффект теряется, если не используется через 5 сек. после входа в эту форму.
+State_ShadowBlade_Ability3_Morph_description					Ваша первая атака наносит {16,24,32,40} доп. маг. урона и оглушает на {0.6,0.8,1,1.2} сек.\nЭффект пропадает, если не использовать его в течение 5 сек. после входа в эту форму.
 
 
 
@@ -75377,7 +75377,7 @@ State_ShadowBlade_Ability4_Strength_description					Бонус силы. Ваш 
 
 
 
-State_ShadowBlade_Ability4_Strength_description2:ult_boost		{30,50,70}% урона от брызг в радиусе 225 вокруг цели
+State_ShadowBlade_Ability4_Strength_description2:ult_boost		{30,50,70}% урона по области в радиусе 225 вокруг цели
 
 
 
@@ -75385,7 +75385,7 @@ State_ShadowBlade_Ability4_Strength_description2:ult_boost		{30,50,70}% урон
 
 
 
-State_ShadowBlade_Ability4_Strength_FRAME_effect				-{2.5,1.75,1} Макс. здоровье за очко силы, предоставленное этим состоянием
+State_ShadowBlade_Ability4_Strength_FRAME_effect				-{2.5,1.75,1} макс. здоровья за каждое очко Силы от этого эффекта
 
 
 
@@ -75417,7 +75417,7 @@ Hero_ShadowBlade_name	Shadowblade
 
 
 
-Hero_ShadowBlade_description									О нем говорят лишь шепотом те, кто решается произнести его имя вслух. Клинок, выкованный самими демонами в ямах бездны и закаленный в еще бьющихся сердцах врагов. Его оскверненная магия гарантирует, что убитый клинком никогда не найдет убежища в свете Сола или ветвях Древа Жизни. Вместо этого они навечно заперты в его холодной металлической тюрьме, дающие форму его адскому обличью. Это Shadowblade, пожиратель душ.
+Hero_ShadowBlade_description									О нем говорят лишь шепотом те, кто решается произнести его имя вслух. Клинок, выкованный самими демонами в ямах бездны и закаленный в еще бьющихся сердцах врагов. Его оскверненная магия гарантирует, что убитый клинком никогда не найдет убежища в свете Сола или ветвях Древа Жизни. Вместо этого они навечно окажутся заперты в его холодной металлической тюрьме, придавая форму его адскому обличью. Это Shadowblade, пожиратель душ.
 
 
 
@@ -75425,7 +75425,7 @@ Hero_ShadowBlade_description									О нем говорят лишь шепо�
 
 
 
-Hero_ShadowBlade_role											Shadowblade - универсальный герой, которого можно собирать по-разному и оставаться эффективным. Он решает, как качать способности, исходя из ситуации на линии, а затем выбирает сборку, с которой будет тащить в поздней игре.
+Hero_ShadowBlade_role											Shadowblade - универсальный герой, который остается эффективным при самых разных сборках. Он решает, как качать способности, исходя из ситуации на линии, а затем выбирает сборку, с которой будет тащить в поздней игре.
 
 
 
@@ -75504,7 +75504,7 @@ Ability_DementedShaman1_description_simple		Опутывает врага лоз
 
 
 
-Ability_DementedShaman1_effect_header									Эффект(ы) опутывания
+Ability_DementedShaman1_effect_header									Эффекты Entangled
 
 
 
@@ -75712,7 +75712,7 @@ Ability_DementedShaman3_description_simple								Накладывает ^oUnbre
 
 
 
-Ability_DementedShaman3_effect_header									Эффект(ы) несокрушимости
+Ability_DementedShaman3_effect_header									Эффекты Unbreakable
 
 
 
@@ -75728,7 +75728,7 @@ Ability_DementedShaman3_IMPACT_effect									Накладывает ^oUnbreakab
 
 
 
-Ability_DementedShaman3_tooltip_flavor									Без боли нет результата.
+Ability_DementedShaman3_tooltip_flavor									Без боли нет победы.
 
 
 
@@ -75760,7 +75760,7 @@ State_DementedShaman_Ability3_name										Unbreakable
 
 
 
-State_DementedShaman_Ability3_FRAME_effect								При получении смертельного урона ваше здоровье выставляется в ^o{100,180,260,340}^* + ^o{3,4,5,6}% от вашего макс. здоровья^*.
+State_DementedShaman_Ability3_FRAME_effect								При получении смертельного урона ваше здоровье становится равным ^o{100,180,260,340}^* + ^o{3,4,5,6}% от вашего макс. здоровья^*.
 
 
 
@@ -75832,7 +75832,7 @@ Ability_DementedShaman4_description2									^gЭта способность м�
 
 
 
-Ability_DementedShaman4_effect_header									Эффект(ы) Storm Shield
+Ability_DementedShaman4_effect_header									Эффекты Storm Shield
 
 
 
@@ -76312,7 +76312,7 @@ State_Shellshock_Ability2_Gather_name							Rolling Thunder
 
 
 
-State_Shellshock_Ability2_Gather_FRAME_effect					Правым кликом по Shellshock - запрыгнуть!
+State_Shellshock_Ability2_Gather_FRAME_effect					Щелкните правой кнопкой по Shellshock, чтобы запрыгнуть!
 
 
 
@@ -76416,7 +76416,7 @@ Ability_Shellshock3_description_simple							Пассивно дает ^o{1,2,3,
 
 
 
-Ability_Shellshock3_FRAME_effect								Пассивно применяет ^o{1,2,3,4} Магическая броня^* к союзным юнитам в радиусе 600 и ^o{-1,-2,-3,-4} Магическая броня^* к вражеским юнитам в радиусе 600.\n\nПосле смерти Shellshock сбрасывает свой камень Святилища, который союзники могут подобрать, чтобы предоставить им текущую силу этой способности, пока Shellshock не возродится.\n\nКамень будет излучать аура, даже если ее не подобрать, может быть уничтожена врагами.
+Ability_Shellshock3_FRAME_effect								Пассивно дает ^o{1,2,3,4} маг. брони^* союзным юнитам в радиусе 600 и ^o{-1,-2,-3,-4} маг. брони^* вражеским юнитам в радиусе 600.\n\nПосле смерти Shellshock роняет свой Sanctuary Stone: союзник, подобравший его, получает текущую силу этой способности, пока Shellshock не возродится.\n\nКамень излучает ауру, даже если его не подобрали, но враги могут его уничтожить.
 
 
 
@@ -76600,7 +76600,7 @@ State_Shellshock_Ability4_name									Superconductor
 
 
 
-State_Shellshock_Ability4_FRAME_effect							Получая маг. урон {30,40,50} + {1,1.5,2}% от макс. здоровья Shellshock в сек.
+State_Shellshock_Ability4_FRAME_effect							Получение {30,40,50} + {1,1.5,2}% от макс. здоровья Shellshock маг. урона в сек.
 
 
 
@@ -77040,7 +77040,7 @@ State_Silhouette_Ability2_Hooker_name							Grappled to Tree
 
 
 
-State_Silhouette_Ability2_Hooker_description					Привязаны к дереву, с которым можно взаимодействовать.
+State_Silhouette_Ability2_Hooker_description					Вы зацепились за дерево и можете с ним взаимодействовать.
 
 
 
@@ -77048,7 +77048,7 @@ State_Silhouette_Ability2_Hooker_description					Привязаны к дере�
 
 
 
-State_Silhouette_Ability2_Hooker_description_simple				Привязаны к дереву, с которым можно взаимодействовать.
+State_Silhouette_Ability2_Hooker_description_simple				Вы зацепились за дерево и можете с ним взаимодействовать.
 
 
 
@@ -77136,7 +77136,7 @@ Ability_Silhouette3_ABILITY_IMPACT_effect
 
 
 
-Ability_Silhouette3_FRAME_effect								Ваши атаки накладывают на цель эффект "Безжалостный залп", который длится 10 сек. и суммируется до 15 раз. Атаки наносят {4,8,12,16} бонусного физ. урона отдельным ударом за каждый заряд "Безжалостного залпа" на цели.\n\nПосле активации навыка Silhouette получает {400} скор. атаки на 2 атаки или 4 сек., если навык не перезаряжается.\n\nИллюзии могут применять заряды "Безжалостного залпа", но не наносят доп. урон.
+Ability_Silhouette3_FRAME_effect								Ваши атаки накладывают на цель Relentless Salvo на 10 сек., эффект суммируется до 15 раз. Атаки наносят {4,8,12,16} доп. физ. урона отдельным ударом за каждый заряд Relentless Salvo на цели.\n\nПосле применения умения Silhouette получает {400} скор. атаки на 2 атаки или 4 сек., если эта способность не на перезарядке.\n\nИллюзии могут накладывать заряды Relentless Salvo, но не наносят доп. урон.
 
 
 
@@ -77344,7 +77344,7 @@ Ability_Silhouette4_Swap_description_simple						Меняет местами Sil
 
 
 
-Ability_Silhouette4_Swap_tooltip_flavor							Like a Ninja, впервые исчезаю в дыму.
+Ability_Silhouette4_Swap_tooltip_flavor							Как ниндзя, впервые исчезаю в дыму.
 
 
 
@@ -77384,7 +77384,7 @@ Hero_Silhouette_name	Silhouette
 
 
 
-Hero_Silhouette_description										Осиротевший ребенок, Silhouette тренировалась в Скрытой Деревне Разведчиков, упорно стремясь к цели стать величайшим убийцей Неверта. В отличие от других разведчиков, она была шумной, буйной и, главное, совершенно не скрытной. Но то, чего ей не хватало в ловкости, компенсировалось сердцем, характером и способностью создавать идеальное зеркальное отражение себя. Поверьте!
+Hero_Silhouette_description										Осиротевший ребенок, Silhouette тренировалась в Скрытой Деревне Разведчиков, упорно стремясь к цели стать величайшим убийцей Неверта. В отличие от других разведчиков, она была шумной, буйной и, главное, совершенно не скрытной. Но то, чего ей не хватало в незаметности, компенсировалось сердцем, характером и способностью создавать идеальное зеркальное отражение себя. Поверьте!
 
 
 
@@ -77656,7 +77656,7 @@ Ability_SirBenzington3_description_simple						Дает ^o{100,150,200,250} к �
 
 
 
-Ability_SirBenzington2_tooltip_flavor							Балрик использует "Удар"!
+Ability_SirBenzington2_tooltip_flavor							Балрик использует Удар!
 
 
 
@@ -77704,7 +77704,7 @@ Ability_SirBenzington4_description_simple	После ^o2 сек. концент�
 
 
 
-Ability_SirBenzington4_effect_header							Эффект Падения рыцаря{s}
+Ability_SirBenzington4_effect_header							Эффект Knightfall{s}
 
 
 
@@ -77720,7 +77720,7 @@ Ability_SirBenzington4_IMPACT_effect							После ^oконцентрации
 
 
 
-Ability_SirBenzington4_tooltip_flavor							"Я многим обязан Его Величеству, но не настолько, чтобы осквернить имя Драгунов." - Kane
+Ability_SirBenzington4_tooltip_flavor							"Я многим обязан Его Величеству, но не настолько, чтобы запятнать имя драгунов." - Каин
 
 
 
@@ -78408,7 +78408,7 @@ Ability_Solstice1_description_simple:Night_Solstice				^bНочью^*\nБрос�
 
 
 
-Ability_Solstice1_effect_header:Day_Solstice					Эффекты Ослепляющего рывка
+Ability_Solstice1_effect_header:Day_Solstice					Эффекты Blinding Rush
 
 
 
@@ -78416,7 +78416,7 @@ Ability_Solstice1_effect_header:Day_Solstice					Эффекты Ослепляю
 
 
 
-Ability_Solstice1_effect_header:Night_Solstice					Эффекты Теневого рывка
+Ability_Solstice1_effect_header:Night_Solstice					Эффекты Shadow Dash
 
 
 
@@ -78528,7 +78528,7 @@ Ability_Solstice1_description_simple:Night_Solstice_Ult			^bНочью^*\nБро
 
 
 
-Ability_Solstice1_effect_header:Day_Solstice_Ult				Эффекты Ослепляющего рывка
+Ability_Solstice1_effect_header:Day_Solstice_Ult				Эффекты Blinding Rush
 
 
 
@@ -78536,7 +78536,7 @@ Ability_Solstice1_effect_header:Day_Solstice_Ult				Эффекты Ослепл�
 
 
 
-Ability_Solstice1_effect_header:Night_Solstice_Ult				Эффекты Теневого рывка
+Ability_Solstice1_effect_header:Night_Solstice_Ult				Эффекты Shadow Dash
 
 
 
@@ -78688,7 +78688,7 @@ State_Solstice_Ability1_Self_name								Blinding Rush
 
 
 
-State_Solstice_Ability1_Self_description						Рывок с бонусом +350 к скорости
+State_Solstice_Ability1_Self_description						Рывок с +350 к скор. движ.
 
 
 
@@ -78880,7 +78880,7 @@ Ability_Solstice2_description_simple:Night_Solstice				^bНочью^*\nПриз�
 
 
 
-Ability_Solstice2_effect_header:Day_Solstice					Эффект(ы) озарения
+Ability_Solstice2_effect_header:Day_Solstice					Эффекты Illuminate
 
 
 
@@ -78888,7 +78888,7 @@ Ability_Solstice2_effect_header:Day_Solstice					Эффект(ы) озарени
 
 
 
-Ability_Solstice2_effect_header:Night_Solstice					Эффект(ы) свечения
+Ability_Solstice2_effect_header:Night_Solstice					Эффекты Luminescence
 
 
 
@@ -78952,7 +78952,7 @@ State_Solstice_Ability2_Day_name								Illuminate
 
 
 
-State_Solstice_Ability2_Day_FRAME_effect						{15,30,45,60} Маг. урон в сек. врагам в радиусе 700.\n700 Беспрепятственный обзор
+State_Solstice_Ability2_Day_FRAME_effect						{15,30,45,60} маг. урона в сек. врагам в радиусе 700.\nБеспрепятственный обзор в радиусе 700
 
 
 
@@ -79343,7 +79343,7 @@ Ability_Solstice4_description_simple:Night_Solstice				^rДнем^*\nКонце�
 
 
 
-Ability_Solstice4_effect_header:Day_Solstice					Эффект(ы) Breath of Sol
+Ability_Solstice4_effect_header:Day_Solstice					Эффекты Breath of Sol
 
 
 
@@ -79351,7 +79351,7 @@ Ability_Solstice4_effect_header:Day_Solstice					Эффект(ы) Breath of Sol
 
 
 
-Ability_Solstice4_effect_header:Night_Solstice					Эффект(ы) лунного суда
+Ability_Solstice4_effect_header:Night_Solstice					Эффекты Lunar Judgment
 
 
 
@@ -79423,7 +79423,7 @@ State_Solstice_Ability4_Enemy_name								Breath of Sol
 
 
 
-State_Solstice_Ability4_Enemy_FRAME_effect						Снижает скорость на 50%, восстанавливаясь за 6 сек.
+State_Solstice_Ability4_Enemy_FRAME_effect						Снижает скор. движ. на 50%, скорость восстанавливается за 6 сек.
 
 
 
@@ -79535,7 +79535,7 @@ Hero_Solstice_name	Solstice
 
 
 
-Hero_Solstice_description										Среди лунных племен живет элитная каста воительниц. Подобно Крикси, Moon Queen, эти женщины черпают силу из лучей Лунари. Как дети Лунной Богини, лучи Сола обжигают их плоть, вынуждая создавать сосуд для направления мощи Лунари днем. Магия столь могущественна, что лишь избранная воительница, рожденная в идеальном балансе между светом и тьмой, способна обуздать ее, навечно связавшись с доспехами. Ночью избранная принимает истинный облик и наносит удары из теней. Силой днем или скрытностью ночью - Solstice, Госпожа Лунари, готова показать врагам, что есть истинная сила.
+Hero_Solstice_description										Среди лунных племен живет элитная каста воительниц. Подобно Крикси, Moon Queen, эти женщины черпают силу из лучей Лунари. Они дети Лунной Богини, и лучи Сола обжигают их плоть, поэтому им пришлось создать сосуд, направляющий мощь Лунари днем. Магия столь могущественна, что лишь избранная воительница, рожденная в идеальном балансе между светом и тьмой, способна обуздать ее, навечно связавшись с доспехами. Ночью избранная принимает истинный облик и наносит удары из теней. Силой днем или скрытностью ночью - Solstice, Госпожа Лунари, готова показать врагам, что есть истинная сила.
 
 
 
@@ -79871,7 +79871,7 @@ Ability_Soulstealer2_FRAME_effect								Добавляет 2 урона за з
 
 
 
-Ability_Soulstealer2_KILL_effect								Добавляет один заряд.\nУбийства героя дают {4,6,8,10} зарядов.
+Ability_Soulstealer2_KILL_effect								Добавляет один заряд.\nУбийство героя дает {4,6,8,10} зарядов.
 
 
 
@@ -79879,7 +79879,7 @@ Ability_Soulstealer2_KILL_effect								Добавляет один заряд.\
 
 
 
-Ability_Soulstealer2_tooltip_flavor								Меня зовут Повелитель Желаний!
+Ability_Soulstealer2_tooltip_flavor								Меня зовут Исполнитель желаний!
 
 
 
@@ -80071,7 +80071,7 @@ Ability_Soulstealer4_description_simple							После ^o1,4 сек. конц�
 
 
 
-Ability_Soulstealer4_effect_header								Эффект(ы) взрыва душ
+Ability_Soulstealer4_effect_header								Эффекты Soul Burst
 
 
 
@@ -81335,7 +81335,7 @@ Hero_Taint_name													Gravekeeper
 
 
 
-Hero_Taint_description											На полях сражений Неверта, обильных оскверненной кровью людей, зверей и демонов, растет древнее зло. Пожирая плоть павших, он прокладывает путь к поверхности, его некогда мертвые глаза вновь горят голодом, жаждущие поглотить мертвецов. Особенно тех, что созданы его собственными нежитными руками...
+Hero_Taint_description											На полях сражений Неверта, обильных оскверненной кровью людей, зверей и демонов, растет древнее зло. Пожирая плоть павших, он прокладывает путь к поверхности, его некогда мертвые глаза вновь горят голодом и жаждой поглощать мертвецов. Особенно тех, что созданы его собственными нежитными руками...
 
 
 
@@ -81495,7 +81495,7 @@ Ability_Tarot2_description_simple		Отмечает вражеского гер�
 
 
 
-Ability_Tarot2_effect_header									Эффекты дальнего видения
+Ability_Tarot2_effect_header									Эффекты Far Scry
 
 
 
@@ -81543,7 +81543,7 @@ State_Tarot_Ability2_Self_name									Far Scry
 
 
 
-State_Tarot_Ability2_Self_description							Атаки рикошетят во вражеского героя в радиусе 800 с Дальним Провидением
+State_Tarot_Ability2_Self_description							Атаки рикошетят во вражеского героя в радиусе 800 под действием Far Scry
 
 
 
@@ -125244,7 +125244,7 @@ Ability_Glacius4_description2:ult_boost		^gУсиление ультой:^* ув
 Ability_Succubus1_IMPACT_effect		Накладывает Smitten на вражеских юнитов в области на {6.25,6.5,6.75,7} сек. Снижает наносимый целью урон на {20,25,30,35}%.
 Ability_Succubus1_description		Succubus очаровывает врага своей красотой, резко снижая весь его урон.
 Ability_Succubus1_description_simple		Своей красотой ^oочаровывает^* вражеских юнитов в радиусе 400, снижая весь их урон на ^o{20,25,30,35}%^* на {6.25,6.5,6.75,7} сек.
-Ability_Succubus1_effect_header		Эффект(ы) поражения
+Ability_Succubus1_effect_header		Эффекты Smitten
 Ability_Succubus1_tooltip_flavor		Красота в глазах смотрящего.
 Ability_Succubus2_IMPACT_effect		Наносит {75,150,225,300} чист. урона целевому юниту и исцеляет себя на {75,150,225,300}.
 Ability_Succubus2_description		Succubus разбивает сердце врага и питается вызванным отчаянием, одновременно раня его и исцеляя себя.
@@ -125253,7 +125253,7 @@ Ability_Succubus2_tooltip_flavor		Не умирай от разбитого се
 Ability_Succubus3_IMPACT_effect		Накладывает ^oMesmerize^* на цель на ^o{3,4,5,6} сек.^* Первую секунду цель неуязвима. Если кто-то атакует цель под Mesmerize, эффект переходит на атакующего на 3 сек.\n\nSuccubus может в любой момент снять Mesmerize с себя.
 Ability_Succubus3_description		Succubus гипнотизирует цель.
 Ability_Succubus3_description_simple		^oГипнотизирует^* юнита, ^oусыпляя его на {3,4,5,6} сек.^*; если это враг, он теряет ^o30 здоровья в сек.^* Прямой урон будит цель, а если спящего атакуют, сон на 3 сек. переходит на атакующего.\n\nПервую секунду сна цель неуязвима. С себя ^oMesmerize^* можно снять в любой момент.
-Ability_Succubus3_effect_header		Эффект(ы) гипноза
+Ability_Succubus3_effect_header		Эффекты Mesmerize
 Ability_Succubus3_tooltip_flavor		Твои глаза тяжелеют!
 Ability_Succubus4_IMPACT_effect		На время концентрации накладывает на цель Cursed Embrace.
 Ability_Succubus4_IMPACT_effect:ult_boost		Накладывает ^oCursed Embrace^* на цель на ^g6 сек.^* Цель освобождается, если Succubus оглушат или наложат Безмолвие. Связь рвется на расстоянии 1200.
@@ -125262,14 +125262,14 @@ Ability_Succubus4_description2		^gЭта способность может бы�
 Ability_Succubus4_description2:ult_boost		^gЭта способность может быть усилена Посохом Мастера.^*\n\n^gЭффект посоха:^* Способность больше не требует концентрации, длительность увеличивается на 1 сек., а перезарядка уменьшается на 15 сек. Имеет дальность привязи 1200 единиц.
 Ability_Succubus4_description_simple		Выберите вражеского юнита и концентрируйтесь на нем до 5 сек., оглушая его и нанося ^o{100,160,220} маг. урона в сек.^* За время действия высасывает до 25% маны цели и передает ее вам.\n\n^gПосох Мастера^* убирает концентрацию, увеличивает длительность на 1 сек. и сокращает перезарядку на 15 сек. Имеет дальность привязи 1200 единиц.
 Ability_Succubus4_description_simple:ult_boost		Концентрируется на вражеском юните до ^g6 сек.^*, высасывая его сущность: цель оглушена и получает ^o{100,160,220} маг. урона в сек.^* За это время к вам перетекает до 25% маны цели.\n\nЦель освобождается, если вас оглушат или наложат Безмолвие. ^gСвязь рвется на расстоянии 1200^*.
-Ability_Succubus4_effect_header		Эффект(ы) Cursed Embrace
+Ability_Succubus4_effect_header		Эффекты Cursed Embrace
 Ability_Succubus4_tooltip_flavor		Ты все еще за свадьбу?
-Hero_Succubus_description		Многие солдаты Легиона исчезали на одиночных дежурствах, когда Succubus на свободе, завлеченные ее соблазнительным зовом. Раздувшаяся от украденной жизни, эта демонесса не дарует истинного наслаждения поддавшимся, но ее имя несет определенное ужасное очарование.
+Hero_Succubus_description		Многие солдаты Легиона исчезали на одиночных дежурствах, когда Succubus на свободе, завлеченные ее соблазнительным зовом. Раздувшаяся от украденной жизни, эта демонесса не дарует истинного наслаждения поддавшимся, но ее имя несет какое-то жуткое очарование.
 Hero_Succubus_role		У Succubus набор контроля и дебаффов, позволяющий ей ослаблять сразу нескольких противников в бою. На линии ее Heartache наносит очень высокий урон и одновременно лечит ее.
 State_Succubus_Ability1_description		Наносимый урон снижен на {20,25,30,35}%
-State_Succubus_Ability3_FRAME_effect		30 здоровья удаляется каждую сек.\nПри атаке Mesmerize снимается и передается атакующему на 3 сек.
-State_Succubus_Ability4_FRAME_effect		{100,160,220} Маг. урон в сек.\n5% от максимума маны высасывается в сек. и передается доносителю
-State_Succubus_Ability4_FRAME_effect:ult_boost		{100,160,220} Маг. урон в сек.\n5% от максимального количества маны высасывается в сек. и передается наносителю\nИмеет дальность действия 1200 единиц.
+State_Succubus_Ability3_FRAME_effect		Снимает 30 здоровья в сек.\nКогда носителя атакуют, Mesmerize снимается и переходит на атакующего на 3 сек.
+State_Succubus_Ability4_FRAME_effect		{100,160,220} маг. урона в сек.\nКаждую сек. высасывает 5% от макс. маны и передает наложившему эффект
+State_Succubus_Ability4_FRAME_effect:ult_boost		{100,160,220} маг. урона в сек.\nКаждую сек. высасывает 5% от макс. маны и передает наложившему эффект\nСвязь рвется на расстоянии 1200 единиц.
 // Mid Wars - описания способностей
 Ability_Accursed2_description_simple:OnlyMidMap		^rMid Wars:^* Окутывает союзника щитом пламени на ^o12 сек.^*, снимая ^oотрицательные эффекты и оглушения^* и поглощая до ^o{110,140,170,200} урона^*.\n\nЕсли щит исчерпает свой предел, он взрывается и наносит ^o{110,140,170,200} маг. урона^* врагам рядом.\n\n^rMid Wars:^* Перезарядка - ^o{16,15,14,13} сек.^*
 Ability_Accursed2_IMPACT_effect:OnlyMidMap		^rMid Wars:^* Снимает отрицательные эффекты и оглушения, затем накладывает на цель Fire Shield на 12 сек. Перезарядка - ^o{16,15,14,13} сек.^*
@@ -125285,7 +125285,7 @@ Ability_Jeraziah2_description_simple:OnlyMidMap		Выпускает ауру ^o{
 Ability_Jeraziah2_IMPACT_effect:OnlyMidMap		Выберите союзника (или себя), чтобы ^oснять с него отрицательные эффекты^*, дать ему иммунитет к магии и ^oауру замедления скор. движ. на {6,12,18,24}%^* на ^o5 сек.^*\n\nЕсли Protective Charm не висит на союзнике, аура замедления пассивно действует вокруг Jeraziah.\n\nProtective Charm можно снять. ^rMid Wars:^* перезарядка ^o30 сек.^*
 Ability_Rampage1_description_simple:OnlyMidMap		^rMid Wars:^* Несётся к вражескому юниту сквозь любой рельеф с ^g35% уклонения^* и прыгает на него вблизи, нанося ^o{100,140,180,220} физ. урона^* и ^oоглушая на {1,1.2,1.4,1.6} сек.^* с отбрасыванием.\n\nСкорость рывка - ^o900^*.\n\nВражеские герои на пути получают ^oHorned Strike^*. Если цель погибает раньше, ^oStampede^* уходит в перезарядку на 10 сек.\n\n^gПосох Мастера^*: даёт ^oиммунитет к магии^* на время действия. Перезарядка ^oStampede^* ^oобновляется^* при убийстве или помощи.
 Ability_DementedShaman3_description_simple:OnlyMidMap		^rMid Wars:^* Накладывает ^oUnbreakable^* на союзника на ^o5 сек.^*, давая ему ^o{20,30,40,50} доп. урона атаки^*. При получении ^oсмертельного урона^* здоровье цели выставляется в ^o{80,150,220,290} + ^o{2,3,4,5}% от её макс. здоровья^*.\n\nПока способность не в перезарядке, ^oUnbreakable всегда активен на вас самих^* до получения смертельного урона, срабатывая обычным образом, ^oно не давая вам доп. урона^*.\n\n^rMid Wars:^* Перезарядка - ^o{60,50,40,30} сек.^*
-State_DementedShaman_Ability3_FRAME_effect:OnlyMidMap		^rMid Wars:^* При получении смертельного урона ваше здоровье выставляется в ^o{80,150,220,290}^* + ^o{2,3,4,5}% от вашего макс. здоровья^*.
+State_DementedShaman_Ability3_FRAME_effect:OnlyMidMap		^rMid Wars:^* При получении смертельного урона ваше здоровье становится равным ^o{80,150,220,290}^* + ^o{2,3,4,5}% от вашего макс. здоровья^*.
 // Описания способностей
 Ability_Succubus3_description_simple:Succubus_E_active		Снимает Mesmerize с Succubus.
 Ability_Succubus3_IMPACT_effect:Succubus_E_active		Снимает Mesmerize с Succubus.
