@@ -19147,7 +19147,7 @@ tooltip_sort_deaths_msg						Нажмите здесь, чтобы отсорт�
 
 
 
-tooltip_sort_assists						Сортировать по передачам
+tooltip_sort_assists						Сортировать по помощи
 
 
 
@@ -19171,7 +19171,7 @@ tooltip_sort_cd_msg							Нажмите здесь, чтобы отсортир
 
 
 
-tooltip_sort_xpm							Сортировать по Количество впечатлений в минуту
+tooltip_sort_xpm							Сортировать по опыту в минуту
 
 
 
@@ -19187,7 +19187,7 @@ tooltip_sort_gpm_msg						Нажмите здесь, чтобы отсортир
 
 
 
-tooltip_sort_apm							Сортировать по Действиям в минуту
+tooltip_sort_apm							Сортировать по действиям в минуту
 
 
 
@@ -19211,11 +19211,11 @@ tooltip_sort_mastery_msg					Нажмите здесь, чтобы отсорт�
 
 
 
-tooltip_report								Сообщить о оскорбительном поведении
+tooltip_report								Пожаловаться на токсичное поведение
 
 
 
-tooltip_report_disabled_title				Сообщить о оскорбительном поведении
+tooltip_report_disabled_title				Пожаловаться на токсичное поведение
 
 
 
@@ -19271,15 +19271,15 @@ tooltip_honevent							Событие HoN
 
 
 
-honevent_revival 							ЖЕТОН ПОДАРКА ЖИЗНИ
+honevent_revival 							ПОДАРОК: TOKEN OF LIFE
 
 
 
-honevent_revival_receive_btn				Требовать
+honevent_revival_receive_btn				Получить
 
 
 
-honevent_revival_receive_btn2				Заявлено
+honevent_revival_receive_btn2				Получено
 
 
 
@@ -19287,15 +19287,15 @@ honevent_revivalletter_title				Дорогой ^y{name}^*:
 
 
 
-honevent_revivalletter_sub1					Это было что? ^987{day}^* дней? Я уверен, что вам есть что рассказать, но времени нет! Давайте займемся этим!
+honevent_revivalletter_sub1					Сколько прошло? ^987{day}^* дней? Уверен, тебе есть что рассказать, но времени нет! Поехали!
 
 
 
-honevent_revivalletter_sub2					Прошло очень много времени! Я уверен, что вам есть что рассказать, но времени нет! Давайте займемся этим!
+honevent_revivalletter_sub2					Прошло очень много времени! Уверен, тебе есть что рассказать, но времени нет! Поехали!
 
 
 
-honevent_revivalletter_content				О-го-ты вернулся! Приятно видеть вас снова! Ваша преданность Newerth не осталась незамеченной!\n{sub}
+honevent_revivalletter_content				О-хо, ты вернулся! Рады снова тебя видеть! Твоя преданность Неверту не осталась незамеченной!\n{sub}
 
 
 
@@ -19307,15 +19307,15 @@ honevent_receive_your_gift					Получите свой подарок
 
 
 
-honevent_revival_receive_success			Заявите об успехе!
+honevent_revival_receive_success			Получено!
 
 
 
-honevent_revival_receive_success2			Заявите об успехе! У вас уже есть ^y{owned}^*, значит, вы получаете ^g{item}^*!
+honevent_revival_receive_success2			Получено! У вас уже есть ^y{owned}^*, поэтому вы получаете ^g{item}^*!
 
 
 
-honevent_revival_receive_unsuccess			Претензия отклонена
+honevent_revival_receive_unsuccess			Не удалось получить
 
 
 
@@ -19335,11 +19335,11 @@ honevent_revival_revival_text2
 
 
 
-honevent_revival_login_text1				ПОДАРОК ДЛЯ ВХОДА
+honevent_revival_login_text1				ПОДАРОК ЗА ВХОД
 
 
 
-honevent_revival_login_text2				Совокупный логин ^177(^*^r{current}^*^177/{total})^*
+honevent_revival_login_text2				Всего входов ^177(^*^r{current}^*^177/{total})^*
 
 
 
@@ -19347,7 +19347,7 @@ honevent_revival_mastery_text1				ПОДАРОК МАСТЕРА
 
 
 
-honevent_revival_mastery_text2				LV Мастерства {hero}. Достиг LV.{total} ^177(^*^r{current}^*^177/{total})^*
+honevent_revival_mastery_text2				Мастерство {hero}: ур. {total} ^177(^*^r{current}^*^177/{total})^*
 
 
 
@@ -19399,7 +19399,7 @@ ui_items_cc_right_click_unfollow			Отписаться
 
 
 
-ui_items_cc_right_click_joing_game			Присоединился к игре
+ui_items_cc_right_click_joing_game			Присоединиться к игре
 
 
 
@@ -19455,7 +19455,7 @@ ui_items_cc_right_click_channel_kick		Выгнать с канала
 
 
 
-ui_items_cc_right_click_channel_ban			Запретить доступ к каналу
+ui_items_cc_right_click_channel_ban			Забанить на канале
 
 
 
@@ -19475,31 +19475,31 @@ ui_items_cc_right_click_unignore			Не игнорировать
 
 
 
-ui_items_cc_right_click_addban				Добавить в список Банов
+ui_items_cc_right_click_addban				Добавить в бан-лист
 
 
 
-ui_items_cc_right_click_addbantxt			Вы уверены, что хотите добавить этого игрока в свой лонг-лист?
+ui_items_cc_right_click_addbantxt			Вы уверены, что хотите добавить этого игрока в свой бан-лист?
 
 
 
-ui_items_cc_right_click_remban				Удалить из баллиста
+ui_items_cc_right_click_remban				Удалить из бан-листа
 
 
 
-ui_items_cc_right_click_channel_promote		Продвигать (Канал)
+ui_items_cc_right_click_channel_promote		Повысить (канал)
 
 
 
-ui_items_cc_right_click_channel_demote		Понизить (Канал)
+ui_items_cc_right_click_channel_demote		Понизить (канал)
 
 
 
-ui_items_cc_right_click_clan_promote		Продвигать (Клан)
+ui_items_cc_right_click_clan_promote		Повысить (клан)
 
 
 
-ui_items_cc_right_click_clan_demote			Понизить (Клан)
+ui_items_cc_right_click_clan_demote			Понизить (клан)
 
 
 
@@ -19519,7 +19519,7 @@ ui_items_cc_right_click_clan_leave			Покинуть клан
 
 
 
-ui_items_cc_right_click_watch_game			Мониторная игра
+ui_items_cc_right_click_watch_game			Следить за игрой
 
 
 
@@ -19527,15 +19527,15 @@ ui_items_cc_right_click_spectate_player		Наблюдать за игроком
 
 
 
-ui_items_cc_right_click_mentor_player		Игрок-наставник
+ui_items_cc_right_click_mentor_player		Стать наставником
 
 
 
-ui_items_cc_right_click_staff_spectate		Персонал наблюдает за игрой
+ui_items_cc_right_click_staff_spectate		Наблюдение персонала
 
 
 
-ui_items_cc_right_click_inactive_account	Верните HoN!
+ui_items_cc_right_click_inactive_account	Вернуть в HoN!
 
 
 
@@ -19543,7 +19543,7 @@ ui_items_cc_right_click_inactive_account	Верните HoN!
 
 
 
-ui_items_cc_friends_online					Друзья в Интернете
+ui_items_cc_friends_online					Друзья в сети
 
 
 
@@ -19551,11 +19551,11 @@ ui_items_cc_friends_in_game					Друзья в игре
 
 
 
-ui_items_cc_friends_offline					Оффлайн друзья
+ui_items_cc_friends_offline					Друзья не в сети
 
 
 
-ui_items_cc_clan_online						Онлайн-участники
+ui_items_cc_clan_online						Участники в сети
 
 
 
@@ -19563,7 +19563,7 @@ ui_items_cc_clan_in_game					Участники в игре
 
 
 
-ui_items_cc_clan_offline					Офлайн-участники
+ui_items_cc_clan_offline					Участники не в сети
 
 
 
@@ -19611,7 +19611,7 @@ player_statistics_name						Статистика: ^w{name}
 
 
 
-player_statistics_skill_factor				СФ: ^w{value}
+player_statistics_skill_factor				SF: ^w{value}
 
 
 
@@ -19631,7 +19631,7 @@ private_chat								Вы должны ввести пароль, чтобы во
 
 
 
-private_chat_btn							Присоединяйтесь к каналу
+private_chat_btn							Войти в канал
 
 
 
@@ -19687,7 +19687,7 @@ Shop_Recipes5_description										Рецепты предметов, котор
 
 
 
-Shop_Recipes6_description										Элементы для среды тестирования SBT.
+Shop_Recipes6_description										Предметы для тестовой среды SBT.
 
 
 
@@ -19699,7 +19699,7 @@ Shop_Relics_description											Различные редкие артефак
 
 
 
-Shop_Secret_description											Тенистая и загадочная Тайная лавка содержит множество редких и могущественных артефактов. Чтобы найти местонахождение секретной лавки, нужно отправиться в лес.
+Shop_Secret_description											Темный и загадочный Секретный магазин хранит множество редких и могущественных артефактов. Чтобы найти его, придется углубиться в лес.
 
 
 
@@ -19719,7 +19719,7 @@ Shop_Outpost_description										Различные базовые (не рец
 
 
 
-Shop_Filter_Consumables_description								Предметы с этим расходуются после активации.
+Shop_Filter_Consumables_description								Предметы, которые расходуются после активации.
 
 
 
@@ -19735,7 +19735,7 @@ Shop_Filter_Damage_description									Предметы, увеличивающ�
 
 
 
-Shop_Filter_Armor_description									Предметы, которые увеличивают смягчение физического или маг. урона.
+Shop_Filter_Armor_description									Предметы, которые снижают получаемый физ. или маг. урон.
 
 
 
@@ -19787,7 +19787,7 @@ game_command_tooltip_name_stop			Стоп
 
 
 
-game_command_tooltip_name_hold			Держите
+game_command_tooltip_name_hold			Удерживать
 
 
 
@@ -19795,7 +19795,7 @@ game_command_tooltip_name_patrol		Патруль
 
 
 
-game_command_tooltip_name_taunt			Насмешка
+game_command_tooltip_name_taunt			Провокация
 
 
 
@@ -19807,7 +19807,7 @@ game_command_tooltip_desc_attack		Выдает команду атаки. Ваш
 
 
 
-game_command_tooltip_desc_stop			Не дает вашему юниту выполнить ранее отданный приказ.
+game_command_tooltip_desc_stop			Отменяет все ранее отданные юниту приказы.
 
 
 
@@ -19819,7 +19819,7 @@ game_command_tooltip_desc_patrol		Юнит будет перемещаться �
 
 
 
-game_command_tooltip_desc_taunt			Насмехается над вражеским героем. Пока вы насмехаетесь, вы будете раскрыты команде вашей цели. Убейте насмешливую цель в течение 30 сек., чтобы получить удар.
+game_command_tooltip_desc_taunt			Провоцирует вражеского героя. Пока действует Провокация, вас видит команда цели. Убейте спровоцированную цель за 30 сек., чтобы получить разгром.
 
 
 
@@ -19875,7 +19875,7 @@ patchnotes_title						Примечания к патчу
 
 
 
-patchnotes_close_btn					Закрывать
+patchnotes_close_btn					Закрыть
 
 
 
@@ -19979,7 +19979,7 @@ weekday_saturday_short				Сб
 
 
 
-loading_tiptitle				Подсказка к игре
+loading_tiptitle				Подсказка
 
 
 
@@ -19995,11 +19995,11 @@ loading_tip3					Можно атаковать своих крипов, когд
 
 
 
-loading_tip4					Если вы атакуете свою башню, когда она низкая, и уничтожаете ее, команда противника получит гораздо меньше золота, чем если бы они разрушили ее сами.
+loading_tip4					Если добить свою башню, когда у нее мало здоровья, команда противника получит намного меньше золота, чем если бы разрушила ее сама.
 
 
 
-loading_tip5					Набрав /matchup или /ma в игре, вы распечатаете список всех игроков, героев, уровней и цветов игроков.
+loading_tip5					Команда /matchup или /ma в игре выводит список всех игроков, героев, уровней и цветов игроков.
 
 
 
@@ -20011,7 +20011,7 @@ loading_tip7					Можно быстро переместить предмет �
 
 
 
-loading_tip8					Потеряли след, где находится ваш герой? Нажатие клавиши ^gC^* переместит экран в центр вашего героя.
+loading_tip8					Потеряли героя из виду? Клавиша ^gC^* наведет на него камеру.
 
 
 
@@ -20019,11 +20019,11 @@ loading_tip9					Магическая броня уменьшает урон, п
 
 
 
-loading_tip10					Постарайтесь всегда иметь хотя бы один Камень возвращения домой. Никогда не знаешь, когда вам понадобится помочь защитить другую сторону карты или использовать ее, чтобы избежать Ганков.
+loading_tip10					Старайтесь всегда иметь хотя бы один Homecoming Stone. Никогда не знаешь, когда придется защищать другую сторону карты или спасаться от ганка.
 
 
 
-loading_tip11					Удержание позиции (по умолчанию ^gH^*) не позволит вашему герою атаковать или двигаться, что позволит вам более точно рассчитывать время для денаев.
+loading_tip11					Удержание позиции (по умолчанию ^gH^*) не дает герою атаковать и двигаться, так что добивать крипов можно точнее.
 
 
 
@@ -20063,7 +20063,7 @@ loading_tip20					Купленный предмет можно продать о
 
 
 
-loading_tip21					Команды /ignorechat или /ic можно использовать для быстрого игнорирования различных форм внутри игрового чата.
+loading_tip21					Команды /ignorechat или /ic позволяют быстро игнорировать разные виды внутриигрового чата.
 
 
 
@@ -20079,7 +20079,7 @@ loading_tip24					Рецепты сами по себе бесполезны, в
 
 
 
-loading_tip25					В начале игры, если вражеский герой на вашей линии внезапно пропадает, обязательно сообщите об этом своей команде. Это может предотвратить их неожиданное убийство.
+loading_tip25					Если в начале игры вражеский герой на вашей линии внезапно пропал, обязательно сообщите команде. Это может спасти союзников от внезапной смерти.
 
 
 
@@ -20087,7 +20087,7 @@ loading_tip26					Командная работа необходима для п
 
 
 
-loading_tip27					Посмотрите мини карту. Это отличный инструмент для отслеживания позиции ваших врагов. Будьте осторожны, не пропустите вражеских героев или союзников, которые помогут вам убивать на вашей линии.
+loading_tip27					Следите за миникартой. Она помогает отслеживать позиции врагов. Замечайте пропавших вражеских героев и союзников, идущих помочь вам на линии.
 
 
 
@@ -20115,15 +20115,15 @@ loading_tip33					Есть много мест, где вы можете вой�
 
 
 
-loading_tip34					Когда вы читаете "Абсолютная магия" в описании навыка, это означает, что навык подействует на цель, даже если она невосприимчива к магии.
+loading_tip34					Если в описании навыка написано "абсолютный маг. урон", навык действует на цель, даже если у нее иммунитет к магии.
 
 
 
-loading_tip35					Посмотрите, какие навыки вашей команды находятся на перезарядке, выделив их портреты в левом верхнем углу.
+loading_tip35					Чтобы увидеть, какие навыки союзников на перезарядке, наведите курсор на их портреты слева вверху.
 
 
 
-loading_tip36					Ваша команда оценит вас больше, если вы будете использовать ядерное оружие с высоким уроном в начале боя, а не в качестве добивающего удара.
+loading_tip36					Команда скажет спасибо, если мощные нюки вы будете применять в начале драки, а не для добивания.
 
 
 
@@ -20135,11 +20135,11 @@ loading_tip38					Не бойтесь проиграть. Хорошее суж�
 
 
 
-loading_tip39					Будьте любезны! Игрок часто игнорирует совет, если вы на него кричите. Попробуйте произнести это вежливым тоном, скорее, это будет скорее предложение, чем приказ.
+loading_tip39					Будьте любезны! Игрок часто игнорирует совет, если на него кричать. Говорите вежливо, как совет, а не как приказ.
 
 
 
-loading_tip40					Набрав /gameinfo или /gi в игре, вы распечатаете список текущих опций игры.
+loading_tip40					Команда /gameinfo или /gi в игре выводит список текущих опций игры.
 
 
 
@@ -20147,11 +20147,11 @@ loading_tip41					При нажатии на это поле подсказки 
 
 
 
-loading_tip42					Выбор ^!yRegion^* и включение флажка "Фильтровать предварительный запрос" в интерфейсе игрового браузера позволит вам быстрее просматривать и обновлять игры.
+loading_tip42					Выбор ^!yрегиона^* и флажок "Предфильтр на сервере" в браузере игр позволят быстрее просматривать и обновлять список игр.
 
 
 
-loading_tip43					Когда в игре появляется уведомление, вы можете ^gRIGHT ^gCLICK^* в любом месте его, чтобы закрыть его, вместо того, чтобы нажимать кнопку "X".
+loading_tip43					Уведомление в игре можно закрыть, щелкнув по нему ^gПРАВОЙ ^gКНОПКОЙ^* в любом месте, а не нажимая "X".
 
 
 
@@ -20163,7 +20163,7 @@ loading_tip45					Каждая команда может делать паузу
 
 
 
-loading_tip46					Можно использовать команду /Friendlychat или /fc, чтобы принимать сообщения только от игроков вашего клана или списка друзей.
+loading_tip46					Команда /friendlychat или /fc позволяет принимать сообщения только от игроков вашего клана или списка друзей.
 
 
 
@@ -20171,7 +20171,7 @@ loading_tip47					Позитивный настрой с большей веро
 
 
 
-loading_tip48					Потеряли вражеского героя среди деревьев? Пыль Откровения не только обнажает невидимых героев, но также может быть использована для выявления тех, кто скрыт в Тумане Войны.
+loading_tip48					Потеряли вражеского героя среди деревьев? Dust of Revelation не только раскрывает невидимых героев, но и показывает спрятавшихся в тумане войны.
 
 
 
@@ -20227,7 +20227,7 @@ mm_in_queue									Игроки в очереди
 
 
 
-mm_join_queue								Присоединяйтесь к очереди
+mm_join_queue								Встать в очередь
 
 
 
@@ -20255,15 +20255,15 @@ mm_tuning_fastest_queue						Самая быстрая очередь
 
 
 
-mm_tuning_fastest_queue_tooltip				Отдает предпочтение быстрому поиску совпадения. Команды могут быть менее сбалансированными.
+mm_tuning_fastest_queue_tooltip				Отдает предпочтение быстрому поиску матча. Команды могут быть менее сбалансированными.
 
 
 
-mm_team_queueing							Очередь против
+mm_team_queueing							В очереди против
 
 
 
-mm_team_players								Игроки.
+mm_team_players								игроков.
 
 
 
@@ -20279,7 +20279,7 @@ mm_team_feedback_tooltip_header				Состав команды подбора
 
 
 
-mm_team_feedback_tooltip_info				Общее представление о скорости, которую вы найдете в зависимости от состава вашей команды. Дополнительные переменные, такие как ^479MMR, SERVERS, GAME MODES^* и ваш ^479HONOR RATING^*, не включены в это представление.
+mm_team_feedback_tooltip_info				Примерная скорость поиска матча в зависимости от состава вашей команды. Здесь не учитываются ^479MMR, СЕРВЕРЫ, РЕЖИМЫ ИГРЫ^* и ваш ^479РЕЙТИНГ ЧЕСТИ^*.
 
 
 
@@ -20287,7 +20287,7 @@ mm_team_feedback_tooltip_table_teamsize		Размер команды
 
 
 
-mm_team_feedback_tooltip_table_matching		Соответствует/против
+mm_team_feedback_tooltip_table_matching		С кем / против кого
 
 
 
@@ -20351,11 +20351,11 @@ mm_honor_queue_delay			Задержка очереди ММ
 
 
 
-mm_honor_queue_matched_with		Соответствует
+mm_honor_queue_matched_with		Играет с
 
 
 
-mm_honor_tip					Нажмите, чтобы просмотреть разбивку своих баллов по рейтингу чести
+mm_honor_tip					Нажмите, чтобы увидеть, из чего складывается ваш рейтинг чести
 
 
 
@@ -20363,11 +20363,11 @@ mm_honor_tip					Нажмите, чтобы просмотреть разбив�
 
 
 
-mm_wait_timer_prepend			Обслуживание
+mm_wait_timer_prepend			Действует
 
 
 
-mm_wait_timer_append			Задержка в очереди из-за штрафных баллов
+mm_wait_timer_append			задержка в очереди из-за штрафных баллов
 
 
 
@@ -20375,7 +20375,7 @@ mm_penalty_wait_confirm_title	Выйти из очереди ММ?
 
 
 
-mm_penalty_wait_confirm_body	Вы уверены, что хотите выйти из очереди? Задержка в очереди из-за чрезмерного количества штрафных баллов возобновится, когда вы снова войдете в очередь.
+mm_penalty_wait_confirm_body	Вы уверены, что хотите выйти из очереди? Задержка из-за большого числа штрафных баллов начнется заново, когда вы снова встанете в очередь.
 
 
 
@@ -20399,11 +20399,11 @@ mm3_readybutton 				Готов
 
 
 
-mm3_notreadybutton 				Удалить статус готовности
+mm3_notreadybutton 				Снять готовность
 
 
 
-mm3_localgamebutton 			Запустите локальную игру с ботами прямо сейчас!
+mm3_localgamebutton 			Запустить локальную игру с ботами!
 
 
 
@@ -20415,15 +20415,15 @@ mm3_coop 						Кооператив
 
 
 
-mm3_coop_desc 					Овраги
+mm3_coop_desc 					Враги-боты
 
 
 
-mm3_pvp 						ПвП
+mm3_pvp 						PvP
 
 
 
-mm3_pvp_desc 					Человеческие враги
+mm3_pvp_desc 					Враги-люди
 
 
 
@@ -20443,7 +20443,7 @@ mm3_preseason_desc 				Предсезонка
 
 
 
-mm3_coop_team					1. Создайте свою команду
+mm3_coop_team					1. Соберите команду
 
 
 
@@ -20451,7 +20451,7 @@ mm3_coop_region					2. Выберите регионы
 
 
 
-mm3_coop_enemyteam				3. Предпочтение вражеской команды
+mm3_coop_enemyteam				3. Состав вражеской команды
 
 
 
@@ -20459,7 +20459,7 @@ mm3_coop_emptyslot				Из подбора игроков
 
 
 
-mm3_coop_lockedslot				Ячейка команды заблокирована
+mm3_coop_lockedslot				--Слот заблокирован--
 
 
 
@@ -20483,7 +20483,7 @@ mm3_coop_inviteperson_desc		Введите имя человека, которо
 
 
 
-mm3_coop_botinfo				Боты в подборе игроков используют настройку сложности ^962Medium^*. Чтобы играть с разными трудностями, создайте публичную игру.
+mm3_coop_botinfo				Боты в подборе используют ^962среднюю^* сложность. Чтобы играть против другой сложности, создайте публичную игру.
 
 
 
@@ -20499,7 +20499,7 @@ mm3_coop_repickbot 				Перевыбрать
 
 
 
-mm3_coop_multiplebots			Доступны боты {count}
+mm3_coop_multiplebots			Доступно ботов: {count}
 
 
 
@@ -20511,11 +20511,11 @@ mm3_coop_multiplebots_pick 		Нажмите на бота, чтобы выбра
 
 
 
-mm3_coop_playerisbot 			Этот игрок - бот и готов, когда вы будете готовы!
+mm3_coop_playerisbot 			Этот игрок - бот, он готов, как только будете готовы вы!
 
 
 
-mm3_coop_localgamepanel			Выбор региона не требуется.\n\nВаш матч будет проводиться локально, поскольку в настоящее время у вас нет других игроков ^994human^*.
+mm3_coop_localgamepanel			Выбор региона не требуется.\n\nМатч пройдет локально, потому что других ^994живых^* игроков у вас сейчас нет.
 
 
 
@@ -20527,7 +20527,7 @@ mm3_bots_mode					Кооператив против ИИ
 
 
 
-mm3_pvp_map 					3. Выберите свою карту
+mm3_pvp_map 					3. Выберите карту
 
 
 
@@ -20571,7 +20571,7 @@ mm3_pvp_simplemodes_cp			Публичное бета-тестирование ((
 
 
 
-mm3_pvp_simplemodes_cp_desc1 	Ориентировано на 40 героев
+mm3_pvp_simplemodes_cp_desc1 	Пул из 40 героев
 
 
 
@@ -20583,7 +20583,7 @@ mm3_pvp_simplemodes_bb			Blind Ban
 
 
 
-mm3_pvp_simplemodes_bb_desc1 	Шесть героев блокируются перед выбором
+mm3_pvp_simplemodes_bb_desc1 	Перед выбором банятся шесть героев
 
 
 
@@ -20591,7 +20591,7 @@ mm3_pvp_simplemodes_bb_desc2	Все оставшиеся герои могут �
 
 
 
-mm3_pvp_simplemodes_other 		Играйте для открытия
+mm3_pvp_simplemodes_other 		Играйте, чтобы открыть больше
 
 
 
@@ -20619,7 +20619,7 @@ mm3_season_wins 				Победы:
 
 
 
-mm3_season_losses 				Потери:
+mm3_season_losses 				Поражения:
 
 
 
@@ -20647,11 +20647,11 @@ mm3_notverified_tip				Эта опция отключена, поскольку 
 
 
 
-mm3_verified_enabled_tip 		Отключив эту опцию, вы будете включать основные учетные записи при поиске совпадения.
+mm3_verified_enabled_tip 		Если отключить эту опцию, в поиск матча попадут и базовые аккаунты.
 
 
 
-mm3_verified_disabled_tip		Если включить эту опцию, основные учетные записи будут исключены из поиска подходящего вам партнера.
+mm3_verified_disabled_tip		Если включить эту опцию, базовые аккаунты будут исключены из поиска матча.
 
 
 
@@ -20679,11 +20679,11 @@ mm3_ranked_disabled_unranked	Эта опция отключена, поскол�
 
 
 
-mm3_ranked_midwars 				Ранговая игра недоступна в Midwars.
+mm3_ranked_midwars 				Рейтинговая игра недоступна в Midwars.
 
 
 
-mm3_ranked_grimmscrossing 		Ранговая игра недоступна в "Перекрестке Гримма".
+mm3_ranked_grimmscrossing 		Рейтинговая игра недоступна на Grimm's Crossing.
 
 
 
@@ -20691,7 +20691,7 @@ mm3_ranked_capturetheflag		Рейтинговая игра недоступна 
 
 
 
-mm3_ranked_devowars				Ранговая игра недоступна в Devo Wars.
+mm3_ranked_devowars				Рейтинговая игра недоступна в Devo Wars.
 
 
 
@@ -20707,15 +20707,15 @@ mm3_host 						Хост
 
 
 
-mm3_error 						Не могу продолжить
+mm3_error 						Невозможно продолжить
 
 
 
-mm3_ingame 						Внутриигровой
+mm3_ingame 						В игре
 
 
 
-mm3_ready 						Готово
+mm3_ready 						Готов
 
 
 
@@ -20767,7 +20767,7 @@ mm3_random_desc 				Автоматически выбирать случайно
 
 
 
-mm3_player_is_host 				Этот игрок является ведущим.
+mm3_player_is_host 				Этот игрок - хост.
 
 
 
@@ -20831,11 +20831,11 @@ mm_gated						6. Тип игры
 
 
 
-mm_verified_2					{value}. Выбирайте противников
+mm_verified_2					{value}. Выберите противников
 
 
 
-mm_maps_2						{value}. Выберите свою карту
+mm_maps_2						{value}. Выберите карту
 
 
 
@@ -20859,7 +20859,7 @@ mm_gated_desc_1
 
 
 
-mm_gated_caldavar_1				Геймплей в обычном режиме
+mm_gated_caldavar_1				Казуальный режим
 
 
 
@@ -20879,7 +20879,7 @@ mm_gated_midwars_2				Режим Blind Ban
 
 
 
-mm_gated_midwars_3				Никакого наказания за смерть
+mm_gated_midwars_3				Нет штрафа за смерть
 
 
 
@@ -20899,7 +20899,7 @@ mm_solo_disabled_options		Ваши текущие настройки требу�
 
 
 
-mm_casual_desc					В обычном режиме происходит более быстрый набор опыта и уменьшены штрафы за смерть.
+mm_casual_desc					В казуальном режиме опыт набирается быстрее, а штрафы за смерть меньше.
 
 
 
@@ -20943,7 +20943,7 @@ mm_current_verified_1			Будучи проверенной учетной за�
 
 
 
-mm_current_verified_2			Если вы установите флажок "Только проверенные" выше, основные учетные записи будут исключены из поиска по вашему совпадению.
+mm_current_verified_2			Если отметить "Только проверенные" выше, базовые аккаунты будут исключены из поиска матча.
 
 
 
@@ -20951,7 +20951,7 @@ mm_current_verified_3			Чтобы играть в матчи "Только пр
 
 
 
-mm_ffa 							Бесплатно для всех
+mm_ffa 							Каждый сам за себя
 
 
 
@@ -20967,11 +20967,11 @@ mm_3v3							3 на 3
 
 
 
-mm_2v2							2 против 2
+mm_2v2							2 на 2
 
 
 
-mm_1v1							1 против 1
+mm_1v1							1 на 1
 
 
 
@@ -20987,7 +20987,7 @@ mm_team							Командный подбор
 
 
 
-mm_team_cont					Пригласите друзей в пользовательскую группу игроков
+mm_team_cont					Пригласите друзей в свою группу
 
 
 
@@ -20995,11 +20995,11 @@ mm_mode_txt1					Можно проголосовать против не бол�
 
 
 
-mm_mode_txt2					Утверждение режимов с высокой популярностью приведет к сокращению времени ожидания.
+mm_mode_txt2					Если одобрить популярные режимы, очередь будет короче.
 
 
 
-mm_mode_txt3					Утвердите более популярные режимы для сокращения очередей.
+mm_mode_txt3					Одобрите популярные режимы, чтобы сократить очередь.
 
 
 
@@ -21011,7 +21011,7 @@ mm_map_txt2						Популярность региона будет менять
 
 
 
-mm_queue_finding				Нахождение совпадения...
+mm_queue_finding				Поиск матча...
 
 
 
@@ -21023,7 +21023,7 @@ mm_queue_eta					Среднее время ожидания
 
 
 
-mm_queue_popularity				Настройки Популярность
+mm_queue_popularity				Популярность настроек
 
 
 
@@ -21043,11 +21043,11 @@ mm_queue_low					Низкий
 
 
 
-mm_queue_disparity_high			Высокое групповое неравенство
+mm_queue_disparity_high			Большой разброс рейтинга в группе
 
 
 
-mm_queue_disparity_med			Высокое групповое неравенство
+mm_queue_disparity_med			Большой разброс рейтинга в группе
 
 
 
@@ -21071,11 +21071,11 @@ mm_queue_leave_btn				Выйти из очереди
 
 
 
-mm_queue_cannot_queue_btn		Не могу поставить в очередь
+mm_queue_cannot_queue_btn		Очередь недоступна
 
 
 
-mm_ready_btn					Готово
+mm_ready_btn					Готов
 
 
 
@@ -21103,7 +21103,7 @@ mm_waiting_forfullgroup_desc	Ваши текущие настройки треб
 
 
 
-mm_group_builder				5. Создайте свою группу
+mm_group_builder				5. Соберите свою группу
 
 
 
@@ -21115,15 +21115,15 @@ mm_group_disband				Распустить эту группу
 
 
 
-mm_queue_fidelity1				Верность совпадению
+mm_queue_fidelity1				Точность подбора
 
 
 
-mm_queue_fidelity1b				Match Fidelity ^r (только для хоста) ^*
+mm_queue_fidelity1b				Точность подбора ^r(только хост)^*
 
 
 
-mm_queue_fidelity1c				Match Fidelity ^r (только рейтинговые игры) ^*
+mm_queue_fidelity1c				Точность подбора ^r(только рейтинговые)^*
 
 
 
@@ -21135,11 +21135,11 @@ mm_queue_fidelity3				Более честные матчи
 
 
 
-mm_queue_fidelity_tt_desc		При поиске матча вы можете расставить приоритеты: быстрее войти в игру или найти игру, в которой игроки более опытны.
+mm_queue_fidelity_tt_desc		При поиске матча можно выбрать, что важнее: быстрее попасть в игру или найти игру с игроками ближе по уровню.
 
 
 
-mm_group_queue_rejoin			Ваша группа была помещена обратно в очередь в предыдущее время ожидания, которое ждал лидер группы...
+mm_group_queue_rejoin			Ваша группа возвращена в очередь с прежним временем ожидания лидера группы...
 
 
 
@@ -21174,7 +21174,7 @@ mm_gen_casual					Казуальный
 
 
 
-mm_gen_normal					Нормальный
+mm_gen_normal					Обычный
 
 
 
@@ -21182,7 +21182,7 @@ mm_gen_normal					Нормальный
 
 
 
-mm_buytoken_title				Купить токен?
+mm_buytoken_title				Купить жетон?
 
 
 
@@ -21190,7 +21190,7 @@ mm_buytoken_body				Купить жетон для игры в этом режи
 
 
 
-mm_buytoken_buytoken			Купить токен
+mm_buytoken_buytoken			Купить жетон
 
 
 
@@ -21210,7 +21210,7 @@ mm_servernotidle_body			Невозможно подключиться к сер�
 
 
 
-mm_left							Левая группа
+mm_left							Вы покинули группу
 
 
 
@@ -21274,7 +21274,7 @@ mm_joinmatch					Присоединение к матчу
 
 
 
-mm_joinmatch_body				Присоединяюсь к матчу, подождите...
+mm_joinmatch_body				Подключение к матчу, подождите...
 
 
 
@@ -21282,7 +21282,7 @@ mm_joinmatch_body				Присоединяюсь к матчу, подождит�
 
 
 
-mm_group_leave					Покиньте эту группу
+mm_group_leave					Покинуть эту группу
 
 
 
@@ -21290,11 +21290,11 @@ mm_group_invite					Пригласить по имени игрока
 
 
 
-mm_group_slot_empty				Открытый групповой слет
+mm_group_slot_empty				-Свободный слот-
 
 
 
-mm_group_slot_locked			Заблокировано из-за карты
+mm_group_slot_locked			-Заблокировано из-за карты-
 
 
 
@@ -21306,7 +21306,7 @@ mm_settings_locked				Только хост может изменить эти �
 
 
 
-mm_settings_locked_queue		Эти параметры нельзя изменить, пока они находятся в очереди.
+mm_settings_locked_queue		Эти параметры нельзя изменить, пока вы в очереди.
 
 
 
@@ -21318,7 +21318,7 @@ mm_disbanded_body				Группа расформирована.
 
 
 
-mm_kicked						Выгнали из группы
+mm_kicked						Исключен из группы
 
 
 
@@ -21342,7 +21342,7 @@ mm_invite_rejected				Отклонено
 
 
 
-mm_invite_ignored				Игнорируется
+mm_invite_ignored				Проигнорировано
 
 
 
@@ -21354,7 +21354,7 @@ mm_invitations_view				Посмотреть приглашения
 
 
 
-mm_tmmdisabled					Подбор отключено
+mm_tmmdisabled					Подбор отключен
 
 
 
@@ -21382,7 +21382,7 @@ mm_noregionselected				Регион не выбран
 
 
 
-mm_noregionselected_body		Вы должны выбрать регион для очереди на TMM.
+mm_noregionselected_body		Чтобы встать в очередь TMM, выберите регион.
 
 
 
@@ -21394,11 +21394,11 @@ mm_tmmbusy_body					Служба подбора игроков в настоящ
 
 
 
-mm_isleaver						Выходные не допускаются
+mm_isleaver						Покинувшие не допускаются
 
 
 
-mm_isleaver_body				Только игрокам, не вышедшим из группы, разрешено присоединяться или создавать группы.
+mm_isleaver_body				Присоединяться к группам и создавать их могут только игроки без статуса покинувшего.
 
 
 
@@ -21406,7 +21406,7 @@ mm_timeout						Группа удалена из очереди
 
 
 
-mm_timeout_body					К сожалению, нам не удалось найти подходящего кандидата для вашей группы в приемлемые сроки. Пожалуйста, попробуйте еще раз, выбрав более популярные варианты игры.
+mm_timeout_body					К сожалению, нам не удалось найти матч для вашей группы за приемлемое время. Попробуйте еще раз, выбрав более популярные параметры игры.
 
 
 
@@ -21422,7 +21422,7 @@ mm_noteligible		 			Не соответствует критериям
 
 
 
-mm_noteligible_body				Приглашенный вами игрок не имеет права.
+mm_noteligible_body				Приглашенный вами игрок не соответствует требованиям.
 
 
 
@@ -21438,7 +21438,7 @@ mm_option_disabled_localplayerregion_body	Этот регион недоступ
 
 
 
-mm_option_disabled_groupmateregion		Ограничение группы
+mm_option_disabled_groupmateregion		Ограничено из-за участника группы
 
 
 
@@ -21454,7 +21454,7 @@ mm_region_unavailable_body		Регион(ы) подбора игроков {regi
 
 
 
-mm_mode_disabled_basicplayer		Отключено - базовый одногруппник
+mm_mode_disabled_basicplayer		Отключено - базовый аккаунт в группе
 
 
 
@@ -21470,11 +21470,11 @@ mm_option_disabled_unverified_body			Эта опция недоступна дл
 
 
 
-mm_option_disabled_havetoken_body			Ваша учетная запись должна быть проверена, чтобы использовать токены для выбора этого режима.
+mm_option_disabled_havetoken_body			Ваша учетная запись должна быть проверена, чтобы использовать жетоны для выбора этого режима.
 
 
 
-mm_option_disabled_havepass_body			Чтобы играть в этом режиме через Pass, ваша учетная запись должна быть подтверждена.
+mm_option_disabled_havepass_body			Чтобы играть в этом режиме по пропуску, ваша учетная запись должна быть проверена.
 
 
 
@@ -21482,7 +21482,7 @@ mm_option_disabled_tokenpass_body			Ваша учетная запись дол�
 
 
 
-mm_option_disabled_needtoken			Требуется токен
+mm_option_disabled_needtoken			Требуется жетон
 
 
 
@@ -21490,7 +21490,7 @@ mm_option_disabled_needtoken_body		Чтобы играть в этом режи�
 
 
 
-mm_option_disabled_needtokenpass			Требуется токен или пропуск
+mm_option_disabled_needtokenpass			Требуется жетон или пропуск
 
 
 
@@ -21514,7 +21514,7 @@ mm_option_disabled_groupsize_body		Этот игровой режим недос
 
 
 
-mm_option_disabled_buytoken		Купить токен
+mm_option_disabled_buytoken		Купить жетон
 
 
 
@@ -21566,11 +21566,11 @@ mm_serverfound_body				Выполняется подключение к игро
 
 
 
-mm_nomatchesfound				Совпадений не найдено
+mm_nomatchesfound				Матчи не найдены
 
 
 
-mm_nomatchesfound_body			Не удалось найти подходящее совпадение. Возможно, вам придется пересмотреть выбранные вами варианты подбора игроков, чтобы найти совпадение.
+mm_nomatchesfound_body			Не удалось найти подходящий матч. Возможно, стоит пересмотреть выбранные параметры подбора.
 
 
 
@@ -21582,7 +21582,7 @@ mm_popup_invalid_version_body	Версия вашего клиента несо�
 
 
 
-mm_popup_group_full				Группа полная
+mm_popup_group_full				Группа заполнена
 
 
 
@@ -21606,15 +21606,15 @@ mm_popup_leavestrike_warning_body Вы будете наказаны, если �
 
 
 
-mm_popularitymeter				Измеритель популярности
+mm_popularitymeter				Шкала популярности
 
 
 
-mm_popularitymeter_body			Отображенные столбцы указывают на общую популярность этого варианта. Если вы решите отклонить слишком много вариантов, это уменьшит ваши шансы найти совпадение. Постарайтесь убедиться, что в ваших предпочтениях есть несколько популярных вариантов, чтобы ускорить время в очереди.
+mm_popularitymeter_body			Полоски показывают общую популярность этого варианта. Если отклонить слишком много вариантов, шансы найти матч уменьшатся. Оставьте в предпочтениях несколько популярных вариантов, чтобы сократить ожидание.
 
 
 
-mm_you							Ты
+mm_you							Вы
 
 
 
@@ -21666,7 +21666,7 @@ mm_connection_limit				Ограничение времени соединени�
 
 
 
-mm_gameloading_msg				Другие игроки в настоящее время загружают игру. Когда игрок подключается, его индикатор станет желтым. Когда они закончат загрузку, он станет зеленым.
+mm_gameloading_msg				Другие игроки сейчас загружают игру. Когда игрок подключится, его индикатор станет желтым. Когда он закончит загрузку, индикатор станет зеленым.
 
 
 
@@ -33182,11 +33182,11 @@ vanity_emote_wheel_setup_desc	Назначь эмоции на позиции к
 // === NEW KEYS FOR TRANSLATION ===
 general_mode_normal		All Pick
 store_unavailable		Магазин недоступен
-mm_machine_tag_denied_body		Тег отклонён: не соответствует требованиям
+mm_machine_tag_denied_body		Эти участники группы блокируют рейтинговую очередь:
 boss_info_kongor_name		Kongor
 options_submen_hdr		HDR ^555(экспериментально)^*
 store_no_listings		Нет объявлений
-mm_machine_tag_retag_btn		Сменить тег
+mm_machine_tag_retag_btn		Сменить привязку
 mm_mmr_midwars_tip		MMR (рейтинг подбора) в Mid Wars
 boss_info_kongor_ability1_name		Boulder Toss
 options_label_max_aspect_ratio		Макс. соотношение сторон
@@ -33203,7 +33203,7 @@ mm_machine_tag_locked_to_other		Рейтинговые игры на этом к
 globby_host_tip		Хост игры
 store_marketplace_you_own		Уже куплено: {count}
 options_hdr_pipeline		HDR Пайплайн
-mm_machine_tag_retag_confirm_title		Сменить тег матчмейкинга?
+mm_machine_tag_retag_confirm_title		Сменить привязку компьютера?
 boss_info_kongor_stat_magic_armor		^oМаг. броня:^* 30
 lobby_reminder_game_mode		Напоминание о режиме игры
 boss_info_kongor_ability2_desc		Бьёт по земле в радиусе 250, нанося маг. урон и снижая скор. движ. на 50% и скор. атаки на 50% на 2 сек. (4 сек. для не-героев).\n\nПрименяется автоматически, когда в радиусе ближнего боя оказываются 3 и более врагов.
@@ -33218,7 +33218,7 @@ store_marketplace_play_banned_btn			Marketplace Unavailable
 main_reconnect_note		Примечание: если вернуться в матч не получается, зайдите в публичное лобби. Пока ошибка не исправлена, это сбросит ваш статус.
 boss_info_kongor_ability4_desc		Даёт 70% снижения длительности дебаффов, длительности оглушений и сопротивления замедлениям. При Оглушении эти сопротивления растут на 15% (предел 100%).\n\nВраги, атакующие Kongor, получают на 50% меньше вампиризма.
 mm_machine_tag_denied_reason_shared		^279{name}:^* делит компьютер с другим участником группы
-mm_machine_tag_retag_error_generic		Не удалось сменить тег. Повторите попытку позже.
+mm_machine_tag_retag_error_generic		Не удалось сменить привязку. Повторите попытку позже.
 boss_info_kongor_reward2_name		Тотем Бессмертия
 options_checkbox_inventory_dragdrop		Перетаскивание предметов
 store_powered_by							POWERED BY
