@@ -81671,7 +81671,7 @@ State_Tarot_Ability3_name										Bound by Fate
 
 
 
-State_Tarot_Ability3_FRAME_effect								Медленно притягивается к другому Привязанному юниту (если он жив).\n\nЕсли два Привязанных юнита отодвигаются дальше, чем на 675 единиц друг от друга, Привязка щелкает и стягивает их вместе, применяя ^oОглушение на {1.25,1.5,1.75,2} сек. и нанося {80,160,240,320} маг. урона^*.\n\nмаг. урон и длительность Оглушения снижается до 50% эффективности для Привязанного юнита, если другой Привязанный юнит убит и не является юнитом-героем.
+State_Tarot_Ability3_FRAME_effect								Медленно притягивается к другому связанному юниту (если он жив).\n\nЕсли связанные юниты удаляются друг от друга дальше чем на 675 единиц, связь рвется и стягивает их вместе, накладывая ^oОглушение на {1.25,1.5,1.75,2} сек. и нанося {80,160,240,320} маг. урона^*.\n\nЕсли другой связанный юнит убит и не является героем, маг. урон и длительность Оглушения для оставшегося снижаются вдвое.
 
 
 
@@ -81791,7 +81791,7 @@ Hero_Tarot_name	Tarot
 
 
 
-Hero_Tarot_description											На протяжении веков Вечный Оракул возрождался на пике конфликта, чтобы служить голосом богов и делиться своими видениями со смертными, но никогда не вмешиваться.\n\nВозродившаяся после Годов Звериной Кости в роли Tarot, предсказательницы, которая путешествует со своим караваном цыган через опустошенные леса Калдавара, она предвидела падение Maliken Гримма и открытие Шрама, но была бессильна остановить it.\n\nТеперь Tarot видит разрушение World Tree, и, полностью осознавая обреченное будущее Неверта, она не может продолжать простое гадание. Она должна присоединиться к борьбе с Хеллборном и склонить судьбу, колеблющуюся на шаткой вершине разрушения, к жизни.
+Hero_Tarot_description											На протяжении веков Вечный Оракул возрождался на пике конфликтов, чтобы служить голосом богов и делиться видениями со смертными, но никогда не вмешиваться.\n\nПереродившись после Годов Звериной Кости под именем Tarot, гадалки, что странствует с цыганским караваном по опустошенным лесам Калдавара, она предвидела падение Maliken Grimm и открытие Шрама, но была бессильна это остановить.\n\nТеперь Tarot видит гибель Мирового Древа и, ясно понимая, какое будущее ждет Неверт, не может больше просто гадать. Она должна вступить в борьбу с Хеллборном и склонить судьбу, что колеблется на самом краю гибели, к жизни.
 
 
 
@@ -81895,7 +81895,7 @@ Ability_Tempest1_IMPACT_effect									Ледяной глыбой ^o3 раза^
 
 
 
-Ability_Tempest1_tooltip_flavor									Успокойся!
+Ability_Tempest1_tooltip_flavor									Остынь!
 
 
 
@@ -82351,7 +82351,7 @@ State_Tempest_Ability3_name										Meteor
 
 
 
-State_Tempest_Ability3_FRAME_effect								{2,3,4,5}% макс. здоровья принимается как чист. урон в сек.
+State_Tempest_Ability3_FRAME_effect								{2,3,4,5}% макс. здоровья в сек. в виде чист. урона
 
 
 
@@ -82407,7 +82407,7 @@ Ability_Tempest4_description_simple								Концентрируется до ^
 
 
 
-Ability_Tempest4_effect_header									Эффект(ы) стихийной пустоты
+Ability_Tempest4_effect_header									Эффекты Elemental Void
 
 
 
@@ -82503,7 +82503,7 @@ State_Tempest_Ability4_Pull_FRAME_effect						{50,100,150} Маг. урон в �
 
 
 
-State_Tempest_Ability4_Pull_FRAME_effect:ult_boost				{50,100,150} Истинный урон в сек.
+State_Tempest_Ability4_Pull_FRAME_effect:ult_boost				{50,100,150} чист. урона в сек.
 
 
 
@@ -82535,7 +82535,7 @@ Hero_Tempest_name	Tempest
 
 
 
-Hero_Tempest_description										Духи, рожденные стихиями, Тэмпесты воют по земле, обрушивая огонь и лед, призывая великие метеоры с небес. Призванные некогда Звериной Ордой, эти эфирные существа теперь сами призыватели, выводящие элементалей и собственные тени на поле боя. Даже союзники взирают на них с благоговением, граничащим со страхом.
+Hero_Tempest_description										Духи, рожденные стихиями, Tempest с воем носятся над землей, обрушивая огонь и лед и даже призывая с небес великие метеоры. Призванные некогда Звериной Ордой, эти эфирные существа теперь сами призыватели, выводящие элементалей и собственные тени на поле боя. Даже союзники взирают на них с благоговением, граничащим со страхом.
 
 
 
@@ -82599,7 +82599,7 @@ Ability_KeeperOfTheForest1_description_simple								Властью над ле�
 
 
 
-Ability_KeeperOfTheForest1_effect_header									Эффект(ы) камуфляжа
+Ability_KeeperOfTheForest1_effect_header									Эффекты Camouflage
 
 
 
@@ -82991,7 +82991,7 @@ Ability_KeeperOfTheForest4_description_simple								Взывает к корн�
 
 
 
-Ability_KeeperOfTheForest4_effect_header									Эффект(ы) корней
+Ability_KeeperOfTheForest4_effect_header									Эффекты Root
 
 
 
@@ -83071,7 +83071,7 @@ State_KeeperOfTheForest_Ability4_name										Root
 
 
 
-State_KeeperOfTheForest_Ability4_FRAME_effect								125 маг. урона в сек.\n\nОчистка этого состояния уменьшит текущую длительность на 80% и сделает это состояние неизлечимым.
+State_KeeperOfTheForest_Ability4_FRAME_effect								125 маг. урона в сек.\n\nОчистка этого состояния уменьшит текущую длительность на 80% и сделает это состояние неснимаемым.
 
 
 
@@ -83079,7 +83079,7 @@ State_KeeperOfTheForest_Ability4_FRAME_effect								125 маг. урона в �
 
 
 
-State_KeeperOfTheForest_Ability4_FRAME_effect:kotf_R_active				125 маг. урона в сек.\n\nОчистка этого состояния уменьшит текущую длительность на 80% и сделает это состояние неизлечимым.
+State_KeeperOfTheForest_Ability4_FRAME_effect:kotf_R_active				125 маг. урона в сек.\n\nОчистка этого состояния уменьшит текущую длительность на 80% и сделает это состояние неснимаемым.
 
 
 
@@ -83199,7 +83199,7 @@ Hero_KeeperOfTheForest_name	Keeper of the Forest
 
 
 
-Hero_KeeperOfTheForest_description											Древний защитник леса, Хранитель сражается, чтобы спасти цветущие земли Неверта, за которыми он ухаживал всю свою долгую жизнь. Обладая духовной связью с деревьями, Хранитель способен видеть их глазами, прятаться среди них и даже использовать их как грубое оружие в бою.
+Hero_KeeperOfTheForest_description											Древний защитник леса, Keeper сражается, чтобы спасти цветущие земли Неверта, за которыми он ухаживал всю свою долгую жизнь. Обладая духовной связью с деревьями, Keeper способен видеть их глазами, прятаться среди них и даже использовать их как грубое оружие в бою.
 
 
 
@@ -83351,7 +83351,7 @@ State_Tremble_Ability1_name										Dark Swarm
 
 
 
-State_Tremble_Ability1_description								{20,30,40,50}% Снижение урона от не роящихся источников\nНаносит {30,45,60,75} физ. урона в сек. вокруг себя
+State_Tremble_Ability1_description								{20,30,40,50}% Снижение урона от источников вне роя\nНаносит {30,45,60,75} физ. урона в сек. вокруг себя
 
 
 
@@ -83535,7 +83535,7 @@ State_Tremble_Ability2_Teleport_name							Terror Port
 
 
 
-State_Tremble_Ability2_Teleport_description						Порт Террора активен.\nВы можете туннелировать к другому Кургану Террора.
+State_Tremble_Ability2_Teleport_description						Terror Port активен.\nМожно пройти туннелем к другому Terror Mound.
 
 
 
@@ -83991,7 +83991,7 @@ State_Tremble_Ability4_Modifier_name							Hive Mind
 
 
 
-State_Tremble_Ability4_Modifier_FRAME_effect					Пока активно, Hive Mind заменяется на Ensnare
+State_Tremble_Ability4_Modifier_FRAME_effect					Пока эффект активен, Hive Mind заменяется на Ensnare
 
 
 
@@ -84103,7 +84103,7 @@ Ability_TremblePet1_IMPACT_effect								^oОбездвиживает^* выбр
 
 
 
-Ability_TremblePet1_effect_header								Ловушка
+Ability_TremblePet1_effect_header								Ensnare
 
 
 
@@ -84319,7 +84319,7 @@ Ability_TremblePet3_ATTACK_IMPACT_effect						Пассивно ваши обыч
 
 
 
-Ability_TremblePet3_effect_header								Эффект(ы) пронзателей
+Ability_TremblePet3_effect_header								Эффекты Impalers
 
 
 
@@ -84399,7 +84399,7 @@ Hero_Tremble_name	Tremble
 
 
 
-Hero_Tremble_description										Порча Хеллборна распространилась по Неверту - и глубоко внутрь него. Из-под коры глубин поднимается одетый в панцирь бессмертный ужас - Tremble, пробужденный для хаоса в рядах Легиона. Таинственные деформации рельефа предвещают его появление, а след трупов отмечает путь его ухода.
+Hero_Tremble_description										Порча Хеллборна распространилась по Неверту - и глубоко в его недра. Из-под земной коры поднимается бессмертный ужас в панцире - Tremble, пробужденный, чтобы сеять хаос в рядах Легиона. Его появление предвещают таинственные искажения рельефа, а путь, которым он уходит, отмечает след из трупов.
 
 
 
@@ -84751,7 +84751,7 @@ Ability_Tundra3_effect_header
 
 
 
-Ability_Tundra3_tooltip_flavor									Дрожь и Керл, я выбираю вас!
+Ability_Tundra3_tooltip_flavor									Shiver и Coeurl, я выбираю вас!
 
 
 
@@ -85031,7 +85031,7 @@ Ability_Tundra3_Pet_Coeurl_Ability1_description2
 
 
 
-Ability_Tundra3_Pet_Coeurl_Ability1_effect_header				Эффект(ы) зимнего укуса
+Ability_Tundra3_Pet_Coeurl_Ability1_effect_header				Эффекты Winter's Bite
 
 
 
@@ -85175,7 +85175,7 @@ Pet_Tundra_Ability3_Flying_name									Shiver
 
 
 
-Pet_Tundra_Ability3_Flying_description							Иммунитет к сплэш-урону
+Pet_Tundra_Ability3_Flying_description							Иммунитет к урону по области
 
 
 
@@ -85311,7 +85311,7 @@ Ability_Tundra4_description2
 
 
 
-Ability_Tundra4_effect_header									Эффект(ы) лавины
+Ability_Tundra4_effect_header									Эффекты Avalanche
 
 
 
@@ -85399,7 +85399,7 @@ Hero_Tundra_name	Tundra
 
 
 
-Hero_Tundra_description											Из ледяных пещер Ледяных Полей пришла Tundra - белый шаман-обезьяна огромных размеров и силы. Его громовой голос повелевает дикими существами, а магические силы насылают ужасный холод его северной родины. Даже огненные демоны Хеллборна чувствуют озноб при его появлении.
+Hero_Tundra_description											Из ледяных пещер Ледяных Полей пришел Tundra - белый шаман-обезьяна огромных размеров и силы. Его громовой голос повелевает дикими существами, а магические силы насылают ужасный холод его северной родины. Даже огненные демоны Хеллборна чувствуют озноб при его появлении.
 
 
 
@@ -85695,7 +85695,7 @@ Ability_Valkyrie3_description2
 
 
 
-Ability_Valkyrie3_effect_header									Эффект(ы) отважного прыжка
+Ability_Valkyrie3_effect_header									Эффекты Courageous Leap
 
 
 
@@ -85823,7 +85823,7 @@ Ability_Valkyrie4_description2
 
 
 
-Ability_Valkyrie4_effect_header									Эффект(ы) призмы
+Ability_Valkyrie4_effect_header									Эффекты Prism
 
 
 
@@ -85911,7 +85911,7 @@ State_Valkyrie_Ability4_ATTACK_START_effect
 
 
 
-State_Valkyrie_Ability4_FRAME_effect							Не истекает при атаке или использовании способностей\nДает помощь Valkyrie, когда затронутый союзный герой убивает вражеского героя в радиусе 1700 от нее.
+State_Valkyrie_Ability4_FRAME_effect							Не истекает при атаке или использовании способностей\nЗасчитывает Valkyrie помощь, когда союзный герой под эффектом убивает вражеского героя в радиусе 1700 от нее.
 
 
 
@@ -85959,7 +85959,7 @@ Hero_Valkyrie_description										Древние саги языческого 
 
 
 
-Hero_Valkyrie_role												Набор умений Valkyrie обеспечивает ей огромную гибкость ролей. С высокой выживаемостью, хорошим уроном и отличной командной синергией она может играть на любой позиции.
+Hero_Valkyrie_role												Набор умений Valkyrie обеспечивает ей огромную гибкость ролей. С высокой выживаемостью, хорошим уроном и отличной командной синергией она может одновременно бродить по карте, ганкать и фармить.
 
 
 
@@ -86490,7 +86490,7 @@ Ability_Vindicator1_description_simple							Наносит всем врага�
 
 
 
-Ability_Vindicator1_effect_header								Эффект(ы) мудрости мага
+Ability_Vindicator1_effect_header								Эффекты Sage's Lore
 
 
 
@@ -87290,7 +87290,7 @@ Ability_VoodooJester3_description_simple								Проклинает саму з
 
 
 
-Ability_VoodooJester3_effect_header									Эффекты Проклятия
+Ability_VoodooJester3_effect_header									Эффекты Cursed
 
 
 
@@ -87338,7 +87338,7 @@ State_VoodooJester_Ability3_name										Cursed
 
 
 
-State_VoodooJester_Ability3_FRAME_effect								{8,12,16,20} Маг. урон в сек.\nКаждые 4 сек. наносит маг. урон, равный {16,24,32,40}% от общего количества здоровья, потерянного с момента применения проклятия.
+State_VoodooJester_Ability3_FRAME_effect								{8,12,16,20} Маг. урон в сек.\nКаждые 4 сек. наносит маг. урон, равный {16,24,32,40}% от общего количества здоровья, потерянного с момента наложения Cursed.
 
 
 
@@ -88050,7 +88050,7 @@ Ability_Warchief4_description_simple 							При применении излу
 
 
 
-Ability_Warchief4_effect_header									Эффект(ы) боевого клича
+Ability_Warchief4_effect_header									Эффекты Warcry
 
 
 
@@ -88130,7 +88130,7 @@ State_Warchief_Ability4_Aura_name								Warcry
 
 
 
-State_Warchief_Ability4_Aura_FRAME_effect						Перезарядка всех не-ультимейтивных способностей сокращается в два раза быстрее.\n\nСкорость сокращения времени восстановления уменьшит максимальную перезарядку способности только до минимума 3 сек.
+State_Warchief_Ability4_Aura_FRAME_effect						Перезарядка всех способностей, кроме ультимейта, идет вдвое быстрее.\n\nУскорение не сокращает максимальную перезарядку способности ниже 3 сек.
 
 
 
@@ -88250,7 +88250,7 @@ Ability_WitchSlayer1_IMPACT_effect								Создает Graveyard длиной 
 
 
 
-Ability_WitchSlayer1_tooltip_flavor								Это твои похороны.
+Ability_WitchSlayer1_tooltip_flavor								Сам напросился.
 
 
 
@@ -88298,7 +88298,7 @@ Ability_WitchSlayer2_description_simple							Уменьшает вражеск�
 
 
 
-Ability_WitchSlayer2_effect_header								Эффект(ы) миниатюризации
+Ability_WitchSlayer2_effect_header								Эффекты Miniaturization
 
 
 
@@ -88394,7 +88394,7 @@ Ability_WitchSlayer3_description_simple							4 сек. высасывает м�
 
 
 
-Ability_WitchSlayer3_effect_header								Эффект(ы) вытягивания силы
+Ability_WitchSlayer3_effect_header								Эффекты Power Drain
 
 
 
@@ -88442,7 +88442,7 @@ State_WitchSlayer_Ability3_name									Power Drain
 
 
 
-State_WitchSlayer_Ability3_FRAME_effect							{25,50,75,100} Мана расходуется в сек.
+State_WitchSlayer_Ability3_FRAME_effect							Высасывает {25,50,75,100} маны в сек.
 
 
 
@@ -88578,7 +88578,7 @@ State_WitchSlayer_Ability4_Stack_name							Silver Wound
 
 
 
-State_WitchSlayer_Ability4_Stack_description					При убийстве на 5 сек. дает заряд Серебряной Пуле Witch Slayer
+State_WitchSlayer_Ability4_Stack_description					Если юнит умрет в течение 5 сек., Silver Bullet у Witch Slayer получит заряд
 
 
 
@@ -88666,7 +88666,7 @@ Hero_WitchSlayer_name	Witch Slayer
 
 
 
-Hero_WitchSlayer_description									Ни один город не почитает Сола набожнее Арасунии, и среди ее фанатичных граждан нет более рьяного, чем Witch Slayer. Хоть звериные шаманы и людские колдуны в Легионе смотрят на него с сомнением, его боевое мастерство и святые силы делают его могучим союзником. Вооруженный мушкетом и клинковой иконой Сола, он не только держится в бою, но и высасывает силу врагов, превращая любую землю в священную территорию.
+Hero_WitchSlayer_description									Ни один город не почитает Сола набожнее Арасунии, и среди ее фанатичных граждан нет более рьяного, чем Witch Slayer. Хоть звериные шаманы и людские колдуны в Легионе смотрят на него с сомнением, его боевое мастерство и святые силы делают его могучим союзником. Вооруженный мушкетом и иконой Сола с клинком, он не только держится в бою, но и высасывает силу врагов, превращая любую землю в священную территорию.
 
 
 
@@ -89026,7 +89026,7 @@ Ability_WarBeast2_description_simple							Издает могучий ^oBattle 
 
 
 
-Ability_WarBeast2_effect_header									Эффект(ы) боевого крика
+Ability_WarBeast2_effect_header									Эффекты Battle Cry
 
 
 
@@ -89034,7 +89034,7 @@ Ability_WarBeast2_effect_header									Эффект(ы) боевого крик
 
 
 
-Ability_WarBeast2_effect_header2								Эффекты Сплочения
+Ability_WarBeast2_effect_header2								Эффекты Rallied
 
 
 
@@ -89226,7 +89226,7 @@ Ability_WarBeast4_description_simple							^oПревращается^* в Hellh
 
 
 
-Ability_WarBeast4_effect_header									Эффекты Метаморфозы
+Ability_WarBeast4_effect_header									Эффекты Metamorphosis
 
 
 
@@ -89274,7 +89274,7 @@ State_WarBeast_Ability4_name									Shapeshift
 
 
 
-State_WarBeast_Ability4_FRAME_effect							Уменьшает базовое время атаки с 1,7 сек. до 1,4 сек.\nУвеличивает скор. движ. себя и всех принадлежащих ему юнитов до {550,575,600} и дает возможность ходить по юнитам.\nУвеличивает дальность обзора ночью на {600,800,1000}.
+State_WarBeast_Ability4_FRAME_effect							Уменьшает базовое время атаки с 1,7 сек. до 1,4 сек.\nПовышает скор. движ. героя и всех его юнитов до {550,575,600} и позволяет проходить сквозь юнитов.\nУвеличивает дальность обзора ночью на {600,800,1000}.
 
 
 
@@ -89330,7 +89330,7 @@ Hero_WarBeast_name	War Beast
 
 
 
-Hero_WarBeast_description										Некогда смотритель псов в подземном мире, War Beast откликнулся на зов битвы, чтобы скормить жертв Неверта своим питомцам. Верность War Beast никогда не подвергалась сомнению. Его жажда кровопролития неутолима, питая зверя внутри.
+Hero_WarBeast_description										Некогда смотритель псов в подземном мире, War Beast откликнулся на зов битвы, чтобы скормить жертв Неверта своим питомцам. Верность War Beast никогда не подвергалась сомнению. Его жажда крови неутолима и питает зверя внутри.
 
 
 
@@ -89906,7 +89906,7 @@ Ability_Bear3_description_simple								Бьет по земле, ^oнанося
 
 
 
-Ability_Bear3_effect_header										Эффекты Размаха
+Ability_Bear3_effect_header										Эффекты Swipe
 
 
 
@@ -90018,7 +90018,7 @@ Ability_Bear4_description_simple								Каждый раз, когда Booboo �
 
 
 
-Ability_Bear4_effect_header										Эффекты Бешенства
+Ability_Bear4_effect_header										Эффекты Frenzy
 
 
 
@@ -90330,7 +90330,7 @@ Ability_Yogi2_description_simple								Активируйте, чтобы да�
 
 
 
-Ability_Yogi2_effect_header										Эффект(ы) дикости
+Ability_Yogi2_effect_header										Эффекты Wild
 
 
 
@@ -90378,7 +90378,7 @@ Ability_Yogi2_name:Yogiq_level4									Swipe
 
 
 
-Ability_Yogi2_effect_header:Yogi_Ability4_Active				Эффекты Размаха
+Ability_Yogi2_effect_header:Yogi_Ability4_Active				Эффекты Swipe
 
 
 
@@ -90386,7 +90386,7 @@ Ability_Yogi2_effect_header:Yogi_Ability4_Active				Эффекты Размах�
 
 
 
-Ability_Yogi2_effect_header:Yogiq_level3						Эффекты Размаха
+Ability_Yogi2_effect_header:Yogiq_level3						Эффекты Swipe
 
 
 
@@ -90394,7 +90394,7 @@ Ability_Yogi2_effect_header:Yogiq_level3						Эффекты Размаха
 
 
 
-Ability_Yogi2_effect_header:Yogiq_level4						Эффекты Размаха
+Ability_Yogi2_effect_header:Yogiq_level4						Эффекты Swipe
 
 
 
@@ -90698,7 +90698,7 @@ Ability_Yogi4_description_simple:yogi4_toggle_active 			Активируйте, 
 
 
 
-Ability_Yogi4_effect_header										Эффект(ы) Bear Form
+Ability_Yogi4_effect_header										Эффекты Bear Form
 
 
 
@@ -91026,7 +91026,7 @@ Ability_Zephyr2_IMPACT_effect									Поглощает один Cyclone и ^o�
 
 
 
-Ability_Zephyr2_KILL_effect										Создает циклон, который существует ^o40 секунд^* и наносит ^o9 маг. урона в сек.^* вражеским юнитам, которых он касается.\n\nКогда циклон поглощается, он исцеляет Zephyr на ^o20 здоровья^*. Исцеляет на ту же сумму по истечении срока действия Циклона.\n\nЦиклоны также появляются раз в 20 сек.\n\nМожет быть одновременно активным максимум ^c{3,5,7,9} циклонов^*.
+Ability_Zephyr2_KILL_effect										Создает циклон, который существует ^o40 сек.^* и наносит ^o9 маг. урона в сек.^* вражеским юнитам, которых касается.\n\nКогда циклон поглощается, он исцеляет Zephyr на ^o20 здоровья^*. Столько же Zephyr получает, когда циклон исчезает сам.\n\nЦиклоны также появляются раз в 20 сек.\n\nОдновременно может существовать не больше ^c{3,5,7,9} циклонов^*.
 
 
 
@@ -91034,7 +91034,7 @@ Ability_Zephyr2_KILL_effect										Создает циклон, который
 
 
 
-Ability_Zephyr2_KILL_effect:ult_boost							Создает циклон, который существует ^o40 секунд^* и наносит ^o9 маг. урона в сек.^* вражеским юнитам, которых он касается.\n\nКогда циклон поглощается, он исцеляет Zephyr на ^o20 здоровья^*. Исцеляет на ту же сумму по истечении срока действия Циклона.\n\nЦиклоны также появляются каждые ^g4^* секунды.\n\nМожет одновременно быть активным максимум ^g{7,9,11,13} циклонов^*.
+Ability_Zephyr2_KILL_effect:ult_boost							Создает циклон, который существует ^o40 сек.^* и наносит ^o9 маг. урона в сек.^* вражеским юнитам, которых касается.\n\nКогда циклон поглощается, он исцеляет Zephyr на ^o20 здоровья^*. Столько же Zephyr получает, когда циклон исчезает сам.\n\nЦиклоны также появляются каждые ^g4^* сек.\n\nОдновременно может существовать не больше ^g{7,9,11,13} циклонов^*.
 
 
 
@@ -91506,7 +91506,7 @@ Ability_PyromancerTutorial2_IMPACT_effect						Наносит каждой це�
 
 
 
-Ability_PyromancerTutorial2_tooltip_flavor						Мана:? Проверьте.\nПерезарядка? Проверить\nСпособность вызвать дракона?\n\nБесценно.
+Ability_PyromancerTutorial2_tooltip_flavor						Стоимость маны? Есть.\nПерезарядка? Есть.\nСпособность призвать дракона?\n\nБесценно.
 
 
 
@@ -91554,7 +91554,7 @@ Ability_PyromancerTutorial3_description_simple					Пассивно дает ^o{
 
 
 
-Ability_PyromancerTutorial3_effect_header						Эффекты Пыла
+Ability_PyromancerTutorial3_effect_header						Эффекты Fervor
 
 
 
@@ -91562,7 +91562,7 @@ Ability_PyromancerTutorial3_effect_header						Эффекты Пыла
 
 
 
-Ability_PyromancerTutorial3_effect_header2						Эффекты Горения!
+Ability_PyromancerTutorial3_effect_header2						Эффекты Burning!
 
 
 
@@ -91970,7 +91970,7 @@ Item_AlacrityBand_effect_header									Статусные эффекты
 
 
 
-Item_AlacrityBand_shop_flavor									Ленты Проворства были созданы Божественным Кругом, чтобы ускорять их кувырки, жонглирование и сценические поединки и тем сильнее поражать публику. Им было всё равно, кто в толпе - крестьяне или знать; они просто хотели дать невероятное представление. Когда полупьяный суеверный барон обвинил их в колдовстве за такую ловкость и велел сжечь на костре, артисты нашли лентам иное применение: защищаться и бить нападающего с ошеломляющей скоростью и рвением. Прошло немного времени, и эти безделушки понесли в бой, а братские могилы стали наполняться быстрее прежнего.
+Item_AlacrityBand_shop_flavor									Alacrity Bands были созданы Божественным Кругом, чтобы ускорять их кувырки, жонглирование и сценические поединки и тем сильнее поражать публику. Им было всё равно, кто в толпе - крестьяне или знать; они просто хотели дать невероятное представление. Когда полупьяный суеверный барон обвинил их в колдовстве за такую ловкость и велел сжечь на костре, артисты нашли лентам иное применение: защищаться и бить нападающего с ошеломляющей скоростью и рвением. Прошло немного времени, и эти безделушки понесли в бой, а братские могилы стали наполняться быстрее прежнего.
 
 
 
@@ -125110,7 +125110,7 @@ State_DoctorRepulsor_Ability3_FRAME_effect:ult_boost			При попадании
 Ability_LordSalforis4_tooltip_flavor		То, что убивает тебя, делает меня сильнее.
 Neutral_BoglingWrangler_name								 Bogling Wrangler
 State_LordSalforis_Ability4_FRAME_effect:ult_boost		Наносит {20,35,50} абсолютного маг. урона в сек.\nНаносит +5 урона в сек. за каждый заряд.\nНе может восстанавливать или лечить здоровье.\nЭффект нельзя передать другому юниту
-Ability_DarkLady4_effect_header		При активации наносит урон всем врагам вокруг и получает бафф
+Ability_DarkLady4_effect_header		Эффекты Darkness
 Ability_LordSalforis3_IMPACT_effect		При использовании отключает пассивный урон.
 State_Stunned_name												Stunned
 State_Aluna_Ability4_FRAME_effect:ult_boost						+250% к скорости восстановления перезарядки\nВаши способности усилены!
@@ -125143,7 +125143,7 @@ State_LordSalforis_Ability3_name									Presence of the Dark Lord
 Ability_LordSalforis2_description2:ult_boost						\r
 Ability_LordSalforis1_tooltip_flavor		Жизнь неопределённа, абсолютна только смерть.
 State_Stunned_Knockdown_name									Stunned
-Ability_DarkLady3_tooltip_flavor		«Можно влезть без очереди?»
+Ability_DarkLady3_tooltip_flavor		Можно влезть без очереди?
 State_Revenant_Ability2_Debuff_Aura_Boosted_description			Получает {15,25,35,45} маг. урона в сек. Получаемые лечение, вампиризм и регенерация снижены на 33%.
 Ability_LordSalforis4_IMPACT_effect		Накладывает ^oThe Undying^* на цель на ^o12 сек.^*
 Ability_LordSalforis2_tooltip_flavor		Когда жизнь подсовывает тебе лимоны, тебе конец!
@@ -125159,7 +125159,7 @@ Ability_Cthulhuphant3_description2:ult_boost					^gКаждый раз, когд
 Ability_LordSalforis2_name:ult_boost		^gLife Tap*^*
 State_Revenant_Ability2_Debuff_Aura_Boosted_description_simple	Получает {15,25,35,45} маг. урона в сек. Получаемые лечение, вампиризм и регенерация снижены на 33%.
 State_ProtectiveTalisman_name									Protective Talisman
-Ability_DarkLady1_tooltip_flavor		«Эти клинки решают твою судьбу!»
+Ability_DarkLady1_tooltip_flavor		Эти клинки решают твою судьбу!
 Ability_DarkLady2_IMPACT_effect		Наносит цели {75,100,125,150} маг. урона и накладывает Tainted Soul на {2,3,4,5} сек.
 Neutral_TurtleViolet_name										Bog Turtle
 Ability_LordSalforis2_name										Life Tap
@@ -125168,7 +125168,7 @@ Ability_LordSalforis2_effect_header		Эффекты Life Tap
 Ability_Thunderbringer1_description_simple:OnlyMidMap					Бьет вражеского юнита молнией, которая перескакивает между ^o{4,5,6,7} ближайшими врагами^*, нанося каждому ^o{85,100,115,130} маг. урона^*. ^rMid Wars:^* радиус поиска следующей цели ^o400^*.
 Ability_LordSalforis1_description_simple		Наносит ^o{130,210,290,370} маг. урона^* в указанной области.\n\nВ течение следующих 5 сек. поражённые цели возвращают 40% полученного урона как реген. здоровья, но получают ^o-50% к лечению^*.
 Ability_LordSalforis3_description		Пассивно крадёт {30,45,60,75}% реген. здоровья у врагов рядом и отдаёт его вам. Аура также наносит {15,25,35,45} чист. урона в сек., поровну разделённого между всеми врагами в радиусе. Минимум - 15 чист. урона в сек.\n\nИллюзии наследуют Dark Lord's Presence, но наносят 33% урона. Снижение реген. здоровья не складывается.
-Ability_DarkLady2_tooltip_flavor		«Я хочу поглотить твою душу.»
+Ability_DarkLady2_tooltip_flavor		Я хочу поглотить твою душу.
 Ability_LordSalforis4_effect_header		Эффекты The Undying
 Roast_Goal_description_simple									Gooooal!
 Shout_ILoveMyTeam_description									Обожаю свою команду, они великолепны!
@@ -125186,12 +125186,12 @@ Gesture_NoobSpray_description									Создан для нубов, приме
 Neutral_TurtleRed_name											Bog Turtle
 Ability_DoctorRepulsor3_name:ult_boost							^gElectric Fury^*
 State_Revenant_Ability2_Boosted_name							Mortification
-Ability_DarkLady1_effect_header		Эффекты Тёмных Клинков
+Ability_DarkLady1_effect_header		Эффекты Dark Blades
 Ability_LordSalforis4_name:ult_boost		^gThe Undying*^*
 Ability_DarkLady1_description		Dark Lady пробуждает злую энергию в своих Клинках Гнева: ее атаки накладывают Безмолвие, не давая врагам применять заклинания и способности. Эта же энергия временно повышает ее базовый урон.
 Ability_DarkLady3_IMPACT_effect		Рывок к указанной точке: наносит по одной атаке каждому врагу, попавшему в радиус. Каждая следующая атака во время рывка наносит на 15% меньше урона, чем предыдущая.\n\nПо завершении рывка накладывает на себя Zeal на 6 сек.
 Hero_LordSalforis_description		Lord Salforis, барон Блэкволла, повелевает силами некромантии, что отличает его от обычного пушечного мяса Хеллборна. Могучий чародей и полководец, он одним своим присутствием на поле боя вселяет в противников страх, разлагая их изнутри и вытягивая души. Поговаривают, что павший от его копья обрекает свою душу навеки.
-Ability_DarkLady2_effect_header		Эффекты Поражённой Души
+Ability_DarkLady2_effect_header		Эффекты Tainted Soul
 Ability_LordSalforis1_name										Mors Certissima
 Roast_Goal_name													Goal!
 Gesture_NoobSpray_name											Noob Spray
@@ -125199,7 +125199,7 @@ Ability_Thunderbringer1_IMPACT_effect:OnlyMidMap						Перескакивает
 Ability_Kinesis2_description_simple:ult_boost		Поднимает в воздух ^oближайшее дерево или крипа^*, делая их неуязвимыми на ^o8 сек.^* Если подходящей цели нет, поднимает кусок земли.\n\n^oБросить объекты^* можно, выбрав врага: каждый наносит ^o{85,90,95,100} маг. урона^*, ^oзамедляет скор. движ. на {10,15,20,25}% на 2 сек.^* и ^gдважды отскакивает на врагов в радиусе 400^*.\n\nДо ^o{1,2,3,4} зарядов^*, по одному восстанавливается за ^o{4,3.3,2.6,2} сек.^*
 Ability_LordSalforis4_description_simple		Вырывает душу врага, накладывая ^oThe Undying^* на 12 сек.\n\nВсё это время цель получает ^o{20,35,50} абсолютного маг. урона^* в сек. и не может восстанавливать или лечить здоровье.\n\n^gПосох Мастера^*: длительность приостанавливается, пока вы рядом, а урон растёт на 5 за каждого героя, погибшего под ^oThe Undying^*, максимум +50.
 State_Midas_Staff_Ability4_name									Golden
-Hero_DarkLady_description		Вооружённая парой клинков, похожих на косы, жница по прозвищу The Dark Lady прошла через ряды Легиона как тень смерти. Солдаты, набирающиеся храбрости, отпускают про неё шутки: "Смотри, не повстречай Тёмную Леди", - говорят они загулявшему приятелю. Но даже эти шутки сопровождает дрожь. Стремительная, холодная и смертоносная, как ледяной ветер со степей, чёрная, как затянутая тучами ночь, она - совсем не повод для смеха.
+Hero_DarkLady_description		Вооружённая парой клинков, похожих на косы, жница по прозвищу The Dark Lady прошла через ряды Легиона как тень смерти. Солдаты, набирающиеся храбрости, отпускают про неё шутки: "Смотри, не повстречай The Dark Lady", - говорят они загулявшему приятелю. Но даже эти шутки сопровождает дрожь. Стремительная, холодная и смертоносная, как ледяной ветер со степей, чёрная, как затянутая тучами ночь, она - совсем не повод для смеха.
 Ability_DarkLady3_description2:ult_boost		^gПосох Мастера:^* вдвое больше атак за рывок.
 Ability_LordSalforis4_name										The Undying
 Ability_LordSalforis3_IMPACT_effect:salforis_dmgaura_on		При использовании отключает пассивный урон.
@@ -125221,7 +125221,7 @@ Ability_DarkLady3_description_simple		Рывок к указанной точк�
 Ability_DarkLady3_description		Dark Lady с невероятной скоростью бросается к указанной точке, атакуя врагов, мимо которых проносится.
 Ability_LordSalforis2_description_simple:ult_boost		Накладывает вокруг себя затухающее ^oзамедление скор. движ. 40%^* на 2 сек.\n\nНа 5 сек. или до первой успешной атаки даёт ^o50 скор. движ.^*, а следующая атака заряжается энергией Нижнего мира: добавляет ^o{40,60,80,100} урона^*, превращает его в абсолютный маг. урон и даёт ^o{55,70,85,100}% вампиризма^*.
 Ability_Thunderbringer4_IMPACT_effect:OnlyMidMap						^rMid Wars:^* создает в выбранной точке ^oThunder Cloud^* на ^o9 сек.^*: за это время он бьет ^o{4,5,6} молниями^* по всем вражеским юнитам в радиусе 400, нанося ^o{150,175,200} маг. урона^* и ^oмини-оглушая врагов^* на 0,05 сек.
-Ability_DarkLady3_effect_header		Эффекты Рвения
+Ability_DarkLady3_effect_header		Эффекты Zeal
 State_DarkLady_Ability_1_Target_name								Silenced
 Neutral_TurtleBlue_name											Bog Turtle
 Gesture_NoobSpray_description_simple							Создан для нубов.
@@ -125234,11 +125234,11 @@ Roast_Goal_description											Бьёт... Забивает! Гооол!
 State_LordSalforis_Ability2_name									Life Tap
 Ability_DarkLady2_name												Taint Soul
 State_LordSalforis_Ability4_FRAME_effect		Наносит {20,35,50} абсолютного маг. урона в сек.\nНе может восстанавливать или лечить здоровье.\nЭффект нельзя передать другому юниту
-Ability_DarkLady4_tooltip_flavor		«Ты совсем один, никто не рядом!»
+Ability_DarkLady4_tooltip_flavor		Ты совсем один, рядом никого!
 Ability_Kinesis2_Lift_name										Lift
 Ability_DarkLady3_description_simple:ult_boost		Рывок к указанной точке: огибает препятствия и мгновенно атакует каждого врага, через которого вы прошли, нанося ^g100% своего урона атаки^*.\n\nПосле рывка вы получаете ^o{30,45,60,75} скор. атаки^* на ^o6 сек.^*\n\n^gУбийства сбрасывают перезарядку способности, а непрямые убийства и помощь снижают её на 50%.^*
 Ability_Magmus1_description_simple:ult_boost					Бросается к выбранной точке, нанося вражеским юнитам на пути ^o{100,160,220,280} маг. урона^* и ^oоглушая^* их на ^o2,15 сек.^*, ^gа за собой оставляет лавовый след, который 3 сек. наносит врагам в нем 125 маг. урона в сек.^*
-State_DarkLady_Ability2_FRAME_effect		Снижает скор. движ. на 60%, постепенно восстанавливаясь за {2,3,4,5} сек.
+State_DarkLady_Ability2_FRAME_effect		Снижает скор. движ. на 60%, скорость восстанавливается за {2,3,4,5} сек.
 Ability_LordSalforis2_IMPACT_effect		Сбрасывает перезарядку атаки и накладывает на себя Life Tap до следующей атаки или на 5 сек., а врагам в радиусе даёт затухающее замедление скор. движ. 40% на 2 сек.
 Ability_Glacius4_description2:ult_boost		^gУсиление ультой:^* увеличивает радиус ультимейта и добавляет эффект безмолвия.
 Ability_Succubus1_IMPACT_effect		Накладывает Smitten на вражеских юнитов в области на {6.25,6.5,6.75,7} сек. Снижает наносимый целью урон на {20,25,30,35}%.
