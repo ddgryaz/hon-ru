@@ -118,7 +118,7 @@ EffectType_Disable												Отключение
 
 
 
-EffectType_Astrolabe											Астролябия
+EffectType_Astrolabe											Astrolabe
 
 
 
@@ -126,7 +126,7 @@ EffectType_Astrolabe											Астролябия
 
 
 
-EffectType_RingSorcery											Кольцо Колдовства
+EffectType_RingSorcery											Ring of Sorcery
 
 
 
@@ -134,7 +134,7 @@ EffectType_RingSorcery											Кольцо Колдовства
 
 
 
-EffectType_Energizer											Энергайзер
+EffectType_Energizer											Energizer
 
 
 
@@ -222,7 +222,7 @@ EffectType_NeutralAggro
 
 
 
-EffectType_SuperiorMagic										Высшая магия
+EffectType_SuperiorMagic										Абсолютный магический
 
 
 
@@ -230,7 +230,7 @@ EffectType_SuperiorMagic										Высшая магия
 
 
 
-EffectType_SuperiorPhysical										Высший физический
+EffectType_SuperiorPhysical										Абсолютный физический
 
 
 
@@ -302,7 +302,7 @@ ImmunityType_TargetingImmunity									Иммунитет к нацеливан�
 
 
 
-ImmunityType_AstrolabeImmunity									Иммунитет к Астролябии
+ImmunityType_AstrolabeImmunity									Иммунитет к Astrolabe
 
 
 
@@ -310,7 +310,7 @@ ImmunityType_AstrolabeImmunity									Иммунитет к Астроляби�
 
 
 
-ImmunityType_RingSorceryImmunity								Иммунитет кольца магии
+ImmunityType_RingSorceryImmunity								Иммунитет к Ring of Sorcery
 
 
 
@@ -318,7 +318,7 @@ ImmunityType_RingSorceryImmunity								Иммунитет кольца маги
 
 
 
-ImmunityType_EnergizerImmunity									Иммунитет энерджайзера
+ImmunityType_EnergizerImmunity									Иммунитет к Energizer
 
 
 
@@ -374,7 +374,7 @@ ImmunityType_AncientImmunity2
 
 
 
-ImmunityType_PhysicalImmunity									Иммунитет к физическому
+ImmunityType_PhysicalImmunity									Иммунитет к физ. урону
 
 
 
@@ -382,7 +382,7 @@ ImmunityType_PhysicalImmunity									Иммунитет к физическом
 
 
 
-ImmunityType_BarrierImmunity									Иммунитет к Идолу Барьера
+ImmunityType_BarrierImmunity									Иммунитет к Barrier Idol
 
 
 
@@ -398,7 +398,7 @@ ImmunityType_BarrierImmunity									Иммунитет к Идолу Барье
 
 
 
-HeroCategory_cc													Контроль толпы
+HeroCategory_cc													Контроль
 
 
 
@@ -414,7 +414,7 @@ HeroCategory_magic												Маг. урон
 
 
 
-HeroCategory_muc												Мультиюнит-контроль
+HeroCategory_muc												Управление юнитами
 
 
 
@@ -494,7 +494,7 @@ StealthType_Unrevealable
 
 
 
-RevealType_ward													Вард Откровения
+RevealType_ward													Ward of Revelation
 
 
 
@@ -502,7 +502,7 @@ RevealType_ward													Вард Откровения
 
 
 
-RevealType_eye													Привязанный Глаз
+RevealType_eye													Bound Eye
 
 
 
@@ -1206,7 +1206,7 @@ TargetScheme_enemy_creeps_and_corpses							Вражеские крипы/тру
 
 
 
-TargetScheme_my_pseudo_pets										Собственные псевдопитомцы
+TargetScheme_my_pseudo_pets										Свои псевдопитомцы
 
 
 
@@ -1230,7 +1230,7 @@ TargetScheme_nonillusion_enemy_heroes							Вражеские герои (не 
 
 
 
-TargetScheme_my_illusions										Собственные иллюзии
+TargetScheme_my_illusions										Свои иллюзии
 
 
 
@@ -2046,7 +2046,7 @@ Mode_CaptainsMode												Captains Mode
 
 
 
-Mode_Deathmatch													Дезматч
+Mode_Deathmatch													Deathmatch
 
 
 
@@ -2070,7 +2070,7 @@ Mode_AllRandom													Balanced Random
 
 
 
-Mode_Lockpick													Локпик
+Mode_Lockpick													Lockpick
 
 
 
@@ -2174,7 +2174,7 @@ Mode_HeroBan													Hero Ban
 
 
 
-Mode_Reborn														Рейтинговый выбор
+Mode_Reborn														Ranked Pick
 
 
 
@@ -2286,7 +2286,7 @@ Option_DropItems												Выпадение предметов
 
 
 
-Option_NoPowerups												Без усилений
+Option_NoPowerups												Без рун
 
 
 
@@ -2294,7 +2294,7 @@ Option_NoPowerups												Без усилений
 
 
 
-Option_SuperCreeps												Супер крипы
+Option_SuperCreeps												Суперкрипы
 
 
 
@@ -2302,7 +2302,7 @@ Option_SuperCreeps												Супер крипы
 
 
 
-Option_EasyMode													Легкий режим
+Option_EasyMode													Простой режим
 
 
 
@@ -2310,7 +2310,7 @@ Option_EasyMode													Легкий режим
 
 
 
-Option_DuplicateHeroes											Дубликаты героев
+Option_DuplicateHeroes											Повтор героев
 
 
 
@@ -2430,7 +2430,7 @@ Option_BalancedRandom 											Balanced Random
 
 
 
-Option_ShuffleAbilities											Смешанные способности
+Option_ShuffleAbilities											Перемешанные способности
 
 
 
@@ -2438,7 +2438,7 @@ Option_ShuffleAbilities											Смешанные способности
 
 
 
-Option_RapidFire												Режим Blitz
+Option_RapidFire												Блиц-режим
 
 
 
@@ -2446,7 +2446,7 @@ Option_RapidFire												Режим Blitz
 
 
 
-Option_LateGame													Режим Лейт-гейм
+Option_LateGame													Поздняя игра
 
 
 
@@ -5510,7 +5510,7 @@ State_Accursed_Ability2_name									Fire Shield
 
 
 
-State_Accursed_Ability2_FRAME_effect							{110,140,170,200} щит от урона после смягчения.\n\nПосле поглощения всей суммы наносит врагам в радиусе 700 урона, нанося {110,140,170,200} маг. урона.
+State_Accursed_Ability2_FRAME_effect							Щит на {110,140,170,200} урона (после снижения).\n\nКогда щит поглотит весь урон, наносит врагам в радиусе 700 {110,140,170,200} маг. урона.
 
 
 
@@ -5558,7 +5558,7 @@ Ability_Accursed3_description_simple							Ваши атаки и способн
 
 
 
-Ability_Accursed3_effect_header									Эффекты Ожога
+Ability_Accursed3_effect_header									Эффекты Sear
 
 
 
@@ -5614,7 +5614,7 @@ State_Accursed_Ability3_name									Sear
 
 
 
-State_Accursed_Ability3_description								Ожог
+State_Accursed_Ability3_description								Sear
 
 
 
@@ -5670,7 +5670,7 @@ State_Accursed_Ability3_Debuff_name								Sear
 
 
 
-State_Accursed_Ability3_Debuff_FRAME_effect						При получении атаки накладывает Burning Strikes на атакующего на 4.5 сек.
+State_Accursed_Ability3_Debuff_FRAME_effect						При получении атаки накладывает Burning Strikes на атакующего на 4,5 сек.
 
 
 
@@ -5990,7 +5990,7 @@ State_Adrenaline_Ability1_Stack_name							Shard Blast (Charges)
 
 
 
-State_Adrenaline_Ability1_Stack_description						Уменьшает перезарядку и затраты маны на "Shard Blast" за заряд\nМаксимум 2 заряда
+State_Adrenaline_Ability1_Stack_description						Уменьшает перезарядку и расход маны Shard Blast за каждый заряд\nМаксимум 2 заряда
 
 
 
@@ -6246,7 +6246,7 @@ State_Adrenaline_Ability3_Self_name								Ember Shard
 
 
 
-State_Adrenaline_Ability3_Self_FRAME_effect						Ваша следующая атака пронзит широкий радиус, и привязь затронет вражеских героев.\nЕсли они порвут привязь, их притянет к вам!
+State_Adrenaline_Ability3_Self_FRAME_effect						Следующая атака бьет по широкой области и привязывает задетых вражеских героев.\nЕсли они разорвут привязь, их притянет к вам!
 
 
 
@@ -6358,7 +6358,7 @@ State_Adrenaline_Ability4_name									Death's Halo
 
 
 
-State_Adrenaline_Ability4_FRAME_effect							В ловушке внутри арены Осколка!\n\nЕсли вы покинете арену, вы будете принудительно телепортирован в точку внутри Ореола Смерти в пределах половины радиуса действия этой способности.
+State_Adrenaline_Ability4_FRAME_effect							Вы заперты на арене осколков!\n\nЕсли покинуть арену, вас принудительно телепортирует обратно внутрь Death's Halo, в пределах половины радиуса способности.
 
 
 
@@ -6390,7 +6390,7 @@ State_Adrenaline_Ability4_Self_name								Death's Halo
 
 
 
-State_Adrenaline_Ability4_Self_FRAME_effect						Получите {3,4,5} силы, 5 скор. атаки, 1 броню и 1 маг. броню за каждого настоящего героя на арене "Осколок" (в 2 раза для вражеских героев)\nДлительность "Ореола смерти" уменьшается на 1 сек. каждый раз, когда Adrenaline получает совокупный урон, равный 25% от его макс. здоровья.
+State_Adrenaline_Ability4_Self_FRAME_effect						Дает {3,4,5} силы, 5 скор. атаки, 1 брони и 1 маг. брони за каждого настоящего героя на арене осколков (вдвое больше за вражеских героев)\nДлительность Death's Halo уменьшается на 1 сек. каждый раз, когда Adrenaline получает в сумме урон, равный 25% его макс. здоровья.
 
 
 
@@ -6554,7 +6554,7 @@ Ability_Aluna1_IMPACT_effect									Выпускает молнию, котор
 
 
 
-Ability_Aluna1_tooltip_flavor									Моя красота слегка Оглушает.
+Ability_Aluna1_tooltip_flavor									Моя красота немного оглушает.
 
 
 
@@ -7138,7 +7138,7 @@ Ability_Andromeda1_description_simple							Швыряет во врага ко�
 
 
 
-Ability_Andromeda1_effect_header								Эффекты Кометы
+Ability_Andromeda1_effect_header								Эффекты Comet
 
 
 
@@ -7266,7 +7266,7 @@ Ability_Andromeda2_description_simple							Сотрясает магнитно�
 
 
 
-Ability_Andromeda2_effect_header								Эффекты Авроры
+Ability_Andromeda2_effect_header								Эффекты Aurora
 
 
 
@@ -7786,7 +7786,7 @@ Hero_Andromeda_description										Рожденная среди звезд н�
 
 
 
-Hero_Andromeda_role 											Один из немногих героев, эффективных от начала до конца даже без предметов, Andromeda - идеальный герой поддержки с великолепными инициирующими и спасательными способностями.
+Hero_Andromeda_role 											Один из немногих героев, полезных от начала до конца даже без предметов, Andromeda - воплощение роли поддержки. Void Rip позволяет переместить врага или спасти союзника в беде.
 
 
 
@@ -8258,7 +8258,7 @@ Hero_Apex_name	Apex
 
 
 
-Hero_Apex_description											Apex был рожден во тьме Пылающим Угольком. Эта сила отметила его как истинное зло, начало и конец Неверта.
+Hero_Apex_description											Apex был рожден во тьме силой The Burning Ember. Эта сила отметила его как истинное зло, начало и конец Неверта.
 
 
 
@@ -8266,7 +8266,7 @@ Hero_Apex_description											Apex был рожден во тьме Пыла�
 
 
 
-Hero_Apex_role													Apex - инициатор силы, который отличается подвижностью и живучестью на протяжении всей игры. Лучше всего он вступает в бой вслед за другими инициаторами, поэтому ставьте его в команду с героями, способными начать драку, например с Flux.
+Hero_Apex_role													Apex - инициатор силы, подвижный и живучий на протяжении всей игры. Лучше всего он вступает в бой вслед за другими инициаторами, поэтому ставьте его в команду с героями, способными начать драку, например с Flux.
 
 
 
@@ -8386,7 +8386,7 @@ State_Arachna_Ability1_name										Webbed Shot
 
 
 
-State_Arachna_Ability1_FRAME_effect								{10,20,30,40} Маг. урон в сек.
+State_Arachna_Ability1_FRAME_effect								{10,20,30,40} маг. урона в сек.
 
 
 
@@ -9098,7 +9098,7 @@ Ability_Armadon3_description_simple								^oСнижает получаемый
 
 
 
-Ability_Armadon3_DAMAGED_effect									Уменьшает урон, получаемый сзади, на ^o{16,24,32,40}%^* до 0% под углом 100 градусов сзади. Выпускает ^oSpine Burst^* за каждый ^o130 урона^*, уменьшенного этой способностью.
+Ability_Armadon3_DAMAGED_effect									Снижает получаемый со спины урон на ^o{16,24,32,40}%^*, сходя на 0% при 100 градусах от направления в спину. Выпускает ^oSpine Burst^* за каждые ^o130 урона^*, снятые этой способностью.
 
 
 
@@ -9190,7 +9190,7 @@ Ability_Armadon4_description_simple:ult_boost		Повышает доп. урон
 
 
 
-Ability_Armadon4_effect_header									Эффекты Неугомонности
+Ability_Armadon4_effect_header									Эффекты Restless
 
 
 
@@ -9542,7 +9542,7 @@ State_Artesia_Ability2_name 									Dance of Death
 
 
 
-State_Artesia_Ability2_FRAME_effect 						Создание Чародейской стрелы каждые {0.4,0.35,0.3,0.25} сек.\nПозволяет Чародейской стреле проходить сквозь крипов с удвоенной скоростью.
+State_Artesia_Ability2_FRAME_effect 						Создает Arcane Bolt каждые {0.4,0.35,0.3,0.25} сек.\nArcane Missile проходит сквозь крипов с удвоенной скоростью.
 
 
 
@@ -10254,7 +10254,7 @@ Ability_Artillery3_effect_header								Эффекты Special Ammunition
 
 
 
-Ability_Artillery3_FRAME_effect									Ваши способности имеют увеличенную ^o{150,300,450,600} дальность^* и накладывают ^oSpecial Ammunition^* на пораженных врагов на 3 сек.
+Ability_Artillery3_FRAME_effect									Дальность ваших способностей увеличена на ^o{150,300,450,600}^*, и они накладывают ^oSpecial Ammunition^* на задетых врагов на 3 сек.
 
 
 
@@ -10534,7 +10534,7 @@ Ability_WretchedHag1_description_simple							Натравите на враже
 
 
 
-Ability_WretchedHag1_effect_header									Эффекты Одержимости
+Ability_WretchedHag1_effect_header									Эффекты Haunted
 
 
 
@@ -10606,7 +10606,7 @@ State_WretchedHag_Ability1_description2
 
 
 
-State_WretchedHag_Ability1_FRAME_effect							Первоначально наносит {50,75,100,125} маг. урона\n{15,25,40,50} Маг. урона, наносимого каждые 3 сек.\n{20,30,40,50}% Первоначально скор. движ. замедляется, но исчезает на 7 сек.
+State_WretchedHag_Ability1_FRAME_effect							Сразу наносит {50,75,100,125} маг. урона\n{15,25,40,50} маг. урона каждые 3 сек.\nЗамедляет скор. движ. на {20,30,40,50}%, замедление спадает за 7 сек.
 
 
 
@@ -10878,7 +10878,7 @@ Ability_WretchedHag4_IMPACT_effect:ult_boost						Наносит ^g{350,550,750}
 
 
 
-Ability_WretchedHag4_effect_header									Эффекты Одержимости
+Ability_WretchedHag4_effect_header									Эффекты Haunted
 
 
 
@@ -10926,7 +10926,7 @@ State_WretchedHag_Ability4_name									Haunted
 
 
 
-State_WretchedHag_Ability4_FRAME_effect							Чтобы эффект Призрака имел какой-либо эффект, вы должны изучить "Призрак".\nПервоначально наносит {50,75,100,125} маг. урона\n{15,25,40,50} Маг. урона, наносимого каждые 3 сек.\n{20,30,40,50}% Первоначально скор. движ. замедляется, которая исчезает на 7 сек.
+State_WretchedHag_Ability4_FRAME_effect							Чтобы Haunted действовал, нужно изучить Haunt.\nСразу наносит {50,75,100,125} маг. урона\n{15,25,40,50} маг. урона каждые 3 сек.\nЗамедляет скор. движ. на {20,30,40,50}%, замедление спадает за 7 сек.
 
 
 
@@ -10966,7 +10966,7 @@ Hero_WretchedHag_name	Wretched Hag
 
 
 
-Hero_WretchedHag_description										Wretched Hag преследовала тьму Неверта задолго до появления Хеллборна. Дьявольская карга, откормленная плотью детей и невинных невест, держит единственную компанию - стаю летучих мышей, единственных существ, способных вынести ее пронзительные крики.
+Hero_WretchedHag_description										Wretched Hag бродила во тьме Неверта задолго до того, как появился Хеллборн. Дьявольская карга, отъевшаяся на плоти детей и невинных невест, водит компанию лишь со стаей летучих мышей - единственных существ, способных выносить ее пронзительные крики.
 
 
 
@@ -11053,7 +11053,7 @@ Ability_Bephelgor1_description_simple							Активируйте, чтобы ^
 
 
 
-Ability_Bephelgor1_effect_header								Желчь
+Ability_Bephelgor1_effect_header								Bile
 
 
 
@@ -11101,7 +11101,7 @@ State_Bephelgor_Ability1_Snare_name								Bile
 
 
 
-State_Bephelgor_Ability1_FRAME_effect							{40,60,85,110} Маг. урон в сек.
+State_Bephelgor_Ability1_FRAME_effect							{40,60,85,110} маг. урона в сек.
 
 
 
@@ -11156,7 +11156,7 @@ Ability_Bephelgor2_description_simple							Выберите вражеског�
 
 
 
-Ability_Bephelgor2_effect_header								Заражение
+Ability_Bephelgor2_effect_header								Contagion
 
 
 
@@ -11236,7 +11236,7 @@ State_Bephelgor_Ability2_name									Contagion
 
 
 
-State_Bephelgor_Ability2_FRAME_effect							{40,50,60,70} Маг. урон в сек.
+State_Bephelgor_Ability2_FRAME_effect							{40,50,60,70} маг. урона в сек.
 
 
 
@@ -11268,7 +11268,7 @@ State_Bephelgor_Ability2_Secondary_name							Demonic Disease (secondary)
 
 
 
-State_Bephelgor_Ability2_Secondary_FRAME_effect					{40,50,60,70} Маг. урон в сек.
+State_Bephelgor_Ability2_Secondary_FRAME_effect					{40,50,60,70} маг. урона в сек.
 
 
 
@@ -11396,7 +11396,7 @@ Ability_Bephelgor3_Pet_Ability1_description2
 
 
 
-Ability_Bephelgor3_Pet_Ability1_effect_header					Покалечен
+Ability_Bephelgor3_Pet_Ability1_effect_header					Crippled
 
 
 
@@ -11532,7 +11532,7 @@ Ability_Bephelgor4_effect_header2
 
 
 
-Ability_Bephelgor4_tooltip_flavor								.янем ьтибу нежлод ыт уреги ьтаргииВ
+Ability_Bephelgor4_tooltip_flavor								.янем ьтибу нежлод ыт ,ьтаргиыв ыботЧ
 
 
 
@@ -11700,7 +11700,7 @@ Hero_Bephelgor_name												Balphagore
 
 
 
-Hero_Bephelgor_description										Ненасытная любовь Balphagore к трупам влечет его туда, где зверства Хеллборна наихудшие. Вооруженный множеством темных сил, этот демон не терпит насмешек, когда голоден - а Balphagore всегда голоден.
+Hero_Bephelgor_description										Ненасытная любовь Balphagore к трупам влечет его туда, где зверства Хеллборна страшнее всего. Он владеет множеством темных сил, и с голодным демоном шутки плохи, а Balphagore голоден всегда.
 
 
 
@@ -11916,7 +11916,7 @@ Ability_Behemoth2_description_simple:ult_boost					Усиливает вашу ^
 
 
 
-Ability_Behemoth2_effect_header									Эффекты Ярости
+Ability_Behemoth2_effect_header									Эффекты Enrage
 
 
 
@@ -12004,7 +12004,7 @@ Ability_Behemoth2_Sub_description_simple:ult_boost				^oПрыгает^* в вы
 
 
 
-Ability_Behemoth2_Sub_effect_header								Эффекты Ярости
+Ability_Behemoth2_Sub_effect_header								Эффекты Enrage
 
 
 
@@ -12668,7 +12668,7 @@ State_Berzerker_Ability2_Debuff_description						Лучше беги, брата
 
 
 
-State_Berzerker_Ability2_Debuff_FRAME_effect					Полная видимость в радиусе 350
+State_Berzerker_Ability2_Debuff_FRAME_effect					Беспрепятственный обзор в радиусе 350
 
 
 
@@ -12747,7 +12747,7 @@ Ability_Berzerker3_description_simple 							Активируйте, чтобы 
 
 
 
-Ability_Berzerker3_tooltip_flavor								У Винди утечка мозгов, а у меня - утечка мускулов.
+Ability_Berzerker3_tooltip_flavor								У Vindi утечка мозгов, а у меня - утечка мускулов.
 
 
 
@@ -12963,7 +12963,7 @@ State_Berzerker_Ability4_name 									Carnage
 
 
 
-State_Berzerker_Ability4_description							+{5,7,9}% от макс. здоровья добавляется в качестве урона от атаки\nУбийство вражеских героев продлевает длительность Карнажа на 5 сек.
+State_Berzerker_Ability4_description							+{5,7,9}% от макс. здоровья добавляется к урону от атаки\nУбийство вражеских героев продлевает Carnage на 5 сек.
 
 
 
