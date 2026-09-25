@@ -5228,7 +5228,7 @@ options_dropdown_playerlabel_show_always Всегда показывать
 
 
 
-options_dropdown_show_damage_type						 Показать тип повреждения
+options_dropdown_show_damage_type						 Показывать тип урона
 
 
 
@@ -5240,7 +5240,7 @@ options_dropdown_show_damage_type_never Никогда не показывать
 
 
 
-options_dropdown_show_damage_type_contextual Показать при повреждении
+options_dropdown_show_damage_type_contextual При получении урона
 
 
 
@@ -5256,7 +5256,7 @@ options_dropdown_show_combat_log				Показать журнал боя
 
 
 
-options_dropdown_show_combat_log_tip			Отображает наложение, содержащее список произошедших боевых событий. Поведение по умолчанию - "как это происходит", при котором боевые события отображаются на короткое время, а затем исчезают
+options_dropdown_show_combat_log_tip			Отображает наложение, содержащее список произошедших боевых событий. Поведение по умолчанию - "по мере событий", при котором боевые события отображаются на короткое время, а затем исчезают
 
 
 
@@ -5264,11 +5264,11 @@ options_dropdown_show_combat_log_never Никогда не показывать
 
 
 
-options_dropdown_show_combat_log_contextual Показать в истории ключ
+options_dropdown_show_combat_log_contextual По клавише истории
 
 
 
-options_dropdown_show_combat_log_always Показать, как это происходит
+options_dropdown_show_combat_log_always По мере событий
 
 
 
@@ -5348,7 +5348,7 @@ options_checkbox_cg_toolPersistantTargetIndicatorEnable_tip			Если эта о
 
 
 
-options_checkbox_popup_damage				Всплывающее окно урона
+options_checkbox_popup_damage				Всплывающий урон
 
 
 
@@ -5372,11 +5372,11 @@ options_checkbox_aoe_indicators_tip			Если эта опция включен�
 
 
 
-options_checkbox_debuff_popup 				Текст всплывающего окна с дебаффом
+options_checkbox_debuff_popup 				Всплывающий текст дебаффов
 
 
 
-options_checkbox_debuff_popup_tip			Если этот параметр включен, эффекты, ослабляющие контроль, будут появляться, когда ваш персонаж поражен.
+options_checkbox_debuff_popup_tip			Если этот параметр включен, при наложении на вашего героя эффектов контроля над ним всплывает их название.
 
 
 
@@ -5388,7 +5388,7 @@ options_checkbox_debuff_popup_icon		 Всплывающая иконка деб�
 
 
 
-options_checkbox_debuff_popup_icon_tip	 Если эта функция включена, то, когда ваш персонаж поражен, появится значок, показывающий эффекты, ухудшающие контроль.
+options_checkbox_debuff_popup_icon_tip	 Если эта функция включена, при наложении на вашего героя эффектов контроля всплывает их значок.
 
 
 
@@ -5400,7 +5400,7 @@ options_checkbox_debuff_popup_icon_tip	 Если эта функция вклю�
 
 
 
-options_checkbox_minimap_path 				Нарисовать путь на миникарте
+options_checkbox_minimap_path 				Путь на миникарте
 
 
 
@@ -5412,7 +5412,7 @@ options_checkbox_minimap_path_tip			Если этот параметр вклю�
 
 
 
-options_checkbox_nameabovehp				Имя над панелью здоровья
+options_checkbox_nameabovehp				Имя над полосой здоровья
 
 
 
@@ -5440,7 +5440,7 @@ options_nameabovehp_hero_name				Имя героя
 
 
 
-options_checkbox_portrait_overlay 			Индикатор выключения экрана
+options_checkbox_portrait_overlay 			Индикатор юнитов за экраном
 
 
 
@@ -5456,7 +5456,7 @@ options_checkbox_disable_background_effects		Отключить фоновые �
 
 
 
-options_checkbox_disable_background_effects_tip	Если этот параметр включен, фоновые эффекты и анимация лобби не будут загружаться и воспроизводиться.\n\n (Требуется перезагрузка)
+options_checkbox_disable_background_effects_tip	Если этот параметр включен, фоновые эффекты и анимация лобби не будут загружаться и воспроизводиться.\n\n(нужен перезапуск)
 
 
 
@@ -5464,11 +5464,11 @@ options_checkbox_disable_background_effects_tip	Если этот парамет
 
 
 
-options_checkbox_restrict_teleport_effects_to_allies	Показывать пользовательский телепорт только союзникам
+options_checkbox_restrict_teleport_effects_to_allies	Свой эффект телепорта только союзникам
 
 
 
-options_checkbox_restrict_teleport_effects_to_allies_tip	Если этот параметр включен, эффекты телепортации мастерства будут видны только союзникам.
+options_checkbox_restrict_teleport_effects_to_allies_tip	Если этот параметр включен, эффекты телепорта за мастерство будут видны только союзникам.
 
 
 
@@ -5524,7 +5524,7 @@ options_checkbox_disable_notifications_ingame_tip	Если этот параме
 
 
 
-options_checkbox_selection_highlight		Выделение выбора
+options_checkbox_selection_highlight		Подсветка при наведении
 
 
 
@@ -5560,11 +5560,11 @@ options_checkbox_ff_health_pip_tip		 Отображение более круп�
 
 
 
-options_checkbox_ff_health_per_pip		 Здоровье на пункт
+options_checkbox_ff_health_per_pip		 Здоровья на деление
 
 
 
-options_checkbox_ff_health_per_pip_tip	 Очки здоровья представлены каждым пунктом. Значение по умолчанию - 1000.
+options_checkbox_ff_health_per_pip_tip	 Сколько здоровья в одном делении. По умолчанию 1000.
 
 
 
@@ -5572,7 +5572,7 @@ options_checkbox_ff_health_per_pip_tip	 Очки здоровья предста
 
 
 
-options_checkbox_ff_health_sub_pip		 Показать подпункты
+options_checkbox_ff_health_sub_pip		 Показывать малые деления
 
 
 
@@ -5584,11 +5584,11 @@ options_checkbox_ff_health_sub_pip_tip	 Отобразить меньшие се
 
 
 
-options_checkbox_ff_health_per_sub_pip	 Здоровье на подпункт
+options_checkbox_ff_health_per_sub_pip	 Здоровья на малое деление
 
 
 
-options_checkbox_ff_health_per_sub_pip_tip Очки здоровья, представленные каждым подпунктом. Значение по умолчанию - 200.
+options_checkbox_ff_health_per_sub_pip_tip Сколько здоровья в одном малом делении. По умолчанию 200.
 
 
 
@@ -5596,7 +5596,7 @@ options_checkbox_ff_health_per_sub_pip_tip Очки здоровья, предс
 
 
 
-options_checkbox_ff_health_2				Прозрачные полосы крипа
+options_checkbox_ff_health_2				Прозрачные полосы крипов
 
 
 
@@ -5608,7 +5608,7 @@ options_checkbox_ff_health_2_tip			Если этот параметр включ
 
 
 
-options_checkbox_ff_health_3				Большие панели героев
+options_checkbox_ff_health_3				Большие полосы героев
 
 
 
@@ -5620,7 +5620,7 @@ options_checkbox_ff_health_3_tip			Если эта опция включена, 
 
 
 
-options_dropdown_ff_health_4 				Цвета баров
+options_dropdown_ff_health_4 				Цвета полос
 
 
 
@@ -5648,11 +5648,11 @@ options_healthmod_barcolor3					Сплошной желтый/синий
 
 
 
-options_ebuff_durationbar 							Использовать полосу продолжительности
+options_ebuff_durationbar 							Использовать полосу длительности
 
 
 
-options_ebuff_durationbar_tooltip				Отображает шкалу продолжительности вокруг усиления, чтобы показать оставшееся время.
+options_ebuff_durationbar_tooltip				Отображает полосу длительности вокруг усиления, чтобы показать оставшееся время.
 
 
 
@@ -5672,7 +5672,7 @@ options_ebuff_showtimer_tooltip				Отображает таймер рядом 
 
 
 
-options_ebuff_overheadtimer 								Использовать дополнительный таймер
+options_ebuff_overheadtimer 								Таймер над значком
 
 
 
@@ -5692,11 +5692,11 @@ options_ebuff_displaypopping				Всплывание
 
 
 
-options_ebuff_dontpoppassive				Используйте пассивные усиления
+options_ebuff_dontpoppassive				Анимировать пассивные усиления
 
 
 
-options_ebuff_dontpoppassive_tip			Если включено, появятся пассивные баффы.
+options_ebuff_dontpoppassive_tip			Если включено, пассивные усиления тоже анимируются.
 
 
 
@@ -5752,7 +5752,7 @@ options_checkbox_showplayerring				Обводка своего героя
 
 
 
-options_checkbox_showplayerring_tip			Если эта опция включена, ваш герой будет иметь контур.
+options_checkbox_showplayerring_tip			Если эта опция включена, ваш герой будет обведен контуром.
 
 
 
@@ -5760,11 +5760,11 @@ options_checkbox_showplayerring_tip			Если эта опция включен�
 
 
 
-options_enable_hide_expanded_altinfo		Скрыть расширенную альтернативную информацию
+options_enable_hide_expanded_altinfo		Скрыть расширенную Alt-информацию
 
 
 
-options_enable_hide_expanded_altinfo_tip	Выбранные юниты больше не отображают расширенную альтернативную информацию, такую как их характеристики, инвентарь и т. д.
+options_enable_hide_expanded_altinfo_tip	Выбранные юниты больше не показывают расширенную Alt-информацию: характеристики, инвентарь и т. д.
 
 
 
@@ -5772,7 +5772,7 @@ options_enable_hide_expanded_altinfo_tip	Выбранные юниты боль�
 
 
 
-options_enable_minimap_rightclick			Щелкните правой кнопкой мыши на миникарте
+options_enable_minimap_rightclick			Правый клик по миникарте
 
 
 
@@ -5784,11 +5784,11 @@ options_enable_minimap_rightclick_tip		Если этот параметр вкл
 
 
 
-options_double_activate_abilities			Включить способности двойной активации
+options_double_activate_abilities			Двойная активация
 
 
 
-options_double_activate_abilities_tip		Если эта функция включена, двойной щелчок по определенным предметам/способностям автоматически применит их к вашему герою без необходимости выбора цели. (Камень возвращения домой телепортирует вашего героя на базу, зелья здоровья будут использованы на вас и т. д.)
+options_double_activate_abilities_tip		Если эта функция включена, двойной щелчок по определенным предметам/способностям автоматически применит их к вашему герою без необходимости выбора цели. (Homecoming Stone телепортирует вашего героя на базу, зелья здоровья будут использованы на вас и т. д.)
 
 
 
@@ -5808,11 +5808,11 @@ options_display_advanced_ability_tooltips_tip	Если эта опция вкл�
 
 
 
-options_enable_move_on_disconnect			Перейти к появлению при отключении
+options_enable_move_on_disconnect			На базу при отключении
 
 
 
-options_enable_move_on_disconnect_tip		Если этот параметр включен, сервер будет автоматически перемещать вашего героя обратно на базу всякий раз, когда вы выходите из строя, зависаете или теряете подключение к Интернету.
+options_enable_move_on_disconnect_tip		Если этот параметр включен, сервер будет автоматически возвращать вашего героя на базу, если у вас вылетела или зависла игра или пропал интернет.
 
 
 
@@ -5832,7 +5832,7 @@ options_enable_auto_move_tip 		Если эта функция включена, 
 
 
 
-options_enable_auto_move_attack 		Атака с автоматическим перемещением
+options_enable_auto_move_attack 		Автоатака при автоперемещении
 
 
 
@@ -5844,23 +5844,11 @@ options_enable_auto_move_attack_tip 	Если этот параметр и ав�
 
 
 
-options_enable_attack_move_prefer_cursor Атака Перемещение по курсору
+options_enable_attack_move_prefer_cursor Атака с движением у курсора
 
 
 
-options_enable_attack_move_prefer_cursor_tip Если этот параметр включен, команды наземной атаки будут отдавать предпочтение ближайшим целям вокруг курсора. Если ни одна не найдена, цели выбираются рядом с вашим подконтрольным объектом.
-
-
-
-
-
-
-
-options_enable_attack_move_prefer_cursor_distance Атака на курсор: максимальное расстояние
-
-
-
-options_enable_attack_move_prefer_cursor_distance_tip Если включен параметр "Атака по курсору", задает расстояние от курсора для поиска атакуемых целей.
+options_enable_attack_move_prefer_cursor_tip Если этот параметр включен, команды атаки по земле будут отдавать предпочтение целям рядом с курсором. Если их нет, цели выбираются рядом с вашим юнитом.
 
 
 
@@ -5868,11 +5856,23 @@ options_enable_attack_move_prefer_cursor_distance_tip Если включен п
 
 
 
-options_tower_range_indicator				Показать индикаторы диапазона башни
+options_enable_attack_move_prefer_cursor_distance Атака у курсора: макс. расстояние
 
 
 
-options_tower_range_indicator_tip			Если эта опция включена, при атаке ваших башен будет отображаться индикатор, показывающий их дальность действия.
+options_enable_attack_move_prefer_cursor_distance_tip Если включена "Атака с движением у курсора", задает, как далеко от курсора искать цели для атаки.
+
+
+
+
+
+
+
+options_tower_range_indicator				Показывать дальность атаки башен
+
+
+
+options_tower_range_indicator_tip			Если эта опция включена, при атаке башни показывается индикатор ее дальности.
 
 
 
@@ -5884,7 +5884,7 @@ options_checkbox_show_exp					Показать цифры опыта
 
 
 
-options_screen_show_exp_tip					Если этот параметр включен, будут отображаться номера опыта.
+options_screen_show_exp_tip					Если этот параметр включен, будут отображаться числа опыта.
 
 
 
@@ -5964,11 +5964,11 @@ options_checkbox_safe_channel_tip			Если эта функция включе�
 
 
 
-options_checkbox_show_deny	 			 Показать эффект запрета
+options_checkbox_show_deny	 			 Показывать эффект добивания
 
 
 
-options_screen_show_deny_tip				Если этот параметр включен, будут отображаться номера эффектов запрета показа.
+options_screen_show_deny_tip				Если этот параметр включен, при добивании своих юнитов показываются числа.
 
 
 
@@ -5992,7 +5992,7 @@ options_checkbox_animated_portraits	 		Анимированные портрет
 
 
 
-options_checkbox_animated_portraits_tip		Если эта опция включена, портреты в нижней панели будут анимированны.
+options_checkbox_animated_portraits_tip		Если эта опция включена, портреты в нижней панели будут анимированы.
 
 
 
@@ -6000,7 +6000,7 @@ options_checkbox_animated_portraits_tip		Если эта опция включе
 
 
 
-options_checkbox_show_cooldowns 			Показать время восстановления
+options_checkbox_show_cooldowns 			Показывать перезарядку
 
 
 
@@ -6028,7 +6028,7 @@ options_interface_title						Интерфейс
 
 
 
-options_checkbox_healthbar_size 			Шкала здоровья/маны
+options_checkbox_healthbar_size 			Размер полос здоровья/маны
 
 
 
@@ -6100,7 +6100,7 @@ options_notifications_friends_removal				Удаление
 
 
 
-options_notifications_friends_signon				Войти
+options_notifications_friends_signon				Вход
 
 
 
@@ -6108,7 +6108,7 @@ options_notifications_friends_signon_tip			Включите, чтобы полу
 
 
 
-options_notifications_friends_signoff				Выйти
+options_notifications_friends_signoff				Выход
 
 
 
@@ -6116,7 +6116,7 @@ options_notifications_friends_signoff_tip			Включите, чтобы пол�
 
 
 
-options_notifications_friends_joingame				Присоединился к игре
+options_notifications_friends_joingame				Вход в игру
 
 
 
@@ -6124,7 +6124,7 @@ options_notifications_friends_joingame_tip			Включите, чтобы пол
 
 
 
-options_notifications_friends_leavegame				Выйти из игры
+options_notifications_friends_leavegame				Выход из игры
 
 
 
@@ -6132,7 +6132,7 @@ options_notifications_friends_leavegame_tip			Включите, чтобы по�
 
 
 
-options_notifications_friends_imreceived			Мгновенное сообщение получено
+options_notifications_friends_imreceived			Получено сообщение
 
 
 
@@ -6140,7 +6140,7 @@ options_notifications_friends_imreceived_tip		Включите, чтобы по�
 
 
 
-options_notifications_friends_pmreceived			ПМ получен
+options_notifications_friends_pmreceived			Получено ЛС
 
 
 
@@ -6156,7 +6156,7 @@ options_notifications_clans							Кланы
 
 
 
-options_notifications_clans_signon						Войти
+options_notifications_clans_signon						Вход
 
 
 
@@ -6164,7 +6164,7 @@ options_notifications_clans_signon_tip					Включите, чтобы полу
 
 
 
-options_notifications_clans_signoff						Выйти
+options_notifications_clans_signoff						Выход
 
 
 
@@ -6172,7 +6172,7 @@ options_notifications_clans_signoff_tip					Включите, чтобы пол�
 
 
 
-options_notifications_clans_joingame					Присоединился к игре
+options_notifications_clans_joingame					Вход в игру
 
 
 
@@ -6180,7 +6180,7 @@ options_notifications_clans_joingame_tip				Включите, чтобы пол�
 
 
 
-options_notifications_clans_leavegame					Выйти из игры
+options_notifications_clans_leavegame					Выход из игры
 
 
 
@@ -6228,7 +6228,7 @@ options_notifications_tournaments_upcomingmatch		Предстоящий турн
 
 
 
-options_notifications_tournaments_registred			Зарегистрировался для участия в турнире
+options_notifications_tournaments_registred			Регистрация на турнир
 
 
 
@@ -6340,11 +6340,11 @@ options_search_tip 									Нажмите здесь, чтобы перейти
 
 
 
-options_trouble_repair_info							Если у вас возникли сбои, отсутствие текстур или ошибки моментального снимка объекта, их можно устранить, выполнив восстановительную установку. Это проверит вашу установку и обновит все файлы, которые будут обнаружены устаревшими или поврежденными.
+options_trouble_repair_info							Если у вас вылетает игра, пропадают текстуры или появляются ошибки снимка сущностей, это может исправить восстановление установки. Оно проверит установленную игру и обновит устаревшие или поврежденные файлы.
 
 
 
-options_trouble_faq_intro							Часто задаваемые вопросы ниже отображаются для помощи в решении наиболее распространенных проблем. Чтобы получить более подробные ответы на часто задаваемые вопросы или ^yобратиться в службу поддержки ^* напрямую, посетите ^y{value}^*.
+options_trouble_faq_intro							Часто задаваемые вопросы ниже отображаются для помощи в решении наиболее распространенных проблем. Чтобы получить более подробные ответы на часто задаваемые вопросы или ^yобратиться в службу поддержки^* напрямую, посетите ^y{value}^*.
 
 
 
@@ -6380,11 +6380,11 @@ options_trouble_faq3_a3								Обновите драйверы видеока�
 
 
 
-options_trouble_faq3_a4								Выполните восстановительную установку
+options_trouble_faq3_a4								Выполните восстановление установки
 
 
 
-options_trouble_faq4_q								Матч, в котором я участвовал, только что провалился
+options_trouble_faq4_q								Матч, в котором я был, вылетел
 
 
 
@@ -6400,7 +6400,7 @@ options_trouble_faq4_a3								Подождите, пока матч закон�
 
 
 
-options_trouble_faq5_q								Я не могу обновить, подключиться к чату или присоединиться к поиску игроков
+options_trouble_faq5_q								Не могу обновиться, подключиться к чату или к подбору игр
 
 
 
@@ -6412,7 +6412,7 @@ options_trouble_faq5_a2								Разрешить исходящий трафи�
 
 
 
-options_trouble_faq6_q								Я часто терплю крах
+options_trouble_faq6_q								У меня часто вылетает игра
 
 
 
@@ -6424,7 +6424,7 @@ options_trouble_faq6_a2								Уменьшите настройки графи�
 
 
 
-options_trouble_faq6_a3								Выполните восстановительную установку и удалите все моды, которые вы могли установить ранее
+options_trouble_faq6_a3								Выполните восстановление установки и удалите все моды, которые вы могли установить ранее
 
 
 
@@ -6448,7 +6448,7 @@ options_keybind_cameralock_tip 						Переключает камеру меж�
 
 
 
-options_keybind_showallhold 						Показать всю информацию (Удерживать)
+options_keybind_showallhold 						Показать всю информацию (удержание)
 
 
 
@@ -6456,7 +6456,7 @@ options_simple_showallhold_text При удержании показывает �
 
 
 
-options_keybind_hideallhold 						Скрыть всю информацию (Удерживать)
+options_keybind_hideallhold 						Скрыть всю информацию (удержание)
 
 
 
@@ -6464,7 +6464,7 @@ options_simple_hideallhold_text Скрывает всю важную инфор�
 
 
 
-options_keybind_toggleall 							Переключить всю информацию (нажмите)
+options_keybind_toggleall 							Переключить всю информацию (нажатие)
 
 
 
@@ -6496,7 +6496,7 @@ options_simple_jumpplayerpov_text Горячая клавиша для пере�
 
 
 
-options_keybind_lockplayer							Привязать к игроку (удерживать/нажать)
+options_keybind_lockplayer							Привязать к игроку (удержание/нажатие)
 
 
 
@@ -6520,11 +6520,11 @@ options_simple_infopanel_text Горячая клавиша для перекл�
 
 
 
-options_keybind_pushbar								Переключить панель нажатия
+options_keybind_pushbar								Переключить панель пуша
 
 
 
-options_simple_pushbar_text Горячая клавиша для переключения панели управления (например, панели, которая сравнивает опыт команды и золото)
+options_simple_pushbar_text Горячая клавиша для переключения панели пуша (полосы, которая сравнивает опыт и золото команд)
 
 
 
@@ -6768,7 +6768,7 @@ options_simple_depth_a 			Повышает качество цветоперед
 
 
 
-options_simple_depth_b 			Может снизить производительность на младших системах.
+options_simple_depth_b 			Может снизить производительность на слабых системах.
 
 
 
@@ -6816,7 +6816,7 @@ options_simple_ptt 				Чтобы включить микрофон, необх�
 
 
 
-options_simple_rightclickmap 	Позволяет перемещать вашего персонажа по миникарте
+options_simple_rightclickmap 	Позволяет управлять героем через миникарту
 
 
 
@@ -6848,7 +6848,7 @@ options_simple_groundsprt		Отображает спрайт под героям
 
 
 
-options_simple_outline 			Очерчивает выбранных вами юнитов
+options_simple_outline 			Обводит выбранных юнитов
 
 
 
@@ -6856,7 +6856,7 @@ options_simple_outline 			Очерчивает выбранных вами юн�
 
 
 
-options_simple_hoveroutline 	Обводка юнитов, на которых вы навели курсор
+options_simple_hoveroutline 	Обводит юнитов под курсором
 
 
 
@@ -6864,7 +6864,7 @@ options_simple_hoveroutline 	Обводка юнитов, на которых в
 
 
 
-options_simple_selfoutline 		Очерчивает вашего героя
+options_simple_selfoutline 		Обводит вашего героя
 
 
 
@@ -6928,7 +6928,7 @@ options_simple_dispop 			Анимирует значки усиления, ко�
 
 
 
-options_simple_disblink 		Мигает значки усиления, когда они собираются стать неактивными
+options_simple_disblink 		Значки усилений мигают перед окончанием действия
 
 
 
@@ -6996,7 +6996,7 @@ options_radial_delay_tip 		Как долго вам придется удерж�
 
 
 
-options_fogofwarDarkness		Туман войны Непрозрачность
+options_fogofwarDarkness		Непрозрачность тумана войны
 
 
 
@@ -7008,7 +7008,7 @@ options_fogofwarDarkness_tip	Определяет непрозрачность �
 
 
 
-options_altportraits 			Показать портреты альтернативного аватара
+options_altportraits 			Показывать портреты альт. аватаров
 
 
 
@@ -7020,31 +7020,15 @@ options_altportraits_tip 		Если эта опция включена, порт
 
 
 
-options_cloud_upload			Загрузить файл конфигурации облака
+options_cloud_upload			Выгрузить конфигурацию в облако
 
 
 
-options_cloud_upload_tip		Загрузите файл конфигурации в облако. Это создаст файл конфигурации на основе текущих настроек и перезапишет файл, уже находящийся в облаке.
+options_cloud_upload_tip		Выгружает файл конфигурации в облако. Файл создается по текущим настройкам и перезаписывает тот, что уже лежит в облаке.
 
 
 
-options_cloud_upload_button		Загрузить файл конфигурации
-
-
-
-
-
-
-
-options_cloud_download			Загрузить файл конфигурации облака
-
-
-
-options_cloud_download_tip		Загрузите файл конфигурации из облака. При этом настройки файла конфигурации будут применены сразу после загрузки.
-
-
-
-options_cloud_download_button	Загрузить файл конфигурации
+options_cloud_upload_button		Выгрузить файл конфигурации
 
 
 
@@ -7052,11 +7036,15 @@ options_cloud_download_button	Загрузить файл конфигураци
 
 
 
-options_cloud_autodownload		Автоматическая загрузка облачной конфигурации
+options_cloud_download			Скачать конфигурацию из облака
 
 
 
-options_cloud_autodownload_tip	Автоматически загружайте и обновляйте конфигурацию облака при входе в систему. Установка этого флажка не приведет к немедленной загрузке файла конфигурации!
+options_cloud_download_tip		Скачивает файл конфигурации из облака. Настройки из файла применяются сразу после скачивания.
+
+
+
+options_cloud_download_button	Скачать файл конфигурации
 
 
 
@@ -7064,11 +7052,23 @@ options_cloud_autodownload_tip	Автоматически загружайте �
 
 
 
-options_cloud_autoupload		Автоматическая загрузка конфигурации облака
+options_cloud_autodownload		Автоскачивание облачной конфигурации
 
 
 
-options_cloud_autoupload_tip	Автоматически сохраняйте и загружайте конфигурацию облака, когда вы нажимаете "Применить" в меню параметров или при выходе из системы. Установка этого флажка не приведет к немедленной загрузке файла конфигурации!
+options_cloud_autodownload_tip	Автоматически скачивает и обновляет облачную конфигурацию при входе. Установка флажка не скачивает файл сразу!
+
+
+
+
+
+
+
+options_cloud_autoupload		Автовыгрузка облачной конфигурации
+
+
+
+options_cloud_autoupload_tip	Автоматически сохраняет и выгружает конфигурацию в облако, когда вы нажимаете "Применить" в настройках или выходите из системы. Установка флажка не выгружает файл сразу!
 
 
 
@@ -7104,7 +7104,7 @@ options_dynamic_graphics_header					 Графика
 
 
 
-options_dynamic_graphics_subtitle				 Рендеринг вывода
+options_dynamic_graphics_subtitle				 Вывод изображения
 
 
 
@@ -7112,7 +7112,7 @@ options_dynamic_graphics_title					 Динамическая графика
 
 
 
-options_dynamic_graphics_desc					 Автоматически переключайте настройки графики при входе в матч или выходе из него.
+options_dynamic_graphics_desc					 Автоматически переключает настройки графики при входе в матч и выходе из него.
 
 
 
@@ -7132,11 +7132,11 @@ options_dynamic_graphics_profile_menu			 Профиль меню
 
 
 
-options_dynamic_graphics_profile_menu_desc		 Несоответствующие настройки эффективности и многозадачности.
+options_dynamic_graphics_profile_menu_desc		 Настройки вне матча для экономии ресурсов и многозадачности.
 
 
 
-options_dynamic_graphics_fps						Максимальный ФПС
+options_dynamic_graphics_fps						Макс. FPS
 
 
 
@@ -7148,7 +7148,7 @@ options_dynamic_graphics_constrain				 Ограничить курсор
 
 
 
-options_dynamic_graphics_constrain_tip			 Ограничивает перемещение курсора мыши за пределы окна игры, когда он находится в фокусе.
+options_dynamic_graphics_constrain_tip			 Не дает курсору мыши выходить за пределы окна игры, когда оно в фокусе.
 
 
 
@@ -7168,7 +7168,7 @@ options_dynamic_graphics_exclusive_tip			 Работа в эксклюзивно
 
 
 
-options_classic_login_title				 Включить классический вход (требуется перезагрузка)
+options_classic_login_title				 Включить классический вход (нужен перезапуск)
 
 
 
@@ -7176,7 +7176,7 @@ options_classic_login_tip_name			 Включить классический вх
 
 
 
-options_classic_login_tip_text			 Включает классический интерфейс входа в систему и анимацию. Требуется перезапуск игры и классический интерфейс (снимите флажок "Новый основной интерфейс").
+options_classic_login_tip_text			 Включает классический интерфейс входа в систему и анимацию. Требуется перезапуск игры и классический интерфейс (снимите флажок "Новый главный интерфейс").
 
 
 
@@ -7188,7 +7188,7 @@ options_classic_login_tip_text			 Включает классический ин
 
 
 
-create_acc_nickname							Прозвище:
+create_acc_nickname							Ник:
 
 
 
@@ -7208,7 +7208,7 @@ create_acc_email							Адрес электронной почты:
 
 
 
-create_acc_confirm_email					Подтвердить адрес электронной почты:
+create_acc_confirm_email					Подтвердите адрес эл. почты:
 
 
 
@@ -7248,7 +7248,7 @@ create_acc_label_nick_name_tip		 		*Это имя, по которому вас 
 
 
 
-create_acc_label_ref_name_tip		 		*Этот игрок станет вашим рефералом, и вы оба будете иметь право на вознаграждение.
+create_acc_label_ref_name_tip		 		*Этот игрок станет вашим реферером, и вы оба будете иметь право на вознаграждение.
 
 
 
@@ -7272,7 +7272,7 @@ create_acc_input_city						Город:
 
 
 
-create_acc_input_postal_code				Почтовый индекс (почтовый индекс):
+create_acc_input_postal_code				Почтовый индекс:
 
 
 
@@ -7296,7 +7296,7 @@ create_acc_label_account_success			Аккаунт успешно создан!
 
 
 
-create_acc_success_button_okay				Хорошо
+create_acc_success_button_okay				OK
 
 
 
@@ -7344,11 +7344,11 @@ create_acc_nocc_xfer_subaccount				Введенный промокод пред�
 
 
 
-create_acc_successfull_purch				Покупка прошла успешно - ваша учетная запись Heroes of Newerth обновлена. Квитанция отправлена на ваш адрес электронной почты.
+create_acc_successfull_purch				Покупка прошла успешно - ваша учетная запись Heroes of Newerth улучшена. Квитанция отправлена на ваш адрес электронной почты.
 
 
 
-create_acc_friends							Обновить Друзей
+create_acc_friends							Улучшить аккаунт друга
 
 
 
@@ -7356,15 +7356,15 @@ create_acc_promocode						Введите промокод
 
 
 
-create_acc_purchase_btn						Счет покупки
+create_acc_purchase_btn						Купить аккаунт
 
 
 
-create_already_logged_in_title				Аккаунт обновлен
+create_already_logged_in_title				Аккаунт улучшен
 
 
 
-create_already_upgraded						Эта учетная запись уже является полной учетной записью и не может быть повышена еще раз.
+create_already_upgraded						Эта учетная запись уже полная, улучшить ее еще раз нельзя.
 
 
 
@@ -7372,7 +7372,7 @@ create_acc_total_price						Общая стоимость
 
 
 
-create_acc_price_usd						Цена в (долларах США)
+create_acc_price_usd						Цена (USD)
 
 
 
@@ -7420,7 +7420,7 @@ create_acc_gender_female					Женский
 
 
 
-create_acc_promo_box_1						Едино разовое предложение монет - 20 долларов США
+create_acc_promo_box_1						Разовое предложение монет - 20 долларов
 
 
 
@@ -7432,7 +7432,7 @@ create_acc_promo_box_4						Данное предложение не будет 
 
 
 
-create_acc_promo_box_5						Да, купите пакет монет за 20 долларов
+create_acc_promo_box_5						Да, купить пакет монет за 20 долларов
 
 
 
@@ -7440,15 +7440,15 @@ create_acc_promo_box_5						Да, купите пакет монет за 20 д�
 
 
 
-nickname_exists_response0					Псевдоним существует!
+nickname_exists_response0					Такой ник уже занят!
 
 
 
-nickname_exists_response1					Ник Пустой!
+nickname_exists_response1					Ник не указан!
 
 
 
-nickname_exists_response2					Неверный псевдоним
+nickname_exists_response2					Недопустимый ник
 
 
 
@@ -7456,7 +7456,7 @@ nickname_exists_response3					Ошибка подключения
 
 
 
-nickname_exists_response4					Псевдоним не существует
+nickname_exists_response4					Такого ника нет
 
 
 
@@ -7484,7 +7484,7 @@ report_a_player_abuse_type1_desc3			Чрезмерное использован�
 
 
 
-report_a_player_abuse_type1_desc4			Преследование, не связанное с ^yVOIP^* ^555 (Используйте функцию отключения звука) ^*
+report_a_player_abuse_type1_desc4			Оскорбления вне ^yVOIP^* ^555(используйте функцию заглушения)^*
 
 
 
@@ -7492,7 +7492,7 @@ report_a_player_abuse_type1_desc4			Преследование, не связа�
 
 
 
-report_a_player_abuse_type2					Фид/Управление стэтами
+report_a_player_abuse_type2					Фид / накрутка статистики
 
 
 
@@ -7500,11 +7500,11 @@ report_a_player_abuse_type2_desc1			Умышленное самоубийств�
 
 
 
-report_a_player_abuse_type2_desc2			Неоднократный отказ от себя или союзников без логической причины
+report_a_player_abuse_type2_desc2			Неоднократное добивание себя или союзников без разумной причины
 
 
 
-report_a_player_abuse_type2_desc3			Целенаправленное кормление отключенных игроков
+report_a_player_abuse_type2_desc3			Намеренный фид отключившихся игроков
 
 
 
@@ -7516,15 +7516,15 @@ report_a_player_abuse_type2_desc4
 
 
 
-report_a_player_abuse_type3					Выдавая себя за персонал
+report_a_player_abuse_type3					Выдача себя за персонал
 
 
 
-report_a_player_abuse_type3_desc1			Игрок заявил, что он является сотрудником или генеральным менеджером (или знает его) и отстранит вас
+report_a_player_abuse_type3_desc1			Игрок заявил, что он сотрудник или ГМ (или знает такого) и заблокирует вас
 
 
 
-report_a_player_abuse_type3_desc2			Члены Frostburn/GM используют цвет имени ^rRed^* или ^500Maroon^*
+report_a_player_abuse_type3_desc2			У сотрудников Frostburn и ГМ ^rкрасный^* или ^500бордовый^* цвет имени
 
 
 
@@ -7540,11 +7540,11 @@ report_a_player_abuse_type3_desc4
 
 
 
-report_a_player_abuse_type4					Способность/Злоупотребление предметами
+report_a_player_abuse_type4					Злоупотребление способностями/предметами
 
 
 
-report_a_player_abuse_type4_desc1			Уничтожение/кража сопутствующих предметов
+report_a_player_abuse_type4_desc1			Уничтожение/кража союзных предметов
 
 
 
@@ -7564,7 +7564,7 @@ report_a_player_abuse_type4_desc4
 
 
 
-report_a_player_abuse_type5					Отказ от участия/избегание AFK
+report_a_player_abuse_type5					Отказ от участия / обход AFK
 
 
 
@@ -7572,7 +7572,7 @@ report_a_player_abuse_type5_desc1			Полный и постоянный отк�
 
 
 
-report_a_player_abuse_type5_desc2			Намеренное удаление таймера обнаружения AFK посредством движения, использования заклинаний/предметов или нанесения себе урона
+report_a_player_abuse_type5_desc2			Намеренный сброс таймера AFK движением, применением заклинаний/предметов или уроном по себе
 
 
 
@@ -7620,7 +7620,7 @@ report_a_player_abuse_type6_desc4			Подражание или издевате
 
 
 
-announcement_denied			Отказано
+announcement_denied			Денай
 
 
 
@@ -7628,7 +7628,7 @@ announcement_bloodlust		Жажда крови
 
 
 
-announcement_doubletap		Двойное нажатие
+announcement_doubletap		Дабл-килл
 
 
 
@@ -7636,7 +7636,7 @@ announcement_hattrick		Хет-трик
 
 
 
-announcement_quadkill		Четырехкратное убийство
+announcement_quadkill		Квадра-килл
 
 
 
@@ -7788,11 +7788,11 @@ mstore_viewcost_desc	Для покупки этого предмета вам н
 
 
 
-mstore_costamount_gold	^960{amount}^* Золотые монеты
+mstore_costamount_gold	^960{amount}^* зол. монет
 
 
 
-mstore_costamount_silver	^788{amount}^* Серебряные монеты
+mstore_costamount_silver	^788{amount}^* сер. монет
 
 
 
@@ -7804,7 +7804,7 @@ mstore_costsavings		Сэкономьте ^960{goldamount}^* золотых мо�
 
 
 
-mstore_category1			Новый
+mstore_category1			Новое
 
 
 
@@ -7816,15 +7816,15 @@ mstore_category2		 Альтернативные аватары
 
 
 
-mstore_category2_short		Альтернативные аватары
+mstore_category2_short		Альт. аватары
 
 
 
-mstore_exttip_altavatars	Альтернативные аватары можно выбирать перед каждым матчем. Если перед матчем вы увидите понравившегося персонажа, вы всегда можете его купить на экране выбора героя.
+mstore_exttip_altavatars	Альтернативные аватары можно выбирать перед каждым матчем. Если перед матчем вы увидите понравившийся аватар, вы всегда можете его купить на экране выбора героя.
 
 
 
-mstore_exttip_enhancements	Обновления
+mstore_exttip_enhancements	Улучшения
 
 
 
@@ -7832,7 +7832,7 @@ mstore_category2_desc		Альтернативные аватары меняют 
 
 
 
-mstore_category3			Значки учетных записей
+mstore_category3			Значки аккаунта
 
 
 
@@ -7856,11 +7856,11 @@ mstore_category4_desc		Символы отображаются слева от �
 
 
 
-mstore_category5			Анонсеры
+mstore_category5			Дикторы
 
 
 
-mstore_exttip_announcements		Анонсеры оснащены новыми звуками и аркадным текстом для серий убийств и других игровых событий. Все игроки услышат и увидят их, когда вы их достигнете. Некоторые звуки, например уведомления об атаке, будете слышать только вы.
+mstore_exttip_announcements		Дикторы приносят новые звуки и аркадный текст для серий убийств и других игровых событий. Все игроки услышат и увидят их, когда вы их достигнете. Некоторые звуки, например уведомления об атаке, будете слышать только вы.
 
 
 
@@ -7880,15 +7880,15 @@ mstore_category6_desc		Здесь вы можете приобрести раз�
 
 
 
-mstore_category7			Пакеты
+mstore_category7			Наборы
 
 
 
-mstore_category7_desc		Сэкономьте драгоценные монеты гоблинов, приобретая товары группами со скидкой!
+mstore_category7_desc		Сэкономьте драгоценные Goblin Coins, покупая товары наборами со скидкой!
 
 
 
-mstore_category16			Цвет имени
+mstore_category16			Цвета имени
 
 
 
@@ -7896,11 +7896,11 @@ mstore_category16_desc		Эти предметы меняют цвет вашег
 
 
 
-mstore_category27			Насмешка
+mstore_category27			Провокация
 
 
 
-mstore_category27_desc		Приобретите возможность дразнить игроков здесь!
+mstore_category27_desc		Купите возможность провоцировать игроков!
 
 
 
@@ -7924,7 +7924,7 @@ mstore_category58			Ранний доступ
 
 
 
-mstore_category58_desc		Хотите быть одним из первых, кто сыграет в новейших Героях? Получите нового героя сегодня!
+mstore_category58_desc		Хотите одним из первых сыграть новыми героями? Получите нового героя уже сегодня!
 
 
 
@@ -7952,11 +7952,11 @@ mstore_category76_desc		Улучшайте своих крипов с помощ
 
 
 
-mstore_category77 			Значок насмешки
+mstore_category77 			Значок провокации
 
 
 
-mstore_category77_desc		Новый значок насмешки!
+mstore_category77_desc		Новый значок провокации!
 
 
 
@@ -8020,7 +8020,7 @@ mstore_tip_couriers_btnselect	Выберите аватар курьера
 
 
 
-mstore_tip_couriers_btnlock		Если у вас есть курьер, нажмите здесь, чтобы заблокировать его аватар.
+mstore_tip_couriers_btnlock		Если курьер ваш, нажмите здесь, чтобы заблокировать его аватар.
 
 
 
@@ -8040,7 +8040,7 @@ mstore_category60		 Символы героев
 
 
 
-mstore_category60_desc		Избегание реальной жизни? Вместо этого выберите символ героя!
+mstore_category60_desc		Сбегаете от реальности? Выберите символ героя!
 
 
 
@@ -8056,11 +8056,11 @@ mstore_category74			Варды
 
 
 
-mstore_category74_desc		Настройте внешний вид своих вардов видения и откровения.
+mstore_category74_desc		Настройте внешний вид своих Ward of Sight и Ward of Revelation.
 
 
 
-mstore_category75			Обновления
+mstore_category75			Улучшения
 
 
 
@@ -8072,19 +8072,11 @@ mstore_category75_desc		Специальные эффекты для настр�
 
 
 
-mstore_ward_sight			Зрение
+mstore_ward_sight			Sight
 
 
 
-mstore_ward_revelation		Откровение
-
-
-
-
-
-
-
-mstore_exttip_namecolor		Цвета имен можно найти в списке чата, в окне статистики в игре и в вашей учетной записи на форуме. Они имеют символ по умолчанию и дают вам более высокую позицию в списке чата, чем бесцветные люди.
+mstore_ward_revelation		Revelation
 
 
 
@@ -8092,7 +8084,15 @@ mstore_exttip_namecolor		Цвета имен можно найти в списк
 
 
 
-mstore_expireson		В настоящее время принадлежит - срок действия истекает {date}. Больше времени можно приобрести выше.
+mstore_exttip_namecolor		Цвета имен можно найти в списке чата, в окне статистики в игре и в вашей учетной записи на форуме. Они имеют символ по умолчанию и дают вам более высокую позицию в списке чата, чем у игроков без цвета.
+
+
+
+
+
+
+
+mstore_expireson		Уже есть - срок действия истекает {date}. Время можно продлить выше.
 
 
 
@@ -8108,19 +8108,19 @@ mstore_heroname			Имя героя
 
 
 
-mstore_price_asc		Цена от низкой до высокой
+mstore_price_asc		Цена: по возрастанию
 
 
 
-mstore_price_desc		Цена от высокой к низкой
+mstore_price_desc		Цена: по убыванию
 
 
 
-mstore_diff_asc			Сложность: от низкой до высокой
+mstore_diff_asc			Сложность: по возрастанию
 
 
 
-mstore_diff_desc		Сложность от высокой до низкой
+mstore_diff_desc		Сложность: по убыванию
 
 
 
@@ -8140,11 +8140,11 @@ mstore_backtostore		Вернуться в магазин
 
 
 
-mstore_duration			Длительность:
+mstore_duration			Длительность
 
 
 
-mstore_games_amount		{amount} Герои
+mstore_games_amount		Героев: {amount}
 
 
 
@@ -8172,11 +8172,11 @@ mstore_avatar_show		Показать
 
 
 
-mstore_avatar_show_ownedheroes	Собственные герои
+mstore_avatar_show_ownedheroes	Купленные герои
 
 
 
-mstore_avatar_show_unownedheroes	Бесхозные герои
+mstore_avatar_show_unownedheroes	Некупленные герои
 
 
 
@@ -8184,11 +8184,11 @@ mstore_avatar_show_allavatars	Все аватары
 
 
 
-mstore_avatar_show_ownedavatars	Собственные аватары
+mstore_avatar_show_ownedavatars	Купленные аватары
 
 
 
-mstore_avatar_show_unownedavatars	Личные аватары
+mstore_avatar_show_unownedavatars	Некупленные аватары
 
 
 
@@ -8204,7 +8204,7 @@ mstore_outnow			Доступно
 
 
 
-mstore_playable			Играбельно сейчас!
+mstore_playable			Уже доступен!
 
 
 
@@ -8220,7 +8220,7 @@ mstore_eapdesc_garena	Играйте с новейшими героями сег
 
 
 
-mstore_eapdesc_f2p		Приобретите новейших героев и станьте одним из первых игроков, которые сыграют ими!
+mstore_eapdesc_f2p		Приобретите новейших героев и станьте одним из первых, кто сыграет за них!
 
 
 
@@ -32716,7 +32716,7 @@ general_previous	Назад
 general_secs	Сек
 game_shop_auto_level_classic	Авто-прокачка умений
 game_shop_auto_level_classic_top	Автоматически прокачивать умения по мере открытия.
-options_btn_restart_tutorial	Перезапустить руководство
+options_btn_restart_tutorial	Перезапустить обучение
 options_btn_restart_tutorial_tip	Повторно открывает обучающие слайды.
 options_label_shop_search_keybind	Поиск предметов
 options_restart_confirm_body	Одно или несколько изменений требуют перезапуска. Перезапустить?
