@@ -12995,7 +12995,7 @@ Hero_Berzerker_name	Berzerker
 
 
 
-Hero_Berzerker_description										Когда весть о войне в Неверте достигла Berzerker, он поспешно покинул свою ледяную родину на Севере. Хотя он не присягал Легиону, шанс сразиться с демонами ада Berzerker не мог упустить. Невероятный воин с неукротимой волей, безрассудное пренебрежение Berzerker к собственной жизни дает ему силу и мощь, казалось бы, безмерные, хоть и не без риска. Раз закалившись, только смерть остановит его от уничтожения врагов.
+Hero_Berzerker_description										Когда весть о войне в Неверте достигла Berzerker, он поспешно покинул свою ледяную родину на Севере. Хотя он не присягал Легиону, упустить шанс сразиться с демонами ада Berzerker не мог. Это невероятный воин с неукротимой волей: безрассудное пренебрежение к собственной жизни дает ему силу и мощь, казалось бы, безмерные, хоть и не без риска. Когда он собрался с духом, остановить его в уничтожении врагов может только смерть.
 
 
 
@@ -14123,7 +14123,7 @@ State_Bombardier_Ability1_Ally_name								Sticky Bomb
 
 
 
-State_Bombardier_Ability1_Ally_description						Кто-то подставил вам бомбу!\nКаждый заряд увеличивает длительность Оглушения Sticky Bomb на 1 сек.
+State_Bombardier_Ability1_Ally_description						Кто-то подложил вам бомбу!\nКаждый заряд увеличивает длительность Оглушения Sticky Bomb на 1 сек.
 
 
 
@@ -14507,7 +14507,7 @@ Ability_Bombardier4_effect_header2
 
 
 
-Ability_Bombardier4_tooltip_flavor								Входящий!
+Ability_Bombardier4_tooltip_flavor								Ложись!
 
 
 
@@ -14555,7 +14555,7 @@ Ability_Bombardier4_IMPACT_effect:ult_boost						Вызывает Air Strike п�
 
 
 
-Ability_Bombardier4_effect_header:ult_boost						Эффекты Напалма
+Ability_Bombardier4_effect_header:ult_boost						Эффекты Napalm
 
 
 
@@ -14627,7 +14627,7 @@ Hero_Bombardier_name											Bombardier
 
 
 
-Hero_Bombardier_description										Брат знаменитого злого ученого, ставшего Доктором Репульсором, Bombardier использует свой дикий ум на благо Легиона. Еще несколько лет назад братья вместе создавали удивительные технические чудеса. Но Хеллборн восстал и развратил Репульсора, оставив Bombardier с яростной жаждой мести. Bombardier вместе с верным помощником Твичем использует различные изобретения и опасные игрушки, чтобы загнать Хеллборн обратно в ад и вырвать брата из злых объятий.
+Hero_Bombardier_description										Брат знаменитого злого ученого, ставшего Dr. Repulsor, Bombardier использует свой дикий ум на благо Легиона. Еще несколько лет назад братья вместе создавали удивительные технические чудеса. Но восстал Хеллборн и совратил Repulsor, оставив Bombardier с яростной жаждой мести. Bombardier вместе с верным помощником Твичем использует различные изобретения и опасные игрушки, чтобы загнать Хеллборн обратно в ад и вырвать брата из злых объятий.
 
 
 
@@ -14835,7 +14835,7 @@ Ability_Bubbles2_description_simple								Трубит в раковину зв
 
 
 
-Ability_Bubbles2_effect_header									Эффекты немоты
+Ability_Bubbles2_effect_header									Эффекты Muted
 
 
 
@@ -15147,7 +15147,7 @@ State_Bubbles_Ability4_name:ult_boost							^gKelp Zone*^*
 
 
 
-State_Bubbles_Ability4_description								Перемещение более чем на 600 единиц от центра поля водорослей Оглушит вас на {1.5,2.25,3} сек. и нанесет вам {100,150,200} маг. урона.
+State_Bubbles_Ability4_description								Перемещение более чем на 600 единиц от центра Kelp Field Оглушит вас на {1.5,2.25,3} сек. и нанесет вам {100,150,200} маг. урона.
 
 
 
@@ -15155,7 +15155,7 @@ State_Bubbles_Ability4_description								Перемещение более че
 
 
 
-State_Bubbles_Ability4_description:ult_boost					Перемещение более чем на 600 единиц от центра поля водорослей наложит на вас ^gабсолютное магическое Оглушение^* на {1.5,2.25,3} сек. и нанесет вам {200,300,400} ^gабсолютного маг. урона^*.
+State_Bubbles_Ability4_description:ult_boost					Перемещение более чем на 600 единиц от центра Kelp Field наложит на вас ^gабсолютное магическое Оглушение^* на {1.5,2.25,3} сек. и нанесет вам {200,300,400} ^gабсолютного маг. урона^*.
 
 
 
@@ -15195,7 +15195,7 @@ Hero_Bubbles_name	Bubbles
 
 
 
-Hero_Bubbles_description										У могущественного волшебника когда-то была домашняя черепаха. Каждый день черепаха наблюдала и подражала, пока волшебник практиковал способности. Однажды черепаха упала в магический пруд и превратилась в нечто большее. Теперь, спустя века после смерти хозяина, Bubbles живет и сражается с силами зла.
+Hero_Bubbles_description										У могущественного волшебника когда-то была домашняя черепаха. Каждый день черепаха наблюдала и подражала, пока волшебник упражнялся в заклинаниях. Однажды черепаха упала в магический пруд и превратилась в нечто большее. Теперь, спустя века после смерти хозяина, Bubbles живет и сражается с силами зла.
 
 
 
@@ -15299,7 +15299,7 @@ Ability_Bushwack1_effect_header2
 
 
 
-Ability_Bushwack1_tooltip_flavor								Для Ктулхуфанта понадобится ловушка побольше.
+Ability_Bushwack1_tooltip_flavor								Для Cthulhuphant понадобится ловушка побольше.
 
 
 
@@ -15403,7 +15403,7 @@ Ability_Bushwack2_effect_header
 
 
 
-Ability_Bushwack2_tooltip_flavor								Бывал там. Уворачивался от этого.
+Ability_Bushwack2_tooltip_flavor								Было дело. Увернулся.
 
 
 
@@ -15483,7 +15483,7 @@ Ability_Bushwack3_tooltip_flavor								Стройся в ряд - ты буде
 
 
 
-Ability_Bushwack3_ATTACK_effect									Когда перезарядка истекла, дает ^o{1.3,1.4,1.5,1.6}x критического удара^* к вашей следующей атаке и применяет {1,1,2,3} ({1,1,2,2} для вражеских героев) зарядов дебаффа DoT от Jungle Toxin (если он выровнен) к другим врагам в радиусе 300 от цели.\n\nИспользование способности сбрасывает перезарядку.
+Ability_Bushwack3_ATTACK_effect									Если не на перезарядке, дает ^o{1.3,1.4,1.5,1.6}x критического удара^* вашей следующей атаке и накладывает {1,1,2,3} ({1,1,2,2} для вражеских героев) зарядов периодического урона Jungle Toxin (если изучен) на других врагов в радиусе 300 от цели.\n\nИспользование ^oSide Step^* сбрасывает перезарядку.
 
 
 
@@ -16291,7 +16291,7 @@ Hero_Calamity_name	Calamity
 
 
 
-Hero_Calamity_description	Сестра Арета из Священного Ордена верила, что Сол направил её стать королевой короля Jeraziah и подарить ему наследника. Когда она наконец набралась смелости отречься от обетов и предстать перед королём, Jeraziah обвинил её в том, что она сама - демон, пытающийся искусить его грехом, который низвергнет его душу на суд Трёх Судей Всего Сущего и навечно заточит у дракона-стража Сандера. Опустошённая, сестра Арета наглоталась яда и прокляла собственную душу. Этого она и хотела. Три Судьи отправили её к Сандеру, хранителю душ в Хранилище Всех Адов, где она использовала своё мастерство тёмных искусств, чтобы превратить грозного стража в своего питомца. Теперь она стала Calamity, распахнув врата ада и обрушив бесконечный поток измученных душ на Неверт. Но ей нет до этого дела. Она убьёт каждого советника, солдата - даже сестру Jeraziah - пока не останется лишь он, и тогда она встанет рядом с ним, правя Третьей Порчей вместе.
+Hero_Calamity_description	Сестра Арета из Священного Ордена верила, что Сол предначертал ей стать королевой Jeraziah и подарить ему наследника. Когда она наконец набралась смелости отречься от обетов и предстать перед королём, Jeraziah обвинил её в том, что она сама - демон, пытающийся искусить его грехом, который низвергнет его душу на суд Трёх Судей Всего Сущего и навечно заточит у дракона-стража Сандера. Опустошённая, сестра Арета наглоталась яда и прокляла собственную душу. Этого она и хотела. Три Судьи отправили её к Сандеру, хранителю душ в Хранилище Всех Адов, где она использовала своё мастерство тёмных искусств, чтобы превратить грозного стража в своего питомца. Теперь она стала Calamity, распахнув врата ада и обрушив бесконечный поток измученных душ на Неверт. Но ей нет до этого дела. Она убьёт каждого советника, солдата - даже сестру Jeraziah - пока не останется лишь он, и тогда она встанет рядом с ним, правя Третьей Порчей вместе.
 
 
 
@@ -16387,7 +16387,7 @@ Ability_Chi1_IMPACT_effect										Выберите вражеского гер
 
 
 
-Ability_Chi1_tooltip_flavor										Чем больше они - тем больнее падают!
+Ability_Chi1_tooltip_flavor										Чем больше шкаф, тем громче падает!
 
 
 
@@ -16523,7 +16523,7 @@ State_Chi_Ability2_name											Shredder
 
 
 
-State_Chi_Ability2_FRAME_effect									Высасывание {5,6,7,8} + {0.6,0.8,1,1.2}% от вашего максимального запаса маны в сек.\n\nДиапазон привязи 2000
+State_Chi_Ability2_FRAME_effect									Высасывание {5,6,7,8} + {0.6,0.8,1,1.2}% от вашего максимального запаса маны в сек.\n\nСвязь рвется на расстоянии 2000
 
 
 
@@ -16683,7 +16683,7 @@ State_Chi_Ability3_name											Enlightenment
 
 
 
-State_Chi_Ability3_FRAME_effect									Получает 1 ед. высшего маг. урона в сек. на 2 сек.
+State_Chi_Ability3_FRAME_effect									Получает 1 ед. абсолютного маг. урона в сек. в течение 2 сек.
 
 
 
@@ -17194,7 +17194,7 @@ Ability_Chipper4_description_simple								Создаёт ^oпилы^* в лин
 
 
 
-Ability_Chipper4_effect_header									Эффекты Пилы
+Ability_Chipper4_effect_header									Эффекты Sawblade
 
 
 
@@ -17422,7 +17422,7 @@ Ability_Chronos1_IMPACT_effect									Телепортирует вас в вы
 
 
 
-Ability_Chronos1_tooltip_flavor									Все дело в потоковом конденсаторе!
+Ability_Chronos1_tooltip_flavor									Все дело в потоковом накопителе!
 
 
 
@@ -17654,7 +17654,7 @@ Ability_Chronos4_description2									^gЭта способность может
 
 
 
-Ability_Chronos4_effect_header									Эффекты Хронополя
+Ability_Chronos4_effect_header									Эффекты Chronofield
 
 
 
@@ -17702,7 +17702,7 @@ Ability_Chronos4_IMPACT_effect:ult_boost						Создает поле в рад�
 
 
 
-Ability_Chronos4_tooltip_flavor									Добро пожаловать на Громовую арену!
+Ability_Chronos4_tooltip_flavor									Добро пожаловать под Купол грома!
 
 
 
@@ -17854,7 +17854,7 @@ State_Chronos_Ability4_Timer_name								Chronofield
 
 
 
-State_Chronos_Ability4_Timer_FRAME_effect						Хронополе истекает вдвое быстрее, когда Chronos не внутри.
+State_Chronos_Ability4_Timer_FRAME_effect						Chronofield истекает вдвое быстрее, когда Chronos вне его.
 
 
 
@@ -17886,7 +17886,7 @@ Hero_Chronos_name	Chronos
 
 
 
-Hero_Chronos_description										Величайшие изобретатели Легиона Людей мечтали создать армию механических воинов, чтобы избавить людей от кровавой цены войны. Был создан лишь один, ибо никто не мог найти способ оживить его. Когда Хеллборн вселил украденную душу в его механическую оболочку, они оживили Chronos и обрели контроль этого искусственного монстра над самим временем.
+Hero_Chronos_description										Величайшие изобретатели Легиона Людей мечтали создать армию механических воинов, чтобы избавить людей от кровавой цены войны. Был создан лишь один, ибо никто не мог найти способ оживить его. Когда Хеллборн вселил украденную душу в его механическую оболочку, он оживил Chronos и обрел власть этого искусственного чудовища над самим временем.
 
 
 
@@ -17958,7 +17958,7 @@ Ability_Circe1_description_simple								Выберите точку, чтобы
 
 
 
-Ability_Circe1_effect_header									Эффекты Западни
+Ability_Circe1_effect_header									Эффекты Entrapment
 
 
 
@@ -18585,7 +18585,7 @@ Ability_CorruptedDisciple1_IMPACT_effect						Наносит врагам, за�
 
 
 
-Ability_CorruptedDisciple1_tooltip_flavor						Прочь с добром, да здравствует зло.
+Ability_CorruptedDisciple1_tooltip_flavor						Долой добро, да здравствует зло.
 
 
 
@@ -18633,7 +18633,7 @@ Ability_CorruptedDisciple2_description_simple					Связывает вас с �
 
 
 
-Ability_CorruptedDisciple2_effect_header						Порченый проводник (враг)
+Ability_CorruptedDisciple2_effect_header						Corrupted Conduit (враг)
 
 
 
@@ -18641,7 +18641,7 @@ Ability_CorruptedDisciple2_effect_header						Порченый проводни�
 
 
 
-Ability_CorruptedDisciple2_effect_header2						Порченый проводник (свой)
+Ability_CorruptedDisciple2_effect_header2						Corrupted Conduit (свой)
 
 
 
@@ -18889,7 +18889,7 @@ Ability_CorruptedDisciple4_IMPACT_effect:ult_boost				Каждые ^g{0.7,0.6,0.
 
 
 
-Ability_CorruptedDisciple4_effect_header						Эффекты Встряски
+Ability_CorruptedDisciple4_effect_header						Эффекты Jolted
 
 
 
@@ -18937,7 +18937,7 @@ State_CorruptedDisciple_Ability4_Self_name						Overload
 
 
 
-State_CorruptedDisciple_Ability4_Self_description				Электрический!
+State_CorruptedDisciple_Ability4_Self_description				Под напряжением!
 
 
 
@@ -19510,7 +19510,7 @@ State_Cthulhuphant_Ability4_Look_name 							Dreams of Madness
 
 
 
-State_Cthulhuphant_Ability4_Look_FRAME_effect					Обезумеет и будет вынужден атаковать Ктулхуфанта при 0 зарядах
+State_Cthulhuphant_Ability4_Look_FRAME_effect					Обезумеет и будет вынужден атаковать Cthulhuphant при 0 зарядах
 
 
 
@@ -19574,7 +19574,7 @@ Hero_Cthulhuphant_name	Cthulhuphant
 
 
 
-Hero_Cthulhuphant_description									Затерянный на глубинах темнейшего моря, мертвый бегемот грезил кошмаром непостижимого зла. Пропитанный первобытными энергиями земли, его сон обрел реальность как живое предзнаменование безумия, выбравшееся со дна океана на сушу.
+Hero_Cthulhuphant_description									Затерянный на глубинах темнейшего моря, мертвый исполин грезил кошмаром непостижимого зла. Пропитанный первобытными энергиями земли, его сон обрел реальность как живое предзнаменование безумия, выбравшееся со дна океана на сушу.
 
 
 
@@ -19694,7 +19694,7 @@ Ability_Dampeer1_effect_header2
 
 
 
-Ability_Dampeer1_tooltip_flavor		«БУ!»
+Ability_Dampeer1_tooltip_flavor		БУ!
 
 
 
@@ -19823,7 +19823,7 @@ Ability_Dampeer2_effect_header2
 
 
 
-Ability_Dampeer2_tooltip_flavor		«Как летучая мышь из ада!»
+Ability_Dampeer2_tooltip_flavor		Как летучая мышь из ада!
 
 
 
@@ -19959,7 +19959,7 @@ Ability_Dampeer3_effect_header
 
 
 
-Ability_Dampeer3_tooltip_flavor		«Кровавая Мэри для всех!»
+Ability_Dampeer3_tooltip_flavor		Кровавая Мэри для всех!
 
 
 
@@ -20095,7 +20095,7 @@ Ability_Dampeer4_effect_header2
 
 
 
-Ability_Dampeer4_tooltip_flavor		«Кусать или не кусать? Вот в чём вопрос.»
+Ability_Dampeer4_tooltip_flavor		Кусать или не кусать? Вот в чём вопрос.
 
 
 
@@ -20143,7 +20143,7 @@ State_Dampeer_Ability4_Hero_name								Consume
 
 
 
-State_Dampeer_Ability4_Hero_FRAME_effect		Смерть усилит Дампера.
+State_Dampeer_Ability4_Hero_FRAME_effect		Смерть усилит Dampeer.
 
 
 
@@ -20871,7 +20871,7 @@ Hero_Deadlift_name	Deadlift
 
 
 
-Hero_Deadlift_description										Deadlift когда-то был человеком - пленником Хеллборна по имени Экол, вынужденным превращать своих собратьев в корм для Псов Ужаса. Он утратил всякую надежду, когда рядом появилась его давно потерянная жена Рина - следующая на заклание. Экол вновь обрел надежду и мужество. Он сражался, чтобы спасти Рину, но она была поглощена распространяющимся злом и утянута в подземный мир, а Экол был разорван осколками и проклят силой поднимать мертвых. Он собрал расплавленные обломки металла, чтобы скрепить разрушенное тело, поклявшись наполнять подземный мир душами, пока не найдет Рину снова.
+Hero_Deadlift_description										Deadlift когда-то был человеком - пленником Хеллборна по имени Экол, вынужденным превращать своих собратьев в корм для Псов Ужаса. Он утратил всякую надежду, когда рядом появилась его давно потерянная жена Рина - следующая на заклание. Экол вновь обрел надежду и мужество. Он сражался, чтобы спасти Рину и бежать из лагеря, но как раз тогда Calamity приблизила Неверт к Третьей Порче. Рину поглотило расползающееся зло и утянуло в подземный мир, а Экола изрешетило осколками и прокляло силой поднимать мертвых. Он собрал расплавленные обломки металла, чтобы скрепить разрушенное тело, поклявшись наполнять подземный мир душами, пока не найдет Рину снова.
 
 
 
@@ -20967,7 +20967,7 @@ Ability_Deadwood1_IMPACT_effect									Через 1,2 сек. в выбранн
 
 
 
-Ability_Deadwood1_tooltip_flavor								Ты этого не увидишь...
+Ability_Deadwood1_tooltip_flavor								Этого ты не ждал...
 
 
 
@@ -20999,7 +20999,7 @@ State_Deadwood_Ability1_name									Rotten Grasp
 
 
 
-State_Deadwood_Ability1_FRAME_effect							{100,150,200,250} Физ. урон, полученный за время существования состояния
+State_Deadwood_Ability1_FRAME_effect							{100,150,200,250} физ. урона за время действия эффекта
 
 
 
@@ -21047,7 +21047,7 @@ Ability_Deadwood2_description_simple							Вырывает дерево из з
 
 
 
-Ability_Deadwood2_effect_header									Эффект Выкорчевывания
+Ability_Deadwood2_effect_header									Эффект Uproot
 
 
 
@@ -21095,7 +21095,7 @@ Ability_Deadwood2_IMPACT_effect:deadwood_ihasatree				Бросает дерев�
 
 
 
-Ability_Deadwood2_tooltip_flavor:deadwood_ihasatree				Вдохновлено Штормовым ударом.
+Ability_Deadwood2_tooltip_flavor:deadwood_ihasatree				Вдохновлено Stormbolt.
 
 
 
@@ -21199,7 +21199,7 @@ Ability_Deadwood3_description_simple							Активируйте, чтобы н
 
 
 
-Ability_Deadwood3_effect_header									Эффекты Вырубки
+Ability_Deadwood3_effect_header									Эффекты Clearcutting
 
 
 
@@ -21327,7 +21327,7 @@ Ability_Deadwood4_description_simple							Выберите вражеского
 
 
 
-Ability_Deadwood4_effect_header									Эффект Ивоплета
+Ability_Deadwood4_effect_header									Эффект Willowmaker
 
 
 
@@ -21343,7 +21343,7 @@ Ability_Deadwood4_IMPACT_effect									Выберите вражеского ю
 
 
 
-Ability_Deadwood4_tooltip_flavor								Дэдвуд... УДАР!
+Ability_Deadwood4_tooltip_flavor								Deadwood... УДАР!
 
 
 
@@ -21783,7 +21783,7 @@ State_Defiler_Ability3_Enemy_name								Siphon Soul
 
 
 
-State_Defiler_Ability3_Enemy_FRAME_effect						20 + {1,1.5,2,2.5}% от макс. здоровья вражеского героя Маг. урон в сек.
+State_Defiler_Ability3_Enemy_FRAME_effect						Маг. урон в сек.: 20 + {1,1.5,2,2.5}% от макс. здоровья вражеского героя
 
 
 
@@ -21815,7 +21815,7 @@ State_Defiler_Ability3_Self_name								Siphon Soul
 
 
 
-State_Defiler_Ability3_Self_FRAME_effect						10 + {2,3,4,5}% от макс. здоровья вражеского героя восстанавливается в сек.
+State_Defiler_Ability3_Self_FRAME_effect						Исцеление в сек.: 10 + {2,3,4,5}% от макс. здоровья вражеского героя
 
 
 
@@ -22011,7 +22011,7 @@ Hero_Defiler_name	Defiler
 
 
 
-Hero_Defiler_description										Окутанная тенями и эхом проклятых душ, Defiler - любительница гниения, безумия и агонии. Она черпает силу из смерти вокруг себя и может изгонять из своей плоти живых, страдающих теней. Владея смертоносными атаками и нечестивым благоговением, заставляющим врагов замолчать, она истинно заслуживает свое мерзкое прозвище: "Госпожа Проклятых".
+Hero_Defiler_description										Окутанная тенями и эхом проклятых душ, Defiler - любительница гниения, безумия и агонии. Она черпает силу из смерти вокруг себя и может изгонять из своей плоти живые страдающие тени. Владея смертоносными атаками и нечестивым благоговением, заставляющим врагов замолчать, она истинно заслуживает свое мерзкое прозвище: "Госпожа Проклятых".
 
 
 
@@ -22179,7 +22179,7 @@ Ability_Devourer2_description_simple							^oПереключаемая спос
 
 
 
-Ability_Devourer2_effect_header									Эффекты Разложения
+Ability_Devourer2_effect_header									Эффекты Decay
 
 
 
@@ -125035,7 +125035,7 @@ Ability_Deadwood2_description2:ult_boost						^gАтаки теперь нано
 Ability_Deadwood2_description_simple:ult_boost					^gВсегда держит дерево, которое дает^* ^o{15,30,45,60} урона.^*\n\n^gАтаки наносят 50% физ. урона по области вокруг цели^*\n\n^gКаждая 4-я атака коротко оглушает цель и накладывает ослабевающее замедление на 1 сек.^*\n\nВыберите вражеского юнита, чтобы бросить в него дерево: физ. урон, равный вашему урону от атаки, ^oкороткое оглушение^* и ослабевающее ^o-75% скор. движ.^*\n\n^gБрошенное дерево у Deadwood не пропадает^*.
 Ability_Deadwood2_effect_header:ult_boost						Эффект Son of a Birch
 Ability_Deadwood2_IMPACT_effect:ult_boost						Бросает дерево в цель: оглушает ее на 0,1 сек., наносит физ. урон, равный вашему урону от атаки, и накладывает Son of a Birch на {1.5,2,2.5,3} сек. Юнитов с иммунитетом к магии не оглушает и не замедляет.
-Ability_Deadwood2_tooltip_flavor:ult_boost						Вдохновлено скиллом Stormbolt.
+Ability_Deadwood2_tooltip_flavor:ult_boost						Вдохновлено Stormbolt.
 State_Deadwood_Ability2_name:ult_boost							Now I have a Stronger tree!
 State_Deadwood_Ability2_description:ult_boost					Атаки теперь наносят 50% физ. урона по области в радиусе 300 вокруг цели\n\nКаждая 4-я атака наносит микро-Оглушение и убывающее замедление на 0.75 сек.
 State_Electrician_Ability4_Immobilized_name						Shocked
