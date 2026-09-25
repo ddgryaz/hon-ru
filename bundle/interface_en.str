@@ -2,39 +2,39 @@
 
 
 
-BACKSPACE		Возврат
+BACKSPACE		Backspace
 
 
 
-TAB				Вкладка
+TAB				Tab
 
 
 
-ENTER			Введите
+ENTER			Enter
 
 
 
-ESC				Побег
+ESC				Escape
 
 
 
-SPACE			Космос
+SPACE			Пробел
 
 
 
-CAPS_LOCK		Кэпс Лок
+CAPS_LOCK		Caps Lock
 
 
 
-SHIFT			Сдвиг
+SHIFT			Shift
 
 
 
-LSHIFT			Левый сдвиг
+LSHIFT			Левый Shift
 
 
 
-RSHIFT			Правый сдвиг
+RSHIFT			Правый Shift
 
 
 
@@ -50,7 +50,7 @@ RCTRL			Правый Ctrl
 
 
 
-ALT				Альтернативный
+ALT				Alt
 
 
 
@@ -62,7 +62,7 @@ RALT			Правый Alt
 
 
 
-WIN				Ключ Windows
+WIN				Клавиша Windows
 
 
 
@@ -78,7 +78,7 @@ UP				Вверх
 
 
 
-LEFT			Слева
+LEFT			Влево
 
 
 
@@ -86,7 +86,7 @@ DOWN			Вниз
 
 
 
-RIGHT			Верно
+RIGHT			Вправо
 
 
 
@@ -94,27 +94,27 @@ NUM_LOCK		NumLock
 
 
 
-DIVIDE			/ (число)
+DIVIDE			/ (num)
 
 
 
-MULTIPLY		* (число)
+MULTIPLY		* (num)
 
 
 
-ADD				+ (число)
+ADD				+ (num)
 
 
 
-SUBTRACT		- (число)
+SUBTRACT		- (num)
 
 
 
-DECIMAL			. (число)
+DECIMAL			. (num)
 
 
 
-NUM_ENTER		Введите (число)
+NUM_ENTER		Enter (num)
 
 
 
@@ -158,7 +158,7 @@ general_rate_percent						Ставка %
 
 
 
-general_pick								Выбирать
+general_pick								Выбрать
 
 
 
@@ -190,7 +190,7 @@ general_discard								Сбросить
 
 
 
-general_ok									ХОРОШО
+general_ok									OK
 
 
 
@@ -198,7 +198,7 @@ general_success 							Успех
 
 
 
-general_play_hero							Играть в героя
+general_play_hero							Играть героем
 
 
 
@@ -214,7 +214,7 @@ general_accept								Принять
 
 
 
-general_go									Иди
+general_go									Вперёд
 
 
 
@@ -238,7 +238,7 @@ general_filter								Фильтр
 
 
 
-general_private_game						Частная игра
+general_private_game						Закрытая игра
 
 
 
@@ -298,7 +298,7 @@ general_create_account						Создать учетную запись
 
 
 
-general_local								Местный
+general_local								Локально
 
 
 
@@ -354,7 +354,7 @@ general_no									Нет
 
 
 
-general_full_games							Полные версии игр
+general_full_games							Заполненные
 
 
 
@@ -382,11 +382,11 @@ general_buy_now								КУПИТЬ СЕЙЧАС
 
 
 
-general_owned 								В собственности
+general_owned 								Куплено
 
 
 
-general_not_owned 							Не принадлежит
+general_not_owned 							Не куплено
 
 
 
@@ -394,7 +394,7 @@ general_date								Дата
 
 
 
-general_decline								Отказ
+general_decline								Отклонить
 
 
 
@@ -406,7 +406,7 @@ general_ignore								Отклонить
 
 
 
-general_join								Присоединяйтесь
+general_join								Присоединиться
 
 
 
@@ -446,7 +446,7 @@ general_time								Время
 
 
 
-general_login								Авторизоваться
+general_login								Войти
 
 
 
@@ -470,7 +470,7 @@ general_error_sea_deny						Пользователи SEA должны подкл
 
 
 
-general_error_sea_message1					Скоро начнется бета-тестирование Heroes of Newerth для пользователей в Сингапуре, Малайзии, Вьетнаме и на Филиппинах. В начале закрытого бета-тестирования геймеры из этих стран смогут немедленно активировать бетонкою, если они являются золотыми участниками Garena, в то время как другие ключи будут раздаваться в рамках других усилий сообщества. Обратите внимание, что страны, не указанные здесь (например, Индонезия, Таиланд), не смогут играть на серверах Garena, и им потребуется приобрести платную учетную запись, чтобы наслаждаться игрой на международных серверах Frostburn Studios.
+general_error_sea_message1					Скоро начнется бета-тестирование Heroes of Newerth для пользователей в Сингапуре, Малайзии, Вьетнаме и на Филиппинах. В начале закрытого бета-тестирования геймеры из этих стран смогут немедленно активировать бета-ключ, если они являются золотыми участниками Garena, в то время как другие ключи будут раздаваться в рамках других усилий сообщества. Обратите внимание, что страны, не указанные здесь (например, Индонезия, Таиланд), не смогут играть на серверах Garena, и им потребуется приобрести платную учетную запись, чтобы наслаждаться игрой на международных серверах Frostburn Studios.
 
 
 
@@ -478,7 +478,7 @@ general_error_sea_message2					Дополнительную информацию
 
 
 
-general_quit								Покидать
+general_quit								Выйти
 
 
 
@@ -522,7 +522,7 @@ general_mode_random_draft					Random Draft
 
 
 
-general_mode_random_draft_desc				Ограничивает выбор героев до 20 героев, а затем поочередно выбирает игроков.
+general_mode_random_draft_desc				Ограничивает выбор 20 героями, затем игроки выбирают по очереди.
 
 
 
@@ -554,7 +554,7 @@ general_mode_blindbanningpick				Blind Banning
 
 
 
-general_mode_blindbanningpick_desc			Игроки начинают с полным набором героев. Затем игроки на синей и розовой позициях одновременно блокируют трех героев, при этом другая команда не знает, каких героев другая команда решила забанить. Затем игрокам показывают запреты, и всем им предоставляется возможность одновременно выбирать из оставшихся героев.
+general_mode_blindbanningpick_desc			Игроки начинают с полным набором героев. Затем игроки на синей и розовой позициях одновременно банят по три героя, не зная, кого забанила другая команда. Затем всем показывают баны, и все одновременно выбирают из оставшихся героев.
 
 
 
@@ -562,7 +562,7 @@ general_mode_blindbanningpickblitz			Blitz Blind Banning
 
 
 
-general_mode_blindbanningpickblitz_desc		Игроки начинают с полным набором героев. Затем игроки на синей и розовой позициях одновременно блокируют трех героев, при этом другая команда не знает, каких героев другая команда решила забанить. Затем игрокам показывают запреты, и всем им предоставляется возможность одновременно выбирать из оставшихся героев. У игроков меньше время восстановления и мана кост, но выше скорость регенерации!
+general_mode_blindbanningpickblitz_desc		Игроки начинают с полным набором героев. Затем игроки на синей и розовой позициях одновременно банят по три героя, не зная, кого забанила другая команда. Затем всем показывают баны, и все одновременно выбирают из оставшихся героев. У игроков меньше перезарядка и расход маны, но выше регенерация!
 
 
 
@@ -570,7 +570,7 @@ general_mode_banningdraftblitz				Blitz Banning Draft
 
 
 
-general_mode_banningdraftblitz_desc			Игроки начинают с пулом из 24 героев. Затем синие и розовые игроки поочередно банят по 2 героя каждый. После бонна игроки по очереди выбирают своих героев из оставшегося пула. У игроков меньше время восстановления и мана кост, но выше скорость регенерации!
+general_mode_banningdraftblitz_desc			Игроки начинают с пулом из 24 героев. Затем синий и розовый игроки поочередно банят по 2 героя. После банов игроки по очереди выбирают героев из оставшегося пула. У игроков меньше перезарядка и расход маны, но выше регенерация!
 
 
 
@@ -578,7 +578,7 @@ general_mode_banningpick					Banning Pick
 
 
 
-general_mode_banningpick_desc				Игроки начинают с полным набором героев. Затем синие и розовые игроки поочередно банят по 4 героя каждый. После бонна игроки по очереди выбирают своих героев из оставшегося пула.
+general_mode_banningpick_desc				Игроки начинают с полным набором героев. Затем синий и розовый игроки поочередно банят по 4 героя. После банов игроки по очереди выбирают героев из оставшегося пула.
 
 
 
@@ -606,7 +606,7 @@ general_mode_captainsmode					Captains Pick
 
 
 
-general_mode_captainsmode_desc				Лидеры групп являются капитанами команды и делают все, что касается запретов и подборов игроков для команды.
+general_mode_captainsmode_desc				Лидеры групп - капитаны команд, они сами банят и выбирают героев за всю команду.
 
 
 
@@ -622,7 +622,7 @@ general_mode_gated							Публичное бета-тестирование (P
 
 
 
-general_mode_gated_desc						Игроки выбирают из созданного пула из 40 героев.
+general_mode_gated_desc						Игроки выбирают из подобранного пула в 40 героев.
 
 
 
@@ -674,7 +674,7 @@ general_mode_herobanpick_desc				Игроки начинают с полным �
 
 
 
-general_mode_blitz_desc 					У игроков меньше время восстановления и мана кост, но выше скорость регенерации!
+general_mode_blitz_desc 					У игроков меньше перезарядка и расход маны, но выше регенерация!
 
 
 
@@ -706,7 +706,7 @@ general_mode_singledraft					Single Draft
 
 
 
-general_mode_singledraft_desc				Каждому игроку дается выбор героя: один герой ловкости, один интеллект и один герой силы.
+general_mode_singledraft_desc				Каждому игроку на выбор дается три героя: ловкости, интеллекта и силы.
 
 
 
@@ -714,7 +714,7 @@ general_mode_banningdraft					Banning Draft
 
 
 
-general_mode_banningdraft_desc				Игроки начинают с пулом из 24 героев. Затем синие и розовые игроки поочередно банят по 2 героя каждый. После бонна игроки по очереди выбирают своих героев из оставшегося пула.
+general_mode_banningdraft_desc				Игроки начинают с пулом из 24 героев. Затем синий и розовый игроки поочередно банят по 2 героя. После банов игроки по очереди выбирают героев из оставшегося пула.
 
 
 
@@ -882,23 +882,23 @@ general_one_second							Одна секунда
 
 
 
-general_weeks_amount						{amount} Недели
+general_weeks_amount						Недель: {amount}
 
 
 
-general_days_amount							{amount} Дней
+general_days_amount							Дней: {amount}
 
 
 
-general_hours_amount						{amount} Часы
+general_hours_amount						Часов: {amount}
 
 
 
-general_minutes_amount						{amount} Минуты
+general_minutes_amount						Минут: {amount}
 
 
 
-general_seconds_amount						{amount} Секунды
+general_seconds_amount						Секунд: {amount}
 
 
 
@@ -906,7 +906,7 @@ general_permanent							Постоянный
 
 
 
-general_help								Помогите
+general_help								Помощь
 
 
 
@@ -914,11 +914,11 @@ general_hero_agi							Герои ловкости
 
 
 
-general_hero_int							Герои разведки
+general_hero_int							Герои интеллекта
 
 
 
-general_hero_str							Силовые герои
+general_hero_str							Герои силы
 
 
 
@@ -949,7 +949,7 @@ general_seconds								Секунды
 
 
 
-general_usd									Доллары США
+general_usd									USD
 
 
 
@@ -965,7 +965,7 @@ general_tournament							Турнир
 
 
 
-general_competitive							Конкурентоспособный
+general_competitive							Соревновательный
 
 
 
@@ -985,11 +985,11 @@ general_any									Любой
 
 
 
-general_ultimate							Окончательный
+general_ultimate							Ульт
 
 
 
-general_used								Б/у
+general_used								Использовано
 
 
 
@@ -1001,7 +1001,7 @@ general_how_it_works						Как это работает
 
 
 
-general_easy 								Легко
+general_easy 								Лёгкий
 
 
 
@@ -1009,7 +1009,7 @@ general_medium 								Средний
 
 
 
-general_hard 								Жесткий
+general_hard 								Сложный
 
 
 
@@ -1017,11 +1017,11 @@ general_or 									или
 
 
 
-general_pass 								Проходить
+general_pass 								Пройдено
 
 
 
-general_fail 								Не удалось
+general_fail 								Провал
 
 
 
@@ -1049,7 +1049,7 @@ general_confirm 							Подтвердить
 
 
 
-general_bundle 								Пучок
+general_bundle 								Набор
 
 
 
@@ -1109,7 +1109,7 @@ general_eula								Лицензионное соглашение
 
 
 
-general_disabletip							Отключите этот совет
+general_disabletip							Больше не показывать
 
 
 
@@ -1121,11 +1121,11 @@ genera_date_format							{month} {day} {year}
 
 
 
-genera_date_format_months					Янв, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь
+genera_date_format_months					Янв,Фев,Мар,Апр,Май,Июн,Июл,Авг,Сен,Окт,Ноя,Дек
 
 
 
-genera_date_format_days						1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31.
+genera_date_format_days						1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
 
 
 
@@ -1153,7 +1153,7 @@ general_itemlist							Предметы
 
 
 
-general_game_list							Хостинговые игры
+general_game_list							Игры игроков
 
 
 
@@ -1173,11 +1173,11 @@ general_spectate							Наблюдать
 
 
 
-currency_tickets_tip						Это бесплатная валюта для HoN. Вы можете использовать его, чтобы арендовать или разблокировать косметические настройки, а также использовать эмоции в игре. Билеты вы получаете в качестве общей награды и за игру в Плинко.
+currency_tickets_tip						Это бесплатная валюта для HoN. Её можно тратить, чтобы арендовать или разблокировать косметические настройки, а также использовать эмоции в игре. Билеты вы получаете в качестве общей награды и за игру в Плинко.
 
 
 
-currency_jade_tip							Это платная валюта Juvio, которая используется для покупки или аренды косметических настроек.\nВы всегда можете использовать Jade вместо билетов (за исключением Plinko).\n\nНажмите, чтобы купить в браузере.
+currency_jade_tip							Это платная валюта Juvio, которая используется для покупки или аренды косметических настроек.\nВы всегда можете использовать Jade вместо билетов (за исключением Plinko).\n\nНажмите, чтобы выбрать пакет Jade.
 
 
 
@@ -1221,7 +1221,7 @@ warning_text1		Некоторый контент может вызвать не�
 
 
 
-warning_text2		Рекомендуется discretion игрока
+warning_text2		Рекомендуется осмотрительность
 
 
 
@@ -1297,15 +1297,15 @@ main_label_games_played						Игры:
 
 
 
-main_label_leaves							Листья:
+main_label_leaves							Выходы:
 
 
 
-main_label_record							Запись
+main_label_record							Счёт
 
 
 
-main_button_upgrade							Обновите сейчас
+main_button_upgrade							Улучшить
 
 
 
@@ -1353,7 +1353,7 @@ main_button_create_account					Создать учетную запись
 
 
 
-main_button_need_login						Логин
+main_button_need_login						Войти
 
 
 
@@ -1401,11 +1401,11 @@ main_label_update_downloading				Загрузка обновлений
 
 
 
-main_label_old_version						От: ^w{version}
+main_label_old_version						С: ^w{version}
 
 
 
-main_label_new_version						Кому: ^w{version}
+main_label_new_version						На: ^w{version}
 
 
 
@@ -1457,7 +1457,7 @@ main_login_invis_mode						Невидимый режим
 
 
 
-main_login_invis_mode_tip					Если этот параметр выбран, ваши друзья и соклановца не будут получать уведомления, когда вы входите в игру или выходите из нее, присоединяетесь к ней или покидаете ее, но вы все равно будете получать их уведомления.
+main_login_invis_mode_tip					Если этот параметр выбран, ваши друзья и соклановцы не будут получать уведомления, когда вы входите в игру или выходите из нее, присоединяетесь к ней или покидаете ее, но вы все равно будете получать их уведомления.
 
 
 
@@ -1513,7 +1513,7 @@ confirm_lang_desc							Вам необходимо перезапустить H
 
 
 
-confirm_lang_restart						Перезагрузить сейчас
+confirm_lang_restart						Перезапустить сейчас
 
 
 
@@ -1537,7 +1537,7 @@ confirm_lang_desc_new 						Чтобы изменить язык, вам нео�
 
 
 
-confirm_lang_restart_new 					Перезагрузить сейчас
+confirm_lang_restart_new 					Перезапустить сейчас
 
 
 
@@ -1557,7 +1557,7 @@ confirm_disconnect_msg						Вы уверены, что хотите отклю�
 
 
 
-confirm_leaver_result_nowleaver				Вы НЕ сможете присоединиться к играм, защищенным от выхода из игры, если отключитесь от этой игры.
+confirm_leaver_result_nowleaver				Если вы отключитесь от этой игры, то НЕ сможете заходить в игры с опцией "Без покинувших".
 
 
 
@@ -1577,7 +1577,7 @@ confirm_switchsub_msg						Вы уверены, что хотите сменит
 
 
 
-confirm_switchsub_da						Не спрашивай меня больше
+confirm_switchsub_da						Больше не спрашивать
 
 
 
@@ -1597,7 +1597,7 @@ confirm_verify_text1						Ваша проверенная учетная зап�
 
 
 
-confirm_verify_text2						Исключение базовых учетных записей увеличит ваши шансы найти игру, свободную от учетных записей грейферов и смуров.
+confirm_verify_text2						Исключение базовых учетных записей увеличит ваши шансы найти игру, свободную от гриферов и смурфов.
 
 
 
@@ -1629,11 +1629,11 @@ confirm_verify_bene_txt3					Преобразовать вашу базовую 
 
 
 
-confirm_verify_bene_opt1					Играйте в больше игр
+confirm_verify_bene_opt1					Играйте больше
 
 
 
-confirm_verify_bene_opt1_txt1				Можно получить проверенный аккаунт бесплатно, просто играя в другие игры с подбором игроков! Как только вы достигнете целевого уровня, ваша учетная запись автоматически станет проверенной.
+confirm_verify_bene_opt1_txt1				Можно получить проверенный аккаунт бесплатно, просто играя больше игр с подбором игроков! Как только вы достигнете целевого уровня, ваша учетная запись автоматически станет проверенной.
 
 
 
@@ -1645,7 +1645,7 @@ confirm_verify_bene_opt1_target				Требуемый уровень:
 
 
 
-confirm_verify_bene_opt2					Покупка монет гоблинов
+confirm_verify_bene_opt2					Купите Goblin Coins
 
 
 
@@ -1693,7 +1693,7 @@ account_lost_username_error1				Я ошибка. Посмотри на меня.
 
 
 
-account_lost_password						Забыл пароль
+account_lost_password						Забыли пароль
 
 
 
@@ -1761,7 +1761,7 @@ main_menu_publicgame						Паблик
 
 
 
-main_menu_playerhosted						Хостинговые игры
+main_menu_playerhosted						Игры игроков
 
 
 
@@ -1769,11 +1769,11 @@ main_menu_amm								Подбор матчей
 
 
 
-main_menu_ladder							ЛЕСТНИЦА
+main_menu_ladder							РЕЙТИНГ
 
 
 
-main_menu_playerstats						Лестница
+main_menu_playerstats						Рейтинг
 
 
 
@@ -1785,7 +1785,7 @@ main_menu_heroes							Герои
 
 
 
-main_menu_leanatorium						УЗНАТЬ
+main_menu_leanatorium						ОБУЧЕНИЕ
 
 
 
@@ -1793,7 +1793,7 @@ main_menu_options							Опции
 
 
 
-main_menu_tutorial							Прохождение
+main_menu_tutorial							Обучение
 
 
 
@@ -1865,23 +1865,23 @@ main_leavegroup_body 						Чтобы продолжить, вам необхо�
 
 
 
-main_filter_prequery_title					Фильтровать предварительный запрос
+main_filter_prequery_title					Предфильтр на сервере
 
 
 
-main_filter_prequery_tip					При выборе этой опции список игр будет фильтроваться на основе выбранного вами региона ^!yRegion^* на стороне сервера, а не на стороне клиента. Это уменьшает количество времени, необходимое для получения и проверки связи со списком игр. Использование этой опции должно помочь, если у вас более медленное соединение.
+main_filter_prequery_tip					При выборе этой опции список игр фильтруется по выбранному вами ^!yрегиону^* на стороне сервера, а не клиента. Так список игр загружается и пингуется быстрее. Опция полезна при медленном соединении.
 
 
 
-main_filter_hide_restricted_tip				Выбор этой опции скроет все игры, доступ к которым ограничен для вас из-за статуса "Выход" или PSR, не попадающего в диапазон Мин/Макс PSR, указанный хостом.
+main_filter_hide_restricted_tip				Выбор этой опции скроет все игры, доступ к которым ограничен для вас из-за статуса покинувшего или PSR, не попадающего в диапазон Мин/Макс PSR, указанный хостом.
 
 
 
-main_leaver_title							Статус вышедшего
+main_leaver_title							Статус покинувшего
 
 
 
-main_leaver_tip								Ваш статус выхода указывает, можете ли вы присоединиться к играм с ограниченным выходом. Количество разрешенных выходов определяется сыгранными играми.
+main_leaver_tip								Статус покинувшего показывает, можете ли вы заходить в игры с опцией "Без покинувших". Допустимое число выходов зависит от количества сыгранных игр.
 
 
 
@@ -1889,7 +1889,7 @@ main_leaver_tip_tier1						1-39 игр
 
 
 
-main_leaver_tip_tier1_threshold				3 листа
+main_leaver_tip_tier1_threshold				3 выхода
 
 
 
@@ -1897,7 +1897,7 @@ main_leaver_tip_tier2						40-79 игр
 
 
 
-main_leaver_tip_tier2_threshold				4 листа
+main_leaver_tip_tier2_threshold				4 выхода
 
 
 
@@ -1905,7 +1905,7 @@ main_leaver_tip_tier3						79-99 игр
 
 
 
-main_leaver_tip_tier3_threshold				5 листьев
+main_leaver_tip_tier3_threshold				5 выходов
 
 
 
@@ -1913,7 +1913,7 @@ main_leaver_tip_tier4						100+ игр
 
 
 
-main_leaver_tip_tier4_threshold				5% листьев
+main_leaver_tip_tier4_threshold				5% выходов
 
 
 
@@ -1925,7 +1925,7 @@ main_leaver_tip_tier4_threshold				5% листьев
 
 
 
-map_blankworld								Пустой мир
+map_blankworld								Blank World
 
 
 
@@ -1933,7 +1933,7 @@ map_caldavarphoenix							Forests of Caldavar (Phoenix)
 
 
 
-map_fieldtest Полевые испытания
+map_fieldtest Field Test
 
 
 
@@ -1941,7 +1941,7 @@ map_midwars									Mid Wars
 
 
 
-map_showdown Разборки
+map_showdown Showdown
 
 
 
@@ -2017,7 +2017,7 @@ map_loading_caldavar_tower			Башня
 
 
 
-map_loading_caldavar_well			Ну
+map_loading_caldavar_well			Фонтан
 
 
 
@@ -2037,11 +2037,11 @@ map_loading_caldavar_tip03			- Уничтожение вражеской каз�
 
 
 
-map_loading_caldavar_tip04			- Всегда держите под рукой Камень возвращения домой, он необходим для быстрого перемещения по карте.
+map_loading_caldavar_tip04			- Всегда держите под рукой Homecoming Stone, он необходим для быстрого перемещения по карте.
 
 
 
-map_loading_caldavar_tip05			- Убийство вражеских башен дает вашей команде золото и снижает мобильность противника.
+map_loading_caldavar_tip05			- Разрушение вражеских башен дает вашей команде золото и снижает мобильность противника.
 
 
 
@@ -2049,7 +2049,7 @@ map_loading_caldavar_tip05			- Убийство вражеских башен д
 
 
 
-map_loading_midwars_tip01			- В Midwars есть быстро ускоряющиеся таймеры золота, опыта и возрождения. Побеждает команда, первая уничтожившая базу вражеской команды!
+map_loading_midwars_tip01			- В Mid Wars золото и опыт идут гораздо быстрее, а возрождение короче. Побеждает команда, первой уничтожившая базу противника!
 
 
 
@@ -2133,7 +2133,7 @@ options_reset_confirm_desc					Вы уверены?
 
 
 
-options_play_notification_sounds			Воспроизвести звуки уведомлений
+options_play_notification_sounds			Звуки уведомлений
 
 
 
@@ -2145,7 +2145,7 @@ options_im_history							Сохранять историю чата
 
 
 
-options_gameoptions_title					Внутриигровой
+options_gameoptions_title					В игре
 
 
 
@@ -2217,7 +2217,7 @@ options_label_resolution					Разрешение
 
 
 
-options_resolution_tip						Количество пикселей, отображаемых поперек и внизу экрана.
+options_resolution_tip						Количество пикселей по горизонтали и вертикали экрана.
 
 
 
@@ -2237,7 +2237,7 @@ options_tip_refresh_rate					Сколько раз в сек. обновляет
 
 
 
-options_slider_max_menu_framerate			Частота кадров главного меню
+options_slider_max_menu_framerate			Макс. FPS в меню
 
 
 
@@ -2249,7 +2249,7 @@ options_label_anti_aliasing					Сглаживание
 
 
 
-options_label_anti_aliasing_tip				Сглаживание сглаживает несколько образцов сцен, придавая изображению более мягкий и реалистичный вид по краям моделей. Чем больше образцов вы используете, тем медленнее может работать игра.
+options_label_anti_aliasing_tip				Сглаживание делает края моделей мягче и реалистичнее. Чем больше выборок, тем медленнее может работать игра.
 
 
 
@@ -2257,7 +2257,7 @@ options_label_aspect_ratio					Соотношение сторон
 
 
 
-options_label_aspect_ratio_tip				Относительный размер дисплея по горизонтали и вертикали. Если вы используете Монитор, убедитесь, что вы выбрали разрешение, соответствующее вашему монитору, чтобы обеспечить четкое изображение.
+options_label_aspect_ratio_tip				Соотношение ширины и высоты экрана. Если у вас ЖК-монитор, выберите его родное разрешение, чтобы изображение было чётким.
 
 
 
@@ -2273,31 +2273,31 @@ options_label_texture_filtering_tri Трилинейная
 
 
 
-options_label_texture_filtering_a2 Анизотропный 2x
+options_label_texture_filtering_a2 Анизотропная 2x
 
 
 
-options_label_texture_filtering_a4 Анизотропный 4x
+options_label_texture_filtering_a4 Анизотропная 4x
 
 
 
-options_label_texture_filtering_a6 Анизотропный 6x
+options_label_texture_filtering_a6 Анизотропная 6x
 
 
 
-options_label_texture_filtering_a8 Анизотропный 8x
+options_label_texture_filtering_a8 Анизотропная 8x
 
 
 
-options_label_texture_filtering_a12 Анизотропный 12x
+options_label_texture_filtering_a12 Анизотропная 12x
 
 
 
-options_label_texture_filtering_a16 Анизотропный 16x
+options_label_texture_filtering_a16 Анизотропная 16x
 
 
 
-options_label_texture_filtering_a32 Анизотропный 32x
+options_label_texture_filtering_a32 Анизотропная 32x
 
 
 
@@ -2305,7 +2305,7 @@ options_label_texture_filtering				Фильтрация текстур
 
 
 
-options_label_texture_filtering_tip			Сглаживает текстуры при изменении расстояния или угла от камеры. Отсутствие фильтрации работает быстрее, но допускает зазубренность краев, а анизотропное является наиболее точным, но может привести к снижению производительности на более слабых системах.
+options_label_texture_filtering_tip			Сглаживает текстуры при изменении расстояния или угла к камере. Без фильтрации быстрее всего, но видна пикселизация. Анизотропная точнее всего, но на слабых системах может снизить производительность.
 
 
 
@@ -2329,7 +2329,7 @@ options_full_screen_tip						Игра заполнит весь ваш экра�
 
 
 
-options_checkbox_show_client_info			Показать FPS/пинг
+options_checkbox_show_client_info			Показывать FPS/пинг
 
 
 
@@ -2345,15 +2345,15 @@ options_show_death_summary_button Всегда показывать кнопку
 
 
 
-options_show_death_summary_button_tip Если этот флажок установлен, всегда будет отображаться кнопка отчета о смерти, в противном случае она доступна только во время смерти.
+options_show_death_summary_button_tip Если включено, кнопка "Итог смерти" видна всегда, иначе только пока герой мёртв.
 
 
 
-options_checkbox_show_death_recap_on_death Автоматически открыть отчет о смерти
+options_checkbox_show_death_recap_on_death Автооткрытие итога смерти
 
 
 
-options_checkbox_show_death_recap_on_death_tip Автоматически открывает окно отчета о смерти после вашей смерти. Отключите его, чтобы оно оставалось скрытым, пока вы не нажмете кнопку итога смерти.
+options_checkbox_show_death_recap_on_death_tip Автоматически открывает окно итога смерти после гибели героя. Если выключено, окно откроется только по кнопке.
 
 
 
@@ -2397,7 +2397,7 @@ options_label_model_quality					Качество модели
 
 
 
-options_model_quality_tip					Использование менее сложных вершин модели позволит игре работать более плавно на младших системах и видеокартах.
+options_model_quality_tip					Менее сложные модели позволяют игре работать плавнее на слабых системах и видеокартах.
 
 
 
@@ -2437,7 +2437,7 @@ options_special_effects						Спецэффекты
 
 
 
-options_special_effects_tip					Специальные эффекты используются в способностях юнитов и подобных анимация. Использование более низкого качества уменьшает количество частиц и позволяет игре работать более плавно на слабых системах.
+options_special_effects_tip					Специальные эффекты используются в способностях юнитов и подобных анимациях. Использование более низкого качества уменьшает количество частиц и позволяет игре работать более плавно на слабых системах.
 
 
 
@@ -2445,7 +2445,7 @@ options_reflections							Отражения
 
 
 
-options_reflections_tip						Отражения используются в таких объектах, как броня и вода, чтобы отображать отражения в реальном времени в урон производительности.
+options_reflections_tip						Отражения используются на таких объектах, как броня и вода, и показываются в реальном времени ценой производительности.
 
 
 
@@ -2453,7 +2453,7 @@ options_rim_lighting	Контурное освещение
 
 
 
-options_rim_lighting_tip					Rim Lighting усиливает визуальный контраст моделей на фоне, имитируя эффекты яркого света позади модели, создавая светлый ободок по верхним краям.
+options_rim_lighting_tip					Контурное освещение усиливает визуальный контраст моделей на фоне, имитируя эффекты яркого света позади модели, создавая светлый ободок по верхним краям.
 
 
 
@@ -2461,7 +2461,7 @@ options_refraction							Преломление
 
 
 
-options_refraction_tip						Преломление позволяет создавать более качественные спецэффекты, используя искажение сцены в урон производительности.
+options_refraction_tip						Преломление дает более качественные спецэффекты за счет искажения сцены ценой производительности.
 
 
 
@@ -2469,7 +2469,7 @@ options_post_processing						Постобработка
 
 
 
-options_post_processing_tip					Включите эффекты постобработки в урон производительности.
+options_post_processing_tip					Включает эффекты постобработки ценой производительности.
 
 
 
@@ -2485,15 +2485,15 @@ options_spec_fog							Включить туман в режиме наблюд�
 
 
 
-options_spec_fog_tip						Отрисовывает туман при просмотре игры в качестве зрителя.
+options_spec_fog_tip						Отрисовывает туман при просмотре игры в качестве наблюдателя.
 
 
 
-options_spec_skybox							Включить Skybox в режиме наблюдателя
+options_spec_skybox							Включить скайбокс в режиме наблюдателя
 
 
 
-options_spec_skybox_tip						Отрисовывает скай бокс при просмотре игры в качестве зрителя.
+options_spec_skybox_tip						Отрисовывает скайбокс при просмотре игры в качестве наблюдателя.
 
 
 
@@ -2501,15 +2501,15 @@ options_display_foliage						Показать листву
 
 
 
-options_foliage_tip_text					Отключение листвы повысит качество вашего видео.
+options_foliage_tip_text					Отключение листвы повысит производительность.
 
 
 
-options_display_skybox						Показать скай бокс
+options_display_skybox						Показать скайбокс
 
 
 
-options_skybox_tip_text						Включение/выключение скай бокса изменит внешний вид отражений.
+options_skybox_tip_text						Включение и выключение скайбокса меняет вид отражений.
 
 
 
@@ -2529,7 +2529,7 @@ options_alienfx		AlienFX
 
 
 
-options_alienfx_tip							Включить AlienFX (требуется перезагрузка)
+options_alienfx_tip							Включить AlienFX (нужен перезапуск)
 
 
 
@@ -2557,7 +2557,7 @@ options_button_reset_all					Сбросить все
 
 
 
-options_button_ok							Хорошо
+options_button_ok							OK
 
 
 
@@ -2569,7 +2569,7 @@ options_button_sound						Звук
 
 
 
-options_button_controls						Элементы управления
+options_button_controls						Управление
 
 
 
@@ -2681,7 +2681,7 @@ options_submen_vol	Громкость
 
 
 
-options_submen_faq							Часто задаваемые вопросы
+options_submen_faq							FAQ
 
 
 
@@ -2729,7 +2729,7 @@ options_submen_cam							Камера/Прокрутка
 
 
 
-options_submen_modopts						Параметры мода
+options_submen_modopts						Параметры модов
 
 
 
@@ -2777,11 +2777,11 @@ options_notification_group_invite_tip					Если эта функция вкл�
 
 
 
-options_notification_friend_online						Онлайн-уведомления для друзей
+options_notification_friend_online						Уведомления о входе друзей
 
 
 
-options_notification_friend_online_tip					Если этот параметр включен, вы будете получать уведомления, когда друг заходит в Интернет.
+options_notification_friend_online_tip					Если этот параметр включен, вы будете получать уведомления, когда друг появляется в сети.
 
 
 
@@ -2801,7 +2801,7 @@ options_notification_friend_left_game_tip				Если эта функция вк
 
 
 
-options_notification_friend_accepted					Уведомления, принятые другом
+options_notification_friend_accepted					Уведомления о принятой дружбе
 
 
 
@@ -2917,7 +2917,7 @@ options_checkbox_disable_all_sounds			Отключить все звуки
 
 
 
-options_disable_all_sounds_tip				Если включено, звуковая система отключена. Отключение звуков может быть полезно для систем с небольшим объемом оперативной памяти. (Требуется перезагрузка)
+options_disable_all_sounds_tip				Если включено, звуковая система отключена. Отключение звуков может быть полезно для систем с небольшим объемом оперативной памяти. (нужен перезапуск)
 
 
 
@@ -2925,7 +2925,7 @@ options_checkbox_unit_reactions				Реакции юнитов
 
 
 
-options_unit_reactions_tip					Если реакции юнитов включены, юниты реагируют, когда вы щелкаете по ним или выполняете какое-либо действие.
+options_unit_reactions_tip					Если реакции юнитов включены, юниты отвечают, когда вы щелкаете по ним или отдаёте им приказ.
 
 
 
@@ -2941,7 +2941,7 @@ options_unit_voice_reaction					Задержка голосовой реакци
 
 
 
-options_unit_voice_reaction_tip				Какая задержка должна произойти перед повторным воспроизведением голосовой реакции юнита.
+options_unit_voice_reaction_tip				Задержка перед повторной голосовой реакцией юнита.
 
 
 
@@ -2965,11 +2965,11 @@ options_checkbox_sound_muteMusic_tip		Если этот параметр вкл�
 
 
 
-options_checkbox_sound_mutePings 			Отключение звука диктора
+options_checkbox_sound_mutePings 			Отключить диктора пингов
 
 
 
-options_checkbox_sound_mutePings_tip 		Если этот параметр включен, объявления, вызванные ппингами, не будут воспроизводиться, но текст чата и эффект карты по-прежнему будут отображаться.
+options_checkbox_sound_mutePings_tip 		Если этот параметр включен, объявления, вызванные пингами, не будут воспроизводиться, но текст чата и эффект карты по-прежнему будут отображаться.
 
 
 
@@ -2981,11 +2981,11 @@ options_slider_sound_quality_tip			Изменяет качество звука.
 
 
 
-options_checkbox_banjo_sound				Банджо Quit Sound
+options_checkbox_banjo_sound				Банджо при выходе
 
 
 
-options_checkbox_banjo_sound_tip			Если этот параметр включен, при выходе из клиента HoN будет воспроизводиться обратный звук банджо.
+options_checkbox_banjo_sound_tip			Если этот параметр включен, при выходе из клиента HoN будет звучать старое доброе банджо.
 
 
 
@@ -2993,11 +2993,11 @@ options_checkbox_hero_holdaftermove	Отключить автоатаку пос
 
 
 
-options_checkbox_hero_holdaftermove_tip		Если эта функция включена, выданный герой будет удерживать позицию после выполнения всех команд и не будет автоматически агрить на ближайших вражеских юнитов.
+options_checkbox_hero_holdaftermove_tip		Если включено, после выполнения всех команд герой удерживает позицию и не атакует автоматически ближайших врагов.
 
 
 
-options_oldmaininterface	Старый главный интерфейс
+options_oldmaininterface	Новый главный интерфейс
 
 
 
@@ -3005,7 +3005,7 @@ options_oldmaininterface_tip				Если этот параметр включе�
 
 
 
-options_useoldshop	Старый интерфейс магазина
+options_useoldshop	Новый интерфейс магазина
 
 
 
@@ -3013,27 +3013,27 @@ options_useoldshop_tip						Если включено, используется 
 
 
 
-options_time_between_announcer_callouts Время между вызовами анонсера
+options_time_between_announcer_callouts Время между репликами диктора
 
 
 
-options_time_between_announcer_callouts_tip Время в миллисекундах между вызовами анонсера.
+options_time_between_announcer_callouts_tip Время в миллисекундах между репликами диктора.
 
 
 
-options_newannouncervolume					Громкость анонсера событий (%)
+options_newannouncervolume					Громкость диктора событий (%)
 
 
 
-options_newannouncervolume_tip				Громкость анонсера событий. 100% - базовый уровень.
+options_newannouncervolume_tip				Громкость диктора событий. 100% - базовый уровень.
 
 
 
-options_mutenewannouncer					Отключить звук диктора мероприятия
+options_mutenewannouncer					Отключить диктора событий
 
 
 
-options_mutenewannouncer_tip				Если этот параметр включен, все вызовы анонсера событий будут отключены.
+options_mutenewannouncer_tip				Если этот параметр включен, все реплики диктора событий будут отключены.
 
 
 
@@ -3041,31 +3041,31 @@ options_muteautomissingannouncer			Отключить анонс ухода с �
 
 
 
-options_muteautomissingannouncer_tip		Если эта опция включена, объявления анонсера о пропавших героях будут отключены.
+options_muteautomissingannouncer_tip		Если эта опция включена, объявления диктора о пропавших героях будут отключены.
 
 
 
-options_mutekillcalloutannouncer			Отключить диктора Объявление об убийстве героя
+options_mutekillcalloutannouncer			Отключить объявления об убийствах героев
 
 
 
-options_mutekillcalloutannouncer_tip		Если эта опция включена, объявления анонсера об убийствах героев будут отключены.
+options_mutekillcalloutannouncer_tip		Если эта опция включена, объявления диктора об убийствах героев будут отключены.
 
 
 
-options_muteherospottedcalloutannouncer Отключить анонсера: герой обнаружен
+options_muteherospottedcalloutannouncer Отключить объявления об обнаружении героя
 
 
 
-options_muteherospottedcalloutannouncer_tip Если эта функция включена, сообщения анонсера о том, что "герой обнаружен", будут отключены.
+options_muteherospottedcalloutannouncer_tip Если эта функция включена, объявления диктора об обнаружении героя будут отключены.
 
 
 
-options_muteruneinfocalloutannouncer Отключить анонс рун
+options_muteruneinfocalloutannouncer Отключить объявления о рунах
 
 
 
-options_muteruneinfocalloutannouncer_tip Если эта функция включена, запросы анонсера для получения информации о рунах будут отключены.
+options_muteruneinfocalloutannouncer_tip Если эта функция включена, объявления диктора о рунах будут отключены.
 
 
 
@@ -3073,7 +3073,7 @@ options_muteruneinfocalloutannouncer_tip Если эта функция вклю
 
 
 
-options_checkbox_no_switch_to_hidden_hero	Не переключайтесь на скрытого героя
+options_checkbox_no_switch_to_hidden_hero	Не переключать на скрытого героя
 
 
 
@@ -3125,7 +3125,7 @@ options_mic_volume_tip_header				Громкость микрофона
 
 
 
-options_mic_volume_tip						Регулирует входную громкость микрофона. Чем он выше, тем громче вы будете звучать для других игроков.
+options_mic_volume_tip						Регулирует входную громкость микрофона. Чем она выше, тем громче вы будете звучать для других игроков.
 
 
 
@@ -3165,7 +3165,7 @@ options_checkbox_disable_voice_chat			Отключить голосовой ча
 
 
 
-options_disable_voice_chat_tip				Отключите голосовой чат. Вы не услышите чат других игроков.
+options_disable_voice_chat_tip				Отключает голосовой чат. Вы не будете слышать других игроков.
 
 
 
@@ -3213,11 +3213,11 @@ options_label_mentor_talk_keybind			Голосовой чат наставник
 
 
 
-options_push_to_mentor_talk_tip				Удерживая эту клавишу, вы включите микрофон, если для голосового чата выбрана опция "Нажми и говори", однако он будет разговаривать только с вашим учеником.
+options_push_to_mentor_talk_tip				Удерживая эту клавишу, вы включите микрофон, если для голосового чата выбрана опция "Нажми и говори", но вас услышит только ваш ученик.
 
 
 
-options_push_to_lane_talk_tip				Удерживая эту клавишу, вы включите микрофон, если для голосового чата выбрана опция "Нажми и говори", однако он будет разговаривать только с ближайшими союзниками, а не со всеми членами вашей команды.
+options_push_to_lane_talk_tip				Удерживая эту клавишу, вы включите микрофон, если для голосового чата выбрана опция "Нажми и говори", но вас услышат только ближайшие союзники, а не вся команда.
 
 
 
@@ -3225,7 +3225,7 @@ options_label_mic_off_time					Время выключения микрофон�
 
 
 
-options_mic_off_time_tip					Через это время ваш микрофон выключится, и вы ничего не скажете.
+options_mic_off_time_tip					Микрофон выключится, если вы молчите дольше этого времени.
 
 
 
@@ -3233,7 +3233,7 @@ options_label_mic_on_sensitivity			Чувствительность микроф
 
 
 
-options_mic_on_sensitivity_tip				Установите силу голоса, при которой вы хотите, чтобы ваш микрофон автоматически включался. Красная стрелка указывает пиковый уровень теста уровня микрофона. Предполагается, что ваш уровень чувствительности немного ниже максимального уровня микрофона.
+options_mic_on_sensitivity_tip				Задайте громкость голоса, при которой микрофон включается автоматически. Красная стрелка показывает пиковый уровень теста микрофона. Рекомендуется ставить чувствительность чуть ниже пикового уровня.
 
 
 
@@ -3257,7 +3257,7 @@ options_camera_scroll_speed_tip				Скорость движения камер�
 
 
 
-options_checkbox_screen_edge_scroll			Прокрутка края экрана
+options_checkbox_screen_edge_scroll			Прокрутка у края экрана
 
 
 
@@ -3269,7 +3269,7 @@ options_screen_edge_scroll_tip				Если этот параметр включ�
 
 
 
-options_checkbox_camera_lock				Заблокировать камеру
+options_checkbox_camera_lock				Закрепить камеру
 
 
 
@@ -3277,7 +3277,7 @@ options_checkbox_view_operation				Управление обзором
 
 
 
-options_checkbox_watch_bullet				Следить за снарядами
+options_checkbox_watch_bullet				Бегущие комментарии
 
 
 
@@ -3289,7 +3289,7 @@ options_screen_camera_lock_tip				Если эта опция включена, �
 
 
 
-options_checkbox_autoselect_summonings		Автоматический выбор призыва
+options_checkbox_autoselect_summonings		Автовыбор призванных
 
 
 
@@ -3313,7 +3313,7 @@ options_screen_smart_casting_tip			Позволяет использовать �
 
 
 
-options_checkbox_right_click_deny				Щелкните правой кнопкой мыши "Запретить"
+options_checkbox_right_click_deny				Добивание правой кнопкой
 
 
 
@@ -3341,11 +3341,11 @@ options_constrain_cursor_tip				Если этот параметр включе�
 
 
 
-options_checkbox_display_xp_rewards			Отобразить награду XP
+options_checkbox_display_xp_rewards			Показывать получаемый опыт
 
 
 
-options_display_xp_rewards_tip				Если этот параметр включен, игра покажет, когда ваш герой набирает опыт в игре, рисуя фиолетовые числа в источнике награды.
+options_display_xp_rewards_tip				Если этот параметр включен, игра покажет, когда ваш герой набирает опыт в игре, рисуя фиолетовые числа над источником награды.
 
 
 
@@ -3361,11 +3361,11 @@ options_yellow_label_action					Действие
 
 
 
-options_yellow_label_primary				Первичный
+options_yellow_label_primary				Основная
 
 
 
-options_yellow_label_secondary				Вторичный
+options_yellow_label_secondary				Дополнительная
 
 
 
@@ -3373,11 +3373,11 @@ options_yellow_label_secondary				Вторичный
 
 
 
-options_bind_instructions_button			Чтобы выбрать новую привязку ^yнажмите ^* клавишу или кнопку мыши.
+options_bind_instructions_button			Чтобы выбрать новую привязку, ^yнажмите^* клавишу или кнопку мыши.
 
 
 
-options_bind_instructions_impulse			Чтобы выбрать новую привязку ^yнажмите ^* комбинацию клавиш.
+options_bind_instructions_impulse			Чтобы выбрать новую привязку, ^yнажмите^* комбинацию клавиш.
 
 
 
@@ -3421,7 +3421,7 @@ options_override_conflict_confirm_title Очистить существующу�
 
 
 
-options_override_conflict_confirm_body ^yОбнаружено столкновение: ^* Выбранный ключ уже привязан к ^o'{bind}'^*.\nЭто приведет к отмене привязки этого ключа от ^o'{bind}'^*.
+options_override_conflict_confirm_body ^yКонфликт:^* выбранная клавиша уже назначена на ^o'{bind}'^*.\nОна будет снята с ^o'{bind}'^*.
 
 
 
@@ -3445,7 +3445,7 @@ options_checkbox_shadows					Тени
 
 
 
-options_checkbox_shadows_tip				Отключение теней позволит избежать отображения теней под объектами и зданиями.
+options_checkbox_shadows_tip				Если отключить, тени под юнитами и зданиями не отрисовываются.
 
 
 
@@ -3457,11 +3457,11 @@ options_healthbar_shadows_creep				Тени шкалы здоровья крип
 
 
 
-options_healthbar_shadows_building			Создание теней шкалы здоровья
+options_healthbar_shadows_building			Тени шкалы здоровья зданий
 
 
 
-options_healthbar_shadows_misc				Разные тени шкалы здоровья
+options_healthbar_shadows_misc				Тени шкалы здоровья: прочее
 
 
 
@@ -3473,11 +3473,11 @@ options_healthbar_shadows_creep_tip			Показывает теневую пол
 
 
 
-options_healthbar_shadows_building_tip		Показывает теневую полосу позади полос здоровья здания, чтобы указать урон, полученный за удар. Тень медленно движется, чтобы соответствовать реальному состоянию здания.
+options_healthbar_shadows_building_tip		Показывает теневую полосу позади полос здоровья здания, чтобы указать урон, полученный за удар. Тень медленно движется, чтобы соответствовать реальному здоровью здания.
 
 
 
-options_healthbar_shadows_misc_tip			Показывает теневую полосу за полосами здоровья объекта, чтобы указать урон, полученный за удар. Тень медленно перемещается в соответствии с фактическим состоянием объекта. Эта опция охватывает шкалы здоровья, которые не включены в флажки "Герой", "Крип" и "Здание".
+options_healthbar_shadows_misc_tip			Показывает теневую полосу за полосами здоровья объекта, чтобы указать урон, полученный за удар. Тень медленно перемещается в соответствии с фактическим здоровьем объекта. Эта опция охватывает шкалы здоровья, которые не включены в флажки "Герой", "Крип" и "Здание".
 
 
 
@@ -3485,11 +3485,11 @@ options_healthbar_shadows_misc_tip			Показывает теневую пол�
 
 
 
-options_checkbox_goldlerp	Анимированное
+options_checkbox_goldlerp	Анимация золота
 
 
 
-options_checkbox_goldlerp_tip				Когда эта функция включена, количество вашего золота возвращается к текущему значению в течение 350 мс.
+options_checkbox_goldlerp_tip				Когда эта функция включена, количество золота плавно меняется до текущего значения за 350 мс.
 
 
 
@@ -3505,7 +3505,7 @@ options_label_ability_controls				Горячие клавиши способно
 
 
 
-options_label_chat_controls					Элементы управления вкладкой "Чат"
+options_label_chat_controls					Вкладки чата
 
 
 
@@ -3545,7 +3545,7 @@ options_label_ctrlmod_keybind_tooltip		Модификатор Ctrl можно и
 
 
 
-options_label_self_cast_keybind				Клавиша: Применить на себя
+options_label_self_cast_keybind				Модификатор применения на себя
 
 
 
@@ -3557,7 +3557,7 @@ options_label_self_cast_keybind_tooltip		Активация этого моди�
 
 
 
-options_label_mod3_keybind					Прямое следование (Direct pathing)
+options_label_mod3_keybind					Прямой путь
 
 
 
@@ -3585,7 +3585,7 @@ options_label_minimap_ping_keybind			Пинг на миникарте
 
 
 
-options_simple_minimap_ping_text Горячая клавиша для проверки связи с мини картой
+options_simple_minimap_ping_text Горячая клавиша для пинга на миникарте
 
 
 
@@ -3661,11 +3661,11 @@ options_label_center_screen_keybind			Центр
 
 
 
-options_label_center_screen_keybind_tooltip	Центрирует камеру по основному выбору, которым обычно является устройство, которым вы в данный момент управляете.
+options_label_center_screen_keybind_tooltip	Центрирует камеру по основному выбору, которым обычно является юнит, которым вы в данный момент управляете.
 
 
 
-options_label_center_info_keybind			Центр информации
+options_label_center_info_keybind			Центр на выбранном
 
 
 
@@ -3673,7 +3673,7 @@ options_label_center_info_keybind_tooltip	Центрирует камеру на
 
 
 
-options_label_focus_event_keybind			Центр по последнему событию
+options_label_focus_event_keybind			К последнему событию
 
 
 
@@ -3689,7 +3689,7 @@ options_label_move_camera_left_keybind			Двигаться влево
 
 
 
-options_label_move_camera_back_keybind			Назад
+options_label_move_camera_back_keybind			Двигаться назад
 
 
 
@@ -3701,7 +3701,7 @@ options_simple_move_camera_text Перемещает камеру в указа�
 
 
 
-options_label_select_hero_keybind			Выберите героя
+options_label_select_hero_keybind			Выбрать героя
 
 
 
@@ -3777,7 +3777,7 @@ options_label_next_unit_keybind				Следующий юнит
 
 
 
-options_simple_next_unit_text Горячая клавиша для переключения выбора на следующий выбираемый юнет, которым вы управляете.
+options_simple_next_unit_text Горячая клавиша для переключения выбора на следующий выбираемый юнит, которым вы управляете.
 
 
 
@@ -3817,7 +3817,7 @@ options_label_previous_shopper_keybind	Предыдущий курьер
 
 
 
-options_simple_previous_shopper_text Горячая клавиша для выбора предыдущего юнета, который может покупать предметы в магазине предметов
+options_simple_previous_shopper_text Горячая клавиша для выбора предыдущего юнита, который может покупать предметы в магазине предметов
 
 
 
@@ -3833,7 +3833,7 @@ options_label_pshopper_center_keybind	Центрировать (предыдущ
 
 
 
-options_simple_previous_shopper_center_text Горячая клавиша для выбора предыдущего юнета, который может покупать предметы в магазине предметов, и центрирования камеры на нем
+options_simple_previous_shopper_center_text Горячая клавиша для выбора предыдущего юнита, который может покупать предметы в магазине предметов, и центрирования камеры на нем
 
 
 
@@ -3945,7 +3945,7 @@ options_label_selfacti_extra_ab_5_keybind		Доп. способность 5 (н�
 
 
 
-options_simple_self_activate_tp		Камень телепортации, применяемый самостоятельно
+options_simple_self_activate_tp		Камень телепортации (на себя)
 
 
 
@@ -3973,15 +3973,15 @@ options_label_selfacti_inven_5_keybind			Инвентарь 5 (на себя)
 
 
 
-options_label_selfacti_inven_6_keybind			Инвентарь для самостоятельного применения 6
+options_label_selfacti_inven_6_keybind			Инвентарь 6 (на себя)
 
 
 
-options_label_selfacti_consumable_1_keybind Расходный материал для самостоятельного применения 1
+options_label_selfacti_consumable_1_keybind Расходник 1 (на себя)
 
 
 
-options_label_selfacti_consumable_2_keybind Расходный материал для самостоятельного применения 2
+options_label_selfacti_consumable_2_keybind Расходник 2 (на себя)
 
 
 
@@ -3993,19 +3993,19 @@ options_label_attribute_boosts				Повышение атрибутов:
 
 
 
-options_label_levelup_ab_1_keybind			Способность повышения уровня 1
+options_label_levelup_ab_1_keybind			Повысить способность 1
 
 
 
-options_label_levelup_ab_2_keybind			Способность повышения уровня 2
+options_label_levelup_ab_2_keybind			Повысить способность 2
 
 
 
-options_label_levelup_ab_3_keybind			Способность повышения уровня 3
+options_label_levelup_ab_3_keybind			Повысить способность 3
 
 
 
-options_label_levelup_ab_4_keybind			Способность повышения уровня 4
+options_label_levelup_ab_4_keybind			Повысить способность 4
 
 
 
@@ -4013,7 +4013,7 @@ options_simple_levelup_ability_text Горячая клавиша для пов�
 
 
 
-options_label_levelup_stats_keybind			Статистика повышения уровня
+options_label_levelup_stats_keybind			Повысить характеристики
 
 
 
@@ -4053,23 +4053,23 @@ options_label_acti_inven_6_keybind			Активировать инвентарь
 
 
 
-options_label_acti_consumable_1_keybind		Расходный материал 1
+options_label_acti_consumable_1_keybind		Расходник 1
 
 
 
-options_label_acti_consumable_2_keybind		Расходный материал 2
+options_label_acti_consumable_2_keybind		Расходник 2
 
 
 
-options_simple_acti_consumable_text Горячая клавиша для активации слота расходных материалов, соответствующего номеру слота
+options_simple_acti_consumable_text Горячая клавиша для активации слота расходников с соответствующим номером
 
 
 
-options_label_taunt_keybind							Насмешка
+options_label_taunt_keybind							Провокация
 
 
 
-options_label_taunt_keybind_tooltip			Горячая клавиша для активации способности "Провокация", которая может вызвать врага. Если вы убьете героя, над которым насмехаются, пока он находится под эффектом "Провокации", сработает эффект удара. Однако если насмехающийся герой убьет вас первым, вы будете унижены.
+options_label_taunt_keybind_tooltip			Горячая клавиша для Провокации: вы бросаете вызов врагу. Если убить спровоцированного героя, пока действует Провокация, сработает эффект разгрома. Но если он убьёт вас первым, вы будете унижены.
 
 
 
@@ -4081,7 +4081,7 @@ options_label_levelup_keybind				Повышение уровня
 
 
 
-options_label_frontqueue_keybind			Модификатор первой очереди
+options_label_frontqueue_keybind			Модификатор начала очереди
 
 
 
@@ -4089,43 +4089,43 @@ options_label_alternate_keybind				Вторичный модификатор а�
 
 
 
-options_label_acti_ab_1_sec_keybind			Переключить способность 1: автокаст
+options_label_acti_ab_1_sec_keybind			Автокаст способности 1
 
 
 
-options_label_acti_ab_2_sec_keybind			Переключить авто применение способности 2
+options_label_acti_ab_2_sec_keybind			Автокаст способности 2
 
 
 
-options_label_acti_ab_3_sec_keybind			Переключить способность 3: автокаст
+options_label_acti_ab_3_sec_keybind			Автокаст способности 3
 
 
 
-options_label_acti_ab_4_sec_keybind			Переключить способность 4: автокаст
+options_label_acti_ab_4_sec_keybind			Автокаст способности 4
 
 
 
-options_simple_activate_ability_secondary_text Горячая клавиша для переключения автоматического применения соответствующего номера способности
+options_simple_activate_ability_secondary_text Горячая клавиша для переключения автокаста способности с соответствующим номером
 
 
 
-options_label_acti_extra_ab_1_sec_keybind	Переключить авто применение дополнительной способности 1
+options_label_acti_extra_ab_1_sec_keybind	Автокаст доп. способности 1
 
 
 
-options_label_acti_extra_ab_2_sec_keybind	Переключить авто применение дополнительной способности 2
+options_label_acti_extra_ab_2_sec_keybind	Автокаст доп. способности 2
 
 
 
-options_label_acti_extra_ab_3_sec_keybind	Переключить автокаст дополнительной способности 3
+options_label_acti_extra_ab_3_sec_keybind	Автокаст доп. способности 3
 
 
 
-options_label_acti_extra_ab_4_sec_keybind	Переключить автокаст дополнительной способности 4
+options_label_acti_extra_ab_4_sec_keybind	Автокаст доп. способности 4
 
 
 
-options_label_acti_extra_ab_5_sec_keybind	Переключить автокаст дополнительной способности 5
+options_label_acti_extra_ab_5_sec_keybind	Автокаст доп. способности 5
 
 
 
@@ -4177,51 +4177,51 @@ options_label_recall_10_keybind				Вызвать группу 10
 
 
 
-options_simple_recall_unit_selection_text Горячая клавиша для выбора устройства(ов), связанного с соответствующим номером группы
+options_simple_recall_unit_selection_text Горячая клавиша для выбора юнитов из группы с соответствующим номером
 
 
 
-options_label_save_selection_1_keybind		Сохранить выбор 1
+options_label_save_selection_1_keybind		Сохранить группу 1
 
 
 
-options_label_save_selection_2_keybind		Сохранить выбор 2
+options_label_save_selection_2_keybind		Сохранить группу 2
 
 
 
-options_label_save_selection_3_keybind		Сохранить выбор 3
+options_label_save_selection_3_keybind		Сохранить группу 3
 
 
 
-options_label_save_selection_4_keybind		Сохранить выбор 4
+options_label_save_selection_4_keybind		Сохранить группу 4
 
 
 
-options_label_save_selection_5_keybind		Сохранить выбор 5
+options_label_save_selection_5_keybind		Сохранить группу 5
 
 
 
-options_label_save_selection_6_keybind		Сохранить выбор 6
+options_label_save_selection_6_keybind		Сохранить группу 6
 
 
 
-options_label_save_selection_7_keybind		Сохранить выбор 7
+options_label_save_selection_7_keybind		Сохранить группу 7
 
 
 
-options_label_save_selection_8_keybind		Сохранить выбор 8
+options_label_save_selection_8_keybind		Сохранить группу 8
 
 
 
-options_label_save_selection_9_keybind		Сохранить выбор 9
+options_label_save_selection_9_keybind		Сохранить группу 9
 
 
 
-options_label_save_selection_10_keybind		Сохранить выбор 10
+options_label_save_selection_10_keybind		Сохранить группу 10
 
 
 
-options_simple_save_unit_selection_text Горячая клавиша для выбора устройства(ов), связанного с соответствующим номером группы
+options_simple_save_unit_selection_text Горячая клавиша для сохранения выбранных юнитов в группу с соответствующим номером
 
 
 
@@ -4265,43 +4265,43 @@ options_label_add_selection_10_keybind		Добавить в группу 10
 
 
 
-options_label_remove_select_1_keybind		Удалить из выбора 1
+options_label_remove_select_1_keybind		Убрать из группы 1
 
 
 
-options_label_remove_select_2_keybind		Удалить из выбора 2
+options_label_remove_select_2_keybind		Убрать из группы 2
 
 
 
-options_label_remove_select_3_keybind		Удалить из выбора 3
+options_label_remove_select_3_keybind		Убрать из группы 3
 
 
 
-options_label_remove_select_4_keybind		Удалить из выбора 4
+options_label_remove_select_4_keybind		Убрать из группы 4
 
 
 
-options_label_remove_select_5_keybind		Удалить из выбора 5
+options_label_remove_select_5_keybind		Убрать из группы 5
 
 
 
-options_label_remove_select_6_keybind		Удалить из выбора 6
+options_label_remove_select_6_keybind		Убрать из группы 6
 
 
 
-options_label_remove_select_7_keybind		Удалить из выбора 7
+options_label_remove_select_7_keybind		Убрать из группы 7
 
 
 
-options_label_remove_select_8_keybind		Удалить из выбора 8
+options_label_remove_select_8_keybind		Убрать из группы 8
 
 
 
-options_label_remove_select_9_keybind		Удалить из выбора 9
+options_label_remove_select_9_keybind		Убрать из группы 9
 
 
 
-options_label_remove_select_10_keybind		Удалить из выбора 10
+options_label_remove_select_10_keybind		Убрать из группы 10
 
 
 
@@ -4309,27 +4309,27 @@ options_label_remove_select_10_keybind		Удалить из выбора 10
 
 
 
-options_header_camera_controls				Элементы управления камерой
+options_header_camera_controls				Управление камерой
 
 
 
-options_label_zoom_out_keybind				Уменьшить масштаб
+options_label_zoom_out_keybind				Отдалить
 
 
 
-options_simple_zoom_out_text Горячая клавиша для уменьшения масштаба камеры
+options_simple_zoom_out_text Горячая клавиша, чтобы отдалить камеру
 
 
 
-options_label_zoom_in_keybind				Увеличить
+options_label_zoom_in_keybind				Приблизить
 
 
 
-options_simple_zoom_in_text Горячая клавиша для увеличения изображения
+options_simple_zoom_in_text Горячая клавиша, чтобы приблизить камеру
 
 
 
-options_label_free_look_keybind				Свободный просмотр
+options_label_free_look_keybind				Свободный обзор
 
 
 
@@ -4337,7 +4337,7 @@ options_simple_free_look_text Горячая клавиша, которая пр
 
 
 
-options_label_reset_camera_keybind			Сбросить настройки камеры
+options_label_reset_camera_keybind			Сбросить камеру
 
 
 
@@ -4357,7 +4357,7 @@ options_label_camera_down_keybind			Камера вниз
 
 
 
-options_header_specui						Опции зрителя
+options_header_specui						Настройки наблюдателя
 
 
 
@@ -4405,7 +4405,7 @@ options_header_vanityslotkeys_1			 Слот украшения 1
 
 
 
-options_header_vanityslotkeys_2			 Косметический слот 2
+options_header_vanityslotkeys_2			 Слот украшения 2
 
 
 
@@ -4425,7 +4425,7 @@ options_header_vanityslotkeys_6			 Слот украшения 6
 
 
 
-options_simple_activate_vanityslots_text Горячая клавиша для активации способности "косметического слота", связанной с соответствующим номером
+options_simple_activate_vanityslots_text Горячая клавиша для активации слота украшения с соответствующим номером
 
 
 
@@ -4481,7 +4481,7 @@ vanity_cat_emotes							Эмоции
 
 
 
-vanity_cat_announcer						Анонсер
+vanity_cat_announcer						Дикторы
 
 
 
@@ -4489,11 +4489,11 @@ vanity_cat_kill_effects						Эффекты убийства
 
 
 
-vanity_cat_kill_screens						Экраны уничтожения
+vanity_cat_kill_screens						Экраны убийства
 
 
 
-vanity_cat_courier							Курьер
+vanity_cat_courier							Курьеры
 
 
 
@@ -4508,11 +4508,11 @@ vanity_cat_wards							Варды
 
 
 
-emotes_open									Открытые эмоции
+emotes_open									Открыть эмоции
 
 
 
-vanity_coming_soon							Вскоре!
+vanity_coming_soon							Скоро!
 
 
 
@@ -4528,7 +4528,7 @@ vanity_jade_modal_info						Jade необходимо приобрести он�
 
 
 
-vanity_jade_modal_btn						Посетите веб-сайт Джейд
+vanity_jade_modal_btn						Открыть сайт Джейд
 
 
 
@@ -4540,7 +4540,7 @@ vanity_empty_cosmetics_unowned				Косметики такого типа по�
 
 
 
-vanity_empty_emotes_owned					У вас нет ни одного из этих Смайлов.\n\nПочему бы не купить их ниже?
+vanity_empty_emotes_owned					У вас нет таких эмоций.\n\nПочему бы не купить их ниже?
 
 
 
@@ -4560,7 +4560,7 @@ generic_externalurl_modal_explanation Вы собираетесь посетит
 
 
 
-generic_externalurl_modal_btn URL-адрес посещения
+generic_externalurl_modal_btn Перейти
 
 
 
@@ -4572,7 +4572,7 @@ avoid_player_response_header				Избегать игрока
 
 
 
-avoid_player_success_message				Игрок был добавлен в ваш список избираемых.
+avoid_player_success_message				Игрок добавлен в ваш список избегаемых.
 
 
 
@@ -4580,7 +4580,7 @@ avoid_player_success_message				Игрок был добавлен в ваш с�
 
 
 
-avoid_player_error_header					Список избегаемых полон списка
+avoid_player_error_header					Список избегаемых заполнен
 
 
 
@@ -4592,7 +4592,7 @@ avoid_player_error_manage_btn				Управление списком
 
 
 
-options_header_misc_controls				Дополнительные элементы управления
+options_header_misc_controls				Дополнительное управление
 
 
 
@@ -4708,7 +4708,7 @@ options_label_buy_remaining_keybind			Магазин - Купить оставш
 
 
 
-options_label_recipe_history_back_keybind	История рецептов Назад
+options_label_recipe_history_back_keybind	История рецептов: назад
 
 
 
@@ -4716,7 +4716,7 @@ options_simple_recipe_history_back_text Горячая клавиша для в�
 
 
 
-options_label_recipe_history_for_keybind	История рецептов вперед
+options_label_recipe_history_for_keybind	История рецептов: вперёд
 
 
 
@@ -4724,23 +4724,23 @@ options_simple_recipe_history_forward_text Горячая клавиша для 
 
 
 
-options_btn_reset_all_controls Сброс к элементам управления по умолчанию
+options_btn_reset_all_controls Сбросить управление
 
 
 
-options_btn_reset_all_controls_label		К какому набору настроек по умолчанию вы хотите сбросить элементы управления?
+options_btn_reset_all_controls_label		К какой стандартной раскладке сбросить управление?
 
 
 
-options_defaults_of_newerth					Значения по умолчанию для Newerth
+options_defaults_of_newerth					Раскладка Newerth
 
 
 
-options_defaults_of_legends					Стандартные настройки Legends
+options_defaults_of_legends					Раскладка Legends
 
 
 
-options_defaults_of_the_ancients			Стандартные Ancients
+options_defaults_of_the_ancients			Раскладка Ancients
 
 
 
@@ -4788,15 +4788,15 @@ options_label_chat_show_tab_3				Показать вкладку чата 3
 
 
 
-options_label_chat_sel_tab_1				Выберите вкладку "Чат" 1
+options_label_chat_sel_tab_1				Выбрать вкладку чата 1
 
 
 
-options_label_chat_sel_tab_2				Выберите вкладку "Чат 2"
+options_label_chat_sel_tab_2				Выбрать вкладку чата 2
 
 
 
-options_label_chat_sel_tab_3				Выберите вкладку "Чат" 3
+options_label_chat_sel_tab_3				Выбрать вкладку чата 3
 
 
 
@@ -4804,11 +4804,11 @@ options_label_chat_sel_tab_3				Выберите вкладку "Чат" 3
 
 
 
-options_force_allow_out_of_range_casts Принудительное применение силы из текущей позиции
+options_force_allow_out_of_range_casts Применять с текущей позиции
 
 
 
-options_force_allow_out_of_range_casts_tip Если эта опция включена, применение нецелевых способностей за пределами максимального диапазона немедленно приведет к их использованию на максимальном расстоянии.
+options_force_allow_out_of_range_casts_tip Если включено, способность, примененная дальше максимальной дальности, сразу срабатывает на максимальной дальности.
 
 
 
@@ -4820,7 +4820,7 @@ options_label_smart_casting_type			Тип смарт-каста
 
 
 
-options_label_smart_casting_type_tip		Позволяет использовать способности в месте нахождения курсора, не требуя дополнительного щелчка мыши.\n- Если включен тип смарт-каст при отпускании, приведение произойдет, когда вы отпустите горячую клавишу.\n- Если включен тип смарт-каста при нажатии, приведение произойдет при нажатии горячей клавиши.
+options_label_smart_casting_type_tip		Позволяет использовать способности в месте нахождения курсора, не требуя дополнительного щелчка мыши.\n- При типе "При отпускании" применение происходит, когда вы отпускаете горячую клавишу.\n- При типе "При нажатии" применение происходит при нажатии горячей клавиши.
 
 
 
@@ -4836,19 +4836,19 @@ tip_name_smartcasting_1						Тип смарт-каста
 
 
 
-tip_text_smartcasting_1						Если включен тип смарт-каста при отпускании, приведение произойдет, когда вы отпустите горячую клавишу. Если включен тип смарт-каст при нажатии, приведение будет происходить при нажатии горячей клавиши.
+tip_text_smartcasting_1						При типе смарт-каста "При отпускании" применение происходит, когда вы отпускаете горячую клавишу. При типе "При нажатии" - при нажатии горячей клавиши.
 
 
 
-tip_name_smartcasting_2						Установите для всех клавиш режим Normal Cast
+tip_name_smartcasting_2						Обычный каст для всех клавиш
 
 
 
-tip_text_smartcasting_2						Нажмите, чтобы установить для всех способностей и предметов нормальное применение.
+tip_text_smartcasting_2						Нажмите, чтобы установить для всех способностей и предметов обычный каст.
 
 
 
-tip_name_smartcasting_3						Установите для всех клавиш функцию смарт-каст
+tip_name_smartcasting_3						Смарт-каст для всех клавиш
 
 
 
@@ -4856,7 +4856,7 @@ tip_text_smartcasting_3						Нажмите, чтобы установить д�
 
 
 
-tip_name_smartcasting_4						Установите смарт-каст и Key
+tip_name_smartcasting_4						Настроить смарт-каст
 
 
 
@@ -4880,115 +4880,115 @@ smart_casting							 Смарт-каст (Быстрое применение)
 
 
 
-smartcasting_Ability_1						Способность Smartcast 1
+smartcasting_Ability_1						Смарт-каст: способность 1
 
 
 
-smartcasting_Ability_2						Способность Smartcast 2
+smartcasting_Ability_2						Смарт-каст: способность 2
 
 
 
-smartcasting_Ability_3						Способность Smartcast 3
+smartcasting_Ability_3						Смарт-каст: способность 3
 
 
 
-smartcasting_Ability_4						Способность Smartcast 4
+smartcasting_Ability_4						Смарт-каст: способность 4
 
 
 
-smartcasting_Ability_Taunt							Насмешка Smartcast
+smartcasting_Ability_Taunt							Смарт-каст: Провокация
 
 
 
-smartcasting_OrderAttack					Smartcast-атака
+smartcasting_OrderAttack					Смарт-каст: атака
 
 
 
-smartcasting_Extra_Ability_1				Дополнительная способность Smartcast 1
+smartcasting_Extra_Ability_1				Смарт-каст: доп. способность 1
 
 
 
-smartcasting_Extra_Ability_2				Дополнительная способность Smartcast 2
+smartcasting_Extra_Ability_2				Смарт-каст: доп. способность 2
 
 
 
-smartcasting_Extra_Ability_3				Дополнительная способность Smartcast 3
+smartcasting_Extra_Ability_3				Смарт-каст: доп. способность 3
 
 
 
-smartcasting_Extra_Ability_4				Дополнительная способность Smartcast 4
+smartcasting_Extra_Ability_4				Смарт-каст: доп. способность 4
 
 
 
-smartcasting_Extra_Ability_5				Дополнительная способность Smartcast 5
+smartcasting_Extra_Ability_5				Смарт-каст: доп. способность 5
 
 
 
-smartcasting_Extra_Ability_6				Smartcast Ворон
+smartcasting_Extra_Ability_6				Смарт-каст: Ворон
 
 
 
-smartcasting_Extra_Ability_7				Дополнительная способность Smartcast 7
+smartcasting_Extra_Ability_7				Смарт-каст: доп. способность 7
 
 
 
-smartcasting_Extra_Ability_8				Дополнительная способность Smartcast 8
+smartcasting_Extra_Ability_8				Смарт-каст: доп. способность 8
 
 
 
-smartcasting_Inventory_1					Инвентарь Smartcast 1
+smartcasting_Inventory_1					Смарт-каст: инвентарь 1
 
 
 
-smartcasting_Inventory_2					Инвентарь Smartcast 2
+smartcasting_Inventory_2					Смарт-каст: инвентарь 2
 
 
 
-smartcasting_Inventory_3					Инвентарь Smartcast 3
+smartcasting_Inventory_3					Смарт-каст: инвентарь 3
 
 
 
-smartcasting_Inventory_4					Инвентарь Smartcast 4
+smartcasting_Inventory_4					Смарт-каст: инвентарь 4
 
 
 
-smartcasting_Inventory_5					Инвентарь Smartcast 5
+smartcasting_Inventory_5					Смарт-каст: инвентарь 5
 
 
 
-smartcasting_Inventory_6					Инвентарь Smartcast 6
+smartcasting_Inventory_6					Смарт-каст: инвентарь 6
 
 
 
-smartcasting_Inventory_Consumable_1			Расходные материалы Smartcast 1
+smartcasting_Inventory_Consumable_1			Смарт-каст: расходник 1
 
 
 
-smartcasting_Inventory_Consumable_2			Расходные материалы Smartcast 2
+smartcasting_Inventory_Consumable_2			Смарт-каст: расходник 2
 
 
 
-smartcasting_Vanity_Slot_1					Smartcast косметический слот 1
+smartcasting_Vanity_Slot_1					Смарт-каст: слот украшения 1
 
 
 
-smartcasting_Vanity_Slot_2					Smartcast косметический слот 2
+smartcasting_Vanity_Slot_2					Смарт-каст: слот украшения 2
 
 
 
-smartcasting_Vanity_Slot_3					Smartcast косметический слот 3
+smartcasting_Vanity_Slot_3					Смарт-каст: слот украшения 3
 
 
 
-smartcasting_Vanity_Slot_4					Smartcast косметический слот 4
+smartcasting_Vanity_Slot_4					Смарт-каст: слот украшения 4
 
 
 
-smartcasting_Vanity_Slot_5					Smartcast косметический слот 5
+smartcasting_Vanity_Slot_5					Смарт-каст: слот украшения 5
 
 
 
-smartcasting_Vanity_Slot_6					Smartcast косметический слот 6
+smartcasting_Vanity_Slot_6					Смарт-каст: слот украшения 6
 
 
 
@@ -5000,7 +5000,7 @@ options_limit_pings 						Ограничить пинги карты
 
 
 
-options_limit_pings_tip 					Если эта опция включена, одновременно на карте будут отображаться только 3 пинга. Это предотвращает рассылку спама, но также может ограничить количество видимых полезных запросов на карту.
+options_limit_pings_tip 					Если эта опция включена, одновременно на карте будут отображаться только 3 пинга. Это защищает от спама, но может скрыть часть полезных пингов.
 
 
 
@@ -5008,11 +5008,11 @@ options_limit_pings_tip 					Если эта опция включена, одн
 
 
 
-options_muteMinimapPings_VoiceMutedAllies 		Отключение звука на миникарте от союзников с отключенным голосом
+options_muteMinimapPings_VoiceMutedAllies 		Скрывать пинги союзников с отключенным голосом
 
 
 
-options_muteMinimapPings_VoiceMutedAllies_tip 	Если этот параметр включен, сигналы миникарты не будут отображаться и воспроизводиться от союзников с отключенным голосом.
+options_muteMinimapPings_VoiceMutedAllies_tip 	Если этот параметр включен, пинги на миникарте от союзников с отключенным голосом не будут показываться и звучать.
 
 
 
@@ -5044,11 +5044,11 @@ options_screen_hide_full_healthbar_trip 	Если эта опция включе
 
 
 
-options_slider_creep_health_bar_transparency 		 		Процент прозрачности полосы здоровья Creep
+options_slider_creep_health_bar_transparency 		 		Прозрачность полосы здоровья крипов (%)
 
 
 
-options_slider_creep_health_bar_transparency_tip 			Это устанавливает прозрачность шкалы здоровья прип, пока она не достигнет настроенного порога.
+options_slider_creep_health_bar_transparency_tip 			Задает прозрачность полосы здоровья крипа, пока его здоровье не опустится до заданного порога.
 
 
 
@@ -5056,11 +5056,11 @@ options_slider_creep_health_bar_transparency_tip 			Это устанавлив�
 
 
 
-options_slider_creep_health_bar_threshold 		 			Порог прозрачности полосы здоровья Creep
+options_slider_creep_health_bar_threshold 		 			Порог прозрачности полосы здоровья крипов
 
 
 
-options_slider_creep_health_bar_threshold_tip 				Это устанавливает порог, при котором процент здоровья крипа становится полностью непрозрачным (не прозрачным).
+options_slider_creep_health_bar_threshold_tip 				При каком проценте здоровья крипа его полоса здоровья становится полностью непрозрачной.
 
 
 
@@ -5092,7 +5092,7 @@ options_screen_hover_hero_info_tip			Если эта опция включена
 
 
 
-options_checkbox_ground_sprite				Показать Граунд спрайты
+options_checkbox_ground_sprite				Показывать метки под героями
 
 
 
@@ -5104,7 +5104,7 @@ options_screen_ground_sprite_tip			Если эта опция включена, 
 
 
 
-options_checkbox_death_tips					Показать советы по смерти героя
+options_checkbox_death_tips					Советы после смерти героя
 
 
 
@@ -5116,7 +5116,7 @@ options_screen_death_tip					Если эта функция включена, п
 
 
 
-options_checkbox_team_or_player_color		Используйте цвета, специфичные для игрока
+options_checkbox_team_or_player_color		Использовать цвета игроков
 
 
 
@@ -5132,7 +5132,7 @@ options_dropdown_minimap_portrait_color_title				Портрет на миник�
 
 
 
-options_portrait_ten_color									Определенный цвет игрока
+options_portrait_ten_color									Цвет игрока
 
 
 
@@ -32722,7 +32722,7 @@ options_label_shop_search_keybind	Поиск предметов
 options_restart_confirm_body	Одно или несколько изменений требуют перезапуска. Перезапустить?
 options_restart_confirm_restart	Перезапустить сейчас
 options_restart_confirm_title	Требуется перезапуск
-options_simple_shop_search_text	Горячая клавиша для поиска в магазине
+options_simple_shop_search_text	Горячая клавиша для перехода к строке поиска в магазине
 options_slider_max_ingame_framerate	Макс. FPS в игре
 options_slider_max_ingame_framerate_tip	Задаёт максимум кадров в секунду в игре. Высокие значения делают анимацию и движение курсора плавнее, низкие снижают нагрузку на систему и расход энергии. Если в игре заметны рывки или высокая нагрузка на GPU, попробуйте снизить значение.
 shop_cat_title_combative	Боевые
@@ -33350,7 +33350,7 @@ options_hdr_highlight_boost_tip		Насколько агрессивно ярк�
 mm_machine_tag_retag_cooldown			Рейтинговые игры на этом компьютере привязаны к ^279{name}^*
 mm_machine_tag_denied_reason_other		^279{name}:^* компьютер привязан к {tagged}
 mm_machine_tag_retag_pending			Меняем привязку компьютера...
-smartcasting_Ability_TP							Умное применение камня телепортации
+smartcasting_Ability_TP							Смарт-каст: камень телепортации
 marketplace_marketplace_button					Открыть онлайн-площадку
 vanity_list_proceed					Выставить {product} за {price} нефрита?
 loading_stage_map 					Loading Map
@@ -33485,7 +33485,7 @@ mm_notice_party_disparity_tier		Разброс рейтинга в вашей г
 mm_notice_party_support_locked		Разброс рейтинга в вашей группе - {spread} MMR, поэтому этот матч вы встаёте только на поддержку. Сохранённые роли не меняются и вернутся, когда разрыв сократится. Вы получаете и теряете на {reduction}% меньше MMR.
 // Настройки, магазин, выбор роли
 store_caching_models		Готовим предпросмотр магазина
-options_smartcast_double_activate_delay		Задержка двойной активации при умном применении (мс)
+options_smartcast_double_activate_delay		Задержка двойной активации смарт-каста (мс)
 options_smartcast_double_activate_delay_tip		Задерживает умное применение для способностей и предметов с двойной активацией, давая вам время нажать горячую клавишу второй раз и активировать их дважды. (Камень телепортации перенесёт героя на базу, зелья здоровья применятся на вас самих и так далее.)\nДействует только на способности и предметы с двойной активацией - всё остальное по-прежнему применяется мгновенно. Значение 0 полностью отключает задержку.
 options_show_team_purchases		Показывать покупки союзников
 options_show_team_purchases_tip		Если включено, под журналом убийств всплывает небольшое окно, когда союзник собрал заметный предмет (варды, командные расходники или любой готовый предмет дороже заданного порога золота).
