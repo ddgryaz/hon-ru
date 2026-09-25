@@ -320,13 +320,13 @@ ping_ext_alt_scoreboard_teamgold					{account_color}{player_name}^*^; {player_co
 
 ping_ext_alt_scoreboard_vision					{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: {teamname} обзор составляет {vision}%
 
-ping_ext_alt_scoreboard_boss_respawn_time			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Конгор возродится через {boss_respawn_time}.
+ping_ext_alt_scoreboard_boss_respawn_time			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Kongor возродится через {boss_respawn_time}.
 
-ping_ext_alt_scoreboard_boss_respawn_time_alive		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Конгор жив!
+ping_ext_alt_scoreboard_boss_respawn_time_alive		{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Kongor жив!
 
-ping_ext_alt_scoreboard_boss2_respawn_time			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Феникс возродится через {boss_respawn_time}.
+ping_ext_alt_scoreboard_boss2_respawn_time			{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Phoenix возродится через {boss_respawn_time}.
 
-ping_ext_alt_scoreboard_boss2_respawn_time_alive	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Феникс жив!
+ping_ext_alt_scoreboard_boss2_respawn_time_alive	{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: Phoenix жив!
 
 ping_ext_alt_game_time								{account_color}{player_name}^*^; {player_color}({player_hero_name})^*: сейчас ^y{totalGameTime}^* и {currentTimeOfDay}. ^y{remainingTime}^* до {otherTimeOfDay}
 
@@ -360,9 +360,9 @@ area_legion_bot_jungle					Нижний джангл Легиона
 
 area_legion_top_jungle					Верхний джангл Легиона
 
-area_kongors_pit						Логово Конгора
+area_kongors_pit						Логово Kongor
 
-area_phoenix						 Гнездо Феникса
+area_phoenix						 Гнездо Phoenix
 
 area_legion_ancient_spawn				Лагерь древних Легиона
 
@@ -422,9 +422,9 @@ area_hellbourne_top_middle_pass			Верхний проход Хеллборна
 
 area_hellbourne_middle_bottom_pass		Нижний проход Хеллборна
 
-area_hellbourne_observatory				Логово Конгора Хеллборна
+area_hellbourne_observatory				Логово Hell Kongor
 
-area_legion_observatory					Логово Конгора
+area_legion_observatory					Логово Kongor
 
 area_river_middle						Средняя река
 
@@ -468,7 +468,7 @@ teamkill							{killer} убил {victim}!! ^y{gold} зол.^* делится н
 
 neutralkill							{victim} был убит нейтральными крипами.
 
-kongorkill							{victim} был убит Конгором.
+kongorkill							{victim} был убит боссом Kongor.
 
 bosskill							{victim} был убит {boss}.
 
@@ -487,9 +487,9 @@ teamkilltower						{killer} разрушил башню {ping_tile}.\n{killer} �
 
 
 
-killkongor							{killer} убил Конгора. {reward} награждаются ^y{gold} зол.^*
+killkongor							{killer} убил босса Kongor. {reward} награждаются ^y{gold} зол.^*
 
-teamkillkongor						{killer} убил Конгора. {killer} награждаются ^y{gold} зол.^*
+teamkillkongor						{killer} убил босса Kongor. {killer} награждаются ^y{gold} зол.^*
 
 killboss							{killer} убил {boss}. {reward} награждаются ^y{gold} зол.^*
 
@@ -739,53 +739,53 @@ purchase_msg_out_of_stock			Нет в наличии.
 
 
 
-str_bonus							{value} Сила
+str_bonus							{value} силы
 
-str_bonus_per_level					{value_per_level} Сила на уровень
+str_bonus_per_level					{value_per_level} силы за уровень
 
-str_bonus_per_charge				{value_per_charge} Сила на заряд
+str_bonus_per_charge				{value_per_charge} силы за заряд
 
-agi_bonus							{value} Ловкость
+agi_bonus							{value} ловкости
 
-agi_bonus_per_level					{value_per_level} Ловкость за уровень
+agi_bonus_per_level					{value_per_level} ловкости за уровень
 
-agi_bonus_per_charge				{value_per_charge} Ловкость за заряд
+agi_bonus_per_charge				{value_per_charge} ловкости за заряд
 
-agi_bonus_percharge					{value_per_charge} Ловкость за заряд
+agi_bonus_percharge					{value_per_charge} ловкости за заряд
 
-int_bonus							{value} Интеллект
+int_bonus							{value} интеллекта
 
-int_bonus_per_level					{value_per_level} Интеллект за уровень
+int_bonus_per_level					{value_per_level} интеллекта за уровень
 
-int_bonus_per_charge				{value_per_charge} Интеллект за заряд
+int_bonus_per_charge				{value_per_charge} интеллекта за заряд
 
-int_bonus_percharge					{value_per_charge} Интеллект за заряд
+int_bonus_percharge					{value_per_charge} интеллекта за заряд
 
-max_health_bonus					{value} Максимальное здоровье
+max_health_bonus					{value} макс. здоровья
 
-max_health_mult_bonus				{value}% Макс. Здоровье
+max_health_mult_bonus				{value}% макс. здоровья
 
-max_health_bonus_per_charge			{value} Максимальное здоровье за заряд
+max_health_bonus_per_charge			{value} макс. здоровья за заряд
 
-max_mana_bonus						{value} Максимум маны
+max_mana_bonus						{value} макс. маны
 
-max_mana_mult_bonus					{value}% Макс. Маны
+max_mana_mult_bonus					{value}% макс. маны
 
 base_damage_mult_bonus				{value}% базового урона
 
 damage_mult_bonus					{value}% урона от атаки
 
-damage_bonus						{value} Урон
+damage_bonus						{value} урона
 
-damage_bonus_per_charge				{value} Урон за заряд
+damage_bonus_per_charge				{value} урона за заряд
 
-move_speed_bonus					{value} Скорость движения
+move_speed_bonus					{value} скор. движ.
 
-move_speed_mult_bonus				{value}% Скорость движения
+move_speed_mult_bonus				{value}% скор. движ.
 
 move_speed_mult_bonus_per_charge	{value}% скор. движ. за заряд
 
-slow_resistance_bonus				{value}% Сопротивление замедлению
+slow_resistance_bonus				{value}% сопротивления замедлению
 
 move_speed_slow_bonus				{value}% замедление движения
 
@@ -809,41 +809,41 @@ reduced_item_cooldowns_bonus		{value}% снижение перезарядки �
 
 increased_cooldowns_bonus			{value}% увеличение перезарядки
 
-reduced_manacosts_bonus				{value}% Снижение затрат маны
+reduced_manacosts_bonus				{value}% снижение затрат маны
 
-increased_manacosts_bonus			{value}% Увеличение затрат маны
+increased_manacosts_bonus			{value}% увеличение затрат маны
 
-armor_bonus							{value} Броня
+armor_bonus							{value} брони
 
-armor_bonus_per_charge				{value} Броня за заряд
+armor_bonus_per_charge				{value} брони за заряд
 
-armor_bonus_multiplier				{value}% Броня
+armor_bonus_multiplier				{value}% брони
 
-magic_armor_bonus					{value} Магическая броня
+magic_armor_bonus					{value} маг. брони
 
-magic_armor_bonus_per_charge		{value} Магическая броня за заряд
+magic_armor_bonus_per_charge		{value} маг. брони за заряд
 
-magic_armor_bonus_multiplier		{value}% Магическая броня
+magic_armor_bonus_multiplier		{value}% маг. брони
 
 health_regen_percent_bonus			{value}% здоровья в сек.
 
-health_regen_bonus					{value} Регенерация здоровья
+health_regen_bonus					{value} реген. здоровья
 
-health_regen_mult_bonus				{value}% Регенерация здоровья
+health_regen_mult_bonus				{value}% реген. здоровья
 
-health_regen_bonus_per_charge		{value} Регенерация здоровья за заряд
+health_regen_bonus_per_charge		{value} реген. здоровья за заряд
 
-experience_mult_bonus				{value}% Множитель опыта
+experience_mult_bonus				{value}% опыта
 
 mana_regen_percent_bonus			{value}% маны в сек.
 
-mana_regen_bonus					{value} Регенерация маны
+mana_regen_bonus					{value} реген. маны
 
-mana_regen_mult_bonus				{value}% Регенерация маны
+mana_regen_mult_bonus				{value}% реген. маны
 
 deflection_bonus					{value1}% шанс заблокировать {value2} урона от атаки
 
-evasion_bonus						{value}% Уклонение
+evasion_bonus						{value}% уклонения
 
 ranged_evasion_bonus				{value}% уклонение от атак дальнего боя
 
@@ -851,7 +851,7 @@ melee_evasion_bonus					{value}% уклонение от атак ближнег
 
 miss_chance_bonus					{value}% шанс промаха
 
-lifesteal_bonus						{value}% вампиризм
+lifesteal_bonus						{value}% вампиризма
 
 critical_bonus						{value1}% шанс нанести {value2}x критический удар
 
@@ -893,7 +893,7 @@ restrained_immunity_bonus			Иммунитет к сковыванию
 
 revealed_bonus						Обнаружен
 
-reveal_bonus						{value} Радиус обнаружения
+reveal_bonus						{value} радиуса обнаружения
 
 stealth_bonus						Невидимость, исчезновение за {value} сек.
 
@@ -915,21 +915,21 @@ dispel_on_action_bonus				Рассеивается при действии
 
 truestrike_bonus					Точный удар
 
-health_regen_reduction_bonus		{value}% Снижение регенерации здоровья
+health_regen_reduction_bonus		{value}% снижение реген. здоровья
 
-mana_regen_reduction_bonus			{value}% Снижение регенерации маны
+mana_regen_reduction_bonus			{value}% снижение реген. маны
 
 incoming_lifesteal_mult_bonus {value}% снижение вампиризма
 
 sighted_bonus						Обнаружен
 
-extra_ability_cast_range			{value} Дальность применения способности
+extra_ability_cast_range			{value} дальности применения способностей
 
-extra_item_cast_range				{value} Дальность применения предмета
+extra_item_cast_range				{value} дальности применения предметов
 
-extra_cast_range					{value} Дальность применения
+extra_cast_range					{value} дальности применения
 
-attack_range_bonus					{value} Дальность атаки
+attack_range_bonus					{value} дальности атаки
 
 
 
@@ -1027,19 +1027,19 @@ attribute_intelligence				Интеллект
 
 
 
-attribute_damage_bonus				{value} Урон
+attribute_damage_bonus				{value} урона
 
-attribute_health_bonus				{value} Максимальное здоровье
+attribute_health_bonus				{value} макс. здоровья
 
-attribute_health_regen_bonus		{value} Регенерация здоровья
+attribute_health_regen_bonus		{value} реген. здоровья
 
 attribute_attack_speed_bonus		{value} скор. атаки
 
-attribute_armor_bonus				{value} Броня
+attribute_armor_bonus				{value} брони
 
-attribute_mana_bonus				{value} Максимум маны
+attribute_mana_bonus				{value} макс. маны
 
-attribute_mana_regen_bonus			{value} Регенерация маны
+attribute_mana_regen_bonus			{value} реген. маны
 
 
 

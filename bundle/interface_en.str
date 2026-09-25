@@ -2029,7 +2029,7 @@ map_loading_caldavar_tip01			- Усильте своего героя с пом�
 
 
 
-map_loading_caldavar_tip02			- Победа над боссом Конгора даст постоянные усиления. Победив двоих за короткое время, вы получите Жетон жизни и бонус к осаде.
+map_loading_caldavar_tip02			- Победа над боссом Kongor даст постоянные усиления. Победив двоих за короткое время, вы получите Token of Life и бонус к осаде.
 
 
 
@@ -10932,7 +10932,7 @@ game_shop_label_combine						Объединить
 
 
 
-game_lane_selection							Выбор линии / Конгор
+game_lane_selection							Выбор линии / Kongor
 
 
 
@@ -12683,19 +12683,19 @@ endstats_simple_view_riftwars 				Краткое описание игры Rift 
 
 
 
-endstats_simple_view_midwars_played			{value} Игры Mid Wars сыграны!
+endstats_simple_view_midwars_played			Сыграно игр Mid Wars: {value}!
 
 
 
-endstats_simple_view_bots_played			{value} Боты в игры играли!
+endstats_simple_view_bots_played			Сыграно игр с ботами: {value}!
 
 
 
-endstats_simple_view_riftwars_played		{value} Игры Rift Wars сыграны!
+endstats_simple_view_riftwars_played		Сыграно игр Rift Wars: {value}!
 
 
 
-endstats_simple_view_games_played			{value} Сыграны игры с включенной статистикой!
+endstats_simple_view_games_played			Сыграно игр со статистикой: {value}!
 
 
 
@@ -13039,11 +13039,11 @@ game_end_stats_refresh_btn					Проверить файл
 
 
 
-game_end_stats_matches_until_tokens			{value} матчи впереди!
+game_end_stats_matches_until_tokens			Осталось матчей: {value}!
 
 
 
-game_end_stats_match_until_token 			{value} матч впереди!
+game_end_stats_match_until_token 			Остался {value} матч!
 
 
 
@@ -14115,7 +14115,7 @@ match_awards_special_2						Друг Чипрелов
 
 
 
-match_awards_special_3						Любитель Конгора
+match_awards_special_3						Любитель Kongor
 
 
 
@@ -20039,11 +20039,11 @@ loading_tip14					В начале игры никогда не покидайт�
 
 
 
-loading_tip15 					Конгор возрождается через 10 минут после того, как его убивают, и забирает Жетон Жизни, если он не был использован в течение 5 минут.
+loading_tip15 					Kongor возрождается через 10 минут после убийства и забирает Token of Life, если его не использовали в течение 5 минут.
 
 
 
-loading_tip16					После убийства Конгора выпадает Знак Жизни. Жетон мгновенно воскрешает владельца после его смерти, но при этом расходуется.
+loading_tip16					После убийства Kongor выпадает Token of Life. Он мгновенно воскрешает владельца после смерти, но при этом расходуется.
 
 
 
@@ -25769,7 +25769,7 @@ tpp_neutrals				Нейтралы
 
 
 
-tpp_kongor					Конгор
+tpp_kongor					Kongor
 
 
 
@@ -31225,7 +31225,7 @@ shop_cat_title_supportive						Поддерживающий
 
 
 
-shop_cat_title_phoenix							Награды Феникса
+shop_cat_title_phoenix							Награды Phoenix
 
 
 
@@ -33036,13 +33036,13 @@ tutorial_slide_boss_kongor	Босс: Kongor
 
 tutorial_slide_phoenix_title	БОСС: Phoenix
 
-tutorial_slide_phoenix_desc	Phoenix - растущий по силе нейтральный босс, дающий иное стратегическое преимущество. За его убийство вы получаете ^956Яйцо Феникса^* и мощные ^579предметы Феникса^*.
+tutorial_slide_phoenix_desc	Phoenix - растущий по силе нейтральный босс, дающий иное стратегическое преимущество. За его убийство вы получаете ^956Phoenix Egg^* и мощные ^579предметы Phoenix^*.
 
-tutorial_slide_phoenix_egg	Яйцо Феникса
+tutorial_slide_phoenix_egg	Phoenix Egg
 
 tutorial_slide_phoenix_egg_desc	После вашей гибели, если Яйцо продержится 6 сек., вы возродитесь с полным здоровьем и маной. Яйцо можно разбить атаками вражеских героев.
 
-tutorial_slide_phoenix_token	Жетон Феникса
+tutorial_slide_phoenix_token	Phoenix Item Token
 
 tutorial_slide_phoenix_token_desc	Даёт герою предмет из набора. Чем больше зарядов, тем выше уровень предмета.
 
@@ -33183,7 +33183,7 @@ vanity_emote_wheel_setup_desc	Назначь эмоции на позиции к
 general_mode_normal		All Pick
 store_unavailable		Магазин недоступен
 mm_machine_tag_denied_body		Тег отклонён: не соответствует требованиям
-boss_info_kongor_name		Конгор
+boss_info_kongor_name		Kongor
 options_submen_hdr		HDR ^555(экспериментально)^*
 store_no_listings		Нет объявлений
 mm_machine_tag_retag_btn		Сменить тег
@@ -33227,7 +33227,7 @@ options_hdr_mode_tip		scRGB (FP16) — совместимость; HDR10 (PQ) �
 mm_mmr_caldavar_tip							MMR (рейтинг подбора) на Forests of Caldavar
 mm_machine_tag_notice_locked_sub		Снимите рейтинговые режимы или смените привязку
 general_mode_sameherodraft					Same Hero Draft
-boss_info_phoenix_reward1_name		Крылья Феникса
+boss_info_phoenix_reward1_name		Phoenix Egg
 boss_info_kongor_stat_movespeed		^oСкор. движ.:^* 270
 mm_play_ban_denied_notice				Очередь недоступна: ^279{names}^* - запрет на игру
 options_checkbox_smart_unit_selection		Умный выбор юнитов
@@ -33270,7 +33270,7 @@ store_unequip								Unequip
 plinko_skip1					Click to
 globby_mute_voice_tip						Заглушить голос
 options_hdr_highlight_desat		Спад светов
-boss_info_kongor_subtitle		Древний страж джунглей
+boss_info_kongor_subtitle		Король обезьян
 boss_info_kongor_stat_damage		^oФиз. урон:^* 125
 boss_info_phoenix_reward2_name		Перо Возрождения
 options_hdr_mode		Режим HDR
@@ -33286,7 +33286,7 @@ store_unavailable_tip						Этот товар сейчас недоступен
 warning_dismiss		Нажмите чтобы продолжить
 boss_info_phoenix_reward1_desc		После вашей гибели, если Яйцо продержится 6 сек., вы возродитесь с полным здоровьем и маной. Яйцо можно разбить атаками вражеских героев. Выпадает за убийство Phoenix.
 store_marketplace_show_my_listings			Показать мои лоты
-boss_info_phoenix_name		Феникс
+boss_info_phoenix_name		Fluffylumps
 store_marketplace_show_sales_history		Показать историю продаж
 boss_info_kongor_stat_attack_range		^oДальность атаки:^* 128 (Ближний бой)
 loading_stage_entering 				Entering Newerth
@@ -33338,7 +33338,7 @@ loading_stage_shaders 				Compiling Shaders
 boss_info_phoenix_ability1_name		Fiery Rain
 plinko_skip2					ускорить падение
 store_set_marketplace_price 	Задать цену на площадке
-boss_info_phoenix_subtitle		Властелин небес
+boss_info_phoenix_subtitle		Феникс
 store_you_receive							You receive:
 boss_info_phoenix_ability1_desc		Запускает огненные шары в небо, выбирая до 8 точек, где стоят герои, в радиусе 600, и помечает эти места на земле.\n\nНаносит 100 маг. урона при попадании и поджигает цели: маг. урон в секунду нарастает, пока юнит не коснётся воды на земле.
 tutorial_slide_hero_attributes_example_prefix				Поскольку ALUNA - герой на

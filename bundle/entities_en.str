@@ -93242,7 +93242,7 @@ Item_Cheese_shop_categories
 
 
 
-Item_Cheese_tooltip_flavor										Это были любимые бананы Конгора...
+Item_Cheese_tooltip_flavor										Это были любимые бананы Kongor...
 
 
 
@@ -116186,7 +116186,7 @@ State_Kongor_Ability2_name										Slam
 
 
 
-State_Kongor_Ability2_description								Ваша скор. движ. и атаки снижена могучим ударом Конгора.
+State_Kongor_Ability2_description								Ваша скор. движ. и атаки снижена могучим ударом Kongor.
 
 
 
@@ -118602,7 +118602,7 @@ State_Kongor_Scaling_name										Kongor Upgrade
 
 
 
-State_Kongor_Scaling_description								Конгор медленно улучшает свои боевые способности.
+State_Kongor_Scaling_description								Kongor медленно улучшает свои боевые способности.
 
 
 
@@ -118722,7 +118722,7 @@ State_PhoenixBoss_Scaling_name									Ancient Blood
 
 
 
-State_PhoenixBoss_Scaling_FRAME_effect							Пушистик становится сильнее и мудрее.
+State_PhoenixBoss_Scaling_FRAME_effect							Fluffylumps становится сильнее и мудрее.
 
 
 
