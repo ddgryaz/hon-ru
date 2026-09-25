@@ -16455,7 +16455,7 @@ globby_purchase_eap_is						Купить продукт EA?
 
 
 
-game_purchase_courier						Купить этого Курьера?
+game_purchase_courier						Купить этого курьера?
 
 
 
@@ -16467,7 +16467,7 @@ globby_purchase_eap							Посмотреть наборы в магазине
 
 
 
-globby_purchase_txt1						Вам не принадлежит этот герой!
+globby_purchase_txt1						У вас нет этого героя!
 
 
 
@@ -16475,7 +16475,7 @@ globby_purchase_txt2						Хотите ли вы использовать его
 
 
 
-globby_purchase_txt3						^rВнимание: ^* Приобретение раннего доступа на этом экране означает, что вы потеряете право на получение бонусных пакетов EA!
+globby_purchase_txt3						^rВнимание:^* если купить ранний доступ на этом экране, вы потеряете право на бонусные наборы EA!
 
 
 
@@ -16491,19 +16491,19 @@ globby_purchase_eap_nonleg_txt2				Ранний доступ дает вам п�
 
 
 
-globby_purchase_silver						Покупка за серебро
+globby_purchase_silver						Купить за серебро
 
 
 
-globby_purchase_gold						Покупка за золото
+globby_purchase_gold						Купить за золото
 
 
 
-globby_play_token							Играйте с жетонами
+globby_play_token							Играть за жетоны
 
 
 
-globby_play_pass							Играйте с использованием пропуска
+globby_play_pass							Играть по пропуску
 
 
 
@@ -16539,11 +16539,11 @@ gamelobby_del_friend_tip					Удалить {name} из списка друзе�
 
 
 
-gamelobby_take_slot_button					Возьмите этот слот игрока
+gamelobby_take_slot_button					Занять этот слот
 
 
 
-game_lobby_take_slot_color					Возьмите слот {color}
+game_lobby_take_slot_color					Занять слот {color}
 
 
 
@@ -16551,7 +16551,7 @@ gamelobby_player_level_tip					Уровень игрока
 
 
 
-gamelobby_referee_tip						Судьи назначаются Организатором игры. Чаще всего они используются в соревновательной игре для обеспечения соблюдения правил матча.
+gamelobby_referee_tip						Судей назначает хост игры. Чаще всего они нужны в соревновательных играх, чтобы следить за соблюдением правил матча.
 
 
 
@@ -16563,23 +16563,23 @@ game_lobby_mute								Отключить/включить звук {name}
 
 
 
-gamelobby_make_referee_tip					Сделайте {name} рефери
+gamelobby_make_referee_tip					Сделать {name} судьей
 
 
 
-game_lobby_demote_referee					Удалить рефери {name}
+game_lobby_demote_referee					Снять судью {name}
 
 
 
-game_lobby_no_referee						Нет рефери
+game_lobby_no_referee						Нет судьи
 
 
 
-gamelobby_spectators_header					Зрители
+gamelobby_spectators_header					Наблюдатели
 
 
 
-gamelobby_spectate_button					Стать зрителем
+gamelobby_spectate_button					Стать наблюдателем
 
 
 
@@ -16599,11 +16599,11 @@ gamelobby_start_game_button					Начать игру
 
 
 
-gamelobby_private_button					Частная игра
+gamelobby_private_button					Закрытая игра
 
 
 
-gamelobby_private_tip_header				Частная игра
+gamelobby_private_tip_header				Закрытая игра
 
 
 
@@ -16611,7 +16611,7 @@ gamelobby_private_tip_text					Если вы выберете эту функц�
 
 
 
-game_lobby_match_name						^555Имя совпадения:^* {name}
+game_lobby_match_name						^555Название матча:^* {name}
 
 
 
@@ -16663,11 +16663,11 @@ glb_options_bot_difficulty_2 				Средние боты
 
 
 
-glb_options_bot_difficulty_3 				Хард-боты
+glb_options_bot_difficulty_3 				Сложные боты
 
 
 
-game_lobby_leave_team_tip					Покиньте эту команду
+game_lobby_leave_team_tip					Покинуть эту команду
 
 
 
@@ -16695,19 +16695,19 @@ game_lobby_rsr_value_tip					MMR этого игрока (рейтинг под�
 
 
 
-game_lobby_point_value_tip					Количество рейтинговых очков, находящихся на кону этого игрока.
+game_lobby_point_value_tip					Сколько рейтинговых очков на кону у этого игрока.
 
 
 
-game_lobby_locklabel						Можно заблокировать игроков в их текущем слоте, выбрав их в списке ниже. Если игрок заблокирован, он не будет перемещаться при использовании Balance Teams.
+game_lobby_locklabel						Можно закрепить игроков в их текущих слотах, выбрав их в списке ниже. Закрепленного игрока баланс команд не переместит.
 
 
 
-game_lobby_locksave							Блокировка слотов игроков
+game_lobby_locksave							Закрепить слоты игроков
 
 
 
-game_lobby_balanceteams_btn					Балансовые команды
+game_lobby_balanceteams_btn					Баланс команд
 
 
 
@@ -16715,23 +16715,23 @@ game_lobby_balance_btn						Баланс
 
 
 
-game_lobby_lock_tip_label					Нажатие на цветной значок рядом со слотом заблокирует слот. Игроки не смогут занять этот слот, пока он не будет разблокирован. Блокировка слота также не позволит командам баланса перемещать игрока, занимающего этот слот.
+game_lobby_lock_tip_label					Нажатие на цветной значок рядом со слотом заблокирует слот. Игроки не смогут занять этот слот, пока он не будет разблокирован. Кроме того, баланс команд не переместит игрока из заблокированного слота.
 
 
 
-game_lobby_host_locked_slot_tip				Этот слот заблокирован. Нажмите здесь, чтобы разблокировать его. Игроки не могут занять заблокированный слот, а балансирующие команды не будут перемещать игроков из заблокированных слотов.
+game_lobby_host_locked_slot_tip				Этот слот заблокирован. Нажмите здесь, чтобы разблокировать его. Заблокированный слот нельзя занять, и баланс команд не перемещает игроков из заблокированных слотов.
 
 
 
-game_lobby_host_locks_disabled_tip			Блокировка слотов отключается, если выбрана опция игры "Авто балансировка".
+game_lobby_host_locks_disabled_tip			Блокировка слотов отключается, если выбрана опция игры "Автобаланс".
 
 
 
-game_lobby_host_open_slot_tip				Этот слот разблокирован. Нажмите здесь, чтобы заблокировать его. Игроки не могут занять заблокированный слот, а балансирующие команды не будут перемещать игроков из заблокированных слотов.
+game_lobby_host_open_slot_tip				Этот слот разблокирован. Нажмите здесь, чтобы заблокировать его. Заблокированный слот нельзя занять, и баланс команд не перемещает игроков из заблокированных слотов.
 
 
 
-game_lobby_locked_slot_tip					Хост заблокировал этот слот. Ни один игрок не может занять заблокированный слот, а балансирующие команды не будут перемещать игроков из заблокированных слотов.
+game_lobby_locked_slot_tip					Хост заблокировал этот слот. Заблокированный слот нельзя занять, и баланс команд не перемещает игроков из заблокированных слотов.
 
 
 
@@ -16739,11 +16739,11 @@ game_lobby_locked_slot_tip					Хост заблокировал этот сло
 
 
 
-game_lobby_swap_tip							Назначьте игрока этому цвету
+game_lobby_swap_tip							Перевести игрока на этот цвет
 
 
 
-game_lobby_assign_spectator_tip				Назначить игрока зрителем
+game_lobby_assign_spectator_tip				Назначить игрока наблюдателем
 
 
 
@@ -16751,7 +16751,7 @@ game_lobby_assign_referee_tip				Назначить игрока судьей
 
 
 
-game_lobby_assign_host_tip					Назначить игрока организатором
+game_lobby_assign_host_tip					Назначить игрока хостом
 
 
 
@@ -16759,7 +16759,7 @@ game_lobby_kick_tip							Выгнать этого игрока
 
 
 
-game_lobby_referee_ctrl_tip					Открыть страницу управления рефери
+game_lobby_referee_ctrl_tip					Открыть страницу управления судьи
 
 
 
@@ -16767,23 +16767,23 @@ game_lobby_referee_ctrl_tip					Открыть страницу управлен
 
 
 
-game_lobby_banning							Запрет
+game_lobby_banning							Бан
 
 
 
-game_lobby_hidden_banning					Запрет
+game_lobby_hidden_banning					Бан
 
 
 
-game_lobby_locking							Блокировка
+game_lobby_locking							Фиксация
 
 
 
-game_lobby_picking							Сбор
+game_lobby_picking							Выбор
 
 
 
-game_lobby_priority_picking					Выбор приоритета
+game_lobby_priority_picking					Приоритетный выбор
 
 
 
@@ -16811,7 +16811,7 @@ game_lobby_phase_waiting					Лобби
 
 
 
-game_lobby_phase_banning					Фаза запрета
+game_lobby_phase_banning					Фаза бана
 
 
 
@@ -16823,7 +16823,7 @@ game_lobby_phase_loading					Загрузка матча...
 
 
 
-game_lobby_phase_prematch					Пред матчевая фаза
+game_lobby_phase_prematch					Перед матчем
 
 
 
@@ -16831,7 +16831,7 @@ game_lobby_phase_match 						В матче
 
 
 
-game_lobby_phase_postmatch 					После матчевое
+game_lobby_phase_postmatch 					После матча
 
 
 
@@ -16843,7 +16843,7 @@ game_lobby_phase_hiddenban					Фаза скрытого бана
 
 
 
-game_lobby_phase_locking					Фаза блокировки
+game_lobby_phase_locking					Фаза фиксации
 
 
 
@@ -16883,7 +16883,7 @@ game_lobby_random_bot 						Случайные боты
 
 
 
-game_lobby_random_bot_tip					Заполните текущие пустые слоты случайными ботами.
+game_lobby_random_bot_tip					Заполнить пустые слоты случайными ботами.
 
 
 
@@ -16943,7 +16943,7 @@ filter_search_empty 						Поиск героя...
 
 
 
-filter_favorites_tip						Подчеркните своих любимых героев! Героев можно добавить в избранное в Learnatorium.
+filter_favorites_tip						Подсвечивает избранных героев. Нажмите ^885звёздочку^* на герое, чтобы добавить его в избранное.
 
 
 
@@ -16991,11 +16991,11 @@ game_menu_client_functions_header			Клиентские функции
 
 
 
-game_menu_share_control_header				Параметры совместного использования управления юнитами и голосование игроков
+game_menu_share_control_header				Передача управления юнитами и голосования
 
 
 
-game_menu_share_full						Полный
+game_menu_share_full						Полное
 
 
 
@@ -17023,7 +17023,7 @@ game_menu_disconnect_button					Покинуть
 
 
 
-game_menu_spec_button					 Зрители
+game_menu_spec_button					 Наблюдатели
 
 
 
@@ -17055,7 +17055,7 @@ game_menu_share_control_text				Можно разделить контроль �
 
 
 
-game_menu_disband_confirm					Вы уверены, что хотите распустить?
+game_menu_disband_confirm					Вы уверены, что хотите распустить игру?
 
 
 
@@ -17075,7 +17075,7 @@ game_menu_disconnect_noleaver				Можно уйти без штрафа.
 
 
 
-game_menu_leave_percentage_text				Ваш процент выхода - это процент игр, которые вам остались до завершения. Многие игроки создают игры, требующие определенного процента выхода. Преждевременно отключив слишком много игр (высокий процент), вы можете ограничить свою возможность присоединиться к этим ограниченным играм.
+game_menu_leave_percentage_text				Процент выходов - это доля игр, которые вы покинули до конца. Многие игроки создают игры с ограничением по проценту выходов. Если слишком часто выходить из игр раньше времени, вы не сможете заходить в такие игры.
 
 
 
@@ -17087,15 +17087,15 @@ game_menu_quit_confirm						Вы уверены, что хотите выйти 
 
 
 
-game_menu_leave_rate_text					Ставка отпуска:
+game_menu_leave_rate_text					Процент выходов:
 
 
 
-game_menu_empty_slot						Пустой слот игрока
+game_menu_empty_slot						-Пустой слот-
 
 
 
-game_menu_leave_rate_label					Стоимость отпуска:
+game_menu_leave_rate_label					Процент выходов:
 
 
 
@@ -17123,27 +17123,27 @@ game_menu_remake_tooltip					Эта кнопка созывает голосов
 
 
 
-game_menu_concede_tooltip					Нажатие этой кнопки инициирует голосование за признание матча. Ваша команда должна проголосовать единогласно, чтобы голосование было принято. Пропуск считается проигрышем, однако после проигрыша каждый может уйти без каких-либо штрафов.
+game_menu_concede_tooltip					Эта кнопка запускает голосование за сдачу матча. Чтобы оно прошло, вся ваша команда должна проголосовать "за". Сдача засчитывается как поражение, но после нее все могут выйти без штрафа.
 
 
 
-game_menu_currentleavepercent				Текущий процент отпусков:
+game_menu_currentleavepercent				Текущий процент выходов:
 
 
 
-game_menu_newleavepercent					Новый процент отпусков:
+game_menu_newleavepercent					Новый процент выходов:
 
 
 
-game_menu_newleavethreshold					Новый порог отпуска:
+game_menu_newleavethreshold					Новый порог выходов:
 
 
 
-game_menu_endmatch							Варианты завершения матча
+game_menu_endmatch							Завершение матча
 
 
 
-game_menu_endmatch_description				Если правильные критерии соблюдены, вы можете завершить текущую игру. Для переделки или уступки может потребоваться голосование.
+game_menu_endmatch_description				Если условия выполнены, можно завершить текущую игру. Для рестарта или сдачи может понадобиться голосование.
 
 
 
@@ -17167,11 +17167,11 @@ game_menu_unpause_button					Снять паузу
 
 
 
-game_menu_unpause_tooltip					Нажатие этой кнопки возобновит игру через 5 сек. Команда, приостановившая игру, может возобновить игру в любое время. Команда противника должна подождать 1 минуту, прежде чем возобновить паузу.
+game_menu_unpause_tooltip					Нажатие этой кнопки возобновит игру через 5 сек. Команда, приостановившая игру, может возобновить игру в любое время. Команда противника должна подождать 1 минуту, прежде чем снять паузу.
 
 
 
-game_menu_moved_title						Совместное использование, переделка, уступка и пауза изменились!
+game_menu_moved_title						Доступ, рестарт, сдача и пауза переехали!
 
 
 
@@ -17179,7 +17179,7 @@ game_menu_moved								Чтобы поделиться управлением, �
 
 
 
-game_menu_nopauseleftshort					0 Пауз слева
+game_menu_nopauseleftshort					Пауз: 0
 
 
 
@@ -17195,15 +17195,15 @@ game_menu_sharing_button					Доступ
 
 
 
-game_menu_sharing_tip						Переключает совместное использование ваших юнитов с союзниками.
+game_menu_sharing_tip						Переключает передачу управления вашими юнитами союзникам.
 
 
 
-game_menu_nohelp_button						Нет помощи
+game_menu_nohelp_button						Без помощи
 
 
 
-game_menu_nohelp_tip						Включает возможность союзникам использовать потенциально опасные способности вашего героя.
+game_menu_nohelp_tip						Разрешает или запрещает союзникам применять к вашему герою потенциально вредные способности.
 
 
 
@@ -17211,11 +17211,11 @@ game_menu_voice_button						Голосовой чат
 
 
 
-game_menu_voice_tip							Включает или выключает голосовой чат и сигналы миникарты от этого союзника.
+game_menu_voice_tip							Включает или выключает голосовой чат и пинги на миникарте от этого союзника.
 
 
 
-game_menu_voice_tip_spec					Включает или выключает голосовой чат и сигналы миникарты от этого наблюдателя.
+game_menu_voice_tip_spec					Включает или выключает голосовой чат и пинги на миникарте от этого наблюдателя.
 
 
 
@@ -17223,7 +17223,7 @@ game_menu_report_a_player					Пожаловаться на игрока
 
 
 
-game_menu_report_a_player_tip				Подайте заявление о оскорбительном поведении.
+game_menu_report_a_player_tip				Пожаловаться на токсичное поведение.
 
 
 
@@ -17263,7 +17263,7 @@ game_menu_report							Пожаловаться на игрока
 
 
 
-game_menu_vote_spec							Зрители
+game_menu_vote_spec							Наблюдатели
 
 
 
@@ -17295,7 +17295,7 @@ game_menu_chat_tip							Открыть интерфейс чата
 
 
 
-game_menu_options_tip						Откройте интерфейс параметров
+game_menu_options_tip						Открыть настройки
 
 
 
@@ -17303,11 +17303,11 @@ game_menu_disconnect_tip					Отключиться от матча
 
 
 
-game_menu_quit_tip							Выключение Heroes of Newerth
+game_menu_quit_tip							Закрыть Heroes of Newerth
 
 
 
-game_menu_spec								Зрители
+game_menu_spec								Наблюдатели
 
 
 
@@ -17315,11 +17315,11 @@ game_menu_mentor							Помощь наставника
 
 
 
-game_menu_mentor_tip						См. экран информации о наставнике
+game_menu_mentor_tip						Открыть экран информации наставника
 
 
 
-game_menu_spec_tip							Взаимодействуйте со зрителями и наставниками.
+game_menu_spec_tip							Взаимодействие с наблюдателями и наставниками.
 
 
 
@@ -17331,7 +17331,7 @@ game_menu_kick_afk_tip						Голосование за исключение AFK
 
 
 
-game_menu_pause_tip							Голосуйте за паузу матча
+game_menu_pause_tip							Голосование за паузу матча
 
 
 
@@ -17339,7 +17339,7 @@ game_menu_unpause_tip						Снять с паузы
 
 
 
-game_menu_remake_tip						Проголосуйте за переделку матча, в результате чего матч завершится без записи статистики
+game_menu_remake_tip						Голосование за рестарт матча: матч завершится без записи статистики
 
 
 
@@ -17363,7 +17363,7 @@ game_menu_remake_confirm					Подтвердите выбор, чтобы со�
 
 
 
-game_menu_remake_btn						Пересоздать
+game_menu_remake_btn						Рестарт
 
 
 
@@ -17463,11 +17463,11 @@ alt_info_hero_levelv2						({level})
 
 
 
-cc_panel_unread_im							У вас есть 1 непрочитанное мгновенное сообщение.
+cc_panel_unread_im							У вас 1 непрочитанное сообщение.
 
 
 
-cc_panel_unread_ims							У вас есть {count} непрочитанных мгновенных сообщений.
+cc_panel_unread_ims							Непрочитанных сообщений: {count}.
 
 
 
@@ -17483,7 +17483,7 @@ cc_panel_leaveclan							Подтвердить изменение статус�
 
 
 
-cc_panel_leaveclantxt						Вы уверены, что хотите покинуть этот клан? Если вы покинете клан, вам придется повторно пригласить кланового офицера.
+cc_panel_leaveclantxt						Вы уверены, что хотите покинуть этот клан? Вернуться в него можно будет только по новому приглашению офицера клана.
 
 
 
@@ -17515,11 +17515,11 @@ tos_close_window							Закрыть окно
 
 
 
-game_upgrade_header							Обновление до основной учетной записи
+game_upgrade_header							Улучшение до Prime-аккаунта
 
 
 
-game_upgrade_benefits_header				Преимущества обновления
+game_upgrade_benefits_header				Преимущества улучшения
 
 
 
@@ -17551,11 +17551,11 @@ main_create_account_nickname_check			Проверка ника...
 
 
 
-main_create_account_nickname_available		Псевдоним доступен
+main_create_account_nickname_available		Ник свободен
 
 
 
-main_create_account_processing_header		Форма обработки...
+main_create_account_processing_header		Обработка формы...
 
 
 
@@ -17563,7 +17563,7 @@ main_create_account_creating_account		Создание учетной запис
 
 
 
-main_create_account_upgrade_header			Обновление до полной учетной записи
+main_create_account_upgrade_header			Улучшение до полной учетной записи
 
 
 
@@ -17619,11 +17619,11 @@ main_create_account_confirm_password_tip	Повторно введите сво�
 
 
 
-main_create_account_referer					Ссылающийся аккаунт
+main_create_account_referer					Аккаунт реферера
 
 
 
-main_create_account_referer_tip				Подсказка по ссылке на аккаунт
+main_create_account_referer_tip				Подсказка: аккаунт реферера
 
 
 
@@ -17675,11 +17675,11 @@ player_stats_tabs_masteryladder			 M\\nA\\nS\\nT\\nE\\nR\\nY\\n
 
 
 
-player_stats_mastery_showall				Общая лестница
+player_stats_mastery_showall				Общий рейтинг
 
 
 
-player_stats_mastery_showfriends			Лестница друзей
+player_stats_mastery_showfriends			Рейтинг друзей
 
 
 
@@ -17691,11 +17691,11 @@ player_stats_lifetime_header				Статистика за все время
 
 
 
-player_stats_total_quests					Задания выполнены
+player_stats_total_quests					Выполнено квестов
 
 
 
-player_stats_averages_header				Средняя статистика игры
+player_stats_averages_header				Средняя статистика за игру
 
 
 
@@ -17703,7 +17703,7 @@ player_stats_next_level						Общий опыт для следующего у�
 
 
 
-player_stats_next_level_needed				XP необходим для следующего уровня
+player_stats_next_level_needed				Опыта до следующего уровня
 
 
 
@@ -17711,11 +17711,11 @@ player_stats_wins							Победы
 
 
 
-player_stats_losses							Потери
+player_stats_losses							Поражения
 
 
 
-player_stats_disconnects					Отключает
+player_stats_disconnects					Отключения
 
 
 
@@ -17723,7 +17723,7 @@ player_stats_win_percent					{percent}
 
 
 
-player_stats_leave_percent					Листья
+player_stats_leave_percent					Выходы
 
 
 
@@ -17735,7 +17735,7 @@ player_stats_matches						Матчи
 
 
 
-player_stats_concede						Пропущено
+player_stats_concede						Сдачи
 
 
 
@@ -17755,7 +17755,7 @@ player_stats_last_match						^yПоследняя активность:^* {last}
 
 
 
-player_stats_account_age					^yAcct Создано:^* {age}
+player_stats_account_age					^yАккаунт создан:^* {age}
 
 
 
@@ -17767,7 +17767,7 @@ player_stats_experience_earned				Заработанный опыт
 
 
 
-player_stats_experience_per_minute			Опыт/минута
+player_stats_experience_per_minute			Опыт/мин
 
 
 
@@ -17783,19 +17783,19 @@ player_stats_gold_spent						Потраченное золото
 
 
 
-player_stats_actions_per_minute				Действия/минуту
+player_stats_actions_per_minute				Действия/мин
 
 
 
-player_stats_gold_lost						Золото потеряно
+player_stats_gold_lost						Потеряно золота
 
 
 
-player_stats_gold_per_minute				Золото/минута
+player_stats_gold_per_minute				Золото/мин
 
 
 
-player_stats_time_played					Время сыграно
+player_stats_time_played					Время в игре
 
 
 
@@ -17811,7 +17811,7 @@ player_stats_team_creeps					Командные крипы
 
 
 
-player_stats_neutral_creeps					Нейтральные убийства
+player_stats_neutral_creeps					Убийства нейтралов
 
 
 
@@ -17831,7 +17831,7 @@ player_stats_kills							Убийства
 
 
 
-player_stats_kd_ratio						Соотношение К:Д
+player_stats_kd_ratio						Соотношение K:D
 
 
 
@@ -17871,11 +17871,11 @@ player_stats_psr							PSR
 
 
 
-player_stats_wards							Размещенные варды
+player_stats_wards							Поставлено вардов
 
 
 
-player_stats_apm							АПМ
+player_stats_apm							APM
 
 
 
@@ -17895,7 +17895,7 @@ player_avg_creep_denies						Денаи крипов
 
 
 
-player_stats_mostplayed						Самые популярные герои
+player_stats_mostplayed						Чаще всего играл
 
 
 
@@ -17911,7 +17911,7 @@ player_stats_public_games					Показать статистику публич
 
 
 
-player_stats_public_games_msg				Нажмите здесь, чтобы просмотреть статистику не рейтинговых (публичных) матчей.
+player_stats_public_games_msg				Нажмите здесь, чтобы просмотреть статистику нерейтинговых (публичных) матчей.
 
 
 
@@ -17947,15 +17947,15 @@ player_stats_last_20_matches				Последние 20 матчей
 
 
 
-player_stats_smr_tmr						СМР/ПМР
+player_stats_smr_tmr						SMR / TMR
 
 
 
-player_stats_reset_leaver					Сбросить процент отпуска
+player_stats_reset_leaver					Сбросить процент выходов
 
 
 
-player_stats_smackdowns						Смэкдауны
+player_stats_smackdowns						Разгромы
 
 
 
@@ -18019,7 +18019,7 @@ player_stats_humiliated						Унижение
 
 
 
-player_stats_nemesis						Немизида
+player_stats_nemesis						Заклятый враг
 
 
 
@@ -18035,7 +18035,7 @@ stats_tip_disconnects						Все отключения
 
 
 
-player_stats_ranked_normal					Нормальный
+player_stats_ranked_normal					Обычный
 
 
 
@@ -18043,7 +18043,7 @@ player_stats_ranked_casual					Казуальный
 
 
 
-player_stats_unranked_normal				Без рейтинга Обычный
+player_stats_unranked_normal				Обычный без рейтинга
 
 
 
@@ -18051,7 +18051,7 @@ player_stats_unranked_casual				Казуальные игры без рейти�
 
 
 
-player_stats_public							Публичный
+player_stats_public							Публичные
 
 
 
@@ -18059,7 +18059,7 @@ player_stats_midwars						Mid Wars
 
 
 
-player_stats_krosmode						Рифтовые войны
+player_stats_krosmode						Rift Wars
 
 
 
@@ -18071,19 +18071,19 @@ player_stats_used							Использовано:
 
 
 
-player_stats_campaign_normal				Сезон Нормальный
+player_stats_campaign_normal				Сезон: обычный
 
 
 
-player_stats_campaign_casual				Сезон Повседневный
+player_stats_campaign_casual				Сезон: казуальный
 
 
 
-player_stats_pre_campaign_normal			Предыдущий сезон Обычный
+player_stats_pre_campaign_normal			Прошлый сезон: обычный
 
 
 
-player_stats_pre_campaign_casual			Предыдущий сезон Казуальная игра
+player_stats_pre_campaign_casual			Прошлый сезон: казуальный
 
 
 
@@ -18095,7 +18095,7 @@ player_stats_ranked_tab						Статистика в обычном режиме
 
 
 
-player_stats_casual_tab 					Статистика в обычном режиме
+player_stats_casual_tab 					Статистика казуального режима
 
 
 
@@ -18103,7 +18103,7 @@ player_stats_midwars_tab 					Статистика Mid Wars
 
 
 
-player_stats_public_tab 					Публичная статистика игр
+player_stats_public_tab 					Статистика публичных игр
 
 
 
@@ -18111,19 +18111,19 @@ player_stats_event_tab 						Статистика турнира
 
 
 
-player_stats_season_normal_tab				Сезон Нормальный
+player_stats_season_normal_tab				Сезон: обычный
 
 
 
-player_stats_season_casual_tab				Сезон Повседневный
+player_stats_season_casual_tab				Сезон: казуальный
 
 
 
-player_stats_preseason_normal_tab			Предсезонка Нормальная
+player_stats_preseason_normal_tab			Предсезонка: обычный
 
 
 
-player_stats_preseason_casual_tab			Предсезонный казуальный
+player_stats_preseason_casual_tab			Предсезонка: казуальный
 
 
 
@@ -18147,7 +18147,7 @@ player_stats_preseason_title				Предсезонка
 
 
 
-player_stats_pvp_title						ПВП-статистика
+player_stats_pvp_title						PvP-статистика
 
 
 
@@ -18175,35 +18175,35 @@ player_stats_noseason						Без статистики
 
 
 
-player_stats_season_name_normal				Сезон {season_id} Нормальный
+player_stats_season_name_normal				Сезон {season_id}: обычный
 
 
 
-player_stats_season_name_casual				Сезон {season_id} Казуальный
+player_stats_season_name_casual				Сезон {season_id}: казуальный
 
 
 
-player_stats_season_legacy_normal			Наследие Нормальное
+player_stats_season_legacy_normal			Legacy: обычный
 
 
 
-player_stats_season_legacy_casual			Наследие Повседневный
+player_stats_season_legacy_casual			Legacy: казуальный
 
 
 
-player_stats_preseason_name_normal			Предсезонка Нормальная
+player_stats_preseason_name_normal			Предсезонка: обычный
 
 
 
-player_stats_preseason_name_casual			Предсезонный казуальный
+player_stats_preseason_name_casual			Предсезонка: казуальный
 
 
 
-player_stats_season_highest					Текущий рейтинг
+player_stats_season_highest					Текущий ранг
 
 
 
-player_stats_preseason_highest				Предсезонный рейтинг
+player_stats_preseason_highest				Предсезонный ранг
 
 
 
@@ -18211,7 +18211,7 @@ player_stats_history_highest				Высший ранг
 
 
 
-player_stats_preseason_noreward				Наград нет\nin\nПредсезон
+player_stats_preseason_noreward				Нет наград\nв\nпредсезонке
 
 
 
@@ -18223,11 +18223,11 @@ player_stats_preseason_noreward				Наград нет\nin\nПредсезон
 
 
 
-game_setup_spcectators_label				Разрешить зрителей
+game_setup_spcectators_label				Разрешить наблюдателей
 
 
 
-game_setup_spectators_tip					Устанавливает количество мест для зрителей. Зрителям разрешено присоединиться к игре и смотреть ее, не взаимодействуя с другими игроками.
+game_setup_spectators_tip					Задает число мест для наблюдателей. Наблюдатели могут зайти в игру и смотреть ее, не взаимодействуя с другими игроками.
 
 
 
@@ -18235,11 +18235,11 @@ game_setup_referees_label					Судьи
 
 
 
-game_setup_refs_label						Ссылки
+game_setup_refs_label						Судьи
 
 
 
-game_setup_referees_tip						Устанавливает количество слотов для рефери. Судьи могут пинать игроков, приостанавливать игру и отклеивать игроков.
+game_setup_referees_tip						Задает число мест для судей. Судьи могут выгонять игроков, ставить игру на паузу и вытаскивать застрявших игроков.
 
 
 
@@ -18275,11 +18275,11 @@ game_setup_type_tip							Режимы игры в основном меняют
 
 
 
-game_setup_select_server_label				Выберите сервер
+game_setup_select_server_label				Выбрать сервер
 
 
 
-game_setup_select_server_tip				^!yAutomatic^* выберет игровой сервер, расположенный в регионе, который был выбран в последний раз с помощью параметра "Обзор..." (если есть).\n\n^!yBrowse...^* позволит вам вручную выбрать сервер из указанного региона.\n\n^!yPractice^* позволит вам начать тренировочную игру для одного игрока локально на вашем компьютере. Машина.
+game_setup_select_server_tip				^!yАвтоматически^* - игровой сервер будет выбран в регионе, который вы в последний раз выбрали через "Обзор..." (если выбирали).\n\n^!yОбзор...^* - ручной выбор сервера в нужном регионе.\n\n^!yТренировка^* - локальная тренировочная игра для одного игрока на вашем компьютере.
 
 
 
@@ -18287,11 +18287,11 @@ game_setup_name_label						Название игры
 
 
 
-game_setup_private							Частная игра
+game_setup_private							Закрытая игра
 
 
 
-game_setup_private_tip						Если вы выберете эту функцию, ваша игра не будет отображаться в списке игр и не будет использоваться в Quick Match. Лучше всего использовать его для создания игры, к которой могут присоединиться ваши друзья. Эту опцию можно изменить в игровом лобби.
+game_setup_private_tip						Если выбрать эту опцию, ваша игра не будет видна в списке игр и не попадет в быструю игру. Лучше всего подходит, чтобы создать игру для друзей. Опцию можно изменить в игровом лобби.
 
 
 
@@ -18303,27 +18303,27 @@ game_setup_no_leavers_tip					Игроки с высоким процентом 
 
 
 
-game_setup_record_stats						Рекордная статистика
+game_setup_record_stats						Запись статистики
 
 
 
-game_setup_record_stats_tip					Рекордная статистика для этого матча.
+game_setup_record_stats_tip					Записывать статистику этого матча.
 
 
 
-game_setup_local							Местный
+game_setup_local							Локально
 
 
 
-game_setup_local_dedicated 					Местный выделенный
+game_setup_local_dedicated 					Локальный выделенный
 
 
 
-game_setup_automatic						Автоматический
+game_setup_automatic						Автоматически
 
 
 
-game_setup_browse							Просматривать...
+game_setup_browse							Обзор...
 
 
 
@@ -18339,11 +18339,11 @@ game_setup_three_v_three					Трое против трех
 
 
 
-game_setup_four_v_four						Четыре против четырех
+game_setup_four_v_four						Четверо против четверых
 
 
 
-game_setup_five_v_five						Пять против пяти
+game_setup_five_v_five						Пятеро против пятерых
 
 
 
@@ -18387,7 +18387,7 @@ game_setup_gated							Публичное бета-тестирование (PBT
 
 
 
-game_setup_gated_desc						Игроки выбирают из созданного пула из 40 героев.
+game_setup_gated_desc						Игроки выбирают из подобранного пула в 40 героев.
 
 
 
@@ -18395,7 +18395,7 @@ game_setup_captainsmode						Captains Pick
 
 
 
-game_setup_deathmatch						Смертельный бой
+game_setup_deathmatch						Deathmatch
 
 
 
@@ -18415,7 +18415,7 @@ game_setup_advanced_options					Отобразить дополнительны�
 
 
 
-game_setup_custom_post						Представление вторичной статистики
+game_setup_custom_post						Отправка статистики на доп. сервер
 
 
 
@@ -18423,19 +18423,19 @@ game_setup_custom_post_tip					Игра отправит игровую стат
 
 
 
-game_setup_custom_post_URL					URL-адрес сценария
+game_setup_custom_post_URL					URL скрипта
 
 
 
-game_setup_custom_post_save_btn				Установить URL-адрес публикации
+game_setup_custom_post_save_btn				Задать URL для POST
 
 
 
-game_setup_custom_post_description			Можно отправить статистику этой игры по выбранному вами URL-адресу. Этот URL-адрес должен представлять собой сценарий, написанный для приема отправки сообщения, содержащей всю статистику для этого совпадения. Чтобы узнать более подробную информацию о массиве статистики и примере кода, посетите ^yhttp://www.heroesofnewerth.com/submitstats.php^*
+game_setup_custom_post_description			Можно отправить статистику этой игры по выбранному вами URL. По этому адресу должен быть скрипт, принимающий POST-запрос со всей статистикой этого матча. Подробнее о массиве статистики и пример кода - на ^yhttp://www.heroesofnewerth.com/submitstats.php^*
 
 
 
-game_setup_practice							Практика
+game_setup_practice							Тренировка
 
 
 
@@ -18503,7 +18503,7 @@ tooltip_attribute_info						Информация об атрибутах
 
 
 
-tooltip_defense_info						Оборонная информация
+tooltip_defense_info						Информация о защите
 
 
 
@@ -18527,7 +18527,7 @@ tooltip_level								Уровень {level}
 
 
 
-tooltip_unleveled							Невыровненный
+tooltip_unleveled							Не изучено
 
 
 
@@ -18567,7 +18567,7 @@ tooltip_attack_type_melee					Ближний бой
 
 
 
-tooltip_channeling_time						Время применения: {time} секунд
+tooltip_channeling_time						Время концентрации: {time} сек.
 
 
 
@@ -18575,15 +18575,15 @@ tooltip_mana_cost							Расход маны:
 
 
 
-tooltip_mana_upkeep							Запас маны: {value} в сек.
+tooltip_mana_upkeep							Поддержание: {value} маны в сек.
 
 
 
-tooltip_triggered_mana_cost					Сработавшая мана-стоимость:
+tooltip_triggered_mana_cost					Расход маны при срабатывании:
 
 
 
-tooltip_cooldown							Перезарядка: {time} секунд
+tooltip_cooldown							Перезарядка: {time} сек.
 
 
 
@@ -18615,7 +18615,7 @@ tooltip_damage_reduction					Уменьшение урона: ^y
 
 
 
-tooltip_magic_armor							Магическая броня:
+tooltip_magic_armor							Маг. броня:
 
 
 
@@ -18631,7 +18631,7 @@ tooltip_combat_type							Тип боя:
 
 
 
-tooltip_primary_attribute					Первичный атрибут: ^y
+tooltip_primary_attribute					Основной атрибут: ^y
 
 
 
@@ -18683,7 +18683,7 @@ tooltip_attack_speed_msg					Это значение определяет, ск�
 
 
 
-tooltip_cast_speed							Скорость сотворения чар:
+tooltip_cast_speed							Скор. каста:
 
 
 
@@ -18695,7 +18695,7 @@ tooltip_attack_msg							Это тип атаки, которую использ
 
 
 
-tooltip_base_attack_cooldown				Базовое время восстановления атаки: {time} секунд
+tooltip_base_attack_cooldown				Базовая перезарядка атаки: {time} сек.
 
 
 
@@ -18727,11 +18727,11 @@ tooltip_movespeed_msg						Это то, насколько быстро геро
 
 
 
-tooltip_teamshare							Toggle Совместное использование курьера с командой
+tooltip_teamshare							Вкл/выкл общий курьер с командой
 
 
 
-tooltip_open_scores							Открытое табло
+tooltip_open_scores							Открыть табло
 
 
 
@@ -18759,7 +18759,7 @@ tooltip_viewgca								Посмотреть GCA
 
 
 
-tooltip_purchase							Покупка HoN
+tooltip_purchase							Купить HoN
 
 
 
@@ -18767,7 +18767,7 @@ tooltip_logout								Выйти
 
 
 
-tooltip_rap								 Краткое описание поведения RAP
+tooltip_rap								 Сводка поведения (RAP)
 
 
 
@@ -18783,7 +18783,7 @@ tooltip_changelog							Журнал изменений
 
 
 
-tooltip_twitchtv 							Потоковое вещание TwitchTV
+tooltip_twitchtv 							Трансляции TwitchTV
 
 
 
@@ -18807,7 +18807,7 @@ tooltip_clan								Клан
 
 
 
-tooltip_ims									Полученные мгновенные сообщения
+tooltip_ims									Полученные сообщения
 
 
 
@@ -18815,7 +18815,7 @@ tooltip_notifications						Полученные уведомления
 
 
 
-tooltip_autoconnect_title					Авто подключение
+tooltip_autoconnect_title					Автоподключение
 
 
 
@@ -18831,7 +18831,7 @@ tooltip_recitems_msg						Эти предметы рекомендуются д�
 
 
 
-tooltip_prim_attrib							Первичный атрибут
+tooltip_prim_attrib							Основной атрибут
 
 
 
@@ -18879,7 +18879,7 @@ tooltip_attack_range_msg					Это значение представляет с
 
 
 
-tooltip_lvl_controls						Контроль уровня и инвентаря
+tooltip_lvl_controls						Уровень и инвентарь
 
 
 
@@ -18899,7 +18899,7 @@ tooltip_hero_announcement					Объявление героя
 
 
 
-tooltip_hero_announcement_msg				Нажмите здесь, чтобы послушать, как анонсер произносит имя этого героя.
+tooltip_hero_announcement_msg				Нажмите здесь, чтобы послушать, как диктор произносит имя этого героя.
 
 
 
@@ -18971,11 +18971,11 @@ tooltip_compendium_altavatars_msg			Просмотрите, купите и вы
 
 
 
-tooltip_detailedfree_hero_info				Бесплатная информация о героях
+tooltip_detailedfree_hero_info				Информация о бесплатных героях
 
 
 
-tooltip_detailedfree_hero_info_msg			Отображает подробную информацию о текущих ролях и способностях свободных героев.
+tooltip_detailedfree_hero_info_msg			Отображает подробную информацию о ролях и способностях текущих бесплатных героев.
 
 
 
@@ -19027,7 +19027,7 @@ tooltip_sort_str_msg						Нажмите здесь, чтобы отсортир
 
 
 
-tooltip_sort_agi							Сортировать по гибкости
+tooltip_sort_agi							Сортировать по ловкости
 
 
 
@@ -19051,7 +19051,7 @@ tooltip_sort_armor_msg						Нажмите здесь, чтобы отсорти
 
 
 
-tooltip_sort_magi_armor						Сортировать по Магической броне
+tooltip_sort_magi_armor						Сортировать по магической броне
 
 
 
@@ -19083,7 +19083,7 @@ tooltip_hero_abils_msg						В этом столбце для каждого г�
 
 
 
-tooltip_faction								Фракция героев
+tooltip_faction								Фракция героя
 
 
 
@@ -19115,11 +19115,11 @@ tooltip_sort_win_msg						Нажмите здесь, чтобы отсортир
 
 
 
-tooltip_sort_lose							Сортировать по потерям
+tooltip_sort_lose							Сортировать по поражениям
 
 
 
-tooltip_sort_lose_msg						Нажмите здесь, чтобы отсортировать список героев по потерям.
+tooltip_sort_lose_msg						Нажмите здесь, чтобы отсортировать список героев по поражениям.
 
 
 
@@ -23210,7 +23210,7 @@ tooltip_detailed_hero_info_msg				Просматривайте основную 
 
 
 
-tooltip_compendium_guide					Путеводители по героям
+tooltip_compendium_guide					Руководства по героям
 
 
 
