@@ -21770,7 +21770,7 @@ mm_auto_region 					АВТО
 
 
 
-mm_auto_region_loading			Поиск серверов с наименьшим временем ответа по цингу {replied} / {total}
+mm_auto_region_loading			Поиск серверов с наименьшим пингом {replied} / {total}
 
 
 
@@ -21802,7 +21802,7 @@ mm_region_code_southamerica	BR
 
 
 
-mm_region_code_russia				РУ
+mm_region_code_russia				RU
 
 
 
@@ -21810,7 +21810,7 @@ mm_region_code_southeastasia	SEA
 
 
 
-mm_region_code_singapore			СГ
+mm_region_code_singapore			SG
 
 
 
@@ -21818,7 +21818,7 @@ mm_region_code_thailand	TH
 
 
 
-mm_region_code_malaysia				МОЙ
+mm_region_code_malaysia				MY
 
 
 
@@ -21830,7 +21830,7 @@ mm_region_code_indonesia			ID
 
 
 
-mm_region_code_vietnam				ВН
+mm_region_code_vietnam				VN
 
 
 
@@ -21838,15 +21838,15 @@ mm_region_code_china				CN
 
 
 
-mm_region_code_korea				КР
+mm_region_code_korea				KR
 
 
 
-mm_region_code_turkey				ТР
+mm_region_code_turkey				TR
 
 
 
-mm_region_code_latinamerica			Лат.
+mm_region_code_latinamerica			LAT
 
 
 
@@ -21858,11 +21858,11 @@ mm_isleaver_onopen				Невозможно присоединиться к по�
 
 
 
-mm_isleaver_onopen_body			В настоящее время вам не разрешено присоединяться к подбору игроков из-за вашего статуса выхода из игры. Учитывая, что на данный момент вы сыграли ^960{gamesplayed}^* и процент выбывших ^922{leaverpercent}^*, вам нужно будет сыграть ^g{matchestoclear}^* больше матчей, не выходя, прежде чем вы сможете играть матчи с помощью системы подбора игроков.
+mm_isleaver_onopen_body			Сейчас вы не можете участвовать в подборе игроков из-за статуса покинувшего. У вас ^960{gamesplayed}^* игр и ^922{leaverpercent}^* выходов, поэтому нужно сыграть еще ^g{matchestoclear}^* матчей без выходов, чтобы снова играть через подбор.
 
 
 
-mm_leaver_resetstats			Кроме того, вы можете приобрести сброс статистики, чтобы очистить процент выбывших и мгновенно получить доступ к подбору игроков и другим играм без выхода.
+mm_leaver_resetstats			Или купите сброс статистики: процент выходов обнулится, и подбор игроков и игры "Без покинувших" станут доступны сразу.
 
 
 
@@ -21870,11 +21870,11 @@ mm_leaver_resetstats			Кроме того, вы можете приобрест
 
 
 
-mm_game_found 					Найдена игра для подбора игроков!
+mm_game_found 					Матч найден!
 
 
 
-mm_timeout_desc 				Найдена игра подбора! Однако вы должны принять это совпадение, прежде чем продолжить. В противном случае вы будете удалены из очереди на подбор игроков.
+mm_timeout_desc 				Матч найден! Примите его, иначе вас уберут из очереди подбора.
 
 
 
@@ -21882,15 +21882,15 @@ mm_timeout_time 				{seconds} секунд, чтобы принять...
 
 
 
-mm_accept_button 				Принять совпадение
+mm_accept_button 				Принять матч
 
 
 
-mm_players_accepted 			Приняты игроки {accepted} / {total}...
+mm_players_accepted 			Приняли: {accepted} / {total}...
 
 
 
-mm_accepted 					Принял!
+mm_accepted 					Принято!
 
 
 
@@ -21898,23 +21898,23 @@ mm_accepted 					Принял!
 
 
 
-mm_group_timeout 				Тайм-аут ТММ
+mm_group_timeout 				Тайм-аут TMM
 
 
 
-mm_group_timeout_others 		Ваша группа не участвовала в матче, поскольку следующие игроки не приняли участие в матче:
+mm_group_timeout_others 		Ваша группа не попала в матч, потому что эти игроки не приняли его:
 
 
 
-mm_group_timeout_self_others 	Ваша группа не приняла участие в матче, поскольку вы и следующие игроки не приняли участие в матче:
+mm_group_timeout_self_others 	Ваша группа не попала в матч, потому что вы и эти игроки не приняли его:
 
 
 
-mm_group_timeout_self 			Ваша группа не участвовала в матче, потому что вы не приняли его.
+mm_group_timeout_self 			Ваша группа не попала в матч, потому что вы не приняли его.
 
 
 
-mm_group_timeout_unknown 		Ваша группа не участвовала в матче из-за неизвестной ошибки.
+mm_group_timeout_unknown 		Ваша группа не попала в матч из-за неизвестной ошибки.
 
 
 
@@ -21934,7 +21934,7 @@ amm_title									Автоматический подбор игроков
 
 
 
-amm_jumptier__tip_title						Присоединяйтесь немедленно
+amm_jumptier__tip_title						Войти сразу
 
 
 
@@ -21954,7 +21954,7 @@ tmm_error 									Ошибка подбора команд
 
 
 
-tmm_bot_error 								Ошибка командного бота для подбора игроков
+tmm_bot_error 								Ошибка бота в командном подборе
 
 
 
@@ -21982,7 +21982,7 @@ tmm_leavegroup 								Покинуть группу
 
 
 
-tmm_leavegroup_tip 							Покиньте свою текущую группу. Если вы лидер, группа будет расформирована.
+tmm_leavegroup_tip 							Покинуть текущую группу. Если вы лидер, группа будет распущена.
 
 
 
@@ -22058,19 +22058,19 @@ main_lobby_amm_find_team					Найти команду
 
 
 
-main_lobby_amm_join_team					Присоединяйтесь к командному пулу
+main_lobby_amm_join_team					Войти в командный пул
 
 
 
-main_lobby_amm_join_solo					Присоединяйтесь к одиночному пулу
+main_lobby_amm_join_solo					Войти в одиночный пул
 
 
 
-main_lobby_amm_join_solo_progress			Присоединяюсь...
+main_lobby_amm_join_solo_progress			Вход...
 
 
 
-main_lobby_amm_current_wait					Ждал: {time}
+main_lobby_amm_current_wait					Ожидание: {time}
 
 
 
@@ -22086,7 +22086,7 @@ main_lobby_amm_status_in_pool				Ищем игроков...
 
 
 
-main_lobby_amm_looking_for_server			Поиск сервера...
+main_lobby_amm_looking_for_server			Матч найден! Поиск сервера...
 
 
 
@@ -22094,7 +22094,7 @@ main_lobby_amm_waiting_for_server			Матч найден! Ожидание за
 
 
 
-main_lobby_amm_waiting_for_players			Жду других игроков...
+main_lobby_amm_waiting_for_players			Ожидание других игроков...
 
 
 
@@ -22142,11 +22142,11 @@ matchamaker_connected_content				Вы подключены и ждете, пок
 
 
 
-matchmaker_alert_leaver_msg					Отключение от очереди на этом этапе приведет к добавлению отпуска в вашу статистику!
+matchmaker_alert_leaver_msg					Если сейчас выйти из очереди, в статистику запишется выход из игры!
 
 
 
-matchmaker_alert_discoed_tip				Этот игрок не удалось загрузить. Новый игрок будет найден и помещен в этот слот.
+matchmaker_alert_discoed_tip				Этому игроку не удалось загрузиться. На его место будет найден новый игрок.
 
 
 
@@ -22162,7 +22162,7 @@ matchmaker_alert_key_failed					Не удалось
 
 
 
-matchmaker_reject_unknown					Отклонено из пула подбора игроков.
+matchmaker_reject_unknown					Отказ в доступе к пулу подбора.
 
 
 
@@ -22186,7 +22186,7 @@ matchmaker_status_msg						Система подбора игроков в на�
 
 
 
-matchmaker_status_leaver_msg				Как только все десять игроков будут найдены и вы начнете загрузку, вы не сможете отключиться без добавления отпуска в вашу статистику!
+matchmaker_status_leaver_msg				Когда все десять игроков найдены и началась загрузка, отключиться без записи выхода в статистику уже нельзя!
 
 
 
@@ -22218,7 +22218,7 @@ matchmaker_intermediate_desc				Эта опция позволит вам чащ
 
 
 
-matchmaker_intermediate_btn					Я средний
+matchmaker_intermediate_btn					У меня средний уровень
 
 
 
@@ -22226,11 +22226,11 @@ matchmaker_expert							Хардкор
 
 
 
-matchmaker_expert_desc						Этот вариант позволит вам подобрать игроков с очень высоким уровнем навыков. Если вы выберете этот вариант, если у вас нет большого опыта игры в HoN, игры будут очень грубыми и неинтересными.
+matchmaker_expert_desc						С этим вариантом вас будут сводить с очень сильными игроками. Если у вас нет большого опыта в HoN, игры будут очень тяжелыми и безрадостными.
 
 
 
-matchmaker_expert_btn						Я хардкор
+matchmaker_expert_btn						Я хардкорщик
 
 
 
@@ -22238,7 +22238,7 @@ matchmaker_initial_rating_description		Пожалуйста, выберите с
 
 
 
-matchmaker_leaver_description				^922Вы - выпускник.
+matchmaker_leaver_description				^922Вы - покинувший.
 
 
 
@@ -22310,7 +22310,7 @@ amm_chat_wait_msg							Игроки в настоящее время подкл
 
 
 
-amm_chat_drops_msg							Игрок(и) {X} не присоединились к матчу из очереди и будут заменены другими игроками, которые в данный момент находятся в очереди. Пожалуйста, наберитесь терпения, это вообще может занять много времени.
+amm_chat_drops_msg							Игроков, не вошедших в матч из очереди: {X}. Их заменят другими игроками из очереди. Пожалуйста, подождите, это не займет много времени.
 
 
 
@@ -22322,7 +22322,7 @@ amm_chat_drops_msg							Игрок(и) {X} не присоединились к
 
 
 
-notify_join_game							Присоединился к игре
+notify_join_game							Присоединиться к игре
 
 
 
@@ -22334,7 +22334,7 @@ notify_view_tournaments						Просмотр турниров
 
 
 
-notify_join_chan							Присоединяйтесь к каналу
+notify_join_chan							Войти в канал
 
 
 
@@ -22342,7 +22342,7 @@ notify_view_results							Посмотреть результаты игры
 
 
 
-notify_watch									Смотрите сейчас!
+notify_watch									Смотреть!
 
 
 
@@ -22370,7 +22370,7 @@ notify_unknown_text							Отсутствует тип уведомления
 
 
 
-notify_buddy_adder_situation				Добавить в друзья
+notify_buddy_adder_situation				Добавление в друзья
 
 
 
@@ -22402,7 +22402,7 @@ notify_buddy_added_info						и вы теперь друзья.
 
 
 
-notify_buddy_remover_situation				Удалить друга
+notify_buddy_remover_situation				Удаление из друзей
 
 
 
@@ -22410,7 +22410,7 @@ notify_buddy_remover_dependent
 
 
 
-notify_buddy_remover_info					Удалил вас из своего списка друзей.
+notify_buddy_remover_info					удалил вас из своего списка друзей.
 
 
 
@@ -22426,7 +22426,7 @@ notify_buddy_removed_dependent				{name}
 
 
 
-notify_buddy_removed_info					Был удален из вашего списка друзей.
+notify_buddy_removed_info					удален из вашего списка друзей.
 
 
 
@@ -22442,7 +22442,7 @@ notify_clan_rank_dependent
 
 
 
-notify_clan_rank_info						Было изменено на "{rank}".
+notify_clan_rank_info						теперь "{rank}".
 
 
 
@@ -22458,7 +22458,7 @@ notify_clan_add_dependent
 
 
 
-notify_clan_add_info						Вступил в клан.
+notify_clan_add_info						вступил в клан.
 
 
 
@@ -22474,11 +22474,11 @@ notify_clan_remove_dependent
 
 
 
-notify_clan_remove_info						Покинул клан.
+notify_clan_remove_info						покинул клан.
 
 
 
-notify_clan_remove_info_removed				Был удален {name}.
+notify_clan_remove_info_removed				исключен игроком {name}.
 
 
 
@@ -22486,7 +22486,7 @@ notify_clan_remove_info_removed				Был удален {name}.
 
 
 
-notify_buddy_online_situation				Регистрация друга
+notify_buddy_online_situation				Друг в сети
 
 
 
@@ -22494,7 +22494,7 @@ notify_buddy_online_dependent
 
 
 
-notify_buddy_online_info					Вошел в систему.
+notify_buddy_online_info					вошел в систему.
 
 
 
@@ -22510,7 +22510,7 @@ notify_buddy_left_game_dependent
 
 
 
-notify_buddy_left_game_info					Вышел из игры.
+notify_buddy_left_game_info					вышел из игры.
 
 
 
@@ -22518,7 +22518,7 @@ notify_buddy_left_game_info					Вышел из игры.
 
 
 
-notify_buddy_offline_situation				Друг Выйти
+notify_buddy_offline_situation				Друг вышел
 
 
 
@@ -22526,7 +22526,7 @@ notify_buddy_offline_dependent
 
 
 
-notify_buddy_offline_info					Вышел из системы.
+notify_buddy_offline_info					вышел из системы.
 
 
 
@@ -22542,7 +22542,7 @@ notify_buddy_join_game_dependent
 
 
 
-notify_buddy_join_game_info					Присоединился к игре
+notify_buddy_join_game_info					присоединился к игре
 
 
 
@@ -22550,7 +22550,7 @@ notify_buddy_join_game_info					Присоединился к игре
 
 
 
-notify_clan_online_situation				Вход в систему для членов клана
+notify_clan_online_situation				Соклановец в сети
 
 
 
@@ -22558,7 +22558,7 @@ notify_clan_online_dependent
 
 
 
-notify_clan_online_info						Вошел в систему.
+notify_clan_online_info						вошел в систему.
 
 
 
@@ -22574,7 +22574,7 @@ notify_clan_left_game_dependent
 
 
 
-notify_clan_left_game_info 					Оставил "{gamename}".
+notify_clan_left_game_info 					покинул "{gamename}".
 
 
 
@@ -22582,7 +22582,7 @@ notify_clan_left_game_info 					Оставил "{gamename}".
 
 
 
-notify_clan_offline_situation				Выход члена клана
+notify_clan_offline_situation				Соклановец вышел
 
 
 
@@ -22590,7 +22590,7 @@ notify_clan_offline_dependent
 
 
 
-notify_clan_offline_info					Вышел из системы.
+notify_clan_offline_info					вышел из системы.
 
 
 
@@ -22606,7 +22606,7 @@ notify_clan_join_game_dependent
 
 
 
-notify_clan_join_game_info					Присоединился к игре.
+notify_clan_join_game_info					присоединился к игре.
 
 
 
@@ -22614,11 +22614,11 @@ notify_clan_join_game_info					Присоединился к игре.
 
 
 
-notify_clan_whisper_title					Клан Шепот
+notify_clan_whisper_title					Шепот клана
 
 
 
-notify_clan_whisper_text					- прошептал клан.
+notify_clan_whisper_text					шепчет клану.
 
 
 
@@ -22658,7 +22658,7 @@ notify_generic_text
 
 
 
-notify_im_situation							Мгновенное сообщение получено
+notify_im_situation							Получено сообщение
 
 
 
@@ -22666,7 +22666,7 @@ notify_im_dependent
 
 
 
-notify_im_info								Отправил вам мгновенное сообщение.
+notify_im_info								отправил вам сообщение.
 
 
 
@@ -22682,7 +22682,7 @@ notify_game_invite_dependent
 
 
 
-notify_game_invite_info						Пригласил вас присоединиться к игре.
+notify_game_invite_info						пригласил вас в игру.
 
 
 
@@ -22690,15 +22690,15 @@ notify_game_invite_info						Пригласил вас присоединить�
 
 
 
-notify_self_join_game_situation				Самостоятельное присоединение
+notify_self_join_game_situation				Вход в игру
 
 
 
-notify_self_join_game_dependent				Ты
+notify_self_join_game_dependent				Вы
 
 
 
-notify_self_join_game_info					Присоединился к '{gamename}'.
+notify_self_join_game_info					присоединились к '{gamename}'.
 
 
 
@@ -22710,11 +22710,11 @@ notify_buddy_requested_adder_situation		Запрос на добавление �
 
 
 
-notify_buddy_requested_adder_dependent		Ты
+notify_buddy_requested_adder_dependent		Вы
 
 
 
-notify_buddy_requested_adder_info			Отправил запрос в друзья.
+notify_buddy_requested_adder_info			отправили запрос в друзья.
 
 
 
@@ -22730,7 +22730,7 @@ notify_buddy_requested_added_dependent		{name}
 
 
 
-notify_buddy_requested_added_info			Просил тебя в друзья.
+notify_buddy_requested_added_info			хочет добавить вас в друзья.
 
 
 
@@ -22746,7 +22746,7 @@ notify_group_invite_dependent				{name}
 
 
 
-notify_group_invite_info					Пригласил вас присоединиться к группе.
+notify_group_invite_info					пригласил вас в группу.
 
 
 
@@ -22770,7 +22770,7 @@ notify_active_stream_info					Стрим уже онлайн!
 
 
 
-notify_replay_available_situation			Воспроизведение готово
+notify_replay_available_situation			Повтор готов
 
 
 
@@ -22778,7 +22778,7 @@ notify_replay_available_dependent
 
 
 
-notify_replay_available_info				Реплей готов!
+notify_replay_available_info				Повтор готов!
 
 
 
@@ -22794,7 +22794,7 @@ notify_cloudsave_upload_success_dependent
 
 
 
-notify_cloudsave_upload_success_info			Загрузка прошла успешно.
+notify_cloudsave_upload_success_info			Выгрузка прошла успешно.
 
 
 
@@ -22810,7 +22810,7 @@ notify_cloudsave_upload_fail_dependent
 
 
 
-notify_cloudsave_upload_fail_info				Загрузка не удалась.
+notify_cloudsave_upload_fail_info				Выгрузка не удалась.
 
 
 
@@ -22826,7 +22826,7 @@ notify_cloudsave_download_success_dependent
 
 
 
-notify_cloudsave_download_success_info			Скачать Успех.
+notify_cloudsave_download_success_info			Скачивание прошло успешно.
 
 
 
@@ -22842,7 +22842,7 @@ notify_cloudsave_download_fail_dependent
 
 
 
-notify_cloudsave_download_fail_info				Загрузка не удалась.
+notify_cloudsave_download_fail_info				Скачивание не удалось.
 
 
 
@@ -22858,7 +22858,7 @@ notify_clan_invite_dependent				{name}
 
 
 
-notify_clan_invite_info						Пригласил вас вступить в клан ^990{clan}^*.
+notify_clan_invite_info						пригласил вас в клан ^990{clan}^*.
 
 
 
@@ -22866,7 +22866,7 @@ notify_clan_invite_info						Пригласил вас вступить в кл�
 
 
 
-notify_match_id								Номер совпадения
+notify_match_id								Матч №
 
 
 
@@ -22950,7 +22950,7 @@ compendium_controls_soon					Скоро появятся элементы упр
 
 
 
-compendium_primary_atrib					Первичный атрибут:
+compendium_primary_atrib					Основной атрибут:
 
 
 
@@ -22962,7 +22962,7 @@ compendium_attack_type						Тип атаки:
 
 
 
-compendium_melee_range						Ближний бой/Дистанция
+compendium_melee_range						Ближний/дальний бой
 
 
 
@@ -22970,7 +22970,7 @@ compendium_type_melee						Ближний бой
 
 
 
-compendium_type_ranged						Дальнего боя
+compendium_type_ranged						Дальний бой
 
 
 
@@ -22990,7 +22990,7 @@ compendium_coupon							Используйте свой купон!
 
 
 
-compendium_usage_list_header				Ниже приводится сводная статистика использования героев за последние 7 дней. Всего было использовано героев {value}.
+compendium_usage_list_header				Ниже приводится сводная статистика использования героев за последние 7 дней. Всего использовано героев: {value}.
 
 
 
@@ -23006,7 +23006,7 @@ compendium_usage_sort_win					Процент побед
 
 
 
-compendium_usage_sort_loss					Процент потерь
+compendium_usage_sort_loss					Процент поражений
 
 
 
@@ -23042,7 +23042,7 @@ compendium_armor							Броня
 
 
 
-compendium_atk_dmg							Атк. Урон.
+compendium_atk_dmg							Урон атаки
 
 
 
@@ -23066,7 +23066,7 @@ compendium_m_wins							Победы
 
 
 
-compendium_m_loses							Потери
+compendium_m_loses							Поражения
 
 
 
@@ -23086,23 +23086,23 @@ compendium_m_assists						Ассисты
 
 
 
-compendium_m_cks							СК
+compendium_m_cks							CK
 
 
 
-compendium_m_cds							КД
+compendium_m_cds							CD
 
 
 
-compendium_m_xpm							ХПМ
+compendium_m_xpm							XPM
 
 
 
-compendium_m_gpm							ГПМ
+compendium_m_gpm							GPM
 
 
 
-compendium_m_apm							АПМ
+compendium_m_apm							APM
 
 
 
@@ -23122,7 +23122,7 @@ compendium_get_from_cache					Получение из кэша...
 
 
 
-compendium_get_guide					 	Руководство по получению
+compendium_get_guide					 	Получение руководства
 
 
 
@@ -23142,7 +23142,7 @@ compendium_list_detailed					Подробный список героев
 
 
 
-compendium_list_detailed_free				Бесплатный список героев
+compendium_list_detailed_free				Список бесплатных героев
 
 
 
@@ -23154,7 +23154,7 @@ compendium_list_usage						Статистика использования
 
 
 
-compendium_guides							Путеводители
+compendium_guides							Руководства
 
 
 
@@ -23190,7 +23190,7 @@ compendium_cat_legion_str					Герои силы Легиона
 
 
 
-compendium_cat_hellbourne_str				Силовые герои Хеллборна
+compendium_cat_hellbourne_str				Герои силы Хеллборна
 
 
 
@@ -23234,7 +23234,7 @@ tooltip_compendium_createguide2				Создать руководство
 
 
 
-tooltip_primary_attribute_strength			Основной атрибут этого героя - Сила.
+tooltip_primary_attribute_strength			Основной атрибут этого героя - сила.
 
 
 
@@ -23242,7 +23242,7 @@ tooltip_primary_attribute_agility			Основной атрибут этого �
 
 
 
-tooltip_primary_attribute_intelligence		Основной характеристикой этого героя является Интеллект.
+tooltip_primary_attribute_intelligence		Основной атрибут этого героя - интеллект.
 
 
 
@@ -23498,7 +23498,7 @@ ladder_field_Rank							Ранг
 
 
 
-ladder_error_nodata							В настоящее время данные о лестнице недоступны.
+ladder_error_nodata							Данные рейтинга сейчас недоступны.
 
 
 
@@ -23506,7 +23506,7 @@ ladder_error_nodata							В настоящее время данные о ле�
 
 
 
-ladder_title								 Лестница игроков
+ladder_title								 Рейтинг игроков
 
 
 
@@ -23778,11 +23778,11 @@ ladder_currentpage							Текущая страница: {page} из {totalpage
 
 
 
-ladder_loading_title						Загрузочная лестница
+ladder_loading_title						Загрузка рейтинга
 
 
 
-ladder_loading_body							Загрузка данных релейной схемы, пожалуйста, подождите...
+ladder_loading_body							Загрузка данных рейтинга, подождите...
 
 
 
@@ -23790,7 +23790,7 @@ ladder_view_page							Просмотр страницы:
 
 
 
-ladder_page_go								Иди
+ladder_page_go								Перейти
 
 
 
@@ -23802,7 +23802,7 @@ ladder_merow_nohistory						У вас нет истории матчей!
 
 
 
-ladder_error_message						Произошла ошибка при получении лестницы игрока.
+ladder_error_message						Произошла ошибка при получении рейтинга игроков.
 
 
 
@@ -23869,7 +23869,7 @@ ladder_error_message						Произошла ошибка при получен�
 
 
 
-lang_en										Русский
+lang_en										Английский
 
 
 
@@ -23957,15 +23957,15 @@ purch_giftacct								Купить подарочный аккаунт
 
 
 
-purch_upgradefriend							Обновить друга
+purch_upgradefriend							Улучшить аккаунт друга
 
 
 
-purch_upgradeaccount						Обновить аккаунт
+purch_upgradeaccount						Улучшить аккаунт
 
 
 
-purch_nickchange							Изменить псевдоним
+purch_nickchange							Сменить ник
 
 
 
@@ -24005,7 +24005,7 @@ watch_user_ranged							Дальний:
 
 
 
-watch_user_base_health						Базовое здоровье:
+watch_user_base_health						Здоровье базы:
 
 
 
@@ -24057,7 +24057,7 @@ garenaVIP_title								Преимущества покупки VIP-аккаун�
 
 
 
-garenaVIP_priority							Приоритетный доступ к полноценным игровым серверам
+garenaVIP_priority							Приоритетный вход на заполненные серверы
 
 
 
@@ -24077,7 +24077,7 @@ garenaVIP_eap								Ранний доступ к новым героям
 
 
 
-garenaVIP_eap_txt							Играйте в героев, как только они будут выпущены! Начните осваивать новых героев как можно раньше.
+garenaVIP_eap_txt							Играйте новыми героями сразу после выхода! Начните осваивать их раньше всех.
 
 
 
@@ -24085,15 +24085,15 @@ garenaVIP_goldstatus						Золотой статус
 
 
 
-garenaVIP_goldstatus_txt					Сообщите своим коллегам-игрокам HoN, что вы VIP, с помощью нашего специального золотого значка.
+garenaVIP_goldstatus_txt					Покажите другим игрокам HoN, что вы VIP, с помощью особого золотого значка.
 
 
 
-garenaVIP_taunt								Способность насмешки
+garenaVIP_taunt								Провокация
 
 
 
-garenaVIP_taunt_txt							Сотрите свои навыки перед лицом своих противников, нанеся на них Smackdown!
+garenaVIP_taunt_txt							Покажите соперникам, кто тут главный, устроив им разгром!
 
 
 
@@ -24121,7 +24121,7 @@ garenaVIP_url2								http://shop.garena.com/hon/
 
 
 
-create_game_token_required					Для этой игры требуется токен
+create_game_token_required					Для этой игры требуется жетон
 
 
 
@@ -24145,7 +24145,7 @@ confirm_too_many_friends_msg				Вы заполнили все доступны�
 
 
 
-confirm_buy_courier_title					Обновить Курьера?
+confirm_buy_courier_title					Улучшить курьера?
 
 
 
@@ -24153,7 +24153,7 @@ confirm_buy_courier_msg						Хотите улучшить этого курье
 
 
 
-confirm_need_tokens_title					Недостаточно токенов
+confirm_need_tokens_title					Недостаточно жетонов
 
 
 
@@ -24161,7 +24161,7 @@ confirm_need_tokens_msg						Для игры в этом режиме вам н�
 
 
 
-confirm_warn_tokens_title					Требуется токен
+confirm_warn_tokens_title					Требуется жетон
 
 
 
@@ -24169,7 +24169,7 @@ confirm_warn_tokens_msg						Вы будете использовать жето
 
 
 
-confirm_token_warn_da						Больше не предупреждай меня
+confirm_token_warn_da						Больше не предупреждать
 
 
 
@@ -24177,7 +24177,7 @@ confirm_warn_unverified_title				Игрок без рейтинга
 
 
 
-confirm_warn_unverified_msg					{player} не может участвовать в рейтинговых матчах. Ваши настройки будут изменены, если вы примете их в свою группу подбора игроков.
+confirm_warn_unverified_msg					{player} не может участвовать в рейтинговых матчах. Если принять его в группу подбора, ваши настройки будут изменены.
 
 
 
@@ -24193,7 +24193,7 @@ confirm_warn_noteligibleforcampaign_title	Предупреждение
 
 
 
-confirm_warn_noteligibleforcampaign_msg		{player} не может участвовать в матчах кампании. Ваши настройки будут изменены, если вы примете их в свою группу подбора игроков.
+confirm_warn_noteligibleforcampaign_msg		{player} не может участвовать в матчах кампании. Если принять его в группу подбора, ваши настройки будут изменены.
 
 
 
@@ -24201,7 +24201,7 @@ confirm_warn_noteligibleforcampaign_msg		{player} не может участво
 
 
 
-general_purchase_token						Купить токены
+general_purchase_token						Купить жетоны
 
 
 
@@ -24241,7 +24241,7 @@ sysbar_token_tip_title_legacy				Жетоны и игровые пропуска
 
 
 
-sysbar_token_tip_msg_legacy					Как устаревший игрок, вы имеете бесконечное количество жетонов и можете играть в любом игровом режиме в любое время.
+sysbar_token_tip_msg_legacy					Как игрок Legacy, вы имеете бесконечное количество жетонов и можете играть в любом игровом режиме в любое время.
 
 
 
@@ -24265,11 +24265,11 @@ sysbar_driver_restarted_desc				Ваш видеодрайвер перестал
 
 
 
-gl_incorrect_display 						OpenGL - неправильное отображение
+gl_incorrect_display 						OpenGL - не тот дисплей
 
 
 
-gl_incorrect_display_desc 					Ваше окно HoN в настоящее время отображается не на том же дисплее, который вы выбрали в параметрах. Для оптимальной производительности вам следует выбрать правильное отображение в параметрах и перезапустить HoN или переместить окно на правильное отображение.
+gl_incorrect_display_desc 					Окно HoN сейчас не на том дисплее, который выбран в настройках. Для лучшей производительности выберите нужный дисплей в настройках и перезапустите HoN или переместите окно на выбранный дисплей.
 
 
 
@@ -24293,7 +24293,7 @@ main_mods_header							Следующие файлы были загружены
 
 
 
-tmm_player_needs_tokens					Этот плеер не может играть с текущими опциями.
+tmm_player_needs_tokens					Этот игрок не может играть с текущими опциями.
 
 
 
@@ -24301,7 +24301,7 @@ tmm_player_not_verified					Этот игрок не проверен и не м
 
 
 
-tmm_player_is_ready						Этот плеер готов к работе!
+tmm_player_is_ready						Этот игрок готов!
 
 
 
@@ -24321,11 +24321,11 @@ sysbar_no_passes_active					У вас нет активных пропусков
 
 
 
-hontour_lobby_title						ХоН Тур
+hontour_lobby_title						HoN Tour
 
 
 
-hontour_playnow							HoN-тур
+hontour_playnow							HoN Tour
 
 
 
@@ -24357,7 +24357,7 @@ cg_disabled_tip							Создание многопользовательско�
 
 
 
-specui_kda			Убийства Смерти Помощь
+specui_kda			Убийства/смерти/помощь
 
 
 
@@ -24365,7 +24365,7 @@ specui_kda_tip		Здесь показано количество очков ге
 
 
 
-specui_xp			Опыт/М
+specui_xp			Опыт/мин
 
 
 
@@ -24393,11 +24393,11 @@ specui_cd			Денаи крипов
 
 
 
-specui_cd_tip		Это показывает общее количество минаев крипов игроком.
+specui_cd_tip		Здесь показано общее число денаев крипов игроком.
 
 
 
-specui_bdmg			Повреждения зданий
+specui_bdmg			Урон зданиям
 
 
 
@@ -24405,7 +24405,7 @@ specui_bdmg_tip		Это показывает урон, нанесенный иг
 
 
 
-specui_hdmg			Урон героя
+specui_hdmg			Урон героям
 
 
 
@@ -24469,7 +24469,7 @@ specui_hellbourne_tip	Щелкните левой кнопкой мыши, чт�
 
 
 
-specui_color_dot	Единичные фреймы
+specui_color_dot	Рамки юнитов
 
 
 
@@ -24497,7 +24497,7 @@ specui_tower_team			Командные башни
 
 
 
-specui_tower_team_tip		Остальные башни для этой команды.
+specui_tower_team_tip		Оставшиеся башни команды.
 
 
 
@@ -24505,15 +24505,15 @@ specui_raxx_team			Командные казармы
 
 
 
-specui_raxx_team_tip		Остались казармы для этой команды.
+specui_raxx_team_tip		Оставшиеся казармы команды.
 
 
 
-specui_base_health_team			Базовое здоровье команды
+specui_base_health_team			Здоровье базы команды
 
 
 
-specui_base_health_team_tip		Оставшееся базовое здоровье команды, используемое в качестве очков в Rift Wars.
+specui_base_health_team_tip		Оставшееся здоровье базы команды, в Rift Wars это очки.
 
 
 
@@ -24521,7 +24521,7 @@ specui_base_health_team_tip		Оставшееся базовое здоровь�
 
 
 
-specui_help_1						Добро пожаловать, зритель!
+specui_help_1						Добро пожаловать, наблюдатель!
 
 
 
@@ -24537,11 +24537,11 @@ specui_help_4						Показать дополнительную информа�
 
 
 
-specui_help_5						Держите
+specui_help_5						Удерживать
 
 
 
-specui_help_6						Вкладка "Изменить информацию"
+specui_help_6						Сменить вкладку информации
 
 
 
@@ -24569,15 +24569,15 @@ specui_help_12 					Нажмите
 
 
 
-specui_help_13 					Дополнительные возможности
+specui_help_13 					для других опций
 
 
 
-specui_help_14 					Отображение ярлыков
+specui_help_14 					Показать подписи
 
 
 
-specui_help_15 					Заблокировать/разблокировать камеру плеера
+specui_help_15 					Закрепить/открепить камеру на игроке
 
 
 
@@ -24589,11 +24589,11 @@ specui_help_quickHide 				Быстрое скрытие информации
 
 
 
-specui_help_holdOrTap 				Удерживайте или коснитесь
+specui_help_holdOrTap 				Удерживать или нажать
 
 
 
-specui_help_jumpToPOV				Перейти к точке зрения игроков
+specui_help_jumpToPOV				Вид от лица игрока
 
 
 
@@ -24625,7 +24625,7 @@ specui_help_minimalist 				Включить "минималистские" па�
 
 
 
-specui_options_header				Параметры интерфейса зрителя
+specui_options_header				Параметры интерфейса наблюдателя
 
 
 
@@ -24641,7 +24641,7 @@ specui_options_showItemPurch		Покупки предметов
 
 
 
-specui_options_showItemPurch_txt	Всплывающие окна покупок предметов рядом с унитаризмами игроков.
+specui_options_showItemPurch_txt	Показывать покупки предметов рядом с рамками игроков.
 
 
 
@@ -24649,7 +24649,7 @@ specui_options_showHotkeys			Показать горячие клавиши
 
 
 
-specui_options_showHotkeys_txt		Отображение горячих клавиш в пользовательском интерфейсе Spec.
+specui_options_showHotkeys_txt		Показывать горячие клавиши в интерфейсе наблюдателя.
 
 
 
@@ -24673,7 +24673,7 @@ specui_options_miniMode				Минималистская верхняя пане�
 
 
 
-specui_options_miniMode_txt			Уменьшите влияние элементов на экране. Требуется перезапуск HoN.
+specui_options_miniMode_txt			Меньше элементов на экране. Нужен перезапуск HoN.
 
 
 
@@ -24681,7 +24681,7 @@ specui_options_miniMode1			Минималистская информационн
 
 
 
-specui_options_miniMode1_txt		Уменьшите влияние элементов на экране. Требуется перезапуск HoN.
+specui_options_miniMode1_txt		Меньше элементов на экране. Нужен перезапуск HoN.
 
 
 
@@ -24689,7 +24689,7 @@ specui_options_miniMode2			Минималистские юнит-фреймы
 
 
 
-specui_options_miniMode2_txt		Уменьшите влияние элементов на экране. Требуется перезапуск HoN.
+specui_options_miniMode2_txt		Меньше элементов на экране. Нужен перезапуск HoN.
 
 
 
@@ -24697,7 +24697,7 @@ specui_options_miniMode3			Минималистичный режим
 
 
 
-specui_options_miniMode3_txt		Уменьшите влияние элементов на экране. Требуется перезапуск HoN.
+specui_options_miniMode3_txt		Меньше элементов на экране. Нужен перезапуск HoN.
 
 
 
@@ -24705,11 +24705,11 @@ specui_options_costThreshold		Порог стоимости
 
 
 
-specui_options_costThreshold_txt	Отображается минимальная стоимость покупки товара. Обратите внимание, что предметы рецепта пропустят эту проверку.
+specui_options_costThreshold_txt	Минимальная стоимость покупки, которую нужно показывать. Рецепты показываются всегда.
 
 
 
-specui_options_popupLife			Всплывающая жизнь
+specui_options_popupLife			Время уведомления
 
 
 
@@ -24717,7 +24717,7 @@ specui_options_popupLife_txt		Время в секундах, в течение 
 
 
 
-specui_options_popupCD				Всплывающий компакт-диск
+specui_options_popupCD				Перезарядка уведомления
 
 
 
@@ -24741,11 +24741,11 @@ specui_options_abilityUsage_txt		Отображение всплывающих �
 
 
 
-specui_options_hideChat				Игнорировать чат зрителя
+specui_options_hideChat				Игнорировать чат наблюдателей
 
 
 
-specui_options_hideChat_txt			Игнорировать командный чат зрителей.
+specui_options_hideChat_txt			Игнорировать командный чат наблюдателей.
 
 
 
@@ -24761,7 +24761,7 @@ specui_graph_xpm 					Опыт в минуту
 
 
 
-specui_graph_damage					Урон героя
+specui_graph_damage					Урон героям
 
 
 
@@ -26029,7 +26029,7 @@ social_panel_enter_name				Введите имя игрока...
 
 
 
-social_groups_newIM					Новый обмен мгновенными сообщениями
+social_groups_newIM					Новое сообщение
 
 
 
