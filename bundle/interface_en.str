@@ -29437,7 +29437,7 @@ match_stats_local_botgame 						Вы прошли локальную игру с
 
 
 
-votes_required									Требуемые голоса: {count}
+votes_required									Нужно голосов: {count}
 
 
 
@@ -29449,11 +29449,11 @@ votes_required									Требуемые голоса: {count}
 
 
 
-sysbar_muted_notice								Ваш аккаунт отключен. \\nВаши права чата и VOIP были ограничены еще на {days} дней.
+sysbar_muted_notice								Ваш аккаунт заглушен.\\nЧат и VOIP ограничены еще на {days} дн.
 
 
 
-im_muted										^rВ настоящее время у вас отключен звук, и вы можете отправлять мгновенные сообщения только друзьям или членам клана. Ваш звук будет включен через {days} дней.
+im_muted										^rВам запрещено писать в чат: сообщения можно отправлять только друзьям и соклановцам. Запрет снимется через {days} дн.
 
 
 
@@ -29465,7 +29465,7 @@ im_muted										^rВ настоящее время у вас отключен 
 
 
 
-ph_header_1					Игры, размещаемые игроком
+ph_header_1					Игры игроков
 
 
 
@@ -29481,7 +29481,7 @@ ph_join_game				Подключиться
 
 
 
-ph_options					Параметры настройки игры
+ph_options					Настройки игры
 
 
 
@@ -29493,19 +29493,19 @@ ph_options					Параметры настройки игры
 
 
 
-referrer_header 				Сделайте {username} своим рефералом!
+referrer_header 				Сделайте {username} своим реферером!
 
 
 
-referrer_title 					Установите свой рефери
+referrer_title 					Укажите реферера
 
 
 
-referrer_desc 					И вы, и ваш рефери получите вознаграждение.
+referrer_desc 					И вы, и ваш реферер получите награду.
 
 
 
-referrer_left_button 			Сделайте это!
+referrer_left_button 			Вперед!
 
 
 
@@ -29517,7 +29517,7 @@ referrer_seccess_body 			Вознаграждение будет зачисле�
 
 
 
-set_referrer_error				Ошибка установки реферирую
+set_referrer_error				Ошибка при указании реферера
 
 
 
@@ -29537,7 +29537,7 @@ ui_main_walkthrough_2			Вы получили награды за заверше
 
 
 
-ui_main_walkthrough_3			Нажмите здесь, чтобы приобрести альтернативный аватар "Женский героймант".
+ui_main_walkthrough_3			Нажмите здесь, чтобы купить альтернативный аватар Female Pyromancer.
 
 
 
@@ -29549,7 +29549,7 @@ ui_main_walkthrough_5			Нажмите здесь, чтобы узнать бо�
 
 
 
-ui_main_walkthrough_0			Выйти из прохождения
+ui_main_walkthrough_0			Выйти из обучения
 
 
 
@@ -29561,7 +29561,7 @@ ui_main_walkthrough_0			Выйти из прохождения
 
 
 
-HeroCategory_cc								Контроль толпы
+HeroCategory_cc								Контроль
 
 
 
@@ -29569,7 +29569,7 @@ HeroCategory_magic							Маг. урон
 
 
 
-HeroCategory_muc							Многоблочное управление
+HeroCategory_muc							Управление юнитами
 
 
 
@@ -29597,11 +29597,11 @@ radial_attack 					Атакуйте!
 
 
 
-radial_defend					Защищать!
+radial_defend					Защищайте!
 
 
 
-radial_getBack					Вернись!
+radial_getBack					Назад!
 
 
 
@@ -29609,19 +29609,19 @@ radial_heroMissing				Герой пропал
 
 
 
-radial_missingTop				Пропавший герой становится лидером
+radial_missingTop				Пропавший идет наверх
 
 
 
-radial_missingMid 				Пропавший герой идет в мид
+radial_missingMid 				Пропавший идет на мид
 
 
 
-radial_missingBottom			Пропавший герой идет ко дну
+radial_missingBottom			Пропавший идет вниз
 
 
 
-radial_gank						Идем в Ганк
+radial_gank						Иду ганкать
 
 
 
@@ -29633,11 +29633,11 @@ radial_help						Нужна помощь здесь!
 
 
 
-radial_fightHere				Сражайтесь здесь!
+radial_fightHere				Деремся здесь!
 
 
 
-radial_comingToHelp				Приду на помощь
+radial_comingToHelp				Иду на помощь
 
 
 
@@ -29653,7 +29653,7 @@ radial_alert					Тревога!
 
 
 
-eightBitButton_tip 				Нажмите эту кнопку, чтобы подписаться на новый экспериментальный графический режим или выйти из него.
+eightBitButton_tip 				Нажмите, чтобы включить или выключить новый экспериментальный графический режим.
 
 
 
@@ -29697,19 +29697,19 @@ sysmessage_footer_website			Подробности можно узнать на 
 
 
 
-sysmessage_product_system			Вы получили товар!
+sysmessage_product_system			Вы получили предмет!
 
 
 
-sysmessage_product_system_body		В ваш аккаунт добавлен следующий товар:
+sysmessage_product_system_body		В ваш аккаунт добавлен следующий предмет:
 
 
 
-sysmessage_product_removed			Объект был удален
+sysmessage_product_removed			Предмет удален
 
 
 
-sysmessage_product_removed_body		Следующий элемент был удален из вашей учетной записи:
+sysmessage_product_removed_body		Из вашего аккаунта удален следующий предмет:
 
 
 
@@ -29725,11 +29725,11 @@ sysmessage_product_gift_body		Ваш друг ^g{gifterNick}^* подарил в
 
 
 
-sysmessage_downtime					Уведомление о простое
+sysmessage_downtime					Технические работы
 
 
 
-sysmessage_downtime_body			Система не работает. Мы восстановим ситуацию как можно быстрее. Пожалуйста, проявите терпение, пока мы работаем над этой проблемой.
+sysmessage_downtime_body			Система не работает. Мы восстановим ее как можно быстрее. Пожалуйста, подождите, пока мы решаем проблему.
 
 
 
@@ -29741,7 +29741,7 @@ sysmessage_gold_friend				Вы получили золотые монеты!
 
 
 
-sysmessage_gold_friend_body			Ваш друг {gifterNick} прислал вам золотые монеты {amount}!
+sysmessage_gold_friend_body			Ваш друг {gifterNick} прислал вам {amount} золотых монет!
 
 
 
@@ -29753,7 +29753,7 @@ sysmessage_silver_friend			Вы получили серебряные монет
 
 
 
-sysmessage_silver_friend_body		Ваш друг {gifterNick} прислал вам серебряные монеты {amount}!
+sysmessage_silver_friend_body		Ваш друг {gifterNick} прислал вам {amount} серебряных монет!
 
 
 
@@ -29769,11 +29769,11 @@ sysmessage_gold_system_remove		Корректировка счета
 
 
 
-sysmessage_gold_system_add_body		Сотрудники Frostburn добавили в ваш аккаунт золотые монеты ^y{amount}^*. Мы надеемся, что вам понравится это дополнение, и благодарим вас за игру в HoN!
+sysmessage_gold_system_add_body		Сотрудники Frostburn добавили в ваш аккаунт ^y{amount} золотых монет^*. Надеемся, вам понравится, и спасибо, что играете в HoN!
 
 
 
-sysmessage_gold_system_remove_body	Чтобы исправить баланс вашего аккаунта, сотрудники Frostburn удалили ^r{amount} Gold Coins^* с вашего аккаунта. Если вы считаете, что это ошибка, свяжитесь с нами по адресу support@heroesofnewerth.com. Спасибо за игру в HoN!
+sysmessage_gold_system_remove_body	Чтобы исправить баланс вашего аккаунта, сотрудники Frostburn списали ^r{amount} золотых монет^*. Если считаете, что это ошибка, напишите на support@heroesofnewerth.com. Спасибо, что играете в HoN!
 
 
 
@@ -29785,7 +29785,7 @@ sysmessage_tickets_friend			Вы получили билеты!
 
 
 
-sysmessage_tickets_friend_body		Ваш друг {gifterNick} прислал вам билеты на {amount}!
+sysmessage_tickets_friend_body		Ваш друг {gifterNick} прислал вам {amount} билетов!
 
 
 
@@ -29801,11 +29801,11 @@ sysmessage_tickets_system_remove		Корректировка счета
 
 
 
-sysmessage_tickets_system_add_body		Сотрудники Frostburn добавили билеты ^o{amount}^* в ваш аккаунт. Мы надеемся, что вам понравится это дополнение, и благодарим вас за игру в HoN!
+sysmessage_tickets_system_add_body		Сотрудники Frostburn добавили в ваш аккаунт ^o{amount} билетов^*. Надеемся, вам понравится, и спасибо, что играете в HoN!
 
 
 
-sysmessage_tickets_system_remove_body	Чтобы исправить баланс вашего аккаунта, сотрудники Frostburn удалили ^r{amount} Tickets^* из вашего аккаунта. Если вы считаете, что это ошибка, свяжитесь с нами по адресу support@heroesofnewerth.com. Спасибо за игру в HoN!
+sysmessage_tickets_system_remove_body	Чтобы исправить баланс вашего аккаунта, сотрудники Frostburn списали ^r{amount} билетов^*. Если считаете, что это ошибка, напишите на support@heroesofnewerth.com. Спасибо, что играете в HoN!
 
 
 
@@ -29821,11 +29821,11 @@ sysmessage_silver_system_remove			Корректировка счета
 
 
 
-sysmessage_silver_system_add_body		Сотрудники Frostburn добавили в ваш аккаунт серебряные монеты ^c{amount}^*. Мы надеемся, что вам понравится это дополнение, и благодарим вас за игру в HoN!
+sysmessage_silver_system_add_body		Сотрудники Frostburn добавили в ваш аккаунт ^c{amount} серебряных монет^*. Надеемся, вам понравится, и спасибо, что играете в HoN!
 
 
 
-sysmessage_silver_system_remove_body	Чтобы исправить баланс вашего аккаунта, сотрудники Frostburn удалили ^r{amount} серебряные монеты^* с вашего аккаунта. Если вы считаете, что это ошибка, свяжитесь с нами по адресу support@heroesofnewerth.com. Спасибо за игру в HoN!
+sysmessage_silver_system_remove_body	Чтобы исправить баланс вашего аккаунта, сотрудники Frostburn списали ^r{amount} серебряных монет^*. Если считаете, что это ошибка, напишите на support@heroesofnewerth.com. Спасибо, что играете в HoN!
 
 
 
@@ -29837,7 +29837,7 @@ sysmessage_achivement_		Достижение разблокировано
 
 
 
-sysmessage_achivement_body	Вы выполнили достижение - {param0}
+sysmessage_achivement_body	Получено достижение - {param0}
 
 
 
@@ -29861,7 +29861,7 @@ streaming_network_busy 					Получение последних данных..
 
 
 
-server_quit_viewstreaming				Выйти из потокового вещания
+server_quit_viewstreaming				Выйти из трансляции
 
 
 
@@ -29885,11 +29885,11 @@ server_quit_viewstreaming_cancel		Отменить
 
 
 
-SUBSCRIBED_MATCH_BEGIN_SUBJECT		ЖИВОЙ МАТЧ!
+SUBSCRIBED_MATCH_BEGIN_SUBJECT		МАТЧ В ЭФИРЕ!
 
 
 
-subscribed_match_begin				У команды {clan} сейчас живой матч {match}, давайте посмотрим!
+subscribed_match_begin				У команды {clan} прямо сейчас идет матч {match}, давайте посмотрим!
 
 
 
@@ -29897,7 +29897,7 @@ subscribed_match_begin				У команды {clan} сейчас живой ма�
 
 
 
-BETTED_MATCH_BEGIN_SUBJECT			ВАША СТАВКА РЕАЛЬНА!
+BETTED_MATCH_BEGIN_SUBJECT			ВАША СТАВКА В ИГРЕ!
 
 
 
@@ -29913,7 +29913,7 @@ BET_WIN_SUBJECT						Вы выиграли!
 
 
 
-system_message_bet_successful		Поздравляем! Вы выиграли ставку "{bettype}" на матч. Получены серебряные монеты {matchname} и {coinnum}.
+system_message_bet_successful		Поздравляем! Ваша ставка "{bettype}" на матч {matchname} сыграла, вы получили {coinnum} серебряных монет.
 
 
 
@@ -29925,7 +29925,7 @@ BET_CANCELLED_SUBJECT				Ставки на матч отменены!
 
 
 
-system_message_bet_cancel			Ваша ставка "{bettype}" на Матч {matchname} аннулируется, а серебряные монеты {coinnum} возвращаются.
+system_message_bet_cancel			Ваша ставка "{bettype}" на матч {matchname} отменена, {coinnum} серебряных монет возвращены.
 
 
 
@@ -29933,15 +29933,15 @@ system_message_bet_cancel			Ваша ставка "{bettype}" на Матч {mat
 
 
 
-POINTS_CHANGED_SUBJECT			 Пополнение запасов золота
+POINTS_CHANGED_SUBJECT			 Пополнение золота
 
 
 
-points_changed					 Вы пополнили {points} Gold с {channel}.
+points_changed					 Вы пополнили баланс на {points} золота через {channel}.
 
 
 
-airpay							 Эйрпэй
+airpay							 Airpay
 
 
 
@@ -29953,35 +29953,35 @@ counter							 Счетчик Airpay
 
 
 
-REPORT_REFUND_SUBJECT			 Информация о РЭП
+REPORT_REFUND_SUBJECT			 Информация RAP
 
 
 
-rap_report_refund_body			 Игрок {nickname}, на которого вы сообщили о {reason} на {time}, заблокирован. Спасибо за вашу поддержку.
+rap_report_refund_body			 Игрок {nickname}, на которого вы пожаловались ({reason}, {time}), заблокирован. Спасибо за помощь.
 
 
 
-REPORT_SUSPEND_SUBJECT			 Информация о РЭП
+REPORT_SUSPEND_SUBJECT			 Информация RAP
 
 
 
-rap_report_suspend_body			 Вы были заблокированы на {time}. Пожалуйста, проверьте сводку вашего поведения для получения дополнительной информации.
+rap_report_suspend_body			 Вы были заблокированы {time}. Подробности - в сводке вашего поведения.
 
 
 
-REPORT_WARNING_SUBJECT			 Информация о РПД
+REPORT_WARNING_SUBJECT			 Информация RAP
 
 
 
-rap_report_warning_body			 Вас предупредили на {time}. Пожалуйста, проверьте сводку вашего поведения для получения дополнительной информации.
+rap_report_warning_body			 Вы получили предупреждение {time}. Подробности - в сводке вашего поведения.
 
 
 
-REPORT_FROM_WARNING_TO_NORMAL_SUBJECT		 Информация о РЭП
+REPORT_FROM_WARNING_TO_NORMAL_SUBJECT		 Информация RAP
 
 
 
-rap_report_warning_to_normal_body			 Ваш период дисквалификации закончился, пожалуйста, играйте красиво!
+rap_report_warning_to_normal_body			 Срок блокировки истек, играйте честно!
 
 
 
@@ -29989,19 +29989,19 @@ rap_report_warning_to_normal_body			 Ваш период дисквалифик�
 
 
 
-system_message_bettype_1			Выберите победителя
+system_message_bettype_1			Кто победит
 
 
 
-system_message_bettype_2			Выберите первую башенную дробилку
+system_message_bettype_2			Кто первым снесет башню
 
 
 
-system_message_bettype_3			Выберите первую кровь
+system_message_bettype_3			Кто прольет первую кровь
 
 
 
-system_message_bettype_4			Выберите от 1-го до 10 убийств
+system_message_bettype_4			Кто первым наберет 10 убийств
 
 
 
@@ -30025,7 +30025,7 @@ watch_system_tab_label_sea_matches	Матчи SEA
 
 
 
-watch_system_tab_label_naeu_matches	Матчи НАЭУ
+watch_system_tab_label_naeu_matches	Матчи NA/EU
 
 
 
@@ -30049,7 +30049,7 @@ watch_system_minimap_elapsed_time	Прошедшее время: ^279{time}^*
 
 
 
-watch_system_live_more				Более
+watch_system_live_more				Еще
 
 
 
@@ -30061,19 +30061,19 @@ watch_system_startwatch				Начать просмотр
 
 
 
-watch_system_pickwinner				Выберите победителя
+watch_system_pickwinner				Кто победит
 
 
 
-watch_system_picktowercrushed		Выберите первую башню\nCrushed
+watch_system_picktowercrushed		Первая снесенная\nбашня
 
 
 
-watch_system_pickfirstblood			Выберите первую кровь
+watch_system_pickfirstblood			Первая кровь
 
 
 
-watch_system_picktenkills			Выберите первые 10 убийств
+watch_system_picktenkills			Первые 10 убийств
 
 
 
@@ -30105,11 +30105,11 @@ watch_system_betsuccess					Успех!
 
 
 
-watch_system_betearned					заработал
+watch_system_betearned					получено
 
 
 
-watch_system_betmiss					Скучать!
+watch_system_betmiss					Мимо!
 
 
 
@@ -30153,7 +30153,7 @@ watch_system_match_midwars				Игра Midwars высокого уровня
 
 
 
-watch_system_match_campaign_normal		Чемпионы Неверта нормальная игра
+watch_system_match_campaign_normal		Обычная игра Champions of Newerth
 
 
 
@@ -30193,7 +30193,7 @@ watch_system_match_indelay				Матч задерживается.
 
 
 
-watch_system_match_unwatchable			Несмотрибельный матч.
+watch_system_match_unwatchable			Этот матч нельзя посмотреть.
 
 
 
@@ -30209,19 +30209,19 @@ watch_system_bet_dialog_desc_2			Можно получить ^y{coin}^* сере
 
 
 
-watch_system_bet_tip_title1						Выберите победителя
+watch_system_bet_tip_title1						Кто победит
 
 
 
-watch_system_bet_tip_title2						Выберите первую башню
+watch_system_bet_tip_title2						Первая башня
 
 
 
-watch_system_bet_tip_title3						Выберите первую кровь
+watch_system_bet_tip_title3						Первая кровь
 
 
 
-watch_system_bet_tip_title4						Выберите первые 10 убийств
+watch_system_bet_tip_title4						Первые 10 убийств
 
 
 
@@ -30233,7 +30233,7 @@ watch_system_bet_tip_bet_result_v 				Вы выиграли ставку!\nНа�
 
 
 
-watch_system_bet_tip_bet_result_f 				Вы пропустили ставку...\nBet Coins:{coin}\nКоманда:{team}
+watch_system_bet_tip_bet_result_f 				Ставка не сыграла...\nСтавка монет:{coin}\nКоманда:{team}
 
 
 
@@ -30245,7 +30245,7 @@ watch_system_bet_tip_bet_lock_nobet				Все ставки на этот мат�
 
 
 
-watch_system_bet_tip_bet_rewarding				Результаты ставок сейчас обрабатываются.\nBet Coins:{coin}\nКоманда: {team}\nКоэффициенты ставки:{ratio}
+watch_system_bet_tip_bet_rewarding				Результаты ставок сейчас обрабатываются.\nСтавка монет:{coin}\nКоманда:{team}\nКоэффициент ставки:{ratio}
 
 
 
@@ -30261,7 +30261,7 @@ watch_system_bet_tip_bet_canceled				Ставка отменена.
 
 
 
-watch_system_warning_title						HoN живое сообщение
+watch_system_warning_title						Сообщение HoN Live
 
 
 
@@ -30281,7 +30281,7 @@ watch_system_match_status_canceled				Отменено
 
 
 
-watch_system_match_status_ongoing				Живи сейчас
+watch_system_match_status_ongoing				В эфире
 
 
 
@@ -30341,47 +30341,47 @@ store2_new_hero									Новый герой: {name}
 
 
 
-store2_release_date_desc						Дата выпуска Описание
+store2_release_date_desc						Дата выхода: по убыванию
 
 
 
-store2_release_date_asc							Дата выпуска по возрастанию
+store2_release_date_asc							Дата выхода: по возрастанию
 
 
 
-store2_hero_name_desc							Описание имени героя
+store2_hero_name_desc							Имя героя: по убыванию
 
 
 
-store2_hero_name_asc							Имя героя по возрастанию
+store2_hero_name_asc							Имя героя: по возрастанию
 
 
 
-store2_price_desc								Цена от высокой до низкой
+store2_price_desc								Цена: по убыванию
 
 
 
-store2_price_asc								Цена от низкой до высокой
+store2_price_asc								Цена: по возрастанию
 
 
 
-store2_hero_difficulty_desc						Сложность: от высокой до низкой
+store2_hero_difficulty_desc						Сложность: по убыванию
 
 
 
-store2_hero_difficulty_asc						Сложность: от низкой до высокой
+store2_hero_difficulty_asc						Сложность: по возрастанию
 
 
 
-store2_avatar_name_desc							Описание имени аватара
+store2_avatar_name_desc							Имя аватара: по убыванию
 
 
 
-store2_avatar_name_asc							Имя аватара по возрастанию
+store2_avatar_name_asc							Имя аватара: по возрастанию
 
 
 
-store2_product_name_asc							Имя по возрастанию
+store2_product_name_asc							Имя: по возрастанию
 
 
 
@@ -30389,7 +30389,7 @@ store2_product_name_asc							Имя по возрастанию
 
 
 
-store2_hero_attr_primary						Первичный атрибут
+store2_hero_attr_primary						Основной атрибут
 
 
 
@@ -30417,7 +30417,7 @@ store2_hero_attack_melee						Ближний бой
 
 
 
-store2_hero_attack_ranged						Дальнего боя
+store2_hero_attack_ranged						Дальний бой
 
 
 
@@ -30433,7 +30433,7 @@ store2_hero_role								Роль
 
 
 
-store2_owned									В собственности
+store2_owned									Куплено
 
 
 
@@ -30461,11 +30461,11 @@ store2_accountvanity 							Косметика аккаунта
 
 
 
-store2_accountvanity_accounticons				Значки учетных записей
+store2_accountvanity_accounticons				Значки аккаунта
 
 
 
-store2_accountvanity_namecolors					Цвет имени
+store2_accountvanity_namecolors					Цвета имени
 
 
 
@@ -30481,15 +30481,15 @@ store2_gamevanity 								Игровая косметика
 
 
 
-store2_gamevanity_taunts 						Насмешка
+store2_gamevanity_taunts 						Провокация
 
 
 
-store2_gamevanity_tauntbadges 					Значки насмешек
+store2_gamevanity_tauntbadges 					Значки провокации
 
 
 
-store2_gamevanity_announcers					Анонсеры
+store2_gamevanity_announcers					Дикторы
 
 
 
@@ -30505,15 +30505,15 @@ store2_gamevanity_tpeffects 					Эффекты ТП
 
 
 
-store2_gamevanity_selectioncircles 				Круги отбора
+store2_gamevanity_selectioncircles 				Круги выбора
 
 
 
-store2_gamevanity_upgrades 						Обновления
+store2_gamevanity_upgrades 						Улучшения
 
 
 
-store2_gamevanity_creeps 						Ползучесть
+store2_gamevanity_creeps 						Крипы
 
 
 
@@ -30525,7 +30525,7 @@ store2_gamevanity_others 						Другое
 
 
 
-store2_bundles 									Пакеты
+store2_bundles 									Наборы
 
 
 
@@ -30533,7 +30533,7 @@ store2_bundles 									Пакеты
 
 
 
-store2_vault_selected 							выбрано
+store2_vault_selected 							-Выбрано-
 
 
 
@@ -30553,7 +30553,7 @@ store2_hero_select_label_damage					^oУрон:^* {damage}
 
 
 
-store2_hero_select_label_attack_range			^oДиапазон атаки:^* {range}
+store2_hero_select_label_attack_range			^oДальн. атаки:^* {range}
 
 
 
@@ -30565,7 +30565,7 @@ store2_hero_select_label_armor					^oБроня:^* {armor}
 
 
 
-store2_hero_select_label_magicarmor				^oМагическая броня:^* {armor}
+store2_hero_select_label_magicarmor				^oМаг. броня:^* {armor}
 
 
 
@@ -30577,7 +30577,7 @@ store2_hero_select_label_mvspeed				^oСкор. движ.:^* {mvspeed}
 
 
 
-store2_normal_bundle_title						Пакет
+store2_normal_bundle_title						Набор
 
 
 
@@ -30589,7 +30589,7 @@ store2_normal_bundle_desc						Купите, чтобы получить все 
 
 
 
-store2_discount_bundle_title					Скидочный пакет
+store2_discount_bundle_title					Набор со скидкой
 
 
 
@@ -30597,7 +30597,7 @@ store2_discount_bundle_desc						Купите, чтобы получить вс�
 
 
 
-store2_discount_bundle_save_gold				Сохраните ^960{gold}!
+store2_discount_bundle_save_gold				Экономия ^960{gold}!
 
 
 
@@ -30605,7 +30605,7 @@ store2_lucky_bundle_title						Удачный набор
 
 
 
-store2_lucky_bundle_desc						У вас есть шанс совершить покупку {chance}, чтобы получить продукты {count}
+store2_lucky_bundle_desc						У вас {chance} попыток, чтобы получить {count} товаров
 
 
 
@@ -30613,11 +30613,11 @@ store2_lucky_bundle_desc						У вас есть шанс совершить п�
 
 
 
-store2_search_result_count						Показать все результаты {count}
+store2_search_result_count						Показать все результаты: {count}
 
 
 
-store2_grabbag_content							Возможные награды за сумки
+store2_grabbag_content							Возможные награды из мешка с сюрпризом
 
 
 
@@ -30637,7 +30637,7 @@ store2_resetstats_error_wrong_password 			Пароль неверен.
 
 
 
-store2_resetstats_error_need_token 				Сначала вам нужно купить остальную статистику.
+store2_resetstats_error_need_token 				Сначала нужно купить сброс статистики.
 
 
 
@@ -30649,7 +30649,7 @@ store2_resetstats_error_internal_error 			Внутренняя ошибка.
 
 
 
-store2_owned_count								Владелец: {count}
+store2_owned_count								Куплено: {count}
 
 
 
@@ -30669,7 +30669,7 @@ shopkeeper_label								Ах, мой любимый клиент! Добро п�
 
 
 
-rap_conduct_summary							 Краткое описание поведения RAP
+rap_conduct_summary							 Сводка поведения (RAP)
 
 
 
@@ -30677,7 +30677,7 @@ rap_status_title								Ваш статус:
 
 
 
-rap_contact_info								Если вы считаете, что о вас сообщили ложно, обратитесь за помощью в службу поддержки клиентов.
+rap_contact_info								Если вы считаете, что жалоба на вас ложная, обратитесь в службу поддержки.
 
 
 
@@ -30685,7 +30685,7 @@ rap_warning_status							 Предупреждение
 
 
 
-rap_warning_content							 На вас сообщили о плохом поведении и вы близки к отстранению.
+rap_warning_content							 На вас жаловались за плохое поведение, и вы близки к блокировке.
 
 
 
@@ -30693,11 +30693,11 @@ rap_observating_status						 Под наблюдением
 
 
 
-rap_suspended_status							Приостановлено
+rap_suspended_status							Заблокирован
 
 
 
-rap_suspended_content						 Вы были отстранены до {endDate}.
+rap_suspended_content						 Вы заблокированы до {endDate}.
 
 
 
@@ -30713,11 +30713,11 @@ rap_reason1									 Злоупотребления в чате
 
 
 
-rap_reason2									 Кормление
+rap_reason2									 Фид
 
 
 
-rap_reason3									 Выдавать себя за персонал
+rap_reason3									 Выдача себя за персонал
 
 
 
@@ -30725,11 +30725,11 @@ rap_reason4									 Злоупотребление предметами
 
 
 
-rap_reason5									 Как избежать AFK
+rap_reason5									 Обход AFK
 
 
 
-rap_reason6									 Плохое прозвище
+rap_reason6									 Плохой ник
 
 
 
@@ -30737,11 +30737,11 @@ rap_observation_tips_title					 Наблюдение
 
 
 
-rap_observation_tips_content					Вы находитесь под наблюдением из-за предыдущего плохого поведения. Если вас снова отстранили в течение периода наблюдения, период приостановки будет продлен, а уровень наблюдения увеличится на 1. По истечении периода наблюдения ваш уровень наблюдения уменьшится на 1, и вы войдете в новый период наблюдения, пока ваш уровень наблюдения не достигнет 0.
+rap_observation_tips_content					Вы под наблюдением из-за прошлого плохого поведения. Если вас снова заблокируют в течение периода наблюдения, срок блокировки продлится, а уровень наблюдения вырастет на 1. После окончания периода наблюдения уровень снизится на 1 и начнется новый период, пока уровень не дойдет до 0.
 
 
 
-rap_observation_content						 Вы находитесь под уровнем наблюдения {guiltLevel}. Ваш период наблюдения заканчивается: {endDate}
+rap_observation_content						 Уровень наблюдения: {guiltLevel}. Период наблюдения заканчивается: {endDate}
 
 
 
@@ -30765,15 +30765,15 @@ Creep_HellbourneRanged_name						Чернокнижник
 
 
 
-Creep_HellbourneSiege_name						Адская Пушка
+Creep_HellbourneSiege_name						Адская пушка
 
 
 
-Creep_HellbourneSuperMelee_name					Супер Имп
+Creep_HellbourneSuperMelee_name					Супербес
 
 
 
-Creep_HellbourneSuperRanged_name				Супер Чернокнижник
+Creep_HellbourneSuperRanged_name				Суперчернокнижник
 
 
 
@@ -30785,7 +30785,7 @@ Creep_LegionMelee_name							Солдат
 
 
 
-Creep_LegionRanged_name							Арчер
+Creep_LegionRanged_name							Лучник
 
 
 
@@ -30793,15 +30793,11 @@ Creep_LegionSiege_name							Тяжелая баллиста
 
 
 
-Creep_LegionSuperMelee_name						Супер Солдат
+Creep_LegionSuperMelee_name						Суперсолдат
 
 
 
-Creep_LegionSuperRanged_name					Супер Лучник
-
-
-
-
+Creep_LegionSuperRanged_name					Суперлучник
 
 
 
@@ -30809,11 +30805,15 @@ Creep_LegionSuperRanged_name					Супер Лучник
 
 
 
-award_mann										Топ Аннигиляция
 
 
 
-award_mqk										Наибольшее количество четверных убийств
+
+award_mann										Больше всех аннигиляций
+
+
+
+award_mqk										Больше всех квадра-киллов
 
 
 
@@ -30821,35 +30821,35 @@ award_lgks										Лучшая серия убийств
 
 
 
-award_msd										Большинство обрушений
+award_msd										Больше всех разгромов
 
 
 
-award_mkill										Наибольшее количество убийств
+award_mkill										Больше всех убийств
 
 
 
-award_masst										Наибольшее количество передач
+award_masst										Больше всех ассистов
 
 
 
-award_ledth										Наименьшее количество смертей
+award_ledth										Меньше всех смертей
 
 
 
-award_mbdmg										Максимальный урон при осаде
+award_mbdmg										Больше всех урона при осаде
 
 
 
-award_mwk										Большинство подопечных убито
+award_mwk										Больше всех убитых вардов
 
 
 
-award_mhdd										Максимальный урон героев
+award_mhdd										Больше всех урона героям
 
 
 
-award_hcs										Лучший результат по крипам
+award_hcs										Лучший счет по крипам
 
 
 
@@ -30877,23 +30877,11 @@ mvp_progress_bar_title							Проголосуйте за лучшего игр
 
 
 
-custom_ui_button_Shellshock_title				^oПрыжок в Shellshock^*
+custom_ui_button_Shellshock_title				^oЗапрыгнуть в Shellshock^*
 
 
 
-custom_ui_button_Shellshock_body				Отправляет вашего героя прыгнуть в панцирь Шелл шока. Находясь в панцире, ваш герой неуязвим, обезоружен и обездвижен до окончания действия эффекта.
-
-
-
-
-
-
-
-custom_ui_button_Gladiator_title				^oЗапрыгните в колесницу гладиатора^*
-
-
-
-custom_ui_button_Gladiator_body				 Отправляет вашего героя прыгнуть в Колесницу Гладиатора. Находясь в Колеснице, ваш герой неуязвим, обезоружен и обездвижен до окончания эффекта.
+custom_ui_button_Shellshock_body				Ваш герой запрыгивает в панцирь Shellshock. Пока он в панцире, он неуязвим, обезоружен и обездвижен до окончания эффекта.
 
 
 
@@ -30901,23 +30889,11 @@ custom_ui_button_Gladiator_body				 Отправляет вашего героя
 
 
 
-custom_ui_button_Rally_title					^oТелепортироваться к флагу Ралли^*
+custom_ui_button_Gladiator_title				^oЗапрыгнуть в колесницу Gladiator^*
 
 
 
-custom_ui_button_Rally_body						Телепортирует вашего героя к флагу Ралли через 3 секунды. Этот эффект имеет время восстановления 10 сек.
-
-
-
-
-
-
-
-custom_ui_button_Armadon_title					^oПрыжок в Армадон^*
-
-
-
-custom_ui_button_Armadon_body					Отправляет вашего героя прыгнуть в панцирь Армадона. Находясь в панцире, ваш герой неуязвим, обезоружен и обездвижен до окончания действия эффекта.
+custom_ui_button_Gladiator_body				 Ваш герой запрыгивает в колесницу Gladiator. Пока он в колеснице, он неуязвим, обезоружен и обездвижен до окончания эффекта.
 
 
 
@@ -30925,23 +30901,47 @@ custom_ui_button_Armadon_body					Отправляет вашего героя �
 
 
 
-custom_ui_button_OpheliaQuest1_title			^oНаграда Офелии: RavenBane^*
+custom_ui_button_Rally_title					^oТелепортироваться к флагу Rally^*
 
 
 
-custom_ui_button_OpheliaQuest1_body				^oRaven^* убивает противника ^oRavens^* при приземлении в радиусе 1300. Уменьшите время восстановления ^oRaven^* на 30 за каждого убитого врага ^oRaven^*.
+custom_ui_button_Rally_body						Телепортирует вашего героя к флагу Rally после 3 секунд концентрации. Перезарядка эффекта 10 сек.
 
 
 
-custom_ui_button_OpheliaQuest2_title			^oНаграда Офелии: RavenSeer^*
 
 
 
-custom_ui_button_OpheliaQuest2_body				^oRaven^* получает +400 к дальности применения. Создайте вокруг своего героя ауру, раскрывающую ^oВоронов^* в радиусе 1000.
+
+custom_ui_button_Armadon_title					^oЗапрыгнуть в Armadon^*
 
 
 
-custom_ui_button_OpheliaQuest3_title			^oНаграда Офелии: Единство Наблюдателя^*
+custom_ui_button_Armadon_body					Ваш герой запрыгивает в панцирь Armadon. Пока он в панцире, он неуязвим, обезоружен и обездвижен до окончания эффекта.
+
+
+
+
+
+
+
+custom_ui_button_OpheliaQuest1_title			^oНаграда Ophelia: RavenBane^*
+
+
+
+custom_ui_button_OpheliaQuest1_body				^oRaven^* при приземлении убивает вражеских ^oRavens^* в радиусе 1300. Перезарядка ^oRaven^* уменьшается на 30 за каждого убитого вражеского ^oRaven^*.
+
+
+
+custom_ui_button_OpheliaQuest2_title			^oНаграда Ophelia: RavenSeer^*
+
+
+
+custom_ui_button_OpheliaQuest2_body				^oRaven^* получает +400 к дальности применения. Вокруг героя появляется аура, раскрывающая ^oRavens^* в радиусе 1000.
+
+
+
+custom_ui_button_OpheliaQuest3_title			^oНаграда Ophelia: Watcher's Unity^*
 
 
 
@@ -30965,23 +30965,23 @@ status_effect_silence							Безмолвие
 
 
 
-status_effect_disarm							Рессилие
+status_effect_disarm							Обезоруживание
 
 
 
-status_effect_slow								Медленный
+status_effect_slow								Замедление
 
 
 
-status_effect_hex								Шестнадцатеричный
+status_effect_hex								Превращение
 
 
 
-status_effect_taunt								Насмешка
+status_effect_taunt								Провокация
 
 
 
-status_effect_fear							 Боялся
+status_effect_fear							 Страх
 
 
 
@@ -31053,7 +31053,7 @@ courier_return									^yНажмите, чтобы вернуть курьер�
 
 
 
-ability_ultimate_label							ОКОНЧАТЕЛЬНЫЙ
+ability_ultimate_label							УЛЬТ
 
 
 
@@ -31081,11 +31081,11 @@ kill_log_4										БАШНЯ
 
 
 
-kill_log_5										ПОЛЗУТЬ
+kill_log_5										КРИП
 
 
 
-kill_log_6										НЕЙТРАЛЬНО
+kill_log_6										НЕЙТРАЛ
 
 
 
@@ -31125,7 +31125,7 @@ shop_filter_utility								Вспомогательные предметы
 
 
 
-shop_filter_boots								Сапоги
+shop_filter_boots								Ботинки
 
 
 
@@ -31137,7 +31137,7 @@ shop_cat_title_categories						Категории
 
 
 
-shop_cat_title_matchitems						Сопоставить предметы
+shop_cat_title_matchitems						Предметы матча
 
 
 
@@ -31145,7 +31145,7 @@ shop_cat_title_allitems							Все предметы
 
 
 
-shop_cat_title_recommended						Рекомендуется
+shop_cat_title_recommended						Рекомендуемое
 
 
 
@@ -31169,7 +31169,7 @@ shop_cat_title_recipes4							Боевой
 
 
 
-shop_cat_title_recipes5							Морф Атака
+shop_cat_title_recipes5							Атакующие (морф)
 
 
 
@@ -31177,7 +31177,7 @@ shop_cat_title_accessories						Аксессуары
 
 
 
-shop_cat_title_secret							Легендарный
+shop_cat_title_secret							Легендарные
 
 
 
@@ -31185,7 +31185,7 @@ shop_cat_title_relics							Реликвии
 
 
 
-shop_cat_title_supplies							Принадлежности
+shop_cat_title_supplies							Припасы
 
 
 
@@ -31201,11 +31201,11 @@ shop_cat_title_initiation						Инициация
 
 
 
-shop_cat_title_boots							Сапоги
+shop_cat_title_boots							Ботинки
 
 
 
-shop_cat_title_consumables						Расходные материалы
+shop_cat_title_consumables						Расходники
 
 
 
@@ -31213,7 +31213,7 @@ shop_cat_title_damage							Урон
 
 
 
-shop_cat_title_defense							Оборона
+shop_cat_title_defense							Защита
 
 
 
@@ -31233,7 +31233,7 @@ shop_cat_title_phoenix							Награды Phoenix
 
 
 
-shop_cat_title_outpost							Застава
+shop_cat_title_outpost							Аванпост
 
 
 
@@ -31257,7 +31257,7 @@ shop_quickbuy_title								КУПИТЬ
 
 
 
-shop_quickbuy_tip								Купить следующий товар
+shop_quickbuy_tip								Купить следующий предмет
 
 
 
@@ -31265,7 +31265,7 @@ shop_requireditems								НЕОБХОДИМЫЕ ПРЕДМЕТЫ
 
 
 
-shop_buildsinto									ВСТРАИВАЕТСЯ В
+shop_buildsinto									ВХОДИТ В
 
 
 
@@ -31281,11 +31281,11 @@ shop_remove_qb									REMOVE ITEMS
 
 
 
-shop_remove_qb_method							Shift + RMB
+shop_remove_qb_method							Shift + ПКМ
 
 
 
-shop_select_an_item								Выберите элемент, чтобы просмотреть его компоненты и сборки.
+shop_select_an_item								Выберите предмет, чтобы увидеть его компоненты и сборки.
 
 
 
@@ -31305,7 +31305,7 @@ shop_consumableitems							РАСХОДНЫЕ ПРЕДМЕТЫ
 
 
 
-shop_wards										ОХРАНЫ
+shop_wards										ВАРДЫ
 
 
 
@@ -31325,7 +31325,7 @@ shop_subcategory_recipe							Рецепт
 
 
 
-shop_gold_toggle								Сортировка золота по высшему/низкому значению
+shop_gold_toggle								Сортировка по цене
 
 
 
@@ -31337,7 +31337,7 @@ shop_type_toggle								Сортировать Основные/Рецепты
 
 
 
-shop_view_toggle								Переключить вид сетки/списка элементов
+shop_view_toggle								Вид: сетка/список
 
 
 
@@ -31365,7 +31365,7 @@ shop_maxstock									МАКС
 
 
 
-main_stats_practice								Практика
+main_stats_practice								Тренировка
 
 
 
@@ -31377,7 +31377,7 @@ rolepick_config_title							Приоритет роли
 
 
 
-rolepick_config_desc							Расположите роли героев, которые вы предпочитаете играть, от наиболее к наименее желаемым.
+rolepick_config_desc							Расставьте роли героев по предпочтению: от самой желанной к наименее желанной.
 
 
 
@@ -31425,7 +31425,7 @@ banpick_select_slot								Задайте запросы на бан герое�
 
 
 
-banpick_choose_hero								Выберите героя, чтобы добавить его в выбранный слот бонна.
+banpick_choose_hero								Выберите героя, чтобы добавить его в выбранный слот бана.
 
 
 
@@ -31473,7 +31473,7 @@ options_saturation_tip 	Измените, чтобы отрегулироват�
 
 
 
-options_label_value 	Гамма: ^w
+options_label_value 	Яркость: ^w
 
 
 
@@ -31485,15 +31485,15 @@ options_value_tip 	Измените, чтобы отрегулировать я�
 
 
 
-options_label_vibrance 	Насыщенность: ^w
+options_label_vibrance 	Сочность: ^w
 
 
 
-options_vibrance_tip_header 	Насыщенность цвета
+options_vibrance_tip_header 	Сочность цвета
 
 
 
-options_vibrance_tip 	Измените, чтобы настроить насыщенность цветов. (По умолчанию 0.0)
+options_vibrance_tip 	Измените, чтобы настроить сочность цветов. (По умолчанию 0.0)
 
 
 
@@ -31501,7 +31501,7 @@ options_brightMin_tip_header Мин. яркость сцены
 
 
 
-options_brightMin_tip Влияет на порог яркости для эффекта свечения (Bloom). (По умолчанию - 1.0)
+options_brightMin_tip Задает минимальную яркость сцены. Влияет на порог яркости для свечения (bloom). (По умолчанию - 1.0)
 
 
 
@@ -31509,7 +31509,7 @@ options_brightMax_tip_header Максимальная яркость сцены
 
 
 
-options_brightMax_tip Влияет на предел яркости для эффекта свечения (Bloom). (По умолчанию 2.0)
+options_brightMax_tip Задает максимальную яркость сцены. Влияет на порог яркости для свечения (bloom). (По умолчанию 2.0)
 
 
 
@@ -31541,7 +31541,7 @@ profile_totalcreepkills							Всего убийств крипов
 
 
 
-profile_totalneutralkills						Всего нейтральных убийств
+profile_totalneutralkills						Всего убито нейтралов
 
 
 
@@ -31581,7 +31581,7 @@ profile_killdeathassistratio					Соотношение убийств/смер�
 
 
 
-profile_assistdeathratio						Соотношение передач и смертей
+profile_assistdeathratio						Соотношение помощи и смертей
 
 
 
@@ -31605,7 +31605,7 @@ options_hoverhighlight							Эффект выделения при наведе
 
 
 
-options_hoverhighlight_tip						Эффект выделения при наведении
+options_hoverhighlight_tip						Эффект заливки при наведении
 
 
 
@@ -31613,11 +31613,11 @@ options_hoverhighlight_tip						Эффект выделения при наве�
 
 
 
-options_hoverhighlightstrength					При наведении курсора мыши Выделение Интенсивность цвета
+options_hoverhighlightstrength					Интенсивность цвета подсветки
 
 
 
-options_hoverhighlightstrength_tip				При наведении Заливка Насыщенность цвета
+options_hoverhighlightstrength_tip				Интенсивность цвета заливки при наведении
 
 
 
@@ -31629,7 +31629,7 @@ options_hoverhighlightstrength_tip				При наведении Заливка �
 
 
 
-plinko_name 					ХоН Плинко
+plinko_name 					HoN Plinko
 
 
 
@@ -31637,11 +31637,11 @@ plinko_ticket 					Билет
 
 
 
-plinko_redemption 				Искупление
+plinko_redemption 				Обмен
 
 
 
-plinko_ticket_redemption		Билет\nПогашение
+plinko_ticket_redemption		Обмен\nбилетов
 
 
 
@@ -31661,7 +31661,7 @@ plinko_drop 	Бросить!
 
 
 
-plinko_board_header				Играйте, используя
+plinko_board_header				Играть за
 
 
 
@@ -31669,15 +31669,15 @@ plinko_cost 					Стоимость:
 
 
 
-plinko_owned 					ПРИНАДЛЕЖИТ
+plinko_owned 					КУПЛЕНО
 
 
 
-plinko_claim_prize				Получите приз
+plinko_claim_prize				Забрать приз
 
 
 
-plinko_change_board				Доска изменений
+plinko_change_board				Сменить доску
 
 
 
@@ -31689,7 +31689,7 @@ pink_click_to_preview			Нажмите, чтобы просмотреть
 
 
 
-plinko_tier_1					Общий
+plinko_tier_1					Обычный
 
 
 
@@ -31713,7 +31713,7 @@ plinko_pricing_title			Стоимость билетов
 
 
 
-plinko_pricing_desc				Цена увеличивается при ежедневных играх
+plinko_pricing_desc				Цена растет с каждой игрой за день
 
 
 
@@ -31745,7 +31745,7 @@ plinko_pricing_reset_soon		Скоро сброс
 
 
 
-plinko_pricing_reset_fallback	Сбрасывается в полночь по всемирному координированному времени
+plinko_pricing_reset_fallback	Сброс в полночь по UTC
 
 
 
@@ -31761,7 +31761,7 @@ plinko_lootlist_tip				Нажмите на сундук, чтобы увидет
 
 
 
-plinko_drop_gold_header			Играйте, используя золото
+plinko_drop_gold_header			Играть за золото
 
 
 
@@ -31773,11 +31773,11 @@ plinko_drop_gold_body			Хотите сыграть в "Плинко", испо�
 
 
 
-plinko_drop_tickets_header		Играйте, используя билеты
+plinko_drop_tickets_header		Играть за билеты
 
 
 
-plinko_drop_tickets_body		Хотите сыграть в "Плинко" по билетам? Это будет стоить вам билетов {cost}.
+plinko_drop_tickets_body		Хотите сыграть в Плинко за билеты? Это будет стоить {cost} билетов.
 
 
 
@@ -31825,11 +31825,11 @@ plinko_ticket_tooltip_ai		Это значок учетной записи!\n\nЗ
 
 
 
-plinko_ticket_tooltip_av 		Это диктор!\n\nАннонсеры изменяют звук внутри игрового комментатора, а также его анимацию.
+plinko_ticket_tooltip_av 		Это диктор!\n\nДикторы меняют голос и анимации внутриигрового диктора!
 
 
 
-plinko_ticket_tooltip_t			Это насмешка!\n\nНасмешка меняет внешний вид и звучание вашей внутриигровой насмешки при использовании.
+plinko_ticket_tooltip_t			Это провокация!\n\nМеняет вид и звук вашей Провокации в игре.
 
 
 
@@ -31845,19 +31845,19 @@ plinko_ticket_tooltip_s 		Это статус!
 
 
 
-plinko_ticket_tooltip_m 		Это разный предмет!
+plinko_ticket_tooltip_m 		Это прочий предмет!
 
 
 
-plinko_ticket_tooltip_w			Это вард!\n\nБорды позволяют изменить внешний вид вашего вода в игре!
+plinko_ticket_tooltip_w			Это вард!\n\nВарды меняют внешний вид вашего варда в игре!
 
 
 
-plinko_ticket_tooltip_courier 	Это курьер!\n\nКурьеры позволяют вам менять внешний вид внутри игрового курьера во время игры.
+plinko_ticket_tooltip_courier 	Это курьер!\n\nКурьеры меняют внешний вид вашего внутриигрового курьера.
 
 
 
-plinko_ticket_tooltip_bundle 	Это комплект!\n\nВ него могут входить самые разные продукты!
+plinko_ticket_tooltip_bundle 	Это набор!\n\nВ него могут входить самые разные товары!
 
 
 
@@ -31901,7 +31901,7 @@ plinko_prize_tier_4 			Бронзовый сундук
 
 
 
-plinko_prize_tier_5_naeu		Ведро Plushie и Misfit
+plinko_prize_tier_5_naeu		Корзина Plushie и Misfit
 
 
 
@@ -31917,7 +31917,7 @@ plinko_prize_tier_6 			Билеты
 
 
 
-plinko_prize_tier_1_tip 		Бриллиантовый сундук дает возможность выбрать золотые аватары, аватары раннего доступа или эксклюзивные аватары Plinko. Полный список можно найти на форуме.
+plinko_prize_tier_1_tip 		Алмазный сундук дает шанс получить избранные золотые аватары, аватары раннего доступа или эксклюзивные аватары Plinko. Полный список есть на форуме.
 
 
 
@@ -31933,7 +31933,7 @@ plinko_prize_tier_4_tip			Бронзовый сундук дает шанс по
 
 
 
-plinko_prize_tier_5_tip_naeu	В этом блоке собраны все выпущенные на данный момент аватары для коллекций Plushie и Misfit.
+plinko_prize_tier_5_tip_naeu	В этой корзине все выпущенные на данный момент аватары коллекций Plushie и Misfit.
 
 
 
@@ -31949,11 +31949,11 @@ plinko_prize_tier_6_tip			Пакет билетов.
 
 
 
-plinko_won_tickets 				Вы выиграли билеты {amount}!
+plinko_won_tickets 				Вы выиграли {amount} билетов!
 
 
 
-plinko_products_exhausted		Вы получили билеты, поскольку у вас уже есть все продукты, доступные на данный момент для этого уровня!
+plinko_products_exhausted		Вы получили билеты, потому что у вас уже есть все товары, доступные сейчас на этом уровне!
 
 
 
@@ -32009,7 +32009,7 @@ plinko_drop_request_status_5	Плинко в настоящее время от�
 
 
 
-plinko_tickets_redeemed 		Ваши билеты успешно выкуплены для получения приза!
+plinko_tickets_redeemed 		Билеты успешно обменяны на приз!
 
 
 
@@ -32021,7 +32021,7 @@ plinko_drops_bought 			Вы успешно купили больше фишек!
 
 
 
-plinko_dont_remind_session		Больше не показывать этот сеанс
+plinko_dont_remind_session		Не показывать до конца сеанса
 
 
 
@@ -32233,7 +32233,7 @@ lobby_your_role								Ваша роль
 
 
 
-lobby_bigbutton_pickahero					Выбери героя
+lobby_bigbutton_pickahero					Выберите героя
 
 
 
@@ -32257,11 +32257,11 @@ lobby_bigbutton_ban							Забанить
 
 
 
-lobby_timer_banning							ЗАПРЕТ
+lobby_timer_banning							БАН
 
 
 
-lobby_timer_picking							СБОР
+lobby_timer_picking							ВЫБОР
 
 
 
@@ -32269,7 +32269,7 @@ lobby_timer_picking							СБОР
 
 
 
-lobby_comlistheader_spectators				Зрители
+lobby_comlistheader_spectators				Наблюдатели
 
 
 
@@ -32289,11 +32289,11 @@ lobby_comlistheader_hellbourne				Хеллборн
 
 
 
-lobby_com_joinspecs							Стать зрителем
+lobby_com_joinspecs							Стать наблюдателем
 
 
 
-lobby_com_leavespecs						Покинуть зрителей
+lobby_com_leavespecs						Покинуть наблюдателей
 
 
 
@@ -32301,11 +32301,11 @@ lobby_com_leavespecs						Покинуть зрителей
 
 
 
-lobby_com_joinlegion						Присоединяйтесь к Легиону
+lobby_com_joinlegion						Присоединиться к Легиону
 
 
 
-lobby_com_joinhellbourne					Присоединяйтесь к Хеллборну
+lobby_com_joinhellbourne					Присоединиться к Хеллборну
 
 
 
@@ -32317,7 +32317,7 @@ lobby_make_host								Хост
 
 
 
-lobby_make_spectator						Зритель
+lobby_make_spectator						Наблюдатель
 
 
 
@@ -32373,7 +32373,7 @@ dmg_out_title								Нанесено
 
 
 
-dmg_reduc_title								Ред. урона
+dmg_reduc_title								Сниж. урона
 
 
 
@@ -32393,7 +32393,7 @@ match_stat_creep_kills Убийства крипов
 
 
 
-match_stat_neutral_kills Нейтральные убийства
+match_stat_neutral_kills Убийства нейтралов
 
 
 
@@ -32409,35 +32409,35 @@ match_stat_xpm Опыт в минуту
 
 
 
-match_stat_hero_damage Урон героя
+match_stat_hero_damage Урон героям
 
 
 
-match_stat_building_damage Повреждения зданий
+match_stat_building_damage Урон зданиям
 
 
 
-match_stat_ward_sight Размещены варды обзора
+match_stat_ward_sight Поставлено Ward of Sight
 
 
 
-match_stat_ward_revelation Размещены обереги откровения
+match_stat_ward_revelation Поставлено Ward of Revelation
 
 
 
-match_stat_raven Вороны размещены
+match_stat_raven Поставлено Raven
 
 
 
-match_stat_veiled_rot Используемая завуалированная гниль
+match_stat_veiled_rot Использовано Veiled Rot
 
 
 
-match_stat_shadow_mist Используемые теневые туманы
+match_stat_shadow_mist Использовано Shadow Mist
 
 
 
-match_stat_dust_of_revelation Использование пыли откровения
+match_stat_dust_of_revelation Использовано Dust of Revelation
 
 
 
@@ -32517,15 +32517,15 @@ vanity_purhcase_confirmation				Подтверждение покупки
 
 
 
-scoreboard_chat_tip							Отключить звук чата: блокирует все текстовые сообщения от выбранного игрока.
+scoreboard_chat_tip							Заглушить чат: блокирует все текстовые сообщения от выбранного игрока.
 
 
 
-scoreboard_voice_tip						Отключить звук: отключает все голосовые сообщения выбранного игрока.
+scoreboard_voice_tip						Заглушить голос: отключает всю голосовую связь с выбранным игроком.
 
 
 
-scoreboard_ping_tip							Mute Pings: отключает все сигналы карты и миникарты от выбранного игрока.
+scoreboard_ping_tip							Заглушить пинги: скрывает все пинги на карте и миникарте от выбранного игрока.
 
 
 
@@ -32557,7 +32557,7 @@ avoid_playerpopup_header					Избегать игрока
 
 
 
-avoiding_player_caption						Избегание игрока:
+avoiding_player_caption						Избегать игрока:
 
 
 
@@ -32569,7 +32569,7 @@ kick_playerpopup_header						Выгнать игрока
 
 
 
-kicking_player_caption						Удар игрока:
+kicking_player_caption						Исключение игрока:
 
 
 
@@ -32585,7 +32585,7 @@ scoreboard_report_tip				Пожаловаться на этого игрока �
 
 
 
-reporting_player_caption			Отчетность:
+reporting_player_caption			Жалоба на:
 
 
 
@@ -32597,7 +32597,7 @@ report_player_responsepopup_header	Жалоба отправлена
 
 
 
-report_player_success_message		Ваш отчет отправлен и будет рассмотрен нашей командой модераторов.
+report_player_success_message		Ваша жалоба отправлена и будет рассмотрена нашей командой модераторов.
 
 
 
@@ -32605,7 +32605,7 @@ report_player_error_unknown			Произошла неизвестная ошиб
 
 
 
-report_player_error_already_reported	Вы уже сообщили об этом игроке.
+report_player_error_already_reported	Вы уже жаловались на этого игрока.
 
 
 
@@ -32633,7 +32633,7 @@ dmg_type_physical							Физический
 
 
 
-dmg_type_magic								Магия
+dmg_type_magic								Магический
 
 
 
@@ -32645,7 +32645,7 @@ dmg_type_pure								Чистый
 
 
 
-death_summary								Краткое описание смерти
+death_summary								Итог смерти
 
 
 
@@ -32661,7 +32661,7 @@ emotes_modal_header							Новые колеса эмоций
 
 
 
-emotes_modal_msg1							Новинка в HoN: Reborn - это два новых колеса для применения эмоций. На каждом колесе предусмотрено шесть слотов для эмоций, что дает вам в общей сложности 12 вариантов быстрого применения.
+emotes_modal_msg1							Новое в HoN: Reborn - два колеса эмоций. На каждом шесть слотов, всего 12 эмоций для быстрого применения.
 
 
 
@@ -32673,7 +32673,7 @@ emotes_modal_msg2							Слоты можно настроить и измени
 
 
 
-lobby_fsinfo_midwars						Оставайтесь в кругу, чтобы захватить цель, уничтожить врагов и взять под свой контроль.\nЦель нанесет огромный урон вражеской башне, когда она выстрелит, используйте это в своих интересах!
+lobby_fsinfo_midwars						Стойте в круге, чтобы захватить объект, уничтожайте врагов и берите контроль.\nКогда объект стреляет, он наносит огромный урон вражеской башне, пользуйтесь этим!
 
 
 
@@ -32697,11 +32697,11 @@ genesis_devo_btn							Купить Freakshow Devourer
 
 
 
-genesis_puppetmaster_desc					Как один из самых узнаваемых и почитаемых героев в HoN, мы решили круто обновить Puppet Master. Присоединяйтесь к уровню навыков "Полководец", чтобы получить его аватар "Фрик шоу" и многое другое!
+genesis_puppetmaster_desc					Puppet Master - один из самых узнаваемых и любимых героев HoN, и мы решили круто его обновить. Вступайте на уровень привилегий Warlord, чтобы получить аватар Freakshow и многое другое!
 
 
 
-genesis_puppetmaster_btn					Станьте военачальником прямо сейчас
+genesis_puppetmaster_btn					Стать Warlord
 
 
 
@@ -32737,7 +32737,7 @@ vanity_emote_wheel_setup_disabled_desc	Вы в игре. Для настройк
 vanity_emote_wheel_setup_disabled_title	Игра в процессе
 tutorial_category_gameplay	Геймплей
 tutorial_library_list_title	Разделы помощи
-tutorial_npe_complete_hint	Чтобы снова посмотреть эти слайды, откройте Обучение > Справка.
+tutorial_npe_complete_hint	Чтобы снова посмотреть эти слайды, откройте Обучение > Разделы помощи.
 tutorial_npe_complete_message	Что дальше?
 tutorial_npe_complete_message_hon	Вы в курсе последних изменений. Удачи!
 tutorial_npe_complete_message_moba	Вы освоили основы Heroes of Newerth: Reborn. Пора доминировать!
@@ -32841,7 +32841,7 @@ tutorial_slide_limited_hero_pool_desc_top	Новички первые 100 игр
 tutorial_slide_mini_map	Мини-карта
 tutorial_slide_mini_map_desc	Мини-карта в левом нижнем углу показывает обзор всей карты.\n\nКнопка укрепления рядом с ней временно делает все ваши строения неуязвимыми, чтобы помочь отбиться от осады. Перезарядка в 5 минут общая для всей команды.
 tutorial_slide_neutrals	Нейтралы
-tutorial_slide_neutrals_ancient	Древний лагерь
+tutorial_slide_neutrals_ancient	Лагерь древних
 tutorial_slide_neutrals_desc	Нейтралы дремлют в лесу. Они дают золото и опыт, как и прочие крипы, но бывают опаснее обычных крипов на линии. На стороне ^495ЛЕГИОНА^* и на стороне ^955ХЕЛЛБОРНА^* по 5 лагерей нейтралов.
 tutorial_slide_neutrals_easy	Лёгкий лагерь
 tutorial_slide_neutrals_hard	Сложный лагерь
@@ -33154,21 +33154,21 @@ marketplace_play_games_desc	Сыграйте 15 матчей, чтобы пол�
 
 marketplace_play_button	Играть
 
-marketplace_buy_jade_skin_title	Скин «Нефрит»
+marketplace_buy_jade_skin_title	Wasteland Flint Beastwood
 
 marketplace_buy_jade_bonus_title	+500 бонусного Jade
 
-marketplace_buy_jade_desc	Приобрети набор Нефрита и получи эксклюзивный скин в подарок
+marketplace_buy_jade_desc	При покупке некоторых наборов Jade.
 
-marketplace_buy_jade_desc2	Скин доступен только в течение этих выходных
+marketplace_buy_jade_desc2	Эксклюзивный ограниченный выпуск: только в рамках этого предложения
 
-marketplace_purchase_jade_button	Купить набор «Нефрит»
+marketplace_purchase_jade_button	Купить Jade
 
 vanity_cat_game_vanity	Косметика в игре
 
 store_sell	Продать
 
-store_listings	Каталог
+store_listings	Лоты
 
 general_demo	Демо
 
@@ -33176,7 +33176,7 @@ store_avatar_marketplace	Маркетплейс аватаров
 
 vanity_emote_wheel_setup_title	Настройка колеса эмоций
 
-vanity_emote_wheel_setup_desc	Назначь эмоции на позиции колеса для быстрого использования в игре
+vanity_emote_wheel_setup_desc	Настройте два колеса эмоций: перетащите купленные эмоции в нужные слоты, чтобы применять их в игре.
 
 
 // === NEW KEYS FOR TRANSLATION ===
@@ -33195,17 +33195,17 @@ game_hero_select_random_favorites_tip		Случайный герой из изб
 mm_regions_percentage_help		^479Заполненность очереди по регионам^*\nКаждый процент показывает долю игроков в очереди, у которых выбран этот регион.\n\nИгрок может выбрать сразу несколько регионов, поэтому значения пересекаются и в сумме не дают 100%.
 boss_info_kongor_ability4_name		Resilience
 options_disable_input_background_tip		Когда включено, курсор продолжает двигаться, пока игра в фоне, но прокрутка камеры у края экрана отключается, а наведение на элементы интерфейса не подсвечивает их и не воспроизводит звуки.
-store_marketplace_confirm_title		Подтверждение покупки
+store_marketplace_confirm_title		Подтверждение лота
 options_hdr_enable_tip		Выводит сигнал с расширенным динамическим диапазоном на монитор с поддержкой HDR. Сначала включите HDR в настройках экрана Windows.
 ph_advanced_options		Расширенные настройки
 marketplace_play_games_progress_demo		5/15
 mm_machine_tag_locked_to_other		Рейтинговые игры на этом компьютере привязаны к ^279{name}^*
 globby_host_tip		Хост игры
 store_marketplace_you_own		Уже куплено: {count}
-options_hdr_pipeline		HDR Пайплайн
+options_hdr_pipeline		HDR-конвейер рендеринга
 mm_machine_tag_retag_confirm_title		Сменить привязку компьютера?
 boss_info_kongor_stat_magic_armor		^oМаг. броня:^* 30
-lobby_reminder_game_mode		Напоминание о режиме игры
+lobby_reminder_game_mode		Режим игры
 boss_info_kongor_ability2_desc		Бьёт по земле в радиусе 250, нанося маг. урон и снижая скор. движ. на 50% и скор. атаки на 50% на 2 сек. (4 сек. для не-героев).\n\nПрименяется автоматически, когда в радиусе ближнего боя оказываются 3 и более врагов.
 boss_info_phoenix_stat_movespeed		^oСкор. движ.:^* 350
 boss_info_phoenix_desc		Phoenix - могучий нейтральный босс, обитающий в огненном логове на карте Forest of Caldavar. Он даёт иное стратегическое преимущество, чем Kongor: его награды усиливают личную выживаемость. Phoenix очень подвижен, проходит сквозь деревья и юнитов и применяет разрушительные огненные способности.
@@ -33219,11 +33219,11 @@ main_reconnect_note		Примечание: если вернуться в мат
 boss_info_kongor_ability4_desc		Даёт 70% снижения длительности дебаффов, длительности оглушений и сопротивления замедлениям. При Оглушении эти сопротивления растут на 15% (предел 100%).\n\nВраги, атакующие Kongor, получают на 50% меньше вампиризма.
 mm_machine_tag_denied_reason_shared		^279{name}:^* делит компьютер с другим участником группы
 mm_machine_tag_retag_error_generic		Не удалось сменить привязку. Повторите попытку позже.
-boss_info_kongor_reward2_name		Тотем Бессмертия
+boss_info_kongor_reward2_name		Союзный Kongor
 options_checkbox_inventory_dragdrop		Перетаскивание предметов
 store_powered_by							POWERED BY
 play_ban_notice_temporary				Ошибка: вам запрещено играть. Причина: {reason} - истекает через {remaining}
-options_hdr_mode_tip		scRGB (FP16) — совместимость; HDR10 (PQ) — 10 бит. Требует HDR-монитор.
+options_hdr_mode_tip		scRGB (FP16) - самый совместимый; HDR10 (PQ) - 10-битный. Если цвета выглядят неправильно, переключите.
 mm_mmr_caldavar_tip							MMR (рейтинг подбора) на Forests of Caldavar
 mm_machine_tag_notice_locked_sub		Снимите рейтинговые режимы или смените привязку
 general_mode_sameherodraft					Same Hero Draft
@@ -33231,7 +33231,7 @@ boss_info_phoenix_reward1_name		Phoenix Egg
 boss_info_kongor_stat_movespeed		^oСкор. движ.:^* 270
 mm_play_ban_denied_notice				Очередь недоступна: ^279{names}^* - запрет на игру
 options_checkbox_smart_unit_selection		Умный выбор юнитов
-options_hdr_tonemap		Тонирование
+options_hdr_tonemap		Тонмаппинг
 store_toggle_teleport_phase		Переключить вид телепорта (откуда/куда)
 options_slider_select_hero_center_delay		Задержка центрирования (мс)
 lobby_vanity_viewtoggle_customization		Customize Layout
@@ -33240,16 +33240,16 @@ boss_info_phoenix_stat_armor		^oБроня:^* 15
 system_bar_buy_jades							BUY
 options_checkbox_disable_input_background		Блокировать ввод в фоне
 vanity_cat_teleports						Teleport
-boss_info_scaling_header		Скейлинг
+boss_info_scaling_header		Рост силы
 store_no_listings_available					Нет доступных лотов
 store_marketplace_list_price				List price:
 store_marketplace_confirm_prompt			Точно выставить этот предмет?
 boss_info_stats_header		Характеристики
 vanity_this_item							this item
-options_hdr_black_point_tip		Углубляет тени (>0) или поднимает (<0).
+options_hdr_black_point_tip		Положительные значения углубляют тени для большего контраста, отрицательные поднимают их. 0 - нейтрально.
 mm_machine_tag_whitelisted				Shared PC
 marketplace_event_ended							Event ended
-options_hdr_tonemap_tip		Filmic — плавное расширение к пику; Clamp — жёсткое ограничение.
+options_hdr_tonemap_tip		Filmic плавно доводит блики до пика; Clamp жестко обрезает их на пике; Reinhard сжимает весь диапазон.
 options_hdr_black_point		Точка чёрного
 loading_stage_download 				Downloading Resources
 options_hdr_exposure		Экспозиция
@@ -33258,13 +33258,13 @@ boss_info_phoenix_ability3_desc		Даёт 5% реген. здоровья в с�
 store_show_listings		 	Show Listings
 player_role_unassigned_tip					В этом режиме роли не назначаются. Берите любого героя, который подходит команде.
 store_toggle_ward		 	Toggle Ward
-options_hdr_tonemap_ui_tip		Применять тонирование к интерфейсу. Выкл. оставляет UI ярким.
+options_hdr_tonemap_ui_tip		Применять тонмаппинг не только к сцене, но и к интерфейсу. Если выключено, интерфейс рисуется без тонмаппинга поверх обработанной сцены.
 boss_info_phoenix_reward2_desc		Даёт случайный предмет из набора, уровень которого зависит от времени игры. Уровень 1 (0-23 мин.), уровень 2 (25-33 мин.), уровень 3 (35-43 мин.), уровень 4 (45+ мин.). В набор входит уникальное снаряжение Phoenix: Heart of Fire, Obsidian Spear, Phoenix Talon и другое.
 mm_machine_tag_retag_confirm_prompt		Введите ^279{name}^* для подтверждения:
 options_slider_select_hero_center_delay_tip		Сколько миллисекунд нужно удерживать клавишу выбора героя или юнита, прежде чем камера отцентрируется на нём. 0 - мгновенное центрирование.
 store_marketplace_hide_sales_history		Скрыть историю продаж
-options_hdr_sdr_grade_tip		Применяет параметры обработки HDR (контраст, насыщенность, тональная компрессия) и на обычном мониторе. Выключено - сохраняется исходная картинка SDR.
-boss_info_kongor_ability3_desc		Пассивно восстанавливает 5% макс. здоровья в сек. (отключается на 10 сек. при получении атаки).\n\nТакже даёт эффект Nullstone, блокирующий следующее направленное заклинание. Восстанавливается через 15 сек. после срабатывания.
+options_hdr_sdr_grade_tip		Применяет настройки обработки HDR (контраст, насыщенность, тонмаппинг) и на обычном мониторе. Если выключено, сохраняется исходная картинка SDR.
+boss_info_kongor_ability3_desc		Пассивно восстанавливает 5% макс. здоровья в сек. (отключается на 10 сек. при получении атаки).\n\nТакже даёт эффект Null Stone, блокирующий следующее направленное заклинание. Восстанавливается через 15 сек. после срабатывания.
 boss_info_phoenix_ability2_desc		Швыряет цепь вперёд, нанося 150 маг. урона и накладывая Оглушение на 1,5 сек. на задетых врагов. После короткой задержки цепь идёт обратно и наносит те же эффекты на возврате.
 store_unequip								Unequip
 plinko_skip1					Click to
@@ -33272,7 +33272,7 @@ globby_mute_voice_tip						Заглушить голос
 options_hdr_highlight_desat		Спад светов
 boss_info_kongor_subtitle		Король обезьян
 boss_info_kongor_stat_damage		^oФиз. урон:^* 125
-boss_info_phoenix_reward2_name		Перо Возрождения
+boss_info_phoenix_reward2_name		Phoenix Item Token
 options_hdr_mode		Режим HDR
 boss_info_phoenix_ability4_name		Tenacity
 mm_machine_tag_retag_confirm_btn		Re-tag
@@ -33303,7 +33303,7 @@ boss_info_kongor_stat_health		^oЗдоровье:^* 4000
 options_slider_max_ui_framerate		Макс. FPS интерфейса
 boss_info_kongor_ability1_desc		Бросает камень в указанную точку, он приземляется через 2 сек. Наносит [150 + 10% от макс. здоровья цели] маг. урона и оглушает на 2 сек.\n\nKongor применяет эту способность произвольно, сражаясь с вражескими героями (шанс 20% каждую секунду).
 mm_play_ban_denied_reason_permanent		^279{name}:^* запрет на игру. Причина: {reason}
-options_hdr_gamut_tip		Расширяет цвета в более широкий диапазон. 0 — нейтрально.
+options_hdr_gamut_tip		Положительные значения расширяют цвета в более широкий охват, отрицательные приглушают их. 0 - нейтрально.
 mm_machine_tag_denied_reason_unknown	^279{name}:^* компьютер не удалось определить
 store_marketplace_update_my_listing			Обновить мой лот
 options_hdr_pipeline_tip		Рендерит сцену в float16, чтобы работали HDR и тонмаппинг. Отключите, чтобы вернуться к старому 8-битному конвейеру.
@@ -33323,7 +33323,7 @@ boss_info_phoenix_stat_magic_armor		^oМаг. броня:^* 25
 mm_play_ban_denied_body					Следующим участникам группы запрещено играть:
 login_error_account_disabled			Этот аккаунт отключён, войти с него нельзя. Если считаете это ошибкой, обратитесь в поддержку.
 boss_info_phoenix_ability4_desc		Даёт 70% снижения длительности дебаффов, длительности оглушений и сопротивления замедлениям. При Оглушении эти сопротивления растут на 15% (предел 100%).\n\nВраги, атакующие Phoenix, получают на 50% меньше вампиризма.
-boss_info_kongor_reward1_name		Возрождение с усилением
+boss_info_kongor_reward1_name		Золото и опыт
 options_hdr_contrast		Контраст
 store_buy_from_marketplace_for				Купить на площадке за:
 options_hdr_paperwhite		Paper White (нит)
@@ -33345,7 +33345,7 @@ tutorial_slide_hero_attributes_example_prefix				Поскольку ALUNA - ге
 store_show_sell_item	Продать мой предмет
 boss_info_phoenix_scaling_desc		Phoenix возрождается через 5 минут после гибели. Каждое возрождение даёт:\n\n^o+1500^* макс. здоровья\n^o+30^* урона\n^o+1.5^* броня\n^o+1.5^* маг. броня\n\n^oНаграда за убийство:^*\n^o- Опыт:^* 1500 / 1750 / 2000 / 2250 / 2500\n^o- Золото (добившему):^* 220 / 260 / 300 / 340 / 380\n^o- Золото (команде):^* 145 / 160 / 175 / 190 / 205
 mm_no_modes_available						Нет доступных режимов
-options_hdr_paperwhite_tip		Яркость белого и интерфейса. Поднимите если интерфейс тусклый.
+options_hdr_paperwhite_tip		Яркость, к которой приводятся белый цвет и интерфейс. Поднимите, если HUD тусклый, и опустите, если слишком яркий.
 options_hdr_highlight_boost_tip		Насколько агрессивно яркие участки доводятся до пиковой яркости.
 mm_machine_tag_retag_cooldown			Рейтинговые игры на этом компьютере привязаны к ^279{name}^*
 mm_machine_tag_denied_reason_other		^279{name}:^* компьютер привязан к {tagged}
@@ -33359,12 +33359,12 @@ store_marketplace_purchase					Purchase {item}
 mm_play_ban_denied_reason_temporary		^279{name}:^* запрет на игру. Причина: {reason} - истекает через {remaining}
 vanity_cat_namecolors						Name Colors
 boss_info_kongor_stat_hp_regen		^oРеген. здоровья:^* 10/сек.
-options_hdr_exposure_tip		Множитель экспозиции сцены перед тонированием.
+options_hdr_exposure_tip		Множитель экспозиции сцены перед тонмаппингом.
 store_marketplace_fee						Fee:
 options_hdr_saturation		Насыщенность
-options_hdr_gamut		Цветовой охват
-options_hdr_tonemap_ui		Тонировать интерфейс
-options_hdr_sdr_grade		Тонирование сцены (SDR)
+options_hdr_gamut		Сочность цветов
+options_hdr_tonemap_ui		Тонмаппинг интерфейса
+options_hdr_sdr_grade		Цветокоррекция сцены (SDR)
 store_marketplace_hide_my_listings			Скрыть мои лоты
 mm_machine_tag_whitelisted_sub			На этом компьютере рейтинговые игры не привязаны
 play_ban_notice_permanent				Ошибка: вам запрещено играть. Причина: {reason}
@@ -33383,8 +33383,8 @@ vanity_purchase_complete					Purchase Complete
 vanity_listing_failed						Listing Failed
 vanity_list_confirmation					Выставить этот предмет?
 mm_machine_tag_untagged					Вход в рейтинговую очередь сразу привяжет рейтинговые игры на этом компьютере к ^279{name}^*
-options_hdr_enable		HDR
-options_hdr_saturation_tip		Насыщенность цвета. 1.0 — нейтрально.
+options_hdr_enable		Вывод HDR
+options_hdr_saturation_tip		Сочность цветов. 1.0 - нейтрально.
 vanity_cat_icons							Icons
 store_marketplace_page						Page {page}
 lobby_vanity_viewtoggle_herolist			Назад к списку героев
@@ -33396,7 +33396,7 @@ boss_info_phoenix_stat_attack_range		^oДальность атаки:^* 200 (б�
 lobby_hero_favorite_tip						Добавить героя в избранное или убрать оттуда. Кнопка случайного выбора со ^885звездой^* берёт героя из избранного.
 store_list_item	 			List Item
 marketplace_claimed_button						Claimed!
-options_hdr_contrast_tip		Усиливает тени и света. 1.0 — нейтрально.
+options_hdr_contrast_tip		Добавляет контраста: углубляет тени и поднимает света. 1.0 - нейтрально.
 mm_machine_tag_retag_cooldown_sub		Сменить привязку этого компьютера можно {date} ({remaining})
 store_buy_jade									Buy Jade
 boss_info_title		Боссы
@@ -33405,7 +33405,7 @@ boss_info_kongor_reward1_desc		Все герои команды-убийцы п�
 options_hdr_highlight_desat_tip		Сводит самые яркие блики к белому, как на пленке. 0 сохраняет полный цвет.
 options_slider_max_ui_framerate_tip		Задаёт максимум кадров в секунду для отрисовки интерфейса. Высокие значения делают анимацию интерфейса и HTML-панели плавнее, низкие снижают нагрузку на поток интерфейса.
 vanity_listing_complete				 	Listing Complete
-options_hdr_peak_tip		Пиковая яркость дисплея. Установите по характеристикам монитора.
+options_hdr_peak_tip		Пиковая яркость дисплея для плавного спада бликов. Укажите пиковую яркость по характеристикам монитора.
 boss_info_kongor_stat_armor		^oБроня:^* 10
 store_marketplace_review_listing			Review Listing
 hero_tip_offensive_tip_Hero_Succubus_1		Применяйте Mesmerize на целях, которых не бьют ваши союзники: любой союзник, атакующий цель, перенесёт дебафф на себя.
