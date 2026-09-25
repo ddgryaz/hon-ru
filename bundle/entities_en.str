@@ -32776,7 +32776,7 @@ Ability_Glacius1_description_simple		Взрывает лёд в выбранно
 
 
 
-Ability_Glacius1_effect_header									Эффекты Взрыва тундры
+Ability_Glacius1_effect_header									Эффекты Tundra Blast
 
 
 
@@ -32824,7 +32824,7 @@ State_Glacius_Ability1_name										Tundra Blast
 
 
 
-State_Glacius_Ability1_FRAME_effect								{25,30,35,40}% Скор. движ. изначально медленная, постепенно снижается с течением времени.
+State_Glacius_Ability1_FRAME_effect								{25,30,35,40}% замедление, затухающее со временем
 
 
 
@@ -32872,7 +32872,7 @@ Ability_Glacius2_description_simple								Заковывает врага в л
 
 
 
-Ability_Glacius2_effect_header									Эффекты Заморозки
+Ability_Glacius2_effect_header									Эффекты Frozen
 
 
 
@@ -33088,7 +33088,7 @@ Ability_Glacius4_description_simple:ult_boost					Концентрируется
 
 
 
-Ability_Glacius4_effect_header									Эффекты Ледяной заморозки
+Ability_Glacius4_effect_header									Эффекты Glacial Freeze
 
 
 
@@ -33208,7 +33208,7 @@ Hero_Glacius_description											Легенды Ледяных Полей го
 
 
 
-Hero_Glacius_role												Как один из немногих героев с глобальной аурой, Glacius даёт команде заметно превосходящую реген. маны, если рано прокачать Chilling Presence. Tundra Blast и Ice Imprisonment тоже очень сильны всю игру, а Glacial Downpour наносит огромный урон, если враг попал под него на полную длительность.
+Hero_Glacius_role												Как один из немногих героев с глобальной аурой, Glacius даёт команде намного лучший реген. маны, если рано прокачать Chilling Presence. Tundra Blast и Ice Imprisonment тоже очень сильны всю игру, а Glacial Downpour наносит огромный урон, если враг попал под него на полную длительность.
 
 
 
@@ -33496,7 +33496,7 @@ Ability_Gauntlet3_description_simple:Gauntlet_W4				Получает заряд 
 
 
 
-Ability_Gauntlet3_effect_header									Эффекты Ослабления
+Ability_Gauntlet3_effect_header									Эффекты Enfeeble
 
 
 
@@ -33504,7 +33504,7 @@ Ability_Gauntlet3_effect_header									Эффекты Ослабления
 
 
 
-Ability_Gauntlet3_effect_header2								Эффекты Усиления
+Ability_Gauntlet3_effect_header2								Эффекты Empowered
 
 
 
@@ -33632,7 +33632,7 @@ State_Gauntlet_Ability3_tooltip_flavor							Нет
 
 
 
-State_Gauntlet_Ability3_FRAME_effect							Замедление скор. атаки на 1% за заряд\n-1 скор. каста чар за заряд\n1% украденного урона за заряд
+State_Gauntlet_Ability3_FRAME_effect							Замедление скор. атаки на 1% за заряд\n-1 скор. каста за заряд\n1% украденного урона за заряд
 
 
 
@@ -33896,7 +33896,7 @@ Hero_Gauntlet_name	Gauntlet
 
 
 
-Hero_Gauntlet_description										Огр Недд был схвачен Хеллборном, когда война с Легионом поглотила его дом. Хеллборн использовал демоническую магию, чтобы изменить Недда, слив его с мощным оружием и лоботомировав для полного послушания. От мирного огра мало что осталось. Он - мерзость, живое оружие, сдерживаемая разрушительная сила: он - Gauntlet.
+Hero_Gauntlet_description										Огр Недд был схвачен Хеллборном, когда война с Легионом поглотила его дом. Хеллборн использовал демоническую магию, чтобы изменить Недда, слив его с мощным оружием и лоботомировав для полного послушания. От мирного огра мало что осталось. Он - чудовище, живое оружие, разрушительная сила на коротком поводке: он - Gauntlet.
 
 
 
@@ -34208,7 +34208,7 @@ Ability_Gemini3_tooltip_flavor									Зачем надевать ботинк�
 
 
 
-Ability_Gemini3_FRAME_effect									Gemini получают бонусы в зависимости от атрибута.\n\n- Дает ^o1 пробивания брони^* за ^o{18,15,12,9}^* очков Силы.\n- Дает ^o1 Скор. движ.^* за ^o{6,5,4,3}^* очков ловкости.\n- Дает ^o1 Применение Скорость^* за ^o{4,2,1.33,1}^* очков Интеллекта.\n\nFire and Ice получают 60% бонусов от Силы стихий.\n\nДополнительная скор. движ. и скорость сотворения чар ограничены 127.
+Ability_Gemini3_FRAME_effect									Gemini получает бонусы в зависимости от атрибута.\n\n- Дает ^o1 пробивания брони^* за ^o{18,15,12,9}^* очков Силы.\n- Дает ^o1 скор. движ.^* за ^o{6,5,4,3}^* очков Ловкости.\n- Дает ^o1 скор. каста^* за ^o{4,2,1.33,1}^* очков Интеллекта.\n\nFire и Ice получают 60% бонусов от Elemental Force.\n\nДоп. скор. движ. и скор. каста ограничены значением 127.
 
 
 
@@ -34432,7 +34432,7 @@ State_Firecat_Ability1_name										Burning
 
 
 
-State_Firecat_Ability1_description								Наносит {10,20,30} маг. урона в сек.
+State_Firecat_Ability1_description								Получает {10,20,30} маг. урона в сек.
 
 
 
@@ -34448,7 +34448,7 @@ State_Firecat_Ability1_description2
 
 
 
-State_Firecat_Ability1_description_simple						Наносит {10,20,30} маг. урона в сек.
+State_Firecat_Ability1_description_simple						Получает {10,20,30} маг. урона в сек.
 
 
 
@@ -35536,7 +35536,7 @@ State_SotMCat_Ability4_name										Lightning Form
 
 
 
-State_SotMCat_Ability4_FRAME_effect								Активен на расстоянии 1200 единиц от вражеских героев\nМаксимальная скор. движ. 650.
+State_SotMCat_Ability4_FRAME_effect								Действует, пока вражеские герои дальше 1200 единиц\nМаксимальная скор. движ. 650.
 
 
 
@@ -35568,7 +35568,7 @@ State_SotMCat_Ability4_Damage_name								Adverse Sibling
 
 
 
-State_SotMCat_Ability4_Damage_FRAME_effect						-67% наносимого урона (в радиусе 900 от Огня и Льда)
+State_SotMCat_Ability4_Damage_FRAME_effect						-67% наносимого урона (в радиусе 900 от Fire и Ice)
 
 
 
@@ -35600,7 +35600,7 @@ Hero_Gemini_name	Gemini
 
 
 
-Hero_Gemini_description											Хотя огонь и лед обычно конфликтующие стихии, нейтрализующие друг друга, в Gemini они обузданы как единое целое. Могущественное стихийное существо, купающееся в морозе и углях, Gemini сбивают с толку врагов как воплощенное противоречие. Немногие знают - и еще меньше понимают - происхождение Gemini, но ходят слухи, что они - слияние двух отдельных сущностей.
+Hero_Gemini_description											Хотя огонь и лед обычно враждующие стихии, гасящие друг друга, в Gemini они слиты воедино. Могущественное стихийное существо, окутанное морозом и жаром углей, Gemini сбивает врагов с толку как воплощенное противоречие. Немногие знают - и еще меньше понимают - происхождение Gemini, но ходят слухи, что на самом деле он - слияние двух отдельных сущностей.
 
 
 
@@ -35736,7 +35736,7 @@ State_Geomancer_Ability1_Self_name								Digging
 
 
 
-State_Geomancer_Ability1_Self_FRAME_effect						Невозможно нацелить
+State_Geomancer_Ability1_Self_FRAME_effect						Нельзя выбрать целью
 
 
 
@@ -35992,7 +35992,7 @@ State_Geomancer_Ability3_name									Burrowed
 
 
 
-State_Geomancer_Ability3_FRAME_effect							Обнаруживает врагов в радиусе {1200,1800,2400,3000} каждые 2 сек.\nБлижний бой\nНевидимый\nОткрывается врагам в радиусе 400
+State_Geomancer_Ability3_FRAME_effect							Обнаруживает врагов в радиусе {1200,1800,2400,3000} каждые 2 сек.\nБлижний бой\nНевидимый\nВиден врагам в радиусе 400
 
 
 
@@ -36192,7 +36192,7 @@ Hero_Geomancer_name	Geomancer
 
 
 
-Hero_Geomancer_description										Когда убийства, злодеяния и грехи усилились во время Падения Человека из Света, первобытные Геоманты зашевелились глубоко под поверхностью Земель Улья. Они рыли норы к страданию, а за ними толпились десятки демонов, жаждущих собирать и кормиться. "По всему миру возникли великие разломы, словно язвы на земле. Те, кто дрожал во тьме, назвали их вратами в Ад. И Ад из них восстал." Геомант Райт вырвался наружу сквозь жертвенный алтарь и первым вкусил плоть выводка Moon Queen, а в глубины подземного мира вернулся последним, когда еды и душ стало мало, а агония утихла. Долгие годы он пировал кровью и болью тех, кого забрали во время Первой Порчи. Когда Maliken Grimm, король Неверта, бежал в глушь и начал погружаться в безумие, Райт и Геоманты зашевелились снова.
+Hero_Geomancer_description										Когда убийства, злодеяния и грехи усилились во время Отпадения Человека от Света, первобытные Геоманты зашевелились глубоко под поверхностью Земель Улья. Они рыли норы к страданию, а за ними толпились десятки демонов, жаждущих собирать и кормиться. "По всему миру возникли великие разломы, словно язвы на земле. Те, кто дрожал во тьме, назвали их вратами в Ад. И Ад из них восстал." Геомант Райт вырвался наружу сквозь жертвенный алтарь и первым вкусил плоть выводка Moon Queen, а в глубины подземного мира вернулся последним, когда еды и душ стало мало, а агония утихла. Долгие годы он пировал кровью и болью тех, кого забрали во время Первой Порчи. Когда Maliken Grimm, король Неверта, бежал в глушь и начал погружаться в безумие, Райт и Геоманты зашевелились снова.
 
 
 
@@ -36280,7 +36280,7 @@ Ability_Gladiator1_description2
 
 
 
-Ability_Gladiator1_effect_header								Эффекты Шипования!
+Ability_Gladiator1_effect_header								Эффекты Spiked!
 
 
 
@@ -36424,7 +36424,7 @@ Ability_Gladiator2_description2
 
 
 
-Ability_Gladiator2_effect_header								Эффекты Вызова на бой
+Ability_Gladiator2_effect_header								Эффекты Challenged to Fight
 
 
 
@@ -36880,7 +36880,7 @@ State_Gladiator_Ability4_Damage_name 					Call to Arms Buffer Damage
 
 
 
-State_Gladiator_Ability4_Damage_FRAME_effect					Наносит урон, накопленный "Call to Arms", Gladiator как прямое снятие здоровья
+State_Gladiator_Ability4_Damage_FRAME_effect					Наносит Gladiator урон, накопленный Call to Arms, как прямое снятие здоровья
 
 
 
@@ -36912,7 +36912,7 @@ Hero_Gladiator_name												The Gladiator
 
 
 
-Hero_Gladiator_description										Хотя суд поединком был давно запрещен в Легионе Людей, на окраинах цивилизации его все еще практикуют. Когда разразилась война между Легионом и Хеллборном, The Gladiator отправился на поиски достойных противников, каждый щелчок его могучего кнута - похоронный звон для очередного демона.
+Hero_Gladiator_description										Хотя суд поединком был давно запрещен в Легионе Людей, на окраинах цивилизации его все еще практикуют. Когда разразилась война между Легионом и Хеллборном, The Gladiator отправился на поиски достойных противников, и каждый щелчок его могучего кнута звучит похоронным звоном для очередного демона.
 
 
 
@@ -37199,7 +37199,7 @@ Ability_Goldenveil3_description_simple							Пассивно восстанав
 
 
 
-Ability_Goldenveil3_effect_header								Эффекты Затворника
+Ability_Goldenveil3_effect_header								Эффекты Recluse
 
 
 
@@ -37319,7 +37319,7 @@ Ability_Goldenveil4_IMPACT_effect:ult_boost						Наносит цели ^gи д
 
 
 
-Ability_Goldenveil4_KILL_effect									Если Золотая Вейл убивает или помогает убить героя, он получает ^o{70,90,110} золота за жетон^*, а его команда получает ^o{20,30,40} золота за каждый жетон^*. Затем у этого героя вычитается жетон.\n\nУбийство всей вражеской команды обнулит жетоны вражеских героев и предоставит каждому члену команды Goldenveil ^o{100,200,300}^*.
+Ability_Goldenveil4_KILL_effect									Если Goldenveil убивает или помогает убить героя, он получает ^o{70,90,110} золота за жетон^*, а его команда - ^o{20,30,40} золота за жетон^*. Затем у этого героя отнимается один жетон.\n\nУбийство всей вражеской команды восстанавливает жетоны вражеских героев и дает каждому члену команды Goldenveil ^o{100,200,300}^* золота.
 
 
 
@@ -37535,7 +37535,7 @@ Ability_Grinex2_description_simple								Активируйте, чтобы п�
 
 
 
-Ability_Grinex2_effect_header									Эффекты Преследования разлома
+Ability_Grinex2_effect_header									Эффекты Rift Stalk
 
 
 
@@ -37591,7 +37591,7 @@ State_Grinex_Ability2_name
 
 
 
-State_Grinex_Ability2_FRAME_effect								Невидимость с 1 сек. затухания
+State_Grinex_Ability2_FRAME_effect								Невидимость с задержкой 1 сек.
 
 
 
@@ -37743,7 +37743,7 @@ Ability_Grinex3_effect_header2
 
 
 
-Ability_Grinex3_tooltip_flavor									Они Незер-а этого не увидят.
+Ability_Grinex3_tooltip_flavor									Этого они никогда не увидят.
 
 
 
@@ -37919,7 +37919,7 @@ Ability_Grinex4_description_simple:ult_boost					Активируйте, что�
 
 
 
-Ability_Grinex4_effect_header									Эффекты Иллюзорного нападения
+Ability_Grinex4_effect_header									Эффекты Illusory Assault
 
 
 
@@ -37983,7 +37983,7 @@ State_Grinex_Ability4_name										Illusory Assault
 
 
 
-State_Grinex_Ability4_description								Исчезните и направьте иллюзию, которая будет атаковать всех ближайших вражеских героев на ^o{5,6,7}^* сек., которые наносят ^o{35,45,55} урона^* за атаку.\n\nИллюзии оставляют за собой теневой след на 6 сек., который дает скрытность на 1 сек. и скор. движ. на 15%.
+State_Grinex_Ability4_description								Уходите в невидимость и отправляете иллюзии атаковать всех ближайших вражеских героев в течение ^o{5,6,7}^* сек. Каждая атака иллюзии наносит ^o{35,45,55} урона^*.\n\nИллюзии оставляют теневой след на 6 сек.: на нем вы получаете невидимость с задержкой 1 сек. и 15% скор. движ.
 
 
 
@@ -38055,7 +38055,7 @@ State_Grinex_Ability4_Path_FRAME_effect
 
 
 
-State_Grinex_Ability4_Path_FRAME_effect:ult_boost				Скрытность не сломается, пока вы идете по следу\nИммунитет к одиночной цели
+State_Grinex_Ability4_Path_FRAME_effect:ult_boost				Невидимость не спадает, пока вы на следе\nИммунитет к направленным способностям
 
 
 
@@ -38447,7 +38447,7 @@ Ability_Gunblade3_IMPACT_effect:gunblade_persistent_melee		Переключае�
 
 
 
-Ability_Gunblade3_ATTACK_effect									Ваши атаки против вражеских героев получают +{30,45,60,75}% базового урона и истинного удара, если вы находитесь в пределах 200 единиц от своей цели. В пределах этого диапазона ваши атаки также считаются атаками ближнего боя, и вы получаете половину этого бонуса против крипов.\n\nВ противном случае ваши атаки получают до +{20,30,40,50}% базового урона на 200 единицах, уменьшаясь до 0% на 600 единицах.
+Ability_Gunblade3_ATTACK_effect									Ваши атаки против вражеских героев получают +{30,45,60,75}% базового урона и True Strike, если вы находитесь в пределах 200 единиц от своей цели. В пределах этого диапазона ваши атаки также считаются атаками ближнего боя, и вы получаете половину этого бонуса против крипов.\n\nВ противном случае ваши атаки получают до +{20,30,40,50}% базового урона на 200 единицах, уменьшаясь до 0% на 600 единицах.
 
 
 
@@ -38455,7 +38455,7 @@ Ability_Gunblade3_ATTACK_effect									Ваши атаки против вра�
 
 
 
-Ability_Gunblade3_ATTACK_effect:gunblade_persistent_melee		Ваши атаки против вражеских героев получают +{30,45,60,75}% базового урона и истинного удара, если вы находитесь в пределах 200 единиц от своей цели. В пределах этого диапазона ваши атаки также считаются атаками ближнего боя, и вы получаете половину этого бонуса против крипов.\n\nВ противном случае ваши атаки получают до +{20,30,40,50}% базового урона на 200 единицах, уменьшаясь до 0% на 600 единицах.
+Ability_Gunblade3_ATTACK_effect:gunblade_persistent_melee		Ваши атаки против вражеских героев получают +{30,45,60,75}% базового урона и True Strike, если вы находитесь в пределах 200 единиц от своей цели. В пределах этого диапазона ваши атаки также считаются атаками ближнего боя, и вы получаете половину этого бонуса против крипов.\n\nВ противном случае ваши атаки получают до +{20,30,40,50}% базового урона на 200 единицах, уменьшаясь до 0% на 600 единицах.
 
 
 
@@ -38647,7 +38647,7 @@ State_Gunblade_Ability4_Reduced_description						Броня снижена!
 
 
 
-State_Gunblade_Ability4_Reduced_description:ult_boost			Получение на {6,8,10}% увеличения урона от всех источников\n\nУменьшение брони!
+State_Gunblade_Ability4_Reduced_description:ult_boost			Броня снижена!
 
 
 
@@ -38710,7 +38710,7 @@ Hero_Gunblade_name	Gunblade
 
 
 
-Hero_Gunblade_description										Все, что он знал, все, что любил - убито дикими зверями. Он слышал собственные крики, эхом звенящие в ушах, падая на колени и доставая клинок. Движимый безумием, он начал вырезать проклятый символ на собственной плоти. Боль была забыта, и лишь месть заполнила разум. Вскоре символ был завершен, и, омытый собственной яростной кровью, сделка была заключена. Желание воина будет исполнено. Проклятому воину были дарованы два ковано-адских огнестрела, и он был перерожден как Gunblade, Hell's Ranger. Когда-то Законник, теперь - Шериф Проклятых.
+Hero_Gunblade_description										Все, что он знал, все, что любил, - убито дикими зверями. Он слышал, как в ушах эхом отдаются его собственные крики, когда упал на колени и выхватил клинок. Движимый безумием, он начал вырезать проклятый символ на собственной плоти. Боль была забыта, разум заполнила лишь месть. Вскоре символ был завершен, и, омытый собственной яростной кровью, он заключил сделку. Желание воина будет исполнено: он получит желанную силу и возможность отомстить. Проклятый воин получил два выкованных в аду ствола и переродился как Gunblade, Hell's Ranger. Когда-то блюститель закона, теперь - Шериф Проклятых.
 
 
 
@@ -38958,7 +38958,7 @@ Ability_Hammerstorm2_description_simple							Дает ^o{toolvalue1} брони
 
 
 
-Ability_Hammerstorm2_effect_header								Воодушевление
+Ability_Hammerstorm2_effect_header								Galvanize
 
 
 
@@ -39197,7 +39197,7 @@ Ability_Hammerstorm4_description_simple:ult_boost				Высвобождает д
 
 
 
-Ability_Hammerstorm4_effect_header								Эффекты Грубой силы
+Ability_Hammerstorm4_effect_header								Эффекты Brute Strength
 
 
 
@@ -39317,7 +39317,7 @@ Hero_Hammerstorm_name	Hammerstorm
 
 
 
-Hero_Hammerstorm_description									Могучий и стоический, этот прославленный воин оставил руины своего дома ради места в первом Легионе Короля Maliken. С детства он не знал ничего, кроме битвы, и его молчаливая решимость и смертоносная сила принесли ему прозвище "Hammerstorm". Каждый удар его молота разносится по полю боя похоронным звоном.
+Hero_Hammerstorm_description									Могучий и стоический, этот прославленный воин оставил руины своего дома ради места в первом Легионе короля Maliken. С детства он не знал ничего, кроме битвы, и его молчаливая решимость и смертоносная сила принесли ему прозвище "Hammerstorm". Каждый удар его молота разносится по полю боя похоронным звоном.
 
 
 
@@ -39397,7 +39397,7 @@ Ability_NightHound1_description_simple							Бросает ^oдымовую ш�
 
 
 
-Ability_NightHound1_effect_header									Эффекты Дымовой шашки
+Ability_NightHound1_effect_header									Эффекты Smoke Bomb
 
 
 
@@ -39845,7 +39845,7 @@ Ability_Hellbringer1_description_simple							Призывает демона п
 
 
 
-Ability_Hellbringer1_effect_header								Эффект(ы) удара демона
+Ability_Hellbringer1_effect_header								Эффекты Demon Strike
 
 
 
@@ -39933,7 +39933,7 @@ Ability_Hellbringer2_description_simple							Посылает волну бол
 
 
 
-Ability_Hellbringer2_effect_header								Эффект(ы) Death Boil
+Ability_Hellbringer2_effect_header								Эффекты Death Boil
 
 
 
@@ -39981,7 +39981,7 @@ State_Hellbringer_Ability2_name									Death Boil
 
 
 
-State_Hellbringer_Ability2_FRAME_effect							{5,6,7,8} тиков маг. урона раз в сек., начиная с 10 и увеличиваясь на 10 за каждый такт.
+State_Hellbringer_Ability2_FRAME_effect							{5,6,7,8} тиков маг. урона раз в сек., начиная с 10 и увеличиваясь на 10 с каждым тиком.
 
 
 
@@ -40029,7 +40029,7 @@ Ability_Hellbringer3_description_simple							Отправляет вашего 
 
 
 
-Ability_Hellbringer3_effect_header								Эффект(ы) Demonic Touch
+Ability_Hellbringer3_effect_header								Эффекты Demonic Touch
 
 
 
@@ -40189,7 +40189,7 @@ Ability_Hellbringer4_description_simple:ult_boost				Призывает в вы�
 
 
 
-Ability_Hellbringer4_effect_header								Эффект(ы) Hellfire
+Ability_Hellbringer4_effect_header								Эффекты Hellfire
 
 
 
@@ -40245,7 +40245,7 @@ State_Hellbringer_Ability4_name									Hellfire
 
 
 
-State_Hellbringer_Ability4_FRAME_effect							Получает {50,100,150} маг. урона на 3 сек.
+State_Hellbringer_Ability4_FRAME_effect							Получает {50,100,150} маг. урона за 3 сек.
 
 
 
@@ -40381,7 +40381,7 @@ Ability_Malphas3_description_simple								Добавляет ^o{20,40,60} ск�
 
 
 
-Ability_Malphas3_effect_header									Эффект(ы) горящего меча
+Ability_Malphas3_effect_header									Эффекты Burning Sword
 
 
 
@@ -40549,7 +40549,7 @@ Hero_Hellbringer_name	Hellbringer
 
 
 
-Hero_Hellbringer_description									Во время войны против зверей многие люди стали экспертами в призыве демонов на стороне Легиона. Некоторые пристрастились к этому нечестивому действу и даже когда Хеллборн обратился против хозяев, продолжали темные ритуалы. Один такой чернокнижник известен лишь как Hellbringer, ныне капитан армии Хеллборна и, возможно, самый презираемый человек Неверта.
+Hero_Hellbringer_description									Во время войны против зверей многие люди стали мастерами призыва демонов, сражавшихся на стороне Легиона. Некоторые пристрастились к этому нечестивому действу и даже когда Хеллборн обратился против хозяев, продолжали темные ритуалы. Один такой чернокнижник известен лишь как Hellbringer, ныне капитан армии Хеллборна и, возможно, самый презираемый человек Неверта.
 
 
 
@@ -40968,7 +40968,7 @@ Hero_SoulReaper_name	Soul Reaper
 
 
 
-Hero_SoulReaper_description										Soul Reaper рожден в глубинах самого Ада и поднялся на поверхность с миссией поглотить души Неверта. С властью мгновенно судить тех, с кем он соприкасается, даже сильнейшие из Легиона увядают при его приближении.
+Hero_SoulReaper_description										Soul Reaper рожден в глубинах самого Ада и поднялся на поверхность, чтобы собрать души Неверта. Он властен мгновенно судить всякого, кого коснется, и даже сильнейшие воины Легиона слабеют при его приближении.
 
 
 
@@ -41048,7 +41048,7 @@ Ability_Swiftblade1_description_simple								Впадает в ^oBlade Frenzy �
 
 
 
-Ability_Swiftblade1_effect_header										Эффект(ы) безумия клинков
+Ability_Swiftblade1_effect_header										Эффекты Blade Frenzy
 
 
 
@@ -41288,7 +41288,7 @@ State_Swiftblade_Ability2_name										Counter Attack
 
 
 
-State_Swiftblade_Ability2_FRAME_effect								Блокирование всех атак\nПротиводействие атакам героев, если доступны заряды
+State_Swiftblade_Ability2_FRAME_effect								Блокирование всех атак\nКонтратака по атакующим героям, если есть заряды
 
 
 
@@ -41432,7 +41432,7 @@ Ability_Swiftblade3_ATTACK_IMPACT_effect								{15,20,25,30}% шанса нан
 
 
 
-Ability_Swiftblade3_tooltip_flavor									Удар с точностью.
+Ability_Swiftblade3_tooltip_flavor									Точный удар.
 
 
 
@@ -41488,7 +41488,7 @@ Ability_Swiftblade4_description2										^gЭта способность мож
 
 
 
-Ability_Swiftblade4_effect_header										Эффект(ы) стремительных ударов
+Ability_Swiftblade4_effect_header										Эффекты Swift Slashes
 
 
 
@@ -41680,7 +41680,7 @@ Ability_BloodHunter1_description_simple 							^oНакладывает Безм
 
 
 
-Ability_BloodHunter1_effect_header									Эффект(ы) Blood Crazy
+Ability_BloodHunter1_effect_header									Эффекты Blood Crazy
 
 
 
@@ -42024,7 +42024,7 @@ Ability_BloodHunter4_description_simple								Выстреливает остр
 
 
 
-Ability_BloodHunter4_effect_header									Эффект(ы) кровотечения
+Ability_BloodHunter4_effect_header									Эффекты Hemorrhage
 
 
 
@@ -42104,7 +42104,7 @@ State_BloodHunter_Ability4_name										Hemorrhage
 
 
 
-State_BloodHunter_Ability4_FRAME_effect								Абсолютный маг. урон, получаемый в зависимости от {40,60,80}% пройденного расстояния\n\nТелепортации Teleportation Stone и Post Haste не вызывают урон от Hemorrhage, когда юнит перемещается.
+State_BloodHunter_Ability4_FRAME_effect								Получение абсолютного маг. урона, равного {40,60,80}% пройденного расстояния\n\nТелепортации Teleportation Stone и Post Haste не вызывают урон от Hemorrhage, когда юнит перемещается.
 
 
 
@@ -42208,7 +42208,7 @@ Ability_Myrmidon1_description_simple						Создает ^oWeed Field^* в вы�
 
 
 
-Ability_Myrmidon1_effect_header								Эффект засорения
+Ability_Myrmidon1_effect_header								Эффект Weeded
 
 
 
@@ -42352,7 +42352,7 @@ Ability_Myrmidon2_description_simple						Бросает ^oMagic Carp^* в ка�
 
 
 
-Ability_Myrmidon2_tooltip_flavor							Карп, я выбираю тебя! Используй Всплеск!
+Ability_Myrmidon2_tooltip_flavor							Мэджикарп, используй Всплеск!
 
 
 
@@ -42432,7 +42432,7 @@ Ability_Myrmidon3_description_simple 						^oМчится^* к выбранно�
 
 
 
-Ability_Myrmidon3_effect_header								Эффект(ы) всплеска (замедление)
+Ability_Myrmidon3_effect_header								Эффекты Splashed (замедление)
 
 
 
@@ -42440,7 +42440,7 @@ Ability_Myrmidon3_effect_header								Эффект(ы) всплеска (зам
 
 
 
-Ability_Myrmidon3_effect_header2								Эффекты Всплеска
+Ability_Myrmidon3_effect_header2								Эффекты Splashed
 
 
 
@@ -42584,7 +42584,7 @@ Ability_Myrmidon4_description_simple:ult_boost				^gВключается и вы
 
 
 
-Ability_Myrmidon4_effect_header								Эффект эволюции
+Ability_Myrmidon4_effect_header								Эффект Evolved
 
 
 
@@ -42592,7 +42592,7 @@ Ability_Myrmidon4_effect_header								Эффект эволюции
 
 
 
-Ability_Myrmidon4_effect_header2								Эффекты Промокания
+Ability_Myrmidon4_effect_header2								Эффекты Waterlogged
 
 
 
@@ -42600,7 +42600,7 @@ Ability_Myrmidon4_effect_header2								Эффекты Промокания
 
 
 
-Ability_Myrmidon4_tooltip_flavor								Что?\nMYRMIDON развивается!
+Ability_Myrmidon4_tooltip_flavor								Что?\nMYRMIDON эволюционирует!
 
 
 
@@ -42656,7 +42656,7 @@ State_Myrmidon_Ability4_tooltip_flavor						Даже не пришлось ис�
 
 
 
-State_Myrmidon_Ability4_FRAME_effect						Атаки в ближнем бою.\nАтаки наносят {125,175,225} + 70% доп. урона от атаки выше {125,175,225} в виде маг. урона вместо обычного физ. урона органическим юнитам, не имеющим иммунитета к магии.\nБазовое время атаки установлено на {1.6,1.5,1.4}
+State_Myrmidon_Ability4_FRAME_effect						Атакует в ближнем бою.\nАтаки наносят {125,175,225} + 70% урона от атаки сверх {125,175,225} в виде маг. урона вместо обычного физ. урона органическим юнитам без иммунитета к магии.\nБазовое время атаки: {1.6,1.5,1.4}
 
 
 
@@ -42672,7 +42672,7 @@ State_Myrmidon_Ability4_name:ult_boost						^gMutant Evolution*^*
 
 
 
-State_Myrmidon_Ability4_FRAME_effect:ult_boost				Атаки в ближнем бою.\nАтаки наносят ^g{140,190,240}^* + 70% избыточного урона от атак выше {125,175,225} в виде маг. урона в радиусе 250 вместо обычного физ. урона органическим юнитам, не имеющим иммунитета к магии.\nБазовое время атаки установлено на {1.6,1.5,1.4}
+State_Myrmidon_Ability4_FRAME_effect:ult_boost				Атакует в ближнем бою.\nАтаки наносят ^g{140,190,240}^* + 70% урона от атаки сверх {125,175,225} в виде маг. урона в радиусе 250 вместо обычного физ. урона органическим юнитам без иммунитета к магии.\nБазовое время атаки: {1.6,1.5,1.4}
 
 
 
