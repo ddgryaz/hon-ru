@@ -28484,7 +28484,7 @@ State_Empath_Ability4_Target_description						Empath внутри!
 
 
 
-State_Empath_Ability4_Target_description:ult_boost				Empath находится внутри и дает вам эффекты ^gStaff of the Master^*.
+State_Empath_Ability4_Target_description:ult_boost				Empath находится внутри и дает вам эффекты ^gПосоха Мастера^*.
 
 
 
@@ -49055,7 +49055,7 @@ State_Kane_Ability4_Me_description								При активации вы и ва
 
 
 
-State_Kane_Ability4_Me_description2								Вынуждены атаковать цель до истечения времени\n\nЕсли другой дуэлянт умирает, вы навсегда получаете +{4,6,8} к урону от атаки (не действует, пока не активен эффект Staff of the Master).
+State_Kane_Ability4_Me_description2								Вынуждены атаковать цель до истечения времени\n\nЕсли другой дуэлянт умирает, вы навсегда получаете +{4,6,8} к урону от атаки (не действует, пока не активен эффект Посоха Мастера).
 
 
 
@@ -70587,7 +70587,7 @@ State_Rhapsody_Ability4_Self_name								Protective Melody
 
 
 
-State_Rhapsody_Ability4_Self_description						Поддерживает заклинание, давая ближайшим союзникам 100% снижение физ. и маг. урона
+State_Rhapsody_Ability4_Self_description						Концентрируется, давая ближайшим союзникам 100% снижение физ. и маг. урона
 
 
 
@@ -73281,7 +73281,7 @@ State_Sapphire_Ability4_name									Crystallized
 
 
 
-State_Sapphire_Ability4_FRAME_effect							По истечении вы получите {20,40,60} чист. урона и будете обездвижены на 1 сек.
+State_Sapphire_Ability4_FRAME_effect							По истечении вы получите {20,40,60} чист. урона и будете скованы на 1 сек.
 
 
 
@@ -89274,7 +89274,7 @@ State_WarBeast_Ability4_name									Shapeshift
 
 
 
-State_WarBeast_Ability4_FRAME_effect							Уменьшает базовое время атаки с 1,7 сек. до 1,4 сек.\nПовышает скор. движ. героя и всех его юнитов до {550,575,600} и позволяет проходить сквозь юнитов.\nУвеличивает дальность обзора ночью на {600,800,1000}.
+State_WarBeast_Ability4_FRAME_effect							Уменьшает базовое время атаки с 1,7 сек. до 1,4 сек.\nПовышает скор. движ. героя и всех его юнитов до {550,575,600} и позволяет проходить сквозь существ.\nУвеличивает дальность обзора ночью на {600,800,1000}.
 
 
 
@@ -109820,7 +109820,7 @@ Item_StaffOfTheMaster_effect_header
 
 
 
-Item_StaffOfTheMaster_shop_flavor									Самые искушенные в тайных искусствах Неверта, люди и звери, носят крылатый Staff of the Master как знак своего ранга. Возможно, это знак какого-то тайного ордена, но скорее его носят ради интеллекта, здоровья и маны, которые он дарует, и в надежде раскрыть его тайные силы.
+Item_StaffOfTheMaster_shop_flavor									Самые искушенные в тайных искусствах Неверта, люди и звери, носят крылатый Посох Мастера как знак своего ранга. Возможно, это знак какого-то тайного ордена, но скорее его носят ради интеллекта, здоровья и маны, которые он дарует, и в надежде раскрыть его тайные силы.
 
 
 
@@ -109948,7 +109948,7 @@ State_MastersLegacy_name										Master's Legacy
 
 
 
-State_MastersLegacy_FRAME_effect								Способности усилены эффектами Staff of the Master.
+State_MastersLegacy_FRAME_effect								Способности усилены эффектами Посоха Мастера.
 
 
 
