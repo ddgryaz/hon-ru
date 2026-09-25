@@ -10816,7 +10816,7 @@ create_acc_country_zaire			Заир
 
 
 
-create_acc_country_other			Другой
+create_acc_country_other			Другая
 
 
 
@@ -10852,7 +10852,7 @@ game_scores_label_ping						Пинг
 
 
 
-game_scores_label_lvl						Уровень
+game_scores_label_lvl						Ур.
 
 
 
@@ -10880,7 +10880,7 @@ game_scores_label_a							A
 
 
 
-game_scores_label_tab_lvl					Уровень
+game_scores_label_tab_lvl					Ур.
 
 
 
@@ -10980,11 +10980,11 @@ multi_unit_control_off_tip					Управление несколькими юн�
 
 
 
-multi_unit_control_disabled					Управление группами (выкл)
+multi_unit_control_disabled					Управление группами недоступно
 
 
 
-multi_unit_control_disabled_tip				Multi-Unit Control в настоящее время недоступно.
+multi_unit_control_disabled_tip				Управление группами сейчас недоступно.
 
 
 
@@ -11000,7 +11000,7 @@ game_button_scores							Результаты
 
 
 
-game_halfscores_tooltip						Нажмите, чтобы отобразить на табло только аватар игрока и часть уровня. Чтобы полностью развернуть или скрыть результаты, используйте кнопку выше.
+game_halfscores_tooltip						Нажмите, чтобы на табло остались только аватары и уровни игроков. Чтобы полностью развернуть или скрыть табло, используйте кнопку выше.
 
 
 
@@ -11028,7 +11028,7 @@ game_shop_label_relics						Реликвии
 
 
 
-game_shop_label_supplies					Принадлежности
+game_shop_label_supplies					Припасы
 
 
 
@@ -11040,7 +11040,7 @@ game_shop_label_legendary					Легендарный
 
 
 
-game_shop_label_recipe_outpost				Застава
+game_shop_label_recipe_outpost				Аванпост
 
 
 
@@ -11064,15 +11064,15 @@ game_shop_label_recipe_five					Морф-атака
 
 
 
-game_shop_label_recipe_six					Элементы SBT
+game_shop_label_recipe_six					Предметы SBT
 
 
 
-game_shop_label_recommended					Рекомендуется
+game_shop_label_recommended					Рекомендуемое
 
 
 
-game_shop_label_consumables					Расходные материалы
+game_shop_label_consumables					Расходники
 
 
 
@@ -11096,11 +11096,11 @@ game_shop_label_regeneration				Регенерация
 
 
 
-game_shop_label_agi							АГИ
+game_shop_label_agi							ЛОВ
 
 
 
-game_shop_label_str							СТР
+game_shop_label_str							СИЛ
 
 
 
@@ -11108,11 +11108,11 @@ game_shop_label_int							ИНТ
 
 
 
-game_shop_label_booster						Ускоритель
+game_shop_label_booster						Усилитель
 
 
 
-game_shop_label_activatable					Активируемый
+game_shop_label_activatable					Активируемые
 
 
 
@@ -11132,7 +11132,7 @@ game_shop_label_closeguide					Закрыть руководство по гер
 
 
 
-game_shop_label_shopview					Простой просмотр элементов
+game_shop_label_shopview					Простой вид предметов
 
 
 
@@ -11152,7 +11152,7 @@ game_shop_auto_level						Авто
 
 
 
-game_shop_auto_level_top					Автоматически повышайте уровень способностей по мере их появления.
+game_shop_auto_level_top					Автоматически повышать уровень способностей по мере открытия.
 
 
 
@@ -11160,7 +11160,7 @@ game_shop_auto_level_top					Автоматически повышайте ур�
 
 
 
-game_shop_noitemsfound_title				Элементы не найдены
+game_shop_noitemsfound_title				Предметы не найдены
 
 
 
@@ -11180,15 +11180,15 @@ game_label_stash							Тайник
 
 
 
-game_label_stash_tool_tip					Тайник используется для хранения предметов, когда ваш инвентарь полон. Предметы, купленные в магазине, когда вы находитесь вдали от базы, будут автоматически помещены в ваш тайник.\n\nЩелкните левой кнопкой мыши по авто формирующемуся предмету в вашем тайнике, чтобы разобрать его.
+game_label_stash_tool_tip					Тайник используется для хранения предметов, когда ваш инвентарь полон. Предметы, купленные в магазине, когда вы находитесь вдали от базы, будут автоматически помещены в ваш тайник.\n\nЩелкните левой кнопкой мыши по автосборному предмету в вашем тайнике, чтобы разобрать его.
 
 
 
-game_label_stash_deconstruct_tool_tip		Подсказка по реконструкции
+game_label_stash_deconstruct_tool_tip		Подсказка по разборке
 
 
 
-game_shop_label_requires					Требует:
+game_shop_label_requires					Требуется:
 
 
 
@@ -11212,7 +11212,7 @@ game_shop_label_buyremaining				Купить оставшиеся
 
 
 
-game_shop_label_upgrade						Обновление
+game_shop_label_upgrade						Улучшение
 
 
 
@@ -11240,7 +11240,7 @@ game_shop_label_buycomponents_desc			Вы уверены, что хотите п
 
 
 
-game_shop_label_buyupgrade_desc				Вы уверены, что хотите приобрести обновление для этого предмета?
+game_shop_label_buyupgrade_desc				Вы уверены, что хотите купить улучшение для этого предмета?
 
 
 
@@ -11260,7 +11260,7 @@ game_shop_label_shoptip_header				Информация о магазине
 
 
 
-game_shop_label_shoptip_summary				В магазине есть две основные категории: предметы и рецепты. Предметы - это отдельные компоненты, которые используются для создания рецептов. Некоторые рецепты требуют, чтобы вы приобрели реальный предмет рецепта после покупки его компонентов, чтобы завершить рецепт, в то время как другие будут созданы автоматически, как только у вас будут необходимые компоненты.\n\nЕсли вы случайно приобрели предмет, у вас есть 15-секундный льготный период, в течение которого продать его обратно с полным возмещением.
+game_shop_label_shoptip_summary				В магазине есть две основные категории: предметы и рецепты. Предметы - это отдельные компоненты, которые используются для создания рецептов. Некоторые рецепты требуют, чтобы вы приобрели реальный предмет рецепта после покупки его компонентов, чтобы завершить рецепт, в то время как другие будут созданы автоматически, как только у вас будут необходимые компоненты.\n\nЕсли вы купили предмет случайно, в течение 15 секунд его можно продать обратно с полным возвратом денег.
 
 
 
@@ -11268,7 +11268,7 @@ game_shop_label_shoptip_featuresheader		Функции магазина и го�
 
 
 
-game_shop_label_shoptip_features			Чтобы посмотреть, в каких рецептах используется предмет, удерживайте ^gSHIFT^* и нажмите ^gLEFT CLICK^* на нём.\n\nЧтобы переместить предмет из инвентаря в тайник или обратно, удерживайте ^gCTRL^* и нажмите ^gRIGHT CLICK^* на нём.\n\nЧтобы продать предмет, возьмите его ^gRIGHT CLICK^* и бросьте на интерфейс магазина ^gLEFT CLICK^*, либо удерживайте ^gCTRL^* и ^gSHIFT^*, затем нажмите ^gRIGHT CLICK^* на нём.
+game_shop_label_shoptip_features			Чтобы посмотреть, в каких рецептах используется предмет, удерживайте ^gSHIFT^* и нажмите ^gЛКМ^* на нём.\n\nЧтобы переместить предмет из инвентаря в тайник или обратно, удерживайте ^gCTRL^* и нажмите ^gПКМ^* на нём.\n\nЧтобы продать предмет, возьмите его ^gПКМ^* и бросьте на интерфейс магазина ^gЛКМ^*, либо удерживайте ^gCTRL^* и ^gSHIFT^*, затем нажмите ^gПКМ^* на нём.
 
 
 
@@ -11280,7 +11280,7 @@ game_shop_label_components					Компоненты
 
 
 
-game_shop_label_buildsinto					Встраивается в
+game_shop_label_buildsinto					Входит в
 
 
 
@@ -11308,11 +11308,11 @@ game_shop_close_tree_tip					Скрыть дерево
 
 
 
-game_shop_filter_view						Просмотр фильтра
+game_shop_filter_view						Вид: фильтры
 
 
 
-game_shop_category_view						Просмотр категории
+game_shop_category_view						Вид: категории
 
 
 
@@ -11324,19 +11324,19 @@ game_shop_category							Категории
 
 
 
-game_shop_guide_sort_approval				Высшее одобрение
+game_shop_guide_sort_approval				Высший рейтинг
 
 
 
-game_shop_guide_sort_newest					Новейший
+game_shop_guide_sort_newest					Новые
 
 
 
-game_shop_guide_upvote						Проголосовать за
+game_shop_guide_upvote						Голос за
 
 
 
-game_shop_guide_downvote					Проголосовать против
+game_shop_guide_downvote					Голос против
 
 
 
@@ -11348,7 +11348,7 @@ game_shop_label_header_LMB					ЛКМ - показать/скрыть детал
 
 
 
-game_shop_label_header_RMB					ПКМ - предмет покупки
+game_shop_label_header_RMB					ПКМ - купить предмет
 
 
 
@@ -11360,15 +11360,15 @@ game_shop_key_seperator						+
 
 
 
-game_shop_key_shop_cuts						Ярлыки магазинов
+game_shop_key_shop_cuts						Клавиши магазина
 
 
 
-game_shop_key_inv_cuts						Ярлыки инвентаря
+game_shop_key_inv_cuts						Клавиши инвентаря
 
 
 
-game_shop_key_stash_cuts					Ярлыки тайника
+game_shop_key_stash_cuts					Клавиши тайника
 
 
 
@@ -11376,7 +11376,7 @@ game_shop_key_openclose						Открыть/закрыть магазин
 
 
 
-game_shop_key_showhide						Показать/скрыть сведения об элементе
+game_shop_key_showhide						Показать/скрыть сведения о предмете
 
 
 
@@ -11384,7 +11384,7 @@ game_shop_key_buyitem						Купить предмет
 
 
 
-game_shop_key_purchaserecipe				Только рецепт покупки
+game_shop_key_purchaserecipe				Купить только рецепт
 
 
 
@@ -11396,7 +11396,7 @@ game_shop_key_useitem						Использовать предмет (если а�
 
 
 
-game_shop_key_grab							Захватить предмет
+game_shop_key_grab							Взять предмет
 
 
 
@@ -11404,7 +11404,7 @@ game_shop_key_viewrecipe					Посмотреть рецепт в магазин
 
 
 
-game_shop_key_swapitem						Обмен инвентаря/тайника
+game_shop_key_swapitem						Переложить инвентарь/тайник
 
 
 
@@ -11452,7 +11452,7 @@ game_guide_reco_2							Предметы на линии
 
 
 
-game_guide_reco_2_tip						Предметы, над приобретением которых вам следует поработать на этапе лейнинга, который обычно длится до 10-15 минут.
+game_guide_reco_2_tip						Предметы, которые стоит собрать на стадии линий. Обычно она длится 10-15 минут.
 
 
 
@@ -11460,7 +11460,7 @@ game_guide_reco_3							Основные предметы
 
 
 
-game_guide_reco_3_tip						Предметы, которые настоятельно рекомендуется использовать, чтобы максимально эффективно использовать возможности своего героя.
+game_guide_reco_3_tip						Предметы, которые настоятельно рекомендуются, чтобы раскрыть героя по максимуму.
 
 
 
@@ -11476,7 +11476,7 @@ game_guide_reco_5							Ситуационные предметы
 
 
 
-game_guide_reco_6							Основные предметы
+game_guide_reco_6							Обязательные предметы
 
 
 
@@ -11488,7 +11488,7 @@ game_guide_reco_7							Атакующие предметы
 
 
 
-game_guide_reco_7_tip						Приобретите эти предметы после "Основного", если хотите сосредоточиться на атаке.
+game_guide_reco_7_tip						Приобретите эти предметы после обязательных, если хотите сосредоточиться на атаке.
 
 
 
@@ -11496,7 +11496,7 @@ game_guide_reco_8							Оборонительные предметы
 
 
 
-game_guide_reco_8_tip						Приобретите эти предметы после "Основного", если хотите сосредоточиться на защите.
+game_guide_reco_8_tip						Приобретите эти предметы после обязательных, если хотите сосредоточиться на защите.
 
 
 
@@ -11504,19 +11504,19 @@ game_guide_popularity						Популярность
 
 
 
-game_guide_vote_up							Проголосуйте за
+game_guide_vote_up							Голос за
 
 
 
-game_guide_vote_down						Проголосовать против
+game_guide_vote_down						Голос против
 
 
 
-game_guide_auto_level						Способности автоматического уровня
+game_guide_auto_level						Автопрокачка способностей
 
 
 
-game_guide_auto_level_tip					Включение этой опции заставит вас автоматически тренировать свои способности в соответствии с этим руководством.
+game_guide_auto_level_tip					Если включить, способности будут прокачиваться автоматически по этому руководству.
 
 
 
@@ -11532,7 +11532,7 @@ game_guide_label_detailed					Подробное описание
 
 
 
-game_guide_label_getFeatured				Используйте расширенное руководство
+game_guide_label_getFeatured				Использовать рекомендуемое руководство
 
 
 
@@ -11564,11 +11564,11 @@ guide_last_updated							Последнее обновление
 
 
 
-guide_remove_default						Удалить значение по умолчанию
+guide_remove_default						Снять по умолчанию
 
 
 
-guide_remove_favorite						Удалить избранное
+guide_remove_favorite						Убрать из избранного
 
 
 
@@ -11580,7 +11580,7 @@ game_guide_report_title						Пожаловаться на руководств�
 
 
 
-game_guide_report_descrip					Пожалуйста, дайте краткое описание того, почему вы сообщаете об этом Руководстве для героев на рассмотрение.
+game_guide_report_descrip					Кратко опишите, почему вы жалуетесь на это руководство.
 
 
 
@@ -11600,7 +11600,7 @@ game_attributes_label_atk_spd				Скор. атаки
 
 
 
-game_attributes_label_magic_armor			Магическая броня
+game_attributes_label_magic_armor			Маг. броня
 
 
 
@@ -11652,11 +11652,11 @@ game_label_clock_day_2						{time} до наступления темноты.
 
 
 
-game_label_hero_kd_hero_garena				КДА:
+game_label_hero_kd_hero_garena				KDA:
 
 
 
-game_label_creep_kills_creep_garena			СК:
+game_label_creep_kills_creep_garena			CK:
 
 
 
@@ -11668,7 +11668,7 @@ game_label_slasher							/
 
 
 
-game_invulnerable							Неуязвимый
+game_invulnerable							Неуязвим
 
 
 
@@ -11688,7 +11688,7 @@ game_facebook_showoff						Покрасоваться
 
 
 
-game_alt_couriers							Альтернативный выбор курьера
+game_alt_couriers							Выбор облика курьера
 
 
 
@@ -11696,19 +11696,19 @@ game_alt_couriers_current					Текущий выбор курьера
 
 
 
-game_alt_couriers_select					Выберите этого курьера
+game_alt_couriers_select					Выбрать этого курьера
 
 
 
-game_alt_couriers_purchase					Купите этого курьера
+game_alt_couriers_purchase					Купить этого курьера
 
 
 
-game_alt_couriers_lock						Блокировка Курьера
+game_alt_couriers_lock						Заблокировать курьера
 
 
 
-game_alt_couriers_unlock						Разблокировать Курьера
+game_alt_couriers_unlock						Разблокировать курьера
 
 
 
@@ -11748,7 +11748,7 @@ game_mentor_help_8	Мышь
 
 
 
-game_mentor_help_9	Пинг местоположение
+game_mentor_help_9	Пинг точки
 
 
 
@@ -11756,7 +11756,7 @@ game_mentor_help_13 Можно просмотреть этот экран в л�
 
 
 
-game_mentor_help_15 Передайте курсор
+game_mentor_help_15 Показать свой курсор
 
 
 
@@ -11912,7 +11912,7 @@ team_tip_permadead							Этот игрок мертв и не может во�
 
 
 
-game_krosmode_base_health					{health} Очки
+game_krosmode_base_health					Очков: {health}
 
 
 
@@ -11928,7 +11928,7 @@ gamechat_button_send_message				Отправить сообщение
 
 
 
-gamechat_tip_hit_history					^y*Совет: ^* Нажмите "{key}", чтобы открыть историю чата
+gamechat_tip_hit_history					^y*Совет:^* нажмите "{key}", чтобы открыть историю чата
 
 
 
@@ -11940,11 +11940,11 @@ gamechat_indicate_all						ВСЕ
 
 
 
-gamechat_indicate_mentor					МЕНТ
+gamechat_indicate_mentor					НАСТ
 
 
 
-gamechat_indicate_comment					КОММЕНТАРИЙ
+gamechat_indicate_comment					КОММ
 
 
 
@@ -11972,7 +11972,7 @@ game_chat_im_recieve 						^800(IM от {target})
 
 
 
-game_chat_im_send 							^400(от IM до {target})
+game_chat_im_send 							^400(IM для {target})
 
 
 
@@ -11984,7 +11984,7 @@ game_recipe									Рецепт
 
 
 
-game_name									Безымянная игра для новичков
+game_name									Игра БезымянногоНовичка
 
 
 
@@ -12000,7 +12000,7 @@ local_header_local_game						Локально
 
 
 
-local_header_join_local_game				Присоединяйтесь к локальной игре
+local_header_join_local_game				Присоединиться к локальной игре
 
 
 
@@ -12028,7 +12028,7 @@ local_select_server_header					Выберите сервер
 
 
 
-local_select_server_button					Выберите сервер
+local_select_server_button					Выбрать сервер
 
 
 
@@ -12048,7 +12048,7 @@ local_server_header							Сервер
 
 
 
-main_local_browser_ip						ИП
+main_local_browser_ip						IP
 
 
 
@@ -12068,11 +12068,11 @@ main_local_browser_password_tip				Введите пароль для этой �
 
 
 
-main_local_browser_starting					Удаленный запуск игры...
+main_local_browser_starting					Удаленная игра запускается...
 
 
 
-main_local_browser_header					Игровой браузер - ^r{players}^* Игроки на серверах ^r{servers}^*
+main_local_browser_header					Браузер игр - игроков: ^r{players}^*, серверов: ^r{servers}^*
 
 
 
@@ -12132,11 +12132,11 @@ cc_com_aside_current_button_add				Добавить
 
 
 
-cc_com_button_recently_with					Недавно играл с
+cc_com_button_recently_with					Недавно играли вместе
 
 
 
-cc_com_aside_header_recently_with			Недавно играл с
+cc_com_aside_header_recently_with			Недавно играли вместе
 
 
 
@@ -12160,7 +12160,7 @@ cc_com_label_not_in_clan					Вы сейчас не состоите в клан
 
 
 
-cc_com_label_start_clan						Создайте свой собственный клан прямо сейчас! Вам просто нужно 5 членов-основателей (включая вас самих). Все члены-учредители должны в данный момент войти в HoN и еще не быть членами клана.
+cc_com_label_start_clan						Создайте свой клан прямо сейчас! Нужно 5 основателей (включая вас). Все основатели должны быть в сети в HoN и не состоять в другом клане.
 
 
 
@@ -12168,7 +12168,7 @@ cc_com_label_if_interested					Если вы заинтересованы в в�
 
 
 
-cc_com_dropbox_not_interested				Не интересно
+cc_com_dropbox_not_interested				Не интересует
 
 
 
@@ -12176,11 +12176,11 @@ cc_com_dropbox_looking_for_clan				Ищу клан
 
 
 
-cc_com_header_clan_inv_recent				Недавно играл с
+cc_com_header_clan_inv_recent				Недавно играли вместе
 
 
 
-cc_com_button_clan_inv_recent_add			Добавлять
+cc_com_button_clan_inv_recent_add			Добавить
 
 
 
@@ -12200,7 +12200,7 @@ cc_com_rtclick_clan_invite_member			Пригласить нового участ
 
 
 
-cc_com_label_find_nickname_below			Введите псевдоним ниже:
+cc_com_label_find_nickname_below			Введите ник ниже:
 
 
 
@@ -12212,7 +12212,7 @@ cc_com_button_findoptions_current			Найти в текущей игре
 
 
 
-cc_com_button_findoptions_recent			Недавно играл с
+cc_com_button_findoptions_recent			Недавно играли вместе
 
 
 
@@ -12236,7 +12236,7 @@ cc_com_newclan_invite_button				Отправить приглашения
 
 
 
-cc_com_newclan_check_name					Проверьте название и тег клана
+cc_com_newclan_check_name					Проверить название и тег клана
 
 
 
@@ -12252,7 +12252,7 @@ cc_com_newclan_leader						Лидер клана
 
 
 
-cc_com_newclan_memberinfo					Введите псевдоним четырех членов вашего клана. Все члены устава должны войти в систему и не быть членами другого клана.
+cc_com_newclan_memberinfo					Введите ники четырех основателей клана. Все основатели должны быть в сети и не состоять в другом клане.
 
 
 
@@ -12272,7 +12272,7 @@ cc_com_newclan_founding4					Участник 4
 
 
 
-cc_com_newclan_waitinginfo					Ждем, пока ваши учредители ответят на приглашение клана. Если все четыре члена-основателя примут приглашение до истечения срока, ваш новый клан будет создан.
+cc_com_newclan_waitinginfo					Ждем ответа основателей на приглашение в клан. Если все четверо примут приглашение до истечения времени, ваш клан будет создан.
 
 
 
@@ -12284,11 +12284,11 @@ cc_com_newclan_results_button				Продолжить
 
 
 
-cc_com_newclan_success						Клан создан, сообщение об успехе
+cc_com_newclan_success						Сообщение об успешном создании клана
 
 
 
-cc_com_newclan_failure						Клан создан. Сообщение об ошибке
+cc_com_newclan_failure						Сообщение об ошибке создания клана
 
 
 
@@ -12304,11 +12304,11 @@ ccpanel_header_options						Опции
 
 
 
-ccpanel_button_config_cc					Настройка панели управления C&C
+ccpanel_button_config_cc					Настройка панели C&C
 
 
 
-ccpanel_label_panel_explanation				Панель управления уведомляет вас, когда ваши друзья и члены клана выполняют какое-либо действие. Выберите, какие уведомления вы хотите просмотреть.
+ccpanel_label_panel_explanation				Панель C&C уведомляет вас, когда ваши друзья и члены клана выполняют какое-либо действие. Выберите, какие уведомления вы хотите видеть.
 
 
 
@@ -12324,15 +12324,15 @@ ccpanel_checkbox_join_note					Уведомления о присоединен�
 
 
 
-ccpanel_checkbox_leave_note					Оставить уведомления об игре
+ccpanel_checkbox_leave_note					Уведомления о выходе из игры
 
 
 
-ccpanel_checkbox_friend_adds_note			Дополнения к списку друзей
+ccpanel_checkbox_friend_adds_note			Добавления в список друзей
 
 
 
-ccpanel_checkbox_friends_remove_note		Удаление списка друзей
+ccpanel_checkbox_friends_remove_note		Удаления из списка друзей
 
 
 
@@ -12368,7 +12368,7 @@ ccpanel_button_save_settings				Сохранить настройки
 
 
 
-ccpanel_game_invite							Приглашение к игре
+ccpanel_game_invite							Приглашение в игру
 
 
 
@@ -12384,15 +12384,15 @@ ccpanel_label_clan_and_community			Панель клана и сообществ
 
 
 
-ccserverlist_checkbox_show_full				Показать полностью:
+ccserverlist_checkbox_show_full				Показывать полные:
 
 
 
-ccserverlist_checkbox_show_empty			Показать пустое:
+ccserverlist_checkbox_show_empty			Показывать пустые:
 
 
 
-ccserverlist_checkbox_show_sandbox			Показать песочницы:
+ccserverlist_checkbox_show_sandbox			Показывать песочницы:
 
 
 
@@ -12436,11 +12436,11 @@ ccserverlist_button_connect_ip				Подключиться к IP
 
 
 
-ccserverlist_editbox_ip						ИП:
+ccserverlist_editbox_ip						IP:
 
 
 
-ccserverlist_editbox_pass					Пройти:
+ccserverlist_editbox_pass					Пароль:
 
 
 
@@ -12472,7 +12472,7 @@ ccstats_button_hide_stats					Скрыть статистику
 
 
 
-cc_message_label_enter_name_message			Введите никнейм в сообщение
+cc_message_label_enter_name_message			Введите ник получателя
 
 
 
@@ -12508,7 +12508,7 @@ ccwhisper_header_active_chats				Активные чаты
 
 
 
-ccwhisper_you								Ты
+ccwhisper_you								Вы
 
 
 
@@ -12540,7 +12540,7 @@ cctournament_upcoming_time					Время:
 
 
 
-cctournament_upcoming_bracket				Скобка:
+cctournament_upcoming_bracket				Сетка:
 
 
 
@@ -12556,7 +12556,7 @@ cctournament_upcoming_starttime				Время начала матча:
 
 
 
-cctournament_upcoming_joingame				Присоединяйтесь к этой игре прямо сейчас
+cctournament_upcoming_joingame				Присоединиться к этой игре
 
 
 
@@ -12607,7 +12607,7 @@ endstats_label_time							Время
 
 
 
-endstats_label_match_length					Длина
+endstats_label_match_length					Длительность
 
 
 
@@ -12643,11 +12643,11 @@ endstats_label_rank							Ранг
 
 
 
-endstats_label_lvl							Уровень
+endstats_label_lvl							Ур.
 
 
 
-endstats_label_hk							ГК
+endstats_label_hk							HK
 
 
 
@@ -12655,7 +12655,7 @@ endstats_label_d							D
 
 
 
-endstats_label_ck							СК
+endstats_label_ck							CK
 
 
 
@@ -12667,19 +12667,19 @@ endstats_label_xp_min						Опыта/мин
 
 
 
-endstats_label_rate							Ставка
+endstats_label_rate							Процент
 
 
 
-endstats_simple_view_midwars				Краткое описание игры Mid Wars
+endstats_simple_view_midwars				Итоги игр Mid Wars
 
 
 
-endstats_simple_view_bots					Сводка по ботам
+endstats_simple_view_bots					Итоги игр с ботами
 
 
 
-endstats_simple_view_riftwars 				Краткое описание игры Rift Wars
+endstats_simple_view_riftwars 				Итоги игр Rift Wars
 
 
 
@@ -12727,11 +12727,11 @@ endstats_label_buy_backs					Выкупы героя
 
 
 
-endstats_label_xp/minute					Опыт/минута
+endstats_label_xp/minute					Опыт/мин
 
 
 
-endstats_label_gold_lost					Золото потеряно
+endstats_label_gold_lost					Потеряно золота
 
 
 
@@ -12739,7 +12739,7 @@ endstats_label_gold/minute					Золото/мин
 
 
 
-endstats_label_time_played					Время сыграно
+endstats_label_time_played					Время в игре
 
 
 
@@ -12839,7 +12839,7 @@ endstats_label_attributes_player			Атрибуты игрока
 
 
 
-endstats_label_hero_played					Герой сыграл
+endstats_label_hero_played					Герой
 
 
 
@@ -12891,11 +12891,11 @@ endstats_label_kda							K / D / A
 
 
 
-endstats_label_apm							АПМ
+endstats_label_apm							APM
 
 
 
-endstats_label_gpm							ГПМ
+endstats_label_gpm							GPM
 
 
 
@@ -12919,7 +12919,7 @@ endstats_swap_tip							Переключайтесь между простым �
 
 
 
-endstats_label_damagetoflagcarriers			Урон авианосцам
+endstats_label_damagetoflagcarriers			Урон знаменосцам
 
 
 
@@ -12927,19 +12927,19 @@ endstats_label_distancewithflag				Расстояние с флагом
 
 
 
-endstats_label_flagcaptures					Захвачен
+endstats_label_flagcaptures					Захваты
 
 
 
-endstats_label_flagreturns					Вернулся
+endstats_label_flagreturns					Возвраты
 
 
 
-endstats_label_flagcarrierkills				Убийства флагоносцев
+endstats_label_flagcarrierkills				Убийства знаменосцев
 
 
 
-endstats_label_flagcapsteam					Кепки TeamFlag
+endstats_label_flagcapsteam					Захваты командой
 
 
 
@@ -12947,7 +12947,7 @@ endstats_label_flagcapsteam					Кепки TeamFlag
 
 
 
-endstats_label_soccer_goals					Цели
+endstats_label_soccer_goals					Голы
 
 
 
@@ -12955,11 +12955,11 @@ endstats_label_soccer_goalassists			Ассисты
 
 
 
-endstats_label_soccer_selfgoals				Собственные цели
+endstats_label_soccer_selfgoals				Автоголы
 
 
 
-endstats_label_soccer_steals				Ворует
+endstats_label_soccer_steals				Перехваты
 
 
 
@@ -12967,15 +12967,15 @@ endstats_label_soccer_timewithballs			Время с мячом
 
 
 
-endstats_label_soccer_knockedouts			Нокаут
+endstats_label_soccer_knockedouts			Нокаутирован
 
 
 
-endstats_label_soccer_knockouts				Нокаутировать
+endstats_label_soccer_knockouts				Нокауты
 
 
 
-endstats_label_soccer_runegathered			Руны собраны
+endstats_label_soccer_runegathered			Собрано рун
 
 
 
@@ -12995,11 +12995,11 @@ game_end_stats_detailed						Подробная статистика - {name}
 
 
 
-game_end_stats_show_winner					Победитель шоу
+game_end_stats_show_winner					Показать победителя
 
 
 
-game_end_stats_concede						Команда уступила!
+game_end_stats_concede						Команда сдалась!
 
 
 
@@ -13007,7 +13007,7 @@ game_end_stats_awards_soon					Награды за матч скоро появ�
 
 
 
-game_end_stats_no_matches					Вы еще не участвовали ни в одном записанном матче. Вы можете получить совпадение, введя его идентификатор ниже.
+game_end_stats_no_matches					Вы еще не участвовали ни в одном записанном матче. Можно загрузить матч, введя его ID ниже.
 
 
 
@@ -13031,7 +13031,7 @@ game_end_stats_watch_replay_btn				Посмотреть повтор
 
 
 
-game_end_stats_compat_btn					Совместить
+game_end_stats_compat_btn					Совместимость
 
 
 
@@ -13051,15 +13051,15 @@ game_end_stats_match_until_token 			Остался {value} матч!
 
 
 
-main_stats_retrieving_match					Получение информации о совпадении...
+main_stats_retrieving_match					Получение информации о матче...
 
 
 
-main_stats_retrieving_matches				Получение совпадений...
+main_stats_retrieving_matches				Получение матчей...
 
 
 
-main_stats_failed_retrieval					Не удалось получить информацию о совпадении.
+main_stats_failed_retrieval					Не удалось получить информацию о матче.
 
 
 
@@ -13119,7 +13119,7 @@ game_end_stats_download_btn					Скачать повтор
 
 
 
-game_end_stats_download_tootlip				Скачайте повтор этого матча.
+game_end_stats_download_tootlip				Скачать повтор этого матча.
 
 
 
@@ -13127,7 +13127,7 @@ game_end_stats_request_btn					Запросить повтор
 
 
 
-game_end_stats_request_tooltip				Этот повтор в настоящее время не загружен, но вы можете запросить его загрузку. Как только ваш запрос будет обработан, файл станет доступен всем. Вы получите уведомление, когда оно будет загружено и станет доступно для вас.
+game_end_stats_request_tooltip				Этот повтор в настоящее время не загружен, но вы можете запросить его загрузку. Как только ваш запрос будет обработан, файл станет доступен всем. Вы получите уведомление, когда он будет загружен и станет доступен.
 
 
 
@@ -13171,7 +13171,7 @@ game_end_stats_download_compat_tooltip		Это повтор старой вер�
 
 
 
-game_end_stats_fetch_btn					Получить идентификатор совпадения
+game_end_stats_fetch_btn					Загрузить матч по ID
 
 
 
@@ -13187,7 +13187,7 @@ match_stats_ondemand_-1						Нет статуса
 
 
 
-match_stats_ondemand_0						Неудача
+match_stats_ondemand_0						Ошибка
 
 
 
@@ -13243,7 +13243,7 @@ match_stats_ondemand_1_tip					Запрошенный повтор не суще
 
 
 
-match_stats_ondemand_2_tip					Реплей не найден и поэтому не может быть получен.
+match_stats_ondemand_2_tip					Повтор не найден и поэтому не может быть получен.
 
 
 
@@ -13255,15 +13255,15 @@ match_stats_ondemand_4_tip					Этот повтор уже поставлен �
 
 
 
-match_stats_ondemand_5_tip					Реплей стоит в очереди на загрузку, скоро он будет доступен.
+match_stats_ondemand_5_tip					Повтор стоит в очереди на загрузку, скоро он будет доступен.
 
 
 
-match_stats_ondemand_6_tip					Реплей сейчас загружается...
+match_stats_ondemand_6_tip					Повтор сейчас загружается...
 
 
 
-match_stats_ondemand_7_tip					Реплей загружен и теперь доступен для скачивания! Попробуйте обновить статистику матча.
+match_stats_ondemand_7_tip					Повтор загружен и теперь доступен для скачивания! Попробуйте обновить статистику матча.
 
 
 
@@ -13271,7 +13271,7 @@ match_stats_ondemand_7_tip					Реплей загружен и теперь д�
 
 
 
-match_stats_open							Открытая статистика матча!
+match_stats_open							Открыть статистику матча!
 
 
 
@@ -13283,11 +13283,11 @@ mm_gar_allownonpremium						3. VIP-пользователи
 
 
 
-mm_gar_allownonpremium_desc					Если этот флажок установлен, вы будете соединены только с другими VIP-пользователями.
+mm_gar_allownonpremium_desc					Если этот флажок установлен, вы будете попадать в игры только с другими VIP-пользователями.
 
 
 
-mm_gar_check_allownonpremium				VIP-только
+mm_gar_check_allownonpremium				Только VIP
 
 
 
@@ -13303,11 +13303,11 @@ mm_progression_key							Что здесь происходит?
 
 
 
-mm_progression_key_title					Прогресс в эндшпиле при подборе матчей
+mm_progression_key_title					Награды за игры с подбором
 
 
 
-mm_pregression_key_explanation				Система развития матчмейкинга в финале позволяет игрокам зарабатывать как опыт, так и серебряные монеты гоблинов, которые можно использовать в магазине, играя в игры с подбором игроков. Серебряные монеты зарабатываются во время игр тремя способами: производительность игры, совокупная статистика учетной записи и повышение уровня учетной записи.
+mm_pregression_key_explanation				Система наград за игры с подбором позволяет зарабатывать опыт и серебряные монеты гоблинов для магазина. Серебряные монеты зарабатываются тремя способами: результат игры, общая статистика аккаунта и повышение уровня аккаунта.
 
 
 
@@ -13343,7 +13343,7 @@ mm_pregression_key_level5					Еще 6 монет каждые 5 уровней
 
 
 
-mm_pregression_key_consecbonus_exp			^y*Последовательный бонус^* можно заработать, сыграв новый матч в течение 15 минут после его завершения. Каждый последовательный выигрыш стоит 1 монету, равную количеству последовательных игр, максимум до 6. Проигрыши всегда оцениваются в 1 монету.
+mm_pregression_key_consecbonus_exp			^y*Бонус за серию^* начисляется, если вы начинаете новый матч в течение 15 минут после окончания предыдущего. Каждая победа в серии приносит столько монет, сколько игр подряд сыграно, максимум 6. Поражение всегда приносит 1 монету.
 
 
 
@@ -13351,7 +13351,7 @@ mm_pregression_key_consecbonus_exp2			Пример:
 
 
 
-mm_pregression_key_consecbonus_exp3			За свой первый матч подряд вы выигрываете и получаете 1 монету. У вас есть два проигрыша, каждый из которых приносит по 1 монете. Четвертый матч является победным и приносит вам 4 монеты. Бонус ограничен максимум 6 за победу. При досрочном отключении от матча накопленный бонус теряется.
+mm_pregression_key_consecbonus_exp3			Первый матч серии вы выигрываете и получаете 1 монету. Затем два поражения, по 1 монете за каждое. Четвертый матч - победа, она приносит 4 монеты. Бонус ограничен 6 монетами за победу. При досрочном отключении от матча накопленный бонус теряется.
 
 
 
@@ -13359,11 +13359,11 @@ mm_pregression_key_consecbonus_exp3			За свой первый матч под
 
 
 
-mm_pregression_gameperformance				Производительность игры
+mm_pregression_gameperformance				Результат игры
 
 
 
-mm_pregression_condition					Состояние
+mm_pregression_condition					Условие
 
 
 
@@ -13371,11 +13371,11 @@ mm_pregression_victory						Победа
 
 
 
-mm_pregression_loss							Потеря
+mm_pregression_loss							Поражение
 
 
 
-mm_pregression_fotd							Первое утро
+mm_pregression_fotd							Первая за день
 
 
 
@@ -13387,31 +13387,31 @@ mm_pregression_socialbonus					Социальный бонус
 
 
 
-mm_pregression_consecbonus					Последовательный бонус^y*^*
+mm_pregression_consecbonus					Бонус за серию^y*^*
 
 
 
-mm_pregression_bloodlust_you				Жажда крови (Ты)
+mm_pregression_bloodlust_you				Жажда крови (вы)
 
 
 
-mm_pregression_bloodlust_team				Жажда крови (товарищ по команде)
+mm_pregression_bloodlust_team				Жажда крови (союзник)
 
 
 
-mm_pregression_immortal_you					Бессмертный (Ты)
+mm_pregression_immortal_you					Бессмертный (вы)
 
 
 
-mm_pregression_immortal_team				Бессмертный (товарищ по команде)
+mm_pregression_immortal_team				Бессмертный (союзник)
 
 
 
-mm_pregression_annihilation_you				Аннигиляция (Ты)
+mm_pregression_annihilation_you				Аннигиляция (вы)
 
 
 
-mm_pregression_annihilation_team			Аннигиляция (товарищ по команде)
+mm_pregression_annihilation_team			Аннигиляция (союзник)
 
 
 
@@ -13423,7 +13423,7 @@ mm_pregression_250kills						250 убийств
 
 
 
-mm_pregression_250assts						250 передач
+mm_pregression_250assts						250 ассистов
 
 
 
@@ -13431,7 +13431,7 @@ mm_pregression_50wards						Размещено 50 вардов
 
 
 
-mm_pregression_10smacks						10 ударов
+mm_pregression_10smacks						10 разгромов
 
 
 
@@ -13475,7 +13475,7 @@ match_awards_deaths_m						-
 
 
 
-match_awards_deaths_l						Осторожно
+match_awards_deaths_l						Осторожный
 
 
 
@@ -13499,7 +13499,7 @@ match_awards_gold_spent_m					Большой транжира
 
 
 
-match_awards_gold_spent_l					Скромный
+match_awards_gold_spent_l					Бережливый
 
 
 
@@ -13515,15 +13515,15 @@ match_awards_bdmg_m							Грабитель
 
 
 
-match_awards_bdmg_l							По-соседски
+match_awards_bdmg_l							Добрый сосед
 
 
 
-match_awards_razed_m						Разрушающий шар
+match_awards_razed_m						Таран
 
 
 
-match_awards_razed_l						Защитник природы
+match_awards_razed_l						Хранитель
 
 
 
@@ -13535,7 +13535,7 @@ match_awards_secs_dead_l					Живой
 
 
 
-match_awards_actions_m						С кофеином
+match_awards_actions_m						На кофеине
 
 
 
@@ -13583,7 +13583,7 @@ match_awards_teamcreepkills_l				Натуралист
 
 
 
-match_awards_doublekill_m					Двойной или ничего
+match_awards_doublekill_m					Всё или ничего
 
 
 
@@ -13591,7 +13591,7 @@ match_awards_doublekill_l					-
 
 
 
-match_awards_triplekill_m					Трипит
+match_awards_triplekill_m					Трижды подряд
 
 
 
