@@ -14,9 +14,14 @@ linux/                  порт под Linux
 |-- apply.sh            установка и режим --on-launch
 |-- uninstall.sh        откат
 |-- config.sh           поиск игры в wine-префиксах
-|-- untranslated.sh     отчёт о пробелах в переводе
-|-- lint.sh             проверка bundle/ на дефекты
+|-- untranslated.sh     запуск tools/untranslated.py против игры в префиксе
+|-- lint.sh             запуск tools/lint.py против игры в префиксе
 `-- lib/                honru.py (мерж, startup.cfg), probe.py (inotify)
+
+tools/                  проверки перевода, не зависят от платформы
+|-- lint.py             дефекты перевода
+|-- untranslated.py     что осталось без перевода
+`-- strfile.py          разбор .str, общий с linux/lib/honru.py
 
 windows/                порт под Windows (PowerShell 5.1)
 |-- install.bat         ярлык "HoN (RU)" на рабочем столе

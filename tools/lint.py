@@ -14,7 +14,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from honru import parse_str, lookup
+from strfile import parse_str, lookup
 
 STEMS = ('entities', 'interface', 'client_messages', 'game_messages', 'bot_messages')
 CYR = set('абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ')

@@ -388,7 +388,7 @@ function Test-HonUtf8Bom([byte[]]$data) {
     return $data.Length -ge 3 -and $data[0] -eq 0xEF -and $data[1] -eq 0xBB -and $data[2] -eq 0xBF
 }
 
-# Повторяет parse_str из linux/lib/honru.py: сборки обязаны совпадать побайтно.
+# Повторяет parse_str из tools/strfile.py: сборки обязаны совпадать побайтно.
 # Около 300 строк в игре разделены пробелами, а не табом; таб проверяется
 # первым, потому что в ключе бывает пробел (`Extra tooltip?`)
 function Read-HonStr([byte[]]$data) {

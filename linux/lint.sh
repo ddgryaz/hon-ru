@@ -18,4 +18,4 @@ TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 hon_extract_base "$TMP" || exit 1
 
-python3 "$SCRIPT_DIR/lib/lint.py" "$TMP" "$BUNDLE_DIR" "${1:-5}"
+python3 "$(dirname "$SCRIPT_DIR")/tools/lint.py" "$TMP" "$BUNDLE_DIR" "${1:-5}"
