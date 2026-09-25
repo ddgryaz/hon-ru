@@ -22379,7 +22379,7 @@ Ability_Devourer4_description_simple							Пожирает плоть враг�
 
 
 
-Ability_Devourer4_effect_header									Эффекты Пожирания
+Ability_Devourer4_effect_header									Эффекты Devour
 
 
 
@@ -22459,7 +22459,7 @@ Ability_Devourer4_Staff_description_simple						Проглотить врага 
 
 
 
-Ability_Devourer4_Staff_effect_header							Эффекты Обжорства
+Ability_Devourer4_Staff_effect_header							Эффекты Gorge
 
 
 
@@ -22539,7 +22539,7 @@ State_Devourer_Ability4_Staff_Self_name							Gorge
 
 
 
-State_Devourer_Ability4_Staff_Self_FRAME_effect					Исцеление {55,95,135} Здоровье в сек.\nПолучение урона сокращает оставшееся время.
+State_Devourer_Ability4_Staff_Self_FRAME_effect					Исцеление {55,95,135} здоровья в сек.\nПолучение урона сокращает оставшееся время.
 
 
 
@@ -22699,7 +22699,7 @@ Hero_Devourer_name	Devourer
 
 
 
-Hero_Devourer_description										Поглощая и уничтожая все на своем пути, тучный, гнилостный Devourer существует лишь ради еды. Никакая боль не сравнится с агонией его голода, и потому он стряхивает все атаки, распространяя гниль и болезни по полю боя, словно сама гибель.
+Hero_Devourer_description										Поглощая и уничтожая все на своем пути, тучный, гнилостный Devourer существует лишь ради еды. Никакая боль не сравнится с агонией его голода, и потому он не замечает никаких атак, распространяя гниль и болезни по полю боя, словно сама гибель.
 
 
 
@@ -22779,7 +22779,7 @@ Ability_PlagueRider1_description_simple						Заражает вражеског
 
 
 
-Ability_PlagueRider1_effect_header							Эффекты Заражения
+Ability_PlagueRider1_effect_header							Эффекты Diseased
 
 
 
@@ -22939,7 +22939,7 @@ State_PlagueRider_Ability2_Effect_name		Earthblight
 
 
 
-State_PlagueRider_Ability2_Effect_FRAME_effect				Притягивает обратно к заражению!
+State_PlagueRider_Ability2_Effect_FRAME_effect				Порча тянет вас назад!
 
 
 
@@ -23155,7 +23155,7 @@ Hero_PlagueRider_name	Plague Rider
 
 
 
-Hero_PlagueRider_description									Чумной смрад Plague Rider можно почуять за мили - зловонное предупреждение о болезнях, следующих за ним. Восседая на нежитном коне, парящий на вонючем облаке мух, Plague Rider сеет хворь среди друзей и врагов, с единственной целью - распространить болезнь по землям Неверта.
+Hero_PlagueRider_description									Чумной смрад Plague Rider можно почуять за мили - зловонное предупреждение о болезнях, следующих за ним. Восседая на скакуне-нежити, что парит на вонючем облаке мух, Plague Rider сеет хворь среди друзей и врагов, с единственной целью - распространить болезнь по землям Неверта.
 
 
 
@@ -23888,7 +23888,7 @@ Ability_DoctorRepulsor2_description_simple						Намагничивает вр�
 
 
 
-Ability_DoctorRepulsor2_effect_header							Эффекты Намагничивания
+Ability_DoctorRepulsor2_effect_header							Эффекты Magnetized
 
 
 
@@ -23976,7 +23976,7 @@ Ability_DoctorRepulsor3_description_simple						Заряжает вас энер
 
 
 
-Ability_DoctorRepulsor3_effect_header							Эффекты Полной зарядки
+Ability_DoctorRepulsor3_effect_header							Эффекты Fully Charged
 
 
 
@@ -24144,7 +24144,7 @@ Ability_DoctorRepulsor4_name:ult_boost							^gLudicrous Speed*^*
 
 
 
-Ability_DoctorRepulsor4_ACTIVATE_COST_effect:ult_boost			^cМана: 20 + ^g6%^* от макс. маны^*
+Ability_DoctorRepulsor4_ACTIVATE_COST_effect:ult_boost			^cСтоимость: 11% от макс. маны^*
 
 
 
@@ -24771,7 +24771,7 @@ Hero_DrunkenMaster_name	Drunken Master
 
 
 
-Hero_DrunkenMaster_description									Для Drunken Master существует лишь одно кардинальное правило: выпивка должна течь свободно и бесконечно. Поначалу апатичный к угрозе Хеллборна, Drunken Master бросился в бой, когда мудрец объяснил ему: если Хеллборн захватит Неверт, выпивки больше не будет. Вооруженный экспертными боевыми техниками и подпитываемый сомнительными веществами, Drunken Master воплощает непредсказуемость и несгибаемость.
+Hero_DrunkenMaster_description									Для Drunken Master существует лишь одно незыблемое правило: выпивка должна течь свободно и бесконечно. Поначалу равнодушный к угрозе Хеллборна, Drunken Master бросился в бой, когда мудрец объяснил ему: если Хеллборн захватит Неверт, выпивки больше не будет. Владеющий мастерскими боевыми приемами и подпитываемый сомнительными веществами, Drunken Master воплощает непредсказуемость и несгибаемость.
 
 
 
@@ -25011,7 +25011,7 @@ Ability_Blacksmith3_description_simple							Накладывает на сою�
 
 
 
-Ability_Blacksmith3_effect_header								Эффекты Бешенства
+Ability_Blacksmith3_effect_header								Эффекты Frenzy
 
 
 
@@ -25209,7 +25209,7 @@ Ability_Blacksmith4_IMPACT_effect:ult_boost		^cСтоимость примене
 
 
 
-Ability_Blacksmith4_tooltip_flavor:ult_boost						"Шанс возьмет свое! Рискованный состав!"\n- Пэтти Флер, Tales of Vesperia
+Ability_Blacksmith4_tooltip_flavor:ult_boost						"Шанс возьмет свое! Рискованный каст!"\n- Пэтти Флер, Tales of Vesperia
 
 
 
@@ -25249,7 +25249,7 @@ Hero_Blacksmith_name	Blacksmith
 
 
 
-Hero_Blacksmith_description										Закопченные кузницы Железного Города давно известны бесконечным потоком оружия и доспехов, делающим войну Легиона против Хеллборна возможной. Но теперь, когда людей стало заменять труднее, чем припасы, сами Кузнецы вышли на поле боя, принеся силу, обретенную десятилетиями труда, и мастерство над самим огнем.
+Hero_Blacksmith_description										Закопченные кузницы Железного Города давно известны бесконечным потоком оружия и доспехов, делающим войну Легиона против Хеллборна возможной. Но теперь, когда людей стало заменять труднее, чем припасы, сами Кузнецы вышли на поле боя, принеся силу, обретенную десятилетиями труда, и власть над самим огнем.
 
 
 
@@ -25537,7 +25537,7 @@ Ability_Slither3_description_simple								Ваши атаки дополнит�
 
 
 
-Ability_Slither3_effect_header									Эффекты Токсичности
+Ability_Slither3_effect_header									Эффекты Toxicity
 
 
 
@@ -25976,7 +25976,7 @@ Ability_Electrician2_effect_header								Эффекты Electric Shield
 
 
 
-Ability_Electrician2_effect_header2								Эффекты Электрической ауры
+Ability_Electrician2_effect_header2								Эффекты Electric Aura
 
 
 
@@ -26072,7 +26072,7 @@ State_Electrician_Ability2_description							Сводит на нет входя
 
 
 
-State_Electrician_Ability2_FRAME_effect							Поглощает 50% полученного урона до смягчения, вплоть до {0.75,0.9,1.05,1.2}x маны, потраченной на его применение.
+State_Electrician_Ability2_FRAME_effect							Поглощает 50% полученного урона после смягчения, вплоть до {0.75,0.9,1.05,1.2}x маны, потраченной на применение.
 
 
 
@@ -26112,7 +26112,7 @@ State_Electrician_Ability2_SotM_description						Сводит на нет вхо
 
 
 
-State_Electrician_Ability2_SotM_FRAME_effect					Поглощает 50% получаемого урона до снижения
+State_Electrician_Ability2_SotM_FRAME_effect					Поглощает 50% полученного урона после смягчения
 
 
 
@@ -26240,7 +26240,7 @@ State_Electrician_Ability3_name									Energy Absorption
 
 
 
-State_Electrician_Ability3_FRAME_effect							+5 скорости за каждого врага, задетого Energy Absorption, максимум +40
+State_Electrician_Ability3_FRAME_effect							+5 скор. движ. за каждого врага, задетого Energy Absorption, максимум +40
 
 
 
@@ -26296,7 +26296,7 @@ Ability_Electrician4_description_simple							Посылает в юнита м�
 
 
 
-Ability_Electrician4_effect_header								Эффекты Очищения
+Ability_Electrician4_effect_header								Эффекты Cleansed
 
 
 
@@ -26304,7 +26304,7 @@ Ability_Electrician4_effect_header								Эффекты Очищения
 
 
 
-Ability_Electrician4_effect_header2								Эффекты Шока
+Ability_Electrician4_effect_header2								Эффекты Shocked
 
 
 
@@ -26478,7 +26478,7 @@ Hero_Electrician_name	Electrician
 
 
 
-Hero_Electrician_description									Лучшие шпионы Легиона узнали лишь месяцы назад о безумном археологе, чья неестественная жажда знаний привела его к запретному пакту с Хеллборном. Его открытия были использованы для создания Штурмовиков - людей, слитых с технологиями Древних, пульсирующих яростной энергией. Эти ужасающие гибриды несут бак жидкой молнии на спине и используют его содержимое и как меч, и как щит.
+Hero_Electrician_description									Лучшие шпионы Легиона узнали лишь несколько месяцев назад о безумном археологе, чья неестественная жажда знаний привела его к запретному пакту с Хеллборном. Его открытия были использованы для создания Штурмовиков - людей, слитых с технологиями Древних, пульсирующих яростной энергией. Эти ужасающие гибриды несут бак жидкой молнии на спине и используют его содержимое и как меч, и как щит.
 
 
 
@@ -26574,7 +26574,7 @@ Ability_Ellonia1_frosted_comment								Скор. движ. врагов, нах
 
 
 
-Ability_Ellonia1_effect_header									^tЭффект(ы) ^*
+Ability_Ellonia1_effect_header									^tЭффекты Frosted^*
 
 
 
@@ -26590,7 +26590,7 @@ Ability_Ellonia1_effect_header2
 
 
 
-Ability_Ellonia1_tooltip_flavor									Осколок льда, наносящий массивный урон холодом и замораживающий ближайших врагов.
+Ability_Ellonia1_tooltip_flavor									Осколок льда, наносящий огромный урон холодом и замораживающий ближайших врагов.
 
 
 
@@ -26654,7 +26654,7 @@ Ability_Ellonia2_description_simple								Покрывает область и�
 
 
 
-Ability_Ellonia2_effect_header									^tЭффект(ы) ^*
+Ability_Ellonia2_effect_header									^tЭффекты Frosted^*
 
 
 
@@ -26822,7 +26822,7 @@ State_Ellonia_Ability3_Freeze_name								Flash Freeze
 
 
 
-State_Ellonia_Ability3_Freeze_description						Имба крит входит.
+State_Ellonia_Ability3_Freeze_description						Имба-крит на подходе.
 
 
 
@@ -26878,7 +26878,7 @@ Ability_Ellonia4_description_simple								Запускает пульсирую
 
 
 
-Ability_Ellonia4_effect_header									^tЭффект(ы) ^*
+Ability_Ellonia4_effect_header									^tЭффекты Frosted^*
 
 
 
@@ -27564,7 +27564,7 @@ Ability_EmeraldWarden4_a_description_simple:ult_boost			Gawain атакует г
 
 
 
-Ability_EmeraldWarden4_a_tooltip_flavor							"Gawain, используй "Diving Strike"!"
+Ability_EmeraldWarden4_a_tooltip_flavor							"Gawain, используй Diving Strike!"
 
 
 
@@ -27636,7 +27636,7 @@ Ability_EmeraldWarden4_b_description_simple:ult_boost			Когда у вас м�
 
 
 
-Ability_EmeraldWarden4_b_tooltip_flavor							"Gawain, используй "Касание леса"!"
+Ability_EmeraldWarden4_b_tooltip_flavor							"Gawain, используй Forest's Touch!"
 
 
 
@@ -27708,7 +27708,7 @@ Ability_EmeraldWarden4_c_description_simple:ult_boost			Gawain вызывает 
 
 
 
-Ability_EmeraldWarden4_c_tooltip_flavor							"Gawain, используй "Emerald Storm"!"
+Ability_EmeraldWarden4_c_tooltip_flavor							"Gawain, используй Emerald Storm!"
 
 
 
@@ -27812,7 +27812,7 @@ Hero_EmeraldWarden_name	Emerald Warden
 
 
 
-Hero_EmeraldWarden_description									Из дневника пропавшего разведчика: Этот образ великого рогатого зверя, внушительного и богато увенчанного, является нам как представитель неизвестной друидической секты зверей. По его велению малые существа леса подчиняются, а когда его лук поднят - враг падет.
+Hero_EmeraldWarden_description									Из дневника пропавшего разведчика: Этот образ великого рогатого зверя, внушительного и богато украшенного самоцветами, является нам как представитель неизвестной друидической секты зверей. По его велению малые существа леса подчиняются, а когда его лук поднят - враг падет.
 
 
 
@@ -27940,7 +27940,7 @@ State_Empath_Ability1_Enemy_name								Essence Link
 
 
 
-State_Empath_Ability1_Enemy_FRAME_effect						{20,30,40,50} Истинный урон в сек.
+State_Empath_Ability1_Enemy_FRAME_effect						{20,30,40,50} чист. урона в сек.
 
 
 
@@ -27972,7 +27972,7 @@ State_Empath_Ability1_Self_name									Essence Link
 
 
 
-State_Empath_Ability1_Self_FRAME_effect							{20,30,40,50} Здоровье восстанавливается в сек.
+State_Empath_Ability1_Self_FRAME_effect							{20,30,40,50} здоровья восстанавливается в сек.
 
 
 
@@ -28004,7 +28004,7 @@ State_Empath_Ability1_Inside_name								Essence Link
 
 
 
-State_Empath_Ability1_Inside_FRAME_effect						{20,30,40,50} Здоровье восстанавливается в сек.
+State_Empath_Ability1_Inside_FRAME_effect						{20,30,40,50} здоровья восстанавливается в сек.
 
 
 
@@ -28308,7 +28308,7 @@ Ability_Empath4_description_simple:ult_boost					Соединяется с со�
 
 
 
-Ability_Empath4_tooltip_flavor									Помоги мне - помогу тебе.
+Ability_Empath4_tooltip_flavor									Помоги мне помочь тебе.
 
 
 
@@ -28484,7 +28484,7 @@ State_Empath_Ability4_Target_description						Empath внутри!
 
 
 
-State_Empath_Ability4_Target_description:ult_boost				Empath находится внутри и дает вам эффекты ^gПосох Мастера^*.
+State_Empath_Ability4_Target_description:ult_boost				Empath находится внутри и дает вам эффекты ^gStaff of the Master^*.
 
 
 
@@ -28516,7 +28516,7 @@ State_Empath_Ability4_Speed_name								Faster!
 
 
 
-State_Empath_Ability4_Speed_description							Empath подстегнул этого героя двигаться быстрее, давая бафф 150 скор. движ., затухающий до 0 за 2 сек.
+State_Empath_Ability4_Speed_description							Empath подстегнул этого героя двигаться быстрее, давая +150 скор. движ., затухающие до 0 за 2 сек.
 
 
 
@@ -28548,7 +28548,7 @@ Hero_Empath_name	Empath
 
 
 
-Hero_Empath_description											Связанная с жизненной силой всех существ Неверта, Empath тяжко пострадала в войне с демонами. Тем не менее, ее дар - и проклятие - мощный актив для Легиона, ибо Empath способна призвать свою магию для исцеления союзников, дебаффы врагов и даже слияния своей сущности с другими героями.
+Hero_Empath_description											Связанная с жизненной силой всех существ Неверта, Empath тяжко пострадала в войне с демонами. Тем не менее, ее дар - и проклятие - ценное подспорье для Легиона, ибо своей магией Empath может исцелять союзников, ослаблять врагов и даже сливать свою сущность с другими героями.
 
 
 
@@ -28882,7 +28882,7 @@ Ability_Engineer3_description_simple							Накладывает на вас ^o
 
 
 
-Ability_Engineer3_effect_header									Эффекты Перегрузки
+Ability_Engineer3_effect_header									Эффекты Overdrive
 
 
 
@@ -28930,7 +28930,7 @@ State_Engineer_Ability3_name									Overdrive
 
 
 
-State_Engineer_Ability3_FRAME_effect							Начинается с бонусной скор. атаки 25 в сек.\nРаспространяется на башни и турели в радиусе 500 единиц.
+State_Engineer_Ability3_FRAME_effect							Дает 25 доп. скор. атаки сразу и еще 25 каждую сек.\nРаспространяется на башни и турели в радиусе 500 единиц.
 
 
 
@@ -29018,7 +29018,7 @@ Ability_Engineer4_tooltip_flavor								Не спрашивай, что случ
 
 
 
-Ability_Engineer4_effect_header									Эффекты Энергетического поля
+Ability_Engineer4_effect_header									Эффекты Energy Field
 
 
 
@@ -29154,7 +29154,7 @@ State_Engineer_Ability4_Zap_Immunity_FRAME_effect				Получение {50,75,1
 
 
 
-State_Engineer_Ability4_Zap_Immunity_FRAME_effect:ult_boost		Получая {50,75,100} + ^g1,5% от вашего макс. здоровья^* в качестве маг. урона в сек.
+State_Engineer_Ability4_Zap_Immunity_FRAME_effect:ult_boost		Получение {50,75,100} + ^g1,5% от вашего макс. здоровья^* в качестве маг. урона в сек.
 
 
 
@@ -29186,7 +29186,7 @@ Hero_Engineer_name	Engineer
 
 
 
-Hero_Engineer_description										Engineer - человек, движимый не только чудачеством. Некогда скромный, крепко пьющий строитель Легиона, он освоил все виды машин. Размахивая мушкетом собственной конструкции и таща на спине эль и целый арсенал, он - странное, но впечатляющее зрелище на поле боя.
+Hero_Engineer_description										Engineer - человек, движимый не только чудачеством. Некогда скромный, крепко пьющий строитель Легиона, он освоил все виды машин. Размахивая мушкетоном собственной конструкции и таща на спине эль и целый арсенал, он - странное, но впечатляющее зрелище на поле боя.
 
 
 
@@ -29442,7 +29442,7 @@ State_Fayde_Ability3_name										Shadow Walk
 
 
 
-State_Fayde_Ability3_FRAME_effect								Иммунитет к одиночным целям
+State_Fayde_Ability3_FRAME_effect								Иммунитет к направленным способностям
 
 
 
@@ -29567,7 +29567,7 @@ Ability_Fayde4_description_simple	Сливается с тенями, получ
 
 
 
-Ability_Fayde4_effect_header										Эффекты Отражения
+Ability_Fayde4_effect_header										Эффекты Reflection
 
 
 
@@ -29747,7 +29747,7 @@ State_Fayde_Ability4_Stealth_name								Reflection
 
 
 
-State_Fayde_Ability4_Stealth_FRAME_effect						Дает радиус {800,1000,1200} Беспрепятственный обзор\nСледующая атака наносит маг. урон, равный {150,200,250} + {10,15,20}% от тек. здоровья цели на 2 сек., а также уменьшает получаемое исцеление и реген. здоровья цели на {20,40,60}% на 4 сек.
+State_Fayde_Ability4_Stealth_FRAME_effect						Дает беспрепятственный обзор в радиусе {800,1000,1200}\nСледующая атака наносит маг. урон, равный {150,200,250} + {10,15,20}% от тек. здоровья цели на 2 сек., а также уменьшает получаемое исцеление и реген. здоровья цели на {20,40,60}% на 4 сек.
 
 
 
@@ -29979,7 +29979,7 @@ Ability_Nymphora2_description_simple							Выпускает в выбранн�
 
 
 
-Ability_Nymphora2_effect_header									Эффекты Рвения Nymphora
+Ability_Nymphora2_effect_header									Эффекты Nymphora's Zeal
 
 
 
@@ -30083,7 +30083,7 @@ State_Nymphora_Ability3_name										Enchanted
 
 
 
-State_Nymphora_Ability3_FRAME_effect								Снимается при получении урона от юнитов игрока
+State_Nymphora_Ability3_FRAME_effect								Снимается при получении урона от юнитов под управлением игроков
 
 
 
@@ -30291,7 +30291,7 @@ Hero_Nymphora_name	Nymphora
 
 
 
-Hero_Nymphora_description											Nymphora долгое время была защитницей тайных красот Неверта, его укромных полян и хрустальных источников. Можно подумать, что воплощению бабочек и жаворонков нет места в жестокой бойне, но стоит увидеть крошечные клыки, обнажаемые ее улыбкой, чтобы понять - у нее есть собственные тайные опасности.
+Hero_Nymphora_description											Nymphora долгое время была защитницей тайных красот Неверта, его укромных полян и хрустальных источников. Можно подумать, что воплощению бабочек и жаворонков нет места в жестокой бойне, но стоит увидеть крошечные клыки, обнажаемые ее улыбкой, чтобы понять - она и сама таит немалую опасность.
 
 
 
@@ -30891,7 +30891,7 @@ State_FlameDragon_Ability4_DoT_name								Cataclysm
 
 
 
-State_FlameDragon_Ability4_DoT_FRAME_effect						Получая {0.5,1,1.5}% вашего тек. здоровья в качестве маг. урона в сек.
+State_FlameDragon_Ability4_DoT_FRAME_effect						Получение {0.5,1,1.5}% вашего тек. здоровья в качестве маг. урона в сек.
 
 
 
@@ -30923,7 +30923,7 @@ State_FlameDragon_Ability4_DoT_Amp_name							Cataclysm
 
 
 
-State_FlameDragon_Ability4_DoT_Amp_FRAME_effect					Усиливает DoT на {15,25,35}%
+State_FlameDragon_Ability4_DoT_Amp_FRAME_effect					Усиливает периодический урон на {15,25,35}%
 
 
 
@@ -30955,7 +30955,7 @@ Hero_FlameDragon_name											Draconis
 
 
 
-Hero_FlameDragon_description									The once-glorious dragon is now a slave to the corruption of Newerth, an insidious power that has set Draconis on a mindless mission to destroy the very thing he once would have given his life for: the Мировое Древо.
+Hero_FlameDragon_description									Некогда славный дракон стал рабом порчи Неверта - коварной силы, что направила Draconis на бездумную миссию: уничтожить то самое, за что он когда-то отдал бы жизнь, Мировое Древо.
 
 
 
@@ -31035,7 +31035,7 @@ Ability_FlintBeastwood1_description_simple						Выпускает в выбра
 
 
 
-Ability_FlintBeastwood1_effect_header							Эффекты Засвета
+Ability_FlintBeastwood1_effect_header							Эффекты Flared
 
 
 
@@ -31051,7 +31051,7 @@ Ability_FlintBeastwood1_effect_header2
 
 
 
-Ability_FlintBeastwood1_tooltip_flavor							Я вижу [скоро будут] мертвых людей...
+Ability_FlintBeastwood1_tooltip_flavor							Я вижу [почти] мертвых людей...
 
 
 
@@ -31291,7 +31291,7 @@ State_FlintBeastwood_Ability3_Aura_name							Dead Eye
 
 
 
-State_FlintBeastwood_Ability3_Aura_FRAME_effect					{30,40,50,60}% Шанс получить True Strike от ваших атак
+State_FlintBeastwood_Ability3_Aura_FRAME_effect					{30,40,50,60}% шанс получить True Strike при атаке
 
 
 
@@ -31443,7 +31443,7 @@ Hero_FlintBeastwood_name	Flint Beastwood
 
 
 
-Hero_FlintBeastwood_description									Годами звери рассказывали об извращенном человеческом существе, преследовавшем их через Рулианские болота, оставляя след из трупов. Люди прозвали его "Flint Beastwood" - обыгрывая его кремневое оружие и обитание в лесах зверей. Быстрый стрелок, быстрый убийца, быстро смеющийся над содеянным - Флинт теперь несет хаос далеко за пределы болот, туда, где можно найти Легион.
+Hero_FlintBeastwood_description									Годами звери рассказывали об уродливом человекоподобном существе, которое выслеживало их в Рулианских болотах, оставляя за собой след из трупов. Люди прозвали его "Flint Beastwood", обыграв его кремневое оружие и логово в лесах зверей. Быстро выхватывает, быстро убивает, быстро смеется над содеянным - теперь Flint несет смерть далеко за пределы болот, туда, где можно найти Легион.
 
 
 
@@ -32216,7 +32216,7 @@ Hero_Flux_name	Flux
 
 
 
-Hero_Flux_description											Легионер провел годы в заточении под землей, терзаемый захватчиками. Швыряемый самой гравитацией, он пропитался ее силой. Медленно он строил себе доспехи из самых твердых металлов, тайно совершенствуя их адскую механику годами. Припаяв последнюю пластину, он предстал ни человеком, ни машиной, но силой самой природы.
+Hero_Flux_description											Легионер провел годы в заточении под землей, терзаемый захватчиками. Швыряемый самой гравитацией, он пропитался ее силой. Медленно он строил себе доспехи из самых твердых металлов, тайно совершенствуя их адскую механику годами. Припаяв последнюю пластину, он предстал уже не человеком и не машиной, а самой силой природы.
 
 
 
@@ -32224,7 +32224,7 @@ Hero_Flux_description											Легионер провел годы в зат
 
 
 
-Hero_Flux_role													Flux - танк-инициатор для командных боёв, чья основная механика строится на притягивании и отталкивании. Его Discharge, глобальный толчок и рывок, отлично сочетается с другими героями массового урона вроде Magmus, Behemoth, Soulstealer и Tempest.
+Hero_Flux_role													Flux - танк-инициатор для командных боёв, чья основная механика строится на притягивании и отталкивании. Его Discharge, глобальное отталкивание и притягивание, отлично сочетается с другими героями массового урона вроде Magmus, Behemoth, Soulstealer и Tempest.
 
 
 
