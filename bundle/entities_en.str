@@ -122154,7 +122154,7 @@ State_Vulture_Ability1_name										Tornado
 
 
 
-State_Vulture_Ability1_FRAME_effect								Получает ^o15 маг. урона в сек.^* или ^o45 маг. урона в сек.^*, если находится близко к центру Торнадо.
+State_Vulture_Ability1_FRAME_effect								Получает ^o15 маг. урона в сек.^* или ^o45 маг. урона в сек.^*, если находится близко к центру торнадо.
 
 
 
@@ -122826,7 +122826,7 @@ Ability_Glyph_Hellbourne_description2
 
 
 
-Ability_Glyph_Hellbourne_effect_header							Эффекты Укрепления
+Ability_Glyph_Hellbourne_effect_header							Эффекты Fortified
 
 
 
@@ -122906,7 +122906,7 @@ Ability_Glyph_Legion_description2
 
 
 
-Ability_Glyph_Legion_effect_header								Эффекты Укрепления
+Ability_Glyph_Legion_effect_header								Эффекты Fortified
 
 
 
@@ -123792,7 +123792,7 @@ Gesture_Clowned_name											Clown'em
 
 
 
-Gesture_Clowned_description										Бип-бип.
+Gesture_Clowned_description										Хонк-хонк.
 
 
 
@@ -123800,7 +123800,7 @@ Gesture_Clowned_description										Бип-бип.
 
 
 
-Gesture_Clowned_description_simple								Клоунничай над противниками!
+Gesture_Clowned_description_simple								Устрой противникам клоунаду!
 
 
 
@@ -123840,7 +123840,7 @@ Roast_SnotterPiss_description									Не используйте это, есл
 
 
 
-Roast_SnotterPiss_description_simple							Сноттер выпил слишком много воды.
+Roast_SnotterPiss_description_simple							Snotter выпил слишком много воды.
 
 
 
@@ -123872,7 +123872,7 @@ Roast_GetPlanted_name											GET PLANTED
 
 
 
-Roast_GetPlanted_description									Черт возьми, Pyro! Перестань жечь деревья Кальдавара, а то позову Ellonia!
+Roast_GetPlanted_description									Черт возьми, Pyro! Перестань жечь деревья Калдавара, а то позову Ellonia!
 
 
 
@@ -123880,7 +123880,7 @@ Roast_GetPlanted_description									Черт возьми, Pyro! Переста
 
 
 
-Roast_GetPlanted_description_simple								Кто получит ^G^:PLANTED ^w следующим?^*^*
+Roast_GetPlanted_description_simple								Кто получит ^G^:PLANTED ^wследующим?
 
 
 
@@ -124032,7 +124032,7 @@ Roast_SitDown_name												Sit Down
 
 
 
-Roast_SitDown_description										Как мило - принесли стул! Садись на **** вниз!
+Roast_SitDown_description										Как мило - принесли стул! Да сядь ты уже, ****!
 
 
 
@@ -124040,7 +124040,7 @@ Roast_SitDown_description										Как мило - принесли стул! 
 
 
 
-Roast_SitDown_description_simple								Садись на **** вниз!
+Roast_SitDown_description_simple								Да сядь ты уже, ****!
 
 
 
@@ -124152,7 +124152,7 @@ Roast_MerrickStripper_name										Stripping Merrick
 
 
 
-Roast_MerrickStripper_description								Мерик открывает свою дикую сторону - у него есть движения!
+Roast_MerrickStripper_description								Меррик открывает свою дикую сторону - а двигается он что надо!
 
 
 
@@ -124160,7 +124160,7 @@ Roast_MerrickStripper_description								Мерик открывает свою 
 
 
 
-Roast_MerrickStripper_description_simple						Мерик... раздевается?
+Roast_MerrickStripper_description_simple						Меррик... раздевается?
 
 
 
@@ -124232,7 +124232,7 @@ Shoutout_HappyNewYearNewerth_name								HAPPY NEW YEAR
 
 
 
-Shoutout_HappyNewYearNewerth_description						С НОВЫМ ГОДОМ, НЬЮЕРТ!
+Shoutout_HappyNewYearNewerth_description						С НОВЫМ ГОДОМ, НЕВЕРТ!
 
 
 
@@ -124240,7 +124240,7 @@ Shoutout_HappyNewYearNewerth_description						С НОВЫМ ГОДОМ, НЬЮЕ
 
 
 
-Shoutout_HappyNewYearNewerth_description_simple					С НОВЫМ ГОДОМ, НЬЮЕРТ!
+Shoutout_HappyNewYearNewerth_description_simple					С НОВЫМ ГОДОМ, НЕВЕРТ!
 
 
 
@@ -124352,7 +124352,7 @@ Roast_Coffin_name												Coffin Dance
 
 
 
-Roast_Coffin_description										Танец с гробом! Сноттеры в восторге!
+Roast_Coffin_description										Танец с гробом! Snotter отрываются по полной!
 
 
 
@@ -124512,7 +124512,7 @@ Gesture_Crybaby_name											Crybaby
 
 
 
-Gesture_Crybaby_description										Реви больше, маленький плакса! Уааааа, Уааааа!
+Gesture_Crybaby_description										Поплачь еще, плакса! Уааааа, уааааа!
 
 
 
@@ -124520,7 +124520,7 @@ Gesture_Crybaby_description										Реви больше, маленький �
 
 
 
-Gesture_Crybaby_description_simple								Реви больше, маленький плакса!
+Gesture_Crybaby_description_simple								Поплачь еще, плакса!
 
 
 
@@ -124672,7 +124672,7 @@ Roast_ToxicBarrel_name											Toxic Barrel
 
 
 
-Roast_ToxicBarrel_description									Токсичная Бочка сброшена! Такая токсичная!
+Roast_ToxicBarrel_description									Токсичная бочка сброшена! Такая токсичная!
 
 
 
@@ -124680,7 +124680,7 @@ Roast_ToxicBarrel_description									Токсичная Бочка сброше
 
 
 
-Roast_ToxicBarrel_description_simple							Ядовитая бочка сброшена!
+Roast_ToxicBarrel_description_simple							Токсичная бочка сброшена!
 
 
 
@@ -124800,7 +124800,7 @@ Roast_ChristmasPresent_description								Подарите друзьям под
 
 
 
-Roast_ChristmasPresent_description_simple						Подари друзьям подарок!
+Roast_ChristmasPresent_description_simple						Подарите друзьям подарок!
 
 
 
@@ -125075,15 +125075,15 @@ State_AbyssalFlower_name											Abyssal Flower
 State_AbyssalFlower_FRAME_effect									Оставляет видимый след за пораженной целью
 Shout_MyTeamSucks_name											My Team Sucks
 Shout_MyTeamSucks_description									Тьфу... Моя команда просто отстой!
-Shout_MyTeamSucks_description_simple							Моя команда — отстой!
+Shout_MyTeamSucks_description_simple							Моя команда - отстой!
 Gesture_IQTest_name												IQ Test
-Gesture_IQTest_description										Проверить чей-то IQ с помощью этого точного сканера!
-Gesture_IQTest_description_simple								Проверить чей-то IQ!
+Gesture_IQTest_description										Проверьте чей-нибудь IQ этим сверхточным прибором!
+Gesture_IQTest_description_simple								Проверьте чей-нибудь IQ!
 Gesture_Questionmarks_name										Question Mark
-Gesture_Questionmarks_description								Сложное поведение, что вы делаете??
+Gesture_Questionmarks_description								Странное поведение, что ты делаешь??
 Gesture_Questionmarks_description_simple						Что ты делаешь??
 Roast_Watergun_name												Water Gun
-Roast_Watergun_description										Отпразднуй Сонгкран (Songkran) битвой на водяных пистолетах!
+Roast_Watergun_description										Отпразднуй Сонгкран битвой на водяных пистолетах!
 Roast_Watergun_description_simple								Битва на воде!
 Shout_SabaiSabai_name											Sabai Sabai!
 Shout_SabaiSabai_description									Сабай-Сабай!
