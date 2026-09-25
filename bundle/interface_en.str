@@ -1085,7 +1085,7 @@ general_illusion							Иллюзия
 
 
 
-general_jade								Джейд
+general_jade								Jade
 
 
 
@@ -4516,11 +4516,11 @@ vanity_coming_soon							Скоро!
 
 
 
-vanity_jade_tip								Джейд - нажмите, чтобы купить
+vanity_jade_tip								Jade - нажмите, чтобы купить
 
 
 
-vanity_jade_modal_title						Купить Джейд
+vanity_jade_modal_title						Купить Jade
 
 
 
@@ -4528,7 +4528,7 @@ vanity_jade_modal_info						Jade необходимо приобрести он�
 
 
 
-vanity_jade_modal_btn						Открыть сайт Джейд
+vanity_jade_modal_btn						Открыть сайт Jade
 
 
 
@@ -32473,11 +32473,11 @@ emote_cat_4									Ура
 
 
 
-vanity_pref_jade							Предпочитаю Джейд
+vanity_pref_jade							Сначала Jade
 
 
 
-vanity_pref_jade_tip						Если этот параметр выбран, весь доступный нефрит будет потрачен, а ваши билеты будут сохранены для других целей.
+vanity_pref_jade_tip						Если этот параметр выбран, сначала тратится весь доступный Jade, а билеты остаются для других целей.
 
 
 
@@ -33292,7 +33292,7 @@ boss_info_kongor_stat_attack_range		^oДальность атаки:^* 128 (Бл
 loading_stage_entering 				Entering Newerth
 vanity_listing_failed_message				Не удалось выставить {product}. Попробуйте ещё раз.
 store_model_viewer_prompt 	Выберите товар для предпросмотра
-vanity_listing_success_message				{product} выставлен за {price} нефрита.
+vanity_listing_success_message				{product} выставлен за {price} Jade.
 store_marketplace_viewing_history			Viewing History
 boss_info_phoenix_stat_damage		^oФиз. урон:^* 150
 vanity_cat_account_upgrades				Account Upgrades
@@ -33352,7 +33352,7 @@ mm_machine_tag_denied_reason_other		^279{name}:^* компьютер привя�
 mm_machine_tag_retag_pending			Меняем привязку компьютера...
 smartcasting_Ability_TP							Смарт-каст: камень телепортации
 marketplace_marketplace_button					Открыть онлайн-площадку
-vanity_list_proceed					Выставить {product} за {price} нефрита?
+vanity_list_proceed					Выставить {product} за {price} Jade?
 loading_stage_map 					Loading Map
 boss_info_kongor_stat_attack_speed		^oПерезарядка атаки:^* 1 сек.
 store_marketplace_purchase					Purchase {item}
