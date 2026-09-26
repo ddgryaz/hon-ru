@@ -11932,11 +11932,11 @@ gamechat_tip_hit_history					^y*Совет:^* нажмите "{key}", чтобы
 
 
 
-gamechat_indicate_team						КОМАНДА
+gamechat_indicate_team						TEAM
 
 
 
-gamechat_indicate_all						ВСЕ
+gamechat_indicate_all						ALL
 
 
 
