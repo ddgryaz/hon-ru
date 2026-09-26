@@ -11,7 +11,7 @@ kill4								{killer_color}{killer}^*^; уничтожил {victim_color}{victim
 
 first_kill							У {killer_color}{killer}^*^; ^rжажда крови^*! (^y+{gold}^* золота!)
 
-first_kill_team						У {killer_color}{killer}^*^; ^rжажда крови^*! (^y+{gold}^* золота на всю команду!)
+first_kill_team						{killer_color}{killer}^*^;: ^rжажда крови^*! (^y+{gold}^* золота на всю команду!)
 
 killstreak0							{killer_color}{killer}^*^; - ^082серийный убийца^*!
 
@@ -19,7 +19,7 @@ killstreak1							{killer_color}{killer}^*^; - ^204абсолютный воин
 
 killstreak2							{killer_color}{killer}^*^; - ^808легенда^*!
 
-killstreak3							{killer_color}{killer}^*^; ^840НЕУДЕРЖИМ^*!
+killstreak3							{killer_color}{killer}^*^; ^840неудержим^*!
 
 killstreak4							{killer_color}{killer}^*^; ^440беспощаден^*!!
 
@@ -454,11 +454,11 @@ hero_returned							{heroname} вернулся в {zone}
 
 
 
-teamkillstreak						{team} ^rДОМИНИРУЮТ!!!^*
+teamkillstreak						{team} ^rДОМИНИРУЕТ!!!^*
 
 
 
-teamwipe							{team} полностью уничтожены!!!
+teamwipe							{team} полностью уничтожен!!!
 
 
 
@@ -487,13 +487,13 @@ teamkilltower						{killer} разрушил башню {ping_tile}.\n{killer} �
 
 
 
-killkongor							{killer} убил босса Kongor. {reward} награждаются ^y{gold} зол.^*
+killkongor							{killer} убил босса Kongor. {reward} получает ^y{gold} зол.^*
 
-teamkillkongor						{killer} убил босса Kongor. {killer} награждаются ^y{gold} зол.^*
+teamkillkongor						{killer} убил босса Kongor. {killer} получает ^y{gold} зол.^*
 
-killboss							{killer} убил {boss}. {reward} награждаются ^y{gold} зол.^*
+killboss							{killer} убил {boss}. {reward} получает ^y{gold} зол.^*
 
-teamkillboss						{killer} убил {boss}. {killer} награждаются ^y{gold} зол.^*
+teamkillboss						{killer} убил {boss}. {killer} получает ^y{gold} зол.^*
 
 
 
@@ -517,7 +517,7 @@ powerup_bottle_use					{player} использовал ^r{powerup}^*
 
 creepupgrade						Крипы стали сильнее...
 
-megacreeps							Все казармы {victim} уничтожены. У {killer} теперь есть Мега Крипы.
+megacreeps							Все казармы {victim} уничтожены. {killer} теперь получает мега-крипов.
 
 
 
