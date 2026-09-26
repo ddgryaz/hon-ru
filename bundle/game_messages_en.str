@@ -1095,15 +1095,15 @@ vote_failed						Голосование провалено
 
 team_concede					{color}{team}^* сдал матч
 
-game_abandoned					Ваши товарищи по команде покинули вас; вы не будете наказаны за выход, и теперь вы можете сдаться.
+game_abandoned					Союзники покинули игру: вы можете выйти без штрафа или сдаться.
 
-afk_warning						Вам грозит пометка как АФК
+afk_warning						Вам грозит пометка AFK
 
-afk_message						^199{player}^* - АФК
+afk_message						^199{player}^* - AFK
 
-afk_message_self				Вы теперь АФК
+afk_message_self				Вы теперь AFK
 
-afk_return_self 				Вы больше не АФК
+afk_return_self 				Вы больше не AFK
 
 
 
@@ -1166,39 +1166,39 @@ admin_unpause					^188[СЕРВЕР] {player1} снял игру с паузы.
 
 
 
-pre_firstblood_reconnect_300		{account_color}{player}^*^; отключился до первой крови, если он не подключится повторно в течение 5 минут, матч будет прерван.
+pre_firstblood_reconnect_300		{account_color}{player}^*^; отключился до первой крови. Если он не вернётся в течение 5 минут, матч будет прерван.
 
-pre_firstblood_reconnect_240		{account_color}{player}^*^; отключился до первой крови, если он не подключится повторно в течение 4 минут, матч будет прерван.
+pre_firstblood_reconnect_240		{account_color}{player}^*^; отключился до первой крови. Если он не вернётся в течение 4 минут, матч будет прерван.
 
-pre_firstblood_reconnect_180		{account_color}{player}^*^; отключился до первой крови, если он не подключится повторно в течение 3 минут, матч будет прерван.
+pre_firstblood_reconnect_180		{account_color}{player}^*^; отключился до первой крови. Если он не вернётся в течение 3 минут, матч будет прерван.
 
-pre_firstblood_reconnect_120		{account_color}{player}^*^; отключился до первой крови, если он не подключится повторно в течение 2 минут, матч будет прерван.
+pre_firstblood_reconnect_120		{account_color}{player}^*^; отключился до первой крови. Если он не вернётся в течение 2 минут, матч будет прерван.
 
-pre_firstblood_reconnect_60		{account_color}{player}^*^; отключился до первой крови, если он не подключится повторно в течение 1 минуты, матч будет прерван.
+pre_firstblood_reconnect_60		{account_color}{player}^*^; отключился до первой крови. Если он не вернётся в течение 1 минуты, матч будет прерван.
 
-pre_firstblood_reconnect_30		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 30 сек.
+pre_firstblood_reconnect_30		Матч будет прерван, если {account_color}{player}^*^; не вернётся в течение 30 сек.
 
-pre_firstblood_reconnect_10		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 10 сек.
+pre_firstblood_reconnect_10		Матч будет прерван, если {account_color}{player}^*^; не вернётся в течение 10 сек.
 
-pre_firstblood_reconnect_5		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 5 сек.
+pre_firstblood_reconnect_5		Матч будет прерван, если {account_color}{player}^*^; не вернётся в течение 5 сек.
 
-pre_firstblood_reconnect_4		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 4 сек.
+pre_firstblood_reconnect_4		Матч будет прерван, если {account_color}{player}^*^; не вернётся в течение 4 сек.
 
-pre_firstblood_reconnect_3		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 3 сек.
+pre_firstblood_reconnect_3		Матч будет прерван, если {account_color}{player}^*^; не вернётся в течение 3 сек.
 
-pre_firstblood_reconnect_2		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 2 сек.
+pre_firstblood_reconnect_2		Матч будет прерван, если {account_color}{player}^*^; не вернётся в течение 2 сек.
 
-pre_firstblood_reconnect_1		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно в течение 1 секунды.
+pre_firstblood_reconnect_1		Матч будет прерван, если {account_color}{player}^*^; не вернётся в течение 1 секунды.
 
-pre_firstblood_reconnect_lobby		Матч будет прерван, если {account_color}{player}^*^; не подключится повторно до окончания этапа драфта.
+pre_firstblood_reconnect_lobby		Матч будет прерван, если {account_color}{player}^*^; не вернётся до окончания этапа драфта.
 
 
 
-user_left_game_lobby_aborted 				Драфт прерван — игрок покинул игру.
+user_left_game_lobby_aborted 				Драфт прерван: игрок покинул игру.
 
 player_left_game_lobby_aborted 				Драфт прерван: игрок покинул игру.
 
-draft_error_lobby_aborted 					Лобби прервано — произошла ошибка на сервере лобби.
+draft_error_lobby_aborted 					Лобби прервано: ошибка на сервере лобби.
 
 players_failed_to_connect_lobby_aborted 	Один или несколько игроков так и не подключились к серверу.
 
