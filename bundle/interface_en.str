@@ -1077,11 +1077,11 @@ general_hellbourne_cap						ХЕЛЛБОРН
 
 
 
-general_shield								Щит
+general_shield								Shield
 
 
 
-general_illusion							Иллюзия
+general_illusion							Illusion
 
 
 
@@ -30957,31 +30957,31 @@ custom_ui_button_OpheliaQuest3_body				^oRaven^* получает +300 к дал
 
 
 
-status_effect_stun								Оглушение
+status_effect_stun								Stun
 
 
 
-status_effect_silence							Безмолвие
+status_effect_silence							Silence
 
 
 
-status_effect_disarm							Обезоруживание
+status_effect_disarm							Disarm
 
 
 
-status_effect_slow								Замедление
+status_effect_slow								Slow
 
 
 
-status_effect_hex								Превращение
+status_effect_hex								Hex
 
 
 
-status_effect_taunt								Провокация
+status_effect_taunt								Taunt
 
 
 
-status_effect_fear							 Страх
+status_effect_fear							 Feared
 
 
 
