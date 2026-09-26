@@ -533,7 +533,7 @@ payback								{killer} ^rОТОМСТИЛ^* {victim}!
 
 client_connected					{account_color}{player}^*^; подключился.
 
-client_reconnected					{account_color}{player}^*^; повторно подключился. (Оставшееся время отключения: {time})
+client_reconnected					{account_color}{player}^*^; вернулся в игру. (Запас времени на отключения: {time})
 
 client_disconnected					{account_color}{player}^*^; отключился.
 
