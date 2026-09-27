@@ -5510,7 +5510,7 @@ State_Accursed_Ability2_name									Fire Shield
 
 
 
-State_Accursed_Ability2_FRAME_effect							Щит на {110,140,170,200} урона (после снижения).\n\nКогда щит поглотит весь урон, наносит врагам в радиусе 700 {110,140,170,200} маг. урона.
+State_Accursed_Ability2_FRAME_effect							Щит на {110,140,170,200} урона (с учетом защиты).\n\nКогда щит поглотит весь урон, наносит врагам в радиусе 700 {110,140,170,200} маг. урона.
 
 
 
@@ -17139,7 +17139,7 @@ State_Chipper_Ability3_Buff_name								Focus Buffer
 
 
 
-State_Chipper_Ability3_Buff_FRAME_effect						Поглощает {105,200,295,380} маг. урона после смягчения.\nChipper получает ману, равную половине поглощенного урона.
+State_Chipper_Ability3_Buff_FRAME_effect						Поглощает {105,200,295,380} маг. урона с учетом маг. брони.\nChipper получает ману, равную половине поглощенного урона.
 
 
 
@@ -26072,7 +26072,7 @@ State_Electrician_Ability2_description							Сводит на нет входя
 
 
 
-State_Electrician_Ability2_FRAME_effect							Поглощает 50% полученного урона после смягчения, вплоть до {0.75,0.9,1.05,1.2}x маны, потраченной на применение.
+State_Electrician_Ability2_FRAME_effect							Поглощает 50% полученного урона с учетом защиты, вплоть до {0.75,0.9,1.05,1.2}x маны, потраченной на применение.
 
 
 
@@ -26112,7 +26112,7 @@ State_Electrician_Ability2_SotM_description						Сводит на нет вхо
 
 
 
-State_Electrician_Ability2_SotM_FRAME_effect					Поглощает 50% полученного урона после смягчения
+State_Electrician_Ability2_SotM_FRAME_effect					Поглощает 50% полученного урона с учетом защиты
 
 
 
@@ -52247,7 +52247,7 @@ Ability_MasterOfArms4_description								Master of Arms ставит на себ
 
 
 
-Ability_MasterOfArms4_description2								^gЭта способность может быть усилена Staff of the Master.^*\n\n^gЭффект посоха:^* из-за несовершенства бонусы к скор. атаки и урону атаки от Master's Call действуют только на 70%.
+Ability_MasterOfArms4_description2								^gЭта способность может быть усилена Staff of the Master.^*\n\n^gЭффект посоха:^* из-за несовершенства бонусы к скор. атаки и урону от атаки от Master's Call действуют только на 70%.
 
 
 
@@ -52255,7 +52255,7 @@ Ability_MasterOfArms4_description2								^gЭта способность мож
 
 
 
-Ability_MasterOfArms4_description2:ult_boost	^gЭта способность может быть усилена Staff of the Master.^*\n\n^gЭффект посоха:^* из-за несовершенства бонусы к скор. атаки и урону атаки от Master's Call действуют только на 70%.
+Ability_MasterOfArms4_description2:ult_boost	^gЭта способность может быть усилена Staff of the Master.^*\n\n^gЭффект посоха:^* из-за несовершенства бонусы к скор. атаки и урону от атаки от Master's Call действуют только на 70%.
 
 
 
@@ -52271,7 +52271,7 @@ Ability_MasterOfArms4_tooltip_flavor							Мне всегда нравилос�
 
 
 
-Ability_MasterOfArms4_description_simple		Выберите союзного героя или себя, чтобы дать щит, который ^oпоглощает {200,400,600} урона (с учетом защиты)^*. Держится до 8 сек.\n\nНезависимо от щита вы на 14 сек. получаете ^o{100,150,200} скор. атаки^* с ^rCheetah^* и ^o{40,50,60} доп. урона от атаки^* с ^bBulldozer^*. Также первые 6 сек. вы получаете ^oослабевающий бонус {60,90,120} скор. движ.^*\n\n^gStaff of the Master^*: из-за несовершенства бонусы к скор. атаки и урону атаки от Master's Call действуют только на 70%.
+Ability_MasterOfArms4_description_simple		Выберите союзного героя или себя, чтобы дать щит, который ^oпоглощает {200,400,600} урона (с учетом защиты)^*. Держится до 8 сек.\n\nНезависимо от щита вы на 14 сек. получаете ^o{100,150,200} скор. атаки^* с ^rCheetah^* и ^o{40,50,60} доп. урона от атаки^* с ^bBulldozer^*. Также первые 6 сек. вы получаете ^oослабевающий бонус {60,90,120} скор. движ.^*\n\n^gStaff of the Master^*: из-за несовершенства бонусы к скор. атаки и урону от атаки от Master's Call действуют только на 70%.
 
 
 
@@ -56010,7 +56010,7 @@ State_Moraxus_Ability4_name										Matraxe
 
 
 
-State_Moraxus_Ability4_FRAME_effect								Поглощает входящий урон после смягчения. Matraxe получает {20,25,30} здоровья в сек. за каждого вражеского героя в радиусе 800. Взрывается, нанося маг. урон, равный текущему запасу здоровья Matraxe, в радиусе 400 при детонации или по истечении срока его действия, с минимальным уроном {200,300,400}.
+State_Moraxus_Ability4_FRAME_effect								Поглощает входящий урон с учетом защиты. Matraxe получает {20,25,30} здоровья в сек. за каждого вражеского героя в радиусе 800. Взрывается, нанося маг. урон, равный текущему запасу здоровья Matraxe, в радиусе 400 при детонации или по истечении срока его действия, с минимальным уроном {200,300,400}.
 
 
 
@@ -104017,7 +104017,7 @@ State_BarrierIdol_description2
 
 
 
-State_BarrierIdol_FRAME_effect									Поглощает 300 маг. урона после смягчения
+State_BarrierIdol_FRAME_effect									Поглощает 300 маг. урона с учетом маг. брони
 
 
 
@@ -104025,7 +104025,7 @@ State_BarrierIdol_FRAME_effect									Поглощает 300 маг. урона
 
 
 
-State_BarrierIdol_FRAME_effect:barrieridol_Creep				Поглощает 600 маг. урона после смягчения
+State_BarrierIdol_FRAME_effect:barrieridol_Creep				Поглощает 600 маг. урона с учетом маг. брони
 
 
 
