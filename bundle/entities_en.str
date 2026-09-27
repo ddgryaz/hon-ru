@@ -17139,7 +17139,7 @@ State_Chipper_Ability3_Buff_name								Focus Buffer
 
 
 
-State_Chipper_Ability3_Buff_FRAME_effect						Поглощает {105,200,295,380} маг. урона с учетом маг. брони.\nChipper получает ману, равную половине поглощенного урона.
+State_Chipper_Ability3_Buff_FRAME_effect						Поглощает {105,200,295,380} маг. урона с учетом защиты.\nChipper получает ману, равную половине поглощенного урона.
 
 
 
@@ -104017,7 +104017,7 @@ State_BarrierIdol_description2
 
 
 
-State_BarrierIdol_FRAME_effect									Поглощает 300 маг. урона с учетом маг. брони
+State_BarrierIdol_FRAME_effect									Поглощает 300 маг. урона с учетом защиты
 
 
 
@@ -104025,7 +104025,7 @@ State_BarrierIdol_FRAME_effect									Поглощает 300 маг. урона
 
 
 
-State_BarrierIdol_FRAME_effect:barrieridol_Creep				Поглощает 600 маг. урона с учетом маг. брони
+State_BarrierIdol_FRAME_effect:barrieridol_Creep				Поглощает 600 маг. урона с учетом защиты
 
 
 
