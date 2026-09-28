@@ -106,13 +106,22 @@ try {
         Write-HonLog 'распаковщика нет, играем на английском'
     } else {
         Write-HonLog "распаковщик: $($unpacker.Kind) $($unpacker.Path)"
+        try {
+            Write-HonLog "обновление перевода: $(Update-HonBundle)"
+        } catch {
+            Write-HonLog "перевод не обновился, беру прежний: $_"
+        } finally {
+            Close-HonProgress
+        }
+        $bundle = Get-HonBundleDir
+        Write-HonLog "перевод из $bundle"
         $item = Get-Item -LiteralPath $game.Archive
         $archiveBefore = '{0}/{1}' -f $item.Length, $item.LastWriteTimeUtc.Ticks
         Expand-HonBase $game $unpacker $stage
 
         $sha = [Security.Cryptography.SHA256]::Create()
         foreach ($base in $HonStrBases) {
-            $ru = Join-Path $HonBundleDir ($base + '_en.str')
+            $ru = Join-Path $bundle ($base + '_en.str')
             $orig = Join-Path $stage ($base + '_en.str')
             if (-not (Test-Path -LiteralPath $orig)) { Write-HonLog "нет в архиве игры: $($base)_en.str"; continue }
             if (-not (Test-Path -LiteralPath $ru)) { Write-HonLog "нет в bundle/: $($base)_en.str"; continue }

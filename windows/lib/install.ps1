@@ -6,6 +6,9 @@ try {
     # Файлы из скачанного zip помечены "из интернета", PowerShell переспрашивает
     Get-ChildItem -LiteralPath $HonRepoDir -Recurse -File | Unblock-File
 
+    # Скачанная раньше копия перевода может оказаться старше распакованного архива
+    if (Test-Path -LiteralPath $HonUpdateDir) { Remove-Item -LiteralPath $HonUpdateDir -Recurse -Force }
+
     try {
         $game = Find-HonGame
     } catch {

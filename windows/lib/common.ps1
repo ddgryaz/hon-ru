@@ -5,8 +5,11 @@ $HonWinDir = Split-Path $PSScriptRoot -Parent
 $HonRepoDir = Split-Path $HonWinDir -Parent
 $HonBundleDir = Join-Path $HonRepoDir 'bundle'
 $HonDataDir = Join-Path $env:LOCALAPPDATA 'hon-ru'
+# В папку русификатора может не быть права записи, свежий перевод лежит здесь
+$HonUpdateDir = Join-Path $HonDataDir 'bundle'
+$HonUpdateUrl = 'https://raw.githubusercontent.com/ddgryaz/hon-ru/master/bundle/'
 $HonShortcutName = 'HoN (RU).lnk'
-$HonTitle = 'HoN (RU)'
+$HonTitle = 'hon-ru'
 
 $HonStrBases = @('entities', 'interface', 'client_messages', 'game_messages', 'bot_messages')
 # Движок запрашивает interface.str и сам подставляет суффикс локали
@@ -48,6 +51,36 @@ function Show-HonMessage($text, $buttons = 'OK', $icon = 'Information') {
         return [System.Windows.Forms.MessageBox]::Show($owner, $text, $HonTitle, $buttons, $icon)
     } finally {
         $owner.Dispose()
+    }
+}
+
+$script:HonProgress = $null
+
+# Окно без кнопок, не ждёт ответа. Скачивание идёт в этом же потоке,
+# поэтому окно перерисовывается только через DoEvents
+function Show-HonProgress($text) {
+    Add-Type -AssemblyName System.Windows.Forms
+    if (-not $script:HonProgress) {
+        $form = New-Object System.Windows.Forms.Form -Property @{
+            Text = $HonTitle; TopMost = $true; ControlBox = $false
+            FormBorderStyle = 'FixedDialog'; StartPosition = 'CenterScreen'
+            ClientSize = New-Object System.Drawing.Size(360, 70)
+        }
+        $label = New-Object System.Windows.Forms.Label -Property @{
+            Text = $text; Dock = 'Fill'; TextAlign = 'MiddleCenter'
+        }
+        $form.Controls.Add($label)
+        $form.Show()
+        $script:HonProgress = $form
+    }
+    [System.Windows.Forms.Application]::DoEvents()
+}
+
+function Close-HonProgress {
+    if ($script:HonProgress) {
+        $script:HonProgress.Close()
+        $script:HonProgress.Dispose()
+        $script:HonProgress = $null
     }
 }
 
@@ -414,6 +447,133 @@ function Read-HonStr([byte[]]$data) {
         $map[$key] = $value.Trim()
     }
     return [pscustomobject]@{ Order = $order; Map = $map }
+}
+
+# $null - не изменился (304). Timeout у HttpWebRequest только до заголовков,
+# а GitHub в РФ бывает медленным: тело читаем кусками до общего срока
+function Invoke-HonGet($url, $etag, [DateTime]$deadline) {
+    $left = [int]($deadline - (Get-Date)).TotalMilliseconds
+    if ($left -le 0) { throw 'не уложились по времени' }
+    $request = [Net.HttpWebRequest]::Create($url)
+    # Без сети не ждём весь срок: хватит 3 секунд до ответа
+    $request.Timeout = [Math]::Min($left, 3000)
+    $request.ReadWriteTimeout = $left
+    # Распаковываем сами: длину можно сверить только до распаковки
+    $request.Headers['Accept-Encoding'] = 'gzip'
+    if ($etag) { $request.Headers['If-None-Match'] = $etag }
+    try {
+        $response = $request.GetResponse()
+    } catch {
+        # PowerShell заворачивает WebException в MethodInvocationException
+        $ex = $_.Exception
+        while ($ex -and $ex -isnot [Net.WebException]) { $ex = $ex.InnerException }
+        if ($ex -and $ex.Response -and $ex.Response.StatusCode -eq [Net.HttpStatusCode]::NotModified) {
+            $ex.Response.Close()
+            return $null
+        }
+        throw
+    }
+    try {
+        $ms = New-Object IO.MemoryStream
+        $stream = $response.GetResponseStream()
+        $buffer = New-Object byte[] 65536
+        while (($read = $stream.Read($buffer, 0, $buffer.Length)) -gt 0) {
+            $ms.Write($buffer, 0, $read)
+            Show-HonProgress "Скачиваю обновление перевода.`nИгра запустится автоматически."
+            if ((Get-Date) -gt $deadline) { throw 'не уложились по времени' }
+        }
+        $body = $ms.ToArray()
+        # Оборванное соединение .NET не считает ошибкой
+        if ($response.ContentLength -ge 0 -and $body.Length -ne $response.ContentLength) {
+            throw "$url пришёл не целиком"
+        }
+        if ($response.ContentEncoding -eq 'gzip') {
+            $gz = New-Object IO.Compression.GZipStream([IO.MemoryStream]::new($body), [IO.Compression.CompressionMode]::Decompress)
+            $plain = New-Object IO.MemoryStream
+            try { $gz.CopyTo($plain) } finally { $gz.Close() }
+            $body = $plain.ToArray()
+        }
+        return [pscustomobject]@{ Bytes = $body; ETag = $response.Headers['ETag'] }
+    } finally {
+        $response.Close()
+    }
+}
+
+# Копия меняется только целиком: смесь файлов разных версий не нужна.
+# Без сети первый же запрос падает по таймауту, остальные не ждём
+function Update-HonBundle([int]$seconds = 300) {
+    $deadline = (Get-Date).AddSeconds($seconds)
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+    # Timeout у HttpWebRequest не касается DNS, а тот без ответа висит ~15 с
+    $dns = [Net.Dns]::BeginGetHostAddresses(([Uri]$HonUpdateUrl).Host, $null, $null)
+    if (-not $dns.AsyncWaitHandle.WaitOne(3000)) { throw 'DNS не ответил' }
+    [void][Net.Dns]::EndGetHostAddresses($dns)
+    $etagFile = Join-Path $HonUpdateDir 'etag.txt'
+    $etags = @{}
+    if (Test-Path -LiteralPath $etagFile) {
+        foreach ($row in [IO.File]::ReadAllLines($etagFile)) {
+            $name, $tag = $row.Split("`t", 2)
+            if ($tag) { $etags[$name] = $tag }
+        }
+    }
+
+    $got = @{}
+    foreach ($base in $HonStrBases) {
+        $name = $base + '_en.str'
+        $etag = if (Test-Path -LiteralPath (Join-Path $HonUpdateDir $name)) { $etags[$name] } else { $null }
+        $reply = Invoke-HonGet ($HonUpdateUrl + $name) $etag $deadline
+        if ($reply) { $got[$name] = $reply }
+    }
+    if (-not $got.Count) { return 'без изменений' }
+
+    # Обрезанный файл или страница-заглушка провайдера не должны заменить перевод
+    foreach ($name in $got.Keys) {
+        $count = (Read-HonStr $got[$name].Bytes).Order.Count
+        $shipped = Join-Path $HonBundleDir $name
+        $floor = 1
+        if (Test-Path -LiteralPath $shipped) {
+            $floor = (Read-HonStr ([IO.File]::ReadAllBytes($shipped))).Order.Count / 2
+        }
+        if ($count -lt $floor) { throw "в скачанном $name всего $count строк" }
+    }
+
+    $next = $HonUpdateDir + '.new'
+    if (Test-Path -LiteralPath $next) { Remove-Item -LiteralPath $next -Recurse -Force }
+    New-Item -ItemType Directory -Force -Path $next | Out-Null
+    $rows = @()
+    foreach ($base in $HonStrBases) {
+        $name = $base + '_en.str'
+        $path = Join-Path $next $name
+        if ($got.ContainsKey($name)) {
+            [IO.File]::WriteAllBytes($path, $got[$name].Bytes)
+            $tag = $got[$name].ETag
+        } else {
+            Copy-Item -LiteralPath (Join-Path $HonUpdateDir $name) -Destination $path
+            $tag = $etags[$name]
+        }
+        if ($tag) { $rows += "$name`t$tag" }
+    }
+    [IO.File]::WriteAllLines((Join-Path $next 'etag.txt'), [string[]]$rows)
+    # Move-Item в существующую папку кладёт внутрь неё. Старую копию убираем
+    # последней: папку с новыми файлами может держать антивирус
+    $old = $HonUpdateDir + '.old'
+    if (Test-Path -LiteralPath $old) { Remove-Item -LiteralPath $old -Recurse -Force }
+    if (Test-Path -LiteralPath $HonUpdateDir) { Move-Item -LiteralPath $HonUpdateDir -Destination $old }
+    try {
+        Move-Item -LiteralPath $next -Destination $HonUpdateDir
+    } catch {
+        if (Test-Path -LiteralPath $old) { Move-Item -LiteralPath $old -Destination $HonUpdateDir }
+        throw
+    }
+    Remove-Item -LiteralPath $old -Recurse -Force -ErrorAction SilentlyContinue
+    return 'скачано: ' + (($got.Keys | Sort-Object) -join ', ')
+}
+
+function Get-HonBundleDir {
+    foreach ($base in $HonStrBases) {
+        if (-not (Test-Path -LiteralPath (Join-Path $HonUpdateDir ($base + '_en.str')))) { return $HonBundleDir }
+    }
+    return $HonUpdateDir
 }
 
 # Пустые значения в bundle/ пропускаем, иначе ключ пропал бы из игры
