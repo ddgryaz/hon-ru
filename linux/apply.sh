@@ -55,6 +55,10 @@ echo "Конфиги: $HON_DOCS_DIR"
 # со скриптом, и его новый лог иначе можно принять за старый
 HON_BASELINE_LOG="$(ls -t "$(hon_logdir)"/*.log 2>/dev/null | head -n 1 || true)"
 export HON_BASELINE_LOG
+# По нему onlaunch поймёт, что лаунчер скачал патч в этом запуске
+export HON_ARCHIVE="$HON_GAME_DIR/resources0.jz"
+HON_ARCHIVE_STAMP="$(stat -c '%s/%Y' "$HON_ARCHIVE")"
+export HON_ARCHIVE_STAMP
 
 # Единственный каталог, откуда движок реально читает строки (проверено inotify).
 # Лишние файлы рядом с игрой вредны: лаунчер считает по ним установку битой.

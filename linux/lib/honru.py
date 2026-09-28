@@ -256,6 +256,18 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
         print('  игра так и не запустилась, выхожу')
         return
 
+    # Лаунчер обновил игру в этом запуске: база от старой версии, новые ключи
+    # вылезли бы сырыми именами. Переводим со следующего запуска
+    if 'HON_ARCHIVE' in os.environ:
+        try:
+            st = os.stat(os.environ['HON_ARCHIVE'])
+            stamp = '%d/%d' % (st.st_size, int(st.st_mtime))
+        except OSError:
+            stamp = None
+        if stamp != os.environ.get('HON_ARCHIVE_STAMP'):
+            print('  игра обновилась во время запуска, перевод будет со следующего раза')
+            return
+
     written = 0
     for path, blob in plan:
         try:
