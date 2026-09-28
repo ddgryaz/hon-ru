@@ -96,6 +96,18 @@ if (Test-HonRunning) {
 $leftover = Remove-HonFiles $game
 if ($leftover) { Write-HonLog "убраны остатки прошлого запуска: $leftover" }
 
+$online = Test-HonOnline
+# До подготовки перевода: игрок может уйти обновляться, и она будет не нужна
+if ($online) {
+    try {
+        Write-HonLog "скрипты: $(Invoke-HonScriptsCheck)"
+    } catch {
+        Write-HonLog "скрипты не проверены: $_"
+        if ($_.Exception -is [TimeoutException]) { $online = $false }
+    }
+    if ($script:HonScriptsChoice -eq 'update') { exit 0 }
+}
+
 $plan = @()
 $stage = Join-Path $env:TEMP ('hon-ru-' + [guid]::NewGuid())
 $archiveBefore = $null
@@ -106,12 +118,14 @@ try {
         Write-HonLog 'распаковщика нет, играем на английском'
     } else {
         Write-HonLog "распаковщик: $($unpacker.Kind) $($unpacker.Path)"
-        try {
-            Write-HonLog "обновление перевода: $(Update-HonBundle)"
-        } catch {
-            Write-HonLog "перевод не обновился, беру прежний: $_"
-        } finally {
-            Close-HonProgress
+        if ($online) {
+            try {
+                Write-HonLog "обновление перевода: $(Update-HonBundle)"
+            } catch {
+                Write-HonLog "перевод не обновился, беру прежний: $_"
+            } finally {
+                Close-HonProgress
+            }
         }
         $bundle = Get-HonBundleDir
         Write-HonLog "перевод из $bundle"

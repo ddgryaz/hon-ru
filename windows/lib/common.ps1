@@ -1,5 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
+# PS 5.1 без этого не включает TLS 1.2, а GitHub без него не отвечает
+[Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor
+    [Net.SecurityProtocolType]::Tls12
 
 $HonWinDir = Split-Path $PSScriptRoot -Parent
 $HonRepoDir = Split-Path $HonWinDir -Parent
@@ -7,7 +10,8 @@ $HonBundleDir = Join-Path $HonRepoDir 'bundle'
 $HonDataDir = Join-Path $env:LOCALAPPDATA 'hon-ru'
 # В папку русификатора может не быть права записи, свежий перевод лежит здесь
 $HonUpdateDir = Join-Path $HonDataDir 'bundle'
-$HonUpdateUrl = 'https://raw.githubusercontent.com/ddgryaz/hon-ru/master/bundle/'
+$HonRawUrl = 'https://raw.githubusercontent.com/ddgryaz/hon-ru/master/'
+$HonUpdatePage = 'https://github.com/ddgryaz/hon-ru#обновление'
 $HonShortcutName = 'HoN (RU).lnk'
 $HonTitle = 'hon-ru'
 
@@ -38,8 +42,12 @@ function Start-HonLog($name) {
 function Write-HonLog($message) {
     $line = '{0:HH:mm:ss.fff} {1}' -f (Get-Date), $message
     Write-Host $line
+    # Журнал может на миг занять антивирус: из-за строки в нём перевод не теряем
     if ($script:HonLogFile) {
-        Add-Content -LiteralPath $script:HonLogFile -Value $line -Encoding UTF8
+        try {
+            Add-Content -LiteralPath $script:HonLogFile -Value $line -Encoding UTF8
+        } catch {
+        }
     }
 }
 
@@ -59,8 +67,8 @@ $script:HonProgress = $null
 # Окно без кнопок, не ждёт ответа. Скачивание идёт в этом же потоке,
 # поэтому окно перерисовывается только через DoEvents
 function Show-HonProgress($text) {
-    Add-Type -AssemblyName System.Windows.Forms
     if (-not $script:HonProgress) {
+        Add-Type -AssemblyName System.Windows.Forms, System.Drawing
         $form = New-Object System.Windows.Forms.Form -Property @{
             Text = $HonTitle; TopMost = $true; ControlBox = $false
             FormBorderStyle = 'FixedDialog'; StartPosition = 'CenterScreen'
@@ -73,6 +81,7 @@ function Show-HonProgress($text) {
         $form.Show()
         $script:HonProgress = $form
     }
+    $script:HonProgress.Controls[0].Text = $text
     [System.Windows.Forms.Application]::DoEvents()
 }
 
@@ -230,8 +239,6 @@ function Get-HonZstdDownload {
     $zip = Join-Path $env:TEMP ('hon-ru-zstd-' + [guid]::NewGuid() + '.zip')
     $unpack = $zip + '.d'
     try {
-        # PS 5.1 без этого не включает TLS 1.2, а GitHub без него не отвечает
-        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
         Write-HonLog "скачиваю $HonZstdUrl"
         Invoke-WebRequest -Uri $HonZstdUrl -OutFile $zip -UseBasicParsing -TimeoutSec 60
         $hash = (Get-FileHash -LiteralPath $zip -Algorithm SHA256).Hash
@@ -449,28 +456,60 @@ function Read-HonStr([byte[]]$data) {
     return [pscustomobject]@{ Order = $order; Map = $map }
 }
 
-# $null - не изменился (304). Timeout у HttpWebRequest только до заголовков,
-# а GitHub в РФ бывает медленным: тело читаем кусками до общего срока
-function Invoke-HonGet($url, $etag, [DateTime]$deadline) {
+# Timeout у HttpWebRequest не касается DNS, а тот без ответа висит ~15 с
+function Test-HonOnline {
+    try {
+        $dns = [Net.Dns]::BeginGetHostAddresses(([Uri]$HonRawUrl).Host, $null, $null)
+        if (-not $dns.AsyncWaitHandle.WaitOne(3000)) { throw 'DNS не ответил' }
+        [void][Net.Dns]::EndGetHostAddresses($dns)
+        return $true
+    } catch {
+        Write-HonLog "сети нет, обновления не проверяю: $_"
+        return $false
+    }
+}
+
+# PowerShell заворачивает WebException в MethodInvocationException.
+# Ответ из исключения закрываем при любом коде: иначе соединение не вернётся
+# в пул, а их всего два на сервер, и следующие запросы встанут в очередь
+function Get-HonWebError($err, [Net.HttpStatusCode]$status) {
+    $ex = $err.Exception
+    while ($ex -and $ex -isnot [Net.WebException]) { $ex = $ex.InnerException }
+    if (-not $ex -or -not $ex.Response) { return $false }
+    $code = $ex.Response.StatusCode
+    $ex.Response.Close()
+    return $code -eq $status
+}
+
+# $null - не изменился (304). GitHub в РФ бывает медленным: тело читаем
+# кусками до общего срока
+function Invoke-HonGet($url, $etag, [DateTime]$deadline, $progress = $null) {
     $left = [int]($deadline - (Get-Date)).TotalMilliseconds
     if ($left -le 0) { throw 'не уложились по времени' }
     $request = [Net.HttpWebRequest]::Create($url)
-    # Без сети не ждём весь срок: хватит 3 секунд до ответа
-    $request.Timeout = [Math]::Min($left, 3000)
-    $request.ReadWriteTimeout = $left
+    # Зависшее чтение не должно держать окно "Не отвечает" до конца срока
+    $request.ReadWriteTimeout = [Math]::Min($left, 15000)
     # Распаковываем сами: длину можно сверить только до распаковки
     $request.Headers['Accept-Encoding'] = 'gzip'
     if ($etag) { $request.Headers['If-None-Match'] = $etag }
-    try {
-        $response = $request.GetResponse()
-    } catch {
-        # PowerShell заворачивает WebException в MethodInvocationException
-        $ex = $_.Exception
-        while ($ex -and $ex -isnot [Net.WebException]) { $ex = $ex.InnerException }
-        if ($ex -and $ex.Response -and $ex.Response.StatusCode -eq [Net.HttpStatusCode]::NotModified) {
-            $ex.Response.Close()
-            return $null
+    # Ждём ответа сами, а не через Timeout: так можно показать окно, если
+    # ответ задерживается. Недоступный GitHub не должен съедать весь срок,
+    # но через DPI провайдера ответ бывает долгим
+    $started = Get-Date
+    $async = $request.BeginGetResponse($null, $null)
+    while (-not $async.AsyncWaitHandle.WaitOne(100)) {
+        $waited = ((Get-Date) - $started).TotalMilliseconds
+        if ($waited -gt [Math]::Min($left, 15000)) {
+            $request.Abort()
+            # Отдельный тип: по нему apply.ps1 не ждёт GitHub второй раз
+            throw [TimeoutException]'сервер не ответил'
         }
+        if ($waited -gt 2000) { Show-HonProgress 'Проверяю обновления...' }
+    }
+    try {
+        $response = $request.EndGetResponse($async)
+    } catch {
+        if (Get-HonWebError $_ NotModified) { return $null }
         throw
     }
     try {
@@ -479,7 +518,7 @@ function Invoke-HonGet($url, $etag, [DateTime]$deadline) {
         $buffer = New-Object byte[] 65536
         while (($read = $stream.Read($buffer, 0, $buffer.Length)) -gt 0) {
             $ms.Write($buffer, 0, $read)
-            Show-HonProgress "Скачиваю обновление перевода.`nИгра запустится автоматически."
+            if ($progress) { Show-HonProgress $progress }
             if ((Get-Date) -gt $deadline) { throw 'не уложились по времени' }
         }
         $body = $ms.ToArray()
@@ -503,11 +542,7 @@ function Invoke-HonGet($url, $etag, [DateTime]$deadline) {
 # Без сети первый же запрос падает по таймауту, остальные не ждём
 function Update-HonBundle([int]$seconds = 300) {
     $deadline = (Get-Date).AddSeconds($seconds)
-    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-    # Timeout у HttpWebRequest не касается DNS, а тот без ответа висит ~15 с
-    $dns = [Net.Dns]::BeginGetHostAddresses(([Uri]$HonUpdateUrl).Host, $null, $null)
-    if (-not $dns.AsyncWaitHandle.WaitOne(3000)) { throw 'DNS не ответил' }
-    [void][Net.Dns]::EndGetHostAddresses($dns)
+    $progress = "Скачиваю обновление перевода.`nИгра запустится автоматически."
     $etagFile = Join-Path $HonUpdateDir 'etag.txt'
     $etags = @{}
     if (Test-Path -LiteralPath $etagFile) {
@@ -521,7 +556,7 @@ function Update-HonBundle([int]$seconds = 300) {
     foreach ($base in $HonStrBases) {
         $name = $base + '_en.str'
         $etag = if (Test-Path -LiteralPath (Join-Path $HonUpdateDir $name)) { $etags[$name] } else { $null }
-        $reply = Invoke-HonGet ($HonUpdateUrl + $name) $etag $deadline
+        $reply = Invoke-HonGet ($HonRawUrl + 'bundle/' + $name) $etag $deadline $progress
         if ($reply) { $got[$name] = $reply }
     }
     if (-not $got.Count) { return 'без изменений' }
@@ -574,6 +609,86 @@ function Get-HonBundleDir {
         if (-not (Test-Path -LiteralPath (Join-Path $HonUpdateDir ($base + '_en.str')))) { return $HonBundleDir }
     }
     return $HonUpdateDir
+}
+
+function Get-HonScriptText([byte[]]$data) {
+    # Git хранит LF, а в zip у игрока CRLF
+    return $script:Utf8.GetString($data).Replace("`r", '')
+}
+
+function Get-HonHash([string]$text) {
+    $sha = [Security.Cryptography.SHA256]::Create()
+    return [BitConverter]::ToString($sha.ComputeHash($script:Utf8.GetBytes($text))).Replace('-', '')
+}
+
+# Новый или удалённый в репозитории файл не в счёт: без правки остальных его
+# никто не вызовет, а удалённый остаётся у игрока после распаковки поверх.
+# Строка состояния: файл, хеш своей копии, ETag, совпадает ли
+function Get-HonChangedScripts([int]$seconds = 60) {
+    $deadline = (Get-Date).AddSeconds($seconds)
+    $stateFile = Join-Path $HonDataDir 'scripts.txt'
+    $state = @{}
+    if (Test-Path -LiteralPath $stateFile) {
+        foreach ($row in [IO.File]::ReadAllLines($stateFile)) {
+            $path, $hash, $tag, $same = $row.Split("`t")
+            $state[$path] = [pscustomobject]@{ Hash = $hash; ETag = $tag; Same = $same }
+        }
+    }
+
+    $files = @(Get-ChildItem -LiteralPath $HonWinDir -Filter '*.bat' -File) +
+        @(Get-ChildItem -LiteralPath (Join-Path $HonWinDir 'lib') -Filter '*.ps1' -File)
+    $rows = @()
+    $changed = @()
+    foreach ($file in $files) {
+        $rel = if ($file.Extension -eq '.bat') { 'windows/' + $file.Name } else { 'windows/lib/' + $file.Name }
+        $mine = Get-HonScriptText ([IO.File]::ReadAllBytes($file.FullName))
+        $hash = Get-HonHash $mine
+        # Архив распаковали поверх без install.bat: прежний ответ уже не про эту копию
+        $known = $state[$rel]
+        if ($known -and $known.Hash -ne $hash) { $known = $null }
+        try {
+            $reply = Invoke-HonGet ($HonRawUrl + $rel) $(if ($known) { $known.ETag }) $deadline
+        } catch {
+            if (-not (Get-HonWebError $_ NotFound)) { throw }
+            continue
+        }
+        if ($reply) {
+            $same = if ((Get-HonScriptText $reply.Bytes) -eq $mine) { 'yes' } else { 'no' }
+            $known = [pscustomobject]@{ Hash = $hash; ETag = $reply.ETag; Same = $same }
+        }
+        $rows += "$rel`t$hash`t$($known.ETag)`t$($known.Same)"
+        if ($known.Same -ne 'yes') { $changed += "$rel`t$($known.ETag)" }
+    }
+    New-Item -ItemType Directory -Force -Path $HonDataDir | Out-Null
+    [IO.File]::WriteAllLines($stateFile, [string[]]$rows)
+    return ,$changed
+}
+
+# Про одну и ту же версию спрашиваем один раз, какой бы ни был ответ.
+# Ответ в $script:HonScriptsChoice: 'update' - игрок пошёл обновляться
+function Invoke-HonScriptsCheck {
+    $script:HonScriptsChoice = $null
+    try {
+        $changed = Get-HonChangedScripts
+    } finally {
+        Close-HonProgress
+    }
+    if (-not $changed.Count) { return 'совпадают с master' }
+    $names = ($changed | ForEach-Object { $_.Split("`t")[0] }) -join ', '
+    $mark = Get-HonHash ($changed -join "`n")
+    $seenFile = Join-Path $HonDataDir 'scripts.seen'
+    if ((Test-Path -LiteralPath $seenFile) -and ([IO.File]::ReadAllText($seenFile).Trim() -eq $mark)) {
+        return "отличаются ($names), игрок уже знает"
+    }
+    $answer = Show-HonMessage ("Вышла новая версия русификатора.`n`n" +
+        "Да - открыть инструкцию по обновлению.`nНет - играть на текущей версии русификатора.") 'YesNo' 'Information'
+    if ($answer -eq 'Yes') {
+        Start-Process $HonUpdatePage
+        $script:HonScriptsChoice = 'update'
+    }
+    # После Start-Process: не открылась страница - спросим в следующий раз
+    [IO.File]::WriteAllText($seenFile, $mark)
+    return "отличаются ($names), ответ: $answer"
 }
 
 # Пустые значения в bundle/ пропускаем, иначе ключ пропал бы из игры
