@@ -2249,7 +2249,18 @@ options_label_anti_aliasing					Сглаживание
 
 
 
-options_label_anti_aliasing_tip				Сглаживание делает края моделей мягче и реалистичнее. Чем больше выборок, тем медленнее может работать игра.
+options_label_anti_aliasing_tip				Сглаживает края моделей и ландшафта. MSAA и TAA работают в разрешении экрана, число выборок MSAA задается ниже. SSAA рисует сцену в большем разрешении и уменьшает ее: лучшее качество, но высокая нагрузка; множитель задается ниже.
+options_label_msaa_samples					Выборки MSAA
+options_label_msaa_samples_tip				Сколько выборок на пиксель делает мультисэмплинг. Больше выборок - глаже края, но выше нагрузка на видеокарту и расход памяти.
+options_label_supersample_factor			Множитель SSAA
+options_label_supersample_factor_tip		Во сколько раз больше экрана рисуется сцена перед уменьшением. 2x рисует в четыре раза больше пикселей, 3x в девять, 4x в шестнадцать, поэтому каждый шаг заметно сильнее нагружает видеокарту.
+options_label_upscale_quality				Качество апскейла
+options_label_upscale_quality_tip			Разрешение, в котором рисуется сцена, прежде чем DLSS или FSR восстановят полное изображение: Качество - 67%, Баланс - 59%, Производительность - 50% от экрана. Чем ниже настройка, тем быстрее игра и мягче картинка.
+options_upscale_level_quality			Качество
+options_upscale_level_balanced			Баланс
+options_upscale_level_performance		Производительность
+options_label_panel_anti_aliasing			Сглаживание превью моделей
+options_label_panel_anti_aliasing_tip		Сглаживает края превью героев и предметов в меню. SSAA рисует превью в разрешении 2x, 3x или 4x и уменьшает его, поэтому большие множители сильнее нагружают видеокарту.
 
 
 
@@ -8868,7 +8879,6 @@ mstore_rotatemodel_desc			Нажмите и перетащите ползуно�
 
 
 
-mstore_redeem161				Активировать смену ника
 
 
 
@@ -8880,7 +8890,6 @@ mstore_redeem163				Активировать сброс статистики
 
 
 
-mstore_redeem161_desc			Нажмите здесь, чтобы активировать покупку смены ника и ввести новый ник.
 
 
 
@@ -9312,7 +9321,6 @@ mstore_resetstats_form_body_sea		Используйте эту форму, чт�
 
 
 
-mstore_nickchange_form_title		Сменить ник
 
 
 
@@ -9412,7 +9420,6 @@ mstore_buyitem_success_body_vault	Вы успешно приобрели зап�
 
 
 
-mstore_nickchange_success_body		Вы успешно сменили свой никнейм. Вам необходимо выйти из системы и снова войти, чтобы изменения вступили в силу.
 
 
 
@@ -9460,7 +9467,6 @@ mstore_error_generic				Ошибка
 
 
 
-mstore_nickchange_submit			Сменить ник
 
 
 
@@ -16908,6 +16914,9 @@ game_lobby_ack_disconnect_title				Отключено
 
 
 game_lobby_ack_disconnect_body				Автоматическое отключение из-за проблем с подключением.
+game_lobby_connecting_to_server			Подключение к серверу...
+game_lobby_reconnecting_to_lobby			Переподключение к лобби... {time}
+game_lobby_waiting_for_players			Ожидание переподключения игроков...
 
 
 
@@ -23965,7 +23974,6 @@ purch_upgradeaccount						Улучшить аккаунт
 
 
 
-purch_nickchange							Сменить ник
 
 
 
@@ -32262,6 +32270,11 @@ lobby_timer_banning							БАН
 
 
 lobby_timer_picking							ВЫБОР
+lobby_timer_banning_paused				БАН НА ПАУЗЕ
+lobby_timer_picking_paused				ВЫБОР НА ПАУЗЕ
+lobby_timer_waiting_for_server			ОЖИДАНИЕ ИГРОВОГО СЕРВЕРА...
+lobby_timer_connecting_to_server			ПОДКЛЮЧЕНИЕ К СЕРВЕРУ...
+lobby_timer_reconnecting_to_lobby			ПЕРЕПОДКЛЮЧЕНИЕ К ЛОББИ
 
 
 
@@ -33357,6 +33370,10 @@ loading_stage_map 					Loading Map
 boss_info_kongor_stat_attack_speed		^oПерезарядка атаки:^* 1 сек.
 store_marketplace_purchase					Purchase {item}
 mm_play_ban_denied_reason_temporary		^279{name}:^* запрет на игру. Причина: {reason} - истекает через {remaining}
+mm_client_out_of_date_notice			Нельзя встать в очередь: игра устарела
+mm_client_out_of_date_title				Требуется обновление
+mm_client_out_of_date_body				Ваша версия игры устарела. Перезапустите игру, чтобы обновиться до версии ^279{required}^*.
+mm_client_out_of_date_versions			У вас версия ^279{client}^*
 vanity_cat_namecolors						Name Colors
 boss_info_kongor_stat_hp_regen		^oРеген. здоровья:^* 10/сек.
 options_hdr_exposure_tip		Множитель экспозиции сцены перед тонмаппингом.
