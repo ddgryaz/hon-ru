@@ -268,8 +268,10 @@ function Remove-HonFiles($game) {
 # а нам нужен код возврата
 function Invoke-HonNative($exe, [string[]]$arguments) {
     $ErrorActionPreference = 'Continue'
-    & $exe @arguments 2>$null | Out-Null
-    return $LASTEXITCODE
+    $output = (& $exe @arguments 2>&1 | ForEach-Object { "$_" }) -join ' | '
+    $code = $LASTEXITCODE
+    if ($code) { Write-HonLog "$(Split-Path $exe -Leaf) exit code ${code}: $output" }
+    return $code
 }
 
 function Get-HonTar {

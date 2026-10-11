@@ -15,12 +15,12 @@ for arg in "$@"; do
         --probe)     ON_LAUNCH=1; PROBE=1 ;;
         --timeout=*) TIMEOUT="${arg#*=}" ;;
         -h|--help)
-            echo "usage: apply.sh [--on-launch] [--probe] [--timeout=СЕК]"
-            echo "  --on-launch  дождаться запуска игры, положить перевод после"
-            echo "               проверок лаунчера, убрать после выхода"
-            echo "  --probe      то же плюс inotify-лог обращений движка к файлам"
-            echo "  без флагов   разложить файлы и выйти (только для отладки:"
-            echo "               лаунчер сочтёт их лишними и потребует обновление)"
+            echo "usage: apply.sh [--on-launch] [--probe] [--timeout=SEC]"
+            echo "  --on-launch  wait for the game, place the translation after the"
+            echo "               launcher checks, remove it after exit"
+            echo "  --probe      same plus an inotify log of engine file access"
+            echo "  no flags     place the files and exit (debug only: the launcher"
+            echo "               treats them as extra files and demands an update)"
             exit 0 ;;
         *) echo "unknown argument: $arg" >&2; exit 2 ;;
     esac
