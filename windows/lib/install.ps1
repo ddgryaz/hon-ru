@@ -1,13 +1,26 @@
 ﻿. (Join-Path $PSScriptRoot 'common.ps1')
 
 Start-HonLog 'install.log'
+trap { Write-HonError 'unexpected error' $_; break }
+
+try {
+    $av = Get-CimInstance -Namespace 'root/SecurityCenter2' -ClassName AntiVirusProduct -OperationTimeoutSec 10 -ErrorAction Stop
+    Write-HonLog "antivirus: $(($av | ForEach-Object { $_.displayName }) -join ', ')"
+} catch {
+    Write-HonError 'antivirus not detected' $_
+}
 
 try {
     # Файлы из скачанного zip помечены "из интернета", PowerShell переспрашивает
-    Get-ChildItem -LiteralPath $HonRepoDir -Recurse -File | Unblock-File
+    $files = @(Get-ChildItem -LiteralPath $HonRepoDir -Recurse -File)
+    $files | Unblock-File
+    Write-HonLog "unblocked $($files.Count) files in $HonRepoDir"
 
     # Скачанная раньше копия перевода может оказаться старше распакованного архива
-    if (Test-Path -LiteralPath $HonUpdateDir) { Remove-Item -LiteralPath $HonUpdateDir -Recurse -Force }
+    if (Test-Path -LiteralPath $HonUpdateDir) {
+        Remove-Item -LiteralPath $HonUpdateDir -Recurse -Force
+        Write-HonLog "removed $HonUpdateDir"
+    }
 
     try {
         $game = Find-HonGame
@@ -15,11 +28,14 @@ try {
         Show-HonGameNotFound $_ 'запустите install.bat'
         exit 1
     }
-    Write-HonLog "игра: $($game.Game)"
 
     # Проблему со скачиванием лучше увидеть сейчас, а не при запуске игры
     $unpacker = Resolve-HonUnpacker
-    if ($unpacker) { Write-HonLog "распаковщик: $($unpacker.Kind) $($unpacker.Path)" }
+    if ($unpacker) {
+        Write-HonLog "unpacker: $($unpacker.Kind) $($unpacker.Path)"
+    } else {
+        Write-HonLog "no unpacker, choice: $script:HonUnpackerChoice"
+    }
 
     $desktop = [Environment]::GetFolderPath('Desktop')
     $link = Join-Path $desktop $HonShortcutName
@@ -36,7 +52,7 @@ try {
     $shortcut.IconLocation = if (Test-Path -LiteralPath $icon) { "$icon,0" } else { "$($game.Exe),0" }
     $shortcut.Description = 'Heroes of Newerth с русским переводом'
     $shortcut.Save()
-    Write-HonLog "ярлык: $link"
+    Write-HonLog "shortcut: $link -> $($shortcut.TargetPath) $($shortcut.Arguments)"
 
     $text = "Готово: на рабочем столе ярлык `"HoN (RU)`".`n`n" +
         "Запускайте игру через него, родной ярлык Juvio запускает игру на английском."
@@ -45,7 +61,7 @@ try {
     }
     Show-HonMessage $text 'OK' 'Information' | Out-Null
 } catch {
-    Write-HonLog "ошибка: $_"
+    Write-HonError 'install failed' $_
     Show-HonMessage "Установка не удалась:`n$_`n`nПодробности в $script:HonLogFile" 'OK' 'Error' | Out-Null
     exit 1
 }

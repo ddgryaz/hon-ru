@@ -11,11 +11,18 @@ param(
 # Если игру только что закрыли, первый экземпляр ещё прибирается: подождём его
 $mutex = New-Object Threading.Mutex($false, 'Local\hon-ru-apply')
 try {
-    if (-not $mutex.WaitOne(15000)) { exit 0 }
+    if (-not $mutex.WaitOne(15000)) {
+        # Журнал не начинаем заново: в него ещё пишет первый экземпляр
+        $script:HonLogFile = Join-Path $HonDataDir 'apply.log'
+        Write-HonLog 'second launch: previous apply.ps1 still running, exit'
+        exit 0
+    }
 } catch [Threading.AbandonedMutexException] {
 }
 
 Start-HonLog 'apply.log'
+# Окна скрыты: без этого необработанная ошибка не оставит следа
+trap { Write-HonError 'unexpected error' $_; break }
 
 function Get-HonNewestLog($logs) {
     if (-not (Test-Path -LiteralPath $logs)) { return $null }
@@ -32,11 +39,14 @@ function Wait-HonDelegation($game, $baseline, $timeout) {
     $carry = ''
     $absent = 0
     $tick = 0
+    $ioError = $false
+    $started = Get-Date
     while ((Get-Date) -lt $deadline) {
         $newest = Get-HonNewestLog $game.Logs
         if ($newest -and $newest.FullName -ne $baseline) {
             if ($newest.FullName -ne $current) {
                 $current = $newest.FullName
+                Write-HonLog "launcher log: $current"
                 $position = 0L
                 $carry = ''
             }
@@ -49,21 +59,53 @@ function Wait-HonDelegation($game, $baseline, $timeout) {
                         $read = $fs.Read($buffer, 0, $buffer.Length)
                         $position += $read
                         $text = $carry + [Text.Encoding]::UTF8.GetString($buffer, 0, $read)
-                        if ($text.Contains($marker)) { return $true }
+                        if ($text.Contains($marker)) {
+                            Write-HonLog ('launcher delegated after {0:N1} s' -f ((Get-Date) - $started).TotalSeconds)
+                            return $true
+                        }
                         $carry = $text.Substring([Math]::Max(0, $text.Length - $marker.Length))
                     }
                 } finally {
                     $fs.Close()
                 }
             } catch [IO.IOException] {
+                # Лаунчер держит лог в первые миллисекунды: это не ошибка
+                if (-not $ioError) { Write-HonLog "launcher log busy: $($_.Exception.Message)"; $ioError = $true }
             }
         }
         if ((++$tick % 25) -eq 0) {
-            if (Test-HonRunning) { $absent = 0 } elseif (++$absent -ge 6) { return $false }
+            if (Test-HonRunning) { $absent = 0 } elseif (++$absent -ge 6) {
+                Write-HonLog 'launcher closed before the game started'
+                Write-HonLauncherLog $current
+                return $false
+            }
         }
         Start-Sleep -Milliseconds 20
     }
+    Write-HonLog "launcher did not delegate in $timeout s"
+    Write-HonLauncherLog $current
     return $false
+}
+
+# Конец лога лаунчера: почему он не дошёл до запуска игры
+function Write-HonLauncherLog($path) {
+    if (-not $path) {
+        Write-HonLog 'launcher wrote no new log'
+        return
+    }
+    try {
+        $fs = [IO.File]::Open($path, 'Open', 'Read', 'ReadWrite, Delete')
+        try {
+            $reader = New-Object IO.StreamReader($fs)
+            $lines = $reader.ReadToEnd() -split "`r?`n" | Where-Object { $_ } | Select-Object -Last 20
+        } finally {
+            $fs.Close()
+        }
+        Write-HonLog "last lines of ${path}:"
+        foreach ($line in $lines) { Write-HonLog "  | $line" }
+    } catch {
+        Write-HonError 'launcher log not read' $_
+    }
 }
 
 function Wait-HonExit {
@@ -75,8 +117,8 @@ function Wait-HonExit {
 }
 
 function Start-HonGame($game) {
-    Write-HonLog "запускаю $($game.Exe)"
-    Start-Process -FilePath $game.Exe -WorkingDirectory $game.Root | Out-Null
+    $process = Start-Process -FilePath $game.Exe -WorkingDirectory $game.Root -PassThru
+    Write-HonLog "started $($game.Exe), pid $($process.Id)"
 }
 
 try {
@@ -85,27 +127,29 @@ try {
     Show-HonGameNotFound $_ 'запустите ярлык "HoN (RU)"'
     exit 1
 }
-Write-HonLog "игра:    $($game.Game)"
-Write-HonLog "профиль: $($game.Docs)"
 
 if (Test-HonRunning) {
+    Write-HonRunning
     Show-HonMessage 'Игра или лаунчер уже запущены. Закройте их и запустите ярлык ещё раз.' 'OK' 'Warning' | Out-Null
     exit 0
 }
 
 $leftover = Remove-HonFiles $game
-if ($leftover) { Write-HonLog "убраны остатки прошлого запуска: $leftover" }
+if ($leftover) { Write-HonLog "removed files left from the last run: $leftover" }
 
 $online = Test-HonOnline
 # До подготовки перевода: игрок может уйти обновляться, и она будет не нужна
 if ($online) {
     try {
-        Write-HonLog "скрипты: $(Invoke-HonScriptsCheck)"
+        Write-HonLog "scripts: $(Invoke-HonScriptsCheck)"
     } catch {
-        Write-HonLog "скрипты не проверены: $_"
+        Write-HonError 'scripts not checked' $_
         if ($_.Exception -is [TimeoutException]) { $online = $false }
     }
-    if ($script:HonScriptsChoice -eq 'update') { exit 0 }
+    if ($script:HonScriptsChoice -eq 'update') {
+        Write-HonLog 'player went to update, game not started'
+        exit 0
+    }
 }
 
 $plan = @()
@@ -114,21 +158,24 @@ $archiveBefore = $null
 try {
     $unpacker = Resolve-HonUnpacker
     if (-not $unpacker) {
-        if ($script:HonUnpackerChoice -eq 'manual') { exit 0 }
-        Write-HonLog 'распаковщика нет, играем на английском'
+        if ($script:HonUnpackerChoice -eq 'manual') {
+            Write-HonLog 'player went to get zstd.exe, game not started'
+            exit 0
+        }
+        Write-HonLog 'no unpacker, playing in English'
     } else {
-        Write-HonLog "распаковщик: $($unpacker.Kind) $($unpacker.Path)"
+        Write-HonLog "unpacker: $($unpacker.Kind) $($unpacker.Path)"
         if ($online) {
             try {
-                Write-HonLog "обновление перевода: $(Update-HonBundle)"
+                Write-HonLog "translation update: $(Update-HonBundle)"
             } catch {
-                Write-HonLog "перевод не обновился, беру прежний: $_"
+                Write-HonError 'translation not updated, using the previous one' $_
             } finally {
                 Close-HonProgress
             }
         }
         $bundle = Get-HonBundleDir
-        Write-HonLog "перевод из $bundle"
+        Write-HonLog "translation from $bundle"
         $item = Get-Item -LiteralPath $game.Archive
         $archiveBefore = '{0}/{1}' -f $item.Length, $item.LastWriteTimeUtc.Ticks
         Expand-HonBase $game $unpacker $stage
@@ -137,10 +184,11 @@ try {
         foreach ($base in $HonStrBases) {
             $ru = Join-Path $bundle ($base + '_en.str')
             $orig = Join-Path $stage ($base + '_en.str')
-            if (-not (Test-Path -LiteralPath $orig)) { Write-HonLog "нет в архиве игры: $($base)_en.str"; continue }
-            if (-not (Test-Path -LiteralPath $ru)) { Write-HonLog "нет в bundle/: $($base)_en.str"; continue }
+            if (-not (Test-Path -LiteralPath $orig)) { Write-HonLog "not in game archive: $($base)_en.str"; continue }
+            if (-not (Test-Path -LiteralPath $ru)) { Write-HonLog "not in bundle: $($base)_en.str"; continue }
             $merged = Merge-HonStr $orig $ru
-            Write-HonLog ('{0,-16} переведено {1,5}, на английском {2,4}' -f $base, $merged.Translated, $merged.Kept)
+            Write-HonLog ('{0,-16} translated {1,5}, english {2,4}, {3} bytes' -f
+                $base, $merged.Translated, $merged.Kept, $merged.Bytes.Length)
             foreach ($suffix in $HonStrSuffixes) {
                 $plan += [pscustomobject]@{ Path = Join-Path $game.Target ($base + $suffix); Bytes = $merged.Bytes }
             }
@@ -151,7 +199,9 @@ try {
 
         # Русский текст подменяет английский, поэтому локаль en
         $cfg = Join-Path $game.Docs 'startup.cfg'
-        if (Test-Path -LiteralPath $cfg) {
+        if (-not (Test-Path -LiteralPath $cfg)) {
+            Write-HonLog "no $cfg"
+        } else {
             Set-HonCfg $cfg ([ordered]@{ host_locale = 'en'; host_backuplocale = 'en' }) (Join-Path $HonDataDir 'startup.orig')
         }
 
@@ -159,12 +209,13 @@ try {
         $stamp = Join-Path $HonDataDir 'strings.sha'
         $previous = if (Test-Path -LiteralPath $stamp) { ([string](Get-Content -LiteralPath $stamp -Raw)).Trim() } else { '' }
         if ($previous -ne $digest) {
+            Write-HonLog "strings changed: $digest"
             Clear-HonCache $game
             Set-Content -LiteralPath $stamp -Value $digest -Encoding ASCII
         }
     }
 } catch {
-    Write-HonLog "ошибка подготовки перевода: $_"
+    Write-HonError 'translation not prepared' $_
     $plan = @()
     Show-HonMessage ("Не удалось подготовить перевод:`n$_`n`nИгра запустится на английском. " +
         "Подробности в $script:HonLogFile") 'OK' 'Warning' | Out-Null
@@ -179,16 +230,15 @@ if (-not $plan) { exit 0 }
 
 try {
     if (-not (Wait-HonDelegation $game $baseline $Timeout)) {
-        Write-HonLog 'лаунчер закрыт до запуска игры'
         exit 0
     }
-    Write-HonLog 'лаунчер передал управление движку'
 
     # Лаунчер обновил игру в этом запуске: база от старой версии, новые ключи
     # вылезли бы сырыми именами. Переводим со следующего запуска
     $item = Get-Item -LiteralPath $game.Archive
-    if (('{0}/{1}' -f $item.Length, $item.LastWriteTimeUtc.Ticks) -ne $archiveBefore) {
-        Write-HonLog 'игра обновилась во время запуска, перевод будет со следующего раза'
+    $archiveAfter = '{0}/{1}' -f $item.Length, $item.LastWriteTimeUtc.Ticks
+    if ($archiveAfter -ne $archiveBefore) {
+        Write-HonLog "game patched during this launch ($archiveBefore -> $archiveAfter), translation from the next launch"
         exit 0
     }
 
@@ -199,14 +249,14 @@ try {
             [IO.File]::WriteAllBytes($file.Path, $file.Bytes)
             $written++
         } catch {
-            Write-HonLog "не записан $($file.Path): $_"
+            Write-HonError "not written $($file.Path)" $_
         }
     }
-    Write-HonLog "положено файлов: $written"
+    Write-HonLog "files written: $written of $($plan.Count) to $($game.Target)"
     Wait-HonExit
-    Write-HonLog 'игра закрыта'
+    Write-HonLog 'game closed'
 } finally {
     $removed = Remove-HonFiles $game
-    Write-HonLog "файлов убрано: $removed"
+    Write-HonLog "files removed: $removed"
     $mutex.ReleaseMutex()
 }

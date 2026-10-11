@@ -1,5 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
+# Журнал присылают нам: ошибки .NET и PowerShell и числа нужны на английском, а не на языке Windows
+[Threading.Thread]::CurrentThread.CurrentUICulture = 'en-US'
+[Threading.Thread]::CurrentThread.CurrentCulture = 'en-US'
 # PS 5.1 без этого не включает TLS 1.2, а GitHub без него не отвечает
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor
     [Net.SecurityProtocolType]::Tls12
@@ -28,15 +31,25 @@ $HonZstdInZip = 'zstd-v1.5.7-win64\zstd.exe'
 $HonGameDir = $null
 $HonDocsDir = $null
 $HonUseTar = $true
-$local = Join-Path $HonWinDir 'config.local.ps1'
-if (Test-Path -LiteralPath $local) { . $local }
+$HonLocalConfig = Join-Path $HonWinDir 'config.local.ps1'
+if (Test-Path -LiteralPath $HonLocalConfig) { . $HonLocalConfig }
 
 $script:HonLogFile = $null
 
-function Start-HonLog($name) {
-    New-Item -ItemType Directory -Force -Path $HonDataDir | Out-Null
-    $script:HonLogFile = Join-Path $HonDataDir $name
-    Set-Content -LiteralPath $script:HonLogFile -Value '' -Encoding UTF8
+# Прошлый журнал сохраняем: игрок обычно пробует ещё раз, а потом уже пишет нам
+function Start-HonLog($name, $dir = $HonDataDir) {
+    New-Item -ItemType Directory -Force -Path $dir | Out-Null
+    $script:HonLogFile = Join-Path $dir $name
+    try {
+        if (Test-Path -LiteralPath $script:HonLogFile) {
+            Move-Item -LiteralPath $script:HonLogFile -Force `
+                -Destination ([IO.Path]::ChangeExtension($script:HonLogFile, '.prev.log'))
+        }
+        Set-Content -LiteralPath $script:HonLogFile -Value '' -Encoding UTF8
+    } catch {
+    }
+    Write-HonLog ('{0} started {1:yyyy-MM-dd HH:mm:ss zzz}' -f $name, (Get-Date))
+    Write-HonEnvironment
 }
 
 function Write-HonLog($message) {
@@ -48,6 +61,49 @@ function Write-HonLog($message) {
             Add-Content -LiteralPath $script:HonLogFile -Value $line -Encoding UTF8
         } catch {
         }
+    }
+}
+
+# Тип, HRESULT и строка скрипта: по одному тексту ошибки причину не найти
+function Write-HonError($context, $err) {
+    Write-HonLog "${context}: $err"
+    for ($ex = $err.Exception; $ex; $ex = $ex.InnerException) {
+        Write-HonLog ('  {0} (0x{1:X8}): {2}' -f $ex.GetType().FullName, $ex.HResult, $ex.Message)
+    }
+    if ($err.ScriptStackTrace) {
+        foreach ($frame in $err.ScriptStackTrace -split "`r?`n") { Write-HonLog "  $frame" }
+    }
+}
+
+function Get-HonScriptsHash {
+    $files = @(Get-ChildItem -LiteralPath $HonWinDir -Filter '*.bat' -File) +
+        @(Get-ChildItem -LiteralPath (Join-Path $HonWinDir 'lib') -Filter '*.ps1' -File)
+    $text = ($files | Sort-Object Name | ForEach-Object {
+        $_.Name + "`n" + (Get-HonScriptText ([IO.File]::ReadAllBytes($_.FullName)))
+    }) -join "`n"
+    return (Get-HonHash $text).Substring(0, 12)
+}
+
+function Write-HonEnvironment {
+    try {
+        $os = Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion' -ErrorAction SilentlyContinue
+        # На Windows 11 ProductName всё равно "Windows 10": смотреть на build
+        Write-HonLog ('windows: {0} {1}, build {2}.{3}, 64-bit os {4}, 64-bit process {5}' -f
+            $os.ProductName, $os.DisplayVersion, $os.CurrentBuild, $os.UBR,
+            [Environment]::Is64BitOperatingSystem, [Environment]::Is64BitProcess)
+        Write-HonLog ('powershell: {0}, clr {1}, language mode {2}' -f
+            $PSVersionTable.PSVersion, $PSVersionTable.CLRVersion, $ExecutionContext.SessionState.LanguageMode)
+        $admin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(
+            [Security.Principal.WindowsBuiltInRole]::Administrator)
+        Write-HonLog ('ui language: {0}, admin: {1}' -f [Globalization.CultureInfo]::InstalledUICulture, $admin)
+        Write-HonLog "scripts: $HonWinDir (hash $(Get-HonScriptsHash))"
+        Write-HonLog "data: $HonDataDir"
+        Write-HonLog "temp: $env:TEMP"
+        if (Test-Path -LiteralPath $HonLocalConfig) {
+            Write-HonLog "config.local.ps1: game '$HonGameDir', docs '$HonDocsDir', use tar $HonUseTar"
+        }
+    } catch {
+        Write-HonError 'environment not logged' $_
     }
 }
 
@@ -101,12 +157,14 @@ function Get-HonJuvioRoots {
         foreach ($item in Get-ChildItem -Path $key -ErrorAction SilentlyContinue) {
             $p = Get-ItemProperty -Path $item.PSPath -ErrorAction SilentlyContinue
             if ($p.DisplayName -like 'Heroes of Newerth*' -and $p.InstallLocation) {
+                Write-HonLog "registry $hive '$($p.DisplayName)' $($p.DisplayVersion) at $($p.InstallLocation)"
                 $p.InstallLocation.TrimEnd('\')
             }
         }
     }
     $cmd = (Get-ItemProperty -Path 'HKCU:\Software\Classes\hon\shell\open\command' `
             -ErrorAction SilentlyContinue).'(default)'
+    if ($cmd) { Write-HonLog "hon:// handler: $cmd" }
     if ($cmd -match '"([^"]+\\juvio\.exe)"') {
         Split-Path (Split-Path $Matches[1] -Parent) -Parent
     }
@@ -114,8 +172,10 @@ function Get-HonJuvioRoots {
 }
 
 function Test-HonJuvioRoot($root) {
-    return (Test-Path -LiteralPath (Join-Path $root 'heroes of newerth\resources0.jz')) -and
-        (Test-Path -LiteralPath (Join-Path $root 'bin\juvio.exe'))
+    $archive = Test-Path -LiteralPath (Join-Path $root 'heroes of newerth\resources0.jz')
+    $exe = Test-Path -LiteralPath (Join-Path $root 'bin\juvio.exe')
+    Write-HonLog "candidate ${root}: resources0.jz $archive, juvio.exe $exe"
+    return $archive -and $exe
 }
 
 function Find-HonGame {
@@ -143,14 +203,18 @@ function Find-HonGame {
         Target  = Join-Path $game 'stringtables'
     }
     if (-not (Test-Path -LiteralPath $info.Archive) -or -not (Test-Path -LiteralPath $info.Exe)) {
-        throw "Игра не найдена в папке $($info.Game)"
+        throw "game not found in $($info.Game)"
     }
+    $item = Get-Item -LiteralPath $info.Archive
+    Write-HonLog ('game: {0}' -f $info.Game)
+    Write-HonLog ('archive: {0} bytes, modified {1:yyyy-MM-dd HH:mm:ss}' -f $item.Length, $item.LastWriteTime)
+    Write-HonLog ('docs: {0} (exists {1})' -f $info.Docs, (Test-Path -LiteralPath $info.Docs))
     return $info
 }
 
 # Путь, где искали, только в журнал: в окне он пользователю не поможет
 function Show-HonGameNotFound($reason, $retry) {
-    Write-HonLog "$reason"
+    Write-HonError 'game not found' $reason
     Show-HonMessage ("Игра не найдена.`n`n" +
         "Установите Heroes of Newerth через лаунчер Juvio, дождитесь окончания " +
         "загрузки и $retry ещё раз.") 'OK' 'Error' | Out-Null
@@ -158,6 +222,13 @@ function Show-HonGameNotFound($reason, $retry) {
 
 function Test-HonRunning {
     return [bool](Get-Process -Name 'juvio' -ErrorAction SilentlyContinue)
+}
+
+function Write-HonRunning {
+    foreach ($p in Get-Process -Name 'juvio' -ErrorAction SilentlyContinue) {
+        $path = try { $p.Path } catch { '?' }
+        Write-HonLog "running: juvio pid $($p.Id), $path"
+    }
 }
 
 # Лишний файл в каталоге игры - и лаунчер требует обновление. Чужое не трогаем.
@@ -173,7 +244,7 @@ function Remove-HonFiles($game) {
                     Remove-Item -LiteralPath $path -Force
                     $removed++
                 } catch {
-                    if ($try -eq 10) { Write-HonLog "не удалось удалить $path : $_" }
+                    if ($try -eq 10) { Write-HonError "cannot delete $path" $_ }
                     Start-Sleep -Milliseconds 300
                 }
             }
@@ -185,7 +256,7 @@ function Remove-HonFiles($game) {
             Remove-Item -LiteralPath $game.Target -Force
         }
     } catch {
-        Write-HonLog "не удалось удалить $($game.Target) : $_"
+        Write-HonError "cannot delete $($game.Target)" $_
     }
     return $removed
 }
@@ -204,6 +275,7 @@ function Get-HonTar {
     if (-not (Test-Path -LiteralPath $tar)) { return $null }
     $ErrorActionPreference = 'Continue'
     $version = (& $tar --version 2>$null) | Out-String
+    Write-HonLog "tar: $($version.Trim())"
     # tar из Windows 10 собран без zstd
     if ($version -match 'libzstd') { return $tar }
     return $null
@@ -232,6 +304,7 @@ function Find-HonZstd {
     foreach ($candidate in $candidates) {
         if (Test-HonZstd $candidate) { return $candidate }
     }
+    Write-HonLog "zstd.exe not found in: $($candidates -join '; ')"
     return $null
 }
 
@@ -239,18 +312,19 @@ function Get-HonZstdDownload {
     $zip = Join-Path $env:TEMP ('hon-ru-zstd-' + [guid]::NewGuid() + '.zip')
     $unpack = $zip + '.d'
     try {
-        Write-HonLog "скачиваю $HonZstdUrl"
+        Write-HonLog "downloading $HonZstdUrl"
         Invoke-WebRequest -Uri $HonZstdUrl -OutFile $zip -UseBasicParsing -TimeoutSec 60
         $hash = (Get-FileHash -LiteralPath $zip -Algorithm SHA256).Hash
+        Write-HonLog "downloaded $((Get-Item -LiteralPath $zip).Length) bytes, sha256 $hash"
         if ($hash -ne $HonZstdSha256) {
-            throw "контрольная сумма не совпала: $hash"
+            throw "checksum mismatch: $hash"
         }
         Expand-Archive -LiteralPath $zip -DestinationPath $unpack -Force
         New-Item -ItemType Directory -Force -Path $HonDataDir | Out-Null
         $dst = Join-Path $HonDataDir 'zstd.exe'
         Copy-Item -LiteralPath (Join-Path $unpack $HonZstdInZip) -Destination $dst -Force
         if (-not (Test-HonZstd $dst)) {
-            throw 'скачанный zstd.exe не запускается'
+            throw 'downloaded zstd.exe does not run'
         }
         return $dst
     } finally {
@@ -270,7 +344,7 @@ function Resolve-HonUnpacker {
     try {
         return @{ Kind = 'zstd'; Path = (Get-HonZstdDownload) }
     } catch {
-        Write-HonLog "не удалось скачать zstd.exe: $_"
+        Write-HonError 'zstd.exe download failed' $_
     }
 
     $text = "Не удалось скачать zstd.exe, без него перевод не подключить.`n`n" +
@@ -279,6 +353,7 @@ function Resolve-HonUnpacker {
         "3. Запустите ярлык `"HoN (RU)`" ещё раз.`n`n" +
         "Да - открыть ссылку и папку.`nНет - играть на английском."
     $answer = Show-HonMessage $text 'YesNo' 'Warning'
+    Write-HonLog "zstd.exe dialog: $answer"
     if ($answer -eq 'Yes') {
         Start-Process $HonZstdUrl
         Start-Process explorer.exe -ArgumentList "`"$HonWinDir`""
@@ -300,13 +375,13 @@ function Get-HonZipEntries($archive, $pattern) {
         for ($i = $tail.Length - 22; $i -ge 0; $i--) {
             if ([BitConverter]::ToUInt32($tail, $i) -eq 0x06054b50) { $eocd = $i; break }
         }
-        if ($eocd -lt 0) { throw 'в resources0.jz не найдено оглавление zip' }
+        if ($eocd -lt 0) { throw 'zip directory not found in resources0.jz' }
         $cdSize = [uint64][BitConverter]::ToUInt32($tail, $eocd + 12)
         $cdOffset = [uint64][BitConverter]::ToUInt32($tail, $eocd + 16)
         # Архив больше 4 ГБ: настоящее оглавление в ZIP64
         if ($eocd -ge 20 -and [BitConverter]::ToUInt32($tail, $eocd - 20) -eq 0x07064b50) {
             $fs.Position = [BitConverter]::ToUInt64($tail, $eocd - 20 + 8)
-            if ($br.ReadUInt32() -ne 0x06064b50) { throw 'в resources0.jz битое оглавление ZIP64' }
+            if ($br.ReadUInt32() -ne 0x06064b50) { throw 'broken ZIP64 directory in resources0.jz' }
             $z64 = $br.ReadBytes(52)
             $cdSize = [BitConverter]::ToUInt64($z64, 36)
             $cdOffset = [BitConverter]::ToUInt64($z64, 44)
@@ -357,6 +432,7 @@ function Get-HonZipEntries($archive, $pattern) {
 function Expand-HonWithZstd($archive, $zstd, $names, $dst) {
     $wanted = '^stringtables/(' + (($names | ForEach-Object { [regex]::Escape($_) }) -join '|') + ')$'
     $entries = Get-HonZipEntries $archive $wanted
+    Write-HonLog ('zip entries: ' + (($entries | ForEach-Object { '{0} method {1} {2}/{3}' -f $_.Name, $_.Method, $_.CSize, $_.USize }) -join '; '))
     $fs = [IO.File]::OpenRead($archive)
     $br = New-Object IO.BinaryReader($fs)
     try {
@@ -364,7 +440,7 @@ function Expand-HonWithZstd($archive, $zstd, $names, $dst) {
             $fs.Position = $entry.Offset
             $local = $br.ReadBytes(30)
             if ([BitConverter]::ToUInt32($local, 0) -ne 0x04034b50) {
-                throw "битый заголовок $($entry.Name) в resources0.jz"
+                throw "broken header of $($entry.Name) in resources0.jz"
             }
             $fs.Position = $entry.Offset + 30 + [BitConverter]::ToUInt16($local, 26) +
                 [BitConverter]::ToUInt16($local, 28)
@@ -376,10 +452,10 @@ function Expand-HonWithZstd($archive, $zstd, $names, $dst) {
                 $packed = $out + '.zst'
                 [IO.File]::WriteAllBytes($packed, $data)
                 $code = Invoke-HonNative $zstd @('-d', '-q', '-f', $packed, '-o', $out)
-                if ($code -ne 0) { throw "zstd не распаковал $($entry.Name): код $code" }
+                if ($code -ne 0) { throw "zstd failed on $($entry.Name): exit code $code" }
                 Remove-Item -LiteralPath $packed -Force
             } else {
-                throw "неизвестный метод сжатия $($entry.Method) у $($entry.Name)"
+                throw "unknown compression method $($entry.Method) in $($entry.Name)"
             }
         }
     } finally {
@@ -397,20 +473,21 @@ function Expand-HonBase($game, $unpacker, $dst) {
         # Ненулевой код бывает и когда патч убрал один из файлов. Но tar без
         # zstd может оставить пустые файлы - такие за успех не считаем
         $got = @(Get-ChildItem -LiteralPath (Join-Path $dst 'stringtables') -ErrorAction SilentlyContinue)
+        Write-HonLog ("tar exit code ${code}: " + (($got | ForEach-Object { '{0} {1}' -f $_.Name, $_.Length }) -join '; '))
         $whole = $got.Count -gt 0 -and -not ($got | Where-Object { $_.Length -eq 0 })
         if ($whole -and ($code -eq 0 -or $got.Count -lt $names.Count)) {
             $got | Move-Item -Destination $dst
             return
         }
         # libzstd в tar ещё не значит, что он читает zstd внутри zip
-        Write-HonLog "tar не справился (код $code), пробую zstd.exe"
+        Write-HonLog 'tar failed, trying zstd.exe'
         $zstd = Find-HonZstd
         if (-not $zstd) { $zstd = Get-HonZstdDownload }
         $unpacker = @{ Kind = 'zstd'; Path = $zstd }
     }
     Expand-HonWithZstd $game.Archive $unpacker.Path $names $dst
     if (-not (Get-ChildItem -LiteralPath $dst -Filter '*_en.str')) {
-        throw 'в resources0.jz нет строк игры'
+        throw 'no string tables in resources0.jz'
     }
 }
 
@@ -460,11 +537,12 @@ function Read-HonStr([byte[]]$data) {
 function Test-HonOnline {
     try {
         $dns = [Net.Dns]::BeginGetHostAddresses(([Uri]$HonRawUrl).Host, $null, $null)
-        if (-not $dns.AsyncWaitHandle.WaitOne(3000)) { throw 'DNS не ответил' }
-        [void][Net.Dns]::EndGetHostAddresses($dns)
+        if (-not $dns.AsyncWaitHandle.WaitOne(3000)) { throw 'DNS timeout' }
+        $addresses = [Net.Dns]::EndGetHostAddresses($dns)
+        Write-HonLog "dns $(([Uri]$HonRawUrl).Host): $($addresses -join ', ')"
         return $true
     } catch {
-        Write-HonLog "сети нет, обновления не проверяю: $_"
+        Write-HonError 'offline, updates not checked' $_
         return $false
     }
 }
@@ -485,7 +563,7 @@ function Get-HonWebError($err, [Net.HttpStatusCode]$status) {
 # кусками до общего срока
 function Invoke-HonGet($url, $etag, [DateTime]$deadline, $progress = $null) {
     $left = [int]($deadline - (Get-Date)).TotalMilliseconds
-    if ($left -le 0) { throw 'не уложились по времени' }
+    if ($left -le 0) { throw 'deadline exceeded' }
     $request = [Net.HttpWebRequest]::Create($url)
     # Зависшее чтение не должно держать окно "Не отвечает" до конца срока
     $request.ReadWriteTimeout = [Math]::Min($left, 15000)
@@ -502,14 +580,17 @@ function Invoke-HonGet($url, $etag, [DateTime]$deadline, $progress = $null) {
         if ($waited -gt [Math]::Min($left, 15000)) {
             $request.Abort()
             # Отдельный тип: по нему apply.ps1 не ждёт GitHub второй раз
-            throw [TimeoutException]'сервер не ответил'
+            throw [TimeoutException]"no response from $url"
         }
         if ($waited -gt 2000) { Show-HonProgress 'Проверяю обновления...' }
     }
     try {
         $response = $request.EndGetResponse($async)
     } catch {
-        if (Get-HonWebError $_ NotModified) { return $null }
+        if (Get-HonWebError $_ NotModified) {
+            Write-HonLog ('GET {0}: 304 in {1:N0} ms' -f $url, ((Get-Date) - $started).TotalMilliseconds)
+            return $null
+        }
         throw
     }
     try {
@@ -519,12 +600,12 @@ function Invoke-HonGet($url, $etag, [DateTime]$deadline, $progress = $null) {
         while (($read = $stream.Read($buffer, 0, $buffer.Length)) -gt 0) {
             $ms.Write($buffer, 0, $read)
             if ($progress) { Show-HonProgress $progress }
-            if ((Get-Date) -gt $deadline) { throw 'не уложились по времени' }
+            if ((Get-Date) -gt $deadline) { throw 'deadline exceeded' }
         }
         $body = $ms.ToArray()
         # Оборванное соединение .NET не считает ошибкой
         if ($response.ContentLength -ge 0 -and $body.Length -ne $response.ContentLength) {
-            throw "$url пришёл не целиком"
+            throw "$url truncated: $($body.Length) of $($response.ContentLength) bytes"
         }
         if ($response.ContentEncoding -eq 'gzip') {
             $gz = New-Object IO.Compression.GZipStream([IO.MemoryStream]::new($body), [IO.Compression.CompressionMode]::Decompress)
@@ -532,6 +613,8 @@ function Invoke-HonGet($url, $etag, [DateTime]$deadline, $progress = $null) {
             try { $gz.CopyTo($plain) } finally { $gz.Close() }
             $body = $plain.ToArray()
         }
+        Write-HonLog ('GET {0}: {1:D} {2} bytes, etag {3}, in {4:N0} ms' -f $url, $response.StatusCode,
+            $body.Length, $response.Headers['ETag'], ((Get-Date) - $started).TotalMilliseconds)
         return [pscustomobject]@{ Bytes = $body; ETag = $response.Headers['ETag'] }
     } finally {
         $response.Close()
@@ -559,17 +642,18 @@ function Update-HonBundle([int]$seconds = 300) {
         $reply = Invoke-HonGet ($HonRawUrl + 'bundle/' + $name) $etag $deadline $progress
         if ($reply) { $got[$name] = $reply }
     }
-    if (-not $got.Count) { return 'без изменений' }
+    if (-not $got.Count) { return 'not modified' }
 
     # Обрезанный файл или страница-заглушка провайдера не должны заменить перевод
     foreach ($name in $got.Keys) {
         $count = (Read-HonStr $got[$name].Bytes).Order.Count
+        Write-HonLog "downloaded ${name}: $count keys"
         $shipped = Join-Path $HonBundleDir $name
         $floor = 1
         if (Test-Path -LiteralPath $shipped) {
             $floor = (Read-HonStr ([IO.File]::ReadAllBytes($shipped))).Order.Count / 2
         }
-        if ($count -lt $floor) { throw "в скачанном $name всего $count строк" }
+        if ($count -lt $floor) { throw "downloaded $name has only $count keys" }
     }
 
     $next = $HonUpdateDir + '.new'
@@ -601,7 +685,7 @@ function Update-HonBundle([int]$seconds = 300) {
         throw
     }
     Remove-Item -LiteralPath $old -Recurse -Force -ErrorAction SilentlyContinue
-    return 'скачано: ' + (($got.Keys | Sort-Object) -join ', ')
+    return 'updated: ' + (($got.Keys | Sort-Object) -join ', ')
 }
 
 function Get-HonBundleDir {
@@ -673,12 +757,12 @@ function Invoke-HonScriptsCheck {
     } finally {
         Close-HonProgress
     }
-    if (-not $changed.Count) { return 'совпадают с master' }
+    if (-not $changed.Count) { return 'same as master' }
     $names = ($changed | ForEach-Object { $_.Split("`t")[0] }) -join ', '
     $mark = Get-HonHash ($changed -join "`n")
     $seenFile = Join-Path $HonDataDir 'scripts.seen'
     if ((Test-Path -LiteralPath $seenFile) -and ([IO.File]::ReadAllText($seenFile).Trim() -eq $mark)) {
-        return "отличаются ($names), игрок уже знает"
+        return "differ ($names), player already asked"
     }
     $answer = Show-HonMessage ("Вышла новая версия русификатора.`n`n" +
         "Да - открыть инструкцию по обновлению.`nНет - играть на текущей версии русификатора.") 'YesNo' 'Information'
@@ -688,7 +772,7 @@ function Invoke-HonScriptsCheck {
     }
     # После Start-Process: не открылась страница - спросим в следующий раз
     [IO.File]::WriteAllText($seenFile, $mark)
-    return "отличаются ($names), ответ: $answer"
+    return "differ ($names), answer: $answer"
 }
 
 # Пустые значения в bundle/ пропускаем, иначе ключ пропал бы из игры
@@ -777,7 +861,7 @@ function Set-HonCfg($path, $pairs, $saveTo) {
                 $previous[$name] = $current
                 $doc.Lines[$i] = $want
                 $changed++
-                Write-HonLog "startup.cfg: $name -> $($pairs[$name])"
+                Write-HonLog "startup.cfg: $current -> $want"
             }
         } else {
             $previous[$name] = ''      # строки не было, при откате удалим
@@ -785,7 +869,7 @@ function Set-HonCfg($path, $pairs, $saveTo) {
             while ($at -gt 0 -and -not $doc.Lines[$at - 1].Trim()) { $at-- }
             $doc.Lines.Insert($at, $want)
             $changed++
-            Write-HonLog "startup.cfg: $name -> $($pairs[$name]) (добавлено)"
+            Write-HonLog "startup.cfg: added $want"
         }
     }
     if ($changed -eq 0) { return }
@@ -818,6 +902,6 @@ function Clear-HonCache($game) {
         $dir = Join-Path $game.Docs $name
         if (-not (Test-Path -LiteralPath $dir)) { continue }
         Get-ChildItem -LiteralPath $dir -Force | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
-        Write-HonLog "кеш очищен: $name"
+        Write-HonLog "cache cleared: $name"
     }
 }
