@@ -3,6 +3,9 @@ $ProgressPreference = 'SilentlyContinue'
 # Журнал присылают нам: ошибки .NET и PowerShell и числа нужны на английском, а не на языке Windows
 [Threading.Thread]::CurrentThread.CurrentUICulture = 'en-US'
 [Threading.Thread]::CurrentThread.CurrentCulture = 'en-US'
+# Ошибки HTTP создаются в потоках пула, им язык задаётся отдельно
+[Globalization.CultureInfo]::DefaultThreadCurrentUICulture = 'en-US'
+[Globalization.CultureInfo]::DefaultThreadCurrentCulture = 'en-US'
 # PS 5.1 без этого не включает TLS 1.2, а GitHub без него не отвечает
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor
     [Net.SecurityProtocolType]::Tls12
@@ -734,6 +737,7 @@ function Get-HonChangedScripts([int]$seconds = 60) {
             $reply = Invoke-HonGet ($HonRawUrl + $rel) $(if ($known) { $known.ETag }) $deadline
         } catch {
             if (-not (Get-HonWebError $_ NotFound)) { throw }
+            Write-HonLog "GET $($HonRawUrl + $rel): 404, skipped"
             continue
         }
         if ($reply) {
