@@ -27,13 +27,13 @@ def main():
     libc = ctypes.CDLL(ctypes.util.find_library('c'), use_errno=True)
     fd = libc.inotify_init1(os.O_NONBLOCK)
     if fd < 0:
-        sys.exit('inotify_init1 не удался')
+        sys.exit('inotify_init1 failed')
     wd = libc.inotify_add_watch(fd, target.encode(), MASK)
     if wd < 0:
-        sys.exit('не удалось следить за %s: %s'
+        sys.exit('cannot watch %s: %s'
                  % (target, os.strerror(ctypes.get_errno())))
 
-    print('  probe: слежу за обращениями к %s' % target)
+    print('  probe: watching access to %s' % target)
     hits = 0
     deadline = time.time() + duration
     while time.time() < deadline:
@@ -54,13 +54,13 @@ def main():
             offset += length
             kind = ' '.join(n for bit, n in NAMES.items() if mask & bit)
             print('  probe: %+.3fs  %-6s %s'
-                  % (time.time() - placed_at, kind, name or '(каталог)'))
+                  % (time.time() - placed_at, kind, name or '(directory)'))
             hits += 1
 
     if hits:
-        print('  probe: обращений к каталогу: %d - движок читает диск' % hits)
+        print('  probe: directory accessed %d times - the engine reads from disk' % hits)
     else:
-        print('  probe: обращений НЕТ - движок в этот каталог не заглядывал')
+        print('  probe: NO access - the engine never looked into this directory')
     os.close(fd)
 
 

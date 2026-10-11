@@ -73,7 +73,7 @@ hon_logdir() {
 hon_require() {
     local tool missing=0
     for tool in "$@"; do
-        command -v "$tool" >/dev/null || { echo "Нужен $tool." >&2; missing=1; }
+        command -v "$tool" >/dev/null || { echo "$tool is required." >&2; missing=1; }
     done
     return $missing
 }
@@ -86,17 +86,17 @@ hon_extract_base() {
         command -v "$candidate" >/dev/null && { zip="$candidate"; break; }
     done
     if [ -z "$zip" ]; then
-        echo "Нужен 7z (пакет p7zip) для чтения resources0.jz." >&2
+        echo "7z (p7zip package) is required to read resources0.jz." >&2
         return 1
     fi
     if [ ! -f "$HON_GAME_DIR/resources0.jz" ]; then
-        echo "Не найден архив игры: $HON_GAME_DIR/resources0.jz" >&2
+        echo "Game archive not found: $HON_GAME_DIR/resources0.jz" >&2
         return 1
     fi
     mkdir -p "$dst"
     if ! "$zip" e "$HON_GAME_DIR/resources0.jz" "stringtables/*_en.str" \
             -o"$dst" -y >/dev/null 2>&1; then
-        echo "Не удалось прочитать stringtables из resources0.jz." >&2
+        echo "Cannot read stringtables from resources0.jz." >&2
         return 1
     fi
 }

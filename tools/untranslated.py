@@ -42,28 +42,28 @@ def is_name(key):
 def group_of(key):
     """Категория ключа - чтобы понимать, где именно дыры."""
     if is_name(key):
-        return 'имена (остаются английскими)'
+        return 'names (stay English)'
     if ':OnlyMidMap' in key:
-        return 'Mid Wars (режим)'
+        return 'Mid Wars (mode)'
     if key.startswith('report_'):
-        return 'жалобы на игроков'
+        return 'player reports'
     if key.startswith('mm_'):
-        return 'подбор игр и новый аккаунт'
+        return 'matchmaking and new account'
     if key.startswith('rolepick'):
-        return 'выбор роли'
+        return 'role selection'
     if key.startswith(('store', 'vanity', 'mstore')):
-        return 'магазин и облик'
+        return 'store and cosmetics'
     if key.startswith('options_'):
-        return 'настройки'
+        return 'settings'
     if key.startswith('hero_tip'):
-        return 'подсказки по героям'
+        return 'hero tips'
     if key.startswith('Item_'):
-        return 'предметы'
+        return 'items'
     if key.startswith('Ability_'):
-        return 'способности'
+        return 'abilities'
     if key.startswith(('State_', 'Pet_', 'Gadget_', 'Npc_', 'Hero_')):
-        return 'состояния, петы, юниты'
-    return 'прочее'
+        return 'states, pets, units'
+    return 'other'
 
 
 def main():
@@ -111,30 +111,30 @@ def main():
             total_left += 1
             groups.setdefault(group_of(key), []).append((stem, key, english))
 
-    names = len(groups.get('имена (остаются английскими)', []))
+    names = len(groups.get('names (stay English)', []))
     real = total_left - names
-    print('Всего ключей в игре: %d, без перевода: %d (%.1f%%)'
+    print('Game keys: %d, untranslated: %d (%.1f%%)'
           % (total_keys, total_left, 100.0 * total_left / max(total_keys, 1)))
-    print('Из них требуют перевода: %d, остальное - имена' % real)
+    print('Need translation: %d, the rest are names' % real)
     if same_as_english:
-        print('Плюс %d строк, где перевод дословно равен английскому'
+        print('Plus %d strings where the translation equals the English text'
               % len(same_as_english))
     print()
-    for name in sorted(groups, key=lambda g: (g.startswith('имена'),
+    for name in sorted(groups, key=lambda g: (g.startswith('names'),
                                               -len(groups[g]))):
         rows = groups[name]
         print('%-32s %5d' % (name, len(rows)))
 
     if not detail:
         print()
-        print('Подробнее: make untranslated GROUP=предметы')
+        print('Details: make untranslated GROUP=items')
         return
 
     print()
     matched = [r for g, rows in groups.items() if detail.lower() in g.lower()
                for r in rows]
     if not matched:
-        print('Нет группы "%s"' % detail)
+        print('No group "%s"' % detail)
         return
     for stem, key, english in matched:
         print('%s:%s' % (stem, key))

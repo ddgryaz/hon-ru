@@ -22,7 +22,7 @@ for arg in "$@"; do
             echo "  без флагов   разложить файлы и выйти (только для отладки:"
             echo "               лаунчер сочтёт их лишними и потребует обновление)"
             exit 0 ;;
-        *) echo "неизвестный аргумент: $arg" >&2; exit 2 ;;
+        *) echo "unknown argument: $arg" >&2; exit 2 ;;
     esac
 done
 
@@ -37,19 +37,19 @@ source "$SCRIPT_DIR/config.sh"
 hon_require python3 pgrep || exit 1
 
 if ! hon_detect; then
-    echo "Игра не найдена. Задай пути в linux/config.local.sh:" >&2
+    echo "Game not found. Set the paths in linux/config.local.sh:" >&2
     echo '  HON_GAME_DIR=".../AppData/Local/Juvio/heroes of newerth"' >&2
     echo '  HON_DOCS_DIR=".../Documents/Juvio/Heroes of Newerth"' >&2
     exit 1
 fi
 
 if [ ! -f "$HON_GAME_DIR/resources0.jz" ]; then
-    echo "В $HON_GAME_DIR нет resources0.jz - это не каталог игры." >&2
+    echo "No resources0.jz in $HON_GAME_DIR - not a game directory." >&2
     exit 1
 fi
 
-echo "Игра:    $HON_GAME_DIR"
-echo "Конфиги: $HON_DOCS_DIR"
+echo "Game:    $HON_GAME_DIR"
+echo "Configs: $HON_DOCS_DIR"
 
 # Запоминаем лог до подготовки строк: из Steam лаунчер стартует одновременно
 # со скриптом, и его новый лог иначе можно принять за старый
@@ -77,8 +77,8 @@ echo
 for base in "${HON_STR_BASES[@]}"; do
     ru="$BUNDLE_DIR/${base}_en.str"
     orig="$STAGE/base/${base}_en.str"
-    [ -f "$orig" ] || { echo "  нет в архиве игры: ${base}_en.str" >&2; continue; }
-    [ -f "$ru" ] || { echo "  нет в bundle/: ${base}_en.str" >&2; continue; }
+    [ -f "$orig" ] || { echo "  not in game archive: ${base}_en.str" >&2; continue; }
+    [ -f "$ru" ] || { echo "  not in bundle/: ${base}_en.str" >&2; continue; }
     python3 "$SCRIPT_DIR/lib/honru.py" merge "$orig" "$ru" "$STAGE/${base}_en.str"
 done
 
@@ -89,7 +89,7 @@ if [ -f "$STARTUP" ]; then
     python3 "$SCRIPT_DIR/lib/honru.py" cfg "$STARTUP" "$STARTUP.honru-orig" \
         'host_locale=en' 'host_backuplocale=en' 'fs_disablemods=false'
 else
-    echo "  startup.cfg появится после первого входа в игру - запусти скрипт ещё раз"
+    echo "  no startup.cfg yet, it appears after the first game start - run the script again"
 fi
 
 # Кеш чистим только при смене строк: там лежат отрисованные шрифтовые
@@ -101,7 +101,7 @@ if [ "$(cat "$STAMP" 2>/dev/null || true)" != "$NOW_SHA" ]; then
     for cache in "$HON_DOCS_DIR/filecache" "$HON_DOCS_DIR/webcache"; do
         [ -d "$cache" ] || continue
         find "$cache" -mindepth 1 -delete 2>/dev/null || true
-        echo "  кеш очищен: $(basename "$cache")"
+        echo "  cache cleared: $(basename "$cache")"
     done
     mkdir -p "$STAMP_DIR"
     printf '%s\n' "$NOW_SHA" > "$STAMP"
@@ -129,4 +129,4 @@ for base in "${HON_STR_BASES[@]}"; do
     done
 done
 echo
-echo "Файлов записано: $copied"
+echo "Files written: $copied"

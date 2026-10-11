@@ -15,7 +15,7 @@ source "$SCRIPT_DIR/config.sh"
 [ -f "$SCRIPT_DIR/config.local.sh" ] && source "$SCRIPT_DIR/config.local.sh"
 
 if ! hon_detect; then
-    echo "Игра не найдена - удалять нечего." >&2
+    echo "Game not found, nothing to remove." >&2
     exit 1
 fi
 
@@ -41,7 +41,7 @@ for target in "${TARGETS[@]}"; do
     rmdir "$target" 2>/dev/null || true
 done
 rmdir "$HON_GAME_DIR/game" "$HON_DOCS_DIR/game" 2>/dev/null || true
-echo "Файлов удалено: $removed"
+echo "Files removed: $removed"
 
 # Возвращаем только те значения, которые меняли сами: остальное в этом
 # файле - настройки игрока, накопленные с момента установки
@@ -58,4 +58,4 @@ for cache in "$HON_DOCS_DIR/filecache" "$HON_DOCS_DIR/webcache"; do
 done
 rm -f "${XDG_CACHE_HOME:-$HOME/.cache}/hon-ru/strings.sha"
 
-echo "Готово. Не забудь убрать apply.sh из Launch Options в Steam."
+echo "Done. Remove apply.sh from the Steam Launch Options."

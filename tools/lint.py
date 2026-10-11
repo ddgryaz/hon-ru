@@ -65,14 +65,14 @@ def check(base_dir, bundle_dir):
                 continue
 
             if is_name and any(c in CYR for c in value):
-                add('имена переведены (должны быть английскими)',
+                add('names translated (must stay English)',
                     '%s:%s' % (stem, key), value[:40])
                 continue
 
             # Всплывающий текст над юнитами (Miss!, Denied!) игра рисует
             # шрифтом без кириллицы - вместо "Промах!" в игре были квадраты
             if key.startswith('Popup_') and any(c in CYR for c in value):
-                add('кириллица во всплывающем тексте (в шрифте нет глифов)',
+                add('Cyrillic in popup text (font has no glyphs)',
                     '%s:%s' % (stem, key), value[:40])
                 continue
 
@@ -80,7 +80,7 @@ def check(base_dir, bundle_dir):
             # абзац: из 26 таких строк не было ни одной, где терялся бы только
             # сам перенос - везде вместе с ним уходил эффект Посоха или Mid Wars
             if value != eng and eng.count('\\n') > value.count('\\n'):
-                add('перевод потерял переносы строк', '%s:%s' % (stem, key),
+                add('translation lost line breaks', '%s:%s' % (stem, key),
                     '%d -> %d' % (eng.count('\\n'), value.count('\\n')))
 
             # Символов, которых нет в шрифтах игры, быть не должно: они
@@ -88,7 +88,7 @@ def check(base_dir, bundle_dir):
             # ttf - стрелки там нет, а тире, многоточие, ёлочки и буллет есть
             noglyph = sorted(set(c for c in value if ord(c) in NO_GLYPH))
             if noglyph:
-                add('нет глифа в шрифте игры', '%s:%s' % (stem, key),
+                add('no glyph in game fonts', '%s:%s' % (stem, key),
                     ' '.join('U+%04X %s' % (ord(c), c) for c in noglyph))
 
             # Следы машинного перевода, каждый ловился в живом тексте:
@@ -98,16 +98,16 @@ def check(base_dir, bundle_dir):
             sloppy = []
             if re.search(r'(?i)(?:сек|мин|ед|доп|маг|физ|макс|скор|движ|атак|реген|баз)\.\.',
                          value):
-                sloppy.append('двойная точка')
+                sloppy.append('double period')
             if re.search(r'(?:Длит|Перез|Дальн|Стоим)\.:', value):
-                sloppy.append('сокращение с двоеточием')
+                sloppy.append('abbreviation with colon')
             # \b не срабатывает после цветового кода: в "^oсек.у" между
             # латинской o и кириллицей нет границы слова
             if re.search(r'(?<![А-Яа-яЁё])сек\.[а-яё]', value):
-                sloppy.append('"сек." внутри слова')
+                sloppy.append('"сек." inside a word')
             if re.search(r'(?:\{[^}]*\}|[\d.,]+)\s*(?:второе|секундн\w+)\s+'
                          r'(?:Оглушени|Замедлени|Безмолви|Обезоруживани)', value):
-                sloppy.append('порядковое вместо секунд')
+                sloppy.append('ordinal instead of seconds')
             # Слепая замена терминов склеивает разные слова в одно: "скор.
             # движ. и скор. движ." из "movement speed and speed of travel",
             # "шанс^* шанс", "на ^o на". Регистр учитывается, чтобы не ловить
@@ -116,7 +116,7 @@ def check(base_dir, bundle_dir):
             if (re.search(r'(?<![А-Яа-яЁё])([а-яё]{2,})\s+\1(?![а-яё])', bare)
                     or re.search(r'(?<![А-Яа-яЁё])((?:[а-яё]+\.? ){1,3}[а-яё]+\.?)'
                                  r' (?:и|или) \1(?![а-яё])', bare)):
-                sloppy.append('повтор слова')
+                sloppy.append('repeated word')
             # Термины, которые машинный перевод давал вразнобой: unit -
             # "отряд" (153 строки), Clearvision - пять вариантов, "скор. атак."
             # Глоссарий исходного проекта (79f6934) менял подстроки внутри
@@ -125,17 +125,17 @@ def check(base_dir, bundle_dir):
             # на "дальний тип атаки"
             if re.search(r'(?i)[а-яё]оглушени|тромкост|пампириз|поддержание[а-яё]'
                          r'|дальний тип атаки', value):
-                sloppy.append('склейка от слепой замены')
+                sloppy.append('words glued by blind replace')
             if re.search(r'(?i)скор\. атак\.', value):
-                sloppy.append('"скор. атак." вместо "скор. атаки"')
+                sloppy.append('"скор. атак." instead of "скор. атаки"')
             if (re.search(r'(?i)\bотряд', value) and re.search(r'(?i)\bunits?\b', eng)
                     and not re.search(r'(?i)squad|party|group', eng)):
-                sloppy.append('"отряд" вместо "юнит"')
+                sloppy.append('"отряд" instead of "юнит"')
             if (re.search(r'(?i)clear\s*vision', eng)
                     and re.search(r'(?i)ясн\w* (зрени|обзор)|ясновид|ч[её]ткост', value)):
-                sloppy.append('Clearvision - "беспрепятственный обзор"')
+                sloppy.append('Clearvision should be "беспрепятственный обзор"')
             if sloppy:
-                add('следы машинного перевода', '%s:%s' % (stem, key),
+                add('machine translation traces', '%s:%s' % (stem, key),
                     ', '.join(sloppy))
 
             # Исходный проект (bd4874b) вырезал "вы можете" по всему
@@ -149,7 +149,7 @@ def check(base_dir, bundle_dir):
                     if not (m.group(1) and m.group(1) in ABBR)
                     and not m.group(2).endswith('сть') and m.group(2) != 'вплоть']
             if stub:
-                add('предложение с инфинитива (вырезано "вы можете"?)',
+                add('sentence starts with an infinitive ("вы можете" cut?)',
                     '%s:%s' % (stem, key), ', '.join(stub[:3]))
 
             # Невидимые символы ломают интерфейс: неразрывный пробел или
@@ -159,7 +159,7 @@ def check(base_dir, bundle_dir):
                                if ord(c) in (0x200B, 0x00A0, 0xFEFF,
                                              0x2028, 0x2029)))
             if invis:
-                add('невидимый символ в строке', '%s:%s' % (stem, key),
+                add('invisible character', '%s:%s' % (stem, key),
                     ', '.join(invis))
 
             # untranslated ловит только дословные копии оригинала, а строка на
@@ -169,40 +169,40 @@ def check(base_dir, bundle_dir):
             if (value != eng and len(words) >= 4 and not any(c in CYR for c in value)
                     and not key.split(':')[0].endswith(('_search_terms', '_shop_categories'))
                     and not key.startswith('chat_command_')):
-                add('перевод без кириллицы', '%s:%s' % (stem, key), value[:40])
+                add('translation without Cyrillic', '%s:%s' % (stem, key), value[:40])
 
             # Значение chat_command_<имя> - сама команда (/colors, /w).
             # Переведённая команда перестаёт работать
             if (key.startswith('chat_command_') and re.fullmatch(r'/\S+', eng.strip())
                     and value.strip() != eng.strip()):
-                add('переведена команда чата', '%s:%s' % (stem, key), value[:40])
+                add('chat command translated', '%s:%s' % (stem, key), value[:40])
                 continue
 
             # Категории магазина - это идентификаторы фильтров, а не текст:
             # видимое имя лежит отдельно, в Shop_Filter_*_description.
             # Переведённый токен выкидывает предмет из фильтра
             if key.endswith('_shop_categories') and value != eng:
-                add('переведён служебный токен фильтра',
+                add('shop filter token translated',
                     '%s:%s' % (stem, key), value[:40])
                 continue
 
             num_en = set(re.findall(r'\{[^}]*\}', eng))
             num_ru = set(re.findall(r'\{[^}]*\}', value))
             if num_en and num_ru - num_en:
-                add('числа не совпадают с игрой', '%s:%s' % (stem, key),
+                add('numbers differ from the game', '%s:%s' % (stem, key),
                     '%s -> %s' % (sorted(num_ru - num_en), sorted(num_en)))
 
             # Пропавший плейсхолдер хуже лишнего: вместо списка по уровням
             # в переводе остаётся вбитая константа, верная только на одном
             if num_en - num_ru and value != eng:
-                add('перевод потерял числа из игры', '%s:%s' % (stem, key),
+                add('translation lost numbers from the game', '%s:%s' % (stem, key),
                     ', '.join(sorted(num_en - num_ru))[:50])
 
             ro, rc = tags(value)
             eo, ec = tags(eng)
             if ro != rc and eo == ec:
-                add('цветовой код не закрыт', '%s:%s' % (stem, key),
-                    'откр %d / закр %d' % (ro, rc))
+                add('color code not closed', '%s:%s' % (stem, key),
+                    'open %d / close %d' % (ro, rc))
 
             # ^; выключает свечение (справка /colors в client_messages), ^*
             # его не сбрасывает. В оригинале он стоит после ника, иначе
@@ -211,11 +211,11 @@ def check(base_dir, bundle_dir):
             glow_en = len(re.findall(r'(?<!\^)\^;', eng))
             glow_ru = len(re.findall(r'(?<!\^)\^;', value))
             if value != eng and glow_ru < glow_en:
-                add('потерян ^; (выключение свечения)', '%s:%s' % (stem, key),
+                add('lost ^; (glow off)', '%s:%s' % (stem, key),
                     '%d -> %d' % (glow_en, glow_ru))
 
             if '^n' in value and '^n' not in eng:
-                add('^n вместо переноса строки', '%s:%s' % (stem, key))
+                add('^n instead of a line break', '%s:%s' % (stem, key))
 
             # Цветовой код - каретка плюс один символ: ^o, ^*, ^;, ^!b
             # (слот игрока), ^^ - экранированная каретка. Срезать \n надо
@@ -224,7 +224,7 @@ def check(base_dir, bundle_dir):
             mixed = [w for w in re.findall(r'[A-Za-zА-Яа-яёЁ]+', clean)
                      if set(w) & CYR and set(w) & LAT]
             if mixed:
-                add('латиница внутри русского слова', '%s:%s' % (stem, key),
+                add('Latin letters inside a Russian word', '%s:%s' % (stem, key),
                     ', '.join(mixed[:3]))
 
     return found
@@ -236,7 +236,7 @@ def main():
     found = check(base_dir, bundle_dir)
 
     if not found:
-        print('Проверки пройдены, замечаний нет.')
+        print('All checks passed, no issues.')
         return 0
 
     total = 0
@@ -247,9 +247,9 @@ def main():
         for key, detail in rows[:limit]:
             print('   %-58s %s' % (key[:58], detail[:50]))
         if len(rows) > limit:
-            print('   ... ещё %d' % (len(rows) - limit))
+            print('   ... %d more' % (len(rows) - limit))
         print()
-    print('всего замечаний: %d' % total)
+    print('total issues: %d' % total)
     return 1
 
 

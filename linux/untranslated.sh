@@ -12,7 +12,7 @@ source "$SCRIPT_DIR/config.sh"
 [ -f "$SCRIPT_DIR/config.local.sh" ] && source "$SCRIPT_DIR/config.local.sh"
 
 hon_require python3 || exit 1
-hon_detect || { echo "Игра не найдена. Задай пути в linux/config.local.sh" >&2; exit 1; }
+hon_detect || { echo "Game not found. Set the paths in linux/config.local.sh" >&2; exit 1; }
 
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT

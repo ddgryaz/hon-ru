@@ -50,7 +50,7 @@ report_ui_header		Жалоба на игрока
 ```sh
 make lint                            # дефекты перевода
 make untranslated                    # что осталось без перевода
-make untranslated GROUP=интерфейс    # по группе, подробно
+make untranslated GROUP=items        # по группе, подробно
 ```
 
 `make lint` ловит то, на чём перевод ломается в игре: переведённые имена и

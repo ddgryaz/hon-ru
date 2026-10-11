@@ -65,7 +65,7 @@ def cmd_merge(base_path, ru_path, dst):
     with open(dst, 'wb') as fh:
         fh.write(bom + '\r\n'.join(lines).encode('utf-8'))
 
-    print('  %-24s переведено %5d, на английском %4d'
+    print('  %-24s translated %5d, english %4d'
           % (stem, translated, kept))
 
 
@@ -106,10 +106,10 @@ def cmd_cfg(path, pairs, save_to=''):
             while insert_at > 0 and not lines[insert_at - 1].strip():
                 insert_at -= 1
             lines.insert(insert_at, want)
-            changed.append('%s -> %s (добавлено)' % (name, value))
+            changed.append('%s -> %s (added)' % (name, value))
 
     if not changed:
-        print('  startup.cfg: уже настроен, изменений нет')
+        print('  startup.cfg: already set, no changes')
         return
 
     # Пишем только то, что было до нас, и только при первом вмешательстве
@@ -130,7 +130,7 @@ def cmd_cfg(path, pairs, save_to=''):
 def cmd_cfg_restore(path, saved):
     """Возвращает в startup.cfg значения, сохранённые при установке."""
     if not os.path.exists(saved):
-        print('  startup.cfg: нечего восстанавливать')
+        print('  startup.cfg: nothing to restore')
         return
     with open(saved, encoding='utf-8') as fh:
         previous = [l.rstrip('\n').split('\t', 1) for l in fh if l.strip()]
@@ -157,7 +157,7 @@ def cmd_cfg_restore(path, saved):
         fh.write(bom + newline.join(lines).encode(enc))
     os.replace(path + '.tmp', path)
     os.remove(saved)
-    print('  startup.cfg: восстановлено значений: %d' % restored)
+    print('  startup.cfg: restored %d values' % restored)
 
 
 def game_running(pattern):
@@ -242,8 +242,8 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
         baseline = os.environ['HON_BASELINE_LOG'] or None
     else:
         baseline = newest_log()
-    print('  ожидаю запуск игры (текущий лог: %s)'
-          % (os.path.basename(baseline) if baseline else 'нет'))
+    print('  waiting for the game to start (current log: %s)'
+          % (os.path.basename(baseline) if baseline else 'none'))
 
     deadline = time.time() + timeout
     while time.time() < deadline:
@@ -253,7 +253,7 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
             break
         time.sleep(0.02)
     else:
-        print('  игра так и не запустилась, выхожу')
+        print('  the game never started, exiting')
         return
 
     # Лаунчер обновил игру в этом запуске: база от старой версии, новые ключи
@@ -265,7 +265,7 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
         except OSError:
             stamp = None
         if stamp != os.environ.get('HON_ARCHIVE_STAMP'):
-            print('  игра обновилась во время запуска, перевод будет со следующего раза')
+            print('  game patched during this launch, translation from the next launch')
             return
 
     written = 0
@@ -278,7 +278,7 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
         except OSError:
             pass
     placed_at = time.time()
-    print('  лаунчер передал управление движку - положено файлов: %d' % written)
+    print('  launcher delegated to the engine, files written: %d' % written)
 
     # Дальше файлы обязаны быть убраны при любом исходе: если они переживут
     # скрипт, следующий запуск лаунчера сочтёт установку битой и зациклится
@@ -319,7 +319,7 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
             except Exception:
                 pr.kill()
     except KeyboardInterrupt:
-        print('  прервано')
+        print('  interrupted')
     finally:
         for pr in probes:
             if pr.poll() is None:
@@ -336,7 +336,7 @@ def cmd_onlaunch(stage, targets, suffixes, logdir, timeout, pattern, probe=False
                 os.rmdir(target)
             except OSError:
                 pass
-        print('  файлов убрано: %d' % removed)
+        print('  files removed: %d' % removed)
 
 
 if __name__ == '__main__':

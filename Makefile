@@ -10,7 +10,7 @@ help:
 	@echo '  make probe           то же плюс inotify-лог обращений движка'
 	@echo '  make uninstall       убрать перевод и вернуть startup.cfg'
 	@echo '  make launch-options  строка для Steam -> Свойства -> Параметры запуска'
-	@echo '  make untranslated    что осталось без перевода (GROUP=предметы - детали)'
+	@echo '  make untranslated    что осталось без перевода (GROUP=items - детали)'
 	@echo '  make lint            проверить bundle/ на дефекты перевода'
 
 run:
