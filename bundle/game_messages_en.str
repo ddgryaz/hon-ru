@@ -1708,3 +1708,4 @@ vanity_msg_ilovemyteam				{ownerPlayer_color}{ownerPlayer} ^999обожает с
 // Сообщения обликов
 vanity_msg_firecracker		{ownerPlayer_color}{ownerPlayer}^*^; ^999подложил петарду под {targetPlayer_color}{targetPlayer}.^*^; ^999Бабахнет!
 vanity_msg_firecracker_owned		{ownerPlayer_color}{ownerPlayer}^*^; ^999подложил петарду под {targetPlayer_color}{targetPlayer}^*^; {ownedEntity_color}{ownedEntity}. ^999Бабахнет!
+vanity_msg_stopfeeding				{ownerPlayer_color}{ownerPlayer}^*^; ^999Хватит фидить!

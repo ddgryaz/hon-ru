@@ -33254,6 +33254,7 @@ system_bar_buy_jades							BUY
 options_checkbox_disable_input_background		Блокировать ввод в фоне
 vanity_cat_teleports						Teleport
 boss_info_scaling_header		Рост силы
+starter_package_no_store_reminder	Не напоминать в магазине
 store_no_listings_available					Нет доступных лотов
 store_marketplace_list_price				List price:
 store_marketplace_confirm_prompt			Точно выставить этот предмет?
