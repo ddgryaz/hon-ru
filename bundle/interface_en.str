@@ -1177,7 +1177,7 @@ currency_tickets_tip						Это бесплатная валюта для HoN. �
 
 
 
-currency_jade_tip							Это платная валюта Juvio, которая используется для покупки или аренды косметических настроек.\nВы всегда можете использовать Jade вместо билетов (за исключением Plinko).\n\nНажмите, чтобы купить в браузере.
+currency_jade_tip							Это платная валюта Heroes of Newerth, которая используется для покупки или аренды косметических настроек.\nВы всегда можете использовать Jade вместо билетов (за исключением Plinko).\n\nНажмите, чтобы купить в браузере.
 
 
 
@@ -29093,19 +29093,19 @@ hero_tip_defensive_tip_Hero_Kinesis_2			Telekinetic Control наносит мн�
 
 
 
-hero_tip_offensive_tip_Hero_Taint_1				Defiling Touch - бесплатный урон и замедление при атаке. Только не забудьте пройти по трупу, чтобы его бросить.
+hero_tip_offensive_tip_Hero_Gravekeeper_1				Defiling Touch - бесплатный урон и замедление при атаке. Только не забудьте пройти по трупу, чтобы его бросить.
 
 
 
-hero_tip_offensive_tip_Hero_Taint_2				Zombie Apocalypse наносит много урона случайным целям в области. Если поймать кого-то одного, шансы на убийство максимальны.
+hero_tip_offensive_tip_Hero_Gravekeeper_2				Zombie Apocalypse наносит много урона случайным целям в области. Если поймать кого-то одного, шансы на убийство максимальны.
 
 
 
-hero_tip_defensive_tip_Hero_Taint_1				Gravekeeper может нанести много маг. урона по области через Corpse Explosion. Не стойте рядом с мертвыми крипами.
+hero_tip_defensive_tip_Hero_Gravekeeper_1				Gravekeeper может нанести много маг. урона по области через Corpse Explosion. Не стойте рядом с мертвыми крипами.
 
 
 
-hero_tip_defensive_tip_Hero_Taint_2				Zombie Apocalypse наносит много урона случайным целям в области. Нападайте на Gravekeeper вместе с союзниками или призванными существами, чтобы распределить урон.
+hero_tip_defensive_tip_Hero_Gravekeeper_2				Zombie Apocalypse наносит много урона случайным целям в области. Нападайте на Gravekeeper вместе с союзниками или призванными существами, чтобы распределить урон.
 
 
 
@@ -31762,6 +31762,9 @@ plinko_pricing_reset_fallback	Сброс в полночь по UTC
 
 
 plinko_lootlist_tip				Нажмите на сундук, чтобы увидеть список добычи
+plinko_error_generic			Произошла ошибка
+plinko_error_try_again			Повторить
+plinko_drop_unavailable			Не удалось подтвердить бросок. Проверьте награды, прежде чем бросать снова.
 
 
 
@@ -33094,7 +33097,7 @@ tutorial_slide_emoteuse_desc	Использование эмоций оплач�
 
 tutorial_slide_emoteuse_tickets	Билеты (за игры и в Плинко) или
 
-tutorial_slide_emoteuse_jade	Jade (премиум-валюта, покупается на сайте Juvio)
+tutorial_slide_emoteuse_jade	Jade (премиум-валюта, покупается на сайте Heroes of Newerth)
 
 tutorial_slide_emoteuse_press	Просто нажмите одну из двух горячих клавиш колеса эмоций и кликните левой кнопкой, чтобы показать эмоцию.
 
@@ -33323,6 +33326,8 @@ store_marketplace_update_my_listing			Обновить мой лот
 options_hdr_pipeline_tip		Рендерит сцену в float16, чтобы работали HDR и тонмаппинг. Отключите, чтобы вернуться к старому 8-битному конвейеру.
 mm_notice_high_mmr_queue_limit_tip	В вашей группе есть игрок с рейтингом выше {threshold} MMR, поэтому группа ограничена {limit} игроками. Вставайте в очередь в одиночку или вдвоём либо отделите игрока с высоким рейтингом.
 vanity_purchase_failed_message				Не удалось купить {product}. Попробуйте ещё раз.
+vanity_purchase_unconfirmed					Покупка не подтверждена
+vanity_purchase_unconfirmed_message			Не удалось подтвердить покупку {product}. Проверьте инвентарь, прежде чем пробовать снова.
 tutorial_slide_hero_stats_alt_info							Удержание ALT в игре показывает больше сведений по каждой характеристике.
 mm_play_ban_denied_title				Cannot Queue
 store_marketplace_list_my					List my {item}

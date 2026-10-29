@@ -1,6 +1,6 @@
 # hon-ru
 
-![game version](https://img.shields.io/badge/game%20version-0.13.1-blue) ![last commit](https://img.shields.io/github/last-commit/ddgryaz/hon-ru)
+![game version](https://img.shields.io/badge/game%20version-0.13.3-blue) ![last commit](https://img.shields.io/github/last-commit/ddgryaz/hon-ru)
 
 Русский перевод Heroes of Newerth (HoN Reborn) для Windows и Linux (Proton,
 Lutris, Bottles, чистый wine).
@@ -10,7 +10,7 @@ Lutris, Bottles, чистый wine).
 намеренно оставлены английскими, как на кнопках в игре.
 
 > [!NOTE]
-> Перевод сверен с версией игры **0.13.1**. Герои, предметы и способности
+> Перевод сверен с версией игры **0.13.3**. Герои, предметы и способности
 > из более новых патчей будут на английском, пока их не переведут.
 
 ## Особенности

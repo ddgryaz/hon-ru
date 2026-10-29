@@ -48023,7 +48023,7 @@ Ability_Legionnaire2_effect_header								Эффекты Terrify
 
 
 
-Ability_Legionnaire2_IMPACT_effect								^oБросается^* на выбранного юнита. Во время рывка вы получаете ^o{100,200,300,400} скор. движ.^*, проход сквозь юнитов и ^o{0,2,4,6} брони и маг. брони^*, а цель видна вам с обзором 600 днем и ночью и обнаружена. Рывок отменяется, если вы отдадите другой приказ, если вас оглушат, обездвижат или скуют или если цель окажется дальше 1750 единиц.\n\nДостигнув цели, наносит ^o{150,200,250,300}% базового урона физ. уроном^* в конусе 110 градусов и длиной 240 и накладывает на задетых врагов ^oTerrify^* на ^o{4,5,6,7} сек.^*\n\nПосле удачного рывка бонусы держатся еще 1 сек.
+Ability_Legionnaire2_IMPACT_effect								^oБросается^* на выбранного юнита. Во время рывка вы получаете ^o{100,200,300,400} скор. движ.^*, проход сквозь юнитов и ^o{0,2,4,6} брони и маг. брони^*, а цель видна вам с обзором 600 днем и ночью и обнаружена. Рывок отменяется, если вы отдадите другой приказ, если вас оглушат, обездвижат или скуют или если цель окажется дальше 1750 единиц.\n\nДостигнув цели, наносит ^o{150,200,250,300}% базового урона физ. уроном^* в конусе 150 градусов и длиной 300 и накладывает на задетых врагов ^oTerrify^* на ^o{4,5,6,7} сек.^*\n\nПосле удачного рывка бонусы держатся еще 1 сек.
 
 
 
@@ -48480,7 +48480,7 @@ Ability_Kane2_description_simple								Переключает ауры с за�
 
 
 
-Ability_Kane2_description_simple:Kane_Offense					Дает вам и союзникам рядом ^o{15,20,25,30}% шанс критического удара 1,5x^*, ^o{6,8,10,12} урона атаки^* и ^o1% недостающей маны в сек.^* в бою, а вне боя (^o8 сек.^* без урона) ^o{1,1.5,2,2.5}%^*.\n\nПереключите, чтобы сменить на ^oDefensive Might^*: броня, маг. броня и реген. здоровья.
+Ability_Kane2_description_simple:Kane_Offense					Дает вам и союзникам рядом ^o{15,20,25,30}% шанс критического удара 1,5x^*, ^o{6,8,10,12} урона атаки^* и ^o1% недостающей маны в сек.^* в бою, а вне боя (^o8 сек.^* без урона) ^o{1,1.5,2,2.5}%^*.\n\nПереключите, чтобы сменить на ^oDefensive Might^*: броня, маг. броня и реген. здоровья.\n\nЭффект ^gStaff of the Master^*: пробуждает боевой дух Kane, Offensive Force и Defensive Might действуют одновременно.
 
 
 
@@ -48488,7 +48488,7 @@ Ability_Kane2_description_simple:Kane_Offense					Дает вам и союзн�
 
 
 
-Ability_Kane2_description_simple:Kane_Defense					Дает вам и союзникам рядом ^o{1,2,3,4} брони^*, ^o{0.5,1,1.5,2} маг. брони^* и ^o{0.6,0.65,0.7,0.75}% недостающего здоровья в сек.^* в бою, а вне боя (^o8 сек.^* без урона) ^o{1,1.5,2,2.5}%^*.\n\nПереключите, чтобы сменить на ^oOffensive Force^*: критический удар, урон атаки и реген. маны.
+Ability_Kane2_description_simple:Kane_Defense					Дает вам и союзникам рядом ^o{1,2,3,4} брони^*, ^o{0.5,1,1.5,2} маг. брони^* и ^o{0.6,0.65,0.7,0.75}% недостающего здоровья в сек.^* в бою, а вне боя (^o8 сек.^* без урона) ^o{1,1.5,2,2.5}%^*.\n\nПереключите, чтобы сменить на ^oOffensive Force^*: критический удар, урон атаки и реген. маны.\n\nЭффект ^gStaff of the Master^*: пробуждает боевой дух Kane, Offensive Force и Defensive Might действуют одновременно.
 Ability_Kane2_description_simple:ult_boost						^gOffensive Force и Defensive Might действуют одновременно.^*\n\n^oOffensive Force:^* ^o{15,20,25,30}% шанс нанести критический удар на 1,5x урона^*, ^o{6,8,10,12} урона атаки^* и ^o1% недостающей маны в сек.^* в бою, а вне боя (^o8 сек.^* без урона) ^o{1,1.5,2,2.5}%^*.\n\n^oDefensive Might:^* ^o{1,2,3,4} брони^*, ^o{0.5,1,1.5,2} маг. брони^* и ^o{0.6,0.65,0.7,0.75}% недостающего здоровья в сек.^* в бою, а вне боя (^o8 сек.^* без урона) ^o{1,1.5,2,2.5}%^*.
 
 
@@ -60453,7 +60453,7 @@ Ability_Parasite2_description2:ult_boost	^gЭта способность мож�
 
 
 
-Ability_Parasite2_description_simple							Выберите крипа, чтобы захватить его и спрятаться внутри: он получает ^o{20,40,60,80} скор. атаки, урон в размере {2,3,4,5} x уровень Parasite и {25,50,75,100} скор. движ.^*\n\nЮнит теряет ^o{3,2,1,0}% макс. здоровья в сек.^* и ^oполучает на 20% больше урона от вражеских юнитов под управлением игроков^*.\n\nЗахваченного крипа можно убить, исцелив Parasite на ^o{30,40,50,60}% его тек. здоровья^*.\n\n^gStaff of the Master^*: позволяет захватывать Ancients.
+Ability_Parasite2_description_simple							Выберите крипа, чтобы захватить его и спрятаться внутри: он получает ^o{20,40,60,80} скор. атаки, урон в размере {2,3,4,5} x уровень Parasite и {25,50,75,100} скор. движ.^*\n\nЮнит теряет ^o{2.25,1.5,0.75,0}% макс. здоровья в сек.^* и ^oполучает на 20% больше урона от вражеских юнитов под управлением игроков^*.\n\nЗахваченного крипа можно убить, исцелив Parasite на ^o{30,40,50,60}% его тек. здоровья^*.\n\nПри выходе из захваченного крипа перезарядка составляет не менее ^o3 сек.^*\n\n^gStaff of the Master^*: позволяет захватывать Ancients.
 
 
 
@@ -60461,7 +60461,7 @@ Ability_Parasite2_description_simple							Выберите крипа, чтоб
 
 
 
-Ability_Parasite2_description_simple:ult_boost					Выберите крипа ^gили древнего^*, чтобы захватить его и спрятаться внутри. Он получает ^o{20,40,60,80} скор. атаки, урон в размере {2,3,4,5} x уровень Parasite и {25,50,75,100} скор. движ.^*\n\nЮнит теряет ^o{3,2,1,0}% макс. здоровья в сек.^* и ^oполучает на 20% больше урона от вражеских юнитов под управлением игроков^*.\n\nДает цели способность, которая убивает захваченного крипа и исцеляет Parasite на ^o{30,40,50,60}% его текущего здоровья^*.\n\nНа 1 уровне нельзя выбрать союзных юнитов.
+Ability_Parasite2_description_simple:ult_boost					Выберите крипа ^gили древнего^*, чтобы захватить его и спрятаться внутри. Он получает ^o{20,40,60,80} скор. атаки, урон в размере {2,3,4,5} x уровень Parasite и {25,50,75,100} скор. движ.^*\n\nЮнит теряет ^o{2.25,1.5,0.75,0}% макс. здоровья в сек.^* и ^oполучает на 20% больше урона от вражеских юнитов под управлением игроков^*.\n\nДает цели способность, которая убивает захваченного крипа и исцеляет Parasite на ^o{30,40,50,60}% его текущего здоровья^*.\n\nНа 1 уровне нельзя выбрать союзных юнитов.
 
 
 
@@ -60469,7 +60469,7 @@ Ability_Parasite2_description_simple:ult_boost					Выберите крипа ^
 
 
 
-Ability_Parasite2_IMPACT_effect									Берет под контроль выбранного юнита и прячется внутри, давая ему {20,40,60,80} скор. атаки, урон в размере {2,3,4,5} x уровень Parasite и {25,50,75,100} скор. движ.\n\nЮнит теряет {3,2,1,0}% макс. здоровья в сек. и ^oполучает на 20% больше урона от вражеских юнитов под управлением игроков^*.\n\nДает цели способность, которая убивает захваченного крипа и исцеляет Parasite на {30,40,50,60}% его текущего здоровья.\n\nНа 1 уровне нельзя выбрать союзных юнитов.
+Ability_Parasite2_IMPACT_effect									Берет под контроль выбранного юнита и прячется внутри, давая ему {20,40,60,80} скор. атаки, урон в размере {2,3,4,5} x уровень Parasite и {25,50,75,100} скор. движ.\n\nЮнит теряет {2.25,1.5,0.75,0}% макс. здоровья в сек. и ^oполучает на 20% больше урона от вражеских юнитов под управлением игроков^*.\n\nДает цели способность, которая убивает захваченного крипа и исцеляет Parasite на {30,40,50,60}% его текущего здоровья.\n\nНа 1 уровне нельзя выбрать союзных юнитов.
 
 
 
@@ -60477,7 +60477,7 @@ Ability_Parasite2_IMPACT_effect									Берет под контроль вы�
 
 
 
-Ability_Parasite2_IMPACT_effect:ult_boost						Берет под контроль выбранного юнита и прячется внутри, давая ему {20,40,60,80} скор. атаки, урон в размере {2,3,4,5} x уровень Parasite и {25,50,75,100} скор. движ. ^gМожно выбрать древних^*.\n\nЮнит теряет {3,2,1,0}% макс. здоровья в сек. и ^oполучает на 20% больше урона от вражеских юнитов под управлением игроков^*.\n\nДает цели способность, которая убивает захваченного крипа и исцеляет Parasite на {30,40,50,60}% его текущего здоровья.\n\nНа 1 уровне нельзя выбрать союзных юнитов.
+Ability_Parasite2_IMPACT_effect:ult_boost						Берет под контроль выбранного юнита и прячется внутри, давая ему {20,40,60,80} скор. атаки, урон в размере {2,3,4,5} x уровень Parasite и {25,50,75,100} скор. движ. ^gМожно выбрать древних^*.\n\nЮнит теряет {2.25,1.5,0.75,0}% макс. здоровья в сек. и ^oполучает на 20% больше урона от вражеских юнитов под управлением игроков^*.\n\nДает цели способность, которая убивает захваченного крипа и исцеляет Parasite на {30,40,50,60}% его текущего здоровья.\n\nНа 1 уровне нельзя выбрать союзных юнитов.
 
 
 
@@ -60581,7 +60581,7 @@ State_Parasite_Ability2_Target_name								Infest
 
 
 
-State_Parasite_Ability2_Target_FRAME_effect						Теряет {3,2,1,0}% макс. здоровья в сек.\nПолучает +25% урона от вражеских юнитов под управлением игроков\n\nКогда зараженный крип умирает, дает Parasite 125 опыта и 75 золота (кроме случаев, когда вы заразили союзного крипа)\nЕсли крипа ранил вражеский игрок за последние 10 сек., эта сумма также делится между игроками противника.
+State_Parasite_Ability2_Target_FRAME_effect						Теряет {2.25,1.5,0.75,0}% макс. здоровья в сек.\nПолучает +25% урона от вражеских юнитов под управлением игроков\n\nКогда зараженный крип умирает, дает Parasite 125 опыта и 75 золота (кроме случаев, когда вы заразили союзного крипа)\nЕсли крипа ранил вражеский игрок за последние 10 сек., эта сумма также делится между игроками противника.
 
 
 
@@ -60589,7 +60589,7 @@ State_Parasite_Ability2_Target_FRAME_effect						Теряет {3,2,1,0}% мак�
 
 
 
-State_Parasite_Ability2_Target_FRAME_effect:ult_boost			Теряет {3,2,1,0}% макс. здоровья в сек.\nПолучает +25% урона от вражеских юнитов под управлением игроков\n\nКогда зараженный крип умирает, дает Parasite 125 опыта и 75 золота (кроме случаев, когда вы заразили союзного крипа)\nЕсли крипа ранил вражеский игрок за последние 10 сек., эта сумма также делится между игроками противника.
+State_Parasite_Ability2_Target_FRAME_effect:ult_boost			Теряет {2.25,1.5,0.75,0}% макс. здоровья в сек.\nПолучает +25% урона от вражеских юнитов под управлением игроков\n\nКогда зараженный крип умирает, дает Parasite 125 опыта и 75 золота (кроме случаев, когда вы заразили союзного крипа)\nЕсли крипа ранил вражеский игрок за последние 10 сек., эта сумма также делится между игроками противника.
 
 
 
@@ -60621,7 +60621,7 @@ State_Parasite_Ability2_Self_name								Infest
 
 
 
-State_Parasite_Ability2_Self_FRAME_effect						Теряет {3,2,1,0}% макс. здоровья в сек.\nЗараженный крип получает +25% урона от вражеских юнитов под управлением игроков\n\nКогда зараженный крип умирает, дает Parasite 125 опыта и 75 золота (кроме случаев, когда вы заразили союзного крипа), а если крипа ранил вражеский игрок за последние 10 сек., эта сумма также делится между игроками противника.
+State_Parasite_Ability2_Self_FRAME_effect						Теряет {2.25,1.5,0.75,0}% макс. здоровья в сек.\nЗараженный крип получает +25% урона от вражеских юнитов под управлением игроков\n\nКогда зараженный крип умирает, дает Parasite 125 опыта и 75 золота (кроме случаев, когда вы заразили союзного крипа), а если крипа ранил вражеский игрок за последние 10 сек., эта сумма также делится между игроками противника.
 
 
 
@@ -60629,7 +60629,7 @@ State_Parasite_Ability2_Self_FRAME_effect						Теряет {3,2,1,0}% макс.
 
 
 
-State_Parasite_Ability2_Self_FRAME_effect:ult_boost				Теряет {3,2,1,0}% макс. здоровья в сек.\nЗараженный крип получает +25% урона от вражеских юнитов под управлением игроков\n\nКогда зараженный крип умирает, дает Parasite 125 опыта и 75 золота (кроме случаев, когда вы заразили союзного крипа), а если крипа ранил вражеский игрок за последние 10 сек., эта сумма также делится между игроками противника.
+State_Parasite_Ability2_Self_FRAME_effect:ult_boost				Теряет {2.25,1.5,0.75,0}% макс. здоровья в сек.\nЗараженный крип получает +25% урона от вражеских юнитов под управлением игроков\n\nКогда зараженный крип умирает, дает Parasite 125 опыта и 75 золота (кроме случаев, когда вы заразили союзного крипа), а если крипа ранил вражеский игрок за последние 10 сек., эта сумма также делится между игроками противника.
 
 
 
@@ -60765,7 +60765,7 @@ Ability_Parasite4_description									Parasite может красть силь�
 
 
 
-Ability_Parasite4_description_simple							Выберите врага, чтобы прыгнуть на него, ^oпоменяв свои дебаффы на его баффы^*, нанеся ^o{250,350,450} маг. урона^* и наложив ^oБезмолвие на {2,3,4} сек.^*
+Ability_Parasite4_description_simple							Выберите врага, чтобы прыгнуть на него, ^oпоменяв свои дебаффы на его баффы^*, нанеся ^o{250,400,550} маг. урона^* и наложив ^oБезмолвие на {2,3,4} сек.^*
 
 
 
@@ -60781,7 +60781,7 @@ Ability_Parasite4_tooltip_flavor								Давай поменяемся!
 
 
 
-Ability_Parasite4_IMPACT_effect									Выберите врага, чтобы прыгнуть на него.\n\nПри ударе ваши отрицательные эффекты переходят на цель, а ее положительные эффекты - на вас.\n\nНаносит цели {250,350,450} маг. урона и накладывает на нее Безмолвие на {2,3,4} сек.
+Ability_Parasite4_IMPACT_effect									Выберите врага, чтобы прыгнуть на него.\n\nПри ударе ваши отрицательные эффекты переходят на цель, а ее положительные эффекты - на вас.\n\nНаносит цели {250,400,550} маг. урона и накладывает на нее Безмолвие на {2,3,4} сек.
 
 
 
@@ -80754,7 +80754,7 @@ Hero_Soulstealer_role											Soulstealer - один из самых сбал�
 
 
 
-// Ability_Taint1
+// Ability_Gravekeeper1
 
 
 
@@ -80762,7 +80762,8 @@ Hero_Soulstealer_role											Soulstealer - один из самых сбал�
 
 
 
-Ability_Taint1_name												Corpse Toss
+Ability_Gravekeeper1_name												Corpse Toss
+Ability_Gravekeeper1_name:ult_boost								^gCorpse Toss*^*
 
 
 
@@ -80770,7 +80771,7 @@ Ability_Taint1_name												Corpse Toss
 
 
 
-Ability_Taint1_description										Бросьте труп во врагов!
+Ability_Gravekeeper1_description										Бросьте труп во врагов!
 
 
 
@@ -80778,7 +80779,8 @@ Ability_Taint1_description										Бросьте труп во врагов!
 
 
 
-Ability_Taint1_description2										
+Ability_Gravekeeper1_description2										^gЭта способность может быть усилена Staff of the Master.^*\n\n^gЭффект посоха:^* Труп один раз отскакивает к ближайшему врагу в радиусе 400 от цели (в первую очередь к героям), нанося тот же урон и оглушение и оставляя там труп, а время восстановления заряда сокращается до 6 сек.
+Ability_Gravekeeper1_description2:ult_boost							\r
 
 
 
@@ -80786,7 +80788,8 @@ Ability_Taint1_description2
 
 
 
-Ability_Taint1_description_simple 								Выберите врага, чтобы бросить в него труп: ^oнаносит {50,80,110,140} маг. урона^* и ^oоглушает на {0.4,0.6,1,1.2} сек.^*\n\nМожно применить ^c{2}^* раза подряд. Заряды восстанавливаются каждые ^c10 сек.^*\n\nОставляет труп у ног цели.
+Ability_Gravekeeper1_description_simple 								Выберите врага, чтобы бросить в него труп: ^oнаносит {50,80,110,140} маг. урона^* и ^oоглушает на {0.9,1,1.1,1.2} сек.^*\n\nМожно применить ^c{2}^* раза подряд. Заряды восстанавливаются каждые ^c10 сек.^*\n\nОставляет труп у ног цели.\n\n^gStaff of the Master^*: труп ^oодин раз отскакивает^* к ближайшему врагу в радиусе 400 от цели (в первую очередь к героям), нанося тот же урон и оглушение и оставляя там труп, а время восстановления заряда сокращается до ^g6 сек.^*
+Ability_Gravekeeper1_description_simple:ult_boost 					Выберите врага, чтобы бросить в него труп: ^oнаносит {50,80,110,140} маг. урона^* и ^oоглушает на {0.9,1,1.1,1.2} сек.^* ^gЗатем труп один раз отскакивает к ближайшему врагу в радиусе 400 от цели (в первую очередь к героям), нанося тот же урон и оглушение^*.\n\nМожно применить ^c{2}^* раза подряд. Заряды восстанавливаются каждые ^g6 сек.^*\n\nОставляет труп у ног каждой цели.
 
 
 
@@ -80794,7 +80797,7 @@ Ability_Taint1_description_simple 								Выберите врага, чтоб�
 
 
 
-Ability_Taint1_effect_header									
+Ability_Gravekeeper1_effect_header									
 
 
 
@@ -80802,7 +80805,7 @@ Ability_Taint1_effect_header
 
 
 
-Ability_Taint1_effect_header2									
+Ability_Gravekeeper1_effect_header2									
 
 
 
@@ -80810,7 +80813,7 @@ Ability_Taint1_effect_header2
 
 
 
-Ability_Taint1_tooltip_flavor									Забери это обратно.
+Ability_Gravekeeper1_tooltip_flavor									Забери это обратно.
 
 
 
@@ -80818,7 +80821,8 @@ Ability_Taint1_tooltip_flavor									Забери это обратно.
 
 
 
-Ability_Taint1_IMPACT_effect									Бросает в цель труп, нанося ^o{50,80,110,140} маг. урона^* и ^oоглушая на {0.4,0.6,1,1.2} сек.^* На месте цели остается труп.\n\nЗаряд восстанавливается каждые ^c10 сек.^* Максимум ^c{2} заряда^*.
+Ability_Gravekeeper1_IMPACT_effect									Бросает в цель труп, нанося ^o{50,80,110,140} маг. урона^* и ^oоглушая на {0.9,1,1.1,1.2} сек.^* На месте цели остается труп.\n\nЗаряд восстанавливается каждые ^c10 сек.^* Максимум ^c{2} заряда^*.
+Ability_Gravekeeper1_IMPACT_effect:ult_boost							Бросает в цель труп, нанося ^o{50,80,110,140} маг. урона^* и ^oоглушая на {0.9,1,1.1,1.2} сек.^* ^gЗатем труп один раз отскакивает к ближайшему врагу в радиусе 400 от цели (в первую очередь к героям), нанося тот же урон и оглушение^*. На месте каждой цели остается труп.\n\nЗаряд восстанавливается каждые ^g6 сек.^* Максимум ^c{2} заряда^*.
 
 
 
@@ -80826,7 +80830,7 @@ Ability_Taint1_IMPACT_effect									Бросает в цель труп, нан
 
 
 
-Ability_Taint1_LEARN_effect										
+Ability_Gravekeeper1_LEARN_effect										
 
 
 
@@ -80834,7 +80838,7 @@ Ability_Taint1_LEARN_effect
 
 
 
-Ability_Taint1_UPGRADE_effect									
+Ability_Gravekeeper1_UPGRADE_effect									
 
 
 
@@ -80842,7 +80846,7 @@ Ability_Taint1_UPGRADE_effect
 
 
 
-Ability_Taint1_FRAME_effect:taint1disabled						
+Ability_Gravekeeper1_FRAME_effect:gravekeeper1disabled						
 
 
 
@@ -80858,7 +80862,7 @@ Ability_Taint1_FRAME_effect:taint1disabled
 
 
 
-// State_Taint_Ability1_Charges
+// Ability_Gravekeeper2
 
 
 
@@ -80866,7 +80870,7 @@ Ability_Taint1_FRAME_effect:taint1disabled
 
 
 
-State_Taint_Ability1_Charges_name								
+Ability_Gravekeeper2_name												Corpse Explosion
 
 
 
@@ -80874,7 +80878,7 @@ State_Taint_Ability1_Charges_name
 
 
 
-State_Taint_Ability1_Charges_description						
+Ability_Gravekeeper2_description										Взрывайте трупы в области, нанося урон врагам.
 
 
 
@@ -80882,7 +80886,7 @@ State_Taint_Ability1_Charges_description
 
 
 
-State_Taint_Ability1_Charges_description2						
+Ability_Gravekeeper2_description2										
 
 
 
@@ -80890,7 +80894,7 @@ State_Taint_Ability1_Charges_description2
 
 
 
-State_Taint_Ability1_Charges_description_simple					
+Ability_Gravekeeper2_description_simple 								Выберите область, чтобы нанести ^o{70,90,120,170} маг. урона^* и подорвать трупы в ней.\n\nКаждый труп взрывается, нанося в той же области еще ^o{10,20,30,50} маг. урона^*.\n\nЗа раз можно подорвать не больше {3,4,5,6} трупов.
 
 
 
@@ -80898,7 +80902,7 @@ State_Taint_Ability1_Charges_description_simple
 
 
 
-State_Taint_Ability1_Charges_IMPACT_effect						
+Ability_Gravekeeper2_effect_header									
 
 
 
@@ -80906,7 +80910,7 @@ State_Taint_Ability1_Charges_IMPACT_effect
 
 
 
-State_Taint_Ability1_Charges_INFLICT_effect						
+Ability_Gravekeeper2_effect_header2									
 
 
 
@@ -80914,6 +80918,7 @@ State_Taint_Ability1_Charges_INFLICT_effect
 
 
 
+Ability_Gravekeeper2_tooltip_flavor									Вот это я понимаю - уйти с ГРОХОТОМ!
 
 
 
@@ -80921,8 +80926,8 @@ State_Taint_Ability1_Charges_INFLICT_effect
 
 
 
+Ability_Gravekeeper2_IMPACT_effect									Выберите область, чтобы нанести ^o{70,90,120,170} маг. урона^* и взорвать трупы в ней.\n\nКаждый труп при взрыве наносит в этой области еще ^o{10,20,30,50} маг. урона^*.\n\nЗа раз можно взорвать до {3,4,5,6} трупов.
 
-// Ability_Taint2
 
 
 
@@ -80930,7 +80935,6 @@ State_Taint_Ability1_Charges_INFLICT_effect
 
 
 
-Ability_Taint2_name												Corpse Explosion
 
 
 
@@ -80938,7 +80942,7 @@ Ability_Taint2_name												Corpse Explosion
 
 
 
-Ability_Taint2_description										Взрывайте трупы в области, нанося урон врагам.
+// Ability_Gravekeeper3
 
 
 
@@ -80946,7 +80950,7 @@ Ability_Taint2_description										Взрывайте трупы в облас�
 
 
 
-Ability_Taint2_description2										
+Ability_Gravekeeper3_name	Defiling Touch
 
 
 
@@ -80954,7 +80958,7 @@ Ability_Taint2_description2
 
 
 
-Ability_Taint2_description_simple 								Выберите область, чтобы нанести ^o{70,90,120,170} маг. урона^* и подорвать трупы в ней.\n\nКаждый труп взрывается, нанося в той же области еще ^o{10,20,30,50} маг. урона^*.\n\nЗа раз можно подорвать не больше {3,4,5,6} трупов.
+Ability_Gravekeeper3_name:gravekeeper_aura_hero								Defiling Touch (Heroes)
 
 
 
@@ -80962,7 +80966,7 @@ Ability_Taint2_description_simple 								Выберите область, чт�
 
 
 
-Ability_Taint2_effect_header									
+Ability_Gravekeeper3_description										Подбирает труп для броска вместо обычной атаки.
 
 
 
@@ -80970,7 +80974,7 @@ Ability_Taint2_effect_header
 
 
 
-Ability_Taint2_effect_header2									
+Ability_Gravekeeper3_description2										
 
 
 
@@ -80978,7 +80982,8 @@ Ability_Taint2_effect_header2
 
 
 
-Ability_Taint2_tooltip_flavor									Вот это я понимаю - уйти с ГРОХОТОМ!
+Ability_Gravekeeper3_description_simple								^oАктивируйте^*, чтобы бросать трупы только в ^oгероев^*.\n\nПроходя по трупу, вы подбираете его и можете бросить следующей атакой. Эта атака наносит доп. ^o{20,40,60,80} физ. урона и замедляет цель на {25,30,35,40}% на 2 сек.^*\n\nАтака оставляет 1 труп у ног цели.
+Ability_Gravekeeper3_description_simple:gravekeeper_aura_hero		^oАктивируйте^*, чтобы бросать трупы во ^oвсех юнитов^*.\n\nПроходя по трупу, вы подбираете его и можете бросить следующей атакой по вражескому герою. Эта атака наносит доп. ^o{20,40,60,80} физ. урона и замедляет цель на {25,30,35,40}% на 2 сек.^*\n\nАтака оставляет 1 труп у ног цели.
 
 
 
@@ -80986,7 +80991,7 @@ Ability_Taint2_tooltip_flavor									Вот это я понимаю - уйти
 
 
 
-Ability_Taint2_IMPACT_effect									Выберите область, чтобы нанести ^o{70,90,120,170} маг. урона^* и взорвать трупы в ней.\n\nКаждый труп при взрыве наносит в этой области еще ^o{10,20,30,50} маг. урона^*.\n\nЗа раз можно взорвать до {3,4,5,6} трупов.
+Ability_Gravekeeper3_effect_header									
 
 
 
@@ -80994,6 +80999,7 @@ Ability_Taint2_IMPACT_effect									Выберите область, чтобы
 
 
 
+Ability_Gravekeeper3_effect_header2									
 
 
 
@@ -81001,40 +81007,40 @@ Ability_Taint2_IMPACT_effect									Выберите область, чтобы
 
 
 
+Ability_Gravekeeper3_tooltip_flavor									Это моя упыр-подруга!
 
-// Ability_Taint3
 
 
 
 
 
 
+Ability_Gravekeeper3_IMPACT_effect									Активируйте, чтобы бросать трупы только во вражеских героев.\n\nПодобрав труп (пройдите по нему), следующая атака бросает его, нанося {20,40,60,80} доп. физ. урона и замедляя скор. движ. на {25,30,35,40}% на 2 сек. На месте цели остается труп.
 
-Ability_Taint3_name	Defiling Touch
 
 
 
 
 
 
+Ability_Gravekeeper3_IMPACT_effect:gravekeeper_aura_hero					Активируйте, чтобы бросать трупы во всех юнитов.\n\nПодобрав труп (пройдите по нему), следующая атака по вражескому герою бросает его, нанося {20,40,60,80} доп. физ. урона и замедляя скор. движ. на {25,30,35,40}% на 2 сек. На месте цели остается труп.
 
-Ability_Taint3_name:taint_aura_hero								Defiling Touch (Heroes)
 
 
 
 
 
 
+Ability_Gravekeeper3_ATTACK_START_effect								
 
-Ability_Taint3_description										Подбирает труп для броска вместо обычной атаки.
 
 
 
 
 
 
+Ability_Gravekeeper3_ATTACK_IMPACT_effect								
 
-Ability_Taint3_description2										
 
 
 
@@ -81042,7 +81048,6 @@ Ability_Taint3_description2
 
 
 
-Ability_Taint3_description_simple								Проходя по трупу, вы подбираете его и можете бросить следующей атакой. Эта атака наносит доп. ^o{20,40,60,80} физ. урона и замедляет цель на {25,30,35,40}% на 2 сек.^*\n\nАтака оставляет 1 труп у ног цели.
 
 
 
@@ -81050,7 +81055,7 @@ Ability_Taint3_description_simple								Проходя по трупу, вы п
 
 
 
-Ability_Taint3_effect_header									
+// State_Gravekeeper_Ability3_Slow
 
 
 
@@ -81058,7 +81063,7 @@ Ability_Taint3_effect_header
 
 
 
-Ability_Taint3_effect_header2									
+State_Gravekeeper_Ability3_Slow_name									Defiling Touch
 
 
 
@@ -81066,7 +81071,6 @@ Ability_Taint3_effect_header2
 
 
 
-Ability_Taint3_tooltip_flavor									Это моя упыр-подруга!
 
 
 
@@ -81074,32 +81078,34 @@ Ability_Taint3_tooltip_flavor									Это моя упыр-подруга!
 
 
 
-Ability_Taint3_IMPACT_effect									Активируйте, чтобы бросать трупы только во вражеских героев.\n\nПодобрав труп (пройдите по нему), следующая атака бросает его, нанося {20,40,60,80} доп. физ. урона и замедляя скор. движ. на {25,30,35,40}% на 2 сек. На месте цели остается труп.
 
+// Ability_Gravekeeper4
 
 
 
 
 
 
-Ability_Taint3_IMPACT_effect:taint_aura_hero					Активируйте, чтобы бросать трупы во всех юнитов.\n\nПодобрав труп (пройдите по нему), следующая атака по вражескому герою бросает его, нанося {20,40,60,80} доп. физ. урона и замедляя скор. движ. на {25,30,35,40}% на 2 сек. На месте цели остается труп.
 
+Ability_Gravekeeper4_name												Zombie Apocalypse
+Ability_Gravekeeper4_name:ult_boost								^gZombie Apocalypse*^*
 
 
 
 
 
 
-Ability_Taint3_ATTACK_START_effect								
 
+Ability_Gravekeeper4_description										Призовите Zombie Apocalypse в выбранную точку!
 
 
 
 
 
 
-Ability_Taint3_ATTACK_IMPACT_effect								
 
+Ability_Gravekeeper4_description2										^gЭта способность может быть усилена Staff of the Master.^*\n\n^gЭффект посоха:^* Призывает случайного зомби при каждом применении Corpse Toss, Corpse Explosion или Zombie Apocalypse.
+Ability_Gravekeeper4_description2:ult_boost							\r
 
 
 
@@ -81107,6 +81113,8 @@ Ability_Taint3_ATTACK_IMPACT_effect
 
 
 
+Ability_Gravekeeper4_description_simple 								Призовите в выбранную точку ^o{10,16,24} зомби: Unstable Zombie и Wretched Zombie вперемешку^*. ^oUnstable Zombie взрываются, нанося {55,70,85} маг. урона, а Wretched Zombie наносят {30,35,40} физ. урона за атаку^*, игнорируя отражение.\n\nУ ^oзомби^* {350,500,650} здоровья, они неуправляемы. Wretched Zombie живут 8 сек., Unstable Zombie - 5 сек.\n\n^gStaff of the Master^*: при каждом применении Corpse Toss, Corpse Explosion или Zombie Apocalypse появляется случайный ^oзомби^*.
+Ability_Gravekeeper4_description_simple:ult_boost 					Призовите в выбранную точку ^o{10,16,24} зомби: Unstable Zombie и Wretched Zombie вперемешку^*. ^oUnstable Zombie взрываются, нанося {55,70,85} маг. урона, а Wretched Zombie наносят {30,35,40} физ. урона за атаку^*, игнорируя отражение.\n\nУ ^oзомби^* {350,500,650} здоровья, они неуправляемы. Wretched Zombie живут 8 сек., Unstable Zombie - 5 сек.\n\n^gКроме того, при каждом применении Corpse Toss, Corpse Explosion или Zombie Apocalypse вы призываете случайного зомби.^*
 
 
 
@@ -81114,7 +81122,7 @@ Ability_Taint3_ATTACK_IMPACT_effect
 
 
 
-// State_Taint_Ability3_Slow
+Ability_Gravekeeper4_effect_header									
 
 
 
@@ -81122,7 +81130,7 @@ Ability_Taint3_ATTACK_IMPACT_effect
 
 
 
-State_Taint_Ability3_Slow_name									Defiling Touch
+Ability_Gravekeeper4_effect_header2									
 
 
 
@@ -81130,6 +81138,7 @@ State_Taint_Ability3_Slow_name									Defiling Touch
 
 
 
+Ability_Gravekeeper4_tooltip_flavor									Теперь ты в могильной опасности!
 
 
 
@@ -81137,8 +81146,9 @@ State_Taint_Ability3_Slow_name									Defiling Touch
 
 
 
+Ability_Gravekeeper4_IMPACT_effect									Призывает в выбранную точку ^o{10,16,24} неуправляемых зомби^*: Unstable Zombie или Wretched Zombie. Unstable Zombie взрывается и ^oнаносит {55,70,85} маг. урона^* в радиусе 200, а Wretched Zombie ^oнаносит {30,35,40} физ. урона^* за атаку (без учета отражения) с перезарядкой 1,25 сек.\n\nWretched Zombie живет 8 сек., Unstable Zombie - 5 сек. У обоих 400 скор. движ., {350,500,650} здоровья и 5,5 брони.\n\n- Враги, за которыми гонятся зомби, видимы.
+Ability_Gravekeeper4_IMPACT_effect:ult_boost						Призывает в выбранную точку ^o{10,16,24} неуправляемых зомби^*: Unstable Zombie или Wretched Zombie. Unstable Zombie взрывается и ^oнаносит {55,70,85} маг. урона^* в радиусе 200, а Wretched Zombie ^oнаносит {30,35,40} физ. урона^* за атаку (без учета отражения) с перезарядкой 1,25 сек.\n\nWretched Zombie живет 8 сек., Unstable Zombie - 5 сек. У обоих 400 скор. движ., {350,500,650} здоровья и 5,5 брони.\n\n- Враги, за которыми гонятся зомби, видимы.\n\n^gТакже призывает случайного зомби при каждом применении Corpse Toss, Corpse Explosion или Zombie Apocalypse.^*
 
-// Ability_Taint4
 
 
 
@@ -81146,7 +81156,6 @@ State_Taint_Ability3_Slow_name									Defiling Touch
 
 
 
-Ability_Taint4_name												Zombie Apocalypse
 
 
 
@@ -81154,7 +81163,7 @@ Ability_Taint4_name												Zombie Apocalypse
 
 
 
-Ability_Taint4_description										Призовите Zombie Apocalypse в выбранную точку!
+// Pet_Gravekeeper_Ability4
 
 
 
@@ -81162,7 +81171,7 @@ Ability_Taint4_description										Призовите Zombie Apocalypse в вы
 
 
 
-Ability_Taint4_description2										
+Pet_Gravekeeper_Ability4_name											Wretched Zombie
 
 
 
@@ -81170,7 +81179,7 @@ Ability_Taint4_description2
 
 
 
-Ability_Taint4_description_simple 								Выберите область, чтобы призвать туда ^o{10,16,24} зомби^* - Unstable Zombie или Wretched Zombie. ^oUnstable Zombie взрываются, нанося {55,70,85} маг. урона. Wretched Zombie наносят {30,35,40} физ. урона за атаку^* (атаки игнорируют отражение).\n\nЗомби неуправляемы и живут 8 сек. (взрывающиеся - 5 сек.). У зомби {350,500,650} здоровья.
+Pet_Gravekeeper_Ability4_description									
 
 
 
@@ -81178,7 +81187,7 @@ Ability_Taint4_description_simple 								Выберите область, чт�
 
 
 
-Ability_Taint4_effect_header									
+Pet_Gravekeeper_Ability4_role											
 
 
 
@@ -81186,7 +81195,6 @@ Ability_Taint4_effect_header
 
 
 
-Ability_Taint4_effect_header2									
 
 
 
@@ -81194,16 +81202,16 @@ Ability_Taint4_effect_header2
 
 
 
-Ability_Taint4_tooltip_flavor									Теперь ты в могильной опасности!
 
+// Pet_Gravekeeper_Ability4_Explode
 
 
 
 
 
 
-Ability_Taint4_IMPACT_effect									Призывает в выбранную точку ^o{10,16,24} неуправляемых зомби^*: Unstable Zombie или Wretched Zombie. Unstable Zombie взрывается и ^oнаносит {55,70,85} маг. урона^* в радиусе 200, а Wretched Zombie ^oнаносит {30,35,40} физ. урона^* за атаку (без учета отражения) с перезарядкой 1,25 сек.\n\nWretched Zombie живет 8 сек., Unstable Zombie - 5 сек. У обоих 400 скор. движ., {350,500,650} здоровья и 5,5 брони.\n\n- Враги, за которыми гонятся зомби, видимы.
 
+Pet_Gravekeeper_Ability4_Explode_name									Unstable Zombie
 
 
 
@@ -81211,6 +81219,7 @@ Ability_Taint4_IMPACT_effect									Призывает в выбранную т
 
 
 
+Pet_Gravekeeper_Ability4_Explode_description							
 
 
 
@@ -81218,7 +81227,7 @@ Ability_Taint4_IMPACT_effect									Призывает в выбранную т
 
 
 
-// Pet_Taint_Ability4
+Pet_Gravekeeper_Ability4_Explode_role									
 
 
 
@@ -81226,7 +81235,7 @@ Ability_Taint4_IMPACT_effect									Призывает в выбранную т
 
 
 
-Pet_Taint_Ability4_name											Wretched Zombie
+Pet_Gravekeeper_Ability4_Explode_ATTACK_START_effect					
 
 
 
@@ -81234,7 +81243,7 @@ Pet_Taint_Ability4_name											Wretched Zombie
 
 
 
-Pet_Taint_Ability4_description									
+Pet_Gravekeeper_Ability4_Explode_EXPIRED_effect						
 
 
 
@@ -81242,7 +81251,7 @@ Pet_Taint_Ability4_description
 
 
 
-Pet_Taint_Ability4_role											
+Pet_Gravekeeper_Ability4_Explode_DEATH_effect							
 
 
 
@@ -81258,7 +81267,7 @@ Pet_Taint_Ability4_role
 
 
 
-// Pet_Taint_Ability4_Explode
+// Hero_Gravekeeper
 
 
 
@@ -81266,7 +81275,7 @@ Pet_Taint_Ability4_role
 
 
 
-Pet_Taint_Ability4_Explode_name									Unstable Zombie
+Hero_Gravekeeper_name													Gravekeeper
 
 
 
@@ -81274,7 +81283,7 @@ Pet_Taint_Ability4_Explode_name									Unstable Zombie
 
 
 
-Pet_Taint_Ability4_Explode_description							
+Hero_Gravekeeper_description											На полях сражений Неверта, обильных оскверненной кровью людей, зверей и демонов, растет древнее зло. Пожирая плоть павших, он прокладывает путь к поверхности, его некогда мертвые глаза вновь горят голодом и жаждой поглощать мертвецов. Особенно тех, что созданы его собственными нежитными руками...
 
 
 
@@ -81282,71 +81291,7 @@ Pet_Taint_Ability4_Explode_description
 
 
 
-Pet_Taint_Ability4_Explode_role									
-
-
-
-
-
-
-
-Pet_Taint_Ability4_Explode_ATTACK_START_effect					
-
-
-
-
-
-
-
-Pet_Taint_Ability4_Explode_EXPIRED_effect						
-
-
-
-
-
-
-
-Pet_Taint_Ability4_Explode_DEATH_effect							
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Hero_Taint
-
-
-
-
-
-
-
-Hero_Taint_name													Gravekeeper
-
-
-
-
-
-
-
-Hero_Taint_description											На полях сражений Неверта, обильных оскверненной кровью людей, зверей и демонов, растет древнее зло. Пожирая плоть павших, он прокладывает путь к поверхности, его некогда мертвые глаза вновь горят голодом и жаждой поглощать мертвецов. Особенно тех, что созданы его собственными нежитными руками...
-
-
-
-
-
-
-
-Hero_Taint_role													Gravekeeper можно играть полукерри или ганкером-поддержкой. Его потенциал в бою резко растет по мере того, как копятся трупы, которыми он может распоряжаться. Старайтесь провести Corpse Explosion с максимальным уроном после Zombie Apocalypse!
+Hero_Gravekeeper_role													Gravekeeper можно играть полукерри или ганкером-поддержкой. Его потенциал в бою резко растет по мере того, как копятся трупы, которыми он может распоряжаться. Старайтесь провести Corpse Explosion с максимальным уроном после Zombie Apocalypse!
 
 
 
@@ -125225,7 +125170,7 @@ Roast_PumpSomeIron_description_simple							Покачать железо!
 State_LordSalforis_Ability2_description		Следующая атака превращает 100% урона от атаки в абсолютный маг. урон.
 State_Tarot_Ability4_description								Ваша следующая способность усилена.
 Roast_PumpSomeIron_description									Надо покачать железо, чтобы вытащить эту неподъёмную команду!
-Ability_DarkLady3_description_simple		Рывок к указанной точке: огибает препятствия и мгновенно атакует каждого встречного врага, нанося ^oна 15% меньше урона^* каждому следующему задетому.\n\nПосле рывка вы получаете ^o{30,45,60,75} скор. атаки^* на ^o6 сек.^*\n\n^gStaff of the Master^*: увеличивает ^oдальность применения до 750/850/950/1050^*. Убийства сбрасывают перезарядку способности, а непрямые убийства и помощь снижают её на 50%.
+Ability_DarkLady3_description_simple		Рывок к указанной точке: огибает препятствия и мгновенно атакует каждого встречного врага, нанося ^oна 15% меньше урона^* каждому следующему задетому.\n\nПосле рывка вы получаете ^o{30,45,60,75} скор. атаки^* на ^o6 сек.^*\n\n^gStaff of the Master^*: увеличивает ^oдальность применения до 750/850/950/1050^*, а урон по следующим врагам больше не снижается. Убийства сбрасывают перезарядку способности, а непрямые убийства и помощь снижают её на 50%.
 Ability_DarkLady3_description		Dark Lady с невероятной скоростью бросается к указанной точке, атакуя врагов, мимо которых проносится.
 Ability_LordSalforis2_description_simple:ult_boost		Накладывает вокруг себя затухающее ^oзамедление скор. движ. 40%^* на 2 сек. и ^oсбрасывает перезарядку атаки^*.\n\nНа 5 сек. или до первой успешной атаки даёт ^o50 скор. движ.^*, а следующая атака заряжается энергией Нижнего мира: добавляет ^o{40,60,80,100} урона^*, превращает его в абсолютный маг. урон и даёт ^o{55,70,85,100}% вампиризма^*.
 Ability_Thunderbringer4_IMPACT_effect:OnlyMidMap						^rMid Wars:^* создает в выбранной точке ^oThunder Cloud^* на ^o9 сек.^*: за это время он бьет ^o{4,5,6} молниями^* по всем вражеским юнитам в радиусе 400, нанося ^o{150,175,200} маг. урона^* и ^oмини-оглушая врагов^* на 0,05 сек.
